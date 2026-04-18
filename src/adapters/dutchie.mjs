@@ -1,8 +1,3 @@
-// ATHENA — Dutchie Adapter (WORKING)
-// Endpoint: https://dutchie.com/graphql (works from anywhere, no proxy needed)
-// Required headers: apollo-require-preflight + x-apollo-operation-name
-// Persisted query hash: 98b4aaef...
-
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
 const API_URL = 'https://dutchie.com/graphql';
@@ -47,9 +42,18 @@ async function fetchProducts(dispensaryId, category, page = 0) {
   const res = await fetch(url, {
     method: 'GET',
     headers: {
-      'Accept': 'application/json',
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+      'Accept': 'application/json, text/plain, */*',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'Referer': 'https://dutchie.com/',
+      'Origin': 'https://dutchie.com',
       'apollo-require-preflight': 'true',
       'x-apollo-operation-name': 'FilteredProducts',
+      'Connection': 'keep-alive',
+      'Sec-Fetch-Dest': 'empty',
+      'Sec-Fetch-Mode': 'cors',
+      'Sec-Fetch-Site': 'same-origin',
     },
   });
 
@@ -67,9 +71,6 @@ function normalizeDutchieProduct(raw) {
   const price = raw.recPrices?.[0] ?? raw.Prices?.[0] ?? null;
   const specialPrice = raw.recSpecialPrices?.[0] ?? null;
   const hasSpecial = specialPrice != null && specialPrice > 0;
-  const thc = raw.THCContent?.range?.[0] ?? null;
-  const cbd = raw.CBDContent?.range?.[0] ?? null;
-  const deal = raw.special?.name || raw.specialData?.[0]?.name || null;
 
   return normalizeProduct({
     external_id: raw.id || raw._id,
@@ -81,10 +82,10 @@ function normalizeDutchieProduct(raw) {
     price: hasSpecial ? specialPrice : price,
     original_price: hasSpecial ? price : null,
     weight_label: raw.Options?.[0] || null,
-    thc_pct: thc,
-    cbd_pct: cbd,
+    thc_pct: raw.THCContent?.range?.[0] ?? null,
+    cbd_pct: raw.CBDContent?.range?.[0] ?? null,
     in_stock: raw.Status === 'Active',
-    deal_description: deal,
+    deal_description: raw.special?.name || raw.specialData?.[0]?.name || null,
     image_url: raw.Image || null,
     product_url: null,
   });
@@ -95,7 +96,7 @@ export async function scrapeDutchie(dispensary) {
 
   const dispensaryId = dispensary.dispensary_id;
   if (!dispensaryId) {
-    console.error(`  [dutchie] ❌ No dispensary_id for ${dispensary.name}`);
+    console.error(`  [dutchie] No dispensary_id for ${dispensary.name}`);
     return { products: [], errors: ['No dispensary_id'] };
   }
 
@@ -105,7 +106,7 @@ export async function scrapeDutchie(dispensary) {
 
     for (const cat of DUTCHIE_TYPES) {
       try {
-        await sleep(1500);
+        await sleep(2000);
         const result = await fetchProducts(dispensaryId, cat);
         console.log(`  [dutchie] ${cat}: ${result.products.length}/${result.total}`);
 
@@ -116,7 +117,7 @@ export async function scrapeDutchie(dispensary) {
 
         if (result.total > 100) {
           for (let pg = 1; pg < Math.ceil(result.total / 100) && pg < 10; pg++) {
-            await sleep(1000);
+            await sleep(1500);
             const next = await fetchProducts(dispensaryId, cat, pg);
             for (const raw of next.products) {
               const p = normalizeDutchieProduct(raw);
@@ -131,10 +132,10 @@ export async function scrapeDutchie(dispensary) {
 
     const products = Array.from(allProducts.values());
     const valid = products.filter(p => validateProduct(p).length === 0);
-    console.log(`  [dutchie] ✅ ${valid.length} valid products`);
+    console.log(`  [dutchie] Done: ${valid.length} valid products`);
     return { products: valid, errors };
   } catch (err) {
-    console.error(`  [dutchie] ❌ FAILED: ${err.message}`);
+    console.error(`  [dutchie] FAILED: ${err.message}`);
     return { products: [], errors: [err.message] };
   }
 }
