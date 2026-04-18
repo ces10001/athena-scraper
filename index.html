@@ -11,7 +11,7 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script>window.HELMET_IMG="data:image/png;base64,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";</script>
+<script>window.HELMET_IMG="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAYfUlEQVR42rV6W28kV5JeRJyTmXXJqiLrQhYpsrvZN6mlHkkzmhnNaCysd+3d8QC7C4/tV8OAAb/4Fxjwg3+B4VfDv2ANPyywftm5eKAZrL3StKZbal36zm52N7t5qSLrmpWZ55wIP2RWscgm5RkbLhAEi0VWRZwT8cUXXwQiIoAAIAAAgIgAAgLmP5/6QABEJAWkQCkEAkVIKCLgGJUSEHGMAIAIzKgUao1KAwAqjUqJNcIOnJPs0wWQFCCKs4gIiJB9NCKScmnCJgUmcE7YIYAwz2zRACACCCgAIgIEgKkAAAkYAIERgACRGQsyNBFAAkQiAAQkQEBEREJERgACRGQsyNBFAAkYAIEREJERgACRGQs4gIiJBFBpZBQmFHp3HpCAEClxDlxDgQylxARhOft0UfHfOy4UUBeNV8wPxYAAkQgBAQkAsi/EwggIQAhCAAiokJUikiT9iRzQESYgRwAolIojEqDiLBTQYGtzT9NKUDkJM6jY3bMfGSYiOijyJl/nBE8iAhI2dkDISBlRgIAZFeR/RkpAJvfgAiSzkKIACkIxBhyipWHCrL/FQBxRnkBKp09R0TyfDsZCzOAgDBkZz8XPNMQQsA5g/N3lFOOHwgBFWTmEuVXgQiISAREpLQAgAhqT0RABIlABLUi7ZHSoEj5BceOPA8QgQiEQYBR2FlVLBEpZ1JhId8Ta9mmgJAbjQjWyTSQZgGv8gtCAAREnJmOeOzgEQFJZ+YCIRABEhKhIkQirfPvpEVE+UEeV0oDAmlf+T75AWpNfoCkhBlESCsQIJ2FMZLS/mJdrANE8n0zGoozYp0wAztEFGsBBJWXsxu2J+sY/uGF7P/a/KO53ezsp3UCss3vWWQ7BpdREhBrUam8rvMpwK3OGP79f3ZnirCZD1n85PU8ByeeJYY4Ru3lc6ZXHPjf2k+da8y5EmQAAAAASUVORK5CYII=";</script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--f);background:var(--bg);color:var(--tx);min-height:100vh}
@@ -32,10 +32,8 @@
 .pnl{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
 .pnl-t{font-family:var(--m);font-size:13px;text-transform:uppercase;letter-spacing:1.2px;color:var(--tx2);margin-bottom:10px}
 .pnl-d{font-size:13px;color:var(--tx2);margin-bottom:10px;line-height:1.4}
-.promo-tag{font-size:9px;color:var(--am);margin-left:3px}
 .map-w{height:320px;border-radius:8px;overflow:hidden;border:1px solid var(--bd)}
 .leaflet-container{background:#e8e8e8!important}
-
 .leaflet-control-zoom a{background:#fff!important;color:var(--cy)!important;border-color:#ddd!important}
 .leaflet-popup-content-wrapper{background:#fff!important;color:var(--tx)!important;border:1px solid #ddd!important;border-radius:8px!important;box-shadow:0 2px 8px rgba(0,0,0,.1)!important}
 .leaflet-popup-tip{background:#fff!important}
@@ -77,7 +75,6 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .radius-ctrl{display:flex;align-items:center;gap:10px;padding:8px 0}
 .radius-ctrl input[type=range]{flex:1;accent-color:var(--cy)}.radius-ctrl label{font-family:var(--m);font-size:11px;color:var(--tx2);white-space:nowrap}
 .radius-ctrl .rv{font-family:var(--m);font-size:12px;color:var(--cy);font-weight:600;min-width:50px;text-align:right}
-/* Dispensary selector - simple list items */
 .dsel{max-height:340px;overflow-y:auto}
 .dsel-item{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;border-bottom:1px solid rgba(0,0,0,.06);cursor:pointer;transition:background .1s}
 .dsel-item:hover{background:rgba(232,96,10,.04)}
@@ -118,28 +115,23 @@ function App(){
       if(d.products)d.products.forEach(function(p){var nd={};Object.entries(p.dispensaries||{}).forEach(function(e){nd[mergeD(e[0])]=e[1]});p.dispensaries=nd});
       if(d.dispensaries){var nd={};Object.entries(d.dispensaries).forEach(function(e){nd[mergeD(e[0])]=e[1]});d.dispensaries=nd}
       if(d.stats&&d.stats.dispensary_counts){var nc={};Object.entries(d.stats.dispensary_counts).forEach(function(e){var mk=mergeD(e[0]);nc[mk]=(nc[mk]||0)+e[1]});d.stats.dispensary_counts=nc}
-      // Count unique locations (Med+Rec = 1 dispensary)
       if(d.dispensaries){var bases=new Set();Object.keys(d.dispensaries).forEach(function(k){bases.add(getBase(k))});d.stats.unique_locations=bases.size}
-      // Filter out accessories and hardware brands globally
       var isAccessory=function(x){return(x.category||"").toLowerCase()==="accessories"||(x.brand||"").toUpperCase()==="PULSAR"};
       if(d.products)d.products=d.products.filter(function(p){return!isAccessory(p)});
       if(d.deals)d.deals=d.deals.filter(function(x){return!isAccessory(x)});
-      if(d.velocity)d.velocity=d.velocity.filter(function(x){return!isAccessory(x)});
       if(d.stock_alerts)d.stock_alerts=d.stock_alerts.filter(function(x){return!isAccessory(x)});
       setData(d);var all=getDisps(d.products||[]);setSel(new Set(all.filter(isAff)));
     }).catch(function(e){setErr(e.message)});
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement("div",{className:"app"},React.createElement("div",{className:"ld"},React.createElement("div",{className:"sp"}),React.createElement("span",{style:{color:'var(--tx2)',fontSize:12,fontFamily:'var(--m)'}},"ATHENA initializing...")));
-  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["velocity","Sales Velocity"],["market","Market Position"],["stock","Stock Alerts"],["deals","Deals"],["disps","Dispensary Total Products"]];
+  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["stock","Stock Alerts"],["deals","Deals"],["disps","Dispensary Total Products"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius}),
     tab==="alerts"&&React.createElement(AlertsTab,{data:data}),
     tab==="gaps"&&React.createElement(GapsTab,{data:data}),
-    tab==="velocity"&&React.createElement(VelocityTab,{data:data}),
-    tab==="market"&&React.createElement(MarketTab,{data:data}),
     tab==="stock"&&React.createElement(StockTab,{data:data}),
     tab==="deals"&&React.createElement(DealsTab,{data:data}),
     tab==="disps"&&React.createElement(DispsTab,{data:data})
@@ -164,63 +156,26 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
 function MapPanel({data,sel,setSel,radius,setRadius}){
   const ref=useRef(null),mRef=useRef(null),mkRef=useRef([]),circRef=useRef(null);
   const[center,setCenter]=useState(null);const[cLabel,setCLabel]=useState("Click map or dispensary to set center");
-  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18,className:'dark-base'}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setCenter([e.latlng.lat,e.latlng.lng]);setCLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mRef.current=m},[]);
-  useEffect(()=>{
-    const m=mRef.current;if(!m||!center)return;
-    if(circRef.current)m.removeLayer(circRef.current);
-    var radiusM=radius*1609.34;
-    circRef.current=L.circle(center,{radius:radiusM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
-    // Auto-select dispensaries within radius
-    if(data&&data.dispensaries){
-      var inRadius=new Set();
-      var cll=L.latLng(center[0],center[1]);
-      Object.entries(data.dispensaries).forEach(function(e){
-        var dn=e[0],info=e[1];
-        var c=COORDS[info.city];if(!c)return;
-        var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;
-        var dist=cll.distanceTo(L.latLng(lat,lon));
-        if(dist<=radiusM)inRadius.add(dn);
-      });
-      if(inRadius.size>0)setSel(inRadius);
-    }
-  },[radius,center]);
+  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setCenter([e.latlng.lat,e.latlng.lng]);setCLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mRef.current=m},[]);
+  useEffect(()=>{const m=mRef.current;if(!m||!center)return;if(circRef.current)m.removeLayer(circRef.current);var radiusM=radius*1609.34;circRef.current=L.circle(center,{radius:radiusM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
+    if(data&&data.dispensaries){var inRadius=new Set();var cll=L.latLng(center[0],center[1]);Object.entries(data.dispensaries).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=radiusM)inRadius.add(dn)});if(inRadius.size>0)setSel(inRadius)}},[radius,center]);
   useEffect(()=>{const m=mRef.current;if(!m||!data)return;mkRef.current.forEach(mk=>m.removeLayer(mk));mkRef.current=[];const disps=data.dispensaries||{};const counts=data.stats?.dispensary_counts||{};
     Object.entries(disps).forEach(([name,info])=>{const c=COORDS[info.city];if(!c)return;const h=hashStr(name);const lat=c[0]+((h%100)-50)*.00008;const lon=c[1]+(((h>>8)%100)-50)*.00008;const isA=isAff(name);const isS=sel.has(name);const sz=isA?14:isS?8:5;const col=isA?"#00f0ff":isS?"#ff8c00":"#1e3d48";
       const icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?14:isS?6:0)+'px '+col+';opacity:'+(isS?1:.35)+';border:'+(isA?2:1)+'px solid rgba(255,255,255,'+(isA?.3:.08)+')"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
-      const mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setCenter([lat,lon]);setCLabel(cleanD(name))});mk.bindPopup('<b style="color:#00f0ff">'+name+'</b><br><span style="color:#5a8a95">'+info.city+' - '+(counts[name]||0)+' products</span>');mkRef.current.push(mk)})
-  },[data,sel]);
+      const mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setCenter([lat,lon]);setCLabel(cleanD(name))});mk.bindPopup('<b style="color:#00f0ff">'+name+'</b><br><span style="color:#5a8a95">'+info.city+' - '+(counts[name]||0)+' products</span>');mkRef.current.push(mk)})},[data,sel]);
   return<div className="pnl"><div className="pnl-t">Connecticut dispensary map</div><div className="pnl-d">Click any point or dispensary to draw a radius circle around it.</div><div className="map-w" ref={ref}></div>
     <div className="radius-ctrl"><label>{center?"Radius from "+cLabel+":":cLabel}</label><input type="range" min="1" max="60" value={radius} onChange={e=>setRadius(+e.target.value)}/><div className="rv">{radius} mi</div>
-      {center&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setCenter(null);if(circRef.current&&mRef.current){mRef.current.removeLayer(circRef.current);circRef.current=null}setCLabel("Click map or dispensary to set center")}}>Clear</button>}
-    </div></div>;
+      {center&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setCenter(null);if(circRef.current&&mRef.current){mRef.current.removeLayer(circRef.current);circRef.current=null}setCLabel("Click map or dispensary to set center")}}>Clear</button>}</div></div>;
 }
 
 function DispPanel({data,sel,setSel}){
-  const prods=data.products||[];
-  const allD=useMemo(()=>getDisps(prods),[prods]);
+  const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
   const tog=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
-
-  return<div className="pnl">
-    <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-      <span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
-      <div className="row">
-        <button className="btn" onClick={()=>setSel(new Set(allD))}>All</button>
-        <button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button>
-        <button className="btn" onClick={()=>setSel(new Set())}>Clear All</button>
-      </div>
-    </div>
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
+      <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD))}>All</button><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear All</button></div></div>
     <div className="pnl-d">Select dispensaries to compare side-by-side in the price table below.</div>
-    <div className="dsel">
-      {allD.map(d=>{
-        const on=sel.has(d);const you=isAff(d);
-        return<div key={d} className={"dsel-item"+(on?" on":"")+(you?" you":"")} onClick={()=>tog(d)}>
-          <div className="dsel-left"><div className="dsel-dot"/><span className="dsel-name">{cleanD(d)}</span></div>
-          <span className="dsel-count">{(counts[d]||0).toLocaleString()}</span>
-        </div>
-      })}
-    </div>
-  </div>;
+    <div className="dsel">{allD.map(d=>{const on=sel.has(d);const you=isAff(d);return<div key={d} className={"dsel-item"+(on?" on":"")+(you?" you":"")} onClick={()=>tog(d)}><div className="dsel-left"><div className="dsel-dot"/><span className="dsel-name">{cleanD(d)}</span></div><span className="dsel-count">{(counts[d]||0).toLocaleString()}</span></div>})}</div></div>;
 }
 
 function CatTabs({data,cat,setCat}){
@@ -243,147 +198,39 @@ function AlertsTab({data}){
   const mapRef=useRef(null);const mapInst=useRef(null);const mkrsRef=useRef([]);const circARef=useRef(null);
   const[aCenter,setACenter]=useState(null);const[aRadius,setARadius]=useState(15);const[aLabel,setALabel]=useState("Click map to filter by area");
   const[inArea,setInArea]=useState(null);
-
-  useEffect(()=>{if(!mapRef.current||mapInst.current)return;const m=L.map(mapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18,className:'dark-base'}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setACenter([e.latlng.lat,e.latlng.lng]);setALabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mapInst.current=m},[]);
-
+  useEffect(()=>{if(!mapRef.current||mapInst.current)return;const m=L.map(mapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setACenter([e.latlng.lat,e.latlng.lng]);setALabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mapInst.current=m},[]);
   useEffect(()=>{const m=mapInst.current;if(!m||!aCenter)return;if(circARef.current)m.removeLayer(circARef.current);var rM=aRadius*1609.34;circARef.current=L.circle(aCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
-    var inside=new Set();var cll=L.latLng(aCenter[0],aCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});
-    setInArea(inside.size>0?inside:null)},[aRadius,aCenter]);
-
-  useEffect(()=>{var m=mapInst.current;if(!m||!data)return;mkrsRef.current.forEach(mk=>m.removeLayer(mk));mkrsRef.current=[];var dsp=data.dispensaries||{};var counts=data.stats?.dispensary_counts||{};
+    var inside=new Set();var cll=L.latLng(aCenter[0],aCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setInArea(inside.size>0?inside:null)},[aRadius,aCenter]);
+  useEffect(()=>{var m=mapInst.current;if(!m||!data)return;mkrsRef.current.forEach(mk=>m.removeLayer(mk));mkrsRef.current=[];var dsp=data.dispensaries||{};
     Object.entries(dsp).forEach(([name,info])=>{var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isA=isAff(name);var sz=isA?12:6;var col=isA?"#e8600a":"#2563eb";
       var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?12:4)+'px '+col+';border:1px solid rgba(255,255,255,'+(isA?.3:.08)+')"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
       var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setACenter([lat,lon]);setALabel(cleanD(name))});mkrsRef.current.push(mk)})},[data]);
   const analysis=useMemo(()=>disps.filter(d=>!isAff(d)).map(cd=>{let c=0,s=0,h=0,t=0,details=[];prods.forEach(p=>{const yp=getYP(p,affC);const cp=p.dispensaries?.[cd];if(!yp||!cp)return;t++;const diff=Math.round((cp-yp)/yp*100);if(cp<yp){c++;details.push({name:p.name,brand:p.brand,yours:yp,theirs:cp,diff})}else if(cp>yp){h++;details.push({name:p.name,brand:p.brand,yours:yp,theirs:cp,diff})}else s++});return t>0?{name:cd,cheaper:c,same:s,higher:h,total:t,pct:Math.round(c/t*100),details:details.sort((a,b)=>a.diff-b.diff)}:null}).filter(Boolean).sort((a,b)=>b.pct-a.pct),[prods,affC,disps]);
   const doExport=()=>{const rows=[["Competitor","Product","Brand","Your Price","Their Price","Difference","% Diff","Who's Cheaper"]];analysis.forEach(a=>{a.details.forEach(d=>{rows.push([cleanD(a.name),d.name,d.brand,"$"+d.yours.toFixed(2),"$"+d.theirs.toFixed(2),"$"+(d.theirs-d.yours).toFixed(2),d.diff+"%",d.diff<0?"THEM":"YOU"])})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Pricing Report");ws["!cols"]=[{wch:30},{wch:40},{wch:20},{wch:12},{wch:12},{wch:12},{wch:10},{wch:14}];XLSX.writeFile(wb,"athena_pricing_report.xlsx")};
   const filteredAnalysis=inArea?analysis.filter(a=>inArea.has(a.name)):analysis;
-
   return<><div className="pnl"><div className="pnl-t">Filter by area</div><div className="pnl-d">Click the map to draw a radius and filter competitors by location.</div>
     <div className="map-w" ref={mapRef}></div>
     <div className="radius-ctrl"><label>{aCenter?"Radius from "+aLabel+":":aLabel}</label><input type="range" min="1" max="60" value={aRadius} onChange={e=>setARadius(+e.target.value)}/><div className="rv">{aRadius} mi</div>
-      {aCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setACenter(null);setInArea(null);if(circARef.current&&mapInst.current){mapInst.current.removeLayer(circARef.current);circARef.current=null}setALabel("Click map to filter by area")}}>Clear</button>}
-    </div></div>
+      {aCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setACenter(null);setInArea(null);if(circARef.current&&mapInst.current){mapInst.current.removeLayer(circARef.current);circARef.current=null}setALabel("Click map to filter by area")}}>Clear</button>}</div></div>
   <div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Competitive pricing threat{inArea?" ("+filteredAnalysis.length+" in area)":""}</span><button className="btn pri" onClick={doExport}>Export Pricing Report</button></div>
     <div className="pnl-d">Shows how often each competitor undercuts your prices. Higher threat % means they beat you on more products.</div>
     <div className="tw"><div className="ts"><table><thead><tr><th>Dispensary</th><th>Compared</th><th>They're cheaper</th><th>Same</th><th>You're cheaper</th><th>Threat</th></tr></thead>
       <tbody>{filteredAnalysis.map((a,i)=><tr key={i}><td className="pn">{cleanD(a.name)}</td><td className="dm">{a.total}</td><td style={{color:'var(--rd)',fontFamily:'var(--m)',fontWeight:600}}>{a.cheaper}</td><td className="dm">{a.same}</td><td style={{color:'var(--gn)',fontFamily:'var(--m)',fontWeight:600}}>{a.higher}</td><td><span className={"badge "+(a.pct>=50?"rd":a.pct>=25?"am":"gn")}>{a.pct}%</span></td></tr>)}</tbody></table></div></div></div></>;
 }
 
-function normName(n){
-  var s=(n||"").toLowerCase();
-  s=s.replace(/\([^)]*\)/g,"");
-  s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz)\b/gi,"");
-  s=s.replace(/\b\d+\s*pk\b/gi,"");
-  s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");
-  s=s.replace(/\d+\.?\d*\s*%/g,"");
-  s=s.replace(/\b\d+\.?\d*\b/g,"");
-  s=s.replace(/\b(whole|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use)\b/gi,"");
-  s=s.replace(/\b[a-z]\b/g,"");
-  s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl)\b/gi,"");
-  s=s.replace(/[-_|/]+/g," ");
-  s=s.replace(/\s+/g," ").trim();
-  var words=s.split(" ").filter(function(w){return w.length>1});
-  words.sort();
-  return words.join(" ");
-}
+function normName(n){var s=(n||"").toLowerCase();s=s.replace(/\([^)]*\)/g,"");s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz)\b/gi,"");s=s.replace(/\b\d+\s*pk\b/gi,"");s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");s=s.replace(/\d+\.?\d*\s*%/g,"");s=s.replace(/\b\d+\.?\d*\b/g,"");s=s.replace(/\b(whole|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use)\b/gi,"");s=s.replace(/\b[a-z]\b/g,"");s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl)\b/gi,"");s=s.replace(/[-_|/]+/g," ");s=s.replace(/\s+/g," ").trim();var words=s.split(" ").filter(function(w){return w.length>1});words.sort();return words.join(" ")}
 
 function GapsTab({data}){
-  const prods=data.products||[];const disps=getDisps(prods);const affC=disps.filter(isAff);
-  const[gapChain,setGapChain]=useState("");
-  const gaps=useMemo(()=>{
-    const affProducts=new Set();
-    prods.forEach(p=>{affC.forEach(a=>{if(p.dispensaries&&p.dispensaries[a]){affProducts.add(normName(p.name))}})});
-    const byComp={};
-    prods.forEach(p=>{
-      const pnorm=normName(p.name);
-      if(affProducts.has(pnorm))return;
-      if((p.category||"").toLowerCase()==="accessories")return;
-      Object.keys(p.dispensaries||{}).forEach(d=>{
-        if(isAff(d))return;
-        if(!byComp[d])byComp[d]=[];
-        byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]});
-      });
-    });
-    // Group by chain
-    const byChain={};
-    Object.entries(byComp).forEach(([dn,items])=>{
-      const chain=getChain(dn);
-      if(!byChain[chain])byChain[chain]={locations:{},total:0};
-      byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};
-      byChain[chain].total+=items.length;
-    });
-    return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}));
-  },[prods,affC]);
-  const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;
-  const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
-  const[openLocs,setOpenLocs]=useState(new Set());
+  const prods=data.products||[];const disps=getDisps(prods);const affC=disps.filter(isAff);const[gapChain,setGapChain]=useState("");
+  const gaps=useMemo(()=>{const affProducts=new Set();prods.forEach(p=>{affC.forEach(a=>{if(p.dispensaries&&p.dispensaries[a]){affProducts.add(normName(p.name))}})});const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(affProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(isAff(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,affC]);
+  const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);const[openLocs,setOpenLocs]=useState(new Set());
   const doExport=()=>{const rows=[["Chain","Dispensary","Product","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
-  return<div className="pnl">
-    <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-      <span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products you don't carry)</span>
-      <button className="btn pri" onClick={doExport}>Export Excel</button>
-    </div>
-    <div className="pnl-d">Products sold by competitors that are not on any Affinity menu, grouped by chain. Consider stocking high-sellers.</div>
-    <div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}>
-      <option value="">All chains ({gaps.length})</option>
-      {gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}
-    </select></div>
-    {shown.map(g=><div key={g.chain} style={{marginBottom:16}}>
-      <div className="dsel-grp">{g.chain} ({g.total} products you're missing)</div>
-      {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);
-        return<div key={dn} style={{borderBottom:'1px solid rgba(0,215,235,.06)'}}>
-          <div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}>
-            <div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>{String.fromCharCode(9654)}</span><span className="dsel-name">{cleanD(dn)}</span></div>
-            <span className="dsel-count">{info.count} gaps</span></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead>
-            <tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}
-        </div>})}
-    </div>)}
-  </div>;
-}
-
-function VelocityTab({data}){
-  const[vCat,setVCat]=useState("All");const[vMine,setVMine]=useState(false);const vel=data.velocity||[];
-  const filtered=useMemo(()=>{let v=vel;if(vMine)v=v.filter(x=>isAff(x.dispensary));if(vCat!=="All")v=v.filter(x=>x.category===vCat);return v.slice(0,50)},[vel,vCat,vMine]);
-  const cats=useMemo(()=>{const s=new Set();vel.forEach(v=>s.add(v.category));return["All",...[...s].sort()]},[vel]);
-  const maxSale=filtered.length?Math.max(...filtered.map(v=>v.sales_7d)):1;
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>Top 50 products by 7-day sales</span><button className="btn pri" onClick={()=>{const hdr=["Product","Brand","Dispensary","Price","7d Revenue","Units"];const d=filtered.map(v=>[v.name,v.brand,cleanD(v.dispensary),"$"+v.price.toFixed(2),"$"+Math.round(v.sales_7d),""+Math.round(v.units_7d)]);const ws=XLSX.utils.aoa_to_sheet([hdr,...d]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Velocity");XLSX.writeFile(wb,"athena_velocity.xlsx")}}>Export Excel</button><label style={{fontSize:11,color:vMine?'var(--cy)':'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4,marginLeft:6}}><input type="checkbox" checked={vMine} onChange={e=>setVMine(e.target.checked)}/>Your products only</label></div>
-    <div className="pnl-d">Highest revenue products in the last 7 days across all dispensaries. See what's moving fastest.</div>
-    <div className="cats">{cats.map(c=><div key={c} className={"ct "+(vCat===c?"on":"")} onClick={()=>setVCat(c)}>{c}</div>)}</div>
-    {!filtered.length?<div className="empty"><h3>No velocity data</h3><p style={{fontSize:11}}>Run the updated scraper to populate sales data.</p></div>:
-    <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:140}}>Product</th><th>Brand</th><th>Dispensary</th><th>Price</th><th>7d Revenue</th><th>Units</th><th style={{minWidth:120}}>Volume</th></tr></thead>
-      <tbody>{filtered.map((v,i)=>{const pct=Math.round(v.sales_7d/maxSale*100);return<tr key={i}><td className="pn">{v.name}</td><td className="dm">{v.brand}</td><td className="dm" style={{color:isAff(v.dispensary)?'var(--cy)':'var(--tx2)'}}>{cleanD(v.dispensary)}</td>
-        <td className="pr">${v.price.toFixed(2)}</td><td className="pr" style={{color:'var(--gn)'}}>{fmt$(v.sales_7d)}</td><td className="pr">{Math.round(v.units_7d)}</td>
-        <td><div className="bar-w"><div className="bar-f" style={{width:pct+"%",background:isAff(v.dispensary)?'var(--cy)':'#2563eb'}}></div></div></td></tr>})}</tbody></table></div></div>}</div>;
-}
-
-function MarketTab({data}){
-  const disps=data.dispensaries||{};const[sort,setSort]=useState("sales");
-  const list=useMemo(()=>{
-    const byBase={};
-    Object.entries(disps).forEach(([name,info])=>{
-      const base=getBase(name);
-      if(!byBase[base])byBase[base]={city:info.city,daily:0,products:0,isYou:isAff(name),menus:[]};
-      byBase[base].daily=Math.max(byBase[base].daily,info.daily_sales||0);
-      byBase[base].products+=(info.product_count||0);
-      const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];
-      if(menuType)byBase[base].menus.push(menuType);
-    });
-    // Swap Affinity NH and Bridgeport revenue (Hoodie reports them reversed)
-    var nhKey=null,bptKey=null;
-    Object.keys(byBase).forEach(function(k){if(k.toLowerCase().includes("affinity")&&k.toLowerCase().includes("new haven"))nhKey=k;if(k.toLowerCase().includes("affinity")&&k.toLowerCase().includes("bridgeport"))bptKey=k});
-    if(nhKey&&bptKey&&byBase[nhKey]&&byBase[bptKey]){var tmp=byBase[nhKey].daily;byBase[nhKey].daily=byBase[bptKey].daily;byBase[bptKey].daily=tmp}
-    return Object.entries(byBase).map(function(e){var nm=e[0],info=e[1];var label=info.menus.length>1?nm+" ("+info.menus.join("/")+")":info.menus.length===1?nm+" ("+info.menus[0]+")":nm;return{name:label,city:info.city,daily:info.daily,weekly:Math.round(info.daily*7),monthly:Math.round(info.daily*30),products:info.products,isYou:info.isYou}}).filter(d=>d.daily>0).sort((a,b)=>sort==="sales"?b.daily-a.daily:b.products-a.products);
-  },[disps,sort]);
-  const maxD=list.length?Math.max(...list.map(d=>d.daily)):1;
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>Dispensary revenue ranking</span>
-    <div className="row"><button className={"btn "+(sort==="sales"?"pri":"")} onClick={()=>setSort("sales")}>By revenue</button><button className={"btn "+(sort==="products"?"pri":"")} onClick={()=>setSort("products")}>By products</button></div></div>
-    <div className="pnl-d">Estimated revenue per dispensary. Med and Rec menus combined into single locations.</div>
-    {!list.length?<div className="empty"><h3>No market data</h3><p style={{fontSize:11}}>Run the updated scraper.</p></div>:
-    <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:180}}>Dispensary</th><th>City</th><th>Products</th><th>Daily</th><th>Weekly</th><th>Monthly</th><th style={{minWidth:130}}>Position</th></tr></thead>
-      <tbody>{list.map((d,i)=>{const pct=Math.round(d.daily/maxD*100);return<tr key={i}><td className="pn" style={{color:d.isYou?'var(--cy)':'var(--tx)'}}>{d.isYou?String.fromCharCode(9733)+" ":""}{d.name}</td><td className="dm">{d.city}</td><td className="pr">{d.products.toLocaleString()}</td>
-        <td className="pr" style={{color:'var(--gn)'}}>{fmt$(d.daily)}</td><td className="pr" style={{color:'var(--gn)'}}>{fmt$(d.weekly)}</td><td className="pr" style={{color:'var(--gn)'}}>{fmt$(d.monthly)}</td>
-        <td><div className="bar-w"><div className="bar-f" style={{width:pct+"%",background:d.isYou?'var(--cy)':'#2563eb'}}></div></div></td></tr>})}</tbody></table></div></div>}</div>;
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products you don't carry)</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
+    <div className="pnl-d">Products sold by competitors that are not on any Affinity menu, grouped by chain.</div>
+    <div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
+    {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} products you're missing)</div>
+      {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,215,235,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>{String.fromCharCode(9654)}</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
+          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</div>;
 }
 
 function StockTab({data}){
@@ -392,7 +239,7 @@ function StockTab({data}){
   const yourA=filtered.filter(a=>isAff(a.dispensary)).length;const compA=filtered.length-yourA;
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>Stock alerts ({filtered.length})</span><button className="btn pri" style={{marginLeft:8}} onClick={()=>{const hdr=["Product","Brand","Dispensary","Stock Qty","Days to OOS","OOS Last 28d","Alert Level"];const d=filtered.map(a=>[a.name,a.brand,cleanD(a.dispensary),a.stock_qty!==null?a.stock_qty:"",a.days_until_out!==null?a.days_until_out:"",a.oos_last_28||"",a.alert]);const ws=XLSX.utils.aoa_to_sheet([hdr,...d]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Stock Alerts");XLSX.writeFile(wb,"athena_stock_alerts.xlsx")}}>Export Excel</button>
     <div className="row"><button className={"btn "+(filter==="all"?"pri":"")} onClick={()=>setFilter("all")}>All</button><button className={"btn "+(filter==="critical"?"pri":"")} onClick={()=>setFilter("critical")}>Critical</button><button className={"btn "+(filter==="warning"?"pri":"")} onClick={()=>setFilter("warning")}>Warning</button></div></div>
-    <div className="pnl-d">Products running low or predicted to sell out soon. Competitor stockouts are your opportunity to capture their customers.</div>
+    <div className="pnl-d">Products running low or predicted to sell out soon.</div>
     <div className="stats" style={{marginBottom:12}}><div className="st"><div className="st-l">Your alerts</div><div className="st-v" style={{color:'var(--rd)'}}>{yourA}</div></div><div className="st"><div className="st-l">Competitor alerts</div><div className="st-v am">{compA}</div></div><div className="st"><div className="st-l">Competitor stockouts (opportunity)</div><div className="st-v gn">{alerts.filter(a=>!isAff(a.dispensary)&&a.alert==="critical").length}</div></div></div>
     {!filtered.length?<div className="empty"><h3>No stock alerts</h3></div>:
     <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Dispensary</th><th>Stock</th><th>Days to OOS</th><th>OOS last 28d</th><th>Alert</th></tr></thead>
@@ -405,56 +252,23 @@ function StockTab({data}){
 function DealsTab({data}){
   const[dq,setDq]=useState("");const[openD,setOpenD]=useState(new Set());const deals=(data.deals||[]).filter(d=>(d.category||"").toLowerCase()!=="accessories");
   const filtered=useMemo(()=>{if(!dq.trim())return deals;const s=dq.toLowerCase();return deals.filter(x=>(x.product||"").toLowerCase().includes(s)||(x.dispensary||"").toLowerCase().includes(s)||(x.brand||"").toLowerCase().includes(s))},[deals,dq]);
-  const grouped=useMemo(()=>{
-    const byChain={};
-    filtered.forEach(d=>{const chain=getChain(d.dispensary);if(!byChain[chain])byChain[chain]={disps:{}};const dn=d.dispensary;if(!byChain[chain].disps[dn])byChain[chain].disps[dn]=[];byChain[chain].disps[dn].push(d)});
-    return Object.entries(byChain).sort((a,b)=>{const ac=Object.values(a[1].disps).flat().length;const bc=Object.values(b[1].disps).flat().length;return bc-ac}).map(([chain,info])=>({chain,locations:Object.entries(info.disps).sort((a,b)=>b[1].length-a[1].length)}));
-  },[filtered]);
+  const grouped=useMemo(()=>{const byChain={};filtered.forEach(d=>{const chain=getChain(d.dispensary);if(!byChain[chain])byChain[chain]={disps:{}};const dn=d.dispensary;if(!byChain[chain].disps[dn])byChain[chain].disps[dn]=[];byChain[chain].disps[dn].push(d)});return Object.entries(byChain).sort((a,b)=>{const ac=Object.values(a[1].disps).flat().length;const bc=Object.values(b[1].disps).flat().length;return bc-ac}).map(([chain,info])=>({chain,locations:Object.entries(info.disps).sort((a,b)=>b[1].length-a[1].length)}))},[filtered]);
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Active deals ({filtered.length.toLocaleString()})</span><div className="row"><button className="btn" onClick={()=>setOpenD(new Set(filtered.map(d=>d.dispensary)))}>Expand all</button><button className="btn" onClick={()=>setOpenD(new Set())}>Collapse</button></div></div>
     <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search deals..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
-    <div className="pnl-d">Current promotions and discounts grouped by dispensary chain. Expand any location to see their active deals.</div>
-    {grouped.map(g=><div key={g.chain} style={{marginBottom:16}}>
-      <div className="dsel-grp">{g.chain} ({g.locations.reduce((s,l)=>s+l[1].length,0)} deals)</div>
-      {g.locations.map(([disp,dls])=>{const isO=openD.has(disp);const best=Math.max(...dls.map(d=>d.pct_off));
-        return<div key={disp} style={{borderBottom:'1px solid rgba(0,215,235,.06)'}}>
-          <div onClick={()=>setOpenD(p=>{const n=new Set(p);n.has(disp)?n.delete(disp):n.add(disp);return n})} className="dsel-item" style={{padding:'8px 12px'}}>
-            <div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>{String.fromCharCode(9654)}</span><span className="dsel-name" style={{color:isAff(disp)?'var(--cy2)':'var(--tx)'}}>{cleanD(disp)}</span></div>
+    <div className="pnl-d">Current promotions and discounts grouped by dispensary chain.</div>
+    {grouped.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.locations.reduce((s,l)=>s+l[1].length,0)} deals)</div>
+      {g.locations.map(([disp,dls])=>{const isO=openD.has(disp);const best=Math.max(...dls.map(d=>d.pct_off));return<div key={disp} style={{borderBottom:'1px solid rgba(0,215,235,.06)'}}><div onClick={()=>setOpenD(p=>{const n=new Set(p);n.has(disp)?n.delete(disp):n.add(disp);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>{String.fromCharCode(9654)}</span><span className="dsel-name" style={{color:isAff(disp)?'var(--cy2)':'var(--tx)'}}>{cleanD(disp)}</span></div>
             <div className="row"><span className="badge gn">up to {best}%</span><span className="dsel-count">{dls.length}</span></div></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px',display:'flex',flexDirection:'column',gap:3}}>{dls.map((d,i)=><div key={i} style={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:'3px 0',fontSize:12}}>
-            <div style={{flex:1,minWidth:0,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}><span style={{color:'var(--tx)'}}>{d.product}</span> <span style={{color:'var(--tx2)',fontSize:10}}>{d.brand}</span></div>
-            <div style={{flexShrink:0,marginLeft:10,fontFamily:'var(--m)'}}><span style={{color:'var(--gn)',fontWeight:700}}>{d.pct_off}%</span> <span style={{color:'var(--tx2)',fontSize:10}}>${d.discounted}</span> <span style={{color:'var(--tx3)',fontSize:9,textDecoration:'line-through'}}>${d.original}</span></div></div>)}</div>}
-        </div>})}
-    </div>)}
-  </div>;
+          {isO&&<div style={{padding:'4px 12px 8px 28px',display:'flex',flexDirection:'column',gap:3}}>{dls.map((d,i)=><div key={i} style={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:'3px 0',fontSize:12}}><div style={{flex:1,minWidth:0,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}><span style={{color:'var(--tx)'}}>{d.product}</span> <span style={{color:'var(--tx2)',fontSize:10}}>{d.brand}</span></div>
+            <div style={{flexShrink:0,marginLeft:10,fontFamily:'var(--m)'}}><span style={{color:'var(--gn)',fontWeight:700}}>{d.pct_off}%</span> <span style={{color:'var(--tx2)',fontSize:10}}>${d.discounted}</span> <span style={{color:'var(--tx3)',fontSize:9,textDecoration:'line-through'}}>${d.original}</span></div></div>)}</div>}</div>})}</div>)}</div>;
 }
 
 function DispsTab({data}){
   const[sort,setSort]=useState("count");const prods=data.products||[];const disps=data.dispensaries||{};
-  const list=useMemo(()=>{
-    const byBase={};
-    // Count unique products per base dispensary by tracking product names
-    Object.entries(disps).forEach(([name,info])=>{
-      const base=getBase(name);
-      if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),menus:[],productNames:new Set()};
-      const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];
-      if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType);
-    });
-    // Walk products to count unique items per base dispensary
-    prods.forEach(p=>{
-      Object.keys(p.dispensaries||{}).forEach(d=>{
-        const base=getBase(d);
-        if(byBase[base]){byBase[base].productNames.add((p.name||"").toLowerCase())}
-      });
-    });
-    return Object.entries(byBase).map(function(e){
-      var base=e[0],info=e[1];
-      var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;
-      return{name:label,count:info.productNames.size,city:info.city,isYou:info.isYou};
-    }).sort((a,b)=>sort==="count"?b.count-a.count:a.name.localeCompare(b.name));
-  },[prods,disps,sort]);
+  const list=useMemo(()=>{const byBase={};Object.entries(disps).forEach(([name,info])=>{const base=getBase(name);if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),menus:[],productNames:new Set()};const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType)});prods.forEach(p=>{Object.keys(p.dispensaries||{}).forEach(d=>{const base=getBase(d);if(byBase[base])byBase[base].productNames.add((p.name||"").toLowerCase())})});return Object.entries(byBase).map(function(e){var base=e[0],info=e[1];var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;return{name:label,count:info.productNames.size,city:info.city,isYou:info.isYou}}).sort((a,b)=>sort==="count"?b.count-a.count:a.name.localeCompare(b.name))},[prods,disps,sort]);
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries ({list.length})</span>
     <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By products</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
-    <div className="pnl-d">Total unique products per dispensary. Med and Rec menus combined with overlapping products counted once.</div>
+    <div className="pnl-d">Total unique products per dispensary.</div>
     <div className="dlist">{list.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div><div className="dcard-n" title={d.name}>{d.isYou?String.fromCharCode(9733)+" ":""}{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-v">{d.count.toLocaleString()}</div></div>)}</div></div>;
 }
 
