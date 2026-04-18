@@ -1,70 +1,90 @@
+import { chromium } from 'playwright';
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-const API_URL = 'https://dutchie.com/graphql';
-const PERSISTED_HASH = '98b4aaef79a84ae804b64d550f98dd64d7ba0aa6d836eb6b5d4b2ae815c95e32';
 const DUTCHIE_TYPES = ['Flower', 'Vaporizers', 'Edibles', 'Pre-Rolls', 'Concentrates', 'Tinctures', 'Topicals', 'Accessories'];
 
-function sleep(ms) { return new Promise(r => setTimeout(r, ms + Math.random() * 1000)); }
+let browser = null;
+let page = null;
 
-async function fetchProducts(dispensaryId, category, page = 0) {
-  const variables = {
-    includeEnterpriseSpecials: false,
-    productsFilter: {
-      dispensaryId,
-      pricingType: 'rec',
-      strainTypes: [],
-      subcategories: [],
-      Status: 'Active',
-      types: category ? [category] : [],
-      useCache: true,
-      isDefaultSort: true,
-      sortBy: 'popularSortIdx',
-      sortDirection: 1,
-      bypassOnlineThresholds: false,
-      isKioskMenu: false,
-      removeProductsBelowOptionThresholds: true,
-      platformType: 'ONLINE_MENU',
-      preOrderType: null,
-    },
-    page,
-    perPage: 100,
-  };
+async function ensureBrowser() {
+  if (!browser) {
+    console.log('  [dutchie] Launching Chrome...');
+    browser = await chromium.launch({ headless: true });
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    });
+    page = await context.newPage();
 
-  const extensions = {
-    persistedQuery: { version: 1, sha256Hash: PERSISTED_HASH },
-  };
+    // Navigate to dutchie.com and click age gate once
+    await page.goto('https://dutchie.com/dispensary/high-profile-canton', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(2000);
 
-  const url = API_URL
-    + '?operationName=FilteredProducts'
-    + '&variables=' + encodeURIComponent(JSON.stringify(variables))
-    + '&extensions=' + encodeURIComponent(JSON.stringify(extensions));
+    // Click Yes on age gate
+    try {
+      const yesBtn = page.getByRole('button', { name: 'Yes' });
+      await yesBtn.click({ timeout: 5000 });
+      console.log('  [dutchie] Age gate passed');
+      await page.waitForTimeout(2000);
+    } catch {
+      console.log('  [dutchie] No age gate found, continuing');
+    }
+  }
+  return page;
+}
 
-  const res = await fetch(url, {
-    method: 'GET',
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-      'Accept': 'application/json, text/plain, */*',
-      'Accept-Language': 'en-US,en;q=0.9',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'Referer': 'https://dutchie.com/',
-      'Origin': 'https://dutchie.com',
-      'apollo-require-preflight': 'true',
-      'x-apollo-operation-name': 'FilteredProducts',
-      'Connection': 'keep-alive',
-      'Sec-Fetch-Dest': 'empty',
-      'Sec-Fetch-Mode': 'cors',
-      'Sec-Fetch-Site': 'same-origin',
-    },
+async function fetchProducts(p, dispensaryId, category) {
+  const result = await p.evaluate(async ({ dispensaryId, category, hash }) => {
+    const vars = {
+      includeEnterpriseSpecials: false,
+      productsFilter: {
+        dispensaryId,
+        pricingType: 'rec',
+        strainTypes: [],
+        subcategories: [],
+        Status: 'Active',
+        types: category ? [category] : [],
+        useCache: true,
+        isDefaultSort: true,
+        sortBy: 'popularSortIdx',
+        sortDirection: 1,
+        bypassOnlineThresholds: false,
+        isKioskMenu: false,
+        removeProductsBelowOptionThresholds: true,
+        platformType: 'ONLINE_MENU',
+        preOrderType: null,
+      },
+      page: 0,
+      perPage: 100,
+    };
+    const ext = { persistedQuery: { version: 1, sha256Hash: hash } };
+    const url = '/graphql?operationName=FilteredProducts&variables='
+      + encodeURIComponent(JSON.stringify(vars))
+      + '&extensions=' + encodeURIComponent(JSON.stringify(ext));
+
+    const res = await fetch(url, {
+      headers: {
+        'Accept': 'application/json',
+        'apollo-require-preflight': 'true',
+        'x-apollo-operation-name': 'FilteredProducts',
+      },
+    });
+
+    if (!res.ok) return { error: 'HTTP ' + res.status, products: [], total: 0 };
+    const data = await res.json();
+    if (data.errors) return { error: data.errors[0]?.message, products: [], total: 0 };
+
+    return {
+      products: data.data?.filteredProducts?.products || [],
+      total: data.data?.filteredProducts?.queryInfo?.totalCount || 0,
+    };
+  }, {
+    dispensaryId,
+    category,
+    hash: '98b4aaef79a84ae804b64d550f98dd64d7ba0aa6d836eb6b5d4b2ae815c95e32',
   });
 
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
-  if (data.errors) throw new Error(data.errors[0]?.message);
-
-  return {
-    products: data.data?.filteredProducts?.products || [],
-    total: data.data?.filteredProducts?.queryInfo?.totalCount || 0,
-  };
+  if (result.error) throw new Error(result.error);
+  return result;
 }
 
 function normalizeDutchieProduct(raw) {
@@ -101,27 +121,52 @@ export async function scrapeDutchie(dispensary) {
   }
 
   try {
+    const p = await ensureBrowser();
     const allProducts = new Map();
     const errors = [];
 
     for (const cat of DUTCHIE_TYPES) {
       try {
-        await sleep(2000);
-        const result = await fetchProducts(dispensaryId, cat);
+        await p.waitForTimeout(1500);
+        const result = await fetchProducts(p, dispensaryId, cat);
         console.log(`  [dutchie] ${cat}: ${result.products.length}/${result.total}`);
 
         for (const raw of result.products) {
-          const p = normalizeDutchieProduct(raw);
-          if (p.external_id) allProducts.set(p.external_id, p);
+          const prod = normalizeDutchieProduct(raw);
+          if (prod.external_id) allProducts.set(prod.external_id, prod);
         }
 
         if (result.total > 100) {
           for (let pg = 1; pg < Math.ceil(result.total / 100) && pg < 10; pg++) {
-            await sleep(1500);
-            const next = await fetchProducts(dispensaryId, cat, pg);
+            await p.waitForTimeout(1000);
+            // For pagination, re-evaluate with page param
+            const next = await p.evaluate(async ({ dispensaryId, category, hash, pg }) => {
+              const vars = {
+                includeEnterpriseSpecials: false,
+                productsFilter: {
+                  dispensaryId, pricingType: 'rec', strainTypes: [], subcategories: [],
+                  Status: 'Active', types: [category], useCache: true, isDefaultSort: true,
+                  sortBy: 'popularSortIdx', sortDirection: 1, bypassOnlineThresholds: false,
+                  isKioskMenu: false, removeProductsBelowOptionThresholds: true,
+                  platformType: 'ONLINE_MENU', preOrderType: null,
+                },
+                page: pg, perPage: 100,
+              };
+              const ext = { persistedQuery: { version: 1, sha256Hash: hash } };
+              const url = '/graphql?operationName=FilteredProducts&variables='
+                + encodeURIComponent(JSON.stringify(vars))
+                + '&extensions=' + encodeURIComponent(JSON.stringify(ext));
+              const res = await fetch(url, {
+                headers: { 'Accept': 'application/json', 'apollo-require-preflight': 'true', 'x-apollo-operation-name': 'FilteredProducts' },
+              });
+              if (!res.ok) return { products: [] };
+              const data = await res.json();
+              return { products: data.data?.filteredProducts?.products || [] };
+            }, { dispensaryId, category: cat, hash: '98b4aaef79a84ae804b64d550f98dd64d7ba0aa6d836eb6b5d4b2ae815c95e32', pg });
+
             for (const raw of next.products) {
-              const p = normalizeDutchieProduct(raw);
-              if (p.external_id) allProducts.set(p.external_id, p);
+              const prod = normalizeDutchieProduct(raw);
+              if (prod.external_id) allProducts.set(prod.external_id, prod);
             }
           }
         }
@@ -139,5 +184,9 @@ export async function scrapeDutchie(dispensary) {
     return { products: [], errors: [err.message] };
   }
 }
+
+// Close browser when process exits
+process.on('exit', () => { if (browser) browser.close().catch(() => {}); });
+process.on('SIGINT', async () => { if (browser) await browser.close(); process.exit(); });
 
 export default { scrapeDutchie };
