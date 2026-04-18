@@ -1,0 +1,2402 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Go Gr Tz Rythm Flower T34.90 (01283)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Go Gr Tz Rythm Flower T34.90 (01283) $125.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Flower T22.26 (41658)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Flower T22.26 (41658) $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout Rythm Flower T34.04 (01348)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - B Scout Rythm Flower T34.04 (01348) $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Flower T26.12 (41721)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Flower T26.12 (41721) $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda Lil' Budz T34.42 (00476)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Bananaconda Lil' Budz T34.42 (00476) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger Hash Nugs T35.49 (41630)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger Hash Nugs T35.49 (41630) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Flower T25.85 (41657)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff Flower T25.85 (41657) $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint Flower T31.39 (01286)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Mystic Mint Flower T31.39 (01286) $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Banana Whole Flower T31.26 (19309)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Blueberry Banana Whole Flower T31.26 (19309) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afgooey Lil' Budz T23.63 (00445)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Afgooey Lil' Budz T23.63 (00445) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint Ground Flower T23.01 (01402)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Mystic Mint Ground Flower T23.01 (01402) $115.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D Lil' Budz T32.11 (00524)",
+    "brand": "Chemdog's",
+    "message": "New: Chemdog's - Chem D Lil' Budz T32.11 (00524) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva) Flower T23.85 (41595)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) Flower T23.85 (41595) $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke Flower T20.56 (41472)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke Flower T20.56 (41472) $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express Whole Flower T31.55 (01326)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Titan Express Whole Flower T31.55 (01326) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Flower T24.53 (41722)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Flower T24.53 (41722) $155.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz Ground Flower T28.54 (01420)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz Ground Flower T28.54 (01420) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lunar Diesel Whole Flower T23.00 (01540)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Lunar Diesel Whole Flower T23.00 (01540) $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints Part:Timers T24.34 (41198)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints Part:Timers T24.34 (41198) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Flower T26.56 (41640)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake Flower T26.56 (41640) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda Flower T33.68 (01154)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bananaconda Flower T33.68 (01154) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Pi Flower T15.29 (41768)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Berry Pi Flower T15.29 (41768) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR Flower T25.72 (41469)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR Flower T25.72 (41469) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva) Flower T25.13 (41594)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) Flower T25.13 (41594) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk Flower T27.43 (00883)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Skunk Flower T27.43 (00883) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger Part:Timers Flower T24.79 (41351)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger Part:Timers Flower T24.79 (41351) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk Whole Flower T34.25 (00470)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Cap Junk Whole Flower T34.25 (00470) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Suga T's Flower Whole T31.85 (00075)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Suga T's Flower Whole T31.85 (00075) $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Muffin Grease Whole Flower T26.34 (01474)",
+    "brand": "Find.",
+    "message": "New: Find. - Muffin Grease Whole Flower T26.34 (01474) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glue Fondue Select Grind T17.86 (01319)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Glue Fondue Select Grind T17.86 (01319) $110.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout Rythm SF T33.06 (01359)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - B Scout Rythm SF T33.06 (01359) $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citradelic Haze Ground Flower T25.8 (01631)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Citradelic Haze Ground Flower T25.8 (01631) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mikado Mintz Flower T27.78 (00002)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mikado Mintz Flower T27.78 (00002) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads Savvy Smalls T25.30 (26715)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads Savvy Smalls T25.30 (26715) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hybrid Blend Select Grind T22.10 (01234)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Hybrid Blend Select Grind T22.10 (01234) $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Original Glue Savvy Smalls T27.55 (26917)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Original Glue Savvy Smalls T27.55 (26917) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip Rythm Flower T28.50 (01243)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Lemon Drip Rythm Flower T28.50 (01243) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez Rythm SF T30.14 (01380)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Swamp Water Fumez Rythm SF T30.14 (01380) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva) Flower T24.93 (41596)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) Flower T24.93 (41596) $175.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Flower T28.47 (41641)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake Flower T28.47 (41641) $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Humboldt Sour Diesel Whole Flower T19.66 (01085)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Humboldt Sour Diesel Whole Flower T19.66 (01085) $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Iccee Blizzard Flower T29.78 (00094)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Iccee Blizzard Flower T29.78 (00094) $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Flower T24.36 (41644)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Flower T24.36 (41644) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forest Reserve Whole Flower T28.59 (01514)",
+    "brand": "Find.",
+    "message": "New: Find. - Forest Reserve Whole Flower T28.59 (01514) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy Lil' Budz T29.67 (00522)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Jealousy Lil' Budz T29.67 (00522) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Flower T21.61 (41653)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Flower T21.61 (41653) $155.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Burger Flower T24.41 (01355)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Cherry Burger Flower T24.41 (01355) $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indica Princess Whole Flower T21.41 (00964)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Indica Princess Whole Flower T21.41 (00964) $180.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG Flower T30.57 (00841)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Alien OG Flower T30.57 (00841) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps Whole Flower T25.76 (01383)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps Whole Flower T25.76 (01383) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Flower T21.50 (41592)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Flower T21.50 (41592) $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Flower T21.07 (41481)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker Flower T21.07 (41481) $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Seattle Sour Kush Flower T29.18 (27000)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Seattle Sour Kush Flower T29.18 (27000) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT Whole Flower T20.94 (01055)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT Whole Flower T20.94 (01055) $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soap Whole Flower T27.86 (00431)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Soap Whole Flower T27.86 (00431) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy Flower 34.08 (00838)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy Flower 34.08 (00838) $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel Part:Timers T31.83 (41623)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel Part:Timers T31.83 (41623) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO Rythm SF T32.47 (01349)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - GMO Rythm SF T32.47 (01349) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem n' Cook Flower T27.71 (01178)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chem n' Cook Flower T27.71 (01178) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gouda Gas Whole Flower T34.41 (00089)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Gouda Gas Whole Flower T34.41 (00089) $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake Whole Flower T31.66 (00484)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Jungle Cake Whole Flower T31.66 (00484) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vel Croz  Select Grind T19.81 (01072)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vel Croz  Select Grind T19.81 (01072) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Delight Flower T28.38 (00868)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Delight Flower T28.38 (00868) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heat Wave Whole Flower T27.14 (01513)",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heat Wave Whole Flower T27.14 (01513) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Flower T25.11 (41373)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Flower T25.11 (41373) $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hickory Hash Whole Flower T29.09 (01154)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Hickory Hash Whole Flower T29.09 (01154) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kandi Jam Whole Flower T22.59 (01305)",
+    "brand": "Find.",
+    "message": "New: Find. - Kandi Jam Whole Flower T22.59 (01305) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes Flower T23.77 (41522)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes Flower T23.77 (41522) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Back Porch Whole Flower T27.94 (01660)",
+    "brand": "Find.",
+    "message": "New: Find. - Back Porch Whole Flower T27.94 (01660) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling Whole Flower T27.69 (01330)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Singapore Sling Whole Flower T27.69 (01330) $32.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "American PI Flower T23.63 (00095)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - American PI Flower T23.63 (00095) $38.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint Flower T31.31 (01260)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Mystic Mint Flower T31.31 (01260) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miami Stardust Flower T25.21 (26675)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Miami Stardust Flower T25.21 (26675) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C. Rollz Whole Flower T31.69 (19316)",
+    "brand": "Cookies",
+    "message": "New: Cookies - C. Rollz Whole Flower T31.69 (19316) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Pi Flower T14.81 (41663)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Berry Pi Flower T14.81 (41663) $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple 22 Rythm Flower T29.11 (01092)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Black Maple 22 Rythm Flower T29.11 (01092) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster Flower T25.82 (00796)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Blue Lobster Flower T25.82 (00796) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Flower T23.76 (41652)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Flower T23.76 (41652) $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Flower T28.51 (41517)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Flower T28.51 (41517) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw Whole Flower T19.51 (00936)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Paw Paw Whole Flower T19.51 (00936) $95.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes Flower T22.50 (41523)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes Flower T22.50 (41523) $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes Flower T21.41 (41521)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes Flower T21.41 (41521) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ Flower T24.39 (01277)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n WflZ Flower T24.39 (01277) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Flower T22.84 (41589)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Flower T22.84 (41589) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR Flower T21.04 (41444)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR Flower T21.04 (41444) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk Whole Flower T34.14 (00518)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Purple Milk Whole Flower T34.14 (00518) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Flower T18.18 (41637)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Flower T18.18 (41637) $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze Rythm Flower T31.19 (01273)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Cheddar Cheeze Rythm Flower T31.19 (01273) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout Rythm Flower T34.25 (01324)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - B Scout Rythm Flower T34.25 (01324) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise Whole Flower T25.33 (01340)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pineapple Sunrise Whole Flower T25.33 (01340) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath Whole Flower T27.97 (01269)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Atomic Breath Whole Flower T27.97 (01269) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Cooler Savvy Smalls T25.38 (26321)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Mendo Cooler Savvy Smalls T25.38 (26321) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava Savvy Smalls T31.63 (26714)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Zuava Savvy Smalls T31.63 (26714) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Zkittles Whole Flower T20.18 (00975)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Orange Zkittles Whole Flower T20.18 (00975) $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glue Fondue Flower T27.14 (01177)",
+    "brand": "Good Green",
+    "message": "New: Good Green - Glue Fondue Flower T27.14 (01177) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata Whole Flower T28.62 (00465)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - C-Stata Whole Flower T28.62 (00465) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunset Strip Savvy Smalls T21.66 (26484)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sunset Strip Savvy Smalls T21.66 (26484) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB MFN Whole Flower T23.89 (01309)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - PB MFN Whole Flower T23.89 (01309) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Go Gr Tz Select Grind T19.39 (01057)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Go Gr Tz Select Grind T19.39 (01057) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X Whole Flower T34.44 (00087)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Specimen X Whole Flower T34.44 (00087) $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Clementine Vape Cart T878 (00029)",
+    "brand": "Loud",
+    "message": "New: Loud - Clementine Vape Cart T878 (00029) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Vape Cart T867 (00024)",
+    "brand": "Loud",
+    "message": "New: Loud - Golden Tangie Vape Cart T867 (00024) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z Vape Cart T878 (00030)",
+    "brand": "Loud",
+    "message": "New: Loud - Sour Z Vape Cart T878 (00030) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afgooey Vape Cart T920 (00496)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Afgooey Vape Cart T920 (00496) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Vape T939 (41731)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Vape T939 (41731) $67.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face x Purple Tyde Vape Cart T821 (01391)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Animal Face x Purple Tyde Vape Cart T821 (01391) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creamsicle Sunset x Afternoon Delight #4 Vape Cart T882 (01257)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Creamsicle Sunset x Afternoon Delight #4 Vape Cart T882 (01257) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Mini Tank T932 (41729)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Mini Tank T932 (41729) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart Mini Tank T906 (41559)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart Mini Tank T906 (41559) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple Vape T441 (41747)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple Vape T441 (41747) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Vape Cart T452 (41497)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Vape Cart T452 (41497) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT MT T467 (41738)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT MT T467 (41738) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV (I) Frost Bite Live Resin Series T944 (00195)",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV (I) Frost Bite Live Resin Series T944 (00195) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon Haze Live Resin Vape Cart T925 (00473)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Super Lemon Haze Live Resin Vape Cart T925 (00473) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Select Flavor Series Briq 2 T906 (01591)",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie Select Flavor Series Briq 2 T906 (01591) $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Mini Tank T455 (41569)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Mini Tank T455 (41569) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Ghoul Vape Cart T447 (41343)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Ghoul Vape Cart T447 (41343) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Razz Vape Cartridge T859 (19601)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Blue Razz Vape Cartridge T859 (19601) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Lemonade Live Resin Series AIO T908 (00228)",
+    "brand": "SoundView",
+    "message": "New: SoundView - Raspberry Lemonade Live Resin Series AIO T908 (00228) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Breath Mini Tank T890 (41300)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Breath Mini Tank T890 (41300) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinnacle Savvy Strut AIO T1682 (26101)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pinnacle Savvy Strut AIO T1682 (26101) $104.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry BMB Select Elite Cartridge T429 (01296)",
+    "brand": "Select",
+    "message": "New: Select - Cherry BMB Select Elite Cartridge T429 (01296) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Skunk Hyphen AIO T853 (26681)",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Pineapple Skunk Hyphen AIO T853 (26681) $74.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kookyz Select Elite Briq All In One Disposable Vape T1743 (01242)",
+    "brand": "Select",
+    "message": "New: Select - Orange Kookyz Select Elite Briq All In One Disposable Vape T1743 (01242) $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot Select Elite Briq All In One Disposable Vape T1762 (01351)",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot Select Elite Briq All In One Disposable Vape T1762 (01351) $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart Vape Cart T912 (41561)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart Vape Cart T912 (41561) $67.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gaslight Vape Cart T892 (00423)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Gaslight Vape Cart T892 (00423) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Vape Cart T909 (41570)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Vape Cart T909 (41570) $67.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Mini Tank T882 (41749)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff Mini Tank T882 (41749) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Expressions Rechargeable T417 (00072)",
+    "brand": "Lucky Break Cannabis",
+    "message": "New: Lucky Break Cannabis - Pineapple Expressions Rechargeable T417 (00072) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropic Thunder Select Elite Pod T425 (00938)",
+    "brand": "Select",
+    "message": "New: Select - Tropic Thunder Select Elite Pod T425 (00938) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Daddy Purple Live Resin Micro Bar T943 (00424)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Grand Daddy Purple Live Resin Micro Bar T943 (00424) $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Mini Tank T901 (41498)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Mini Tank T901 (41498) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Select Flavor Series 510 T876 (01568)",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Select Flavor Series 510 T876 (01568) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dank Sinatra Live Resin Disposable T916 (00223)",
+    "brand": "SoundView",
+    "message": "New: SoundView - Dank Sinatra Live Resin Disposable T916 (00223) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT Mini Tank T898 (41739)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT Mini Tank T898 (41739) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer OG Live Terpene Vape Cart T817 (00814)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer OG Live Terpene Vape Cart T817 (00814) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snow Drift Bold T469 (26810)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Snow Drift Bold T469 (26810) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Milk-Stata Vape Cart T900 (00424)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Milk-Stata Vape Cart T900 (00424) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Daddy Purple Live Resin Vape Cartridge T915 (00456)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Grand Daddy Purple Live Resin Vape Cartridge T915 (00456) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda Rythm Vape Cart T427 (01239)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Bananaconda Rythm Vape Cart T427 (01239) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ Rythm Vape Cart T418 (01320)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Chkn n WflZ Rythm Vape Cart T418 (01320) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afternoon Delight Rythm Vape Cart T382 (01347)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Afternoon Delight Rythm Vape Cart T382 (01347) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor Select Legacy Series Briq 2 T1773 (01560)",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor Select Legacy Series Briq 2 T1773 (01560) $125.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison Select Cliq Elite Pod T425 (00944)",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison Select Cliq Elite Pod T425 (00944) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Pi Select Flavor Series T909 (01520)",
+    "brand": "Select",
+    "message": "New: Select - Cherry Pi Select Flavor Series T909 (01520) $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream Live Terpene Vape Cart T413 (00867)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Sunshine Daydream Live Terpene Vape Cart T413 (00867) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Cobbler x RNTZ Pen T250 (01293)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Apple Cobbler x RNTZ Pen T250 (01293) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Kush Select Legacy Series 510 T881 (01601)",
+    "brand": "Select",
+    "message": "New: Select - Couch Kush Select Legacy Series 510 T881 (01601) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout x LA Kush CKE Vape Cart T806 (01212)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout x LA Kush CKE Vape Cart T806 (01212) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creamsicle Sunset Pen T257 (01406)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Creamsicle Sunset Pen T257 (01406) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG Savvy Strut AIO T1619 (26776)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Alien OG Savvy Strut AIO T1619 (26776) $115.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "East Coast Sour Diesel Pen T237 (01259)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - East Coast Sour Diesel Pen T237 (01259) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry BMB Select Elite Briq All In One Disposable Vape T1743 (01396)",
+    "brand": "Select",
+    "message": "New: Select - Cherry BMB Select Elite Briq All In One Disposable Vape T1743 (01396) $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff Select Flavor Series Briq 2 T1812 (01552)",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff Select Flavor Series Briq 2 T1812 (01552) $125.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Arctic Cream Vape Cartridge T857 (19651)",
+    "brand": "The Goods",
+    "message": "New: The Goods - Arctic Cream Vape Cartridge T857 (19651) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Taffy Twist x Dulce De Uva Vape Cart T843 (01296)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Taffy Twist x Dulce De Uva Vape Cart T843 (01296) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "INKD UP All In One Vape T853 (00479)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - INKD UP All In One Vape T853 (00479) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "LEAF Live Sauce Lemon Haze Rythm Pen T848 (01368)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - LEAF Live Sauce Lemon Haze Rythm Pen T848 (01368) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "LEAF Live Sauce White Truffle Rythm Pen T864 (01369)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - LEAF Live Sauce White Truffle Rythm Pen T864 (01369) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Mini Tank T453 (41137)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Mini Tank T453 (41137) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosido Select Elite Cartridge T447 (01479)",
+    "brand": "Select",
+    "message": "New: Select - Dosido Select Elite Cartridge T447 (01479) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Mini Tank T468 (41728)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Mini Tank T468 (41728) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple Mini Tank T444 (41746)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple Mini Tank T444 (41746) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Select Flavor Series 510 T441 (01590)",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Select Flavor Series 510 T441 (01590) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes Mini Tank T458 (41752)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes Mini Tank T458 (41752) $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Select Elite All In One T259 (01308)",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream Select Elite All In One T259 (01308) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Vape T470 (41730)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Vape T470 (41730) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snow Drift Live Resin AIO T766 (26692)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Snow Drift Live Resin AIO T766 (26692) $79.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Maui Wowi Rechargeable T450 (00084)",
+    "brand": "Lucky Break Cannabis",
+    "message": "New: Lucky Break Cannabis - Maui Wowi Rechargeable T450 (00084) $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spacedawg Hyphen AIO T838 (26558)",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Spacedawg Hyphen AIO T838 (26558) $74.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Mini Tank T896 (41136)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Mini Tank T896 (41136) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz Mini Tank T889 (41736)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz Mini Tank T889 (41736) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG Savvy Disposable T257 (26610)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Yellow Haze OG Savvy Disposable T257 (26610) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "H0rchata Live Resin Vape Cart T933 (00423)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - H0rchata Live Resin Vape Cart T933 (00423) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Candy Jack Vape Cart T407 (00897)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Candy Jack Vape Cart T407 (00897) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Punch Extractors Reserve Live Resin Series T925 (00187)",
+    "brand": "SoundView",
+    "message": "New: SoundView - Purple Punch Extractors Reserve Live Resin Series T925 (00187) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "H0rchata Live Resin Micro Bar T924 (00450)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - H0rchata Live Resin Micro Bar T924 (00450) $68.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout x LA Kush CKE Pen T248 (01396)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout x LA Kush CKE Pen T248 (01396) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Select Legacy Series Briq 2 T870 (01489)",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream Select Legacy Series Briq 2 T870 (01489) $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff Select Flavor Series Briq 2 T899 (01570)",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff Select Flavor Series Briq 2 T899 (01570) $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Musk #1 Live Terpene Vape Cart T823 (00859)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Musk #1 Live Terpene Vape Cart T823 (00859) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream OG Hyphen AIO T882 (26815)",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Banana Cream OG Hyphen AIO T882 (26815) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster Live Terpene Vape Cart T808 (00898)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Blue Lobster Live Terpene Vape Cart T808 (00898) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze Live Rosin Vape Cart T394 (26777)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Andeze Live Rosin Vape Cart T394 (26777) $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst Select Elite Cartridge T876 (01272)",
+    "brand": "Select",
+    "message": "New: Select - Moonburst Select Elite Cartridge T876 (01272) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Select Elite Cartridge T863 (01404)",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie Select Elite Cartridge T863 (01404) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Deadhead OG Vape Cart T862 (00840)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Deadhead OG Vape Cart T862 (00840) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunny Stomper Pure Vape Cart T876 (26763)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Sunny Stomper Pure Vape Cart T876 (26763) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hazy Girl Pure Vape Cart T881 (26501)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Hazy Girl Pure Vape Cart T881 (26501) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz Vape T884 (41737)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz Vape T884 (41737) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Sherb Pure Vape Cart T884 (27017)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Sherb Pure Vape Cart T884 (27017) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Seattle Sour Kush Pure Vape Cart T850 (26881)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Seattle Sour Kush Pure Vape Cart T850 (26881) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow B. Live Resin Disposable Vape T891 (00396)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Rainbow B. Live Resin Disposable Vape T891 (00396) $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Vape Cart T895 (00427)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Gush Mintz Vape Cart T895 (00427) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple x Bubba F Vape Cart T825 (01209)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Black Maple x Bubba F Vape Cart T825 (01209) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Vape Cart T872 (41496)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Vape Cart T872 (41496) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Vape Cart T908 (41751)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff Vape Cart T908 (41751) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor Select Legacy Series 510 T437 (01522)",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor Select Legacy Series 510 T437 (01522) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Select Flavor Series Briq 2 T848 (01484)",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Select Flavor Series Briq 2 T848 (01484) $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Infused Party Pack T43.68 (41776)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey Infused Party Pack T43.68 (41776) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary THCA Infused Shorties T53.48 (26897)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Red Gary THCA Infused Shorties T53.48 (26897) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy PR Minis T25.88 (41708)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy PR Minis T25.88 (41708) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding Infused Party Pack T39.97 (41777)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding Infused Party Pack T39.97 (41777) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Amethyst Diesel PR T27.31 (00487)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Amethyst Diesel PR T27.31 (00487) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava THCA Infused Shorties T52.72 (26905)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Zuava THCA Infused Shorties T52.72 (26905) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel Train Shorties T23.71 (26998)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Diesel Train Shorties T23.71 (26998) $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG Infused Lil' Ricky's T40.04 (00891)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Alien OG Infused Lil' Ricky's T40.04 (00891) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata PR T30.94 (00506)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - C-Stata PR T30.94 (00506) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miss Strawberry Bubble Hash Infused Doob - Fast Times T49.57 (41608)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Miss Strawberry Bubble Hash Infused Doob - Fast Times T49.57 (41608) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "LA Kush CKE Dogwalkers Minis T28.02 (00886) 0.35g",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - LA Kush CKE Dogwalkers Minis T28.02 (00886) 0.35g $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints BH Infused Shorties T43.91 (41649)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints BH Infused Shorties T43.91 (41649) $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Granny Banany Infused Fatboy T44.84 (41547)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Granny Banany Infused Fatboy T44.84 (41547) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO PR T26.37 (01373)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO PR T26.37 (01373) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz THCA Infused Shorties T50.31 (26904)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Gush Mintz THCA Infused Shorties T50.31 (26904) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Fatboy T49.00 (41648)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake Fatboy T49.00 (41648) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack PR T31.20 (01481)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Triple Stack PR T31.20 (01481) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Infused Fatboy T48.08 (41678)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Infused Fatboy T48.08 (41678) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout Dogwalkers Minis T28.16 (00964) 0.35g",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout Dogwalkers Minis T28.16 (00964) 0.35g $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Fatboy T44.06 (41763)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Fatboy T44.06 (41763) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Z PR Minis T16.10 (00806)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Durban Z PR Minis T16.10 (00806) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel BH Infused Shorties T43.56 (41621)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel BH Infused Shorties T43.56 (41621) $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon PR T23.51 (41724)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon PR T23.51 (41724) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face Showdogs Infused PR T47.32 (01274)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Animal Face Showdogs Infused PR T47.32 (01274) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "95 Cook Dogwalker's Big Dog PR T28.77 (01153)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 95 Cook Dogwalker's Big Dog PR T28.77 (01153) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks THCA Infused Shorties T42.97 (26965)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks THCA Infused Shorties T42.97 (26965) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cold Spell PR T30.24 (00020)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Cold Spell PR T30.24 (00020) $12.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz PR T32.39 (01534)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Apple Tartz PR T32.39 (01534) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Thai Neville Haze Infused PR T33.26 (00785)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Thai Neville Haze Infused PR T33.26 (00785) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Canna Miranda Infused PR T39.70 (41689)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Canna Miranda Infused PR T39.70 (41689) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Banana PR T24.14 (19509)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Blueberry Banana PR T24.14 (19509) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath PR T26.38 (01602)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath PR T26.38 (01602) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Infinity Grapes EARLy Birds T26.53 (00023)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Infinity Grapes EARLy Birds T26.53 (00023) $28.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ForeverBerry Infused Fatboy T41.66 (41681)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - ForeverBerry Infused Fatboy T41.66 (41681) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Shorties T40.75 (41764)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Shorties T40.75 (41764) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger PR T28.86 (01351)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Hash Burger PR T28.86 (01351) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint PR Minis T24 (01357)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Mystic Mint PR Minis T24 (01357) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Arrigoni Haze Big Ray T24.76 (00854)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Arrigoni Haze Big Ray T24.76 (00854) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Sunshine PR T26.69 (00888)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Orange Sunshine PR T26.69 (00888) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva) Infused Fatboy T44.58 (41697)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) Infused Fatboy T44.58 (41697) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Martian Mints PR T34.53 (01543)",
+    "brand": "Find.",
+    "message": "New: Find. - Martian Mints PR T34.53 (01543) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy PR T30.36 (00896)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy PR T30.36 (00896) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zoap PR T32.53 (00500)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Zoap PR T32.53 (00500) $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Go Gr Tz Dogwalkers Minis T24.66 (00998) 0.35g",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Go Gr Tz Dogwalkers Minis T24.66 (00998) 0.35g $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ PR T21.61 (01350)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Chkn n WflZ PR T21.61 (01350) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks THCA Infused PR T49.89 (26980)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks THCA Infused PR T49.89 (26980) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz PR T24.37 (01156)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Zesty Garlic Kookyz PR T24.37 (01156) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Thera (I) OG Grapefruit Bubble Hash Infused Doob - Quiet Times T40.90 (41581)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Thera (I) OG Grapefruit Bubble Hash Infused Doob - Quiet Times T40.90 (41581) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz THCA Infused Shorties T49.51 (27005)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Jokerz THCA Infused Shorties T49.51 (27005) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Living Legend PR Minis T14.60 (01163)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Living Legend PR Minis T14.60 (01163) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Blunt T41.24 (41762)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Blunt T41.24 (41762) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz PR T28.22 (01639)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz PR T28.22 (01639) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints Rosin Roll Shorties T38.46 (41696)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints Rosin Roll Shorties T38.46 (41696) $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint PR T26.75 (01302)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Mystic Mint PR T26.75 (01302) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mega Lemon Goop EARLy Birds T30.34 (00022)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Mega Lemon Goop EARLy Birds T30.34 (00022) $28.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glitter Bomb PR T33.61  (00557)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Glitter Bomb PR T33.61  (00557) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Granny Apple Infused Fatboy T41.95 (41416)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Granny Apple Infused Fatboy T41.95 (41416) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Soap #2 Lil' Ricky's T25.18 (00919)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - The Soap #2 Lil' Ricky's T25.18 (00919) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream PR T25.21 (00836)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Sunshine Daydream PR T25.21 (00836) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miami Stardust THCA Infused PR T44.74 (26652)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Miami Stardust THCA Infused PR T44.74 (26652) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Shorties T24.10 (26743)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Gush Mintz Shorties T24.10 (26743) $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps PR T27.93 (01418)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps PR T27.93 (01418) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scout Breath THCA Infused PR T49.75 (26238)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Scout Breath THCA Infused PR T49.75 (26238) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miss Strawberry PR Minis - Fast Times T24.64 (41699)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Miss Strawberry PR Minis - Fast Times T24.64 (41699) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg Spark - All Times T28.89 (41785)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg Spark - All Times T28.89 (41785) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg PR Minis - All Times T32.25 (41782)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg PR Minis - All Times T32.25 (41782) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sun Grown Summer L PR T23.02 (00407)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Sun Grown Summer L PR T23.02 (00407) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks PR Minis T29.80 (41457)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks PR Minis T29.80 (41457) $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva) PR T20.79 (41534)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) PR T20.79 (41534) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO PR T26.17 (01433)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO PR T26.17 (01433) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster PR T19.27 (00776)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Blue Lobster PR T19.27 (00776) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem Ckies PR Minis - Quiet Times T28.75 (41698)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chem Ckies PR Minis - Quiet Times T28.75 (41698) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Starkiller OG Infused Lil Ricky's T37.54 (00904)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Starkiller OG Infused Lil Ricky's T37.54 (00904) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Full Tank THCA Infused PR T41.50 (26055)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Full Tank THCA Infused PR T41.50 (26055) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fantasy Melonz Dogwalkers Minis T22.33 (00987) 0.35g",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Fantasy Melonz Dogwalkers Minis T22.33 (00987) 0.35g $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine PR T24.55 (01381)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine PR T24.55 (01381) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints PR T28.43 (01605)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Foreign Kush Mints PR T28.43 (01605) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Mintz PR T25.88 (00456)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Purple Mintz PR T25.88 (00456) $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem Pop PR T22.35 (00021)",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Chem Pop PR T22.35 (00021) $10.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Sunrise PR T31.35 (00551)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Mystic Sunrise PR T31.35 (00551) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO PR T26.83 (01152)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - GMO PR T26.83 (01152) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express PR T24.37 (01486)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Titan Express PR T24.37 (01486) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gelato Rntz Spark - Quiet Times T22.50 (41787)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gelato Rntz Spark - Quiet Times T22.50 (41787) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava THCA Infused PR T50.09 (26974)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Zuava THCA Infused PR T50.09 (26974) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto PR T22.35 (01399)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Moonbeam Latto PR T22.35 (01399) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy Spark - Fast Times T25.37 (41786)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Durban Legacy Spark - Fast Times T25.37 (41786) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sun Grown Summer L Infused PR T38.53 (00320)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Sun Grown Summer L Infused PR T38.53 (00320) $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miss Strawberry Spark - Fast Times T24.01 (41612)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Miss Strawberry Spark - Fast Times T24.01 (41612) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR PR T23.35 (41727)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR PR T23.35 (41727) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem Valley Kush PR T28.91 (26642)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Chem Valley Kush PR T28.91 (26642) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Sunshine Lil' Ricky's T25.13 (00890)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Orange Sunshine Lil' Ricky's T25.13 (00890) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Do Not Trip Dogwalkers Big Dog PR T27.19 (01330)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Do Not Trip Dogwalkers Big Dog PR T27.19 (01330) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel PR T27.85 (00026)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel PR T27.85 (00026) $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise PR T24.87 (01465)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise PR T24.87 (01465) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip Dogwalkers Big Dog PR T26.31 (01294)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Lemon Drip Dogwalkers Big Dog PR T26.31 (01294) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D PR T28.63 (00442)",
+    "brand": "Chemdog's",
+    "message": "New: Chemdog's - Chem D PR T28.63 (00442) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry PR T24.41 (00501)",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Blueberry PR T24.41 (00501) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jet Fuel PR T15.55 (01084)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Jet Fuel PR T15.55 (01084) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave PR T23.65 (01548)",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave PR T23.65 (01548) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints PR T33.63 (01495)",
+    "brand": "Dark Heart Collection",
+    "message": "New: Dark Heart Collection - Foreign Kush Mints PR T33.63 (01495) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orbit E-Rig (A191)",
+    "brand": "--",
+    "message": "New: -- - Orbit E-Rig (A191) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan Kodo Pro (A597)",
+    "brand": "Yocan",
+    "message": "New: Yocan - Yocan Kodo Pro (A597) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silicone Spoon Pipe (A127)",
+    "brand": "Eyce",
+    "message": "New: Eyce - Silicone Spoon Pipe (A127) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Advanced Cleaner 16oz (A238)",
+    "brand": "Formula 710",
+    "message": "New: Formula 710 - Advanced Cleaner 16oz (A238) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B-Smart Battery (A188)",
+    "brand": "--",
+    "message": "New: -- - B-Smart Battery (A188) $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rasta Stripe White Lattacino Bowl Head - 14mmM (A590)",
+    "brand": "Generic Glass",
+    "message": "New: Generic Glass - Rasta Stripe White Lattacino Bowl Head - 14mmM (A590) $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Cones - King Size 20pk (A11)",
+    "brand": "--",
+    "message": "New: -- - Classic Cones - King Size 20pk (A11) $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cones - 1 1/4 6pk (A400)",
+    "brand": "Blazy Susan",
+    "message": "New: Blazy Susan - Cones - 1 1/4 6pk (A400) $3.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Thin Cones - 1 1/4 24pk (A496)",
+    "brand": "Zig-Zag",
+    "message": "New: Zig-Zag - Ultra Thin Cones - 1 1/4 24pk (A496) $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loyalty Point Spoon Pipe 3\" (A77)",
+    "brand": "Generic Glass",
+    "message": "New: Generic Glass - Loyalty Point Spoon Pipe 3\" (A77) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Unbleached Papers - 1 1/4 (A48)",
+    "brand": "Zig-Zag",
+    "message": "New: Zig-Zag - Unbleached Papers - 1 1/4 (A48) $1.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Downstem 2.5'' (A21)",
+    "brand": "Glassware",
+    "message": "New: Glassware - Downstem 2.5'' (A21) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hemp Wick - 10' (A13)",
+    "brand": "RAW",
+    "message": "New: RAW - Hemp Wick - 10' (A13) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glass Screens - Daisy 5pk (A110)",
+    "brand": "Glassware",
+    "message": "New: Glassware - Glass Screens - Daisy 5pk (A110) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Papers - Organic Hemp King Slim (A771)",
+    "brand": null,
+    "message": "New: null - Zig Zag Papers - Organic Hemp King Slim (A771) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Papers - Organic Hemp Combo Pack 1 1/4 (A777)",
+    "brand": null,
+    "message": "New: null - Zig Zag Papers - Organic Hemp Combo Pack 1 1/4 (A777) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Papers - French Orange - 1 1/4 Combo Pack (A778)",
+    "brand": null,
+    "message": "New: null - Zig Zag Papers - French Orange - 1 1/4 Combo Pack (A778) $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Hemp Wraps (A870)",
+    "brand": null,
+    "message": "New: null - Zig Zag Hemp Wraps (A870) $0.99"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Cones - Ultra Thin - 1 1/4 24PK (A776)",
+    "brand": null,
+    "message": "New: null - Zig Zag Cones - Ultra Thin - 1 1/4 24PK (A776) $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Cones - Organic 6pk 1 1/4 (A871)",
+    "brand": null,
+    "message": "New: null - Zig Zag Cones - Organic 6pk 1 1/4 (A871) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Cones - Organic 3PK King Size (A986)",
+    "brand": null,
+    "message": "New: null - Zig Zag Cones - Organic 3PK King Size (A986) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zig Zag Cones - 70mm 8pk (A874)",
+    "brand": null,
+    "message": "New: null - Zig Zag Cones - 70mm 8pk (A874) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zengaz Chip Jet Torch Lighter (A880)",
+    "brand": null,
+    "message": "New: null - Zengaz Chip Jet Torch Lighter (A880) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan iShred Electric Grinder (A1057)",
+    "brand": null,
+    "message": "New: null - Yocan iShred Electric Grinder (A1057) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan UNI Pro 3.0 (A829)",
+    "brand": null,
+    "message": "New: null - Yocan UNI Pro 3.0 (A829) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan Kodo Star (A1004)",
+    "brand": null,
+    "message": "New: null - Yocan Kodo Star (A1004) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan Kodo Pro - Wulf (A839)",
+    "brand": null,
+    "message": "New: null - Yocan Kodo Pro - Wulf (A839) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan Dubb Dual Battery (A938)",
+    "brand": null,
+    "message": "New: null - Yocan Dubb Dual Battery (A938) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yocan Black Pocket Concentrate Vaporizer (A1034)",
+    "brand": null,
+    "message": "New: null - Yocan Black Pocket Concentrate Vaporizer (A1034) $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "XXL Saturn Terp Slurper Banger - 14mmM 90° (A149)",
+    "brand": "Terporium",
+    "message": "New: Terporium - XXL Saturn Terp Slurper Banger - 14mmM 90° (A149) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wiz Khalifa Rolling Papers 1 1/4 (A836)",
+    "brand": null,
+    "message": "New: null - Wiz Khalifa Rolling Papers 1 1/4 (A836) $1.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wiz Khalifa Rolling Papers - Wiz Size Slim (A837)",
+    "brand": null,
+    "message": "New: null - Wiz Khalifa Rolling Papers - Wiz Size Slim (A837) $1.30"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Witch's Hat Glass Pipe (A915)",
+    "brand": null,
+    "message": "New: null - Witch's Hat Glass Pipe (A915) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wacky Bowlz Sea Turtle Ceramic Pipe (A972)",
+    "brand": null,
+    "message": "New: null - Wacky Bowlz Sea Turtle Ceramic Pipe (A972) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vintage Decanter Water Pipe (A809)",
+    "brand": null,
+    "message": "New: null - Vintage Decanter Water Pipe (A809) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Valentines Day Heart Glow in The Dark Beaker (A731)",
+    "brand": null,
+    "message": "New: null - Valentines Day Heart Glow in The Dark Beaker (A731) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vacation Sandals Herb Slide 14MM (A716)",
+    "brand": null,
+    "message": "New: null - Vacation Sandals Herb Slide 14MM (A716) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Universal 6-in-1 Titanium Nail (A478)",
+    "brand": "--",
+    "message": "New: -- - Universal 6-in-1 Titanium Nail (A478) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Uni Pro 2.0 Battery (A501)",
+    "brand": "Yocan",
+    "message": "New: Yocan - Uni Pro 2.0 Battery (A501) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Uni Pro - 510 Magnetic Ring (A283)",
+    "brand": "Yocan",
+    "message": "New: Yocan - Uni Pro - 510 Magnetic Ring (A283) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Unbleached Papers - 1 1/4 50pk (A531)",
+    "brand": "Still River Wellness",
+    "message": "New: Still River Wellness - Unbleached Papers - 1 1/4 50pk (A531) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Thin Rice Papers - King Size 33pk (A291)",
+    "brand": "Elements Papers",
+    "message": "New: Elements Papers - Ultra Thin Rice Papers - King Size 33pk (A291) $1.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Thin Rice Papers - 1 1/4 50pk (A302)",
+    "brand": "Elements Papers",
+    "message": "New: Elements Papers - Ultra Thin Rice Papers - 1 1/4 50pk (A302) $1.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Thin Papers - 1 1/4 32pk (A49)",
+    "brand": "Zig-Zag",
+    "message": "New: Zig-Zag - Ultra Thin Papers - 1 1/4 32pk (A49) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "USB-Micro Charger (A544)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - USB-Micro Charger (A544) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "USB-C Charger (A405)",
+    "brand": "Pulsar",
+    "message": "New: Pulsar - USB-C Charger (A405) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "USB-A Charger - Male (A241)",
+    "brand": "Generic Charger",
+    "message": "New: Generic Charger - USB-A Charger - Male (A241) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "U-Neck Quartz Banger - 14mmM 90° (A477)",
+    "brand": "Pulsar",
+    "message": "New: Pulsar - U-Neck Quartz Banger - 14mmM 90° (A477) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tyson lass Ashtray - Pigeon (A857)",
+    "brand": null,
+    "message": "New: null - Tyson lass Ashtray - Pigeon (A857) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tyson 2.0 X Futurola Terpene- Infused Blunt Wrap (A828)",
+    "brand": null,
+    "message": "New: null - Tyson 2.0 X Futurola Terpene- Infused Blunt Wrap (A828) $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TuffLuv Beaker W/ Frosted Leaf (A1073)",
+    "brand": null,
+    "message": "New: null - TuffLuv Beaker W/ Frosted Leaf (A1073) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Bowl Spoon Pipe 6\" (A318)",
+    "brand": "--",
+    "message": "New: -- - Triple Bowl Spoon Pipe 6\" (A318) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titanium Nozzle Replacement (A553)",
+    "brand": "Eyce",
+    "message": "New: Eyce - Titanium Nozzle Replacement (A553) $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Heart Grows Fonder Glass Water Pipe (A730)",
+    "brand": null,
+    "message": "New: null - The Heart Grows Fonder Glass Water Pipe (A730) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Terp Tube Hammer Pipe (A1080)",
+    "brand": null,
+    "message": "New: null - Terp Tube Hammer Pipe (A1080) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Terp Tube - lil Chugger (A691)",
+    "brand": null,
+    "message": "New: null - Terp Tube - lil Chugger (A691) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Terp Tube - Mini Chugger - 10mm (A684)",
+    "brand": null,
+    "message": "New: null - Terp Tube - Mini Chugger - 10mm (A684) $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TOP Rolling Papers 1 1/2 (A978)",
+    "brand": null,
+    "message": "New: null - TOP Rolling Papers 1 1/2 (A978) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "String Bracelets (A810)",
+    "brand": null,
+    "message": "New: null - String Bracelets (A810) $3.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stem w/ Flower Bowl and Handle (A909)",
+    "brand": null,
+    "message": "New: null - Stem w/ Flower Bowl and Handle (A909) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stem & Slide Set - Small (A893)",
+    "brand": null,
+    "message": "New: null - Stem & Slide Set - Small (A893) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stem & Slide Set - Medium (A894)",
+    "brand": null,
+    "message": "New: null - Stem & Slide Set - Medium (A894) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stem & Slide Set - Large (A895)",
+    "brand": null,
+    "message": "New: null - Stem & Slide Set - Large (A895) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "StashLogix-Dotsero Dugout (A67)",
+    "brand": "--",
+    "message": "New: -- - StashLogix-Dotsero Dugout (A67) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spoon Pipe - Wigwag (A325)",
+    "brand": "--",
+    "message": "New: -- - Spoon Pipe - Wigwag (A325) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spooky Halloween Tree Glass Hand Pipe (A943)",
+    "brand": null,
+    "message": "New: null - Spooky Halloween Tree Glass Hand Pipe (A943) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spherical Splendour Round Water Pipe (A991)",
+    "brand": null,
+    "message": "New: null - Spherical Splendour Round Water Pipe (A991) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spherical Pocket Bubbler (A28)",
+    "brand": "--",
+    "message": "New: -- - Spherical Pocket Bubbler (A28) $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solo (A554)",
+    "brand": "Eyce",
+    "message": "New: Eyce - Solo (A554) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smoke Temple Cross Cone - 1 1/4 1PK (A798)",
+    "brand": null,
+    "message": "New: null - Smoke Temple Cross Cone - 1 1/4 1PK (A798) $4.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smiley High UV Hand Pipe (A1071)",
+    "brand": null,
+    "message": "New: null - Smiley High UV Hand Pipe (A1071) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ski Goggle Gas Mask & Acrylic Water Pipe (A946)",
+    "brand": null,
+    "message": "New: null - Ski Goggle Gas Mask & Acrylic Water Pipe (A946) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sipper w/ Bubbler Cup (A55)",
+    "brand": "Pulsar",
+    "message": "New: Pulsar - Sipper w/ Bubbler Cup (A55) $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silverton - Medium (A64)",
+    "brand": "Stash Logix",
+    "message": "New: Stash Logix - Silverton - Medium (A64) $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silverton - Large (A65)",
+    "brand": "Stash Logix",
+    "message": "New: Stash Logix - Silverton - Large (A65) $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silver Screens 5pk (A78)",
+    "brand": "Generic Screen",
+    "message": "New: Generic Screen - Silver Screens 5pk (A78) $0.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silicone Mat - Large (A287)",
+    "brand": "Yo Daba Daba",
+    "message": "New: Yo Daba Daba - Silicone Mat - Large (A287) $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shark Attack Sandblasted Pipe (A896)",
+    "brand": null,
+    "message": "New: null - Shark Attack Sandblasted Pipe (A896) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SeshGear Prismatic Bliss Water Pipe (A1058)",
+    "brand": null,
+    "message": "New: null - SeshGear Prismatic Bliss Water Pipe (A1058) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SeshGear Mushroom Vape Battery (A789)",
+    "brand": null,
+    "message": "New: null - SeshGear Mushroom Vape Battery (A789) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SeshGear Bent Neck Straight Tube Water Pipe (A992)",
+    "brand": null,
+    "message": "New: null - SeshGear Bent Neck Straight Tube Water Pipe (A992) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SeshGear 510 Ray Gun Battery (A989)",
+    "brand": null,
+    "message": "New: null - SeshGear 510 Ray Gun Battery (A989) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SeaShell Hand Pipe (A826)",
+    "brand": null,
+    "message": "New: null - SeaShell Hand Pipe (A826) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scary Purge Light Up Gas Mask & Acrylic Water Pipe (A948)",
+    "brand": null,
+    "message": "New: null - Scary Purge Light Up Gas Mask & Acrylic Water Pipe (A948) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SRW Wooden Dugout (A794)",
+    "brand": null,
+    "message": "New: null - SRW Wooden Dugout (A794) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SRW Vape Battery (A793)",
+    "brand": null,
+    "message": "New: null - SRW Vape Battery (A793) $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SRW Premium Glass Bowl (A791)",
+    "brand": null,
+    "message": "New: null - SRW Premium Glass Bowl (A791) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SRW Metal Grinder (A792)",
+    "brand": null,
+    "message": "New: null - SRW Metal Grinder (A792) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SRW Clipper Jet Flame Lighter (A987)",
+    "brand": null,
+    "message": "New: null - SRW Clipper Jet Flame Lighter (A987) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ruby Terp Pearls 6mm 2pk (A282)",
+    "brand": "Terp Tube",
+    "message": "New: Terp Tube - Ruby Terp Pearls 6mm 2pk (A282) $4.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rolling Tray - Large (A33)",
+    "brand": "Zig-Zag",
+    "message": "New: Zig-Zag - Rolling Tray - Large (A33) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rippin Rascal Water Pipe (A1001)",
+    "brand": null,
+    "message": "New: null - Rippin Rascal Water Pipe (A1001) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Reverse Tweezers (A288)",
+    "brand": "Yo Daba Daba",
+    "message": "New: Yo Daba Daba - Reverse Tweezers (A288) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Reclaimer - 10mmF 45° (A480)",
+    "brand": "Terp Tube",
+    "message": "New: Terp Tube - Reclaimer - 10mmF 45° (A480) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Sorting Bowl (A1022)",
+    "brand": null,
+    "message": "New: null - Raw Sorting Bowl (A1022) $2.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Smoke Thrower (A835)",
+    "brand": null,
+    "message": "New: null - Raw Smoke Thrower (A835) $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Rawtomatic Roll Box (A764)",
+    "brand": null,
+    "message": "New: null - Raw Rawtomatic Roll Box (A764) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Papers- Organic Connoisseur King Size (A783)",
+    "brand": null,
+    "message": "New: null - Raw Papers- Organic Connoisseur King Size (A783) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Organic Papers 1 1/2 (A853)",
+    "brand": null,
+    "message": "New: null - Raw Organic Papers 1 1/2 (A853) $2.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raw Organic Connoisseur Paper 1 1/4 (A759)",
+    "brand": null,
+    "message": "New: null - Raw Organic Connoisseur Paper 1 1/4 (A759) $3.00"
+  }
+]
