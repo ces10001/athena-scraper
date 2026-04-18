@@ -31,10 +31,13 @@ jobs:
       - name: Run ATHENA scraper
         run: node src/scrape.mjs --verbose
 
+      - name: Build dashboard data
+        run: node src/build-dashboard.mjs
+
       - name: Commit results
         run: |
           git config user.name "ATHENA Bot"
           git config user.email "athena-bot@affinitydispensary.com"
-          git add data/
+          git add data/ dashboard_data.json
           git diff --staged --quiet || git commit -m "🔄 ATHENA scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
