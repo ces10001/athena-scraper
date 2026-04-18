@@ -1,0 +1,21 @@
+{
+  "name": "athena-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ATHENA — CT Cannabis Competitive Pricing Intelligence Scraper",
+  "scripts": {
+    "scrape": "node src/scrape.mjs",
+    "scrape:jane": "node src/scrape.mjs --platform jane",
+    "scrape:sweed": "node src/scrape.mjs --platform sweed",
+    "scrape:dry": "node src/scrape.mjs --dry-run --verbose",
+    "recon": "node src/recon.mjs",
+    "recon:all": "node src/recon.mjs --all",
+    "recon:list": "node src/recon.mjs --list"
+  },
+  "keywords": ["cannabis", "scraper", "pricing", "intelligence"],
+  "author": "Affinity Dispensary",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
