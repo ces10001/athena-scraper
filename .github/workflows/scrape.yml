@@ -1,10 +1,8 @@
 name: ATHENA Nightly Scrape
 
-# Runs every night at 3:47 AM Eastern (7:47 UTC)
 on:
   schedule:
     - cron: '47 7 * * *'
-  # Also lets you run it manually from GitHub
   workflow_dispatch:
 
 permissions:
@@ -16,32 +14,27 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      # 1. Check out the repo
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Set up Node.js
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4. Run the scraper
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
       - name: Run ATHENA scraper
         run: node src/scrape.mjs --verbose
-        env:
-          NODE_ENV: production
 
-      # 5. Commit the results back to the repo
       - name: Commit results
         run: |
           git config user.name "ATHENA Bot"
           git config user.email "athena-bot@affinitydispensary.com"
           git add data/
-          # Only commit if there are changes
           git diff --staged --quiet || git commit -m "🔄 ATHENA scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
