@@ -161,8 +161,8 @@ export async function scrapeSweed(dispensary) {
 
       try {
         var page = await context.newPage();
-        await page.goto(menuUrl, { waitUntil: 'networkidle', timeout: 45000 });
-        await page.waitForTimeout(2000);
+        await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        await page.waitForTimeout(5000);
 
         var firstResult = await extractProductsFromPage(page);
         var maxPage = firstResult.maxPage || 1;
@@ -183,8 +183,8 @@ export async function scrapeSweed(dispensary) {
             var pageUrl = menuUrl + sep + 'page=' + pg;
             var nextPage = await context.newPage();
             try {
-              await nextPage.goto(pageUrl, { waitUntil: 'networkidle', timeout: 30000 });
-              await nextPage.waitForTimeout(1500);
+              await nextPage.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+              await nextPage.waitForTimeout(4000);
               var pgResult = await extractProductsFromPage(nextPage);
               for (var pp = 0; pp < pgResult.products.length; pp++) {
                 var pid = pgResult.products[pp].external_id;
