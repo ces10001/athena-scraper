@@ -2,11 +2,12 @@
 import { CT_DISPENSARIES } from '../config/dispensaries.mjs';
 import { scrapeDutchie, cleanup } from './adapters/dutchie.mjs';
 import { scrapeCuraleaf } from './adapters/curaleaf.mjs';
+import { scrapeFineFettle } from './adapters/finefettle.mjs';
 import { validateProduct } from './lib/normalizer.mjs';
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync, readdirSync } from 'fs';
 
-var ADAPTERS = { dutchie: scrapeDutchie, curaleaf: scrapeCuraleaf };
+var ADAPTERS = { dutchie: scrapeDutchie, curaleaf: scrapeCuraleaf, finefettle: scrapeFineFettle };
 
 function parseArgs() {
   var args = process.argv.slice(2);
@@ -71,6 +72,7 @@ async function main() {
     if (d.platform === 'owner' || d.platform === 'unknown') return false;
     if (d.platform === 'dutchie' && !d.dispensary_id) return false;
     if (d.platform === 'curaleaf' && !d.store_slug) return false;
+    if (d.platform === 'finefettle' && !d.store_ids) return false;
     if (opts.platform && d.platform !== opts.platform) return false;
     if (opts.name && !d.name.toLowerCase().includes(opts.name.toLowerCase())) return false;
     return true;
