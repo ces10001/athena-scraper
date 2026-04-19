@@ -1,0 +1,2918 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hickory Hash Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Hickory Hash Ground Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowHippie Crasher Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowHippie Crasher Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowCapy Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowCapy Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaJokerz Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaJokerz Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionChillaxing Cherry Limeade Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionChillaxing Cherry Limeade Ratioed Gummies $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Cookies Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Cookies Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Bellini Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Peach Bellini Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Whole Flower $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Mints Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Kush Mints Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesMango RSO Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesMango RSO Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowCoconut Milk Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowCoconut Milk Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Matter Gummies",
+    "brand": "Select",
+    "message": "New: Select - Orange Matter Gummies $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Pomegranate Fast-Acting Ratioed Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Raspberry Pomegranate Fast-Acting Ratioed Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMargarita RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMargarita RSO Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Watermelon Lime Fast-Acting Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Watermelon Lime Fast-Acting Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBlack Cherry Fast-Acting Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBlack Cherry Fast-Acting Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Confidential Cherries Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Confidential Cherries Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Blue Razzberry Ratioed Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Blue Razzberry Ratioed Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Muffin Grease Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Muffin Grease Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBerry Dreamy Ratioed Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBerry Dreamy Ratioed Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowGarlic Icing Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowGarlic Icing Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisSour Apple RSO Gummies",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisSour Apple RSO Gummies $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowLemon Skunk Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowLemon Skunk Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowBlack Maple Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowBlack Maple Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Strawberry Lemonade Fast-Acting Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Strawberry Lemonade Fast-Acting Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBlood Orange Ratioed Seltzer3mg | 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBlood Orange Ratioed Seltzer3mg | 1:1: $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Connecticut Sunrise Fast-Acting Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Connecticut Sunrise Fast-Acting Gummies $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Martian Mints Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Martian Mints Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowSunshine Daydream Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowSunshine Daydream Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Budda Buddha Chocolate",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Peanut Budda Buddha Chocolate $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Delphi Diesel Pre-Roll Pack",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Delphi Diesel Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassDurban Legacy Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassDurban Legacy Pre-Roll $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sour Z Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE Pre-Roll $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Greener Apple Fast-Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Greener Apple Fast-Acting Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionCreative Clementine Live Resin Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionCreative Clementine Live Resin Ratioed Gummies $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Durban BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Sour Durban BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChemdawg Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChemdawg Pre-Roll $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionSunset Citron Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionSunset Citron Ratioed Gummies $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesSour Mandarin RSO Ratioed Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesSour Mandarin RSO Ratioed Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaNimbus Snacks Pre-Roll Pack",
+    "brand": "CT",
+    "message": "New: CT - PharmaNimbus Snacks Pre-Roll Pack $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.4g Ea 4 Pack",
+    "brand": null,
+    "message": "New: null - 0.4g Ea 4 Pack $29.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewStrawberry Kiwi Ratioed Seltzer3mg | 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewStrawberry Kiwi Ratioed Seltzer3mg | 1:1: $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Ground Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Gush Mintz Ground Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowStar Killer OG Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowStar Killer OG Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPink Lemonade Live Resin Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPink Lemonade Live Resin Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lemonade Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Watermelon Lemonade Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerGrape Escape Cartridge",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerGrape Escape Cartridge $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewRaspberry Lemonade Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewRaspberry Lemonade Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Canna Miranda Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Canna Miranda Infused Pre-Roll Pack $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ProofDash of Orange Infusion",
+    "brand": "Zero",
+    "message": "New: Zero - ProofDash of Orange Infusion $24.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesSweet Strawberry Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesSweet Strawberry Gummies $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWatermelon Sherbet Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWatermelon Sherbet Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsBlack Maple x Bubba F Cartridge",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsBlack Maple x Bubba F Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreverberry Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Foreverberry Infused Pre-Roll Pack $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blackberry Dream Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Blackberry Dream Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Double Purple Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Double Purple Cartridge $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whole Flower",
+    "brand": "SpringtimeCIG",
+    "message": "New: SpringtimeCIG - Whole Flower $34.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaGush Mintz Infused Pre-Roll Pack",
+    "brand": "CT",
+    "message": "New: CT - PharmaGush Mintz Infused Pre-Roll Pack $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsCreamsicle Sunset All-in-One",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsCreamsicle Sunset All-in-One $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Titan Express Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kookyz Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Orange Kookyz Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Freshly Squeezed Ratioed Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Freshly Squeezed Ratioed Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG All-in-One",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison All-in-One",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Diesel Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Sour Diesel Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowAlien OG Pre-Roll Pack",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowAlien OG Pre-Roll Pack $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewApple Cider Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewApple Cider Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot All-in-One",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Cartridge $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon Haze Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Super Lemon Haze Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Bubble All-in-One",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Bubble All-in-One $96.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewForbidden Fruit Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewForbidden Fruit Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indica Princess Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Indica Princess Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisCherry Lime Live Rosin Gummies",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisCherry Lime Live Rosin Gummies $18.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ConfectionsPeanut Butter Cups",
+    "brand": "Astro",
+    "message": "New: Astro - ConfectionsPeanut Butter Cups $16.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPurple Urkle Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPurple Urkle Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenRose Gold RTZ Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenRose Gold RTZ Whole Flower $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenRose Gold RTZ Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenRose Gold RTZ Whole Flower $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Roll Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata Cartridge $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE Pre-Roll $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Skunk Pre-Roll",
+    "brand": "SavvyGMO",
+    "message": "New: SavvyGMO - Skunk Pre-Roll $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Island Punch Fast-Acting Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Island Punch Fast-Acting Gummies $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Jelly Roll Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g",
+    "brand": null,
+    "message": "New: null - 7g $51.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "E85 Small Buds 28g",
+    "brand": null,
+    "message": "New: null - E85 Small Buds 28g $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerSuga T's Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerSuga T's Whole Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Goat Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Modified Goat Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowMF-107 Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowMF-107 Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Swamp Water Fumez Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenRegina Goregous Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenRegina Goregous Whole Flower $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenRegina Goregous Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenRegina Goregous Whole Flower $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz Infused Blunt",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz Infused Blunt $16.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glacial Garden Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Glacial Garden Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orchard Peach Ratioed Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Orchard Peach Ratioed Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMango Ratioed Seltzer3mg | 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMango Ratioed Seltzer3mg | 1:1: $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express All-in-One",
+    "brand": "Aura",
+    "message": "New: Aura - Pineapple Express All-in-One $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowLemon Delight Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowLemon Delight Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush CKE Whole Flower",
+    "brand": "RYTHMLA",
+    "message": "New: RYTHMLA - Kush CKE Whole Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerSuper Silver Grapefruit Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerSuper Silver Grapefruit Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dos Mendos Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Dos Mendos Small Buds $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesSour Strawberry Peach Ratioed Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesSour Strawberry Peach Ratioed Gummies $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "All-in-One",
+    "brand": "SelectGMO",
+    "message": "New: SelectGMO - All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzGary P Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzGary P Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel Cartridge",
+    "brand": "Comffy",
+    "message": "New: Comffy - Purple Urkel Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake Small Buds",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz Ground Flower $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzC-Stata Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzC-Stata Small Buds $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenChkn n Wflz Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenChkn n Wflz Whole Flower $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $29.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionPeaceful Paradise Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionPeaceful Paradise Gummies $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g",
+    "brand": null,
+    "message": "New: null - 1g $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jai Alai Whole Flower",
+    "brand": "Comffy",
+    "message": "New: Comffy - Jai Alai Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewCitrus Punch Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewCitrus Punch Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3mg",
+    "brand": null,
+    "message": "New: null - 3mg $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Cheddar Cheeze Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sour Z Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionCrushin' It Cran-Raspberry Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionCrushin' It Cran-Raspberry Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinapple Sunrise Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pinapple Sunrise Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisG41 Sungrown Whole Flower",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisG41 Sungrown Whole Flower $26.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Apple Pucker Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Apple Pucker Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Limeade Ready-to-Drink3mg25% Off!",
+    "brand": "Layup",
+    "message": "New: Layup - Limeade Ready-to-Drink3mg25% Off! $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solotti 95 Cartridge",
+    "brand": "SelectGA",
+    "message": "New: SelectGA - Solotti 95 Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon G Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Super Lemon G Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g",
+    "brand": null,
+    "message": "New: null - 7g $51.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Durban Poison Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns Whole Flower $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Gas Lit Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerFrozen Bag Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerFrozen Bag Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsB Scout x LA Kush CKE All-in-One",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsB Scout x LA Kush CKE All-in-One $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Purple Urkel BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Bomb Cartridge",
+    "brand": "Comffy",
+    "message": "New: Comffy - Cherry Bomb Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsCheddar Cheeze All-in-One",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsCheddar Cheeze All-in-One $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Widow Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - White Widow Live Resin All-in-One $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewCookie Crumble Milk Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewCookie Crumble Milk Chocolate Bar $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G Cartridge $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G Cartridge $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Arnie'sZen Magic Ratioed Seltzer2.5mg25% Off!",
+    "brand": "Uncle",
+    "message": "New: Uncle - Arnie'sZen Magic Ratioed Seltzer2.5mg25% Off! $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Berry Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Wild Berry Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPeach RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPeach RSO Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cough Cartridge",
+    "brand": "Comffy",
+    "message": "New: Comffy - Strawberry Cough Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG Whole Flower $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Blue Dream Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bites Whole Flower",
+    "brand": "Find.PB",
+    "message": "New: Find.PB - Bites Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Breath All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Breath All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Humboldt Sour Diesel Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Humboldt Sour Diesel Whole Flower $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Orange Z Whole Flower $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerLeft on Red Cartridge",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerLeft on Red Cartridge $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g",
+    "brand": null,
+    "message": "New: null - 1g $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads Ground Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads Ground Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ElixirBeverage by Lucky BreakWatermelon Lime Fast-Acting Infusion",
+    "brand": "Lucky",
+    "message": "New: Lucky - ElixirBeverage by Lucky BreakWatermelon Lime Fast-Acting Infusion $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerGreen Queen All-in-One",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerGreen Queen All-in-One $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SpritzOral by Lucky BreakLemon Lucky Spray",
+    "brand": "Lucky",
+    "message": "New: Lucky - SpritzOral by Lucky BreakLemon Lucky Spray $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewToasted S'mores Milk Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewToasted S'mores Milk Chocolate Bar $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghst Face Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ghst Face Cartridge $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding Infused Pre-Roll Pack $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Garlotti Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cartridge",
+    "brand": "SelectGMO",
+    "message": "New: SelectGMO - Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPumpkin Spice Chocolate",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPumpkin Spice Chocolate $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber All-in-One",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Kush Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Couch Kush Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citradelic Haze Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Citradelic Haze Ground Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionCoasting Cherry Punch Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionCoasting Cherry Punch Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez Small Buds",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Swamp Water Fumez Small Buds $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenChem n' Cook Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenChem n' Cook Whole Flower $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Habanero Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Pineapple Habanero Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaModified Haze Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaModified Haze Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purpentine Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Purpentine Small Buds $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Berry Ratioed Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Dream Berry Ratioed Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowMelted Strawberries Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowMelted Strawberries Live Terpene Cartridge $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsAnimal Face x Purple Tyde Cartridge",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsAnimal Face x Purple Tyde Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenFantasy Melonz Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenFantasy Melonz Whole Flower $67.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "IslandsHalf & Half Ratioed Seltzer5mg25% Off!",
+    "brand": "Five",
+    "message": "New: Five - IslandsHalf & Half Ratioed Seltzer5mg25% Off! $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Mendo Wedding Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowBlue Lobster Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowBlue Lobster Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Surfer Whole Flower",
+    "brand": "Comffy",
+    "message": "New: Comffy - Couch Surfer Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Lemonade Ready-to-Drink3mg25% Off!",
+    "brand": "Layup",
+    "message": "New: Layup - Black Cherry Lemonade Ready-to-Drink3mg25% Off! $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Whole Flower $63.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionCatching Citrus Dreams Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionCatching Citrus Dreams Ratioed Gummies $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinyatti Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pinyatti Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinyatti Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pinyatti Whole Flower $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisMotor Breath Sungrown Whole Flower",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisMotor Breath Sungrown Whole Flower $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz Whole Flower $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ConfectionsSalted Caramel Bites",
+    "brand": "Astro",
+    "message": "New: Astro - ConfectionsSalted Caramel Bites $16.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesPomegranate Punch Ratioed Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesPomegranate Punch Ratioed Gummies $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenGlue Fondue Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenGlue Fondue Whole Flower $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll",
+    "brand": "SavvyGMO",
+    "message": "New: SavvyGMO - Pre-Roll $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School OG BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Old School OG BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Pineapple Express Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whole Flower",
+    "brand": "RYTHMOMG",
+    "message": "New: RYTHMOMG - Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaMint Diesel Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaMint Diesel Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerSuper Buff Cherry Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerSuper Buff Cherry Whole Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Moonbeam Latto Whole Flower $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Orange Lime Gummies",
+    "brand": "Select",
+    "message": "New: Select - Raspberry Orange Lime Gummies $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream Cartridge $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaMendo Wedding Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaMendo Wedding Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Magenta Dream Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Magenta Dream Pre-Roll $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mintz Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Mystic Mintz Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HouseLite Ratioed Seltzer3mg | 1:",
+    "brand": "Float",
+    "message": "New: Float - HouseLite Ratioed Seltzer3mg | 1: $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzCap Junk Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzCap Junk Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Batter Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Berry Batter Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzC-Stata Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzC-Stata Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Perm Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Purple Perm Infused Pre-Roll Pack $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDieselato Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaDieselato Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowMusk #1 Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowMusk #1 Live Terpene Cartridge $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsFantasy Melonz Pre-Roll",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsFantasy Melonz Pre-Roll $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsCosmic B Ground Flower",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsCosmic B Ground Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowIce Cream Cake Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowIce Cream Cake Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDurban Stardawg Infused Pre-Roll",
+    "brand": "CT",
+    "message": "New: CT - PharmaDurban Stardawg Infused Pre-Roll $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker Infused Pre-Roll Pack $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowKo'Zeto Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowKo'Zeto Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaRoyale Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaRoyale Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Margarita Fast-Acting Ratioed Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Strawberry Margarita Fast-Acting Ratioed Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Burst Ratioed Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Tropical Burst Ratioed Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesSativa Milk RSO Chocolate",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesSativa Milk RSO Chocolate $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slingria Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Slingria Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerTrophy Diesel Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerTrophy Diesel Whole Flower $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWatermelon Ratioed Seltzer3mg | 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWatermelon Ratioed Seltzer3mg | 1:1: $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsLemon Drip x Sour D Cartridge",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsLemon Drip x Sour D Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsDurban Z Whole Flower",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsDurban Z Whole Flower $81.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pupil Whole Flower",
+    "brand": "CuraleafMr E",
+    "message": "New: CuraleafMr E - Pupil Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motorbreath Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Motorbreath Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenBubba F Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenBubba F Whole Flower $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenBubba F Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenBubba F Whole Flower $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenBubba F Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenBubba F Whole Flower $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsRNTZ x Fantasy Melonz Cartridge",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsRNTZ x Fantasy Melonz Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bites Pre-Roll",
+    "brand": "Find.PB",
+    "message": "New: Find.PB - Bites Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesIndica Milk Chocolate RSO Chocolate",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesIndica Milk Chocolate RSO Chocolate $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Moonburst Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Whole Flower $63.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Atomic Breath Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint Condition Whole Flower",
+    "brand": "Comffy",
+    "message": "New: Comffy - Mint Condition Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Back Porch Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Back Porch Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Nana Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ultra Nana Pre-Roll $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangie Crush RSO Gummies",
+    "brand": "Savvy",
+    "message": "New: Savvy - Tangie Crush RSO Gummies $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School OG Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Old School OG Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bruce Bamer Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Bruce Bamer Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Acapulco Gold Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Acapulco Gold Live Resin All-in-One $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Gummies",
+    "brand": "Select",
+    "message": "New: Select - Strawberry Gummies $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowGarlic Icing Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowGarlic Icing Live Terpene Cartridge $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaTropical Haze Infused Pre-Roll",
+    "brand": "CT",
+    "message": "New: CT - PharmaTropical Haze Infused Pre-Roll $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerNext Level Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerNext Level Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemonade Ready-to-Drink3mg25% Off!",
+    "brand": "Layup",
+    "message": "New: Layup - Lemonade Ready-to-Drink3mg25% Off! $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Fire OG Whole Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Fire OG Whole Flower $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SpritzOral by Lucky BreakSpearmint Spray",
+    "brand": "Lucky",
+    "message": "New: Lucky - SpritzOral by Lucky BreakSpearmint Spray $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kookyz All-in-One",
+    "brand": "Select",
+    "message": "New: Select - Orange Kookyz All-in-One $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerGrape Escape All-in-One",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerGrape Escape All-in-One $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz All-in-One $27.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Pre-Roll Pack $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hasher Slasher All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hasher Slasher All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakUnflavored Fast-Acting Honey",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakUnflavored Fast-Acting Honey $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ched R Cheez Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Ched R Cheez Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave Whole Flower $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Original Glue Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Original Glue Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart Cartridge $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ratioed Gummies",
+    "brand": "inc.ediblesstrahhhberry",
+    "message": "New: inc.ediblesstrahhhberry - Ratioed Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowBachelor Party Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowBachelor Party Live Terpene Cartridge $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMidnight Mint Milk Chocolate Ratioed Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMidnight Mint Milk Chocolate Ratioed Bar $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Live Resin All-in-One",
+    "brand": "LighthouseMAC",
+    "message": "New: LighthouseMAC - Live Resin All-in-One $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerBlu Destiny Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerBlu Destiny Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer Peach Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Summer Peach Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ForeverBerry Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - ForeverBerry Infused Pre-Roll $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g",
+    "brand": null,
+    "message": "New: null - 1g $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Wedding Cake Live Resin All-in-One $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ElixirBeverage by Lucky BreakFruit Punch Fast-Acting Infusion",
+    "brand": "Lucky",
+    "message": "New: Lucky - ElixirBeverage by Lucky BreakFruit Punch Fast-Acting Infusion $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Guava Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Pink Guava Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel Bites Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Diesel Bites Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Drip RSO Macro Dose Gummies",
+    "brand": "Savvy",
+    "message": "New: Savvy - Berry Drip RSO Macro Dose Gummies $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Slapz Whole Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnYeet Small Buds",
+    "brand": "Let's",
+    "message": "New: Let's - BurnYeet Small Buds $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Garlotti Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowStar Killer x CDLC Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowStar Killer x CDLC Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints Pre-Roll Pack",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Foreign Kush Mints Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinyatti Ground Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pinyatti Ground Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lunar Diesel Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Lunar Diesel Whole Flower $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3mg",
+    "brand": null,
+    "message": "New: null - 3mg $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mimosa Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Mimosa Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWild Berries Dark Chocolate Ratioed Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWild Berries Dark Chocolate Ratioed Bar $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz Infused Pre-Roll Pack $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Blunt",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Blunt $16.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whole Flower",
+    "brand": "ShakaBLB",
+    "message": "New: ShakaBLB - Whole Flower $34.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerGreen Queen Cartridge",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerGreen Queen Cartridge $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "H0rchata Live Resin All In One 1g",
+    "brand": null,
+    "message": "New: null - H0rchata Live Resin All In One 1g $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionSultry Cinnamon Live Resin Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionSultry Cinnamon Live Resin Ratioed Gummies $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "IslandsClassic Tea Ratioed Seltzer5mg25% Off!",
+    "brand": "Five",
+    "message": "New: Five - IslandsClassic Tea Ratioed Seltzer5mg25% Off! $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kooykz BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Orange Kooykz BRIQ $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Live Resin Cartridge",
+    "brand": "LighthouseGMO",
+    "message": "New: LighthouseGMO - Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChemdawg Hash Infused Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChemdawg Hash Infused Pre-Roll $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3mg",
+    "brand": null,
+    "message": "New: null - 3mg $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaPurpentine Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaPurpentine Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Hot Guava Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Hot Guava Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowOklahoma Coma Infused Pre-Roll Pack",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowOklahoma Coma Infused Pre-Roll Pack $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snoozzzeberry Ratioed Chocolate",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Snoozzzeberry Ratioed Chocolate $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT Whole Flower $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hickory Hash Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Hickory Hash Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomegranate Blueberry Acai Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Pomegranate Blueberry Acai Gummies $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWintergreen Mints",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWintergreen Mints $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Cartridge",
+    "brand": "Comffy",
+    "message": "New: Comffy - Blue Dream Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinnacle All-in-One",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pinnacle All-in-One $96.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10g'S Small Buds 3.5g",
+    "brand": null,
+    "message": "New: null - 10g'S Small Buds 3.5g $29.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Happy ConfectionRainbow Parade Ratioed Gummies",
+    "brand": "The",
+    "message": "New: The - Happy ConfectionRainbow Parade Ratioed Gummies $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fritterz Whole Flower",
+    "brand": "Comffy",
+    "message": "New: Comffy - Fritterz Whole Flower $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassBiscotti Pie Pre-Roll Pack",
+    "brand": "Miss",
+    "message": "New: Miss - GrassBiscotti Pie Pre-Roll Pack $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple Cartridge $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Kiss Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Cherry Kiss Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerMidnight O Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerMidnight O Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenParadise Snacks Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenParadise Snacks Whole Flower $67.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express Fast-Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Pineapple Express Fast-Acting Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerPeach Diesel Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerPeach Diesel Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lady in Red Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Lady in Red Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaSunny Stomper Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaSunny Stomper Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Green Apple Fast-Acting Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Green Apple Fast-Acting Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Papi Purple Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Papi Purple Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Pi Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Berry Pi Whole Flower $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMixed Berry Mints",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMixed Berry Mints $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsDurban Z All-in-One",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsDurban Z All-in-One $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewLemon Lime Ratioed Seltzer3mg | 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewLemon Lime Ratioed Seltzer3mg | 1:1: $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Widow Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - White Widow Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Critical Crumb Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hickory Hash Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Hickory Hash Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaUltra Nana Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaUltra Nana Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EdiblesSweet Berry Burst Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - EdiblesSweet Berry Burst Gummies $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vel Croz Pre-Roll Pack",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Vel Croz Pre-Roll Pack $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Whole Flower $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Whole Flower $63.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slip Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Slip Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaChem-Band Infused Pre-Roll",
+    "brand": "CT",
+    "message": "New: CT - PharmaChem-Band Infused Pre-Roll $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "IslandsPeach Tea Ratioed Seltzer5mg25% Off!",
+    "brand": "Five",
+    "message": "New: Five - IslandsPeach Tea Ratioed Seltzer5mg25% Off! $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zlushie Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "New: Amigos - Zlushie Live Resin All-in-One $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Currant Ratioed Gummies",
+    "brand": "Chew",
+    "message": "New: Chew - Grape Currant Ratioed Gummies $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "THC: 85.18%",
+    "brand": "SelectGMO BRIQ",
+    "message": "New: SelectGMO BRIQ - THC: 85.18% $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker Whole Flower $112.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker Whole Flower $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Super Buff Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Pre-Roll $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g",
+    "brand": null,
+    "message": "New: null - 1g $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ParkerLeft on Red All-in-One",
+    "brand": "Edie",
+    "message": "New: Edie - ParkerLeft on Red All-in-One $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisScorpion Bowl RSO Gummies",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisScorpion Bowl RSO Gummies $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaNimbus Snacks Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaNimbus Snacks Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnCT Kush Cake Small Buds",
+    "brand": "Let's",
+    "message": "New: Let's - BurnCT Kush Cake Small Buds $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lato #44 Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Lato #44 Infused Pre-Roll Pack $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slingria Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Slingria Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Half Moonana Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Half Moonana Whole Flower $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Half Moonana Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Half Moonana Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassZugar Mama Hash Infused Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassZugar Mama Hash Infused Pre-Roll $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Acapulco Gold Live Resin Cartridge",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Acapulco Gold Live Resin Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPeanut Butter Pretzel Milk Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPeanut Butter Pretzel Milk Chocolate Bar $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker Infused Blunt",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker Infused Blunt $16.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenFrozen Marg Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenFrozen Marg Whole Flower $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost Ground Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Inferno All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Purple Inferno All-in-One $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Cartridge $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Cartridge $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaModified Haze Live Rosin Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaModified Haze Live Rosin Cartridge $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pomme Jelly Whole Flower $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Breath Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Breath Cartridge $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowModified O Whole Flower3.5g25% Off!",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowModified O Whole Flower3.5g25% Off! $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Melon Crash RSO Macro Dose Gummies",
+    "brand": "Savvy",
+    "message": "New: Savvy - Melon Crash RSO Macro Dose Gummies $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peachy Punch RSO Macro Dose Gummies",
+    "brand": "Savvy",
+    "message": "New: Savvy - Peachy Punch RSO Macro Dose Gummies $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber BRIQ",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber BRIQ $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzJealousy Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzJealousy Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzSuper Buff Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzSuper Buff Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaMiami Stardust Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaMiami Stardust Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Marker All-in-One",
+    "brand": "Brix",
+    "message": "New: Brix - Blue Marker All-in-One $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk All-in-One",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk All-in-One $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Jealousy Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Govmint Oasis Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Govmint Oasis Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling Whole Flower $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glitter Bomb Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Glitter Bomb Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School Blue Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Old School Blue Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Sunrise Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Mystic Sunrise Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowMedellin Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowMedellin Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g Ea 5 Pack",
+    "brand": null,
+    "message": "New: null - 0.5g Ea 5 Pack $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerBaby Cakes Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerBaby Cakes Whole Flower $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowSolo Burger Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowSolo Burger Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisMoscow Mule Live Resin Gummies",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisMoscow Mule Live Resin Gummies $18.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewRaspberry Lime Ratioed Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewRaspberry Lime Ratioed Gummies $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Moonburst Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowStar Killer OG Infused Pre-Roll Pack",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowStar Killer OG Infused Pre-Roll Pack $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz Pre-Roll",
+    "brand": "Find.",
+    "message": "New: Find. - Bulbz Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Cartridge",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Marker Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerBad Decisions Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerBad Decisions Whole Flower $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel BRIQ",
+    "brand": "SelectNYC",
+    "message": "New: SelectNYC - Diesel BRIQ $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewGasolina Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewGasolina Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savoti Capsules",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Savoti Capsules $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowChill Relief Ratioed Gel",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowChill Relief Ratioed Gel $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comfort Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "New: Avexia - Comfort Ratioed Tablets $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowGary P BHO Badder",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowGary P BHO Badder $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaEucalyptus & Lemongrass Ratioed Lotion",
+    "brand": "CT",
+    "message": "New: CT - PharmaEucalyptus & Lemongrass Ratioed Lotion $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowTap Out BHO Badder",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowTap Out BHO Badder $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Harmony Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "New: Avexia - Harmony Ratioed Tablets $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowSpeakeasy BHO Badder",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowSpeakeasy BHO Badder $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Humboldt Sour Diesel Whole Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Humboldt Sour Diesel Whole Flower $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g",
+    "brand": null,
+    "message": "New: null - 1g $44.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ascend Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "New: Avexia - Ascend Ratioed Tablets $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaEmerald Kush Live Resin Sugar",
+    "brand": "CT",
+    "message": "New: CT - PharmaEmerald Kush Live Resin Sugar $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ProofDash of Sweet Infusion",
+    "brand": "Zero",
+    "message": "New: Zero - ProofDash of Sweet Infusion $21.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowEndgame Punchline BHO Badder",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowEndgame Punchline BHO Badder $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakStars & Stripes High Dose Gummies",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakStars & Stripes High Dose Gummies $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Live Rosin",
+    "brand": "TheraplantSBC",
+    "message": "New: TheraplantSBC - Live Rosin $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowCBD Rollerball",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowCBD Rollerball $8.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaMend Cooling Ratioed Balm",
+    "brand": "CT",
+    "message": "New: CT - PharmaMend Cooling Ratioed Balm $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowEnchanted Forest BHO Sugar",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowEnchanted Forest BHO Sugar $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ProofDash of Cherry Infusion",
+    "brand": "Zero",
+    "message": "New: Zero - ProofDash of Cherry Infusion $21.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaLemon Skunk Live Resin Sugar",
+    "brand": "CT",
+    "message": "New: CT - PharmaLemon Skunk Live Resin Sugar $56.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Relief Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "New: Avexia - Relief Ratioed Tablets $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HouseIPA Ratioed Seltzer3mg | 1:",
+    "brand": "Float",
+    "message": "New: Float - HouseIPA Ratioed Seltzer3mg | 1: $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10 G'S Whole Flower 7g",
+    "brand": null,
+    "message": "New: null - 10 G'S Whole Flower 7g $49.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost Pre-Roll Pack $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "y BirdsPre-Rolls by Earl BakerMega Lemon Goop Pre-Roll Pack",
+    "brand": "Earl",
+    "message": "New: Earl - y BirdsPre-Rolls by Earl BakerMega Lemon Goop Pre-Roll Pack $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stomper Small Buds",
+    "brand": "SavvyOGBK",
+    "message": "New: SavvyOGBK - Stomper Small Buds $41.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "All-in-One",
+    "brand": "BrixINKD UP",
+    "message": "New: BrixINKD UP - All-in-One $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowBlue Lobster Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowBlue Lobster Live Terpene Cartridge $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Small Buds",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Small Buds $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scrub Trooper All-in-One",
+    "brand": "Brix",
+    "message": "New: Brix - Scrub Trooper All-in-One $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghost White Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ghost White Small Buds $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin All-in-One",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin All-in-One $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Pre-Roll $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowPB Breath Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowPB Breath Whole Flower $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grow LabsB Scout Ground Flower",
+    "brand": "Advanced",
+    "message": "New: Advanced - Grow LabsB Scout Ground Flower $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Cherry Tart Fast-Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Cherry Tart Fast-Acting Gummies $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaHazy Fields Live Resin Sugar",
+    "brand": "CT",
+    "message": "New: CT - PharmaHazy Fields Live Resin Sugar $43.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Spritz Gummies",
+    "brand": "Camino",
+    "message": "New: Camino - Watermelon Spritz Gummies $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Astro GMO Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Laughing Buddha Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Laughing Buddha Live Resin All-in-One $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Rosin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff Rosin $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaHazy Fields Live Resin Badder",
+    "brand": "CT",
+    "message": "New: CT - PharmaHazy Fields Live Resin Badder $43.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowPermanent Marker BHO Badder",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowPermanent Marker BHO Badder $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowPurple Milk RSO Syringe",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowPurple Milk RSO Syringe $36.00"
+  }
+]
