@@ -1,58 +1,114 @@
 export const CT_DISPENSARIES = [
-  // ═══ DUTCHIE (30) ═══
-  { name: "High Profile - Canton", city: "Canton", platform: "dutchie", dispensary_id: "662a9bc046220d3c1b6df676" },
-  { name: "High Profile - Hamden", city: "Hamden", platform: "dutchie", dispensary_id: "662a9bfa0e8ab0eb3fd9243f" },
-  { name: "High Profile - Stratford", city: "Stratford", platform: "dutchie", dispensary_id: "6763431aae2029ca72a21543" },
-  { name: "Shangri-La - Norwalk (Main Ave)", city: "Norwalk", platform: "dutchie", dispensary_id: "65415b87b296d800097b6601" },
-  { name: "Shangri-La - Norwalk (CT Ave)", city: "Norwalk", platform: "dutchie", dispensary_id: "6605d97c80ac344367abe6b9" },
-  { name: "Shangri-La - Waterbury", city: "Waterbury", platform: "dutchie", dispensary_id: "6605d93a112df9fb18b3499e" },
-  { name: "Shangri-La - Plainville", city: "Plainville", platform: "dutchie", dispensary_id: "6605d8bb3d52314698f3fec9" },
-  { name: "SweetSpot - Stamford", city: "Stamford", platform: "dutchie", dispensary_id: "68a4e3f2a6cca7eebcedf6ae" },
-  { name: "SweetSpot - West Hartford", city: "West Hartford", platform: "dutchie", dispensary_id: "68a4e3c52050ebdce1713848" },
-  { name: "Nova Farms - New Britain", city: "New Britain", platform: "dutchie", dispensary_id: "5e7f67915024dd00ba0d99a4" },
-  { name: "Still River Wellness", city: "Torrington", platform: "dutchie", dispensary_id: "63bec4feda338000b42c120d" },
-  { name: "Crisp Cannabis - Trumbull", city: "Trumbull", platform: "dutchie", dispensary_id: "66faae512f2e1f4b2652cbaf" },
-  { name: "Crisp Cannabis - East Hartford", city: "East Hartford", platform: "dutchie", dispensary_id: "66faaf2a0f60cbd9253d5fd9" },
-  { name: "Crisp Cannabis - Cromwell", city: "Cromwell", platform: "dutchie", dispensary_id: "66faaf5e239733d2541a5d61" },
-  { name: "INSA - New Haven", city: "New Haven", platform: "dutchie", dispensary_id: "6564ccebe20e15000926bdf9" },
-  { name: "INSA - Hartford", city: "Hartford", platform: "dutchie", dispensary_id: "6564ccb56ae6cf0009b6f678" },
-  { name: "Trulieve - Bristol", city: "Bristol", platform: "dutchie", dispensary_id: "6467d55d85659100329b597c" },
-  { name: "Zen Leaf - Meriden", city: "Meriden", platform: "dutchie", dispensary_id: "60550d82f9aa8800d271e889" },
-  { name: "Rejoice - Meriden", city: "Meriden", platform: "dutchie", dispensary_id: "651c8074edb4db0009991a9a" },
-  { name: "Rejoice - Seymour", city: "Seymour", platform: "dutchie", dispensary_id: "665a067c50e8d85bb9a7f6da" },
-  { name: "Rejoice - Norwich", city: "Norwich", platform: "dutchie", dispensary_id: "695b256d1dbd4c351dbeb54c" },
-  { name: "Nightjar - Hamden", city: "Hamden", platform: "dutchie", dispensary_id: "67294f43e93a193302598431" },
-  { name: "Nightjar - East Lyme", city: "East Lyme", platform: "dutchie", dispensary_id: "67294e6b54dc2c7b6365f494" },
-  { name: "The Liv - Newington", city: "Newington", platform: "dutchie", dispensary_id: "695b2080ffaa8f06d445fbed" },
-  { name: "The Liv - Putnam", city: "Putnam", platform: "dutchie", dispensary_id: "65c115e7c976d30009b57c0d" },
-  { name: "Lit New Haven", city: "New Haven", platform: "dutchie", dispensary_id: "65cf8b090573d20009b82376" },
-  { name: "Rodeo Cannabis - Rocky Hill", city: "Rocky Hill", platform: "dutchie", dispensary_id: "6927a5ea429e258103a08c6f" },
-  { name: "Awwsom", city: "Naugatuck", platform: "dutchie", dispensary_id: "67194fc04e40d147550900c0" },
-  { name: "Octane", city: "Enfield", platform: "dutchie", dispensary_id: "6734da429b9d1a25817194da" },
-  { name: "The Harvest Corner", city: "Colchester", platform: "dutchie", dispensary_id: "651c58d812bfd100091efcf7" },
+  // ═══ DUTCHIE (60 = 30 × 2 for rec/med split) ═══
+  { name: "High Profile - Canton (Rec)", city: "Canton", platform: "dutchie", dispensary_id: "662a9bc046220d3c1b6df676", menu_type: "rec" },
+  { name: "High Profile - Canton (Med)", city: "Canton", platform: "dutchie", dispensary_id: "662a9bc046220d3c1b6df676", menu_type: "med" },
+  { name: "High Profile - Hamden (Rec)", city: "Hamden", platform: "dutchie", dispensary_id: "662a9bfa0e8ab0eb3fd9243f", menu_type: "rec" },
+  { name: "High Profile - Hamden (Med)", city: "Hamden", platform: "dutchie", dispensary_id: "662a9bfa0e8ab0eb3fd9243f", menu_type: "med" },
+  { name: "High Profile - Stratford (Rec)", city: "Stratford", platform: "dutchie", dispensary_id: "6763431aae2029ca72a21543", menu_type: "rec" },
+  { name: "High Profile - Stratford (Med)", city: "Stratford", platform: "dutchie", dispensary_id: "6763431aae2029ca72a21543", menu_type: "med" },
+  { name: "Shangri-La - Norwalk Main Ave (Rec)", city: "Norwalk", platform: "dutchie", dispensary_id: "65415b87b296d800097b6601", menu_type: "rec" },
+  { name: "Shangri-La - Norwalk Main Ave (Med)", city: "Norwalk", platform: "dutchie", dispensary_id: "65415b87b296d800097b6601", menu_type: "med" },
+  { name: "Shangri-La - Norwalk CT Ave (Rec)", city: "Norwalk", platform: "dutchie", dispensary_id: "6605d97c80ac344367abe6b9", menu_type: "rec" },
+  { name: "Shangri-La - Norwalk CT Ave (Med)", city: "Norwalk", platform: "dutchie", dispensary_id: "6605d97c80ac344367abe6b9", menu_type: "med" },
+  { name: "Shangri-La - Waterbury (Rec)", city: "Waterbury", platform: "dutchie", dispensary_id: "6605d93a112df9fb18b3499e", menu_type: "rec" },
+  { name: "Shangri-La - Waterbury (Med)", city: "Waterbury", platform: "dutchie", dispensary_id: "6605d93a112df9fb18b3499e", menu_type: "med" },
+  { name: "Shangri-La - Plainville (Rec)", city: "Plainville", platform: "dutchie", dispensary_id: "6605d8bb3d52314698f3fec9", menu_type: "rec" },
+  { name: "Shangri-La - Plainville (Med)", city: "Plainville", platform: "dutchie", dispensary_id: "6605d8bb3d52314698f3fec9", menu_type: "med" },
+  { name: "SweetSpot - Stamford (Rec)", city: "Stamford", platform: "dutchie", dispensary_id: "68a4e3f2a6cca7eebcedf6ae", menu_type: "rec" },
+  { name: "SweetSpot - Stamford (Med)", city: "Stamford", platform: "dutchie", dispensary_id: "68a4e3f2a6cca7eebcedf6ae", menu_type: "med" },
+  { name: "SweetSpot - West Hartford (Rec)", city: "West Hartford", platform: "dutchie", dispensary_id: "68a4e3c52050ebdce1713848", menu_type: "rec" },
+  { name: "SweetSpot - West Hartford (Med)", city: "West Hartford", platform: "dutchie", dispensary_id: "68a4e3c52050ebdce1713848", menu_type: "med" },
+  { name: "Nova Farms - New Britain (Rec)", city: "New Britain", platform: "dutchie", dispensary_id: "5e7f67915024dd00ba0d99a4", menu_type: "rec" },
+  { name: "Nova Farms - New Britain (Med)", city: "New Britain", platform: "dutchie", dispensary_id: "5e7f67915024dd00ba0d99a4", menu_type: "med" },
+  { name: "Still River Wellness (Rec)", city: "Torrington", platform: "dutchie", dispensary_id: "63bec4feda338000b42c120d", menu_type: "rec" },
+  { name: "Still River Wellness (Med)", city: "Torrington", platform: "dutchie", dispensary_id: "63bec4feda338000b42c120d", menu_type: "med" },
+  { name: "Crisp Cannabis - Trumbull (Rec)", city: "Trumbull", platform: "dutchie", dispensary_id: "66faae512f2e1f4b2652cbaf", menu_type: "rec" },
+  { name: "Crisp Cannabis - Trumbull (Med)", city: "Trumbull", platform: "dutchie", dispensary_id: "66faae512f2e1f4b2652cbaf", menu_type: "med" },
+  { name: "Crisp Cannabis - East Hartford (Rec)", city: "East Hartford", platform: "dutchie", dispensary_id: "66faaf2a0f60cbd9253d5fd9", menu_type: "rec" },
+  { name: "Crisp Cannabis - East Hartford (Med)", city: "East Hartford", platform: "dutchie", dispensary_id: "66faaf2a0f60cbd9253d5fd9", menu_type: "med" },
+  { name: "Crisp Cannabis - Cromwell (Rec)", city: "Cromwell", platform: "dutchie", dispensary_id: "66faaf5e239733d2541a5d61", menu_type: "rec" },
+  { name: "Crisp Cannabis - Cromwell (Med)", city: "Cromwell", platform: "dutchie", dispensary_id: "66faaf5e239733d2541a5d61", menu_type: "med" },
+  { name: "INSA - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "6564ccebe20e15000926bdf9", menu_type: "rec" },
+  { name: "INSA - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "6564ccebe20e15000926bdf9", menu_type: "med" },
+  { name: "INSA - Hartford (Rec)", city: "Hartford", platform: "dutchie", dispensary_id: "6564ccb56ae6cf0009b6f678", menu_type: "rec" },
+  { name: "INSA - Hartford (Med)", city: "Hartford", platform: "dutchie", dispensary_id: "6564ccb56ae6cf0009b6f678", menu_type: "med" },
+  { name: "Trulieve - Bristol (Rec)", city: "Bristol", platform: "dutchie", dispensary_id: "6467d55d85659100329b597c", menu_type: "rec" },
+  { name: "Trulieve - Bristol (Med)", city: "Bristol", platform: "dutchie", dispensary_id: "6467d55d85659100329b597c", menu_type: "med" },
+  { name: "Zen Leaf - Meriden (Rec)", city: "Meriden", platform: "dutchie", dispensary_id: "60550d82f9aa8800d271e889", menu_type: "rec" },
+  { name: "Zen Leaf - Meriden (Med)", city: "Meriden", platform: "dutchie", dispensary_id: "60550d82f9aa8800d271e889", menu_type: "med" },
+  { name: "Rejoice - Meriden (Rec)", city: "Meriden", platform: "dutchie", dispensary_id: "651c8074edb4db0009991a9a", menu_type: "rec" },
+  { name: "Rejoice - Meriden (Med)", city: "Meriden", platform: "dutchie", dispensary_id: "651c8074edb4db0009991a9a", menu_type: "med" },
+  { name: "Rejoice - Seymour (Rec)", city: "Seymour", platform: "dutchie", dispensary_id: "665a067c50e8d85bb9a7f6da", menu_type: "rec" },
+  { name: "Rejoice - Seymour (Med)", city: "Seymour", platform: "dutchie", dispensary_id: "665a067c50e8d85bb9a7f6da", menu_type: "med" },
+  { name: "Rejoice - Norwich (Rec)", city: "Norwich", platform: "dutchie", dispensary_id: "695b256d1dbd4c351dbeb54c", menu_type: "rec" },
+  { name: "Rejoice - Norwich (Med)", city: "Norwich", platform: "dutchie", dispensary_id: "695b256d1dbd4c351dbeb54c", menu_type: "med" },
+  { name: "Nightjar - Hamden (Rec)", city: "Hamden", platform: "dutchie", dispensary_id: "67294f43e93a193302598431", menu_type: "rec" },
+  { name: "Nightjar - Hamden (Med)", city: "Hamden", platform: "dutchie", dispensary_id: "67294f43e93a193302598431", menu_type: "med" },
+  { name: "Nightjar - East Lyme (Rec)", city: "East Lyme", platform: "dutchie", dispensary_id: "67294e6b54dc2c7b6365f494", menu_type: "rec" },
+  { name: "Nightjar - East Lyme (Med)", city: "East Lyme", platform: "dutchie", dispensary_id: "67294e6b54dc2c7b6365f494", menu_type: "med" },
+  { name: "The Liv - Newington (Rec)", city: "Newington", platform: "dutchie", dispensary_id: "695b2080ffaa8f06d445fbed", menu_type: "rec" },
+  { name: "The Liv - Newington (Med)", city: "Newington", platform: "dutchie", dispensary_id: "695b2080ffaa8f06d445fbed", menu_type: "med" },
+  { name: "The Liv - Putnam (Rec)", city: "Putnam", platform: "dutchie", dispensary_id: "65c115e7c976d30009b57c0d", menu_type: "rec" },
+  { name: "The Liv - Putnam (Med)", city: "Putnam", platform: "dutchie", dispensary_id: "65c115e7c976d30009b57c0d", menu_type: "med" },
+  { name: "Lit New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "65cf8b090573d20009b82376", menu_type: "rec" },
+  { name: "Lit New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "65cf8b090573d20009b82376", menu_type: "med" },
+  { name: "Rodeo Cannabis - Rocky Hill (Rec)", city: "Rocky Hill", platform: "dutchie", dispensary_id: "6927a5ea429e258103a08c6f", menu_type: "rec" },
+  { name: "Rodeo Cannabis - Rocky Hill (Med)", city: "Rocky Hill", platform: "dutchie", dispensary_id: "6927a5ea429e258103a08c6f", menu_type: "med" },
+  { name: "Awwsom (Rec)", city: "Naugatuck", platform: "dutchie", dispensary_id: "67194fc04e40d147550900c0", menu_type: "rec" },
+  { name: "Awwsom (Med)", city: "Naugatuck", platform: "dutchie", dispensary_id: "67194fc04e40d147550900c0", menu_type: "med" },
+  { name: "Octane (Rec)", city: "Enfield", platform: "dutchie", dispensary_id: "6734da429b9d1a25817194da", menu_type: "rec" },
+  { name: "Octane (Med)", city: "Enfield", platform: "dutchie", dispensary_id: "6734da429b9d1a25817194da", menu_type: "med" },
+  { name: "The Harvest Corner (Rec)", city: "Colchester", platform: "dutchie", dispensary_id: "651c58d812bfd100091efcf7", menu_type: "rec" },
+  { name: "The Harvest Corner (Med)", city: "Colchester", platform: "dutchie", dispensary_id: "651c58d812bfd100091efcf7", menu_type: "med" },
 
-  // ═══ SWEED — CURALEAF (4) ═══
-  { name: "Curaleaf - Stamford", city: "Stamford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-stamford/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-stamford/medical/menu"] },
-  { name: "Curaleaf - Hartford", city: "Hartford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-hartford/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-hartford/medical/menu"] },
-  { name: "Curaleaf - Groton", city: "Groton", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/medical/menu"] },
-  { name: "Curaleaf - Manchester", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/medical/menu"] },
+  // ═══ BUDRCANNABIS (14 = 7 × 2 for rec/med split) ═══
+  { name: "BUDR - Danbury (Mill Plain) (Rec)", city: "Danbury", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-danbury-mill-plain-adult-use", menu_type: "rec" },
+  { name: "BUDR - Danbury (Mill Plain) (Med)", city: "Danbury", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-danbury-mill-plain-medical", menu_type: "med" },
+  { name: "BUDR - Danbury (Federal Rd) (Rec)", city: "Danbury", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-danbury-federal-road-adult-use", menu_type: "rec" },
+  { name: "BUDR - Danbury (Federal Rd) (Med)", city: "Danbury", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-danbury-federal-road-medical", menu_type: "med" },
+  { name: "BUDR - Montville (Rec)", city: "Montville", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-montville-adult-use", menu_type: "rec" },
+  { name: "BUDR - Montville (Med)", city: "Montville", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-montville-medical", menu_type: "med" },
+  { name: "BUDR - Vernon (Rec)", city: "Vernon", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-vernon-adult-use", menu_type: "rec" },
+  { name: "BUDR - Vernon (Med)", city: "Vernon", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-vernon-medical", menu_type: "med" },
+  { name: "BUDR - West Hartford (Rec)", city: "West Hartford", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-west-hartford-adult-use", menu_type: "rec" },
+  { name: "BUDR - West Hartford (Med)", city: "West Hartford", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-west-hartford-medical", menu_type: "med" },
+  { name: "BUDR - Stratford (Rec)", city: "Stratford", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-stratford-adult-use", menu_type: "rec" },
+  { name: "BUDR - Stratford (Med)", city: "Stratford", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-stratford-medical", menu_type: "med" },
+  { name: "BUDR - Tolland (Rec)", city: "Tolland", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-tolland-adult-use", menu_type: "rec" },
+  { name: "BUDR - Tolland (Med)", city: "Tolland", platform: "budrcannabis", store_url: "https://budrcannabis.com/shop-tolland-medical", menu_type: "med" },
 
-  // ═══ SWEED — HIGHER COLLECTIVE (5) ═══
+  // ═══ SWEED — CURALEAF (8 = 4 × 2 for rec/med split) ═══
+  { name: "Curaleaf - Stamford (Rec)", city: "Stamford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-stamford/recreational/menu"], menu_type: "rec" },
+  { name: "Curaleaf - Stamford (Med)", city: "Stamford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-stamford/medical/menu"], menu_type: "med" },
+  { name: "Curaleaf - Hartford (Rec)", city: "Hartford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-hartford/recreational/menu"], menu_type: "rec" },
+  { name: "Curaleaf - Hartford (Med)", city: "Hartford", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-hartford/medical/menu"], menu_type: "med" },
+  { name: "Curaleaf - Groton (Rec)", city: "Groton", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/recreational/menu"], menu_type: "rec" },
+  { name: "Curaleaf - Groton (Med)", city: "Groton", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/medical/menu"], menu_type: "med" },
+  { name: "Curaleaf - Manchester (Rec)", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/recreational/menu"], menu_type: "rec" },
+  { name: "Curaleaf - Manchester (Med)", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/medical/menu"], menu_type: "med" },
+
+  // ═══ SWEED — HIGHER COLLECTIVE (5, rec-only) ═══
   { name: "Higher Collective - Bridgeport", city: "Bridgeport", platform: "sweed", sweed_urls: ["https://highercollective.com/menu/"] },
   { name: "Higher Collective - Killingly", city: "Killingly", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/killingly/menu"] },
   { name: "Higher Collective - New London", city: "New London", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/new-london/menu"] },
   { name: "Higher Collective - Torrington", city: "Torrington", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/torrington/menu"] },
   { name: "Higher Collective - Hamden", city: "Hamden", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/hamden/menu"] },
 
-  // ═══ SWEED — ZEN LEAF (6) ═══
-  { name: "Zen Leaf - Waterbury", city: "Waterbury", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/waterbury/menu/recreational", "https://zenleafdispensaries.com/locations/waterbury/menu/medical"] },
-  { name: "Zen Leaf - Naugatuck", city: "Naugatuck", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/naugatuck/menu/recreational", "https://zenleafdispensaries.com/locations/naugatuck/menu/medical"] },
-  { name: "Zen Leaf - Norwich", city: "Norwich", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/norwich/menu/recreational", "https://zenleafdispensaries.com/locations/norwich/menu/medical"] },
-  { name: "Zen Leaf - Ashford", city: "Ashford", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/ashford/menu/recreational", "https://zenleafdispensaries.com/locations/ashford/menu/medical"] },
-  { name: "Zen Leaf - Enfield", city: "Enfield", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/enfield/menu/recreational", "https://zenleafdispensaries.com/locations/enfield/menu/medical"] },
-  { name: "Zen Leaf - Newington", city: "Newington", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/newington/menu/recreational", "https://zenleafdispensaries.com/locations/newington/menu/medical"] },
+  // ═══ SWEED — ZEN LEAF (12 = 6 × 2 for rec/med split) ═══
+  { name: "Zen Leaf - Waterbury (Rec)", city: "Waterbury", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/waterbury/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Waterbury (Med)", city: "Waterbury", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/waterbury/menu/medical"], menu_type: "med" },
+  { name: "Zen Leaf - Naugatuck (Rec)", city: "Naugatuck", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/naugatuck/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Naugatuck (Med)", city: "Naugatuck", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/naugatuck/menu/medical"], menu_type: "med" },
+  { name: "Zen Leaf - Norwich (Rec)", city: "Norwich", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/norwich/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Norwich (Med)", city: "Norwich", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/norwich/menu/medical"], menu_type: "med" },
+  { name: "Zen Leaf - Ashford (Rec)", city: "Ashford", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/ashford/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Ashford (Med)", city: "Ashford", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/ashford/menu/medical"], menu_type: "med" },
+  { name: "Zen Leaf - Enfield (Rec)", city: "Enfield", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/enfield/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Enfield (Med)", city: "Enfield", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/enfield/menu/medical"], menu_type: "med" },
+  { name: "Zen Leaf - Newington (Rec)", city: "Newington", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/newington/menu/recreational"], menu_type: "rec" },
+  { name: "Zen Leaf - Newington (Med)", city: "Newington", platform: "sweed", sweed_urls: ["https://zenleafdispensaries.com/locations/newington/menu/medical"], menu_type: "med" },
 
-  // ═══ FINE FETTLE (9) ═══
+  // ═══ FINE FETTLE (9, already split) ═══
   { name: "Fine Fettle - Bristol", city: "Bristol", platform: "finefettle", store_ids: { rec: "5991", med: "5992" } },
   { name: "Fine Fettle - Manchester", city: "Manchester", platform: "finefettle", store_ids: { rec: "5003", med: "5431" } },
   { name: "Fine Fettle - Newington", city: "Newington", platform: "finefettle", store_ids: { rec: "4986", med: "1000" } },
@@ -63,32 +119,7 @@ export const CT_DISPENSARIES = [
   { name: "Fine Fettle - West Hartford", city: "West Hartford", platform: "finefettle", store_ids: { rec: "6383", med: "6419" } },
   { name: "Fine Fettle - Willimantic", city: "Willimantic", platform: "finefettle", store_ids: { rec: "4987", med: "793" } },
 
-  // ═══ JANE — BUDR CANNABIS (7) ═══
-  { name: "BUDR - Danbury (Mill Plain)", city: "Danbury", platform: "jane", jane_stores: [
-    { id: 5257, slug: "ct-the-botanist-danbury-adult-use" },
-    { id: 3709, slug: "ct-the-botanist-danbury-medical" }
-  ] },
-  { name: "BUDR - Danbury (Federal Rd)", city: "Danbury", platform: "jane", jane_stores: [
-    { id: 5096, slug: "budr-danbury" }
-  ] },
-  { name: "BUDR - Montville", city: "Montville", platform: "jane", jane_stores: [
-    { id: 5006, slug: "the-botanist-montville-adult-use" },
-    { id: 4833, slug: "budr-montville-medical" }
-  ] },
-  { name: "BUDR - Vernon", city: "Vernon", platform: "jane", jane_stores: [
-    { id: 1486, slug: "budr-vernon-medical" }
-  ] },
-  { name: "BUDR - West Hartford", city: "West Hartford", platform: "jane", jane_stores: [
-    { id: 5095, slug: "budr-west-hartford" }
-  ] },
-  { name: "BUDR - Stratford", city: "Stratford", platform: "jane", jane_stores: [
-    { id: 5894, slug: "budr-cannabis-stratford-adult-use" }
-  ] },
-  { name: "BUDR - Tolland", city: "Tolland", platform: "jane", jane_stores: [
-    { id: 5892, slug: "budr-cannabis-tolland" }
-  ] },
-
-  // ═══ JANE — RISE / BLUEPOINT (2) ═══
+  // ═══ JANE — RISE / BLUEPOINT (2, already split) ═══
   { name: "Rise - Branford", city: "Branford", platform: "jane", jane_stores: [
     { id: 4970, slug: "rise-dispensaries-branford-adult-use" },
     { id: 1501, slug: "rise-dispensaries-branford-medical" }
@@ -103,8 +134,9 @@ export const CT_DISPENSARIES = [
     { id: 5335, slug: "venu-flower-collective" }
   ] },
 
-  // ═══ AFFINITY (your stores — scraped via Dutchie) ═══
-  { name: "Affinity Dispensary", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699" },
+  // ═══ AFFINITY (4 = 2 stores × 2 for rec/med split) ═══
+  { name: "Affinity Dispensary (Rec)", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699", menu_type: "rec" },
+  { name: "Affinity Dispensary (Med)", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699", menu_type: "med" },
   { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "629fa02faca88d009d0958af" },
   { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "63b84677d97a120083972651" },
 ];
