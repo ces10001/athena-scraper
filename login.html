@@ -442,7 +442,9 @@ let videoStarted = false;
 function triggerVideo() {
   if (videoStarted) return;
   videoStarted = true;
-  document.getElementById('athena-video').play();
+  const vid = document.getElementById('athena-video');
+  vid.currentTime = 1;
+  vid.play();
 }
 
 document.getElementById('email').addEventListener('focus', triggerVideo);
