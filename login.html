@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATHENA — Cannabis Pricing Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #08060a;
+  --surface: #13100e;
+  --surface-2: #1c1714;
+  --border: rgba(245, 158, 11, 0.1);
+  --border-hover: rgba(245, 158, 11, 0.25);
+  --accent: #f59e0b;
+  --accent-light: #fbbf24;
+  --accent-dim: rgba(245, 158, 11, 0.12);
+  --accent-glow: rgba(245, 158, 11, 0.35);
+  --accent-deep: #d97706;
+  --text: #f5f0e8;
+  --text-dim: #8b7e6a;
+  --text-muted: #3d3529;
+  --danger: #ef4444;
+  --success: #22c55e;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#bg-canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+}
+
+.grid-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image:
+    linear-gradient(rgba(245, 158, 11, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 158, 11, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.vignette {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: radial-gradient(ellipse at center, transparent 30%, var(--bg) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* ═══ VIDEO ═══ */
+.video-container {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+  animation: videoReveal 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.2s;
+}
+
+.video-container::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, transparent, var(--accent), var(--accent-deep), transparent);
+  z-index: -1;
+  animation: ringRotate 6s linear infinite;
+}
+
+.video-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 60px rgba(245, 158, 11, 0.15), inset 0 0 40px rgba(0,0,0,0.5);
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes ringRotate { to { transform: rotate(360deg); } }
+
+@keyframes videoReveal {
+  0% { opacity: 0; transform: scale(0.7); filter: blur(15px); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.video-glow {
+  position: absolute;
+  inset: -20px;
+  border-radius: 50%;
+  border: 1px solid rgba(245, 158, 11, 0.08);
+  animation: glowPulse 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.video-glow:nth-child(2) {
+  inset: -35px;
+  animation-delay: 1s;
+  border-color: rgba(245, 158, 11, 0.04);
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+/* ═══ LOGO ═══ */
+.logo-group { text-align: center; margin-bottom: 2.5rem; }
+
+.logo-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 0.6em;
+  text-indent: 0.6em;
+  color: var(--text);
+}
+
+.logo-title span {
+  display: inline-block;
+  opacity: 0;
+  animation: letterReveal 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.logo-title span:nth-child(1) { animation-delay: 1.2s; }
+.logo-title span:nth-child(2) { animation-delay: 1.35s; }
+.logo-title span:nth-child(3) { animation-delay: 1.5s; }
+.logo-title span:nth-child(4) { animation-delay: 1.65s; }
+.logo-title span:nth-child(5) { animation-delay: 1.8s; }
+.logo-title span:nth-child(6) { animation-delay: 1.95s; }
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: translateY(20px); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.logo-subtitle {
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-top: 0.75rem;
+  opacity: 0;
+  animation: fadeUp 1s ease-out forwards;
+  animation-delay: 2.2s;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.scan-line {
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin: 1rem auto 0;
+  animation: scanExpand 1.5s ease-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes scanExpand { to { width: 280px; } }
+
+/* ═══ LOGIN ═══ */
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  opacity: 0;
+  animation: cardReveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 2.5s;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-glow), transparent);
+}
+
+@keyframes cardReveal {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.login-card h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.input-group { margin-bottom: 1rem; }
+
+.input-group label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 0.4rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input::placeholder { color: var(--text-muted); }
+
+.input-group input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-deep));
+  border: none;
+  border-radius: 8px;
+  color: var(--bg);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 30px rgba(245, 158, 11, 0.25);
+}
+
+.login-btn:active { transform: translateY(0); }
+
+.login-btn .btn-shimmer {
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer { 0% { left: -100%; } 50% { left: 100%; } 100% { left: 100%; } }
+
+/* ═══ DATA POINTS ═══ */
+.data-point {
+  position: fixed;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  color: var(--accent);
+  opacity: 0;
+  z-index: 5;
+  pointer-events: none;
+  animation: dataFloat 8s ease-in-out infinite;
+}
+
+@keyframes dataFloat {
+  0%, 100% { opacity: 0; transform: translateY(0); }
+  10% { opacity: 0.3; }
+  50% { opacity: 0.12; transform: translateY(-40px); }
+  90% { opacity: 0.3; }
+}
+
+/* ═══ STATUS ═══ */
+.status-bar {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.65rem;
+  font-family: 'Space Mono', monospace;
+  color: var(--text-muted);
+  opacity: 0;
+  animation: fadeUp 1s ease-out forwards;
+  animation-delay: 3.2s;
+  z-index: 10;
+}
+
+.status-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--success);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+}
+
+.footer {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  opacity: 0;
+  animation: fadeUp 1s ease-out forwards;
+  animation-delay: 3.4s;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.footer a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover { color: var(--accent); }
+
+@media (max-width: 480px) {
+  .logo-title { font-size: 2rem; letter-spacing: 0.4em; text-indent: 0.4em; }
+  .login-card { padding: 1.5rem; margin: 0 0.5rem; }
+  .video-container { width: 180px; height: 180px; }
+}
+</style>
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div class="grid-overlay"></div>
+<div class="vignette"></div>
+
+<div class="status-bar">
+  <div class="status-dot"></div>
+  <span>SYSTEM ONLINE</span>
+</div>
+
+<div class="data-point" style="top:12%;left:8%;animation-delay:0s;">$42.00/3.5g</div>
+<div class="data-point" style="top:22%;right:10%;animation-delay:1.5s;">THC 28.4%</div>
+<div class="data-point" style="top:72%;left:5%;animation-delay:3s;">▼ -$5.00</div>
+<div class="data-point" style="top:82%;right:7%;animation-delay:4.5s;">74 STORES</div>
+<div class="data-point" style="top:42%;left:3%;animation-delay:2s;">CT MARKET</div>
+<div class="data-point" style="bottom:18%;right:4%;animation-delay:5.5s;">▲ +12.3%</div>
+
+<div class="main">
+  <div class="logo-group">
+    <div class="video-container">
+      <div class="video-glow"></div>
+      <div class="video-glow"></div>
+      <video autoplay loop muted playsinline>
+        <source src="athena-intro.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="logo-title">
+      <span>A</span><span>T</span><span>H</span><span>E</span><span>N</span><span>A</span>
+    </div>
+    <div class="scan-line"></div>
+    <div class="logo-subtitle">Cannabis Pricing Intelligence</div>
+  </div>
+
+  <div class="login-card">
+    <h2>Access Terminal</h2>
+    <div class="input-group">
+      <label>Email</label>
+      <input type="email" placeholder="operator@dispensary.com" id="email" autocomplete="email" />
+    </div>
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" placeholder="••••••••••" id="password" autocomplete="current-password" />
+    </div>
+    <button class="login-btn" onclick="handleLogin()">
+      <span class="btn-shimmer"></span>
+      Login
+    </button>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="#">ATHENA</a> &nbsp;·&nbsp; v2.0 &nbsp;·&nbsp; 2026
+</div>
+
+<script>
+const canvas = document.getElementById('bg-canvas');
+const ctx = canvas.getContext('2d');
+let W, H, particles = [], mouse = { x: -1000, y: -1000 };
+
+function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+resize();
+window.addEventListener('resize', resize);
+document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+
+class Particle {
+  constructor() { this.reset(); }
+  reset() {
+    this.x = Math.random() * W; this.y = Math.random() * H;
+    this.vx = (Math.random() - 0.5) * 0.3; this.vy = (Math.random() - 0.5) * 0.3;
+    this.r = Math.random() * 1.5 + 0.5; this.alpha = Math.random() * 0.25 + 0.05;
+  }
+  update() {
+    this.x += this.vx; this.y += this.vy;
+    const dx = this.x - mouse.x, dy = this.y - mouse.y;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < 150) { const f = (150 - dist) / 150 * 0.02; this.vx += dx / dist * f; this.vy += dy / dist * f; }
+    this.vx *= 0.999; this.vy *= 0.999;
+    if (this.x < 0 || this.x > W) this.vx *= -1;
+    if (this.y < 0 || this.y > H) this.vy *= -1;
+  }
+  draw() {
+    ctx.beginPath(); ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(245, 158, 11, ${this.alpha})`; ctx.fill();
+  }
+}
+
+const count = Math.min(70, Math.floor(W * H / 18000));
+for (let i = 0; i < count; i++) particles.push(new Particle());
+
+function animate() {
+  ctx.clearRect(0, 0, W, H);
+  for (const p of particles) { p.update(); p.draw(); }
+  for (let i = 0; i < particles.length; i++) {
+    for (let j = i + 1; j < particles.length; j++) {
+      const dx = particles[i].x - particles[j].x, dy = particles[i].y - particles[j].y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < 120) {
+        ctx.beginPath(); ctx.moveTo(particles[i].x, particles[i].y); ctx.lineTo(particles[j].x, particles[j].y);
+        ctx.strokeStyle = `rgba(245, 158, 11, ${0.05 * (1 - dist / 120)})`; ctx.lineWidth = 0.5; ctx.stroke();
+      }
+    }
+  }
+  requestAnimationFrame(animate);
+}
+animate();
+
+function handleLogin() {
+  const email = document.getElementById('email').value;
+  const pass = document.getElementById('password').value;
+  if (!email || !pass) { shakeCard(); return; }
+  const btn = document.querySelector('.login-btn');
+  btn.innerHTML = 'LOGGING IN...';
+  btn.style.pointerEvents = 'none';
+  setTimeout(() => { window.location.href = 'index.html'; }, 1500);
+}
+
+function shakeCard() {
+  const card = document.querySelector('.login-card');
+  card.style.animation = 'none'; card.offsetHeight;
+  card.style.animation = 'shake 0.4s ease-out';
+}
+
+const s = document.createElement('style');
+s.textContent = `@keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-8px)} 40%{transform:translateX(8px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }`;
+document.head.appendChild(s);
+
+document.getElementById('password').addEventListener('keydown', e => { if (e.key === 'Enter') handleLogin(); });
+</script>
+</body>
+</html>
