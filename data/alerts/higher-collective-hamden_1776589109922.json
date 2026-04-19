@@ -1,0 +1,434 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "GrassBiscotti Pie Spark - All Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassBiscotti Pie Spark - All Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassMiss Strawberry Spark - Fast Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassMiss Strawberry Spark - Fast Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChem Cookies Spark - Quiet Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChem Cookies Spark - Quiet Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewLive Resin Pink Lemonade Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewLive Resin Pink Lemonade Gummies $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Mango Puff Cartridge $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Clementine Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Clementine Cartridge $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chimera Junky Pre-Roll",
+    "brand": "Springtime",
+    "message": "New: Springtime - Chimera Junky Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jet Fuel OG Pre-Roll",
+    "brand": "Springtime",
+    "message": "New: Springtime - Jet Fuel OG Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPeach RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPeach RSO Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBerry Dreamy 1:1 CBN Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBerry Dreamy 1:1 CBN Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO Whole Flower $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisPurple Milk Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisPurple Milk Whole Flower $26.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Type A Whole Flower",
+    "brand": "comffy",
+    "message": "New: comffy - Type A Whole Flower $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Tangerine Whole Flower",
+    "brand": "comffy",
+    "message": "New: comffy - Atomic Tangerine Whole Flower $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Fiber Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Fiber Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - Capy Whole Flower $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerGouda Gas Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerGouda Gas Whole Flower $40.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Jack Ground Flower",
+    "brand": "Awssom",
+    "message": "New: Awssom - Lemon Jack Ground Flower $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GreenParadise Snacks Whole Flower",
+    "brand": "Good",
+    "message": "New: Good - GreenParadise Snacks Whole Flower $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG Disposable",
+    "brand": "Savvy",
+    "message": "New: Savvy - Yellow Haze OG Disposable $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The RocksA1 Haze Live Rosin Disposable",
+    "brand": "On",
+    "message": "New: On - The RocksA1 Haze Live Rosin Disposable $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Nana Disposable",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ultra Nana Disposable $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cereal Milk Cartridge",
+    "brand": "Rythm",
+    "message": "New: Rythm - Cereal Milk Cartridge $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Cartridge $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaLemon Glue Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaLemon Glue Cartridge $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gary Payton 20 Cartridge",
+    "brand": "Cookies",
+    "message": "New: Cookies - Gary Payton 20 Cartridge $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EssenceHyphen Banana Cream OG Pod",
+    "brand": "the",
+    "message": "New: the - EssenceHyphen Banana Cream OG Pod $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaFull Tank Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaFull Tank Cartridge $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDieselato BHO Live Resin Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaDieselato BHO Live Resin Cartridge $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Cookies Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Orange Cookies Cartridge $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Durban x Night Owl Haze Disposable",
+    "brand": "AGL",
+    "message": "New: AGL - White Durban x Night Owl Haze Disposable $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaGG Skunk Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaGG Skunk Cartridge $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem-Band Disposable",
+    "brand": "Savvy",
+    "message": "New: Savvy - Chem-Band Disposable $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaSavvy GG Skunk Disposable",
+    "brand": "CT",
+    "message": "New: CT - PharmaSavvy GG Skunk Disposable $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel Cartridge",
+    "brand": "comffy",
+    "message": "New: comffy - Purple Urkel Cartridge $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Cake Cartridge",
+    "brand": "comffyLA",
+    "message": "New: comffyLA - Kush Cake Cartridge $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fumez X Grease Monkey Disposable",
+    "brand": "AGL",
+    "message": "New: AGL - Fumez X Grease Monkey Disposable $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewFast-Acting Black Cherry Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewFast-Acting Black Cherry Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBlood Orange Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBlood Orange Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewFast-Acting Strawberry Kiwi Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewFast-Acting Strawberry Kiwi Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMellow Mango 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMellow Mango 1:1: $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Green Apple Gummies",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Sour Green Apple Gummies $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMargarita RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMargarita RSO Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewG'night Grape 2:1 Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewG'night Grape 2:1 Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Watermelon Gummies",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Sour Watermelon Gummies $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Lemonade Gummies",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Pink Lemonade Gummies $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewSugar Plum Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewSugar Plum Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry 10:",
+    "brand": "Coast",
+    "message": "New: Coast - Cherry 10: $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangerine 5:5:5 CBG:",
+    "brand": "Coast",
+    "message": "New: Coast - Tangerine 5:5:5 CBG: $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango RSO Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - Mango RSO Gummies $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express Fast Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Pineapple Express Fast Acting Gummies $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Jellies Sour Green Apple",
+    "brand": "JAMS",
+    "message": "New: JAMS - Fast Acting Jellies Sour Green Apple $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sugar Free Pomegranate Gummies",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Sugar Free Pomegranate Gummies $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Tangahhhrine Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Tangahhhrine Gummies $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDiesel Train Shorties",
+    "brand": "CT",
+    "message": "New: CT - PharmaDiesel Train Shorties $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassDurban Legacy Spark - Fast Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassDurban Legacy Spark - Fast Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Infused Party Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey Infused Party Pack $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face Minis",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face Minis $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Shorties",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker Shorties $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisChem 91 Shorties",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisChem 91 Shorties $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisAmethyst Diesel Shorties",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisAmethyst Diesel Shorties $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerChem Pop Shorties",
+    "brand": "Earl",
+    "message": "New: Earl - BakerChem Pop Shorties $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaLemon Cherry Sherb Shorties",
+    "brand": "CT",
+    "message": "New: CT - PharmaLemon Cherry Sherb Shorties $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaApplescotti Shorties",
+    "brand": "CT",
+    "message": "New: CT - PharmaApplescotti Shorties $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Jokerz Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream Pre-Roll",
+    "brand": "Affinity",
+    "message": "New: Affinity - Sunshine Daydream Pre-Roll $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple Pre-Roll",
+    "brand": "Affinity",
+    "message": "New: Affinity - Black Maple Pre-Roll $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisAfgooey Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisAfgooey Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDurban Stardawg",
+    "brand": "CT",
+    "message": "New: CT - PharmaDurban Stardawg $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnHi-Life Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnHi-Life Pre-Roll $8.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Starstruck Pre-Roll",
+    "brand": "comffy",
+    "message": "New: comffy - Starstruck Pre-Roll $11.00"
+  }
+]

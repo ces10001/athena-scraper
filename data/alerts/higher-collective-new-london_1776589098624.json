@@ -1,0 +1,440 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "GrassBiscotti Pie Spark - All Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassBiscotti Pie Spark - All Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassMiss Strawberry Spark - Fast Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassMiss Strawberry Spark - Fast Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chimera Junky Pre-Roll",
+    "brand": "Springtime",
+    "message": "New: Springtime - Chimera Junky Pre-Roll $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChem Cookies Spark - Quiet Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChem Cookies Spark - Quiet Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower Minis",
+    "brand": "AffinityM.O.B.",
+    "message": "New: AffinityM.O.B. - Flower Minis $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisPermanent Marker Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisPermanent Marker Whole Flower $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kronic 47 Flower Minis",
+    "brand": "Affinity",
+    "message": "New: Affinity - Kronic 47 Flower Minis $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Frosting Gelato Pre-Roll",
+    "brand": "Awssom",
+    "message": "New: Awssom - Blueberry Frosting Gelato Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cough Cartridge",
+    "brand": "comffy",
+    "message": "New: comffy - Strawberry Cough Cartridge $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Jack Ground Flower",
+    "brand": "Awssom",
+    "message": "New: Awssom - Lemon Jack Ground Flower $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "New: null - 3.5g $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - Lemon Skunk Whole Flower $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisJungle Cake Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisJungle Cake Whole Flower $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin Whole Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin Whole Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tear Gas Flower Minis",
+    "brand": "Affinity",
+    "message": "New: Affinity - Tear Gas Flower Minis $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Mango Puff Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Clementine Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Clementine Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie Cartridge",
+    "brand": "Loud",
+    "message": "New: Loud - Golden Tangie Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Cake Cartridge",
+    "brand": "comffyLA",
+    "message": "New: comffyLA - Kush Cake Cartridge $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk Live Resin Disposable",
+    "brand": "Amigos",
+    "message": "New: Amigos - Lemon Skunk Live Resin Disposable $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaLemon Glue Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaLemon Glue Cartridge $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sour Z Cartridge $44.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Marker Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Marker Cartridge $67.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaOGKB Stomper Cartridge",
+    "brand": "CT",
+    "message": "New: CT - PharmaOGKB Stomper Cartridge $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart Disposable",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart Disposable $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Ghost Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green Ghost Cartridge $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Split Disposable",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana Split Disposable $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple Disposable",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple Disposable $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty Disposable",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty Disposable $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Papi Purple Live Resin Disposable",
+    "brand": "Amigos",
+    "message": "New: Amigos - Papi Purple Live Resin Disposable $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Elite Moonburst Disposable",
+    "brand": "Select",
+    "message": "New: Select - Elite Moonburst Disposable $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "New: null - 0.5g $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakFast Acting Infused Honey",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakFast Acting Infused Honey $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewSugar Plum Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewSugar Plum Gummies $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBlack Cherry Fast-Acting Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBlack Cherry Fast-Acting Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewFast-Acting Strawberry Kiwi Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewFast-Acting Strawberry Kiwi Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Dream Berry Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Classic Dream Berry Gummies $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Quick Dream Berry Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Quick Dream Berry Gummies $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPeach RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPeach RSO Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewG' Night Grape Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewG' Night Grape Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewPeanut Butter Pretzel Milk Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewPeanut Butter Pretzel Milk Chocolate Bar $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The RocksLive Rosin Sour Apricot Apple Gummies",
+    "brand": "On",
+    "message": "New: On - The RocksLive Rosin Sour Apricot Apple Gummies $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Exotic Yuzu 2:1 Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Exotic Yuzu 2:1 Gummies $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Sour Watermelon Lime Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Fast Acting Sour Watermelon Lime Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMidnight Mint 2:1 CBN Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMidnight Mint 2:1 CBN Chocolate Bar $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Milk Chocolate Bar",
+    "brand": "Encore",
+    "message": "New: Encore - Encore Milk Chocolate Bar $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWild Berries 1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWild Berries 1: $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewCookies & Cream White Chocolate Bar",
+    "brand": "Sound",
+    "message": "New: Sound - ViewCookies & Cream White Chocolate Bar $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape RSO Gummies",
+    "brand": "Encore",
+    "message": "New: Encore - Grape RSO Gummies $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewLive Resin Watermelon 1:1:",
+    "brand": "Sound",
+    "message": "New: Sound - ViewLive Resin Watermelon 1:1: $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Raspberry Pomegranate 1:1:",
+    "brand": "JAMS",
+    "message": "New: JAMS - Fast Acting Raspberry Pomegranate 1:1: $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Quick Limoncello Gummies",
+    "brand": "Wana",
+    "message": "New: Wana - Quick Limoncello Gummies $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guava Tart Pre-Roll",
+    "brand": "Shaka",
+    "message": "New: Shaka - Guava Tart Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Don Mega Pre-Roll",
+    "brand": "Shaka",
+    "message": "New: Shaka - Don Mega Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Fatboy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey Fatboy $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding Infused Party Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding Infused Party Pack $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Infused Party Pack",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey Infused Party Pack $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tear Gas Infused Lil' Ricky's",
+    "brand": "Affinity",
+    "message": "New: Affinity - Tear Gas Infused Lil' Ricky's $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassSunset Kush Bubble Hash - Quiet Times Infused Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassSunset Kush Bubble Hash - Quiet Times Infused Pre-Roll $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChem Cookies - Quiet Times Shorties",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChem Cookies - Quiet Times Shorties $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassBiscotti Pie - All Times Shorties",
+    "brand": "Miss",
+    "message": "New: Miss - GrassBiscotti Pie - All Times Shorties $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Granny Canny Pre-Roll",
+    "brand": "AGL",
+    "message": "New: AGL - Granny Canny Pre-Roll $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Not Trip Big Dog",
+    "brand": "DogwalkersDo",
+    "message": "New: DogwalkersDo - Not Trip Big Dog $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Seattle Sour Kush Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Seattle Sour Kush Pre-Roll $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll",
+    "brand": "SavvyGMO",
+    "message": "New: SavvyGMO - Pre-Roll $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Jokerz Pre-Roll $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti Pre-Roll $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnHi Life Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnHi Life Pre-Roll $8.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer x CDLC Big Ray",
+    "brand": "Affinity",
+    "message": "New: Affinity - Star Killer x CDLC Big Ray $9.80"
+  }
+]
