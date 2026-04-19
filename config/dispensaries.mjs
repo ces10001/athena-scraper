@@ -37,7 +37,7 @@ export const CT_DISPENSARIES = [
   { name: "Curaleaf - Groton", city: "Groton", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/medical/menu"] },
   { name: "Curaleaf - Manchester", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/medical/menu"] },
 
-  // ═══ SWEED — HIGHER COLLECTIVE (5 — Hartford & Willington closed) ═══
+  // ═══ SWEED — HIGHER COLLECTIVE (5) ═══
   { name: "Higher Collective - Bridgeport", city: "Bridgeport", platform: "sweed", sweed_urls: ["https://highercollective.com/menu/"] },
   { name: "Higher Collective - Killingly", city: "Killingly", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/killingly/menu"] },
   { name: "Higher Collective - New London", city: "New London", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/new-london/menu"] },
@@ -103,8 +103,8 @@ export const CT_DISPENSARIES = [
     { id: 5335, slug: "venu-flower-collective" }
   ] },
 
-  // ═══ AFFINITY (your stores) ═══
-  { name: "Affinity Dispensary", city: "Bridgeport", platform: "owner", dispensary_id: "5e584d89cff4460075f52699" },
-  { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "owner", dispensary_id: "629fa02faca88d009d0958af" },
-  { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "owner", dispensary_id: "63b84677d97a120083972651" },
+  // ═══ AFFINITY (your stores — scraped via Dutchie) ═══
+  { name: "Affinity Dispensary", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699" },
+  { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "629fa02faca88d009d0958af" },
+  { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "63b84677d97a120083972651" },
 ];
