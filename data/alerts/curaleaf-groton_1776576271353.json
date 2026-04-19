@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "ViewMixed Berry Mints",
+    "brand": "Sound",
+    "message": "Sound ViewMixed Berry Mints: $23.80 > $25.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "null 0.5g: $33.75 > $35.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grow LabsDurban Z All-in-One",
+    "brand": "Advanced",
+    "message": "Advanced Grow LabsDurban Z All-in-One: $11.25 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Planet All-in-One",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Planet All-in-One: $26.25 > $27.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cherry BMB Cartridge",
+    "brand": "Select",
+    "message": "Select Cherry BMB Cartridge: $22.75 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb Pre-Roll",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash Pre-Roll Pack: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaUltra Nana Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaUltra Nana Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EdiblesSweet Berry Burst Gummies",
+    "brand": "Encore",
+    "message": "Encore EdiblesSweet Berry Burst Gummies: $21.00 > $21.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sundae Slumber Cartridge",
+    "brand": "Select",
+    "message": "Select Sundae Slumber Cartridge: $22.75 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vel Croz Pre-Roll Pack",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Vel Croz Pre-Roll Pack: $21.00 > $22.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon Whole Flower: $60.75 > $63.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "null 3.5g: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zlushie Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "Amigos Zlushie Live Resin All-in-One: $50.25 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot Cartridge",
+    "brand": "Select",
+    "message": "Select Joocy Froot Cartridge: $42.25 > $45.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "Let's BurnMule Fuel Pre-Roll: $10.50 > $11.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "1g",
+    "brand": null,
+    "message": "null 1g: $45.75 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaLazy Sunday Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaLazy Sunday Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff Whole Flower",
+    "brand": "Brix",
+    "message": "Brix Super Buff Whole Flower: $27.00 > $28.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ParkerLeft on Red All-in-One",
+    "brand": "Edie",
+    "message": "Edie ParkerLeft on Red All-in-One: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaNimbus Snacks Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaNimbus Snacks Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz BRIQ",
+    "brand": "Select",
+    "message": "Select Orange Kookyz BRIQ: $80.50 > $84.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sofa Sonata BRIQ",
+    "brand": "Select",
+    "message": "Select Sofa Sonata BRIQ: $84.00 > $87.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz Cartridge",
+    "brand": "Select",
+    "message": "Select Orange Kookyz Cartridge: $22.75 > $26.00"
+  }
+]

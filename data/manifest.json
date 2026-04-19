@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T04:50:38.296Z",
+  "lastUpdated": "2026-04-19T05:29:16.490Z",
   "dispensaries": [
     "crisp-cannabis-cromwell",
     "crisp-cannabis-east-hartford",
@@ -28,8 +28,8 @@
     "willow-brook-wellness"
   ],
   "stats": {
-    "total": 10526,
+    "total": 9992,
     "scraped": 26,
-    "alerts": 1866
+    "alerts": 690
   }
 }

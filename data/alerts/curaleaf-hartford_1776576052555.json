@@ -1,0 +1,302 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti Ground Flower",
+    "brand": "Savvy",
+    "message": "Savvy Pinyatti Ground Flower: $36.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lunar Diesel Whole Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Lunar Diesel Whole Flower: $61.75 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaGush Mintz Infused Pre-Roll Pack",
+    "brand": "CT",
+    "message": "CT PharmaGush Mintz Infused Pre-Roll Pack: $36.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "Grassroots Moonbeam Latto Pre-Roll Pack: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EdiblesSour Watermelon Gummies",
+    "brand": "Encore",
+    "message": "Encore EdiblesSour Watermelon Gummies: $21.00 > $21.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mimosa Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "Amigos Mimosa Live Resin All-in-One: $50.25 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EdiblesIndica Dark RSO Chocolate",
+    "brand": "Encore",
+    "message": "Encore EdiblesIndica Dark RSO Chocolate: $22.50 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz Infused Pre-Roll Pack",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz Infused Pre-Roll Pack: $24.75 > $26.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State Infused Blunt",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State Infused Blunt: $15.75 > $16.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GrowSpeakeasy Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "Affinity GrowSpeakeasy Live Terpene Cartridge: $50.25 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaUltra Nana All-in-One",
+    "brand": "CT",
+    "message": "CT PharmaUltra Nana All-in-One: $36.75 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaThe Soap Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaThe Soap Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State Infused Pre-Roll: $24.75 > $26.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Durban Poison BRIQ",
+    "brand": "Select",
+    "message": "Select Durban Poison BRIQ: $80.50 > $84.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Cherry Tart Fast-Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "inc.edibles Sour Cherry Tart Fast-Acting Gummies: $14.25 > $15.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GrassDurban Legacy Hash Infused Pre-Roll",
+    "brand": "Miss",
+    "message": "Miss GrassDurban Legacy Hash Infused Pre-Roll: $18.00 > $18.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Astro GMO Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Laughing Buddha Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Laughing Buddha Live Resin All-in-One: $48.75 > $51.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaBlue Haze Cartridge",
+    "brand": "CT",
+    "message": "CT PharmaBlue Haze Cartridge: $48.75 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ViewMixed Berry Mints",
+    "brand": "Sound",
+    "message": "Sound ViewMixed Berry Mints: $23.80 > $25.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "null 0.5g: $33.75 > $35.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb Pre-Roll",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash Pre-Roll Pack: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaUltra Nana Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaUltra Nana Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EdiblesSweet Berry Burst Gummies",
+    "brand": "Encore",
+    "message": "Encore EdiblesSweet Berry Burst Gummies: $21.00 > $21.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ElixirBeverage by Lucky BreakBlueberry Lemonade Fast-Acting Infusion",
+    "brand": "Lucky",
+    "message": "Lucky ElixirBeverage by Lucky BreakBlueberry Lemonade Fast-Acting Infusion: $20.25 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vel Croz Pre-Roll Pack",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Vel Croz Pre-Roll Pack: $21.00 > $22.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Happy ConfectionSunset Citron Ratioed Gummies",
+    "brand": "The",
+    "message": "The Happy ConfectionSunset Citron Ratioed Gummies: $8.25 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon Whole Flower: $18.75 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon Whole Flower: $60.75 > $63.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon Whole Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon Whole Flower: $107.25 > $112.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "null 3.5g: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw Pre-Roll Pack",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Paw Paw Pre-Roll Pack: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Whole Flower",
+    "brand": "RYTHMGo Gr Tz",
+    "message": "RYTHMGo Gr Tz Whole Flower: $36.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slip Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EdiblesSativa Milk Chocolate RSO Chocolate",
+    "brand": "Encore",
+    "message": "Encore EdiblesSativa Milk Chocolate RSO Chocolate: $22.50 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grow LabsAfternoon Delight x Jack's Delight Cartridge",
+    "brand": "Advanced",
+    "message": "Advanced Grow LabsAfternoon Delight x Jack's Delight Cartridge: $36.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zlushie Live Resin All-in-One",
+    "brand": "Amigos",
+    "message": "Amigos Zlushie Live Resin All-in-One: $50.25 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot Cartridge",
+    "brand": "Select",
+    "message": "Select Joocy Froot Cartridge: $42.25 > $45.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THC: 85.18%",
+    "brand": "SelectGMO BRIQ",
+    "message": "SelectGMO BRIQ THC: 85.18%: $80.50 > $84.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Marker Whole Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Marker Whole Flower: $107.25 > $112.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "Let's BurnMule Fuel Pre-Roll: $10.50 > $11.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amethyst Diesel Pre-Roll Pack",
+    "brand": "Brix",
+    "message": "Brix Amethyst Diesel Pre-Roll Pack: $22.50 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "1g",
+    "brand": null,
+    "message": "null 1g: $45.75 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grandpa Blue Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Grandpa Blue Cartridge: $39.00 > $41.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ParkerLeft on Red All-in-One",
+    "brand": "Edie",
+    "message": "Edie ParkerLeft on Red All-in-One: $32.25 > $33.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pineapple Express Gummies",
+    "brand": "inc.edibles",
+    "message": "inc.edibles Pineapple Express Gummies: $14.25 > $15.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaNimbus Snacks Whole Flower",
+    "brand": "CT",
+    "message": "CT PharmaNimbus Snacks Whole Flower: $32.25 > $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaMend Cooling Ratioed Balm",
+    "brand": "CT",
+    "message": "New: CT - PharmaMend Cooling Ratioed Balm $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisCherry Lime Live Resin Gummies",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisCherry Lime Live Resin Gummies $17.50"
+  }
+]

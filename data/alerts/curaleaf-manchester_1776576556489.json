@@ -1,0 +1,116 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO Pre-Roll",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "10 G'S Whole Flower 7g",
+    "brand": null,
+    "message": "null 10 G'S Whole Flower 7g: $49.50 > $51.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost Pre-Roll Pack: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "y BirdsPre-Rolls by Earl BakerMega Lemon Goop Pre-Roll Pack",
+    "brand": "Earl",
+    "message": "Earl y BirdsPre-Rolls by Earl BakerMega Lemon Goop Pre-Roll Pack: $25.50 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Stomper Small Buds",
+    "brand": "SavvyOGBK",
+    "message": "SavvyOGBK Stomper Small Buds: $41.40 > $43.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "All-in-One",
+    "brand": "BrixINKD UP",
+    "message": "BrixINKD UP All-in-One: $42.75 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GrowBlue Lobster Live Terpene Cartridge",
+    "brand": "Affinity",
+    "message": "Affinity GrowBlue Lobster Live Terpene Cartridge: $50.25 > $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BurnMule Fuel Small Buds",
+    "brand": "Let's",
+    "message": "Let's BurnMule Fuel Small Buds: $45.50 > $47.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Scrub Trooper All-in-One",
+    "brand": "Brix",
+    "message": "Brix Scrub Trooper All-in-One: $42.75 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ghost White Small Buds",
+    "brand": "Savvy",
+    "message": "Savvy Ghost White Small Buds: $46.50 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banapple Medellin All-in-One",
+    "brand": "Theraplant",
+    "message": "Theraplant Banapple Medellin All-in-One: $45.00 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State Infused Pre-Roll: $24.75 > $26.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GrowPB Breath Whole Flower",
+    "brand": "Affinity",
+    "message": "Affinity GrowPB Breath Whole Flower: $25.50 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grow LabsB Scout Ground Flower",
+    "brand": "Advanced",
+    "message": "Advanced Grow LabsB Scout Ground Flower: $36.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Cherry Tart Fast-Acting Gummies",
+    "brand": "inc.edibles",
+    "message": "inc.edibles Sour Cherry Tart Fast-Acting Gummies: $14.25 > $15.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Watermelon Spritz Gummies",
+    "brand": "Camino",
+    "message": "Camino Watermelon Spritz Gummies: $22.50 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Astro GMO Pre-Roll: $9.75 > $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Laughing Buddha Live Resin All-in-One",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Laughing Buddha Live Resin All-in-One: $48.75 > $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisDesert Diamonds",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - CannabisDesert Diamonds $26.60"
+  }
+]
