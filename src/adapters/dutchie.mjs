@@ -28,15 +28,15 @@ async function ensureBrowser() {
   return page;
 }
 
-async function fetchAllProducts(p, dispensaryId) {
-  return await p.evaluate(async ({ dispensaryId, hash }) => {
+async function fetchAllProducts(p, dispensaryId, pricingType) {
+  return await p.evaluate(async ({ dispensaryId, hash, pricingType }) => {
     var allProducts = [];
     for (var pg = 0; pg < 20; pg++) {
       var vars = {
         includeEnterpriseSpecials: false,
         productsFilter: {
           dispensaryId: dispensaryId,
-          pricingType: 'rec',
+          pricingType: pricingType,
           strainTypes: [],
           subcategories: [],
           Status: 'Active',
@@ -73,25 +73,27 @@ async function fetchAllProducts(p, dispensaryId) {
       allProducts = allProducts.concat(products);
       if (products.length < 100 || allProducts.length >= total) break;
     }
-    var cats = {};
-    allProducts.forEach(function(p) { var t = p.type || 'Other'; cats[t] = (cats[t] || 0) + 1; });
-    return { products: allProducts, total: allProducts.length, categories: cats };
-  }, { dispensaryId, hash: HASH });
+    return { products: allProducts, total: allProducts.length };
+  }, { dispensaryId, hash: HASH, pricingType });
 }
 
 function normalizeDutchieProduct(raw) {
-  var price = raw.recPrices?.[0] ?? raw.Prices?.[0] ?? null;
-  var specialPrice = raw.recSpecialPrices?.[0] ?? null;
-  var hasSpecial = specialPrice != null && specialPrice > 0;
-  return normalizeProduct({
+  var recPrice = raw.recPrices?.[0] ?? raw.Prices?.[0] ?? null;
+  var medPrice = raw.medicalPrices?.[0] ?? null;
+  var recSpecial = raw.recSpecialPrices?.[0] ?? null;
+  var medSpecial = raw.medicalSpecialPrices?.[0] ?? null;
+  var hasRecSpecial = recSpecial != null && recSpecial > 0;
+  var hasMedSpecial = medSpecial != null && medSpecial > 0;
+
+  var normalized = normalizeProduct({
     external_id: raw.id || raw._id,
     name: raw.Name || '',
     brand: raw.brandName || '',
     category: raw.type || '',
     subcategory: raw.subcategory || null,
     strain_type: raw.strainType || null,
-    price: hasSpecial ? specialPrice : price,
-    original_price: hasSpecial ? price : null,
+    price: hasRecSpecial ? recSpecial : recPrice,
+    original_price: hasRecSpecial ? recPrice : null,
     weight_label: raw.Options?.[0] || null,
     thc_pct: raw.THCContent?.range?.[0] ?? null,
     cbd_pct: raw.CBDContent?.range?.[0] ?? null,
@@ -100,6 +102,20 @@ function normalizeDutchieProduct(raw) {
     image_url: raw.Image || null,
     product_url: null,
   });
+
+  // Override category with raw Dutchie type
+  normalized.category = (raw.type || '').toLowerCase();
+
+  // Add medical pricing
+  normalized.med_price_cents = medPrice ? Math.round(medPrice * 100) : null;
+  normalized.med_original_price_cents = hasMedSpecial ? Math.round(medPrice * 100) : null;
+  if (hasMedSpecial) normalized.med_price_cents = Math.round(medSpecial * 100);
+
+  // Flag med-only and rec-only
+  normalized.medical_only = raw.medicalOnly || false;
+  normalized.rec_only = raw.recOnly || false;
+
+  return normalized;
 }
 
 export async function scrapeDutchie(dispensary) {
@@ -112,25 +128,51 @@ export async function scrapeDutchie(dispensary) {
   try {
     var p = await ensureBrowser();
     await p.waitForTimeout(1500);
-    var result = await fetchAllProducts(p, dispensaryId);
-    if (result.error) {
-      console.error('  [dutchie] API error: ' + result.error);
-      return { products: [], errors: [result.error] };
+
+    // Step 1: Scrape rec products (includes medicalPrices on each product)
+    var recResult = await fetchAllProducts(p, dispensaryId, 'rec');
+    if (recResult.error) {
+      console.error('  [dutchie] Rec error: ' + recResult.error);
+      return { products: [], errors: [recResult.error] };
     }
-    var catInfo = Object.entries(result.categories || {}).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
+    console.log('  [dutchie] Rec products: ' + recResult.total);
+
+    // Step 2: Scrape med-only products (catch products not on rec menu)
+    await p.waitForTimeout(1000);
+    var medResult = await fetchAllProducts(p, dispensaryId, 'med');
+    console.log('  [dutchie] Med products: ' + medResult.total);
+
+    // Step 3: Merge — rec products first, then add any med-only extras
+    var allProducts = new Map();
+    for (var raw of recResult.products) {
+      allProducts.set(raw.id || raw._id, raw);
+    }
+    var medOnlyCount = 0;
+    for (var raw of medResult.products) {
+      var id = raw.id || raw._id;
+      if (!allProducts.has(id)) {
+        allProducts.set(id, raw);
+        medOnlyCount++;
+      }
+    }
+    if (medOnlyCount > 0) console.log('  [dutchie] Med-only extras: ' + medOnlyCount);
+
+    // Step 4: Normalize and filter
+    var catCounts = {};
+    var normalized = [];
+    for (var raw of allProducts.values()) {
+      var prod = normalizeDutchieProduct(raw);
+      var cat = (prod.category || '').toLowerCase();
+      if (cat === 'accessories' || cat === 'apparel') continue;
+      if (validateProduct(prod).length > 0) continue;
+      catCounts[prod.category] = (catCounts[prod.category] || 0) + 1;
+      normalized.push(prod);
+    }
+
+    var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
     console.log('  [dutchie] Categories: ' + catInfo);
-    console.log('  [dutchie] Raw products: ' + result.total);
-
-    var normalized = result.products.map(normalizeDutchieProduct);
-    var valid = normalized.filter(function(p) {
-      if (validateProduct(p).length > 0) return false;
-      var cat = (p.category || '').toLowerCase();
-      if (cat === 'accessories' || cat === 'apparel') return false;
-      return true;
-    });
-
-    console.log('  [dutchie] Done: ' + valid.length + ' valid products (excluded accessories/apparel)');
-    return { products: valid, errors: [] };
+    console.log('  [dutchie] Done: ' + normalized.length + ' valid products');
+    return { products: normalized, errors: [] };
   } catch (err) {
     console.error('  [dutchie] FAILED: ' + err.message);
     return { products: [], errors: [err.message] };
