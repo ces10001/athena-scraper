@@ -9,19 +9,30 @@ const DISP_INFO = {
   'high-profile-canton': { name: 'High Profile - Canton', city: 'Canton' },
   'high-profile-hamden': { name: 'High Profile - Hamden', city: 'Hamden' },
   'high-profile-stratford': { name: 'High Profile - Stratford', city: 'Stratford' },
-  'shangri-la-norwalk-main-ave': { name: 'Shangri-La - Norwalk', city: 'Norwalk' },
-  'shangri-la-south-norwalk': { name: 'Shangri-La - South Norwalk', city: 'South Norwalk' },
+  'shangri-la-norwalk-main-ave': { name: 'Shangri-La - Norwalk (Main Ave)', city: 'Norwalk' },
+  'shangri-la-norwalk-ct-ave': { name: 'Shangri-La - Norwalk (CT Ave)', city: 'Norwalk' },
   'shangri-la-waterbury': { name: 'Shangri-La - Waterbury', city: 'Waterbury' },
   'shangri-la-plainville': { name: 'Shangri-La - Plainville', city: 'Plainville' },
-  'shangri-la-east-hartford': { name: 'Shangri-La - East Hartford', city: 'East Hartford' },
   'sweetspot-stamford': { name: 'SweetSpot - Stamford', city: 'Stamford' },
   'nova-farms-new-britain': { name: 'Nova Farms - New Britain', city: 'New Britain' },
   'still-river-wellness': { name: 'Still River Wellness', city: 'Torrington' },
-  'crisp-cannabis-bridgeport': { name: 'Crisp Cannabis - Bridgeport', city: 'Bridgeport' },
-  'crisp-cannabis-trumbull': { name: 'Crisp Cannabis - Trumbull', city: 'Stratford' },
+  'crisp-cannabis-trumbull': { name: 'Crisp Cannabis - Trumbull', city: 'Trumbull' },
   'crisp-cannabis-east-hartford': { name: 'Crisp Cannabis - East Hartford', city: 'East Hartford' },
-  'crisp-cannabis-cromwell': { name: 'Crisp Cannabis - Cromwell', city: 'Middletown' },
-  'affinity-dispensary': { name: 'Affinity Dispensary - Bridgeport (Rec)', city: 'Bridgeport' },
+  'crisp-cannabis-cromwell': { name: 'Crisp Cannabis - Cromwell', city: 'Cromwell' },
+  'insa-new-haven': { name: 'INSA - New Haven', city: 'New Haven' },
+  'insa-hartford': { name: 'INSA - Hartford', city: 'Hartford' },
+  'trulieve-bristol': { name: 'Trulieve - Bristol', city: 'Bristol' },
+  'willow-brook-wellness': { name: 'Willow Brook Wellness', city: 'Meriden' },
+  'lit-new-haven': { name: 'Lit New Haven', city: 'New Haven' },
+  'rodeo-cannabis-rocky-hill': { name: 'Rodeo Cannabis - Rocky Hill', city: 'Rocky Hill' },
+  'the-liv-newington': { name: 'The Liv - Newington', city: 'Newington' },
+  'nightjar-hamden': { name: 'Nightjar - Hamden', city: 'Hamden' },
+  'curaleaf-stamford': { name: 'Curaleaf - Stamford', city: 'Stamford' },
+  'curaleaf-hartford': { name: 'Curaleaf - Hartford', city: 'Hartford' },
+  'curaleaf-groton': { name: 'Curaleaf - Groton', city: 'Groton' },
+  'curaleaf-milford': { name: 'Curaleaf - Milford', city: 'Milford' },
+  'curaleaf-manchester': { name: 'Curaleaf - Manchester', city: 'Manchester' },
+  'affinity-dispensary': { name: 'Affinity Dispensary', city: 'Bridgeport' },
 };
 
 function getDispInfo(slug) {
@@ -59,19 +70,25 @@ function mapCategory(cat, subcategory, name) {
     'tincture': 'Tincture', 'tinctures': 'Tincture',
     'topical': 'Topical', 'topicals': 'Topical',
     'cbd': 'CBD',
+    'beverage': 'Edible',
+    'oral': 'Edible',
+    'hemp-products': 'CBD',
   };
   if (map[c]) return map[c];
+
   if (c === 'other') {
     if (sub.includes('cartridge') || sub.includes('disposable') || sub.includes('vape')) return 'Vaporizers';
     if (sub.includes('edible') || sub.includes('gummy') || sub.includes('chocolate')) return 'Edible';
     if (sub.includes('concentrate') || sub.includes('rosin') || sub.includes('resin') || sub.includes('wax') || sub.includes('shatter')) return 'Concentrate';
     if (sub.includes('tincture')) return 'Tincture';
     if (sub.includes('topical')) return 'Topical';
-    if (/\b(vape|cart|cartridge|disposable)\b/i.test(n)) return 'Vaporizers';
-    if (/\b(gummy|gummies|chocolate|edible|chew)\b/i.test(n)) return 'Edible';
-    if (/\b(rosin|resin|wax|shatter|badder|diamond|sauce)\b/i.test(n)) return 'Concentrate';
-    if (/\b(tincture|drops)\b/i.test(n)) return 'Tincture';
+    if (/\b(vape|cart|cartridge|disposable|briq)\b/i.test(n)) return 'Vaporizers';
+    if (/\b(gummy|gummies|chocolate|edible|chew|lozenge|drink|seltzer|soda)\b/i.test(n)) return 'Edible';
+    if (/\b(rosin|resin|wax|shatter|badder|diamond|sauce|dab)\b/i.test(n)) return 'Concentrate';
+    if (/\b(tincture|drops|oil)\b/i.test(n)) return 'Tincture';
+    if (/\b(pre.?roll|joint|blunt)\b/i.test(n)) return 'Pre-Rolls';
   }
+
   return cat || 'Other';
 }
 
@@ -89,6 +106,7 @@ const NOISE_WORDS = new Set([
   'rec', 'med', 'adult', 'use', 'only',
   'indica', 'sativa', 'hybrid', 'balanced',
   'pk', 'ct', 'ea', 'pck', 'eighth', 'quarter', 'half', 'ounce', 'oz',
+  'small', 'buds', 'ground', 'budz',
 ]);
 
 const KNOWN_BRANDS = [
@@ -98,6 +116,9 @@ const KNOWN_BRANDS = [
   'wana', 'dogwalkers', 'mindy', 'cookies', 'tyson', 'all hours', 'all:hours',
   'back forty', 'comffy', 'brix', 'earl baker', 'lucky break', 'soundview',
   'inc edibles', 'inc.edibles', 'happy confection', 'galaxeats', 'pulsar',
+  'savvy', 'find.', 'find', 'loud', 'the goods', 'miss grass',
+  'lil budz', "lil' budz", 'jams', 'awssom', 'awwsom', 'rodeo', 'rodeo cannabis',
+  'lets burn', "let's burn", 'higher stitch',
 ];
 
 function extractStrainTokens(name, brand) {
@@ -151,6 +172,7 @@ async function main() {
 
   var allDisps = {};
   var allRaw = [];
+  var skippedNoPrice = 0;
 
   for (var file of files) {
     var slug = file.replace('.json', '');
@@ -165,10 +187,17 @@ async function main() {
     for (var product of filtered) {
       var mappedCat = mapCategory(product.category, product.subcategory, product.name);
       var normWeight = normalizeWeight(product.weight_label, product.name);
+      var price = product.price_cents ? product.price_cents / 100 : null;
+
+      if (!price) {
+        skippedNoPrice++;
+        continue;
+      }
+
       allRaw.push({
         ...product,
         _disp: info.name,
-        _price: product.price_cents ? product.price_cents / 100 : null,
+        _price: price,
         _origPrice: product.original_price_cents ? product.original_price_cents / 100 : null,
         _cat: mappedCat,
         _weight: normWeight,
@@ -177,14 +206,25 @@ async function main() {
   }
 
   console.log('Loaded ' + allRaw.length + ' products from ' + Object.keys(allDisps).length + ' dispensaries');
+  if (skippedNoPrice > 0) console.log('Skipped (no price): ' + skippedNoPrice);
 
   var catDebug = {};
   allRaw.forEach(function(p) { catDebug[p._cat] = (catDebug[p._cat] || 0) + 1; });
   console.log('Mapped categories: ' + Object.entries(catDebug).map(e => e[0] + ': ' + e[1]).join(', '));
 
+  // Per-dispensary category debug
+  var dispCatDebug = {};
+  allRaw.forEach(function(p) {
+    if (!dispCatDebug[p._disp]) dispCatDebug[p._disp] = {};
+    dispCatDebug[p._disp][p._cat] = (dispCatDebug[p._disp][p._cat] || 0) + 1;
+  });
+  for (var [dname, cats] of Object.entries(dispCatDebug)) {
+    var catStr = Object.entries(cats).map(e => e[0] + ': ' + e[1]).join(', ');
+    console.log('  ' + dname + ': ' + catStr);
+  }
+
   var exactGroups = {};
   for (var p of allRaw) {
-    if (!p._price) continue;
     var key = makeMatchKey(p.brand, p.name, p._cat, p._weight);
     if (!exactGroups[key]) exactGroups[key] = [];
     exactGroups[key].push(p);
