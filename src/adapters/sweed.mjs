@@ -1,122 +1,120 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-async function extractProductsFromPage(page) {
-  return await page.evaluate(function() {
-    var results = [];
-    var seen = {};
-    var links = document.querySelectorAll('a[href*="/menu/"]');
+function parseJaneProducts(text) {
+  var products = [];
+  var seen = {};
+  var blocks = text.split('Add to bag');
 
-    for (var i = 0; i < links.length; i++) {
-      var a = links[i];
-      var href = a.getAttribute('href') || '';
-      var idMatch = href.match(/-(\d+)(?:\?|$)/);
-      if (!idMatch) continue;
-      var productId = idMatch[1];
-      if (seen[productId]) continue;
-      seen[productId] = true;
+  for (var i = 0; i < blocks.length; i++) {
+    var block = blocks[i].trim();
+    if (block.length < 15) continue;
+    if (block.includes('Gift Card') || block.includes('gift card')) continue;
 
-      var catMatch = href.match(/\/menu\/([a-z-]+)-\d+\//);
-      var category = catMatch ? catMatch[1] : 'other';
+    var strainMatch = block.match(/\b(Sativa|Indica|Hybrid)\b/i);
+    var strain = strainMatch ? strainMatch[1].toLowerCase() : null;
 
-      var text = (a.textContent || '').replace(/\s+/g, ' ').trim();
-      if (!text || text.length < 5) continue;
+    var thcMatch = block.match(/THC\s*(\d+\.?\d*)%?/);
+    var cbdMatch = block.match(/CBD\s*(\d+\.?\d*)%?/);
 
-      var strainMatch = text.match(/\b(Sativa|Indica|Hybrid)\b/i);
-      var strain = strainMatch ? strainMatch[1] : null;
-      var thcMatch = text.match(/THC:\s*(\d+\.?\d*)%?/) || text.match(/THC\s*(\d+\.?\d*)%/);
-      var cbdMatch = text.match(/CBD:\s*(\d+\.?\d*)%?/) || text.match(/CBD\s*(\d+\.?\d*)%/);
-      var thcMgMatch = text.match(/THC:\s*(\d+\.?\d*)\s*MG/i);
-      var prices = text.match(/\$(\d+\.?\d*)/g) || [];
-      var discountMatch = text.match(/(\d+)%\s*Off/i);
-      var weightMatch = text.match(/\b(\d+\.?\d*)\s*g\b(?!\s*ea)/i) ||
-                        text.match(/\b(\d+)\s*mg\b/i) ||
-                        text.match(/(\d+-Pack)/i);
+    var priceWeightMatch = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/i);
+    var plainPrice = block.match(/\$(\d+\.?\d*)/);
 
-      var priceWeightMatch = text.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/i);
-      if (priceWeightMatch && !weightMatch) {
-        weightMatch = [priceWeightMatch[2]];
-      }
+    var price = null;
+    var weight = null;
 
-      var brandMatch = text.match(/by\s+([A-Za-z][A-Za-z\s.!'&]+?)(?=[A-Z][a-z]{2,})/);
-      if (!brandMatch) brandMatch = text.match(/by\s+([A-Za-z][A-Za-z\s.!'&]+?)(?=THC|CBD|\$|\d+%)/);
-      var brand = brandMatch ? brandMatch[1].trim() : null;
-
-      if (!brand) {
-        var ffMatch = text.match(/([A-Za-z][A-Za-z\s.:'!&]+?)\s*-\s*([^\n$]+?)\s*(C\d{7,})/);
-        if (ffMatch) brand = ffMatch[1].trim();
-      }
-
-      var name = '';
-      if (brand) {
-        var brandIdx = text.indexOf(brand);
-        var afterBrand = brandIdx + brand.length;
-        var thcIdx = text.indexOf('THC');
-        var cbdIdx = text.indexOf('CBD');
-        var priceIdx = text.indexOf('$');
-        var endPoints = [thcIdx, cbdIdx, priceIdx].filter(function(x) { return x > afterBrand; });
-        var endIdx = endPoints.length > 0 ? Math.min.apply(null, endPoints) : text.length;
-        name = text.substring(afterBrand, endIdx).trim();
-        name = name.replace(/\b\d+\.?\d*\s*g\b/gi, '').replace(/\b\d+mg\b/gi, '').trim();
-        name = name.replace(/^\d+\s*/, '').replace(/\s*\d+$/, '').trim();
-        name = name.replace(/^-\s*/, '').trim();
-      }
-      if (!name || name.length < 2) {
-        var slugMatch = href.match(/\/menu\/[^/]+\/[a-z-]+-[a-z]+-(.+?)-\d+(?:\?|$)/);
-        if (slugMatch) {
-          name = slugMatch[1].replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
-        }
-      }
-
-      var salePrice = null;
-      var originalPrice = null;
-      if (priceWeightMatch) {
-        var allPW = text.match(/\$(\d+\.?\d*)\/\d+\.?\d*\s*(?:g|mg|ml|oz)/gi) || [];
-        if (allPW.length >= 2) {
-          var pw1 = parseFloat(allPW[0].match(/\$(\d+\.?\d*)/)[1]);
-          var pw2 = parseFloat(allPW[1].match(/\$(\d+\.?\d*)/)[1]);
-          if (pw1 < pw2) { salePrice = pw1; originalPrice = pw2; }
-          else { salePrice = pw1; }
-        } else {
-          salePrice = parseFloat(priceWeightMatch[1]);
-        }
-      } else if (prices.length >= 2) {
-        var p1 = parseFloat(prices[0].replace('$', ''));
-        var p2 = parseFloat(prices[1].replace('$', ''));
-        if (p1 < p2) { salePrice = p1; originalPrice = p2; }
-        else { salePrice = p1; }
-      } else if (prices.length === 1) {
-        salePrice = parseFloat(prices[0].replace('$', ''));
-      }
-
-      if (!salePrice && !name) continue;
-
-      results.push({
-        external_id: 'sweed-' + productId,
-        name: name || 'Unknown Product',
-        brand: brand || '',
-        category: category,
-        strain_type: strain ? strain.toLowerCase() : null,
-        thc_pct: thcMatch ? parseFloat(thcMatch[1]) : (thcMgMatch ? parseFloat(thcMgMatch[1]) : null),
-        cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
-        price: salePrice,
-        original_price: (originalPrice && originalPrice > salePrice) ? originalPrice : null,
-        weight_label: weightMatch ? weightMatch[0] : null,
-        deal_description: discountMatch ? discountMatch[1] + '% Off' : (originalPrice ? 'Sale' : null),
-      });
+    if (priceWeightMatch) {
+      price = parseFloat(priceWeightMatch[1]);
+      weight = priceWeightMatch[2].trim();
+    } else if (plainPrice) {
+      price = parseFloat(plainPrice[1]);
     }
 
-    var pageLinks = document.querySelectorAll('a[href*="page="]');
-    var maxPage = 1;
-    for (var k = 0; k < pageLinks.length; k++) {
-      var pm = (pageLinks[k].getAttribute('href') || '').match(/page=(\d+)/);
-      if (pm) { var pn = parseInt(pm[1]); if (pn > maxPage) maxPage = pn; }
+    if (!price || price <= 0) continue;
+
+    var brand = '';
+    var name = '';
+
+    var codeMatch = block.match(/(\d{4,6})\s*([A-Z][a-z])/);
+    if (codeMatch) {
+      var afterCode = block.indexOf(codeMatch[0]) + codeMatch[1].length;
+      var remainder = block.substring(afterCode);
+      var catKeywords = ['Flower', 'Pre Roll', 'Vape', 'Cartridge', 'Edible', 'Gummy', 'Gummies',
+                         'Concentrate', 'Tincture', 'Topical', 'AIO Vape', 'Distillate',
+                         'Ground Flower', 'Shorties', 'Pack Pre Roll', 'BRIQ', 'Disposable'];
+      var brandEnd = remainder.length;
+      for (var c = 0; c < catKeywords.length; c++) {
+        var idx = remainder.indexOf(catKeywords[c]);
+        if (idx > 0 && idx < brandEnd) brandEnd = idx;
+      }
+      brand = remainder.substring(0, brandEnd).trim();
     }
 
-    return { products: results, maxPage: maxPage };
-  });
+    if (codeMatch) {
+      var beforeCode = block.indexOf(codeMatch[0]);
+      var nameStart = 0;
+      var strIdx = block.search(/\b(Sativa|Indica|Hybrid)\b/i);
+      if (strIdx >= 0) nameStart = strIdx + block.match(/\b(Sativa|Indica|Hybrid)\b/i)[0].length;
+      name = block.substring(nameStart, beforeCode + codeMatch[1].length).trim();
+    }
+
+    if (!name || name.length < 3) {
+      var endIdx = Math.min(
+        block.indexOf('THC') > 0 ? block.indexOf('THC') : 999,
+        block.indexOf('$') > 0 ? block.indexOf('$') : 999,
+        80
+      );
+      name = block.substring(0, endIdx).trim();
+      name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '').trim();
+    }
+
+    name = name.replace(/\s+/g, ' ').trim();
+    if (name.length > 80) name = name.substring(0, 80).trim();
+
+    var category = 'other';
+    var catPatterns = [
+      [/\bFlower\b/i, 'flower'],
+      [/\bGround Flower\b/i, 'flower'],
+      [/\bPre Roll|Pre-Roll|Shorties\b/i, 'pre-rolls'],
+      [/\bVape|Cartridge|Cart|AIO|BRIQ|Disposable\b/i, 'vaporizers'],
+      [/\bEdible|Gummy|Gummies|Chocolate|Confection\b/i, 'edible'],
+      [/\bConcentrate|Rosin|Resin|Wax|Badder\b/i, 'concentrate'],
+      [/\bTincture|Oil|Drops\b/i, 'tincture'],
+      [/\bTopical|Balm|Cream\b/i, 'topical'],
+    ];
+    for (var cp = 0; cp < catPatterns.length; cp++) {
+      if (catPatterns[cp][0].test(block)) { category = catPatterns[cp][1]; break; }
+    }
+
+    if (!weight) {
+      var wMatch = block.match(/\((\d+\.?\d*)\s*[Gg]\)/);
+      if (wMatch) weight = wMatch[1] + 'g';
+    }
+
+    var productCode = block.match(/\b(\d{5})\b/)?.[1] || block.match(/\b(\d{4,6})\b/)?.[1];
+    var externalId = 'jane-' + (productCode || (name + price).replace(/[^a-z0-9]/gi, '').substring(0, 20));
+
+    if (seen[externalId]) continue;
+    seen[externalId] = true;
+
+    products.push({
+      external_id: externalId,
+      name: name,
+      brand: brand,
+      category: category,
+      strain_type: strain,
+      thc_pct: thcMatch ? parseFloat(thcMatch[1]) : null,
+      cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
+      price: price,
+      original_price: null,
+      weight_label: weight,
+      deal_description: null,
+    });
+  }
+
+  return products;
 }
 
-function normalizeSweedProduct(raw) {
+function normalizeJaneProduct(raw) {
   var normalized = normalizeProduct({
     external_id: raw.external_id,
     name: raw.name || '',
@@ -138,12 +136,12 @@ function normalizeSweedProduct(raw) {
   return normalized;
 }
 
-export async function scrapeSweed(dispensary) {
-  console.log('[sweed] Scraping: ' + dispensary.name);
+export async function scrapeJane(dispensary) {
+  console.log('[jane] Scraping: ' + dispensary.name);
 
-  if (!dispensary.sweed_urls || dispensary.sweed_urls.length === 0) {
-    console.error('  [sweed] No sweed_urls for ' + dispensary.name);
-    return { products: [], errors: ['No sweed_urls configured'] };
+  if (!dispensary.jane_stores || dispensary.jane_stores.length === 0) {
+    console.error('  [jane] No jane_stores for ' + dispensary.name);
+    return { products: [], errors: ['No jane_stores configured'] };
   }
 
   try {
@@ -156,55 +154,53 @@ export async function scrapeSweed(dispensary) {
     var allProducts = new Map();
     var errors = [];
 
-    for (var u = 0; u < dispensary.sweed_urls.length; u++) {
-      var menuUrl = dispensary.sweed_urls[u];
+    var CATS = ['flower', 'pre-rolls', 'vape', 'edibles', 'concentrates', 'tinctures', 'topicals'];
 
-      try {
-        var page = await context.newPage();
-        await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
-        await page.waitForTimeout(5000);
+    for (var s = 0; s < dispensary.jane_stores.length; s++) {
+      var store = dispensary.jane_stores[s];
+      var storeStartTime = Date.now();
 
-        var firstResult = await extractProductsFromPage(page);
-        var maxPage = firstResult.maxPage || 1;
-        var pageProducts = firstResult.products || [];
+      for (var c = 0; c < CATS.length; c++) {
+        var cat = CATS[c];
+        var url = 'https://www.iheartjane.com/stores/' + store.id + '/' + store.slug + '/menu/' + cat;
 
-        var domain = menuUrl.replace(/https?:\/\//, '').split('/')[0];
-        console.log('  [sweed] ' + domain + ' page 1: ' + pageProducts.length + ' products' + (maxPage > 1 ? ', ' + maxPage + ' pages' : ''));
+        var page = null;
+        try {
+          page = await context.newPage();
+          await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+          await page.waitForTimeout(8000);
 
-        for (var p = 0; p < pageProducts.length; p++) {
-          var key = pageProducts[p].external_id;
-          if (!allProducts.has(key)) allProducts.set(key, pageProducts[p]);
-        }
-        await page.close();
-
-        if (maxPage > 1) {
-          for (var pg = 2; pg <= maxPage; pg++) {
-            var sep = menuUrl.includes('?') ? '&' : '?';
-            var pageUrl = menuUrl + sep + 'page=' + pg;
-            var nextPage = await context.newPage();
-            try {
-              await nextPage.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-              await nextPage.waitForTimeout(4000);
-              var pgResult = await extractProductsFromPage(nextPage);
-              for (var pp = 0; pp < pgResult.products.length; pp++) {
-                var pid = pgResult.products[pp].external_id;
-                if (!allProducts.has(pid)) allProducts.set(pid, pgResult.products[pp]);
-              }
-              if (pg % 5 === 0 || pg === maxPage) {
-                console.log('  [sweed] page ' + pg + '/' + maxPage + ': ' + allProducts.size + ' total');
-              }
-            } catch (pgErr) {
-              console.warn('  [sweed] Page ' + pg + ' failed: ' + pgErr.message);
-            } finally {
-              await nextPage.close();
-            }
-            await new Promise(function(r) { setTimeout(r, 500); });
+          // Scroll to load all products
+          for (var scroll = 0; scroll < 20; scroll++) {
+            await page.evaluate(function() { window.scrollBy(0, 800); });
+            await page.waitForTimeout(200);
           }
+          await page.waitForTimeout(1000);
+
+          var text = await page.evaluate(function() {
+            return document.body?.innerText || '';
+          });
+
+          var products = parseJaneProducts(text);
+          for (var p = 0; p < products.length; p++) {
+            var key = products[p].external_id;
+            if (!allProducts.has(key)) allProducts.set(key, products[p]);
+          }
+
+          await page.close();
+        } catch (err) {
+          if (!err.message.includes('404')) errors.push(store.id + '/' + cat + ': ' + err.message);
+          try { if (page) await page.close(); } catch(e) {}
         }
-      } catch (err) {
-        errors.push(menuUrl + ': ' + err.message);
-        console.error('  [sweed] Error: ' + err.message);
+
+        // Safety: if a single store takes more than 3 minutes, skip remaining categories
+        if (Date.now() - storeStartTime > 180000) {
+          console.warn('  [jane] Store ' + store.id + ' timeout after 3min, skipping remaining categories');
+          break;
+        }
       }
+
+      console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
     }
 
     await context.close();
@@ -213,9 +209,7 @@ export async function scrapeSweed(dispensary) {
     var validProducts = [];
     var catCounts = {};
     for (var [key, raw] of allProducts) {
-      var cat = (raw.category || '').toLowerCase();
-      if (cat === 'accessories' || cat === 'apparel') continue;
-      var normalized = normalizeSweedProduct(raw);
+      var normalized = normalizeJaneProduct(raw);
       if (validateProduct(normalized).length === 0) {
         catCounts[normalized.category] = (catCounts[normalized.category] || 0) + 1;
         validProducts.push(normalized);
@@ -223,13 +217,13 @@ export async function scrapeSweed(dispensary) {
     }
 
     var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
-    console.log('  [sweed] Categories: ' + catInfo);
-    console.log('  [sweed] Done: ' + validProducts.length + ' valid products');
+    console.log('  [jane] Categories: ' + catInfo);
+    console.log('  [jane] Done: ' + validProducts.length + ' valid products');
     return { products: validProducts, errors: errors };
   } catch (err) {
-    console.error('  [sweed] FAILED: ' + err.message);
+    console.error('  [jane] FAILED: ' + err.message);
     return { products: [], errors: [err.message] };
   }
 }
 
-export default { scrapeSweed };
+export default { scrapeJane };
