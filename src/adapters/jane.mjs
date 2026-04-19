@@ -158,6 +158,7 @@ export async function scrapeJane(dispensary) {
 
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
+      var storeStartTime = Date.now();
 
       for (var c = 0; c < CATS.length; c++) {
         var cat = CATS[c];
@@ -166,9 +167,10 @@ export async function scrapeJane(dispensary) {
         var page = null;
         try {
           page = await context.newPage();
-          await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
-          await page.waitForTimeout(2000);
+          await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+          await page.waitForTimeout(8000);
 
+          // Scroll to load all products
           for (var scroll = 0; scroll < 20; scroll++) {
             await page.evaluate(function() { window.scrollBy(0, 800); });
             await page.waitForTimeout(200);
@@ -187,8 +189,14 @@ export async function scrapeJane(dispensary) {
 
           await page.close();
         } catch (err) {
-          if (!err.message.includes('404')) errors.push(cat + ': ' + err.message);
+          if (!err.message.includes('404')) errors.push(store.id + '/' + cat + ': ' + err.message);
           try { if (page) await page.close(); } catch(e) {}
+        }
+
+        // Safety: if a single store takes more than 3 minutes, skip remaining categories
+        if (Date.now() - storeStartTime > 180000) {
+          console.warn('  [jane] Store ' + store.id + ' timeout after 3min, skipping remaining categories');
+          break;
         }
       }
 
