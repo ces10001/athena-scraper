@@ -13,7 +13,6 @@
   --surface: #13100e;
   --surface-2: #1c1714;
   --border: rgba(245, 158, 11, 0.1);
-  --border-hover: rgba(245, 158, 11, 0.25);
   --accent: #f59e0b;
   --accent-light: #fbbf24;
   --accent-dim: rgba(245, 158, 11, 0.12);
@@ -22,7 +21,6 @@
   --text: #f5f0e8;
   --text-dim: #8b7e6a;
   --text-muted: #3d3529;
-  --danger: #ef4444;
   --success: #22c55e;
 }
 
@@ -74,6 +72,7 @@ html, body {
   padding: 2rem;
 }
 
+/* ═══ VIDEO — no border ═══ */
 .video-container {
   width: 240px;
   height: 240px;
@@ -85,28 +84,6 @@ html, body {
   animation: videoReveal 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   animation-delay: 0.2s;
 }
-
-.video-container::before {
-  content: '';
-  position: absolute;
-  inset: -3px;
-  border-radius: 50%;
-  background: conic-gradient(from 0deg, transparent, var(--accent), var(--accent-deep), transparent);
-  z-index: -1;
-  animation: ringRotate 6s linear infinite;
-}
-
-.video-container::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  box-shadow: 0 0 60px rgba(245, 158, 11, 0.15), inset 0 0 40px rgba(0,0,0,0.5);
-  pointer-events: none;
-  z-index: 2;
-}
-
-@keyframes ringRotate { to { transform: rotate(360deg); } }
 
 @keyframes videoReveal {
   0% { opacity: 0; transform: scale(0.7); filter: blur(15px); }
@@ -121,26 +98,7 @@ html, body {
   display: block;
 }
 
-.video-glow {
-  position: absolute;
-  inset: -20px;
-  border-radius: 50%;
-  border: 1px solid rgba(245, 158, 11, 0.08);
-  animation: glowPulse 4s ease-in-out infinite;
-  pointer-events: none;
-}
-
-.video-glow:nth-child(2) {
-  inset: -35px;
-  animation-delay: 1s;
-  border-color: rgba(245, 158, 11, 0.04);
-}
-
-@keyframes glowPulse {
-  0%, 100% { opacity: 0.3; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.02); }
-}
-
+/* ═══ LOGO ═══ */
 .logo-group { text-align: center; margin-bottom: 2.5rem; }
 
 .logo-title {
@@ -197,6 +155,7 @@ html, body {
 
 @keyframes scanExpand { to { width: 280px; } }
 
+/* ═══ LOGIN ═══ */
 .login-card {
   width: 100%;
   max-width: 380px;
@@ -302,6 +261,7 @@ html, body {
 
 @keyframes shimmer { 0% { left: -100%; } 50% { left: 100%; } 100% { left: 100%; } }
 
+/* ═══ DATA POINTS ═══ */
 .data-point {
   position: fixed;
   font-family: 'Space Mono', monospace;
@@ -320,6 +280,7 @@ html, body {
   90% { opacity: 0.3; }
 }
 
+/* ═══ STATUS ═══ */
 .status-bar {
   position: fixed;
   top: 1.5rem;
@@ -399,9 +360,7 @@ html, body {
 <div class="main">
   <div class="logo-group">
     <div class="video-container">
-      <div class="video-glow"></div>
-      <div class="video-glow"></div>
-      <video autoplay loop muted playsinline>
+      <video id="athena-video" loop muted playsinline preload="auto">
         <source src="athena-intro.mp4" type="video/mp4">
       </video>
     </div>
@@ -435,6 +394,7 @@ html, body {
 </div>
 
 <script>
+// ═══ PARTICLE NETWORK ═══
 const canvas = document.getElementById('bg-canvas');
 const ctx = canvas.getContext('2d');
 let W, H, particles = [], mouse = { x: -1000, y: -1000 };
@@ -486,6 +446,19 @@ function animate() {
 }
 animate();
 
+// ═══ VIDEO — plays on first input focus ═══
+let videoStarted = false;
+function triggerVideo() {
+  if (videoStarted) return;
+  videoStarted = true;
+  const vid = document.getElementById('athena-video');
+  vid.play();
+}
+
+document.getElementById('email').addEventListener('focus', triggerVideo);
+document.getElementById('password').addEventListener('focus', triggerVideo);
+
+// ═══ LOGIN ═══
 function handleLogin() {
   const email = document.getElementById('email').value;
   const pass = document.getElementById('password').value;
