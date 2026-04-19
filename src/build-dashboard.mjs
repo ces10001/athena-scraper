@@ -29,33 +29,27 @@ function getDispInfo(slug) {
   return { name: slug.replace(/-+/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), city: 'CT' };
 }
 
-// ─── Normalize weight to grams so "1/8oz" and "3.5g" match ───
 function normalizeWeight(weightLabel, name) {
   var src = ((weightLabel || '') + ' ' + (name || '')).toLowerCase();
-  // Common fractions of ounce
   if (/\b1\/8\s*oz\b|\beighth\b/.test(src)) return '3.5g';
   if (/\b1\/4\s*oz\b|\bquarter\b/.test(src)) return '7g';
   if (/\b1\/2\s*oz\b|\bhalf\b/.test(src)) return '14g';
   if (/\b1\s*oz\b|\bounce\b/.test(src)) return '28g';
-  // Direct gram/mg values
   var gMatch = src.match(/\b(\d+\.?\d*)\s*g\b/);
   if (gMatch) return parseFloat(gMatch[1]) + 'g';
   var mgMatch = src.match(/\b(\d+)\s*mg\b/);
   if (mgMatch) return mgMatch[1] + 'mg';
   var mlMatch = src.match(/\b(\d+)\s*ml\b/);
   if (mlMatch) return mlMatch[1] + 'ml';
-  // Pack counts
   var pkMatch = src.match(/\b(\d+)\s*(?:pk|pack|ct|count)\b/);
   if (pkMatch) return pkMatch[1] + 'pk';
   return 'unknown';
 }
 
-// ─── Category mapping ───
 function mapCategory(cat, subcategory, name) {
   var c = (cat || '').toLowerCase();
   var sub = (subcategory || '').toLowerCase();
   var n = (name || '').toLowerCase();
-
   var map = {
     'flower': 'Flower',
     'vaporizers': 'Vaporizers', 'vape': 'Vaporizers',
@@ -67,7 +61,6 @@ function mapCategory(cat, subcategory, name) {
     'cbd': 'CBD',
   };
   if (map[c]) return map[c];
-
   if (c === 'other') {
     if (sub.includes('cartridge') || sub.includes('disposable') || sub.includes('vape')) return 'Vaporizers';
     if (sub.includes('edible') || sub.includes('gummy') || sub.includes('chocolate')) return 'Edible';
@@ -79,14 +72,12 @@ function mapCategory(cat, subcategory, name) {
     if (/\b(rosin|resin|wax|shatter|badder|diamond|sauce)\b/i.test(n)) return 'Concentrate';
     if (/\b(tincture|drops)\b/i.test(n)) return 'Tincture';
   }
-
   return cat || 'Other';
 }
 
 const SKIP_CATS = new Set(['accessories', 'apparel', 'gear']);
 function shouldSkip(cat) { return SKIP_CATS.has((cat || '').toLowerCase()); }
 
-// ─── Fuzzy strain matching (for cross-dispensary) ───
 const NOISE_WORDS = new Set([
   'warning', 'high', 'thc', 'cbd', 'pre', 'pack', 'prepack', 'whole',
   'flower', 'premium', 'reserve', 'select', 'grind', 'mini', 'minis',
@@ -132,7 +123,6 @@ function extractStrainTokens(name, brand) {
   });
 }
 
-// ─── Match key now includes WEIGHT so 3.5g and 28g stay separate ───
 function makeMatchKey(brand, name, category, weight) {
   var tokens = extractStrainTokens(name, brand);
   var brandKey = (brand || '').toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 15);
@@ -192,7 +182,6 @@ async function main() {
   allRaw.forEach(function(p) { catDebug[p._cat] = (catDebug[p._cat] || 0) + 1; });
   console.log('Mapped categories: ' + Object.entries(catDebug).map(e => e[0] + ': ' + e[1]).join(', '));
 
-  // ─── Group by exact match key (brand + category + WEIGHT + strain tokens) ───
   var exactGroups = {};
   for (var p of allRaw) {
     if (!p._price) continue;
@@ -202,7 +191,6 @@ async function main() {
   }
   console.log('Exact match groups: ' + Object.keys(exactGroups).length);
 
-  // ─── Fuzzy merge (only within same brand + category + WEIGHT) ───
   var groupKeys = Object.keys(exactGroups);
   var merged = {};
   var used = new Set();
@@ -223,10 +211,9 @@ async function main() {
       var candBrand = (candGroup[0].brand || '').toLowerCase().replace(/[^a-z0-9]/g, '');
       var candCat = candGroup[0]._cat;
       var candWeight = candGroup[0]._weight;
-      // Must match brand + category + WEIGHT
       if (candBrand !== baseBrand || candCat !== baseCat || candWeight !== baseWeight) continue;
       var candTokens = extractStrainTokens(candGroup[0].name, candGroup[0].brand);
-      if (tokenSimilarity(baseTokens, candTokens) >= 0.6) {
+      if (tokenSimilarity(baseTokens, candTokens) >= 0.75) {
         mergedGroup = mergedGroup.concat(candGroup);
         used.add(j);
       }
