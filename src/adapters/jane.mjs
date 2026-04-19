@@ -235,5 +235,3 @@ export async function scrapeJane(dispensary) {
     return { products: [], errors: [err.message] };
   }
 }
-
-export default { scrapeJane };
