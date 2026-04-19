@@ -37,9 +37,8 @@ export const CT_DISPENSARIES = [
   { name: "Curaleaf - Groton", city: "Groton", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-groton/medical/menu"] },
   { name: "Curaleaf - Manchester", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/recreational/menu", "https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/medical/menu"] },
 
-  // ═══ SWEED — HIGHER COLLECTIVE (6) ═══
+  // ═══ SWEED — HIGHER COLLECTIVE (5 — Hartford & Willington closed) ═══
   { name: "Higher Collective - Bridgeport", city: "Bridgeport", platform: "sweed", sweed_urls: ["https://highercollective.com/menu/"] },
-  { name: "Higher Collective - Hartford", city: "Hartford", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/hartford/menu"] },
   { name: "Higher Collective - Killingly", city: "Killingly", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/killingly/menu"] },
   { name: "Higher Collective - New London", city: "New London", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/new-london/menu"] },
   { name: "Higher Collective - Torrington", city: "Torrington", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/torrington/menu"] },
@@ -64,7 +63,7 @@ export const CT_DISPENSARIES = [
   { name: "Fine Fettle - West Hartford", city: "West Hartford", platform: "finefettle", store_ids: { rec: "6383", med: "6419" } },
   { name: "Fine Fettle - Willimantic", city: "Willimantic", platform: "finefettle", store_ids: { rec: "4987", med: "793" } },
 
-  // ═══ JANE — BUDR CANNABIS (7 locations, 9 store IDs) ═══
+  // ═══ JANE — BUDR CANNABIS (7) ═══
   { name: "BUDR - Danbury (Mill Plain)", city: "Danbury", platform: "jane", jane_stores: [
     { id: 5257, slug: "ct-the-botanist-danbury-adult-use" },
     { id: 3709, slug: "ct-the-botanist-danbury-medical" }
@@ -87,6 +86,21 @@ export const CT_DISPENSARIES = [
   ] },
   { name: "BUDR - Tolland", city: "Tolland", platform: "jane", jane_stores: [
     { id: 5892, slug: "budr-cannabis-tolland" }
+  ] },
+
+  // ═══ JANE — RISE / BLUEPOINT (2) ═══
+  { name: "Rise - Branford", city: "Branford", platform: "jane", jane_stores: [
+    { id: 4970, slug: "rise-dispensaries-branford-adult-use" },
+    { id: 1501, slug: "rise-dispensaries-branford-medical" }
+  ] },
+  { name: "Rise - Orange", city: "Orange", platform: "jane", jane_stores: [
+    { id: 5653, slug: "rise-dispensaries-orange-adult-use" },
+    { id: 2817, slug: "rise-dispensaries-orange-medical" }
+  ] },
+
+  // ═══ JANE — VENU FLOWER COLLECTIVE (1) ═══
+  { name: "Venu Flower Collective", city: "Middletown", platform: "jane", jane_stores: [
+    { id: 5335, slug: "venu-flower-collective" }
   ] },
 
   // ═══ AFFINITY (your stores) ═══
