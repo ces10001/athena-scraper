@@ -29,14 +29,64 @@ function getDispInfo(slug) {
   return { name: slug.replace(/-+/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), city: 'CT' };
 }
 
-// ─── Skip categories ───
-const SKIP_CATS = new Set(['accessories', 'apparel', 'gear']);
-
-function shouldSkip(cat) {
-  return SKIP_CATS.has((cat || '').toLowerCase());
+// ─── Normalize weight to grams so "1/8oz" and "3.5g" match ───
+function normalizeWeight(weightLabel, name) {
+  var src = ((weightLabel || '') + ' ' + (name || '')).toLowerCase();
+  // Common fractions of ounce
+  if (/\b1\/8\s*oz\b|\beighth\b/.test(src)) return '3.5g';
+  if (/\b1\/4\s*oz\b|\bquarter\b/.test(src)) return '7g';
+  if (/\b1\/2\s*oz\b|\bhalf\b/.test(src)) return '14g';
+  if (/\b1\s*oz\b|\bounce\b/.test(src)) return '28g';
+  // Direct gram/mg values
+  var gMatch = src.match(/\b(\d+\.?\d*)\s*g\b/);
+  if (gMatch) return parseFloat(gMatch[1]) + 'g';
+  var mgMatch = src.match(/\b(\d+)\s*mg\b/);
+  if (mgMatch) return mgMatch[1] + 'mg';
+  var mlMatch = src.match(/\b(\d+)\s*ml\b/);
+  if (mlMatch) return mlMatch[1] + 'ml';
+  // Pack counts
+  var pkMatch = src.match(/\b(\d+)\s*(?:pk|pack|ct|count)\b/);
+  if (pkMatch) return pkMatch[1] + 'pk';
+  return 'unknown';
 }
 
-// ─── Fuzzy product matching ───
+// ─── Category mapping ───
+function mapCategory(cat, subcategory, name) {
+  var c = (cat || '').toLowerCase();
+  var sub = (subcategory || '').toLowerCase();
+  var n = (name || '').toLowerCase();
+
+  var map = {
+    'flower': 'Flower',
+    'vaporizers': 'Vaporizers', 'vape': 'Vaporizers',
+    'edible': 'Edible', 'edibles': 'Edible',
+    'pre-rolls': 'Pre-Rolls', 'pre-roll': 'Pre-Rolls',
+    'concentrate': 'Concentrate', 'concentrates': 'Concentrate',
+    'tincture': 'Tincture', 'tinctures': 'Tincture',
+    'topical': 'Topical', 'topicals': 'Topical',
+    'cbd': 'CBD',
+  };
+  if (map[c]) return map[c];
+
+  if (c === 'other') {
+    if (sub.includes('cartridge') || sub.includes('disposable') || sub.includes('vape')) return 'Vaporizers';
+    if (sub.includes('edible') || sub.includes('gummy') || sub.includes('chocolate')) return 'Edible';
+    if (sub.includes('concentrate') || sub.includes('rosin') || sub.includes('resin') || sub.includes('wax') || sub.includes('shatter')) return 'Concentrate';
+    if (sub.includes('tincture')) return 'Tincture';
+    if (sub.includes('topical')) return 'Topical';
+    if (/\b(vape|cart|cartridge|disposable)\b/i.test(n)) return 'Vaporizers';
+    if (/\b(gummy|gummies|chocolate|edible|chew)\b/i.test(n)) return 'Edible';
+    if (/\b(rosin|resin|wax|shatter|badder|diamond|sauce)\b/i.test(n)) return 'Concentrate';
+    if (/\b(tincture|drops)\b/i.test(n)) return 'Tincture';
+  }
+
+  return cat || 'Other';
+}
+
+const SKIP_CATS = new Set(['accessories', 'apparel', 'gear']);
+function shouldSkip(cat) { return SKIP_CATS.has((cat || '').toLowerCase()); }
+
+// ─── Fuzzy strain matching (for cross-dispensary) ───
 const NOISE_WORDS = new Set([
   'warning', 'high', 'thc', 'cbd', 'pre', 'pack', 'prepack', 'whole',
   'flower', 'premium', 'reserve', 'select', 'grind', 'mini', 'minis',
@@ -47,7 +97,7 @@ const NOISE_WORDS = new Set([
   'capsule', 'capsules', 'tablet', 'tablets', 'softgel', 'softgels',
   'rec', 'med', 'adult', 'use', 'only',
   'indica', 'sativa', 'hybrid', 'balanced',
-  'pk', 'ct', 'ea', 'pck',
+  'pk', 'ct', 'ea', 'pck', 'eighth', 'quarter', 'half', 'ounce', 'oz',
 ]);
 
 const KNOWN_BRANDS = [
@@ -70,6 +120,7 @@ function extractStrainTokens(name, brand) {
   s = s.replace(/\b[tcbdTCBD]+\s*\d+\.?\d*\s*%?/g, '');
   s = s.replace(/\d+\.?\d*\s*%/g, '');
   s = s.replace(/\b\d+\s*pk\b/gi, '');
+  s = s.replace(/\b1\/[248]\s*oz\b/gi, '');
   s = s.replace(/\([ISHC]\)/gi, '');
   s = s.replace(/\((?:indica|sativa|hybrid|cbd)\)/gi, '');
   s = s.replace(/warning[^|]*/gi, '');
@@ -81,12 +132,14 @@ function extractStrainTokens(name, brand) {
   });
 }
 
-function makeMatchKey(brand, name, category) {
+// ─── Match key now includes WEIGHT so 3.5g and 28g stay separate ───
+function makeMatchKey(brand, name, category, weight) {
   var tokens = extractStrainTokens(name, brand);
   var brandKey = (brand || '').toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 15);
   var catKey = (category || '').toLowerCase().substring(0, 5);
+  var weightKey = (weight || '').toLowerCase();
   tokens.sort();
-  return brandKey + '|' + catKey + '|' + tokens.join(' ');
+  return brandKey + '|' + catKey + '|' + weightKey + '|' + tokens.join(' ');
 }
 
 function tokenSimilarity(a, b) {
@@ -97,19 +150,6 @@ function tokenSimilarity(a, b) {
   setA.forEach(function(t) { if (setB.has(t)) intersection++; });
   var union = new Set([...a, ...b]).size;
   return union > 0 ? intersection / union : 0;
-}
-
-function mapCategory(cat) {
-  var map = {
-    'flower': 'Flower', 'vaporizers': 'Vaporizers', 'vape': 'Vaporizers',
-    'edible': 'Edible', 'edibles': 'Edible',
-    'pre-rolls': 'Pre-Rolls', 'pre-roll': 'Pre-Rolls',
-    'concentrate': 'Concentrate', 'concentrates': 'Concentrate',
-    'tincture': 'Tincture', 'tinctures': 'Tincture',
-    'topical': 'Topical', 'topicals': 'Topical',
-    'cbd': 'CBD',
-  };
-  return map[(cat || '').toLowerCase()] || cat || 'Other';
 }
 
 async function main() {
@@ -128,34 +168,41 @@ async function main() {
     var raw = JSON.parse(await readFile(RESULTS_DIR + '/' + file, 'utf-8'));
     if (!Array.isArray(raw) || raw.length === 0) continue;
 
-    // Filter out accessories and apparel
     var filtered = raw.filter(function(p) { return !shouldSkip(p.category); });
 
     allDisps[info.name] = { city: info.city, product_count: filtered.length, daily_sales: 0 };
 
     for (var product of filtered) {
+      var mappedCat = mapCategory(product.category, product.subcategory, product.name);
+      var normWeight = normalizeWeight(product.weight_label, product.name);
       allRaw.push({
         ...product,
         _disp: info.name,
         _price: product.price_cents ? product.price_cents / 100 : null,
         _origPrice: product.original_price_cents ? product.original_price_cents / 100 : null,
-        _cat: mapCategory(product.category),
+        _cat: mappedCat,
+        _weight: normWeight,
       });
     }
   }
 
   console.log('Loaded ' + allRaw.length + ' products from ' + Object.keys(allDisps).length + ' dispensaries');
 
-  // ─── Fuzzy merge ───
+  var catDebug = {};
+  allRaw.forEach(function(p) { catDebug[p._cat] = (catDebug[p._cat] || 0) + 1; });
+  console.log('Mapped categories: ' + Object.entries(catDebug).map(e => e[0] + ': ' + e[1]).join(', '));
+
+  // ─── Group by exact match key (brand + category + WEIGHT + strain tokens) ───
   var exactGroups = {};
   for (var p of allRaw) {
     if (!p._price) continue;
-    var key = makeMatchKey(p.brand, p.name, p._cat);
+    var key = makeMatchKey(p.brand, p.name, p._cat, p._weight);
     if (!exactGroups[key]) exactGroups[key] = [];
     exactGroups[key].push(p);
   }
   console.log('Exact match groups: ' + Object.keys(exactGroups).length);
 
+  // ─── Fuzzy merge (only within same brand + category + WEIGHT) ───
   var groupKeys = Object.keys(exactGroups);
   var merged = {};
   var used = new Set();
@@ -165,6 +212,7 @@ async function main() {
     var baseGroup = exactGroups[groupKeys[i]];
     var baseBrand = (baseGroup[0].brand || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     var baseCat = baseGroup[0]._cat;
+    var baseWeight = baseGroup[0]._weight;
     var baseTokens = extractStrainTokens(baseGroup[0].name, baseGroup[0].brand);
     var mergedGroup = [...baseGroup];
     used.add(i);
@@ -174,9 +222,11 @@ async function main() {
       var candGroup = exactGroups[groupKeys[j]];
       var candBrand = (candGroup[0].brand || '').toLowerCase().replace(/[^a-z0-9]/g, '');
       var candCat = candGroup[0]._cat;
-      if (candBrand !== baseBrand || candCat !== baseCat) continue;
+      var candWeight = candGroup[0]._weight;
+      // Must match brand + category + WEIGHT
+      if (candBrand !== baseBrand || candCat !== baseCat || candWeight !== baseWeight) continue;
       var candTokens = extractStrainTokens(candGroup[0].name, candGroup[0].brand);
-      if (tokenSimilarity(baseTokens, candTokens) >= 0.5) {
+      if (tokenSimilarity(baseTokens, candTokens) >= 0.6) {
         mergedGroup = mergedGroup.concat(candGroup);
         used.add(j);
       }
@@ -185,7 +235,6 @@ async function main() {
   }
   console.log('After fuzzy merge: ' + Object.keys(merged).length + ' product groups');
 
-  // ─── Convert to dashboard format ───
   var products = [];
   var comparable = 0;
 
@@ -193,7 +242,14 @@ async function main() {
     var bestName = group[0].name;
     for (var g of group) { if (g.name && g.name.length > bestName.length) bestName = g.name; }
 
-    var product = { name: bestName, brand: group[0].brand || '', category: group[0]._cat, dispensaries: {}, promos: {} };
+    var product = {
+      name: bestName,
+      brand: group[0].brand || '',
+      category: group[0]._cat,
+      weight: group[0]._weight,
+      dispensaries: {},
+      promos: {},
+    };
 
     for (var g of group) {
       var existing = product.dispensaries[g._disp];
@@ -208,7 +264,6 @@ async function main() {
   }
   console.log('Comparable products (2+ dispensaries): ' + comparable);
 
-  // ─── Deals ───
   var deals = [];
   for (var p of allRaw) {
     if (p.on_sale && p._origPrice && p._price && p._price < p._origPrice) {
@@ -224,15 +279,9 @@ async function main() {
     }
   }
 
-  // ─── Category stats ───
-  var catCounts = {};
-  allRaw.forEach(function(p) { catCounts[p._cat] = (catCounts[p._cat] || 0) + 1; });
-  console.log('Categories: ' + Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', '));
-
   var dispensaryCounts = {};
   for (var [name, info] of Object.entries(allDisps)) dispensaryCounts[name] = info.product_count;
 
-  // ─── Output ───
   var output = {
     scraped_at: new Date().toISOString(),
     stats: {
@@ -254,7 +303,6 @@ async function main() {
   console.log('  Products:     ' + products.length);
   console.log('  Comparable:   ' + comparable);
   console.log('  Deals:        ' + deals.length);
-  console.log('  Categories:   ' + Object.keys(catCounts).length);
   console.log('  Dispensaries: ' + Object.keys(allDisps).length);
 }
 
