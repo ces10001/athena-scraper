@@ -31,18 +31,33 @@ export const CT_DISPENSARIES = [
   // ═══ TRULIEVE ═══
   { name: "Trulieve - Bristol", city: "Bristol", platform: "dutchie", dispensary_id: "6467d55d85659100329b597c" },
 
+  // ═══ ZEN LEAF (renamed from Willow Brook) ═══
+  { name: "Zen Leaf - Meriden", city: "Meriden", platform: "dutchie", dispensary_id: "60550d82f9aa8800d271e889" },
+
+  // ═══ CLONE CANABISS / REJOICE (3) ═══
+  { name: "Rejoice - Meriden", city: "Meriden", platform: "dutchie", dispensary_id: "651c8074edb4db0009991a9a" },
+  { name: "Rejoice - Seymour", city: "Seymour", platform: "dutchie", dispensary_id: "665a067c50e8d85bb9a7f6da" },
+  { name: "Rejoice - Norwich", city: "Norwich", platform: "dutchie", dispensary_id: "695b256d1dbd4c351dbeb54c" },
+
+  // ═══ NIGHTJAR (2) ═══
+  { name: "Nightjar - Hamden", city: "Hamden", platform: "dutchie", dispensary_id: "67294f43e93a193302598431" },
+  { name: "Nightjar - East Lyme", city: "East Lyme", platform: "dutchie", dispensary_id: "67294e6b54dc2c7b6365f494" },
+
+  // ═══ THE LIV (2) ═══
+  { name: "The Liv - Newington", city: "Newington", platform: "dutchie", dispensary_id: "695b2080ffaa8f06d445fbed" },
+  { name: "The Liv - Putnam", city: "Putnam", platform: "dutchie", dispensary_id: "65c115e7c976d30009b57c0d" },
+
   // ═══ OTHER DUTCHIE ═══
-  { name: "Willow Brook Wellness", city: "Meriden", platform: "dutchie", dispensary_id: "60550d82f9aa8800d271e889" },
   { name: "Lit New Haven", city: "New Haven", platform: "dutchie", dispensary_id: "65cf8b090573d20009b82376" },
   { name: "Rodeo Cannabis - Rocky Hill", city: "Rocky Hill", platform: "dutchie", dispensary_id: "6927a5ea429e258103a08c6f" },
-  { name: "The Liv - Newington", city: "Newington", platform: "dutchie", dispensary_id: "695b2080ffaa8f06d445fbed" },
-  { name: "Nightjar - Hamden", city: "Hamden", platform: "dutchie", dispensary_id: "67294f43e93a193302598431" },
+  { name: "Awwsom", city: "Naugatuck", platform: "dutchie", dispensary_id: "67194fc04e40d147550900c0" },
+  { name: "Octane", city: "Enfield", platform: "dutchie", dispensary_id: "6734da429b9d1a25817194da" },
+  { name: "The Harvest Corner", city: "Colchester", platform: "dutchie", dispensary_id: "651c58d812bfd100091efcf7" },
 
-  // ═══ CURALEAF CT — Sweed Platform (5) ═══
+  // ═══ CURALEAF CT — Sweed Platform (4 active) ═══
   { name: "Curaleaf - Stamford", city: "Stamford", platform: "curaleaf", store_slug: "curaleaf-ct-stamford", menu_types: ["recreational", "medical"] },
   { name: "Curaleaf - Hartford", city: "Hartford", platform: "curaleaf", store_slug: "curaleaf-ct-hartford", menu_types: ["recreational", "medical"] },
   { name: "Curaleaf - Groton", city: "Groton", platform: "curaleaf", store_slug: "curaleaf-ct-groton", menu_types: ["recreational", "medical"] },
-  { name: "Curaleaf - Milford", city: "Milford", platform: "curaleaf", store_slug: "curaleaf-ct-milford", menu_types: ["recreational", "medical"] },
   { name: "Curaleaf - Manchester", city: "Manchester", platform: "curaleaf", store_slug: "curaleaf-ct-manchester", menu_types: ["recreational", "medical"] },
 
   // ═══ FINE FETTLE CT — Custom Platform (9) ═══
@@ -58,4 +73,6 @@ export const CT_DISPENSARIES = [
 
   // ═══ AFFINITY (your stores) ═══
   { name: "Affinity Dispensary", city: "Bridgeport", platform: "owner", dispensary_id: "5e584d89cff4460075f52699" },
+  { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "owner", dispensary_id: "629fa02faca88d009d0958af" },
+  { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "owner", dispensary_id: "63b84677d97a120083972651" },
 ];
