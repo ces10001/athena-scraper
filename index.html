@@ -92,7 +92,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 @media(max-width:640px){.hdr{flex-direction:column;align-items:flex-start}.stats{grid-template-columns:repeat(2,1fr)}.tabs{flex-wrap:wrap}}
 </style>
 </head>
-<body><div id="root"></div>
+<body><script>if(!sessionStorage.getItem('athena_auth')){window.location.href='login.html'}</script><div id="root"></div>
 <script type="text/babel">
 const{useState,useEffect,useMemo,useCallback,useRef}=React;
 const COORDS={"New Haven":[41.308,-72.928],"Bridgeport":[41.179,-73.189],"Orange":[41.278,-73.026],"Branford":[41.280,-72.815],"Hamden":[41.396,-72.897],"Derby":[41.327,-73.089],"Stratford":[41.185,-73.133],"Naugatuck":[41.486,-73.051],"Meriden":[41.538,-72.807],"Stamford":[41.053,-73.539],"Newington":[41.698,-72.723],"Waterbury":[41.558,-73.037],"Seymour":[41.397,-73.084],"Hartford":[41.764,-72.685],"Groton":[41.350,-72.078],"Milford":[41.222,-73.057],"Bristol":[41.672,-72.949],"Manchester":[41.776,-72.521],"Willimantic":[41.711,-72.208],"Norwalk":[41.118,-73.408],"Old Saybrook":[41.292,-72.376],"West Hartford":[41.762,-72.742],"Canton":[41.841,-72.898],"South Norwalk":[41.095,-73.419],"New Britain":[41.661,-72.779],"East Hartford":[41.782,-72.612],"Danbury":[41.395,-73.454],"Torrington":[41.800,-73.121],"Shelton":[41.316,-73.093],"Wallingford":[41.457,-72.823],"Vernon":[41.836,-72.459],"North Haven":[41.391,-72.860],"West Haven":[41.271,-72.947],"Middletown":[41.563,-72.651],"New London":[41.356,-72.100],"Enfield":[41.976,-72.592],"Killingly":[41.838,-71.873],"Montville":[41.478,-72.151],"Plainville":[41.674,-72.858],"Colchester":[41.576,-72.332],"Norwich":[41.524,-72.076]};
