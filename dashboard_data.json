@@ -1,14 +1,18 @@
 {
-  "scraped_at": "2026-04-19T03:12:04.614Z",
+  "scraped_at": "2026-04-19T03:57:49.858Z",
   "stats": {
-    "total_active": 8291,
-    "dispensary_count": 21,
-    "comparable": 1447,
-    "deals": 3042,
+    "total_active": 8692,
+    "dispensary_count": 25,
+    "comparable": 1547,
+    "deals": 3443,
     "dispensary_counts": {
       "Crisp Cannabis - Cromwell": 136,
       "Crisp Cannabis - East Hartford": 166,
       "Crisp Cannabis - Trumbull": 167,
+      "Curaleaf Groton": 96,
+      "Curaleaf Hartford": 101,
+      "Curaleaf Manchester": 105,
+      "Curaleaf Stamford": 99,
       "High Profile - Canton": 463,
       "High Profile - Hamden": 439,
       "High Profile - Stratford": 399,
@@ -3725,6 +3729,2496 @@
       },
       "promos": {
         "Crisp Cannabis - Trumbull": 12.79
+      }
+    },
+    {
+      "name": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 49,
+        "Curaleaf Hartford": 49,
+        "Curaleaf Manchester": 49,
+        "Curaleaf Stamford": 49
+      }
+    },
+    {
+      "name": "Solotti BRIQ 2",
+      "brand": "SelectGA",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 49,
+        "Curaleaf Hartford": 49,
+        "Curaleaf Manchester": 49,
+        "Curaleaf Stamford": 49
+      }
+    },
+    {
+      "name": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 49,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Forbidden Fruit BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 49,
+        "Curaleaf Manchester": 49,
+        "Curaleaf Stamford": 49
+      }
+    },
+    {
+      "name": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Banana Cream Cayk Cartridge",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 45.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 49,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Couch Kush BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 125,
+        "Curaleaf Manchester": 125,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 87.5,
+        "Curaleaf Manchester": 87.5,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 125,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 125
+      },
+      "promos": {
+        "Curaleaf Groton": 87.5,
+        "Curaleaf Hartford": 49,
+        "Curaleaf Manchester": 49,
+        "Curaleaf Stamford": 87.5
+      }
+    },
+    {
+      "name": "Sundae Slumber BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 49,
+        "Curaleaf Hartford": 49
+      }
+    },
+    {
+      "name": "Scout Whole Flower",
+      "brand": "RYTHMB",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 120,
+        "Curaleaf Manchester": 120,
+        "Curaleaf Stamford": 120
+      },
+      "promos": {
+        "Curaleaf Groton": 90,
+        "Curaleaf Manchester": 90,
+        "Curaleaf Stamford": 90
+      }
+    },
+    {
+      "name": "Animal Face Whole Flower",
+      "brand": "RYTHM",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Manchester": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "BurnMule Fuel Whole Flower",
+      "brand": "Let's",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 48,
+        "Curaleaf Hartford": 48,
+        "Curaleaf Manchester": 48,
+        "Curaleaf Stamford": 48
+      },
+      "promos": {
+        "Curaleaf Groton": 33.6,
+        "Curaleaf Hartford": 33.6,
+        "Curaleaf Manchester": 33.6,
+        "Curaleaf Stamford": 33.6
+      }
+    },
+    {
+      "name": "Small Buds",
+      "brand": "RYTHMGMO",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 65,
+        "Curaleaf Hartford": 65,
+        "Curaleaf Manchester": 65,
+        "Curaleaf Stamford": 65
+      },
+      "promos": {
+        "Curaleaf Groton": 48.75,
+        "Curaleaf Hartford": 48.75,
+        "Curaleaf Manchester": 48.75,
+        "Curaleaf Stamford": 48.75
+      }
+    },
+    {
+      "name": "Whole Flower Hybrid 95 Cook Whole Flower 3.5g",
+      "brand": "",
+      "category": "Flower",
+      "weight": "3.5g",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Manchester": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "BurnCT Kush Cake Whole Flower",
+      "brand": "Let's",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 48,
+        "Curaleaf Hartford": 48,
+        "Curaleaf Manchester": 48,
+        "Curaleaf Stamford": 48
+      },
+      "promos": {
+        "Curaleaf Groton": 33.6,
+        "Curaleaf Hartford": 33.6,
+        "Curaleaf Manchester": 33.6,
+        "Curaleaf Stamford": 33.6
+      }
+    },
+    {
+      "name": "Whole Flower Hybrid Mule Fuel Whole Flower 3.5g",
+      "brand": "",
+      "category": "Flower",
+      "weight": "3.5g",
+      "dispensaries": {
+        "Curaleaf Groton": 45
+      },
+      "promos": {
+        "Curaleaf Groton": 33.75
+      }
+    },
+    {
+      "name": "Afternoon Delight #4 Whole Flower",
+      "brand": "RYTHM",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5
+      }
+    },
+    {
+      "name": "Jungle Cake Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "Whole Flower",
+      "brand": "Find.PB MFN",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 80,
+        "Curaleaf Hartford": 80,
+        "Curaleaf Manchester": 80
+      },
+      "promos": {
+        "Curaleaf Groton": 40,
+        "Curaleaf Hartford": 40,
+        "Curaleaf Manchester": 40
+      }
+    },
+    {
+      "name": "Pineapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 20,
+        "Curaleaf Stamford": 20
+      }
+    },
+    {
+      "name": "Jayna's Sunshine Ground Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 40,
+        "Curaleaf Manchester": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Groton": 20,
+        "Curaleaf Manchester": 20,
+        "Curaleaf Stamford": 20
+      }
+    },
+    {
+      "name": "Pineapple Sunrise Ground Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 40,
+        "Curaleaf Hartford": 40,
+        "Curaleaf Manchester": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Groton": 20,
+        "Curaleaf Hartford": 20,
+        "Curaleaf Manchester": 20,
+        "Curaleaf Stamford": 20
+      }
+    },
+    {
+      "name": "Full Tank Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 209,
+        "Curaleaf Hartford": 209,
+        "Curaleaf Manchester": 209
+      },
+      "promos": {
+        "Curaleaf Groton": 140,
+        "Curaleaf Hartford": 140,
+        "Curaleaf Manchester": 140
+      }
+    },
+    {
+      "name": "Dosi-Punch Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 209,
+        "Curaleaf Hartford": 109,
+        "Curaleaf Manchester": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 140,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70
+      }
+    },
+    {
+      "name": "Purpentine Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 209
+      },
+      "promos": {
+        "Curaleaf Groton": 140
+      }
+    },
+    {
+      "name": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Hartford": 109,
+        "Curaleaf Manchester": 109,
+        "Curaleaf Stamford": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      }
+    },
+    {
+      "name": "Heir Heads Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Manchester": 109,
+        "Curaleaf Stamford": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      }
+    },
+    {
+      "name": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Hartford": 189,
+        "Curaleaf Manchester": 109,
+        "Curaleaf Stamford": 189
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 140,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Original Glue Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Stamford": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Stamford": 70
+      }
+    },
+    {
+      "name": "Stomper Kush Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 189,
+        "Curaleaf Stamford": 189
+      },
+      "promos": {
+        "Curaleaf Groton": 140,
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Mendo Wedding Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Hartford": 109,
+        "Curaleaf Stamford": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Stamford": 70
+      }
+    },
+    {
+      "name": "Super Lemon G Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Hartford": 109,
+        "Curaleaf Stamford": 189
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Confidential Cherries Whole Flower",
+      "brand": "RYTHM",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 20,
+        "Curaleaf Hartford": 20,
+        "Curaleaf Stamford": 20
+      }
+    },
+    {
+      "name": "Sour Fire OG Whole Flower",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 109,
+        "Curaleaf Hartford": 109,
+        "Curaleaf Stamford": 109
+      },
+      "promos": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Stamford": 70
+      }
+    },
+    {
+      "name": "Gush Mintz Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Manchester": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "Blue NDZ Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Manchester": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "Cap Junk Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 13,
+        "Curaleaf Hartford": 13,
+        "Curaleaf Stamford": 13
+      },
+      "promos": {
+        "Curaleaf Groton": 9.75,
+        "Curaleaf Hartford": 9.75,
+        "Curaleaf Stamford": 9.75
+      }
+    },
+    {
+      "name": "Inkowgnito Mode Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Manchester": 37.5
+      }
+    },
+    {
+      "name": "Cap Junk Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Manchester": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "Chem Junk Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 37.5,
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Manchester": 37.5
+      }
+    },
+    {
+      "name": "Soap Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5
+      }
+    },
+    {
+      "name": "Scrub Trooper All-in-One",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 60,
+        "Curaleaf Stamford": 60
+      },
+      "promos": {
+        "Curaleaf Groton": 45,
+        "Curaleaf Stamford": 45
+      }
+    },
+    {
+      "name": "Purple Milk Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "Afgooey Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5
+      }
+    },
+    {
+      "name": "Cap Junk Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "BudzGush Mintz Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 52.5,
+        "Curaleaf Hartford": 52.5,
+        "Curaleaf Manchester": 52.5,
+        "Curaleaf Stamford": 52.5
+      }
+    },
+    {
+      "name": "BudzPurple Milk Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 52.5,
+        "Curaleaf Hartford": 52.5,
+        "Curaleaf Manchester": 52.5,
+        "Curaleaf Stamford": 52.5
+      }
+    },
+    {
+      "name": "Pre Roll Hybrid C Stata Pre Roll 1g",
+      "brand": "",
+      "category": "Pre-Rolls",
+      "weight": "1g",
+      "dispensaries": {
+        "Curaleaf Groton": 13,
+        "Curaleaf Hartford": 13,
+        "Curaleaf Manchester": 13,
+        "Curaleaf Stamford": 13
+      },
+      "promos": {
+        "Curaleaf Groton": 9.75,
+        "Curaleaf Hartford": 9.75,
+        "Curaleaf Manchester": 9.75,
+        "Curaleaf Stamford": 9.75
+      }
+    },
+    {
+      "name": "Permanent Marker Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Groton": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "Jungle Cake Small Buds",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 56,
+        "Curaleaf Stamford": 56
+      },
+      "promos": {
+        "Curaleaf Groton": 42,
+        "Curaleaf Stamford": 42
+      }
+    },
+    {
+      "name": "BudzC-Stata Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 56,
+        "Curaleaf Hartford": 56
+      },
+      "promos": {
+        "Curaleaf Groton": 42,
+        "Curaleaf Hartford": 42
+      }
+    },
+    {
+      "name": "Chemfusion IV Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 13
+      },
+      "promos": {
+        "Curaleaf Groton": 9.75
+      }
+    },
+    {
+      "name": "Titan Express Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 25,
+        "Curaleaf Hartford": 25,
+        "Curaleaf Manchester": 25
+      }
+    },
+    {
+      "name": "Critical Crumb Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 40,
+        "Curaleaf Hartford": 40,
+        "Curaleaf Manchester": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Groton": 20,
+        "Curaleaf Hartford": 20,
+        "Curaleaf Manchester": 20,
+        "Curaleaf Stamford": 20
+      }
+    },
+    {
+      "name": "PharmaE85 Whole Flower",
+      "brand": "CT",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 45,
+        "Curaleaf Hartford": 45,
+        "Curaleaf Manchester": 45,
+        "Curaleaf Stamford": 45
+      },
+      "promos": {
+        "Curaleaf Groton": 33.75,
+        "Curaleaf Hartford": 33.75,
+        "Curaleaf Manchester": 33.75,
+        "Curaleaf Stamford": 33.75
+      }
+    },
+    {
+      "name": "Tropical Heatwave Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 80
+      },
+      "promos": {
+        "Curaleaf Groton": 52
+      }
+    },
+    {
+      "name": "Pinapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Groton": 25,
+        "Curaleaf Stamford": 25
+      }
+    },
+    {
+      "name": "Titan Express Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Groton": 35
+      },
+      "promos": {
+        "Curaleaf Groton": 22.75
+      }
+    },
+    {
+      "name": "Triple Stack Pre-Roll Pack",
+      "brand": "Curaleaf",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Groton": 35,
+        "Curaleaf Manchester": 35
+      },
+      "promos": {
+        "Curaleaf Groton": 22.75,
+        "Curaleaf Manchester": 22.75
+      }
+    },
+    {
+      "name": "CannabisSnow C. V3 Sungrown Pre-Roll Pack",
+      "brand": "Rodeo",
+      "category": "Pre-Rolls",
+      "weight": "0.5g",
+      "dispensaries": {
+        "Curaleaf Groton": 30
+      },
+      "promos": {
+        "Curaleaf Groton": 21
+      }
+    },
+    {
+      "name": "Gangsta Grillz Infused Blunt",
+      "brand": "Theraplant",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 22
+      },
+      "promos": {
+        "Curaleaf Groton": 16.5
+      }
+    },
+    {
+      "name": "Pre Roll Pack Hybrid Mule Fuel Hash Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Groton": 39,
+        "Curaleaf Manchester": 39
+      },
+      "promos": {
+        "Curaleaf Groton": 29.25,
+        "Curaleaf Manchester": 29.25
+      }
+    },
+    {
+      "name": "Jayna's Sunshine Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Groton": 35,
+        "Curaleaf Stamford": 35
+      },
+      "promos": {
+        "Curaleaf Groton": 22.75,
+        "Curaleaf Stamford": 22.75
+      }
+    },
+    {
+      "name": "Pillow Mints Pre-Roll",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 18,
+        "Curaleaf Hartford": 18
+      },
+      "promos": {
+        "Curaleaf Groton": 11.7,
+        "Curaleaf Hartford": 11.7
+      }
+    },
+    {
+      "name": "White Hot Guava Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Groton": 35,
+        "Curaleaf Manchester": 35
+      },
+      "promos": {
+        "Curaleaf Groton": 22.75,
+        "Curaleaf Manchester": 22.75
+      }
+    },
+    {
+      "name": "GrassDurban Legacy Pre-Roll",
+      "brand": "Miss",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 5
+      },
+      "promos": {
+        "Curaleaf Groton": 3.75
+      }
+    },
+    {
+      "name": "Sour Durban BRIQ",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 120,
+        "Curaleaf Hartford": 120
+      },
+      "promos": {
+        "Curaleaf Groton": 84,
+        "Curaleaf Hartford": 84
+      }
+    },
+    {
+      "name": "Cherry Pi Cartridge",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Manchester": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 45.5,
+        "Curaleaf Manchester": 45.5
+      }
+    },
+    {
+      "name": "Sour Z Cartridge",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 70,
+        "Curaleaf Hartford": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Groton": 45.5,
+        "Curaleaf Hartford": 45.5,
+        "Curaleaf Stamford": 45.5
+      }
+    },
+    {
+      "name": "All In One Hybrid H0rchata Live Resin All In One 1g",
+      "brand": "",
+      "category": "Vaporizers",
+      "weight": "1g",
+      "dispensaries": {
+        "Curaleaf Groton": 68
+      },
+      "promos": {
+        "Curaleaf Groton": 51
+      }
+    },
+    {
+      "name": "Tangie Crush RSO Macro Dose Gummies",
+      "brand": "Savvy",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 10,
+        "Curaleaf Hartford": 10,
+        "Curaleaf Stamford": 10
+      },
+      "promos": {
+        "Curaleaf Groton": 7.5,
+        "Curaleaf Hartford": 7.5,
+        "Curaleaf Stamford": 7.5
+      }
+    },
+    {
+      "name": "ViewG'Night Grape Ratioed Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 34,
+        "Curaleaf Manchester": 34,
+        "Curaleaf Stamford": 34
+      },
+      "promos": {
+        "Curaleaf Groton": 23.8,
+        "Curaleaf Manchester": 23.8,
+        "Curaleaf Stamford": 23.8
+      }
+    },
+    {
+      "name": "ViewBlack Cherry Fast-Acting Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 34
+      },
+      "promos": {
+        "Curaleaf Groton": 23.8
+      }
+    },
+    {
+      "name": "Sour Strawberry Lemonade Fast-Acting Gummies",
+      "brand": "JAMS",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 40,
+        "Curaleaf Hartford": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Groton": 26,
+        "Curaleaf Hartford": 26,
+        "Curaleaf Stamford": 26
+      }
+    },
+    {
+      "name": "ViewMargarita RSO Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 32,
+        "Curaleaf Stamford": 32
+      },
+      "promos": {
+        "Curaleaf Groton": 22.4,
+        "Curaleaf Stamford": 22.4
+      }
+    },
+    {
+      "name": "ViewPink Lemonade Live Resin Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 32
+      },
+      "promos": {
+        "Curaleaf Groton": 22.4
+      }
+    },
+    {
+      "name": "EdiblesMango RSO Gummies",
+      "brand": "Encore",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 32
+      },
+      "promos": {
+        "Curaleaf Groton": 24
+      }
+    },
+    {
+      "name": "EdiblesGrape RSO Gummies",
+      "brand": "Encore",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 32,
+        "Curaleaf Manchester": 32
+      },
+      "promos": {
+        "Curaleaf Groton": 24,
+        "Curaleaf Manchester": 24
+      }
+    },
+    {
+      "name": "Orange Matter Gummies",
+      "brand": "Select",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 35
+      },
+      "promos": {
+        "Curaleaf Groton": 22.75
+      }
+    },
+    {
+      "name": "ViewPeach RSO Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 34
+      },
+      "promos": {
+        "Curaleaf Groton": 23.8
+      }
+    },
+    {
+      "name": "GrowMint Tincture",
+      "brand": "Affinity",
+      "category": "oral",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Groton": 36,
+        "Curaleaf Hartford": 36,
+        "Curaleaf Manchester": 36,
+        "Curaleaf Stamford": 36
+      },
+      "promos": {
+        "Curaleaf Groton": 27,
+        "Curaleaf Hartford": 27,
+        "Curaleaf Manchester": 27,
+        "Curaleaf Stamford": 27
+      }
+    },
+    {
+      "name": "Blue Dream BRIQ 2",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 70
+      },
+      "promos": {
+        "Curaleaf Hartford": 49
+      }
+    },
+    {
+      "name": "Whole Flower Hybrid Mule Fuel Hash Infused Whole Flower 3.5g",
+      "brand": "",
+      "category": "Flower",
+      "weight": "3.5g",
+      "dispensaries": {
+        "Curaleaf Hartford": 60
+      },
+      "promos": {
+        "Curaleaf Hartford": 45
+      }
+    },
+    {
+      "name": "BudzChem D Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 56,
+        "Curaleaf Manchester": 56
+      },
+      "promos": {
+        "Curaleaf Hartford": 42,
+        "Curaleaf Manchester": 42
+      }
+    },
+    {
+      "name": "Small Buds Hybrid Mule Fuel Small Buds 3.5g",
+      "brand": "",
+      "category": "Flower",
+      "weight": "3.5g",
+      "dispensaries": {
+        "Curaleaf Hartford": 39,
+        "Curaleaf Manchester": 39,
+        "Curaleaf Stamford": 39
+      },
+      "promos": {
+        "Curaleaf Hartford": 29.25,
+        "Curaleaf Manchester": 29.25,
+        "Curaleaf Stamford": 29.25
+      }
+    },
+    {
+      "name": "Delphi Diesel Ground Flower",
+      "brand": "Curaleaf",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 40,
+        "Curaleaf Manchester": 40
+      },
+      "promos": {
+        "Curaleaf Hartford": 20,
+        "Curaleaf Manchester": 20
+      }
+    },
+    {
+      "name": "Diesel Bites Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 80,
+        "Curaleaf Manchester": 80
+      },
+      "promos": {
+        "Curaleaf Hartford": 40,
+        "Curaleaf Manchester": 40
+      }
+    },
+    {
+      "name": "Tropical Haze Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 209,
+        "Curaleaf Manchester": 209
+      },
+      "promos": {
+        "Curaleaf Hartford": 140,
+        "Curaleaf Manchester": 140
+      }
+    },
+    {
+      "name": "Dosilato Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 209,
+        "Curaleaf Manchester": 109
+      },
+      "promos": {
+        "Curaleaf Hartford": 140,
+        "Curaleaf Manchester": 70
+      }
+    },
+    {
+      "name": "Ghost White Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 209,
+        "Curaleaf Manchester": 209
+      },
+      "promos": {
+        "Curaleaf Hartford": 140,
+        "Curaleaf Manchester": 140
+      }
+    },
+    {
+      "name": "Astro GMO Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Hartford": 20,
+        "Curaleaf Manchester": 20
+      }
+    },
+    {
+      "name": "Whole Flower Hybrid C Stata Whole Flower 3.5g",
+      "brand": "",
+      "category": "Flower",
+      "weight": "3.5g",
+      "dispensaries": {
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "Super Buff Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 38
+      },
+      "promos": {
+        "Curaleaf Hartford": 28.5
+      }
+    },
+    {
+      "name": "Bananaconda Cartridge",
+      "brand": "Brix",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Hartford": 37.5,
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "Gush Mintz Whole Flower",
+      "brand": "Brix",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 38,
+        "Curaleaf Manchester": 38,
+        "Curaleaf Stamford": 38
+      },
+      "promos": {
+        "Curaleaf Hartford": 28.5,
+        "Curaleaf Manchester": 28.5,
+        "Curaleaf Stamford": 28.5
+      }
+    },
+    {
+      "name": "All-in-One",
+      "brand": "BrixINKD UP",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 60
+      },
+      "promos": {
+        "Curaleaf Hartford": 45
+      }
+    },
+    {
+      "name": "Yo Whole Flower",
+      "brand": "BrixB",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 38
+      },
+      "promos": {
+        "Curaleaf Hartford": 28.5
+      }
+    },
+    {
+      "name": "BudzMac Stomper Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 56
+      },
+      "promos": {
+        "Curaleaf Hartford": 42
+      }
+    },
+    {
+      "name": "Floral Frost Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50,
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Hartford": 25,
+        "Curaleaf Manchester": 25,
+        "Curaleaf Stamford": 25
+      }
+    },
+    {
+      "name": "Atomic Breath Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 50
+      },
+      "promos": {
+        "Curaleaf Hartford": 25
+      }
+    },
+    {
+      "name": "Green G Whole Flower",
+      "brand": "Theraplant",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 26
+      },
+      "promos": {
+        "Curaleaf Hartford": 19.5
+      }
+    },
+    {
+      "name": "Muffin Grease Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 80
+      },
+      "promos": {
+        "Curaleaf Hartford": 52
+      }
+    },
+    {
+      "name": "Apple Tartz Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 50,
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Hartford": 25,
+        "Curaleaf Manchester": 25
+      }
+    },
+    {
+      "name": "Pineapple Sunrise Pre-Roll",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 18,
+        "Curaleaf Stamford": 18
+      },
+      "promos": {
+        "Curaleaf Hartford": 11.7,
+        "Curaleaf Stamford": 11.7
+      }
+    },
+    {
+      "name": "Pappy Kush Pre-Roll",
+      "brand": "Find.",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 18
+      },
+      "promos": {
+        "Curaleaf Hartford": 11.7
+      }
+    },
+    {
+      "name": "Pre-Roll",
+      "brand": "AwssomBBH",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 10
+      },
+      "promos": {
+        "Curaleaf Hartford": 7.5
+      }
+    },
+    {
+      "name": "Martian Mints Pre-Roll",
+      "brand": "Find.",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 18
+      },
+      "promos": {
+        "Curaleaf Hartford": 11.7
+      }
+    },
+    {
+      "name": "Pre Roll Pack Sativa Banana Acai Mints Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Hartford": 39,
+        "Curaleaf Stamford": 39
+      },
+      "promos": {
+        "Curaleaf Hartford": 29.25,
+        "Curaleaf Stamford": 29.25
+      }
+    },
+    {
+      "name": "Pi in the Sky Infused Pre-Roll",
+      "brand": "Theraplant",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 35,
+        "Curaleaf Stamford": 35
+      },
+      "promos": {
+        "Curaleaf Hartford": 26.25,
+        "Curaleaf Stamford": 26.25
+      }
+    },
+    {
+      "name": "Delphi Diesel Pre-Roll Pack",
+      "brand": "Curaleaf",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Hartford": 35
+      },
+      "promos": {
+        "Curaleaf Hartford": 22.75
+      }
+    },
+    {
+      "name": "Foreign Kush Mints Pre-Roll",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 18
+      },
+      "promos": {
+        "Curaleaf Hartford": 11.7
+      }
+    },
+    {
+      "name": "Grow LabsFumeZ x Grease Monkey All-in-One",
+      "brand": "Advanced",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 16
+      },
+      "promos": {
+        "Curaleaf Hartford": 12
+      }
+    },
+    {
+      "name": "Grow LabsTaffy Twist x Bubba F All-in-One",
+      "brand": "Advanced",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 16
+      },
+      "promos": {
+        "Curaleaf Hartford": 12
+      }
+    },
+    {
+      "name": "Diesel Cartridge",
+      "brand": "SelectNYC",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 70,
+        "Curaleaf Manchester": 70,
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Hartford": 45.5,
+        "Curaleaf Manchester": 45.5,
+        "Curaleaf Stamford": 45.5
+      }
+    },
+    {
+      "name": "Carbon Juice All-in-One",
+      "brand": "Theraplant",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 63,
+        "Curaleaf Manchester": 63
+      },
+      "promos": {
+        "Curaleaf Hartford": 47.25,
+        "Curaleaf Manchester": 47.25
+      }
+    },
+    {
+      "name": "EdiblesSour Black Cherry RSO Gummies",
+      "brand": "Encore",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 32,
+        "Curaleaf Manchester": 32
+      },
+      "promos": {
+        "Curaleaf Hartford": 24,
+        "Curaleaf Manchester": 24
+      }
+    },
+    {
+      "name": "Raspberry Pomegranate Fast-Acting Ratioed Gummies",
+      "brand": "JAMS",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Hartford": 26,
+        "Curaleaf Stamford": 26
+      }
+    },
+    {
+      "name": "CannabisBlueberry Lemon Live Resin Gummies",
+      "brand": "Rodeo",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 26,
+        "Curaleaf Manchester": 26
+      },
+      "promos": {
+        "Curaleaf Hartford": 18.2,
+        "Curaleaf Manchester": 18.2
+      }
+    },
+    {
+      "name": "Snoozzzeberry Ratioed Gummies",
+      "brand": "inc.edibles",
+      "category": "Edible",
+      "weight": "5mg",
+      "dispensaries": {
+        "Curaleaf Hartford": 20,
+        "Curaleaf Manchester": 20,
+        "Curaleaf Stamford": 20
+      },
+      "promos": {
+        "Curaleaf Hartford": 15,
+        "Curaleaf Manchester": 15,
+        "Curaleaf Stamford": 15
+      }
+    },
+    {
+      "name": "Ratioed Gummies",
+      "brand": "inc.ediblesstrahhhberry",
+      "category": "Edible",
+      "weight": "5mg",
+      "dispensaries": {
+        "Curaleaf Hartford": 20
+      },
+      "promos": {
+        "Curaleaf Hartford": 15
+      }
+    },
+    {
+      "name": "EdiblesSour Mandarin RSO Ratioed Gummies",
+      "brand": "Encore",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 32
+      },
+      "promos": {
+        "Curaleaf Hartford": 24
+      }
+    },
+    {
+      "name": "Sour Green Apple Fast-Acting Gummies",
+      "brand": "JAMS",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Hartford": 26,
+        "Curaleaf Stamford": 26
+      }
+    },
+    {
+      "name": "EdiblesSweet Strawberry Gummies",
+      "brand": "Encore",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 29
+      },
+      "promos": {
+        "Curaleaf Hartford": 21.75
+      }
+    },
+    {
+      "name": "Lemon Lockdown Live Resin Sugar",
+      "brand": "Brix",
+      "category": "Concentrate",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Hartford": 38
+      },
+      "promos": {
+        "Curaleaf Hartford": 28.5
+      }
+    },
+    {
+      "name": "Briq 2 Hybrid Gmo Briq 2 2g",
+      "brand": "",
+      "category": "Vaporizers",
+      "weight": "2g",
+      "dispensaries": {
+        "Curaleaf Manchester": 125
+      },
+      "promos": {
+        "Curaleaf Manchester": 87.5
+      }
+    },
+    {
+      "name": "Scout Small Buds",
+      "brand": "RYTHMB",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 65
+      },
+      "promos": {
+        "Curaleaf Manchester": 48.75
+      }
+    },
+    {
+      "name": "BakerSpecimen X Whole Flower",
+      "brand": "Earl",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 58
+      },
+      "promos": {
+        "Curaleaf Manchester": 43.5
+      }
+    },
+    {
+      "name": "Agent Z Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 80
+      },
+      "promos": {
+        "Curaleaf Manchester": 40
+      }
+    },
+    {
+      "name": "Bulbz Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 80
+      },
+      "promos": {
+        "Curaleaf Manchester": 40
+      }
+    },
+    {
+      "name": "Landrace Small Buds",
+      "brand": "SavvyMAG",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 209
+      },
+      "promos": {
+        "Curaleaf Manchester": 140
+      }
+    },
+    {
+      "name": "Kush Tang Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 209
+      },
+      "promos": {
+        "Curaleaf Manchester": 140
+      }
+    },
+    {
+      "name": "Purple Pastry Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 109
+      },
+      "promos": {
+        "Curaleaf Manchester": 70
+      }
+    },
+    {
+      "name": "Jungle Cake Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 13
+      },
+      "promos": {
+        "Curaleaf Manchester": 9.75
+      }
+    },
+    {
+      "name": "BudzBananaconda Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 56,
+        "Curaleaf Stamford": 56
+      },
+      "promos": {
+        "Curaleaf Manchester": 42,
+        "Curaleaf Stamford": 42
+      }
+    },
+    {
+      "name": "BudzAfgooey Small Buds",
+      "brand": "Lil'",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Manchester": 37.5
+      }
+    },
+    {
+      "name": "White Caps Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Manchester": 25
+      }
+    },
+    {
+      "name": "Triple Stack Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 50
+      },
+      "promos": {
+        "Curaleaf Manchester": 25
+      }
+    },
+    {
+      "name": "Modified Goat Whole Flower",
+      "brand": "Find.",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 80
+      },
+      "promos": {
+        "Curaleaf Manchester": 52
+      }
+    },
+    {
+      "name": "Apple Tartz Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Manchester": 35
+      },
+      "promos": {
+        "Curaleaf Manchester": 22.75
+      }
+    },
+    {
+      "name": "Apple Tartz Pre-Roll",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 18
+      },
+      "promos": {
+        "Curaleaf Manchester": 11.7
+      }
+    },
+    {
+      "name": "Colorado Flo [Aniva] Infused Pre-Roll",
+      "brand": "Theraplant",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 35
+      },
+      "promos": {
+        "Curaleaf Manchester": 26.25
+      }
+    },
+    {
+      "name": "Pillow Mints Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Manchester": 35
+      },
+      "promos": {
+        "Curaleaf Manchester": 22.75
+      }
+    },
+    {
+      "name": "White Caps Pre-Roll",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 18
+      },
+      "promos": {
+        "Curaleaf Manchester": 11.7
+      }
+    },
+    {
+      "name": "Astro GMO Pre-Roll Pack",
+      "brand": "Grassroots",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Manchester": 35,
+        "Curaleaf Stamford": 35
+      },
+      "promos": {
+        "Curaleaf Manchester": 22.75,
+        "Curaleaf Stamford": 22.75
+      }
+    },
+    {
+      "name": "Old School OG All-in-One",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 30
+      },
+      "promos": {
+        "Curaleaf Manchester": 19.5
+      }
+    },
+    {
+      "name": "ViewStrawberry Kiwi Fast-Acting Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 34
+      },
+      "promos": {
+        "Curaleaf Manchester": 23.8
+      }
+    },
+    {
+      "name": "ViewBlood Orange Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 32,
+        "Curaleaf Stamford": 32
+      },
+      "promos": {
+        "Curaleaf Manchester": 22.4,
+        "Curaleaf Stamford": 22.4
+      }
+    },
+    {
+      "name": "ViewBlueZZZberry Ratioed Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 36
+      },
+      "promos": {
+        "Curaleaf Manchester": 25.2
+      }
+    },
+    {
+      "name": "ViewWatermelon Live Resin Ratioed Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 32,
+        "Curaleaf Stamford": 32
+      },
+      "promos": {
+        "Curaleaf Manchester": 22.4,
+        "Curaleaf Stamford": 22.4
+      }
+    },
+    {
+      "name": "Sour Tangahhhrine Ratioed Gummies",
+      "brand": "inc.edibles",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 20
+      },
+      "promos": {
+        "Curaleaf Manchester": 15
+      }
+    },
+    {
+      "name": "Pillow Mints Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Manchester": 40,
+        "Curaleaf Stamford": 40
+      },
+      "promos": {
+        "Curaleaf Manchester": 25,
+        "Curaleaf Stamford": 25
+      }
+    },
+    {
+      "name": "Cheddar Cheeze Whole Flower",
+      "brand": "RYTHM",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Stamford": 37.5
+      }
+    },
+    {
+      "name": "BurnMule Fuel Small Buds",
+      "brand": "Let's",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 68
+      },
+      "promos": {
+        "Curaleaf Stamford": 47.6
+      }
+    },
+    {
+      "name": "Emerald Kush Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 209
+      },
+      "promos": {
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Nimbus Snacks Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 189
+      },
+      "promos": {
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Deep Blue Gas Small Buds",
+      "brand": "Savvy",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 189
+      },
+      "promos": {
+        "Curaleaf Stamford": 140
+      }
+    },
+    {
+      "name": "Purple Milk Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 13
+      },
+      "promos": {
+        "Curaleaf Stamford": 9.75
+      }
+    },
+    {
+      "name": "Blueberry Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 13
+      },
+      "promos": {
+        "Curaleaf Stamford": 9.75
+      }
+    },
+    {
+      "name": "Permanent Funk Pre-Roll",
+      "brand": "Brix",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 13
+      },
+      "promos": {
+        "Curaleaf Stamford": 9.75
+      }
+    },
+    {
+      "name": "Paw Paw Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 50
+      },
+      "promos": {
+        "Curaleaf Stamford": 25
+      }
+    },
+    {
+      "name": "GrowLemon Skunk Whole Flower",
+      "brand": "Affinity",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 36
+      },
+      "promos": {
+        "Curaleaf Stamford": 27
+      }
+    },
+    {
+      "name": "Singapore Sling Whole Flower",
+      "brand": "Grassroots",
+      "category": "Flower",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 100
+      },
+      "promos": {
+        "Curaleaf Stamford": 65
+      }
+    },
+    {
+      "name": "Ched R Cheez Pre-Roll",
+      "brand": "Curaleaf",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 18
+      },
+      "promos": {
+        "Curaleaf Stamford": 11.7
+      }
+    },
+    {
+      "name": "Pre-Roll",
+      "brand": "AwssomGCG",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 10
+      },
+      "promos": {
+        "Curaleaf Stamford": 7.5
+      }
+    },
+    {
+      "name": "GrassBiscotti Pie Pre-Roll Pack",
+      "brand": "Miss",
+      "category": "Pre-Rolls",
+      "weight": "0.4g",
+      "dispensaries": {
+        "Curaleaf Stamford": 30
+      },
+      "promos": {
+        "Curaleaf Stamford": 22.5
+      }
+    },
+    {
+      "name": "Bites Pre-Roll",
+      "brand": "Find.PB",
+      "category": "Pre-Rolls",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 18
+      },
+      "promos": {
+        "Curaleaf Stamford": 11.7
+      }
+    },
+    {
+      "name": "Old School OG Cartridge",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Stamford": 45.5
+      }
+    },
+    {
+      "name": "ViewWatermelon Sherbet Live Resin All-in-One",
+      "brand": "Sound",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 72
+      },
+      "promos": {
+        "Curaleaf Stamford": 50.4
+      }
+    },
+    {
+      "name": "Sundae Slumber Cartridge",
+      "brand": "Select",
+      "category": "Vaporizers",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 70
+      },
+      "promos": {
+        "Curaleaf Stamford": 45.5
+      }
+    },
+    {
+      "name": "ViewBerry Dreamy Ratioed Gummies",
+      "brand": "Sound",
+      "category": "Edible",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 34
+      },
+      "promos": {
+        "Curaleaf Stamford": 23.8
+      }
+    },
+    {
+      "name": "PharmaHigh Potency Drops Tincture",
+      "brand": "CT",
+      "category": "oral",
+      "weight": "unknown",
+      "dispensaries": {
+        "Curaleaf Stamford": 54
+      },
+      "promos": {
+        "Curaleaf Stamford": 40.5
       }
     },
     {
@@ -45246,6 +47740,26 @@
       "product_count": 167,
       "daily_sales": 0
     },
+    "Curaleaf Groton": {
+      "city": "CT",
+      "product_count": 96,
+      "daily_sales": 0
+    },
+    "Curaleaf Hartford": {
+      "city": "CT",
+      "product_count": 101,
+      "daily_sales": 0
+    },
+    "Curaleaf Manchester": {
+      "city": "CT",
+      "product_count": 105,
+      "daily_sales": 0
+    },
+    "Curaleaf Stamford": {
+      "city": "CT",
+      "product_count": 99,
+      "daily_sales": 0
+    },
     "High Profile - Canton": {
       "city": "Canton",
       "product_count": 463,
@@ -47119,6 +49633,3615 @@
       "pct_off": 30,
       "discounted": 12.79,
       "original": 18.27
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Solotti BRIQ 2",
+      "brand": "SelectGA",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Forbidden Fruit BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream Cayk BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Couch Kush BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Sundae Slumber BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Scout Whole Flower",
+      "brand": "RYTHMB",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Scout Whole Flower",
+      "brand": "RYTHMB",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 90,
+      "original": 120
+    },
+    {
+      "product": "Animal Face Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnMule Fuel Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds",
+      "brand": "RYTHMGMO",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 48.75,
+      "original": 65
+    },
+    {
+      "product": "Whole Flower Hybrid 95 Cook Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnCT Kush Cake Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Whole Flower Hybrid Mule Fuel Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 33.75,
+      "original": 45
+    },
+    {
+      "product": "Afternoon Delight #4 Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Jungle Cake Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Whole Flower",
+      "brand": "Find.PB MFN",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Pineapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Jayna's Sunshine Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Pineapple Sunrise Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Full Tank Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosi-Punch Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Purpentine Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Heir Heads Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Original Glue Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Stomper Kush Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Mendo Wedding Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Super Lemon G Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Confidential Cherries Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Sour Fire OG Whole Flower",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Gush Mintz Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Blue NDZ Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Cap Junk Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Inkowgnito Mode Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Cap Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Chem Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Soap Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Scrub Trooper All-in-One",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 45,
+      "original": 60
+    },
+    {
+      "product": "Purple Milk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Afgooey Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Cap Junk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzGush Mintz Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "BudzPurple Milk Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Pre Roll Hybrid C Stata Pre Roll 1g",
+      "brand": "",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Permanent Marker Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Jungle Cake Small Buds",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "BudzC-Stata Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 75,
+      "original": 100
+    },
+    {
+      "product": "Chemfusion IV Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "BudzC-Stata Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "Titan Express Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Critical Crumb Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "PharmaE85 Whole Flower",
+      "brand": "CT",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 33.75,
+      "original": 45
+    },
+    {
+      "product": "Tropical Heatwave Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 35,
+      "discounted": 52,
+      "original": 80
+    },
+    {
+      "product": "Pinapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Titan Express Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Triple Stack Pre-Roll Pack",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "CannabisSnow C. V3 Sungrown Pre-Roll Pack",
+      "brand": "Rodeo",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 30,
+      "discounted": 21,
+      "original": 30
+    },
+    {
+      "product": "Gangsta Grillz Infused Blunt",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 16.5,
+      "original": 22
+    },
+    {
+      "product": "Pre Roll Pack Hybrid Mule Fuel Hash Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Jayna's Sunshine Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Pillow Mints Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "White Hot Guava Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "GrassDurban Legacy Pre-Roll",
+      "brand": "Miss",
+      "dispensary": "Curaleaf Groton",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 3.75,
+      "original": 5
+    },
+    {
+      "product": "Sour Durban BRIQ",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 84,
+      "original": 120
+    },
+    {
+      "product": "Cherry Pi Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream Cayk Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Sour Z Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "All In One Hybrid H0rchata Live Resin All In One 1g",
+      "brand": "",
+      "dispensary": "Curaleaf Groton",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 51,
+      "original": 68
+    },
+    {
+      "product": "Tangie Crush RSO Macro Dose Gummies",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 7.5,
+      "original": 10
+    },
+    {
+      "product": "ViewG'Night Grape Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "ViewBlack Cherry Fast-Acting Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "Sour Strawberry Lemonade Fast-Acting Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "ViewMargarita RSO Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "ViewPink Lemonade Live Resin Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "EdiblesMango RSO Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "EdiblesGrape RSO Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "Orange Matter Gummies",
+      "brand": "Select",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "ViewPeach RSO Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Groton",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "GrowMint Tincture",
+      "brand": "Affinity",
+      "dispensary": "Curaleaf Groton",
+      "category": "oral",
+      "pct_off": 25,
+      "discounted": 27,
+      "original": 36
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Solotti BRIQ 2",
+      "brand": "SelectGA",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Banana Cream Cayk BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Couch Kush BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Blue Dream BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sundae Slumber BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Whole Flower Hybrid Mule Fuel Hash Infused Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 45,
+      "original": 60
+    },
+    {
+      "product": "BudzPurple Milk Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Animal Face Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnMule Fuel Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds",
+      "brand": "RYTHMGMO",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 48.75,
+      "original": 65
+    },
+    {
+      "product": "BudzChem D Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "BurnCT Kush Cake Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds Hybrid Mule Fuel Small Buds 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Afternoon Delight #4 Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Jungle Cake Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Delphi Diesel Ground Flower",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Whole Flower",
+      "brand": "Find.PB MFN",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Diesel Bites Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Pineapple Sunrise Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Tropical Haze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosilato Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Full Tank Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosi-Punch Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Ghost White Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Astro GMO Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Mendo Wedding Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Super Lemon G Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Confidential Cherries Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Sour Fire OG Whole Flower",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Purple Milk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Gush Mintz Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Whole Flower Hybrid C Stata Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Soap Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Cap Junk Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Super Buff Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Bananaconda Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Blue NDZ Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Gush Mintz Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "All-in-One",
+      "brand": "BrixINKD UP",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 45,
+      "original": 60
+    },
+    {
+      "product": "Cap Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Yo Whole Flower",
+      "brand": "BrixB",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzGush Mintz Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Pre Roll Hybrid C Stata Pre Roll 1g",
+      "brand": "",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Chem Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Afgooey Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzC-Stata Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "BudzMac Stomper Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "Titan Express Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Floral Frost Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "PharmaE85 Whole Flower",
+      "brand": "CT",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 33.75,
+      "original": 45
+    },
+    {
+      "product": "Critical Crumb Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Atomic Breath Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Green G Whole Flower",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 19.5,
+      "original": 26
+    },
+    {
+      "product": "Muffin Grease Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 35,
+      "discounted": 52,
+      "original": 80
+    },
+    {
+      "product": "Apple Tartz Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Pineapple Sunrise Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Pappy Kush Pre-Roll",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Pre-Roll",
+      "brand": "AwssomBBH",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 7.5,
+      "original": 10
+    },
+    {
+      "product": "Martian Mints Pre-Roll",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Pre Roll Pack Sativa Banana Acai Mints Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Pi in the Sky Infused Pre-Roll",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 26.25,
+      "original": 35
+    },
+    {
+      "product": "Pillow Mints Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Delphi Diesel Pre-Roll Pack",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Foreign Kush Mints Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Sour Z Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Grow LabsFumeZ x Grease Monkey All-in-One",
+      "brand": "Advanced",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 12,
+      "original": 16
+    },
+    {
+      "product": "Grow LabsTaffy Twist x Bubba F All-in-One",
+      "brand": "Advanced",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 12,
+      "original": 16
+    },
+    {
+      "product": "Diesel Cartridge",
+      "brand": "SelectNYC",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Sour Durban BRIQ",
+      "brand": "Select",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 84,
+      "original": 120
+    },
+    {
+      "product": "Carbon Juice All-in-One",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 47.25,
+      "original": 63
+    },
+    {
+      "product": "EdiblesSour Black Cherry RSO Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "Tangie Crush RSO Macro Dose Gummies",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 7.5,
+      "original": 10
+    },
+    {
+      "product": "Sour Strawberry Lemonade Fast-Acting Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "Raspberry Pomegranate Fast-Acting Ratioed Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "CannabisBlueberry Lemon Live Resin Gummies",
+      "brand": "Rodeo",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 18.2,
+      "original": 26
+    },
+    {
+      "product": "Snoozzzeberry Ratioed Gummies",
+      "brand": "inc.edibles",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 15,
+      "original": 20
+    },
+    {
+      "product": "Ratioed Gummies",
+      "brand": "inc.ediblesstrahhhberry",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 15,
+      "original": 20
+    },
+    {
+      "product": "EdiblesSour Mandarin RSO Ratioed Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "Sour Green Apple Fast-Acting Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "EdiblesSweet Strawberry Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 21.75,
+      "original": 29
+    },
+    {
+      "product": "Lemon Lockdown Live Resin Sugar",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Hartford",
+      "category": "Concentrate",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "GrowMint Tincture",
+      "brand": "Affinity",
+      "dispensary": "Curaleaf Hartford",
+      "category": "oral",
+      "pct_off": 25,
+      "discounted": 27,
+      "original": 36
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Solotti BRIQ 2",
+      "brand": "SelectGA",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Briq 2 Hybrid Gmo Briq 2 2g",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Forbidden Fruit BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream Cayk BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream Cayk BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Couch Kush BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Scout Whole Flower",
+      "brand": "RYTHMB",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 90,
+      "original": 120
+    },
+    {
+      "product": "Scout Small Buds",
+      "brand": "RYTHMB",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 48.75,
+      "original": 65
+    },
+    {
+      "product": "Animal Face Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnMule Fuel Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds",
+      "brand": "RYTHMGMO",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 48.75,
+      "original": 65
+    },
+    {
+      "product": "BudzChem D Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "Whole Flower Hybrid 95 Cook Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnCT Kush Cake Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds Hybrid Mule Fuel Small Buds 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "BakerSpecimen X Whole Flower",
+      "brand": "Earl",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 43.5,
+      "original": 58
+    },
+    {
+      "product": "Delphi Diesel Ground Flower",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Agent Z Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Whole Flower",
+      "brand": "Find.PB MFN",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Bulbz Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Diesel Bites Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 40,
+      "original": 80
+    },
+    {
+      "product": "Jayna's Sunshine Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Pineapple Sunrise Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Tropical Haze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosilato Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosilato Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Full Tank Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Dosi-Punch Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Landrace Small Buds",
+      "brand": "SavvyMAG",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Ghost White Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Kush Tang Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Purple Pastry Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Heir Heads Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Gush Mintz Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Cap Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Jungle Cake Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Chem Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Jungle Cake Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Blue NDZ Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Afgooey Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzBananaconda Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "Inkowgnito Mode Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BudzAfgooey Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Cap Junk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Gush Mintz Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzGush Mintz Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Soap Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Purple Milk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzPurple Milk Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Pre Roll Hybrid C Stata Pre Roll 1g",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Permanent Marker Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Whole Flower Hybrid C Stata Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "White Caps Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Titan Express Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Apple Tartz Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Triple Stack Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Astro GMO Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Floral Frost Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "PharmaE85 Whole Flower",
+      "brand": "CT",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 33.75,
+      "original": 45
+    },
+    {
+      "product": "Modified Goat Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 35,
+      "discounted": 52,
+      "original": 80
+    },
+    {
+      "product": "Critical Crumb Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Triple Stack Pre-Roll Pack",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Pre Roll Pack Hybrid Mule Fuel Hash Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Apple Tartz Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Apple Tartz Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Colorado Flo [Aniva] Infused Pre-Roll",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 26.25,
+      "original": 35
+    },
+    {
+      "product": "White Hot Guava Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Pillow Mints Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "White Caps Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Astro GMO Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Carbon Juice All-in-One",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 47.25,
+      "original": 63
+    },
+    {
+      "product": "Cherry Pi Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Diesel Cartridge",
+      "brand": "SelectNYC",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Old School OG All-in-One",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 19.5,
+      "original": 30
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "ViewG'Night Grape Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "EdiblesGrape RSO Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "EdiblesSour Black Cherry RSO Gummies",
+      "brand": "Encore",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 24,
+      "original": 32
+    },
+    {
+      "product": "CannabisBlueberry Lemon Live Resin Gummies",
+      "brand": "Rodeo",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 18.2,
+      "original": 26
+    },
+    {
+      "product": "ViewStrawberry Kiwi Fast-Acting Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "ViewBlood Orange Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "Snoozzzeberry Ratioed Gummies",
+      "brand": "inc.edibles",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 15,
+      "original": 20
+    },
+    {
+      "product": "ViewBlueZZZberry Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 25.2,
+      "original": 36
+    },
+    {
+      "product": "ViewWatermelon Live Resin Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "Sour Tangahhhrine Ratioed Gummies",
+      "brand": "inc.edibles",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 15,
+      "original": 20
+    },
+    {
+      "product": "Pillow Mints Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Manchester",
+      "category": "Flower",
+      "pct_off": 38,
+      "discounted": 25,
+      "original": 40
+    },
+    {
+      "product": "GrowMint Tincture",
+      "brand": "Affinity",
+      "dispensary": "Curaleaf Manchester",
+      "category": "oral",
+      "pct_off": 25,
+      "discounted": 27,
+      "original": 36
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Solotti BRIQ 2",
+      "brand": "SelectGA",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Joocy Froot BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Cherry Pi BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Golden Tangie BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sour Z BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Forbidden Fruit BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Sofa Sonata BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Moonburst BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 49,
+      "original": 70
+    },
+    {
+      "product": "Banana Cream Cayk BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Orange Kooykz BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Couch Kush BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Casino Floor BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Mango Puff BRIQ 2",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 87.5,
+      "original": 125
+    },
+    {
+      "product": "Scout Whole Flower",
+      "brand": "RYTHMB",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 90,
+      "original": 120
+    },
+    {
+      "product": "Animal Face Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnMule Fuel Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds",
+      "brand": "RYTHMGMO",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 48.75,
+      "original": 65
+    },
+    {
+      "product": "Whole Flower Hybrid 95 Cook Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnCT Kush Cake Whole Flower",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 33.6,
+      "original": 48
+    },
+    {
+      "product": "Small Buds Hybrid Mule Fuel Small Buds 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Jungle Cake Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Cheddar Cheeze Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "BurnMule Fuel Small Buds",
+      "brand": "Let's",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 30,
+      "discounted": 47.6,
+      "original": 68
+    },
+    {
+      "product": "Pineapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Jayna's Sunshine Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Pineapple Sunrise Ground Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "Emerald Kush Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 33,
+      "discounted": 140,
+      "original": 209
+    },
+    {
+      "product": "Blue Andeze Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Heir Heads Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Nimbus Snacks Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Original Glue Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Deep Blue Gas Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Nimbus Snacks Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Stomper Kush Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Mendo Wedding Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Applescotti Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Super Lemon G Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Super Lemon G Small Buds",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 26,
+      "discounted": 140,
+      "original": 189
+    },
+    {
+      "product": "Confidential Cherries Whole Flower",
+      "brand": "RYTHM",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 60,
+      "discounted": 20,
+      "original": 50
+    },
+    {
+      "product": "Sour Fire OG Whole Flower",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 36,
+      "discounted": 70,
+      "original": 109
+    },
+    {
+      "product": "Purple Milk Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Scrub Trooper All-in-One",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 45,
+      "original": 60
+    },
+    {
+      "product": "Blue NDZ Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Cap Junk Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Gush Mintz Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Bananaconda Cartridge",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 25,
+      "discounted": 37.5,
+      "original": 50
+    },
+    {
+      "product": "Purple Milk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Blueberry Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "BudzBananaconda Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "Cap Junk Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Cap Junk Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Gush Mintz Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "BudzGush Mintz Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "BudzPurple Milk Small Buds",
+      "brand": "Lil'",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 52.5,
+      "original": 70
+    },
+    {
+      "product": "Pre Roll Hybrid C Stata Pre Roll 1g",
+      "brand": "",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Permanent Marker Whole Flower",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Permanent Funk Pre-Roll",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 9.75,
+      "original": 13
+    },
+    {
+      "product": "Whole Flower Hybrid C Stata Whole Flower 3.5g",
+      "brand": "",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 28.5,
+      "original": 38
+    },
+    {
+      "product": "Jungle Cake Small Buds",
+      "brand": "Brix",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 42,
+      "original": 56
+    },
+    {
+      "product": "PharmaE85 Whole Flower",
+      "brand": "CT",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 33.75,
+      "original": 45
+    },
+    {
+      "product": "Floral Frost Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Pinapple Sunrise Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Paw Paw Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 25,
+      "original": 50
+    },
+    {
+      "product": "Critical Crumb Whole Flower",
+      "brand": "Find.",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 50,
+      "discounted": 20,
+      "original": 40
+    },
+    {
+      "product": "GrowLemon Skunk Whole Flower",
+      "brand": "Affinity",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 25,
+      "discounted": 27,
+      "original": 36
+    },
+    {
+      "product": "Singapore Sling Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 35,
+      "discounted": 65,
+      "original": 100
+    },
+    {
+      "product": "Pineapple Sunrise Pre-Roll",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Ched R Cheez Pre-Roll",
+      "brand": "Curaleaf",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Pre-Roll",
+      "brand": "AwssomGCG",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 7.5,
+      "original": 10
+    },
+    {
+      "product": "Astro GMO Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Jayna's Sunshine Pre-Roll Pack",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 22.75,
+      "original": 35
+    },
+    {
+      "product": "Pre Roll Pack Sativa Banana Acai Mints Infused Pre Roll Pack 0.4g Ea 4 Pack",
+      "brand": "",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 29.25,
+      "original": 39
+    },
+    {
+      "product": "Pi in the Sky Infused Pre-Roll",
+      "brand": "Theraplant",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 26.25,
+      "original": 35
+    },
+    {
+      "product": "GrassBiscotti Pie Pre-Roll Pack",
+      "brand": "Miss",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 25,
+      "discounted": 22.5,
+      "original": 30
+    },
+    {
+      "product": "Bites Pre-Roll",
+      "brand": "Find.PB",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Pre-Rolls",
+      "pct_off": 35,
+      "discounted": 11.7,
+      "original": 18
+    },
+    {
+      "product": "Diesel Cartridge",
+      "brand": "SelectNYC",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Old School OG Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Sour Z Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "ViewWatermelon Sherbet Live Resin All-in-One",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 30,
+      "discounted": 50.4,
+      "original": 72
+    },
+    {
+      "product": "Sundae Slumber Cartridge",
+      "brand": "Select",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Vaporizers",
+      "pct_off": 35,
+      "discounted": 45.5,
+      "original": 70
+    },
+    {
+      "product": "Sour Strawberry Lemonade Fast-Acting Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "ViewG'Night Grape Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "Tangie Crush RSO Macro Dose Gummies",
+      "brand": "Savvy",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 7.5,
+      "original": 10
+    },
+    {
+      "product": "Snoozzzeberry Ratioed Gummies",
+      "brand": "inc.edibles",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 25,
+      "discounted": 15,
+      "original": 20
+    },
+    {
+      "product": "ViewBlood Orange Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "Raspberry Pomegranate Fast-Acting Ratioed Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "ViewBerry Dreamy Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 23.8,
+      "original": 34
+    },
+    {
+      "product": "Sour Green Apple Fast-Acting Gummies",
+      "brand": "JAMS",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 35,
+      "discounted": 26,
+      "original": 40
+    },
+    {
+      "product": "ViewWatermelon Live Resin Ratioed Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "ViewMargarita RSO Gummies",
+      "brand": "Sound",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Edible",
+      "pct_off": 30,
+      "discounted": 22.4,
+      "original": 32
+    },
+    {
+      "product": "Pillow Mints Whole Flower",
+      "brand": "Grassroots",
+      "dispensary": "Curaleaf Stamford",
+      "category": "Flower",
+      "pct_off": 38,
+      "discounted": 25,
+      "original": 40
+    },
+    {
+      "product": "GrowMint Tincture",
+      "brand": "Affinity",
+      "dispensary": "Curaleaf Stamford",
+      "category": "oral",
+      "pct_off": 25,
+      "discounted": 27,
+      "original": 36
+    },
+    {
+      "product": "PharmaHigh Potency Drops Tincture",
+      "brand": "CT",
+      "dispensary": "Curaleaf Stamford",
+      "category": "oral",
+      "pct_off": 25,
+      "discounted": 40.5,
+      "original": 54
     },
     {
       "product": "Mikado Mintz | Pre-Pack Smalls | 7g | C0200000004",

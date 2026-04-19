@@ -1,0 +1,596 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solotti BRIQ 2",
+    "brand": "SelectGA",
+    "message": "New: SelectGA - Solotti BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Pi BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Cherry Pi BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Sour Z BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Moonburst BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Moonburst BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff BRIQ 2 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kooykz BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Orange Kooykz BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Kush BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Couch Kush BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff BRIQ 2",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff BRIQ 2 $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scout Whole Flower",
+    "brand": "RYTHMB",
+    "message": "New: RYTHMB - Scout Whole Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Animal Face Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Whole Flower",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Whole Flower $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Buds",
+    "brand": "RYTHMGMO",
+    "message": "New: RYTHMGMO - Small Buds $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whole Flower Hybrid 95 Cook Whole Flower 3.5g",
+    "brand": null,
+    "message": "New: null - Whole Flower Hybrid 95 Cook Whole Flower 3.5g $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnCT Kush Cake Whole Flower",
+    "brand": "Let's",
+    "message": "New: Let's - BurnCT Kush Cake Whole Flower $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Buds Hybrid Mule Fuel Small Buds 3.5g",
+    "brand": null,
+    "message": "New: null - Small Buds Hybrid Mule Fuel Small Buds 3.5g $29.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Cheddar Cheeze Whole Flower $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Small Buds",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Small Buds $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine Ground Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise Ground Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise Ground Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Emerald Kush Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Emerald Kush Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Blue Andeze Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Blue Andeze Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Nimbus Snacks Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Original Glue Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Original Glue Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Deep Blue Gas Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Deep Blue Gas Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Nimbus Snacks Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stomper Kush Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Stomper Kush Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Mendo Wedding Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon G Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Super Lemon G Small Buds $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon G Small Buds",
+    "brand": "Savvy",
+    "message": "New: Savvy - Super Lemon G Small Buds $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Confidential Cherries Whole Flower",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Confidential Cherries Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Fire OG Whole Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Fire OG Whole Flower $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scrub Trooper All-in-One",
+    "brand": "Brix",
+    "message": "New: Brix - Scrub Trooper All-in-One $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue NDZ Cartridge",
+    "brand": "Brix",
+    "message": "New: Brix - Blue NDZ Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk Cartridge",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Cartridge",
+    "brand": "Brix",
+    "message": "New: Brix - Gush Mintz Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda Cartridge",
+    "brand": "Brix",
+    "message": "New: Brix - Bananaconda Cartridge $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Blueberry Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzBananaconda Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzBananaconda Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Gush Mintz Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzGush Mintz Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzGush Mintz Small Buds $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BudzPurple Milk Small Buds",
+    "brand": "Lil'",
+    "message": "New: Lil' - BudzPurple Milk Small Buds $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll Hybrid C Stata Pre Roll 1g",
+    "brand": null,
+    "message": "New: null - Pre Roll Hybrid C Stata Pre Roll 1g $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Marker Whole Flower $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Funk Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Funk Pre-Roll $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whole Flower Hybrid C Stata Whole Flower 3.5g",
+    "brand": null,
+    "message": "New: null - Whole Flower Hybrid C Stata Whole Flower 3.5g $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake Small Buds",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake Small Buds $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaE85 Whole Flower",
+    "brand": "CT",
+    "message": "New: CT - PharmaE85 Whole Flower $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinapple Sunrise Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pinapple Sunrise Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb Whole Flower",
+    "brand": "Find.",
+    "message": "New: Find. - Critical Crumb Whole Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowLemon Skunk Whole Flower",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowLemon Skunk Whole Flower $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling Whole Flower $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ched R Cheez Pre-Roll",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Ched R Cheez Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll",
+    "brand": "AwssomGCG",
+    "message": "New: AwssomGCG - Pre-Roll $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine Pre-Roll Pack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine Pre-Roll Pack $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll Pack Sativa Banana Acai Mints Infused Pre Roll Pack 0.4g Ea 4 Pack",
+    "brand": null,
+    "message": "New: null - Pre Roll Pack Sativa Banana Acai Mints Infused Pre Roll Pack 0.4g Ea 4 Pack $29.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pi in the Sky Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pi in the Sky Infused Pre-Roll $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassBiscotti Pie Pre-Roll Pack",
+    "brand": "Miss",
+    "message": "New: Miss - GrassBiscotti Pie Pre-Roll Pack $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bites Pre-Roll",
+    "brand": "Find.PB",
+    "message": "New: Find.PB - Bites Pre-Roll $11.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel Cartridge",
+    "brand": "SelectNYC",
+    "message": "New: SelectNYC - Diesel Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School OG Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Old School OG Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sour Z Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWatermelon Sherbet Live Resin All-in-One",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWatermelon Sherbet Live Resin All-in-One $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber Cartridge $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Strawberry Lemonade Fast-Acting Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Strawberry Lemonade Fast-Acting Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewG'Night Grape Ratioed Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewG'Night Grape Ratioed Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangie Crush RSO Macro Dose Gummies",
+    "brand": "Savvy",
+    "message": "New: Savvy - Tangie Crush RSO Macro Dose Gummies $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snoozzzeberry Ratioed Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Snoozzzeberry Ratioed Gummies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBlood Orange Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBlood Orange Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Pomegranate Fast-Acting Ratioed Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Raspberry Pomegranate Fast-Acting Ratioed Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewBerry Dreamy Ratioed Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewBerry Dreamy Ratioed Gummies $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Green Apple Fast-Acting Gummies",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Green Apple Fast-Acting Gummies $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewWatermelon Live Resin Ratioed Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewWatermelon Live Resin Ratioed Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewMargarita RSO Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewMargarita RSO Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints Whole Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints Whole Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrowMint Tincture",
+    "brand": "Affinity",
+    "message": "New: Affinity - GrowMint Tincture $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaHigh Potency Drops Tincture",
+    "brand": "CT",
+    "message": "New: CT - PharmaHigh Potency Drops Tincture $40.50"
+  }
+]

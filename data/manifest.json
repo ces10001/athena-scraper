@@ -1,9 +1,13 @@
 {
-  "lastUpdated": "2026-04-19T03:11:59.256Z",
+  "lastUpdated": "2026-04-19T03:57:44.149Z",
   "dispensaries": [
     "crisp-cannabis-cromwell",
     "crisp-cannabis-east-hartford",
     "crisp-cannabis-trumbull",
+    "curaleaf-groton",
+    "curaleaf-hartford",
+    "curaleaf-manchester",
+    "curaleaf-stamford",
     "high-profile-canton",
     "high-profile-hamden",
     "high-profile-stratford",
@@ -24,8 +28,8 @@
     "willow-brook-wellness"
   ],
   "stats": {
-    "total": 8291,
-    "scraped": 31,
-    "alerts": 5566
+    "total": 8692,
+    "scraped": 26,
+    "alerts": 401
   }
 }
