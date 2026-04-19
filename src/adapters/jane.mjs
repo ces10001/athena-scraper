@@ -155,6 +155,15 @@ export async function scrapeJane(dispensary) {
     var errors = [];
 
     var CATS = ['flower', 'pre-rolls', 'vape', 'edibles', 'concentrates', 'tinctures', 'topicals'];
+    var CAT_PARAM = {
+      'flower': 'flower',
+      'pre-rolls': 'pre-roll',
+      'vape': 'vape',
+      'edibles': 'edible',
+      'concentrates': 'concentrate',
+      'tinctures': 'tincture',
+      'topicals': 'topical',
+    };
 
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
@@ -162,7 +171,8 @@ export async function scrapeJane(dispensary) {
 
       for (var c = 0; c < CATS.length; c++) {
         var cat = CATS[c];
-        var url = 'https://www.iheartjane.com/stores/' + store.id + '/' + store.slug + '/menu/' + cat;
+        var catParam = CAT_PARAM[cat] || cat;
+        var url = 'https://www.iheartjane.com/embed/stores/' + store.id + '/menu?refinementList%5Broot_types%5D%5B0%5D=' + catParam;
 
         var page = null;
         try {
