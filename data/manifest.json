@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-18T08:26:35.626Z",
+  "lastUpdated": "2026-04-19T01:30:42.339Z",
   "dispensaries": [
     "high-profile-canton",
     "shangri-la-norwalk-main-ave",
     "still-river-wellness"
   ],
   "stats": {
-    "total": 1131,
+    "total": 2544,
     "scraped": 3,
-    "alerts": 0
+    "alerts": 1547
   }
 }
