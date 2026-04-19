@@ -1,202 +1,149 @@
-#!/usr/bin/env node
-// build-dashboard.mjs
-// Transforms individual dispensary JSON files from data/results/
-// into the single dashboard_data.json the ATHENA UI expects.
+import { chromium } from 'playwright';
+import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-import { readFile, writeFile, readdir } from 'fs/promises';
-import { existsSync } from 'fs';
+const HASH = '98b4aaef79a84ae804b64d550f98dd64d7ba0aa6d836eb6b5d4b2ae815c95e32';
 
-const RESULTS_DIR = './data/results';
-const OUTPUT_FILE = './dashboard_data.json';
+let browser = null;
+let page = null;
 
-// Dispensary display names and cities (mapped from slug)
-const DISP_INFO = {
-  'high-profile-canton': { name: 'High Profile - Canton', city: 'Canton' },
-  'high-profile-hamden': { name: 'High Profile - Hamden', city: 'Hamden' },
-  'high-profile-stratford': { name: 'High Profile - Stratford', city: 'Stratford' },
-  'shangri-la-norwalk-main-ave': { name: 'Shangri-La - Norwalk', city: 'Norwalk' },
-  'shangri-la-south-norwalk': { name: 'Shangri-La - South Norwalk', city: 'South Norwalk' },
-  'shangri-la-waterbury': { name: 'Shangri-La - Waterbury', city: 'Waterbury' },
-  'shangri-la-plainville': { name: 'Shangri-La - Plainville', city: 'Plainville' },
-  'shangri-la-east-hartford': { name: 'Shangri-La - East Hartford', city: 'East Hartford' },
-  'sweetspot-stamford': { name: 'SweetSpot - Stamford', city: 'Stamford' },
-  'nova-farms-new-britain': { name: 'Nova Farms - New Britain', city: 'New Britain' },
-  'still-river-wellness': { name: 'Still River Wellness', city: 'Torrington' },
-  'crisp-cannabis-bridgeport': { name: 'Crisp Cannabis - Bridgeport', city: 'Bridgeport' },
-  'crisp-cannabis-trumbull': { name: 'Crisp Cannabis - Trumbull', city: 'Stratford' },
-  'crisp-cannabis-east-hartford': { name: 'Crisp Cannabis - East Hartford', city: 'East Hartford' },
-  'crisp-cannabis-cromwell': { name: 'Crisp Cannabis - Cromwell', city: 'Middletown' },
-  'affinity-dispensary': { name: 'Affinity Dispensary - Bridgeport (Rec)', city: 'Bridgeport' },
-};
-
-function getDispInfo(slug) {
-  if (DISP_INFO[slug]) return DISP_INFO[slug];
-  // Generate from slug
-  var name = slug.replace(/-+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  return { name, city: 'CT' };
-}
-
-// Normalize product name for cross-dispensary matching
-function normalizeName(name, brand) {
-  var s = (name || '').toLowerCase();
-  // Remove batch numbers, weights, warnings
-  s = s.replace(/\|\s*warning[^|]*/gi, '');
-  s = s.replace(/\|\s*\d+/g, '');
-  s = s.replace(/\b\d{4,}\b/g, ''); // batch numbers
-  s = s.replace(/\b\d+\.?\d*\s*(g|mg|ml|oz)\b/gi, '');
-  s = s.replace(/\bpre-?pack\b/gi, '');
-  s = s.replace(/[-_|]+/g, ' ');
-  s = s.replace(/\s+/g, ' ').trim();
-  // Combine with brand for uniqueness
-  var key = ((brand || '') + ' ' + s).toLowerCase().trim();
-  return key;
-}
-
-// Map our category names to the dashboard's expected categories
-function mapCategory(cat) {
-  var c = (cat || '').toLowerCase();
-  if (c === 'flower') return 'Flower';
-  if (c === 'vape' || c === 'vaporizers') return 'Vaporizers';
-  if (c === 'edible' || c === 'edibles') return 'Edibles';
-  if (c === 'pre-roll' || c === 'pre-rolls') return 'Pre-Rolls';
-  if (c === 'concentrate' || c === 'concentrates') return 'Concentrates';
-  if (c === 'tincture' || c === 'tinctures') return 'Tinctures';
-  if (c === 'topical' || c === 'topicals') return 'Topicals';
-  if (c === 'gear' || c === 'accessories') return 'Accessories';
-  return cat || 'Other';
-}
-
-async function main() {
-  console.log('Building dashboard_data.json...');
-
-  if (!existsSync(RESULTS_DIR)) {
-    console.error('No results directory found');
-    process.exit(1);
-  }
-
-  var files = (await readdir(RESULTS_DIR)).filter(f => f.endsWith('.json'));
-  if (files.length === 0) {
-    console.error('No result files found');
-    process.exit(1);
-  }
-
-  console.log('Found ' + files.length + ' dispensary files');
-
-  // Load all dispensary data
-  var allDisps = {};
-  var allRawProducts = [];
-
-  for (var file of files) {
-    var slug = file.replace('.json', '');
-    var info = getDispInfo(slug);
-    var raw = JSON.parse(await readFile(RESULTS_DIR + '/' + file, 'utf-8'));
-
-    if (!Array.isArray(raw) || raw.length === 0) continue;
-
-    allDisps[info.name] = {
-      city: info.city,
-      product_count: raw.length,
-      daily_sales: 0,
-    };
-
-    for (var product of raw) {
-      allRawProducts.push({
-        ...product,
-        _dispensary: info.name,
-        _price: product.price_cents ? product.price_cents / 100 : null,
-        _origPrice: product.original_price_cents ? product.original_price_cents / 100 : null,
-      });
+async function ensureBrowser() {
+  if (!browser) {
+    console.log('  [dutchie] Launching Chrome...');
+    browser = await chromium.launch({ headless: true });
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    });
+    page = await context.newPage();
+    await page.goto('https://dutchie.com/dispensary/high-profile-canton', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(2000);
+    try {
+      const yesBtn = page.getByRole('button', { name: 'Yes' });
+      await yesBtn.click({ timeout: 5000 });
+      console.log('  [dutchie] Age gate passed');
+      await page.waitForTimeout(2000);
+    } catch {
+      console.log('  [dutchie] No age gate found');
     }
   }
+  return page;
+}
 
-  console.log('Loaded ' + allRawProducts.length + ' total products from ' + Object.keys(allDisps).length + ' dispensaries');
-
-  // Merge products across dispensaries by normalized name
-  var productMap = {};
-
-  for (var p of allRawProducts) {
-    if (!p._price) continue;
-
-    var key = normalizeName(p.name, p.brand);
-    if (!productMap[key]) {
-      productMap[key] = {
-        name: p.name,
-        brand: p.brand || '',
-        category: mapCategory(p.category),
-        dispensaries: {},
-        promos: {},
+async function fetchAllProducts(p, dispensaryId) {
+  return await p.evaluate(async ({ dispensaryId, hash }) => {
+    var allProducts = [];
+    for (var pg = 0; pg < 20; pg++) {
+      var vars = {
+        includeEnterpriseSpecials: false,
+        productsFilter: {
+          dispensaryId: dispensaryId,
+          pricingType: 'rec',
+          strainTypes: [],
+          subcategories: [],
+          Status: 'Active',
+          types: [],
+          useCache: true,
+          isDefaultSort: true,
+          sortBy: 'popularSortIdx',
+          sortDirection: 1,
+          bypassOnlineThresholds: false,
+          isKioskMenu: false,
+          removeProductsBelowOptionThresholds: true,
+          platformType: 'ONLINE_MENU',
+          preOrderType: null,
+        },
+        page: pg,
+        perPage: 100,
       };
+      var ext = { persistedQuery: { version: 1, sha256Hash: hash } };
+      var url = '/graphql?operationName=FilteredProducts&variables='
+        + encodeURIComponent(JSON.stringify(vars))
+        + '&extensions=' + encodeURIComponent(JSON.stringify(ext));
+      var res = await fetch(url, {
+        headers: {
+          'Accept': 'application/json',
+          'apollo-require-preflight': 'true',
+          'x-apollo-operation-name': 'FilteredProducts',
+        },
+      });
+      if (!res.ok) return { error: 'HTTP ' + res.status, products: [], total: 0 };
+      var data = await res.json();
+      if (data.errors) return { error: data.errors[0]?.message, products: [], total: 0 };
+      var products = data.data?.filteredProducts?.products || [];
+      var total = data.data?.filteredProducts?.queryInfo?.totalCount || 0;
+      allProducts = allProducts.concat(products);
+      if (products.length < 100 || allProducts.length >= total) break;
     }
-
-    // Use the best name (longest, most descriptive)
-    if (p.name && p.name.length > productMap[key].name.length) {
-      productMap[key].name = p.name;
-    }
-
-    // Set price for this dispensary
-    productMap[key].dispensaries[p._dispensary] = p._price;
-
-    // Set promo price if on sale
-    if (p.on_sale && p._origPrice && p._price < p._origPrice) {
-      productMap[key].promos[p._dispensary] = p._price;
-      productMap[key].dispensaries[p._dispensary] = p._origPrice;
-    }
-  }
-
-  var products = Object.values(productMap);
-  console.log('Merged into ' + products.length + ' unique products');
-
-  // Count comparable (available at 2+ dispensaries)
-  var comparable = products.filter(p => Object.keys(p.dispensaries).length >= 2).length;
-
-  // Build deals list
-  var deals = [];
-  for (var p of allRawProducts) {
-    if (p.on_sale && p._origPrice && p._price && p._price < p._origPrice) {
-      var pctOff = Math.round((1 - p._price / p._origPrice) * 100);
-      if (pctOff > 0 && pctOff < 100) {
-        deals.push({
-          product: p.name,
-          brand: p.brand || '',
-          dispensary: p._dispensary,
-          category: mapCategory(p.category),
-          pct_off: pctOff,
-          discounted: Math.round(p._price * 100) / 100,
-          original: Math.round(p._origPrice * 100) / 100,
-        });
-      }
-    }
-  }
-
-  // Build dispensary counts
-  var dispensaryCounts = {};
-  for (var [name, info] of Object.entries(allDisps)) {
-    dispensaryCounts[name] = info.product_count;
-  }
-
-  // Build output
-  var output = {
-    scraped_at: new Date().toISOString(),
-    stats: {
-      total_active: allRawProducts.length,
-      dispensary_count: Object.keys(allDisps).length,
-      comparable: comparable,
-      deals: deals.length,
-      dispensary_counts: dispensaryCounts,
-    },
-    products: products,
-    dispensaries: allDisps,
-    deals: deals,
-    velocity: [],
-    stock_alerts: [],
-  };
-
-  await writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2));
-  console.log('Written to ' + OUTPUT_FILE);
-  console.log('  Products: ' + products.length);
-  console.log('  Comparable: ' + comparable);
-  console.log('  Deals: ' + deals.length);
-  console.log('  Dispensaries: ' + Object.keys(allDisps).length);
+    var cats = {};
+    allProducts.forEach(function(p) { var t = p.type || 'Other'; cats[t] = (cats[t] || 0) + 1; });
+    return { products: allProducts, total: allProducts.length, categories: cats };
+  }, { dispensaryId, hash: HASH });
 }
 
-main().catch(err => { console.error('Error:', err); process.exit(1); });
+function normalizeDutchieProduct(raw) {
+  var price = raw.recPrices?.[0] ?? raw.Prices?.[0] ?? null;
+  var specialPrice = raw.recSpecialPrices?.[0] ?? null;
+  var hasSpecial = specialPrice != null && specialPrice > 0;
+  return normalizeProduct({
+    external_id: raw.id || raw._id,
+    name: raw.Name || '',
+    brand: raw.brandName || '',
+    category: raw.type || '',
+    subcategory: raw.subcategory || null,
+    strain_type: raw.strainType || null,
+    price: hasSpecial ? specialPrice : price,
+    original_price: hasSpecial ? price : null,
+    weight_label: raw.Options?.[0] || null,
+    thc_pct: raw.THCContent?.range?.[0] ?? null,
+    cbd_pct: raw.CBDContent?.range?.[0] ?? null,
+    in_stock: raw.Status === 'Active',
+    deal_description: raw.special?.name || raw.specialData?.[0]?.name || null,
+    image_url: raw.Image || null,
+    product_url: null,
+  });
+}
+
+export async function scrapeDutchie(dispensary) {
+  console.log('[dutchie] Scraping: ' + dispensary.name);
+  var dispensaryId = dispensary.dispensary_id;
+  if (!dispensaryId) {
+    console.error('  [dutchie] No dispensary_id for ' + dispensary.name);
+    return { products: [], errors: ['No dispensary_id'] };
+  }
+  try {
+    var p = await ensureBrowser();
+    await p.waitForTimeout(1500);
+    var result = await fetchAllProducts(p, dispensaryId);
+    if (result.error) {
+      console.error('  [dutchie] API error: ' + result.error);
+      return { products: [], errors: [result.error] };
+    }
+    var catInfo = Object.entries(result.categories || {}).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
+    console.log('  [dutchie] Categories: ' + catInfo);
+    console.log('  [dutchie] Raw products: ' + result.total);
+
+    var normalized = result.products.map(normalizeDutchieProduct);
+    var valid = normalized.filter(function(p) {
+      if (validateProduct(p).length > 0) return false;
+      var cat = (p.category || '').toLowerCase();
+      if (cat === 'accessories' || cat === 'apparel') return false;
+      return true;
+    });
+
+    console.log('  [dutchie] Done: ' + valid.length + ' valid products (excluded accessories/apparel)');
+    return { products: valid, errors: [] };
+  } catch (err) {
+    console.error('  [dutchie] FAILED: ' + err.message);
+    return { products: [], errors: [err.message] };
+  }
+}
+
+export async function cleanup() {
+  if (browser) {
+    await browser.close().catch(function() {});
+    browser = null;
+    page = null;
+    console.log('  [dutchie] Browser closed');
+  }
+}
+
+export default { scrapeDutchie, cleanup };
