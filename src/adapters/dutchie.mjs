@@ -129,36 +129,56 @@ export async function scrapeDutchie(dispensary) {
     var p = await ensureBrowser();
     await p.waitForTimeout(1500);
 
-    // Step 1: Scrape rec products (includes medicalPrices on each product)
-    var recResult = await fetchAllProducts(p, dispensaryId, 'rec');
-    if (recResult.error) {
-      console.error('  [dutchie] Rec error: ' + recResult.error);
-      return { products: [], errors: [recResult.error] };
-    }
-    console.log('  [dutchie] Rec products: ' + recResult.total);
-
-    // Step 2: Scrape med-only products (catch products not on rec menu)
-    await p.waitForTimeout(1000);
-    var medResult = await fetchAllProducts(p, dispensaryId, 'med');
-    console.log('  [dutchie] Med products: ' + medResult.total);
-
-    // Step 3: Merge — rec products first, then add any med-only extras
+    // Determine which menu to scrape: if menu_type is set, scrape only that; otherwise both (legacy)
+    var menuType = dispensary.menu_type;
     var allProducts = new Map();
-    for (var raw of recResult.products) {
-      allProducts.set(raw.id || raw._id, raw);
-    }
-    var medOnlyCount = 0;
-    for (var raw of medResult.products) {
-      var id = raw.id || raw._id;
-      if (!allProducts.has(id)) {
-        allProducts.set(id, raw);
-        medOnlyCount++;
+    var catCounts = {};
+
+    if (menuType === 'rec' || !menuType) {
+      // Scrape rec menu
+      var recResult = await fetchAllProducts(p, dispensaryId, 'rec');
+      if (recResult.error) {
+        console.error('  [dutchie] Rec error: ' + recResult.error);
+        return { products: [], errors: [recResult.error] };
+      }
+      console.log('  [dutchie] Rec products: ' + recResult.total);
+      
+      for (var raw of recResult.products) {
+        allProducts.set(raw.id || raw._id, raw);
       }
     }
-    if (medOnlyCount > 0) console.log('  [dutchie] Med-only extras: ' + medOnlyCount);
 
-    // Step 4: Normalize and filter
-    var catCounts = {};
+    if (menuType === 'med' || !menuType) {
+      // Scrape med menu
+      if (!menuType) await p.waitForTimeout(1000);
+      var medResult = await fetchAllProducts(p, dispensaryId, 'med');
+      if (medResult.error && menuType === 'med') {
+        console.error('  [dutchie] Med error: ' + medResult.error);
+        return { products: [], errors: [medResult.error] };
+      }
+      console.log('  [dutchie] Med products: ' + medResult.total);
+      
+      // Add med products: if no menu_type set, only add med-only extras (merge mode)
+      // If menu_type='med', include all med products
+      if (menuType === 'med') {
+        for (var raw of medResult.products) {
+          allProducts.set(raw.id || raw._id, raw);
+        }
+      } else {
+        // Legacy merge: add med-only extras
+        var medOnlyCount = 0;
+        for (var raw of medResult.products) {
+          var id = raw.id || raw._id;
+          if (!allProducts.has(id)) {
+            allProducts.set(id, raw);
+            medOnlyCount++;
+          }
+        }
+        if (medOnlyCount > 0) console.log('  [dutchie] Med-only extras: ' + medOnlyCount);
+      }
+    }
+
+    // Normalize and filter
     var normalized = [];
     for (var raw of allProducts.values()) {
       var prod = normalizeDutchieProduct(raw);
