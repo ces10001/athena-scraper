@@ -1,7 +1,7 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-async function extractProductsFromPage(page) {
-  return await page.evaluate(function() {
+async function extractProductsFromPage(pageOrFrame) {
+  return await pageOrFrame.evaluate(function() {
     var results = [];
     var seen = {};
     var links = document.querySelectorAll('a[href*="/menu/"]');
@@ -138,6 +138,33 @@ function normalizeSweedProduct(raw) {
   return normalized;
 }
 
+async function getTargetFrame(page) {
+  // Check for sweed iframe (used by Zen Leaf and others)
+  // If found, extract from inside the iframe; otherwise use main page
+  try {
+    var sweedFrame = page.frame('sweed-iframe-display');
+    if (sweedFrame) {
+      console.log('  [sweed] Found sweed iframe, switching to iframe context');
+      return sweedFrame;
+    }
+  } catch (e) {}
+
+  // Fallback: try to find any iframe with sweed in the name/url
+  try {
+    var frames = page.frames();
+    for (var f = 0; f < frames.length; f++) {
+      var frameUrl = frames[f].url() || '';
+      if (frameUrl.includes('isIframe=true') || frameUrl.includes('sweed')) {
+        console.log('  [sweed] Found sweed iframe by URL: ' + frameUrl.substring(0, 80));
+        return frames[f];
+      }
+    }
+  } catch (e) {}
+
+  // No iframe found, use main page (Curaleaf, HC work this way)
+  return page;
+}
+
 export async function scrapeSweed(dispensary) {
   console.log('[sweed] Scraping: ' + dispensary.name);
 
@@ -164,7 +191,20 @@ export async function scrapeSweed(dispensary) {
         await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
         await page.waitForTimeout(12000);
 
-        var firstResult = await extractProductsFromPage(page);
+        // Get the correct frame to extract from (iframe for Zen Leaf, main page for others)
+        var targetFrame = await getTargetFrame(page);
+
+        // Scroll to load lazy content
+        try {
+          await targetFrame.evaluate(function() {
+            for (var i = 0; i < 10; i++) {
+              window.scrollBy(0, 600);
+            }
+          });
+          await page.waitForTimeout(2000);
+        } catch (e) {}
+
+        var firstResult = await extractProductsFromPage(targetFrame);
         var maxPage = firstResult.maxPage || 1;
         var pageProducts = firstResult.products || [];
 
@@ -185,7 +225,11 @@ export async function scrapeSweed(dispensary) {
             try {
               await nextPage.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
               await nextPage.waitForTimeout(8000);
-              var pgResult = await extractProductsFromPage(nextPage);
+
+              // Check for iframe again on paginated pages
+              var nextTarget = await getTargetFrame(nextPage);
+
+              var pgResult = await extractProductsFromPage(nextTarget);
               for (var pp = 0; pp < pgResult.products.length; pp++) {
                 var pid = pgResult.products[pp].external_id;
                 if (!allProducts.has(pid)) allProducts.set(pid, pgResult.products[pp]);
