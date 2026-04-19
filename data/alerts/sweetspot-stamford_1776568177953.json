@@ -1,0 +1,242 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rodeo RSO Scorpion Bowl (I) Gummies (C0070000268)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Rodeo RSO Scorpion Bowl (I) Gummies (C0070000268) $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Pastry Live Rosin - MED T76.93% I 26609",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Purple Pastry Live Rosin - MED T76.93% I 26609 $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mend 1-1 Cooling Body Balm - MED 26274",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mend 1-1 Cooling Body Balm - MED 26274 $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Relief 4:1 CBD Tablets 26450",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Relief 4:1 CBD Tablets 26450 $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Harmony 1:1 CBD:THC Tablets 26451",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Harmony 1:1 CBD:THC Tablets 26451 $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452 $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Ascend 1:1 CBG:THC Tablets 26499",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Ascend 1:1 CBG:THC Tablets 26499 $26.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Worry Free Summer T-Shirt 3XL",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Worry Free Summer T-Shirt 3XL"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Water Bottle",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Water Bottle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Smell Proof Bags",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Smell Proof Bags"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Ski Mint Hoodie (XL)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Ski Mint Hoodie (XL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Ski Mint Hoodie (Small)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Ski Mint Hoodie (Small)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Ski Mint Hoodie (Medium)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Ski Mint Hoodie (Medium)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Ski Mint Hoodie (Large)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Ski Mint Hoodie (Large)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Rolling Tray White",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Rolling Tray White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Rolling Tray Green",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Rolling Tray Green"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Green Worry Free Hat",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Green Worry Free Hat"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Green Ashtray",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Green Ashtray"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Beach Towel",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Beach Towel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Baked Lavender Hoodie (XL)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Baked Lavender Hoodie (XL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Baked Lavender Hoodie (Small)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Baked Lavender Hoodie (Small)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Baked Lavender Hoodie (Medium)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Baked Lavender Hoodie (Medium)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Baked Lavender Hoodie (Large)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Baked Lavender Hoodie (Large)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot Baked Lavender Hoodie (2XL)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot Baked Lavender Hoodie (2XL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweetspot 510 Battery",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Sweetspot 510 Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SweetSpot Rolling Papers",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - SweetSpot Rolling Papers"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sandblasted Pioneer - Cactus",
+    "brand": "Medusa Distribution",
+    "message": "Gone: Medusa Distribution - Sandblasted Pioneer - Cactus"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raw Terp'd Cones 1 1/14 Summer Splash",
+    "brand": "RAW",
+    "message": "Gone: RAW - Raw Terp'd Cones 1 1/14 Summer Splash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raw Terp'd Cones 1 1/ eorgia Pie",
+    "brand": "RAW",
+    "message": "Gone: RAW - Raw Terp'd Cones 1 1/ eorgia Pie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Sweetspot Tshirt",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Green Sweetspot Tshirt"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Sweetspot Crewneck",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Green Sweetspot Crewneck"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grav Labs Classic Sherlock",
+    "brand": "AFG Distribution",
+    "message": "Gone: AFG Distribution - Grav Labs Classic Sherlock"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cream Crewneck (XL)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Cream Crewneck (XL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cream Crewneck (Small)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Cream Crewneck (Small)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cream Crewneck (Medium)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Cream Crewneck (Medium)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cream Crewneck (Large)",
+    "brand": "Sweetspot",
+    "message": "Gone: Sweetspot - Cream Crewneck (Large)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CLIQ Pod Battery",
+    "brand": "CLIQ Pod",
+    "message": "Gone: CLIQ Pod - CLIQ Pod Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blazy Susan - King Size 3 Pack Cones Pink",
+    "brand": "Blazy Suzan",
+    "message": "Gone: Blazy Suzan - Blazy Susan - King Size 3 Pack Cones Pink"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BOVEDA 62%",
+    "brand": "LuvBud",
+    "message": "Gone: LuvBud - BOVEDA 62%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BIC - EZ Reach Lighter",
+    "brand": "Medusa Distribution",
+    "message": "Gone: Medusa Distribution - BIC - EZ Reach Lighter"
+  }
+]

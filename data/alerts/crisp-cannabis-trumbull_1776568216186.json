@@ -1,0 +1,338 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream 1:1 RSO Syringe I 00497",
+    "brand": "Affinity",
+    "message": "New: Affinity - Sunshine Daydream 1:1 RSO Syringe I 00497 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis B Yo 2g Live Resin Sauce (I) 00387",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis B Yo 2g Live Resin Sauce (I) 00387 $76.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Ice BHO Sugar MED T79.98% I 00634",
+    "brand": "Affinity",
+    "message": "New: Affinity - Black Ice BHO Sugar MED T79.98% I 00634 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Space Gello Rosin 41402",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Space Gello Rosin 41402 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Chem's Lemonberry 0.5g Diamonds (H) 00478",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis Chem's Lemonberry 0.5g Diamonds (H) 00478 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Affinity Chill 1:1 Relief Gel MED 00664",
+    "brand": "Affinity",
+    "message": "New: Affinity - Affinity Chill 1:1 Relief Gel MED 00664 $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Hash Burger Rosin 41397",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Hash Burger Rosin 41397 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Pastry 1g Live Rosin - MED T76.93% I 26609",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Purple Pastry 1g Live Rosin - MED T76.93% I 26609 $55.30"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mend 1-1 Cooling Body Balm - MED 26274",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mend 1-1 Cooling Body Balm - MED 26274 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Medium Strength Savoti Capsule 41577",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Medium Strength Savoti Capsule 41577 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "LEMON SKUNK BHO SUGAR MED T80.10% S 00635",
+    "brand": "Affinity",
+    "message": "New: Affinity - LEMON SKUNK BHO SUGAR MED T80.10% S 00635 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem Valley Kush 1g Live Rosin - MED T75.76% H 26611",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Chem Valley Kush 1g Live Rosin - MED T75.76% H 26611 $49.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Relief 4:1 CBD Tablets 26450",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Relief 4:1 CBD Tablets 26450 $12.79"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Harmony 1:1 CBD:THC Tablets 26451",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Harmony 1:1 CBD:THC Tablets 26451 $12.79"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452 $12.79"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Avexia Ascend 1:1 CBG:THC Tablets 26499",
+    "brand": "Avexia",
+    "message": "New: Avexia - Avexia Ascend 1:1 CBG:THC Tablets 26499 $12.79"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LuvBuds - 8\" Soft Glass Water Pipe",
+    "brand": "LuvBuds",
+    "message": "Gone: LuvBuds - LuvBuds - 8\" Soft Glass Water Pipe"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ONGROK - 2pc. Plant Based Hemp Grinder, Black",
+    "brand": null,
+    "message": "Gone: null - ONGROK - 2pc. Plant Based Hemp Grinder, Black"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Classic Papers 1 1/4",
+    "brand": "RAW",
+    "message": "Gone: RAW - RAW - Classic Papers 1 1/4"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Wraps",
+    "brand": null,
+    "message": "Gone: null - Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Wraps"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Cones, King Size",
+    "brand": null,
+    "message": "Gone: null - Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Cones, King Size"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snoop Dogg x FUTUROLA - Terpene-Infused Blunt Wraps",
+    "brand": null,
+    "message": "Gone: null - Snoop Dogg x FUTUROLA - Terpene-Infused Blunt Wraps"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL - 5.5\" x 7\" Periodic Highs Rolling Tray",
+    "brand": null,
+    "message": "Gone: null - SirEEL - 5.5\" x 7\" Periodic Highs Rolling Tray"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL - 5\" Flower Sherlock",
+    "brand": null,
+    "message": "Gone: null - SirEEL - 5\" Flower Sherlock"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL - 3.5\" Hex Appeal Cobb Pipe",
+    "brand": null,
+    "message": "Gone: null - SirEEL - 3.5\" Hex Appeal Cobb Pipe"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL - 11\" x 7\" Skyline Garden Rolling Tray",
+    "brand": null,
+    "message": "Gone: null - SirEEL - 11\" x 7\" Skyline Garden Rolling Tray"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL - 11\" x 7\" Growers Content Rolling Tray",
+    "brand": null,
+    "message": "Gone: null - SirEEL - 11\" x 7\" Growers Content Rolling Tray"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SirEEL -  77mm Zinc 5pc, Session Pro 3-in-1 Grinder with BIC Mini Holder",
+    "brand": null,
+    "message": "Gone: null - SirEEL -  77mm Zinc 5pc, Session Pro 3-in-1 Grinder with BIC Mini Holder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SMYLE Labs - Danksaber Penjamin Variable Voltage 510 Thread Battery",
+    "brand": null,
+    "message": "Gone: null - SMYLE Labs - Danksaber Penjamin Variable Voltage 510 Thread Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Hemp Wick",
+    "brand": null,
+    "message": "Gone: null - RAW - Hemp Wick"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Classic Papers King Size Slim",
+    "brand": "RAW",
+    "message": "Gone: RAW - RAW - Classic Papers King Size Slim"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Classic Cones King Size 3pk",
+    "brand": "RAW",
+    "message": "Gone: RAW - RAW - Classic Cones King Size 3pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Black Classic Cones, King Size",
+    "brand": "RAW",
+    "message": "Gone: RAW - RAW - Black Classic Cones, King Size"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - Black Classic Cones, 1 1/4 size",
+    "brand": "RAW",
+    "message": "Gone: RAW - RAW - Black Classic Cones, 1 1/4 size"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RAW - 20pk CLASSIC PRE-ROLL CONE 70mm/24mm",
+    "brand": null,
+    "message": "Gone: null - RAW - 20pk CLASSIC PRE-ROLL CONE 70mm/24mm"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LuvBuds - Stainless Steel Pipe Screens",
+    "brand": null,
+    "message": "Gone: null - LuvBuds - Stainless Steel Pipe Screens"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LuvBuds - Metal Dabber with Silicone Tips",
+    "brand": "LuvBuds",
+    "message": "Gone: LuvBuds - LuvBuds - Metal Dabber with Silicone Tips"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LuvBuds - 3.5\" OG Glass Chillum with Silicone Cover",
+    "brand": null,
+    "message": "Gone: null - LuvBuds - 3.5\" OG Glass Chillum with Silicone Cover"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lookah - TieDye Bear 500mAh Variable Voltage 510 Battery",
+    "brand": null,
+    "message": "Gone: null - Lookah - TieDye Bear 500mAh Variable Voltage 510 Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lookah - Guitar 350mAh Variable Voltage 510 Thread Battery",
+    "brand": null,
+    "message": "Gone: null - Lookah - Guitar 350mAh Variable Voltage 510 Thread Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lookah - Dragon Egg Rig, Green",
+    "brand": null,
+    "message": "Gone: null - Lookah - Dragon Egg Rig, Green"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lookah - Cat 750mAh Variable Voltage 510 Thread Battery",
+    "brand": null,
+    "message": "Gone: null - Lookah - Cat 750mAh Variable Voltage 510 Thread Battery"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Patch Hat - Olive",
+    "brand": "Crisp",
+    "message": "Gone: Crisp - Let's Burn Patch Hat - Olive"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Long Sleeve - Indigo",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Long Sleeve - Indigo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Crewneck - Black",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Crewneck - Black"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Crewneck - Army",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Crewneck - Army"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LIMITED Keep It Crisp T-Shirt",
+    "brand": "Crisp",
+    "message": "Gone: Crisp - LIMITED Keep It Crisp T-Shirt"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LIMITED Crisp Cannabis Classic T-Shirt",
+    "brand": "Crisp",
+    "message": "Gone: Crisp - LIMITED Crisp Cannabis Classic T-Shirt"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Keep It Crisp Patch Hat - Charcoal",
+    "brand": "Crisp",
+    "message": "Gone: Crisp - Keep It Crisp Patch Hat - Charcoal"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hemper - 7\" Bowlman Lantern Bong/Water Pipe",
+    "brand": null,
+    "message": "Gone: null - Hemper - 7\" Bowlman Lantern Bong/Water Pipe"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GROOVE - Acrylic 55mm 3-Piece Grinder",
+    "brand": null,
+    "message": "Gone: null - GROOVE - Acrylic 55mm 3-Piece Grinder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Formula 420 - Original",
+    "brand": null,
+    "message": "Gone: null - Formula 420 - Original"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Elements Rice Papers 1 1/4 Size",
+    "brand": null,
+    "message": "Gone: null - Elements Rice Papers 1 1/4 Size"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Elements 1 1/4\" Pre-rolled Cone",
+    "brand": null,
+    "message": "Gone: null - Elements 1 1/4\" Pre-rolled Cone"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Crisp Script Hat - Charcoal/ Burnt Orange",
+    "brand": "Crisp",
+    "message": "Gone: Crisp - Crisp Script Hat - Charcoal/ Burnt Orange"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CLIQ Pod Battery",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - CLIQ Pod Battery"
+  }
+]

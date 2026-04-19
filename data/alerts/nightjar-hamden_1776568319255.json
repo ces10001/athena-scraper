@@ -1,0 +1,1832 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Flower | Carbon FBR 41468",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Carbon FBR 41468 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Lemon Haze LEAF Live Sauce Pen | 01368",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Disposable | Lemon Haze LEAF Live Sauce Pen | 01368 $38.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dogwalkers | Do Not Trip Big Dog | 01330",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll | Dogwalkers | Do Not Trip Big Dog | 01330 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Rose Gold RTZ 01370",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll | Rose Gold RTZ 01370 $8.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | IPA Hoppy THC Brew | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | IPA Hoppy THC Brew | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape | Savvy Hyphen | Tahoe OG 26784",
+    "brand": "Savvy",
+    "message": "New: Savvy - Vape | Savvy Hyphen | Tahoe OG 26784 $66.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape | Savvy Hyphen | Haze Berry 26786",
+    "brand": "Savvy",
+    "message": "New: Savvy - Vape | Savvy Hyphen | Haze Berry 26786 $66.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Lemon Drip x Sour D 01395",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Lemon Drip x Sour D 01395 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Fantasy Melonz x Vel Croz 01393",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Fantasy Melonz x Vel Croz 01393 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Animal Face x Purple Tyde 01391",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Animal Face x Purple Tyde 01391 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Rainbow Haze 00280",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Rainbow Haze 00280 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Dutch Dragon 00286",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Dutch Dragon 00286 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Chem OG 00285",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Chem OG 00285 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | Soap Lil' Budz 00374",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | Soap Lil' Budz 00374 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | Chem D Lil' Budz 00353",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | Chem D Lil' Budz 00353 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | C-Stata Lil' Budz 00356",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | C-Stata Lil' Budz 00356 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Zuava 26973",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Zuava 26973 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Red Gary 26976",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Red Gary 26976 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Jokerz 26885",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Jokerz 26885 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | GMO Big Ray | High THC | 00914",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | GMO Big Ray | High THC | 00914 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dogwalkers | Lemon Drip Big Dog | 01294",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll | Dogwalkers | Lemon Drip Big Dog | 01294 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dirty Taxi Big Ray | 00882",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Dirty Taxi Big Ray | 00882 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Chem Ox Big Ray | 00862",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Chem Ox Big Ray | 00862 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Capy Big Ray | 00906",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Capy Big Ray | 00906 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Sunshine Daydream 3pk | 00836",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Sunshine Daydream 3pk | 00836 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Strawberry Cndy 5pk Minis | 41708",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Strawberry Cndy 5pk Minis | 41708 $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Scout Breath Shorties | 5pk | 26716",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Scout Breath Shorties | 5pk | 26716 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Nimbus Snacks Shorties | 5pk | 26933",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Nimbus Snacks Shorties | 5pk | 26933 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Infused Shorties | Wedding Cake 4pk | 41677",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Infused Shorties | Wedding Cake 4pk | 41677 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Infused Shorties | Foreverberry 4pk | 41680",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Infused Shorties | Foreverberry 4pk | 41680 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Gush Mintz Shorties | 5pk | 26928",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Gush Mintz Shorties | 5pk | 26928 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Capy | 3pk | High THC | 00896",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Capy | 3pk | High THC | 00896 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Blue Andeze Shorties | 5pk | 26957",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Blue Andeze Shorties | 5pk | 26957 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll | Colorado Flo (Aniva) Fatboy | Infused | 41697",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre Roll | Colorado Flo (Aniva) Fatboy | Infused | 41697 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll | Canna Miranda Infused 41689",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre Roll | Canna Miranda Infused 41689 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Watermelon Lemonade | 20pk | 00408",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Watermelon Lemonade | 20pk | 00408 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick | Island Punch | 20ct | 00374",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick | Island Punch | 20ct | 00374 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Strawberry Margarita | 20ct | 00460",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Strawberry Margarita | 20ct | 00460 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Peach Bellini | 20ct | 00436",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Peach Bellini | 20ct | 00436 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Limoncello | 20ct | 00429",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Limoncello | 20ct | 00429 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic | Blueberry | 20ct | 00251",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic | Blueberry | 20ct | 00251 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Mango | 20ct | 00263",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Mango | 20ct | 00263 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Dream Berry | 20ct | 00435",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Dream Berry | 20ct | 00435 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Tangerine Peach RSO | 20pk | 00915",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Gummies | Tangerine Peach RSO | 20pk | 00915 $21.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView Raspberry Lime 5:1 CBD | 20pk | 00233",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView Raspberry Lime 5:1 CBD | 20pk | 00233 $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00230",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00230 $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView Blood Orange | 20pk | 00224",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView Blood Orange | 20pk | 00224 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Pineapple Habanero | 20pk | 00421",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Pineapple Habanero | 20pk | 00421 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Mango (5:5 CBD:THC) 20pk | 00227",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Mango (5:5 CBD:THC) 20pk | 00227 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879 $21.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Freshly Squeezed | 5:10 CBG:THC | 20pk | 00378",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Freshly Squeezed | 5:10 CBG:THC | 20pk | 00378 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Crushin' It Cran-Raspberry | 20ct | 00475",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Crushin' It Cran-Raspberry | 20ct | 00475 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Creative Clementine THCV | 20ct | 00452",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Creative Clementine THCV | 20ct | 00452 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Watermelon Spritz | 10pk | 00404",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Watermelon Spritz | 10pk | 00404 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Tropical Burst | 10pk | 00415",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Tropical Burst | 10pk | 00415 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Strawberry Sunset | 10pk | 00365",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Strawberry Sunset | 10pk | 00365 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Orchard Peach | 10pk | 00361",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Orchard Peach | 10pk | 00361 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Blackberry Dream | 10pk | 00448",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Blackberry Dream | 10pk | 00448 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Bubblegum | Premium Flower | Hybrid | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Grape Bubblegum | Premium Flower | Hybrid | 3.5g $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Zuava 26761",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Zuava 26761 $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Wedding Cake 41641",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Wedding Cake 41641 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Strawberry Pave 27001",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Strawberry Pave 27001 $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Solo Burger 00907",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Solo Burger 00907 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Pinyatti 41685",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Pinyatti 41685 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Medellin 00823",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Medellin 00823 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | MF-107 00837",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | MF-107 00837 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Lemon Skunk 00883",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Lemon Skunk 00883 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Lemon Delight 00868",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Lemon Delight 00868 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Jelly Roll 41477",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Jelly Roll 41477 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Heir Heads 26778",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Heir Heads 26778 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Green G 41158",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Green G 41158 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Grandpappy's Chillemon 41644",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Grandpappy's Chillemon 41644 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Grand Pappy's Chillemon 41658",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Grand Pappy's Chillemon 41658 $59.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Slapz 01313",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Slapz 01313 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Rose Gold RTZ 01364",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Rose Gold RTZ 01364 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Chkn n WflZ 01277",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Chkn n WflZ 01277 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Gas Face 41588",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Gas Face 41588 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Colorado Flo (Aniva) 41596",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Colorado Flo (Aniva) 41596 $126.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Capy High THC | 00795",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Capy High THC | 00795 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Maple High THC | 00856",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Black Maple High THC | 00856 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Cherry GMO 41653",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Black Cherry GMO 41653 $126.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Cherry GMO 41651",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Black Cherry GMO 41651 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dulce De Uva | Premium Flower | Indica | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Dulce De Uva | Premium Flower | Indica | 3.5g $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Watermelon Sherbet Live Resin Series 00214",
+    "brand": "SoundView",
+    "message": "New: SoundView - Disposable | Watermelon Sherbet Live Resin Series 00214 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Savvy | Mendo Wedding 26842",
+    "brand": "Savvy",
+    "message": "New: Savvy - Disposable | Savvy | Mendo Wedding 26842 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Savvy | Lemon Glue 26740",
+    "brand": "Savvy",
+    "message": "New: Savvy - Disposable | Savvy | Lemon Glue 26740 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Raspberry Lemonade Live Resin Series 00228",
+    "brand": "SoundView",
+    "message": "New: SoundView - Disposable | Raspberry Lemonade Live Resin Series 00228 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Rainbow Zelato LEAF Live Sauce Pen | 01318",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Disposable | Rainbow Zelato LEAF Live Sauce Pen | 01318 $38.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Hash Planet MT 41564",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Hash Planet MT 41564 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Grand Pappy's Chillemon MT 41568",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Grand Pappy's Chillemon MT 41568 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Carbon Juice MT 41729",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Carbon Juice MT 41729 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Banapple Medellin MT 41136",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Banapple Medellin MT 41136 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Banana SPLT MT 41739",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Banana SPLT MT 41739 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Apple Tart MT 41559",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Apple Tart MT 41559 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Zlushie Live Resin | 00446",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Zlushie Live Resin | 00446 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Pink Guava Live Resin 00464",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Pink Guava Live Resin 00464 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Pineapple Express Live Resin 00466",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Pineapple Express Live Resin 00466 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Mimosa Live Resin | 00442",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Mimosa Live Resin | 00442 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Lady In Red Live Resin | 00443",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Lady In Red Live Resin | 00443 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Jelly Roll Live Resin 00445",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Jelly Roll Live Resin 00445 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Bruce Bamer Live Resin 00469",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Bruce Bamer Live Resin 00469 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | Sunset Z x G33 00293",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | Sunset Z x G33 00293 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | Karma's Diesel 00386",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | Karma's Diesel 00386 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | G41 00279",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | G41 00279 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Air Hdz MT 41736",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Air Hdz MT 41736 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00209",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00209 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Peanut Butter Pretzel Milk Chocolate Bar | 00213",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Peanut Butter Pretzel Milk Chocolate Bar | 00213 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Cookies & Cream White Chocolate Bar | 00217",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Cookies & Cream White Chocolate Bar | 00217 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Watermelon THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Watermelon THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Mango THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Mango THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Lemon Lime THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Lemon Lime THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Blood Orange THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Blood Orange THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Tropical Daze Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Tropical Daze Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Razz Lime Rush Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Razz Lime Rush Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Berry Good Vibes Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Berry Good Vibes Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Raspberry Lime Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Raspberry Lime Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Pure Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Pure Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Peach Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Peach Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Lemon Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Lemon Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Black Cherry Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Black Cherry Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Peach Mango Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Peach Mango Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Black Cherry Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Black Cherry Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | Nitro Stout | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | Nitro Stout | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | Lite Crisp THC Brew | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | Lite Crisp THC Brew | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Peach THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Peach THC Iced Tea | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Classic THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Classic THC Iced Tea | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Yuzu Elderflower Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Yuzu Elderflower Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Lemon Lavender Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Lemon Lavender Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Grapefruit Rosemary Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Grapefruit Rosemary Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Ginger Lemongrass Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Ginger Lemongrass Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Blood Orange Cardamom Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Blood Orange Cardamom Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face | Premium Flower | Indica | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Animal Face | Premium Flower | Indica | 3.5g $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape | Savvy Hyphen | Tahoe OG 26784",
+    "brand": "Hyphen",
+    "message": "New: Hyphen - Vape | Savvy Hyphen | Tahoe OG 26784 $66.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape | Savvy Hyphen | Haze Berry 26786",
+    "brand": "Hyphen",
+    "message": "New: Hyphen - Vape | Savvy Hyphen | Haze Berry 26786 $66.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Lemon Drip x Sour D 01395",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Lemon Drip x Sour D 01395 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Fantasy Melonz x Vel Croz 01393",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Fantasy Melonz x Vel Croz 01393 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Animal Face x Purple Tyde 01391",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Animal Face x Purple Tyde 01391 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Rainbow Haze 00280",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Rainbow Haze 00280 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Dutch Dragon 00286",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Dutch Dragon 00286 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Airo Pod | Chem OG 00285",
+    "brand": "Airo",
+    "message": "New: Airo - Vape Cart | Airo Pod | Chem OG 00285 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Topical | Chill 1:1 Relief Gel THC:CBD | 00664",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Topical | Chill 1:1 Relief Gel THC:CBD | 00664 $15.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | Soap Lil' Budz 00374",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | Soap Lil' Budz 00374 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | Chem D Lil' Budz 00353",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | Chem D Lil' Budz 00353 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Small Flower | C-Stata Lil' Budz 00356",
+    "brand": "Brix",
+    "message": "New: Brix - Small Flower | C-Stata Lil' Budz 00356 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RSO Syringe | Purple Milk | 00881",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - RSO Syringe | Purple Milk | 00881 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Zuava 26973",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Zuava 26973 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Red Gary 26976",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Red Gary 26976 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Savvy | Jokerz 26885",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pre-Roll | Savvy | Jokerz 26885 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Rose Gold RTZ 01370",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll | Rose Gold RTZ 01370 $8.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | GMO Big Ray | High THC | 00914",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | GMO Big Ray | High THC | 00914 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dogwalkers | Lemon Drip Big Dog | 01294",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll | Dogwalkers | Lemon Drip Big Dog | 01294 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dogwalkers | Do Not Trip Big Dog | 01330",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll | Dogwalkers | Do Not Trip Big Dog | 01330 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Dirty Taxi Big Ray | 00882",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Dirty Taxi Big Ray | 00882 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Chem Ox Big Ray | 00862",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Chem Ox Big Ray | 00862 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Capy Big Ray | 00906",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll | Capy Big Ray | 00906 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Sunshine Daydream 3pk | 00836",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Sunshine Daydream 3pk | 00836 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Strawberry Cndy 5pk Minis | 41708",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Strawberry Cndy 5pk Minis | 41708 $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Scout Breath Shorties | 5pk | 26716",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Scout Breath Shorties | 5pk | 26716 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Nimbus Snacks Shorties | 5pk | 26933",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Nimbus Snacks Shorties | 5pk | 26933 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Infused Shorties | Wedding Cake 4pk | 41677",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Infused Shorties | Wedding Cake 4pk | 41677 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Infused Shorties | Foreverberry 4pk | 41680",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre-Roll Pack | Infused Shorties | Foreverberry 4pk | 41680 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Gush Mintz Shorties | 5pk | 26928",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Gush Mintz Shorties | 5pk | 26928 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Capy | 3pk | High THC | 00896",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Capy | 3pk | High THC | 00896 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Blue Andeze Shorties | 5pk | 26957",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Pre-Roll Pack | Blue Andeze Shorties | 5pk | 26957 $23.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll | Colorado Flo (Aniva) Fatboy | Infused | 41697",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre Roll | Colorado Flo (Aniva) Fatboy | Infused | 41697 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre Roll | Canna Miranda Infused 41689",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pre Roll | Canna Miranda Infused 41689 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Watermelon Lemonade | 20pk | 00408",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Watermelon Lemonade | 20pk | 00408 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick | Island Punch | 20ct | 00374",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick | Island Punch | 20ct | 00374 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Strawberry Margarita | 20ct | 00460",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Strawberry Margarita | 20ct | 00460 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Peach Bellini | 20ct | 00436",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Peach Bellini | 20ct | 00436 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Limoncello | 20ct | 00429",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Limoncello | 20ct | 00429 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic | Blueberry | 20ct | 00251",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic | Blueberry | 20ct | 00251 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Mango | 20ct | 00263",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Mango | 20ct | 00263 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wana Classic Dream Berry | 20ct | 00435",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Wana Classic Dream Berry | 20ct | 00435 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Tangerine Peach RSO | 20pk | 00915",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Gummies | Tangerine Peach RSO | 20pk | 00915 $21.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView Raspberry Lime 5:1 CBD | 20pk | 00233",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView Raspberry Lime 5:1 CBD | 20pk | 00233 $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00230",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00230 $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView Blood Orange | 20pk | 00224",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView Blood Orange | 20pk | 00224 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419",
+    "brand": "Wana",
+    "message": "New: Wana - Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Pineapple Habanero | 20pk | 00421",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Pineapple Habanero | 20pk | 00421 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Mango (5:5 CBD:THC) 20pk | 00227",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Mango (5:5 CBD:THC) 20pk | 00227 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879 $21.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Freshly Squeezed | 5:10 CBG:THC | 20pk | 00378",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Freshly Squeezed | 5:10 CBG:THC | 20pk | 00378 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Crushin' It Cran-Raspberry | 20ct | 00475",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Crushin' It Cran-Raspberry | 20ct | 00475 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Creative Clementine THCV | 20ct | 00452",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Creative Clementine THCV | 20ct | 00452 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Watermelon Spritz | 10pk | 00404",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Watermelon Spritz | 10pk | 00404 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Tropical Burst | 10pk | 00415",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Tropical Burst | 10pk | 00415 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Strawberry Sunset | 10pk | 00365",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Strawberry Sunset | 10pk | 00365 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Orchard Peach | 10pk | 00361",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Orchard Peach | 10pk | 00361 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Camino Sours | Blackberry Dream | 10pk | 00448",
+    "brand": "Camino",
+    "message": "New: Camino - Gummies | Camino Sours | Blackberry Dream | 10pk | 00448 $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Bubblegum | Premium Flower | Hybrid | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Grape Bubblegum | Premium Flower | Hybrid | 3.5g $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Zuava 26761",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Zuava 26761 $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Wedding Cake 41641",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Wedding Cake 41641 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Strawberry Pave 27001",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Strawberry Pave 27001 $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Solo Burger 00907",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Solo Burger 00907 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Pinyatti 41685",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Pinyatti 41685 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Medellin 00823",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Medellin 00823 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | MF-107 00837",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | MF-107 00837 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Lemon Skunk 00883",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Lemon Skunk 00883 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Lemon Delight 00868",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Lemon Delight 00868 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Jelly Roll 41477",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Jelly Roll 41477 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Heir Heads 26778",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Heir Heads 26778 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Green G 41158",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Green G 41158 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Grandpappy's Chillemon 41644",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Grandpappy's Chillemon 41644 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Grand Pappy's Chillemon 41658",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Grand Pappy's Chillemon 41658 $59.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Slapz 01313",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Slapz 01313 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Rose Gold RTZ 01364",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Rose Gold RTZ 01364 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Chkn n WflZ 01277",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Chkn n WflZ 01277 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Gas Face 41588",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Gas Face 41588 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Colorado Flo (Aniva) 41596",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Colorado Flo (Aniva) 41596 $126.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Carbon FBR 41468",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Carbon FBR 41468 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Capy High THC | 00795",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Capy High THC | 00795 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Maple High THC | 00856",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Black Maple High THC | 00856 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Cherry GMO 41653",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Black Cherry GMO 41653 $126.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Black Cherry GMO 41651",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Flower | Black Cherry GMO 41651 $39.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Alien OG MED | 00921",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Flower | Alien OG MED | 00921 $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dulce De Uva | Premium Flower | Indica | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Dulce De Uva | Premium Flower | Indica | 3.5g $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Watermelon Sherbet Live Resin Series 00214",
+    "brand": "SoundView",
+    "message": "New: SoundView - Disposable | Watermelon Sherbet Live Resin Series 00214 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Savvy | Mendo Wedding 26842",
+    "brand": "Savvy",
+    "message": "New: Savvy - Disposable | Savvy | Mendo Wedding 26842 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Savvy | Lemon Glue 26740",
+    "brand": "Savvy",
+    "message": "New: Savvy - Disposable | Savvy | Lemon Glue 26740 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Raspberry Lemonade Live Resin Series 00228",
+    "brand": "SoundView",
+    "message": "New: SoundView - Disposable | Raspberry Lemonade Live Resin Series 00228 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Rainbow Zelato LEAF Live Sauce Pen | 01318",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Disposable | Rainbow Zelato LEAF Live Sauce Pen | 01318 $38.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Lemon Haze LEAF Live Sauce Pen | 01368",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Disposable | Lemon Haze LEAF Live Sauce Pen | 01368 $38.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Hash Planet MT 41564",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Hash Planet MT 41564 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Grand Pappy's Chillemon MT 41568",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Grand Pappy's Chillemon MT 41568 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Carbon Juice MT 41729",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Carbon Juice MT 41729 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Banapple Medellin MT 41136",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Banapple Medellin MT 41136 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Banana SPLT MT 41739",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Banana SPLT MT 41739 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Apple Tart MT 41559",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Apple Tart MT 41559 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Zlushie Live Resin | 00446",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Zlushie Live Resin | 00446 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Pink Guava Live Resin 00464",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Pink Guava Live Resin 00464 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Pineapple Express Live Resin 00466",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Pineapple Express Live Resin 00466 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Mimosa Live Resin | 00442",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Mimosa Live Resin | 00442 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Lady In Red Live Resin | 00443",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Lady In Red Live Resin | 00443 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Jelly Roll Live Resin 00445",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Jelly Roll Live Resin 00445 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Amigos | Bruce Bamer Live Resin 00469",
+    "brand": "Amigos",
+    "message": "New: Amigos - Disposable | Amigos | Bruce Bamer Live Resin 00469 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | Sunset Z x G33 00293",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | Sunset Z x G33 00293 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | Karma's Diesel 00386",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | Karma's Diesel 00386 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Airo X | G41 00279",
+    "brand": "Airo",
+    "message": "New: Airo - Disposable | Airo X | G41 00279 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Disposable | Air Hdz MT 41736",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Disposable | Air Hdz MT 41736 $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Concentrate | Gary P BHO Badder MED | 00631",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Concentrate | Gary P BHO Badder MED | 00631 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00209",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00209 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Peanut Butter Pretzel Milk Chocolate Bar | 00213",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Peanut Butter Pretzel Milk Chocolate Bar | 00213 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Cookies & Cream White Chocolate Bar | 00217",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Cookies & Cream White Chocolate Bar | 00217 $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capsule | Low Strength CBN 4:1 | 10pk | 41218",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Capsule | Low Strength CBN 4:1 | 10pk | 41218 $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Watermelon THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Watermelon THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Mango THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Mango THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Lemon Lime THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Lemon Lime THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Soundview | Blood Orange THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "New: SoundView - Beverage | Soundview | Blood Orange THC Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Tropical Daze Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Tropical Daze Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Razz Lime Rush Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Razz Lime Rush Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | New Roads | Berry Good Vibes Seltzer | Single",
+    "brand": "New Roads",
+    "message": "New: New Roads - Beverage | New Roads | Berry Good Vibes Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Raspberry Lime Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Raspberry Lime Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Pure Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Pure Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Peach Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Peach Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Lemon Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Lemon Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Black Cherry Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Black Cherry Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Peach Mango Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Peach Mango Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Hi 5 | Black Cherry Seltzer | Single",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Beverage | Hi 5 | Black Cherry Seltzer | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | Nitro Stout | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | Nitro Stout | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | Lite Crisp THC Brew | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | Lite Crisp THC Brew | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Float House | IPA Hoppy THC Brew | Single",
+    "brand": "Float House",
+    "message": "New: Float House - Beverage | Float House | IPA Hoppy THC Brew | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Peach THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Peach THC Iced Tea | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | Five Islands | Classic THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "New: Five Islands - Beverage | Five Islands | Classic THC Iced Tea | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Yuzu Elderflower Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Yuzu Elderflower Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Lemon Lavender Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Lemon Lavender Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Grapefruit Rosemary Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Grapefruit Rosemary Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Ginger Lemongrass Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Ginger Lemongrass Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | CANN | Blood Orange Cardamom Social Tonic | Single",
+    "brand": "Cann",
+    "message": "New: Cann - Beverage | CANN | Blood Orange Cardamom Social Tonic | Single $4.19"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face | Premium Flower | Indica | 3.5g",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Animal Face | Premium Flower | Indica | 3.5g $35.00"
+  }
+]

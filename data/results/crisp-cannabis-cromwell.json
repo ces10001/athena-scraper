@@ -17,13 +17,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3c6ae82755ab8e6010ffdf902439e0b1",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d7af34b19f268c81bada25",
     "name": "Let's Burn Mule Fuel 1g Pre-roll 0045",
     "brand": "Let's Burn",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 754,
@@ -37,7 +41,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/90419004f954275e71f60bd7ca625c6c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1300,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69bd47dfe21fcbbcaee4c54c",
@@ -57,13 +65,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f7b942fdbb169af00cd05528eadea39a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69a1b3f64c532efb4e23ce5a",
     "name": "Let's Burn Hi Life 1g Pre-roll 0031",
     "brand": "Let's Burn",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": null,
     "price_cents": 812,
@@ -77,7 +89,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0b623184fa1431a873d91bea96251068",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69bbf14e9ca191d28e4e34a3",
@@ -97,7 +113,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/803f718e064a0d8cf61fdd6a43497816",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e0db4eabc74cff8873c763",
@@ -117,7 +137,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3d2bfb2a5519299cd9978e8da877bbd7",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d7af34b19f268c81bada24",
@@ -137,7 +161,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2b4da7a838e19471909f7647785755f0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69af7479ccbce2104f24da0a",
@@ -157,13 +185,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3d98718c85c4b37c2a3222a3f4118c3f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d57",
     "name": "Loud Cannabis Mango Puff (I) C0170000036",
     "brand": "Loud",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "indica",
     "price_cents": 3900,
@@ -177,7 +209,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/90e057a080b9d32385124024ddaa81fc",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b41b04cf40529a22e38a46",
@@ -197,7 +233,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9ae2c5fe3098f7a02f81e983fec88fd6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e0db4eabc74cff8873c762",
@@ -217,13 +257,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/421c90d34d8823df8f4d557df6fe33e0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "6945b196b79d9667f2b2d25c",
     "name": "Select Elite Briq All In One Disposable Vape 2g NYC Diesel (H) 01276",
     "brand": "Select",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "hybrid",
     "price_cents": 7630,
@@ -237,13 +281,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f1a74df7084084facf45cc40b932f19a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 10900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d4c",
     "name": "Savvy Strut AIO 2g Golden Tangie T1716 S 26935",
     "brand": "Savvy",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 7315,
@@ -257,13 +305,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/94b1de46d7d86b2c78b7b16eacefa9e4",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 10450,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d52f254f8c81d10c6d8f98",
     "name": "Brix Cannabis Blue NDZ 1g Vape (H) 00426",
     "brand": "Brix",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "hybrid",
     "price_cents": 4900,
@@ -277,13 +329,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3dd74bbe3a6323b819bfb4d8cdcf6f4f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d52f254f8c81d10c6d8f97",
     "name": "Chemdog's Permanent Funk 1g Pre Roll (I) 00414",
     "brand": "Brix",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "indica",
     "price_cents": 900,
@@ -297,13 +353,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b63b99fa92c6bd68d6e6ff4db4a9d70b",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b96360d061c6aaad0d01ed",
     "name": "Select Flavor Series Briq 2 2g Mango Puff (I) 01552",
     "brand": "Select",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 7630,
@@ -317,13 +377,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bc8a5153b432043a8f5a64f9726619c5",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 10900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3c8870ca03ceb7067fbb4",
     "name": "SoundView Watermelon Sherbet Live Resin Disposable Vape (1g) T90.749% H 00214",
     "brand": "SoundView",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "hybrid",
     "price_cents": 7200,
@@ -337,13 +401,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/53b0c07d540147a362716fce5a97554d",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 7200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69ab2e03e859b905a7a664a0",
     "name": "Let's Burn Hash Burger 1g PR 0017",
     "brand": "Let's Burn",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": null,
     "price_cents": 812,
@@ -357,7 +425,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e09fde1e20fd56458e5e327c402dcc8",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d45",
@@ -377,13 +449,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f98bbae8a7bae238a4c7d98b9b615e58",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfde0a37c576540fcd10fc",
     "name": "Dream Clouds Vape 41496",
     "brand": "Theraplant",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "sativa",
     "price_cents": 4050,
@@ -397,13 +473,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/dfe752a1b551ecec5925035df5a325bc",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4050,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d52f254f8c81d10c6d8f9a",
     "name": "Brix Cannabis Bananaconda 1g Vape (H) 00497",
     "brand": "Brix",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "hybrid",
     "price_cents": 4900,
@@ -417,7 +497,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3dd74bbe3a6323b819bfb4d8cdcf6f4f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de56c1713b922aa74cdba2",
@@ -437,7 +521,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a34fdd59b1a445c35b5a5045f4a154dd",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3100,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc0e61f2174191912878d2",
@@ -457,13 +545,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f560d113f7fe17b60cf7d4cbb31b0abf",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2350,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de6e91ad03e7de6eef30ee",
     "name": "Select Flavor Series Briq 2 1g Cherry Pi (S) 01636",
     "brand": "Select",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 4235,
@@ -477,7 +569,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2d5b6573a846454c3df10d0dac089fc6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6050,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cbc7e90f38cbe2daf24b85",
@@ -497,7 +593,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5dea168e986d77e45280ccc046c033a9",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b96360d061c6aaad0d01e8",
@@ -517,13 +617,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/62e3a9564e77be95147a6ef713597256",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e24459314ab077c5a1e44b",
     "name": "Amigos-Pineapple Express Live Resin-(S)-Disposable-1g-00466",
     "brand": "Amigos",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 5850,
@@ -537,7 +641,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/826fdd59071f0222f3fc5389cc6c7b1c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5850,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d54",
@@ -557,7 +665,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d3cf3766ed207c0620e7bf73cff373be",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69ab2e03e859b905a7a6649f",
@@ -577,13 +689,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b4d6cfc80b37c9ef00c9bb6d3a0ee32c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b1884150d3d3c2d1d0e9f9",
     "name": "Savvy Strut AIO 2g Mango Puff T1755 I 26819",
     "brand": "Savvy",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 6720,
@@ -597,7 +713,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2580c20d0b55023d3fd7781d31a42eb2",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 9600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d47",
@@ -617,7 +737,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/014cf38453c80e9c99eba302ad5d9052",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2dacf3ae3492f615d4222",
@@ -637,7 +761,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a2738f33142b59fe2966cb13391a84be",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d51a193e9d60957d556f16",
@@ -657,13 +785,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5f4e18e01e57f5b4ab649c7608f32649",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2275,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d52f254f8c81d10c6d8f99",
     "name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
     "brand": "Brix",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "hybrid",
     "price_cents": 4900,
@@ -677,13 +809,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3dd74bbe3a6323b819bfb4d8cdcf6f4f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de4b086bede78c83d7f59d",
     "name": "Comffy|PreRoll 0.5g 7pk|Homebody 00133",
     "brand": "comffy",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "packs",
     "strain_type": "indica",
     "price_cents": 3500,
@@ -697,13 +833,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/85c53b943154f7c9ec8d9980c056c2f6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cbf4cac25d380676a3c639",
     "name": "SoundView Citrus Punch Live Resin Disposable Vape (1G) T90.23% (S) 00229",
     "brand": "SoundView",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 7200,
@@ -717,13 +857,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b554c2ad6262186fe5ba8f2126f51416",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 7200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3c8870ca03ceb7067fbb5",
     "name": "SoundView Raspberry Lemonade Live Resin Disposable Vape (1g) T90.810 (S) 00228",
     "brand": "SoundView",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 7200,
@@ -737,7 +881,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/53b0c07d540147a362716fce5a97554d",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 7200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69bbf14e9ca191d28e4e34a2",
@@ -757,13 +905,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d6b8a3786f6d03b7bac93b58f7bddbae",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de6e91ad03e7de6eef30ef",
     "name": "Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%",
     "brand": "Grassroots",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "packs",
     "strain_type": "indica",
     "price_cents": 2170,
@@ -777,13 +929,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/65a536918298582d53c86f3c33748dcd",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3100,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b96360d061c6aaad0d01e6",
     "name": "Select Flavor Series 510 1g Mango Puff (I) 01501",
     "brand": "Select",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "indica",
     "price_cents": 4200,
@@ -797,13 +953,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/73f6a061662715abbe8a355475679d16",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d52",
     "name": "Dosilato 1g Pure Vape T841 I 26987",
     "brand": "CTPharma",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "indica",
     "price_cents": 4130,
@@ -817,7 +977,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1c9a10ba89b7e7c6763b971688179ab0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de56c1713b922aa74cdb9f",
@@ -837,7 +1001,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6ee3d6f29b51497f46af060958a3ff2c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d4d",
@@ -857,13 +1025,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/400ab2d1149557b518aa0798824759fe",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c582bcacf32bf08b01af43",
     "name": "Seattle Sour Kush 1g Pure Vape T850 S 26881",
     "brand": "CTPharma",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "sativa",
     "price_cents": 4130,
@@ -877,13 +1049,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9ea4b230303bd3a9733a21291e397f7e",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507fd",
     "name": "Mystic Sunrise 1g Pre Roll (S) 00551 (WARNING - HIGH THC)",
     "brand": "BRIX",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "sativa",
     "price_cents": 1200,
@@ -897,7 +1073,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d57a5b911ea95c3ba06920",
@@ -917,13 +1097,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/22fcf4ec5cb8951519ca33b4fa3ca3a0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfde0a37c576540fcd10f9",
     "name": "Hash Planet MT 41564",
     "brand": "Theraplant",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 4850,
@@ -937,7 +1121,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/07014e7ec73ab73b93cd6838a22f5563",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4850,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d46",
@@ -957,13 +1145,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4a0d670b281737ff3562b587946cc34f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfde0a37c576540fcd1101",
     "name": "Strawberry Cndy 2g Fatboy 41775",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "sativa",
     "price_cents": 2950,
@@ -977,7 +1169,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/00b78c0eef207399dea5a511ef9f0ee9",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2dacf3ae3492f615d4223",
@@ -997,13 +1193,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1f0ebc322e3786f6b6dce3f6c0b5fbe8",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfdbb7ad03e7de6e52e94f",
     "name": "Canna Miranda 1g Infused PR 41689",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "hybrid",
     "price_cents": 1700,
@@ -1017,13 +1217,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/606e5ab4466ff945b4e45567f11c4834",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2f23889696cabfb1d04f9",
     "name": "Air Hdz Vape 41737",
     "brand": "Theraplant",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "indica",
     "price_cents": 4100,
@@ -1037,7 +1241,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/44ecbe1b88c66b9d59ab95079795e37f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4100,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de56c1713b922aa74cdba1",
@@ -1057,13 +1265,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ced6b13732aed73da8568e15f32f0eac",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3100,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de6e91ad03e7de6eef30ed",
     "name": "Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%",
     "brand": "Grassroots",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "packs",
     "strain_type": "hybrid",
     "price_cents": 2170,
@@ -1077,13 +1289,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0848dbf2111ebd75223268b51257c66c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3100,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de6e91ad03e7de6eef30f0",
     "name": "Grassroots Preroll 1g Single Floral Frost (H) 01651 TC 33.671%",
     "brand": "Grassroots",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 1050,
@@ -1097,13 +1313,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/74bcc2f62575eb3a455c8fc98b42f5a6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de6e91ad03e7de6eef30f2",
     "name": "FIND. Preroll 1g Single PB Bites (S) 01670 TC 30.762%",
     "brand": "Find.",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "sativa",
     "price_cents": 1050,
@@ -1117,13 +1337,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/be78b1435ab035ba4bd1e8cde31afe8f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507fb",
     "name": "C-Stata 1g Pre Roll (H) 00542",
     "brand": "BRIX",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 1200,
@@ -1137,13 +1361,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e24459314ab077c5a1e44e",
     "name": "Lighthouse-Sour Diesel Live Resin-1g-510-Cart-00493",
     "brand": "Lighthouse",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "sativa",
     "price_cents": 5700,
@@ -1157,13 +1385,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7838c08615267b06837df9cbb3080951",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e24459314ab077c5a1e44d",
     "name": "Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469",
     "brand": "Amigos",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "hybrid",
     "price_cents": 5850,
@@ -1177,7 +1409,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ea187304e50c5866d07e7c3fe94662d6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5850,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5daba",
@@ -1197,13 +1433,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/96f6179726f815c4d6970dbb49a9e46a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d52f254f8c81d10c6d8f9b",
     "name": "Chemdog's Chem Junk 1g Vape (H) 00498",
     "brand": "Brix",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "hybrid",
     "price_cents": 4900,
@@ -1217,7 +1457,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3dd74bbe3a6323b819bfb4d8cdcf6f4f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d50",
@@ -1237,13 +1481,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/36182ff4c9b9744a9efc85c793a0a795",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507f8",
     "name": "Brix Cannabis Cap Junk 1g Pre Roll (H) 00434",
     "brand": "BRIX",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 1200,
@@ -1257,13 +1505,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507fa",
     "name": "Jungle Cake 1g Pre Roll (H) 00505",
     "brand": "BRIX",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 950,
@@ -1277,7 +1529,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c582bcacf32bf08b01af44",
@@ -1297,13 +1553,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ae559de91f5af3f48414ab83d4ab6dd4",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfdbb7ad03e7de6e52e950",
     "name": "Foreverberry 1g Infused Blunt 41679",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "sativa",
     "price_cents": 2000,
@@ -1317,7 +1577,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3019e62ab88a25b69852de58301ee73a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "6981f6505fc0e1f4b8d476a0",
@@ -1337,7 +1601,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a3a2ceedd95d1a58a91a1a672ff7337f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "6984a75cbd5c820725290176",
@@ -1357,7 +1625,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/548dc4eed2db37b462f8fe04a586ae67",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c561e1c8385f883e24e1d3",
@@ -1377,7 +1649,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/76f83bfb7d2eac65e678cef68f78dfcd",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2be7fa82c4783ac10dc1a",
@@ -1397,13 +1673,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/fe75d9585d7ae9980cd2cb76deeb516a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfcdc06afdf7f8f65d614f",
     "name": "EARLy Birds | Trophy Case 024",
     "brand": "Earl Baker",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "packs",
     "strain_type": "hybrid",
     "price_cents": 3600,
@@ -1417,27 +1697,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/165f655b14878a832e26ee1038079a18",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf5",
-    "name": "Keep It Crisp Patch Hat - Sage",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b7b9999aacbf10c61fff9a03aff6d714",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfa8593a659bccbb354d2b",
@@ -1457,7 +1721,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3c9f26201e31797ccdf8f9e088b13c97",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfa8593a659bccbb354d2c",
@@ -1477,7 +1745,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/10c60b15b56731522c44690ec55b016e",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "699770fe01af496805a42389",
@@ -1497,7 +1769,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/98416926e74c9e3db375cd046c765b79",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cbf4cac25d380676a3c638",
@@ -1517,13 +1793,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6e1642c03932224b1b87e87d1524abc8",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfde0a37c576540fcd10fe",
     "name": "Hash Wedding 2g Fatboy 41774",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "indica",
     "price_cents": 2950,
@@ -1537,7 +1817,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/de5364fc1f86230b019dbb061934d57a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de56c1713b922aa74cdba0",
@@ -1557,7 +1841,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/62e3a9564e77be95147a6ef713597256",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2750,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab3",
@@ -1577,13 +1865,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ebf2b24f6e09ba9e517b21e219fa9a44",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "699f26192b19f2c700cab773",
     "name": "Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%",
     "brand": "Grassroots",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "hybrid",
     "price_cents": 910,
@@ -1597,7 +1889,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/74bcc2f62575eb3a455c8fc98b42f5a6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1300,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc02c973d8f43c4bcdc171",
@@ -1617,7 +1913,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9b83a51ca73bd93ddb50958aa26fab49",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab8",
@@ -1637,13 +1937,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/699549d66634925d2f983c780fb63210",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d49",
     "name": "Savvy Jokerz 1g Pre-Roll I 26885",
     "brand": "Savvy",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "indica",
     "price_cents": 893,
@@ -1657,7 +1961,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/017597e43ad4f76a0e76f99b1f0a2ba7",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1275,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dabd",
@@ -1677,7 +1985,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1138dd65ee52c120759127b8abfac947",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2150,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69a712977a54a004bc6d45d8",
@@ -1697,7 +2009,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/84a1b707d5440100d311322fe45956dd",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc02c973d8f43c4bcdc172",
@@ -1717,7 +2033,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8fe27cdb17c6a81bd9ec785b4c703fb9",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc02c973d8f43c4bcdc173",
@@ -1737,7 +2057,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9aceae5e2a2f0c3e1e8a14cc756989ae",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d57a5b911ea95c3ba0691e",
@@ -1757,7 +2081,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/da556567b99c4b3f60d01b3811421b33",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d57a5b911ea95c3ba06921",
@@ -1777,7 +2105,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/729335230d5444b322772f783fcebf83",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d4a",
@@ -1797,7 +2129,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4e7f3795c3592f77a655c8345741a77a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c561e1c8385f883e24e1d2",
@@ -1817,13 +2153,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/61bdc255d9f0759ebe37621f464323d3",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfdbb7ad03e7de6e52e94e",
     "name": "Jelly Brains 1g Infused PR 41691",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "indica",
     "price_cents": 1700,
@@ -1837,7 +2177,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/62fedcdeb2e93e70651b7e4bf523a73b",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cbf4cac25d380676a3c63d",
@@ -1857,7 +2201,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a738fe9db77bdf32dac936dd97a7ae70",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dabb",
@@ -1877,13 +2225,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ab02f4b3cc51414094a8c3f41ccabde6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1450,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b4292eb1ec2d83dc8d3052",
     "name": "Let's Burn CT Rainbows 1g PR 0016",
     "brand": "Let's Burn",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": null,
     "price_cents": 812,
@@ -1897,7 +2249,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d9549d193c989ff061af68b6b7131939",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "68d46f190c0d1a849f65064a",
@@ -1917,27 +2273,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d39bd03bdc05f22f69be553cf5cdc29d",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e8",
-    "name": "Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Cones, King Size",
-    "brand": null,
-    "category": "gear",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 575,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/746f003a13456f4fb1ce78fffb7ecff9",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cbf4cac25d380676a3c63c",
@@ -1957,47 +2297,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f0a4d6b83d4f086c78165ddcff215f45",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e9",
-    "name": "Snoop Dogg x FUTUROLA - Terpene-Infused Blunt Wraps",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 450,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ec2da6629378ae63773daed1f3935f2c",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347dd",
-    "name": "Elements Rice Papers 1 1/4 Size",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 150,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1f7dfa9e6ba012602849015a8dba0d70",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "691d16e6e26b0509edb35dbc",
@@ -2017,7 +2321,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b9ef935c81f72f5e5feced3b009b9ef6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69b1884150d3d3c2d1d0e9f7",
@@ -2037,7 +2345,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f7abb3c6b2614d402edf7872562e903c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d51a193e9d60957d556f1b",
@@ -2057,7 +2369,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/eddc034cba4f996c044f9514ec19043a",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3450,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc13295427f85eaae25bec",
@@ -2077,47 +2393,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/49ed21eaf7282d7646b8b6ba8339ac8a",
-    "product_url": null
-  },
-  {
-    "external_id": "697d2577b1c5a80540008e08",
-    "name": "Women's Crewneck",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 4000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0afc01d93acd0ccd13316f341e6890ee",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e7",
-    "name": "Tyson 2.0 x FUTUROLA - Terpene-Infused Blunt Wraps",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 450,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1392aad0132bacefcaa84b7a2a0cd4b4",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3450,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2be7fa82c4783ac10dc1b",
@@ -2137,13 +2417,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/877194ecb2b928f0d501f66499383dff",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfdbb7ad03e7de6e52e951",
     "name": "Solid State 1g Infused Blunt 41762",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "hybrid",
     "price_cents": 2000,
@@ -2157,13 +2441,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bf641759baff68580265a186b6ec5ddf",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69cc13295427f85eaae25be9",
     "name": "Select Flavor Series Briq 2 1g Mango Puff (I) 01570",
     "brand": "Select",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 4200,
@@ -2177,13 +2465,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b544f2af58dbfd456b1607c8941d4b79",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d51a193e9d60957d556f1a",
     "name": "Select Flavor Series 510 1g Moonburst (H) 01616",
     "brand": "Curaleaf",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "hybrid",
     "price_cents": 4200,
@@ -2197,13 +2489,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/73f6a061662715abbe8a355475679d16",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d51a193e9d60957d556f1c",
     "name": "Select Flavor Series 510 1g Golden Tangie (S) 01632",
     "brand": "Curaleaf",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "sativa",
     "price_cents": 4200,
@@ -2217,13 +2513,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/73f6a061662715abbe8a355475679d16",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 6000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c582bcacf32bf08b01af42",
     "name": "Savvy Mendo Wedding Disposable T247 I 26842",
     "brand": "Savvy",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 2240,
@@ -2237,7 +2537,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/eccf660d32c63b6fb2c38a1467d4a292",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "68d46f190c0d1a849f65064b",
@@ -2257,7 +2561,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d55812d145ef162f6b6deeda3a3d8029",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "68d436ea15efeb12e60ceca9",
@@ -2277,27 +2585,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4eda6ba160804ed88604b4a1833b8d2e",
-    "product_url": null
-  },
-  {
-    "external_id": "69d55460163261bf22abb9bc",
-    "name": "SMYLE Labs - Danksaber Penjamin Variable Voltage 510 Thread Battery",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "batteries",
-    "strain_type": null,
-    "price_cents": 2400,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e7802961cf25e9b519fa8fa0729cd444",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 600,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d69ce655a85e0f6af86d43",
@@ -2317,107 +2609,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/19773c4658b6203e6d15432050bb3245",
-    "product_url": null
-  },
-  {
-    "external_id": "6887f32e1588778c8cabd1d4",
-    "name": "RAW Classic | Pre-Rolled Cones- King Sized | pk of 3 Pre-Rolled Cones",
-    "brand": "RAW",
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 250,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/348b44c97a3558b34fd9f5638124e226",
-    "product_url": null
-  },
-  {
-    "external_id": "6887f32e1588778c8cabd1d5",
-    "name": "RAW Classic Papers - King Size Slim",
-    "brand": "RAW",
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 160,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7670b1e93a8eb839dff2276b8731750e",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e6",
-    "name": "RAW - Hemp Wick",
-    "brand": "RAW",
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 150,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2cdeb8eb9c22f906a7557f3c259a7a2e",
-    "product_url": null
-  },
-  {
-    "external_id": "697d5c1b4aae3d3f449f90b3",
-    "name": "RAW - 50pk Original Tips Regular",
-    "brand": "RAW",
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 100,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0b83e708b6735b8a3276db0983e8ba91",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347eb",
-    "name": "RAW - 20pk CLASSIC PRE-ROLL CONE 70mm/24mm",
-    "brand": null,
-    "category": "gear",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 850,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2088a13696bf207f15cf8b6b33d15c53",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab5",
@@ -2437,13 +2633,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/08aa374f4ac932ea39dddf2f7f104a51",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "697a3c6ad44fc836ead4b26b",
     "name": "On The Rocks - Original Glue Live Rosin AIO 1g T782 I 26709",
     "brand": "On The Rocks",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 5530,
@@ -2457,13 +2657,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/db290d74e86ca13d1b4aaaf7ce4a329b",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 7900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69712261460ef8c3670e7f9d",
     "name": "On The Rocks - Gush Mintz Live Rosin AIO 1g T826 I 26662",
     "brand": "On The Rocks",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 5530,
@@ -2477,27 +2681,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/db290d74e86ca13d1b4aaaf7ce4a329b",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e0",
-    "name": "ONGROK - 2pc. Plant Based Hemp Grinder, Black",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "grinders",
-    "strain_type": null,
-    "price_cents": 850,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d3fcd78e2697d71ce46de882e23fc35c",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 7900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "695edcc83de2dca3981a5843",
@@ -2517,113 +2705,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d3bb18ef2e857e3d61670ce7dfdd07cb",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347df",
-    "name": "LuvBuds - Stainless Steel Pipe Screens",
-    "brand": null,
-    "category": "gear",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 100,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b8331280b4b22d3d15d960bcf55be103",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347de",
-    "name": "LuvBuds - 3.5\" OG Glass Chillum with Silicone Cover",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "glassware",
-    "strain_type": null,
-    "price_cents": 300,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7d09853a870b11e5fc67aefbb075ab2f",
-    "product_url": null
-  },
-  {
-    "external_id": "69d55460163261bf22abb9bb",
-    "name": "Lookah - TieDye Bear 500mAh Variable Voltage 510 Battery",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "batteries",
-    "strain_type": null,
-    "price_cents": 3000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bdef6bdfca885b68aa9616d15eda3b33",
-    "product_url": null
-  },
-  {
-    "external_id": "69d55460163261bf22abb9b9",
-    "name": "Lookah - Guitar 350mAh Variable Voltage 510 Thread Battery",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "batteries",
-    "strain_type": null,
-    "price_cents": 3000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b1c934b2d407032e2092f889a292a3df",
-    "product_url": null
-  },
-  {
-    "external_id": "69d55460163261bf22abb9ba",
-    "name": "Lookah - Bear 500mAh Variable Voltage 510 Battery",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "batteries",
-    "strain_type": null,
-    "price_cents": 2700,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4b8eb2364618794537dd9245a4a57976",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4550,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e24459314ab077c5a1e44a",
     "name": "Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461",
     "brand": "Lighthouse",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "indica",
     "price_cents": 5700,
@@ -2637,207 +2729,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5b026f5988e21ebfb41993bb3ebe479b",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf2",
-    "name": "Let's Burn Patch Hat - Olive",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4b0d3dfb3c988484319ce432e08d1de8",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acef",
-    "name": "Let's Burn Patch Hat - Navy",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d55c9726b90b4be4d3839f5548d91680",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf1",
-    "name": "Let's Burn Patch Hat - Grey Camo",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/56995a454faeeaeb72d0776bf527388e",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf0",
-    "name": "Let's Burn Patch Hat - Eco Navy",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d55c9726b90b4be4d3839f5548d91680",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488d0",
-    "name": "Let's Burn Long Sleeve - Military Green",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 2000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/48e9e94623ff6cf48ed2cfd08bab5211",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488cf",
-    "name": "Let's Burn Long Sleeve - Indigo",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 2000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/def250df9440555dcedc794f9118abed",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488cc",
-    "name": "Let's Burn Hoodie - Olive",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 2900,
-    "original_price_cents": 5000,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/707b323c4cd1db28ea6c90a414d85815",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488cb",
-    "name": "Let's Burn Hoodie - Black",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 2900,
-    "original_price_cents": 5000,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bda73746e8821ddd1db4492abfd25ad6",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488cd",
-    "name": "Let's Burn Crewneck - Black",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bb1a39cfa8d16d9369053e00caace707",
-    "product_url": null
-  },
-  {
-    "external_id": "694ab141e21c77a6225488ce",
-    "name": "Let's Burn Crewneck - Army",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3000,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/430465b9419c6060e17c277cc168f515",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab4",
@@ -2857,87 +2753,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d46f1f3c871ff2f8af9fd790fa4c1378",
-    "product_url": null
-  },
-  {
-    "external_id": "68c33d66b7e428b0677a7af1",
-    "name": "LIMITED Lets Burn Woman's Tank Top",
-    "brand": "Let's Burn",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 1044,
-    "original_price_cents": 1800,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/98b670dd84b2e3e9242c0b5b689f12ca",
-    "product_url": null
-  },
-  {
-    "external_id": "68c33d66b7e428b0677a7af4",
-    "name": "LIMITED Keep It Crisp T-Shirt",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 1450,
-    "original_price_cents": 2500,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c94ebf480a08fad01235d189896347d9",
-    "product_url": null
-  },
-  {
-    "external_id": "68c33d66b7e428b0677a7af3",
-    "name": "LIMITED Join The Campfire T-Shirt",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 1450,
-    "original_price_cents": 2500,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ecb8f48e3f0b733d4fb83392c588c2c4",
-    "product_url": null
-  },
-  {
-    "external_id": "68c33d66b7e428b0677a7af2",
-    "name": "LIMITED Crisp Cannabis Classic T-Shirt",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 1450,
-    "original_price_cents": 2500,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a8c121e25eb1937b1f2d8344462573c0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e0db4eabc74cff8873c761",
@@ -2957,67 +2777,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f2f55aae6c6d03c1aaefe7079efc04cb",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf9",
-    "name": "Keep It Crisp Patch Hat - Navy",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/435c30641443d72731ff881dc68b767b",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf3",
-    "name": "Keep It Crisp Patch Hat - Charcoal",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d4a6b446b7bb908656e3f39602cf1e83",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf4",
-    "name": "Keep It Crisp Patch Hat - Cardinal",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f8587d42b7c74708f2011690fcea4e05",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de5b9f36fccabc502e4fec",
@@ -3037,7 +2801,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5d2056a9276cc00a623798451c0d7a9f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de56c1713b922aa74cdb9e",
@@ -3057,7 +2825,11 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/fb1eca7255e278b735b30b20db99c4f7",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2950,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab6",
@@ -3077,7 +2849,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/207f0879cf2156dc617a2ec000508568",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3275,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d51a193e9d60957d556f12",
@@ -3097,13 +2873,17 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a48ceec962a16186ebbf6345cd0fbe2e",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3650,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfdbb7ad03e7de6e52e94d",
     "name": "Gas Face 1g Infused PR 41619",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "infused",
     "strain_type": "hybrid",
     "price_cents": 1700,
@@ -3117,13 +2897,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/606e5ab4466ff945b4e45567f11c4834",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69c2f23889696cabfb1d04f6",
     "name": "Gangsta Grillz 1g Infused Blunt 41694",
     "brand": "Theraplant",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "single-infused-pre-roll",
     "strain_type": "indica",
     "price_cents": 1900,
@@ -3137,33 +2921,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a94fb045a690b843f14727ed933a1ddf",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e4",
-    "name": "GROOVE - Acrylic 55mm 3-Piece Grinder",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "grinders",
-    "strain_type": null,
-    "price_cents": 500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4c8fb98532b38f4fd35e2d838cf5f73d",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1900,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507fc",
     "name": "GG4 1g All in One Vape (H) 00533",
     "brand": "BRIX",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "hybrid",
     "price_cents": 5000,
@@ -3177,27 +2945,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b93c106610fbe67edffa08275c249f13",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347e5",
-    "name": "Formula 420 - Original",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "cleaning-solutions",
-    "strain_type": null,
-    "price_cents": 1100,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b13b12c8cb1fd71de45fe2740b3bf8e4",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69a712977a54a004bc6d45d9",
@@ -3217,7 +2969,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/fe569edba76953390a1693701446d080",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dabc",
@@ -3237,7 +2993,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6ec1bebc4bf212c27eba1bee2af62ba0",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2650,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69d3f267948316463bd5dab9",
@@ -3257,27 +3017,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/70e3568faaba173dca06509cffa97429",
-    "product_url": null
-  },
-  {
-    "external_id": "69d02d315cafc2f5574347ea",
-    "name": "Elements 1 1/4\" Pre-rolled Cone",
-    "brand": null,
-    "category": "gear",
-    "subcategory": "papers-rolling-supplies",
-    "strain_type": null,
-    "price_cents": 275,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/37caeef3233f17d6e67931b5b1950461",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 2700,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfcdc06afdf7f8f65d614d",
@@ -3297,7 +3041,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8027a7e26d61b2a89799092de386e3c6",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfcdc06afdf7f8f65d614c",
@@ -3317,73 +3065,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0259ec9c473631d074d232845c1258b0",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf7",
-    "name": "Crisp Script Hat - Heather Grey/Black",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c952b48012beba4402b3f2a15e0adb30",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf6",
-    "name": "Crisp Script Hat - Charcoal/ Burnt Orange",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c952b48012beba4402b3f2a15e0adb30",
-    "product_url": null
-  },
-  {
-    "external_id": "6904bc51e5f0943fc506acf8",
-    "name": "Crisp Script Hat - Black/ Green Camo",
-    "brand": "Crisp",
-    "category": "other",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3500,
-    "original_price_cents": null,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/256fd9d46647cc7b4bf19d7bda9b14fb",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69de4b086bede78c83d7f59b",
     "name": "Comffy|Vape 510 1g|Cherry Bomb 00207",
     "brand": "comffy",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "cartridges",
     "strain_type": "sativa",
     "price_cents": 5400,
@@ -3397,7 +3089,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1c77b6755b86c1afcbc97ae3614939fb",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69bbfaa263dd6bbc8b3212d5",
@@ -3417,7 +3113,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/330902c0a7b853cdd277b5a66859c02f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfa8593a659bccbb354d2a",
@@ -3437,7 +3137,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/068c7014dd1299eb073161a4e74b8a58",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69bbfaa263dd6bbc8b3212d6",
@@ -3457,7 +3161,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9d33a2c57037d3db5411f870573ab106",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfa8593a659bccbb354d29",
@@ -3477,33 +3185,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/fc2c8cb6062b7a61fc05667b90960a8e",
-    "product_url": null
-  },
-  {
-    "external_id": "682e1995e3acf29b3fb366a7",
-    "name": "CTPharma Battery",
-    "brand": "CTPharma",
-    "category": "gear",
-    "subcategory": "batteries",
-    "strain_type": null,
-    "price_cents": 1260,
-    "original_price_cents": 1800,
-    "weight_label": "N/A",
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": null,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8e961cbeeb42d88657fa6d8fd283df87",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 3400,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69dfc45f771de4a1f88507f9",
     "name": "Brix Cannabis Afgooey 1g Pre Roll (I) 00503",
     "brand": "BRIX",
-    "category": "pre-roll",
+    "category": "pre-rolls",
     "subcategory": "singles",
     "strain_type": "indica",
     "price_cents": 1200,
@@ -3517,13 +3209,17 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 1200,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e24459314ab077c5a1e44c",
     "name": "Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464",
     "brand": "Amigos",
-    "category": "other",
+    "category": "vaporizers",
     "subcategory": "disposables",
     "strain_type": "sativa",
     "price_cents": 5850,
@@ -3537,7 +3233,11 @@
     "on_sale": false,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3e769efaf7ab1289e8d281f36fe67765",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 5850,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   },
   {
     "external_id": "69e3afbe808a19a61a95769b",
@@ -3557,6 +3257,10 @@
     "on_sale": true,
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3d98718c85c4b37c2a3222a3f4118c3f",
-    "product_url": null
+    "product_url": null,
+    "med_price_cents": 4800,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   }
 ]
