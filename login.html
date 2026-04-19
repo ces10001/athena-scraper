@@ -74,7 +74,6 @@ html, body {
   padding: 2rem;
 }
 
-/* ═══ VIDEO ═══ */
 .video-container {
   width: 240px;
   height: 240px;
@@ -142,7 +141,6 @@ html, body {
   50% { opacity: 1; transform: scale(1.02); }
 }
 
-/* ═══ LOGO ═══ */
 .logo-group { text-align: center; margin-bottom: 2.5rem; }
 
 .logo-title {
@@ -199,7 +197,6 @@ html, body {
 
 @keyframes scanExpand { to { width: 280px; } }
 
-/* ═══ LOGIN ═══ */
 .login-card {
   width: 100%;
   max-width: 380px;
@@ -305,7 +302,6 @@ html, body {
 
 @keyframes shimmer { 0% { left: -100%; } 50% { left: 100%; } 100% { left: 100%; } }
 
-/* ═══ DATA POINTS ═══ */
 .data-point {
   position: fixed;
   font-family: 'Space Mono', monospace;
@@ -324,7 +320,6 @@ html, body {
   90% { opacity: 0.3; }
 }
 
-/* ═══ STATUS ═══ */
 .status-bar {
   position: fixed;
   top: 1.5rem;
@@ -498,6 +493,7 @@ function handleLogin() {
   const btn = document.querySelector('.login-btn');
   btn.innerHTML = 'LOGGING IN...';
   btn.style.pointerEvents = 'none';
+  sessionStorage.setItem('athena_auth', 'true');
   setTimeout(() => { window.location.href = 'index.html'; }, 1500);
 }
 
