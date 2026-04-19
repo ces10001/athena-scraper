@@ -40,4 +40,5 @@ jobs:
           git config user.email "athena-bot@affinitydispensary.com"
           git add data/ dashboard_data.json
           git diff --staged --quiet || git commit -m "🔄 ATHENA scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase
           git push
