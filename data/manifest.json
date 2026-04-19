@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-04-19T02:01:23.067Z",
+  "lastUpdated": "2026-04-19T02:26:38.737Z",
   "dispensaries": [
+    "crisp-cannabis-cromwell",
+    "crisp-cannabis-east-hartford",
+    "crisp-cannabis-trumbull",
     "high-profile-canton",
+    "high-profile-hamden",
+    "high-profile-stratford",
+    "nova-farms-new-britain",
+    "shangri-la-norwalk-ct-ave",
     "shangri-la-norwalk-main-ave",
-    "still-river-wellness"
+    "shangri-la-waterbury",
+    "still-river-wellness",
+    "sweetspot-stamford"
   ],
   "stats": {
-    "total": 2544,
-    "scraped": 3,
-    "alerts": 0
+    "total": 6693,
+    "scraped": 14,
+    "alerts": 4621
   }
 }

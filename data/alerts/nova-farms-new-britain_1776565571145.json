@@ -1,0 +1,2186 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Zzzonked Deep Sleep Milk Chocolate Bar",
+    "brand": "Zzzonked",
+    "message": "New: Zzzonked - Zzzonked Deep Sleep Milk Chocolate Bar $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zzz's Rolling Booklet",
+    "brand": "Zzz's Rolling Paper Company",
+    "message": "New: Zzz's Rolling Paper Company - Zzz's Rolling Booklet $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zzz's 1 1/4 Rolling Paper Booklet",
+    "brand": "Zzz's Rolling Paper Company",
+    "message": "New: Zzz's Rolling Paper Company - Zzz's 1 1/4 Rolling Paper Booklet $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zzz's 1 1/4 Cones 6pk",
+    "brand": "Zzz's Rolling Paper Company",
+    "message": "New: Zzz's Rolling Paper Company - Zzz's 1 1/4 Cones 6pk $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zkittlez x Chem 91",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Zkittlez x Chem 91 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yaf Chillums",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Yaf Chillums $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yaf Bubbler",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Yaf Bubbler $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wood Shiva Pre-Roll",
+    "brand": "Phat Panda",
+    "message": "New: Phat Panda - Wood Shiva Pre-Roll $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Witch Dr. Glass Straws $5",
+    "brand": "Glass",
+    "message": "New: Glass - Witch Dr. Glass Straws $5 $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Stallion",
+    "brand": "Mello Cannabis",
+    "message": "New: Mello Cannabis - Wild Stallion $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wicked Pie",
+    "brand": "Green Meadows",
+    "message": "New: Green Meadows - Wicked Pie $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wicked Lime",
+    "brand": "Coastal Healing",
+    "message": "New: Coastal Healing - Wicked Lime $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Nightmare Live Resin Vape Cart",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - White Nightmare Live Resin Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG Southie Sundaze Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - White Fire OG Southie Sundaze Blunt $29.13"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG Southie Fusion Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - White Fire OG Southie Fusion Blunt $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG Fatty",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - White Fire OG Fatty $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - White Fire OG Blunt $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG 5pk Pre-Rolls",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - White Fire OG 5pk Pre-Rolls $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG 4pk Joints",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - White Fire OG 4pk Joints $33.98"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Fire OG 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - White Fire OG 4pk Blunts $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Cream",
+    "brand": "The Bank",
+    "message": "New: The Bank - White Cream $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Find.",
+    "message": "New: Find. - Wedding Cake $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Jolt Hashables",
+    "brand": "Hashables",
+    "message": "New: Hashables - Watermelon Jolt Hashables $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Burst",
+    "brand": "Verano",
+    "message": "New: Verano - Watermelon Burst $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vortex Wax",
+    "brand": "Berkshire Roots",
+    "message": "New: Berkshire Roots - Vortex Wax $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vermont Logs",
+    "brand": "Garden Remedies",
+    "message": "New: Garden Remedies - Vermont Logs $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Unflavored Sticky Fish Maroon Monkey Live Resin Bites",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Unflavored Sticky Fish Maroon Monkey Live Resin Bites $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tutti Frutti Zzzonked Gummies",
+    "brand": "Zzzonked",
+    "message": "New: Zzzonked - Tutti Frutti Zzzonked Gummies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Truphle Butter Live Vape Cart",
+    "brand": "Select",
+    "message": "New: Select - Truphle Butter Live Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropicanna Banana Sugar Wax",
+    "brand": "Heavy Metal Cannabis",
+    "message": "New: Heavy Metal Cannabis - Tropicanna Banana Sugar Wax $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropicana Cookies Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Tropicana Cookies Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Typhoon Hashables",
+    "brand": "Hashables",
+    "message": "New: Hashables - Tropical Typhoon Hashables $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Punch Live Rosin Gummies",
+    "brand": "FloraCal Farms",
+    "message": "New: FloraCal Farms - Tropical Punch Live Rosin Gummies $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trilla",
+    "brand": "Gentlemen Smugglers",
+    "message": "New: Gentlemen Smugglers - Trilla $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triangle Mints",
+    "brand": "OMG Powered by Wellman Farms",
+    "message": "New: OMG Powered by Wellman Farms - Triangle Mints $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trailblazers T-Shirts Natural",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Trailblazers T-Shirts Natural $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trailblazers T-Shirts Black",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Trailblazers T-Shirts Black $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trailblazers Hoodie Bone",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Trailblazers Hoodie Bone $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trailblazers Hoodie Black",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Trailblazers Hoodie Black $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Toasted Coconut Chocolate Dive Bar",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Toasted Coconut Chocolate Dive Bar $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titty Sprinkles",
+    "brand": "Altitude",
+    "message": "New: Altitude - Titty Sprinkles $67.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Soap Crumble",
+    "brand": "Insa",
+    "message": "New: Insa - The Soap Crumble $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Glove",
+    "brand": "Smyth",
+    "message": "New: Smyth - The Glove $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangy Cheddar Infused Seasoning",
+    "brand": "Shake N Baked",
+    "message": "New: Shake N Baked - Tangy Cheddar Infused Seasoning $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangie Le Pew Fatty",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Tangie Le Pew Fatty $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Take It Easy Pineapple Orange Eddies",
+    "brand": "Betty's Eddies",
+    "message": "New: Betty's Eddies - Take It Easy Pineapple Orange Eddies $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweets",
+    "brand": "Insa",
+    "message": "New: Insa - Sweets $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweet Dreams Black Cherry Rose Pastilles",
+    "brand": "Beboe",
+    "message": "New: Beboe - Sweet Dreams Black Cherry Rose Pastilles $18.61"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Thing Fatty",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Swamp Thing Fatty $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Thing Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Swamp Thing Blunt $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Thing 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Swamp Thing 4pk Blunts $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Support Endura Disposable Vape",
+    "brand": "Ration",
+    "message": "New: Ration - Support Endura Disposable Vape $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Sour Diesel Vape Cart",
+    "brand": "Earth Shine Gardens",
+    "message": "New: Earth Shine Gardens - Super Sour Diesel Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Skunk 18 Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Super Skunk 18 Blunt $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Glue Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Super Glue Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Driver",
+    "brand": "Fresh Connection",
+    "message": "New: Fresh Connection - Sundae Driver $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sugar Plum Sunset Ground Flower",
+    "brand": "MIDZ",
+    "message": "New: MIDZ - Sugar Plum Sunset Ground Flower $69.58"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sugar Plum Sunset 5pk Pre-Rolls",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Sugar Plum Sunset 5pk Pre-Rolls $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sugar Plum Sunset 4pk Joints",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Sugar Plum Sunset 4pk Joints $33.98"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sugar Cookies Disposable Vape Pen",
+    "brand": "In House",
+    "message": "New: In House - Sugar Cookies Disposable Vape Pen $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stroopwafel Crunch Dark Chocolate Bar",
+    "brand": "Berkshire Roots",
+    "message": "New: Berkshire Roots - Stroopwafel Crunch Dark Chocolate Bar $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Fritter Wax",
+    "brand": "Heavy Metal Cannabis",
+    "message": "New: Heavy Metal Cannabis - Strawberry Fritter Wax $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Bonnet #24",
+    "brand": "Gentlemen Smugglers",
+    "message": "New: Gentlemen Smugglers - Strawberry Bonnet #24 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry 1:1 In House Gummies",
+    "brand": "In House",
+    "message": "New: In House - Strawberry 1:1 In House Gummies $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Jelly",
+    "brand": "Good Chemistry Nurseries",
+    "message": "New: Good Chemistry Nurseries - Sticky Jelly $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish Sweatpants Blue Tie Dye",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Sticky Fish Sweatpants Blue Tie Dye $30.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish EZ Reach BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Sticky Fish EZ Reach BIC Lighter $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish Blue Tie Dye Hoodie Small",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Sticky Fish Blue Tie Dye Hoodie Small $40.47"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish - Fish Bowl - T-Shirt (Tie Dye)",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Sticky Fish - Fish Bowl - T-Shirt (Tie Dye) $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish - Bonez- Long Sleeve",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Sticky Fish - Bonez- Long Sleeve $12.11"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sticky Fish - Blue Drip - T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Sticky Fish - Blue Drip - T-Shirt $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Step Bro",
+    "brand": "Coastal Healing",
+    "message": "New: Coastal Healing - Step Bro $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer Nova Nifty",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Star Killer Nova Nifty $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stank House Live Hash Rosin",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Stank House Live Hash Rosin $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Candy",
+    "brand": "Mello",
+    "message": "New: Mello - Space Candy $22.65"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams Spaceman Tie Dye T-shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams Spaceman Tie Dye T-shirt $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams Spaceman (Black) T-Shirt Small",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams Spaceman (Black) T-Shirt Small $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams Live Fire Long Sleeve",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams Live Fire Long Sleeve $12.56"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Southie Adams BIC Lighter $3.76"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams - Sundaze - T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams - Sundaze - T-Shirt $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams - Paradise - T-Shirt (Tie Dye)",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams - Paradise - T-Shirt (Tie Dye) $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Southie Adams - Paradise - T-Shirt (Tan)",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Southie Adams - Paradise - T-Shirt (Tan) $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Rhubarb",
+    "brand": "Budhaus",
+    "message": "New: Budhaus - Sour Rhubarb $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Passionfruit Full Spectrum Chews",
+    "brand": "Heavy Metal Cannabis",
+    "message": "New: Heavy Metal Cannabis - Sour Passionfruit Full Spectrum Chews $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Key Lime Chews",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Sour Key Lime Chews $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Guava Chews",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Sour Guava Chews $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Electric Citrus",
+    "brand": "High Flavor",
+    "message": "New: High Flavor - Sour Electric Citrus $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Blood Orange Chews",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Sour Blood Orange Chews $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snowdog Pre-Roll",
+    "brand": "Berkshire Roots",
+    "message": "New: Berkshire Roots - Snowdog Pre-Roll $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smyth Mimosa Vape Cart",
+    "brand": "Smyth",
+    "message": "New: Smyth - Smyth Mimosa Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smyth Gelato #33 Vape Cart",
+    "brand": "Smyth",
+    "message": "New: Smyth - Smyth Gelato #33 Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smashin' Passion",
+    "brand": "Betty's Eddies",
+    "message": "New: Betty's Eddies - Smashin' Passion $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Skunk Hero x Ethos Cookies Live Resin Southie Fusion Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Skunk Hero x Ethos Cookies Live Resin Southie Fusion Blunt $29.13"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Skunk Hero x Ethos Cookies #16",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Skunk Hero x Ethos Cookies #16 $16.18"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sheesh",
+    "brand": "Mello",
+    "message": "New: Mello - Sheesh $22.65"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scottie Piffen Live Sugar",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Scottie Piffen Live Sugar $50.16"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Salted Caramel Cashew Rejuvenate Bon Bons",
+    "brand": "byky",
+    "message": "New: byky - Salted Caramel Cashew Rejuvenate Bon Bons $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Runtz Dry Sift",
+    "brand": "Good Chemistry Nurseries",
+    "message": "New: Good Chemistry Nurseries - Runtz Dry Sift $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rezzy: Pina Colada Flavored Maroon Monkey Live Resin Infused Gummies",
+    "brand": "Rezzy",
+    "message": "New: Rezzy - Rezzy: Pina Colada Flavored Maroon Monkey Live Resin Infused Gummies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Relief Hard Shell RSO Chocolates 1:1 CBD:THC 100pk",
+    "brand": "Sweet Spot",
+    "message": "New: Sweet Spot - Relief Hard Shell RSO Chocolates 1:1 CBD:THC 100pk $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Redhead Ghost Wax",
+    "brand": "Crispy Commission",
+    "message": "New: Crispy Commission - Redhead Ghost Wax $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Nova Farms 5 Panel",
+    "brand": "Nova Gear",
+    "message": "New: Nova Gear - Red Nova Farms 5 Panel $15.06"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ray Charles Vape Cart",
+    "brand": "Select",
+    "message": "New: Select - Ray Charles Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Sunset",
+    "brand": "Coastal Healing",
+    "message": "New: Coastal Healing - Raspberry Sunset $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Nova Bites 20pk",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Raspberry Nova Bites 20pk $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ranch Infused Seasoning",
+    "brand": "Shake N Baked",
+    "message": "New: Shake N Baked - Ranch Infused Seasoning $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow Chip",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Rainbow Chip $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RSO Capsules",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - RSO Capsules $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "R&R Endura Disposable Vape",
+    "brand": "Ration",
+    "message": "New: Ration - R&R Endura Disposable Vape $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Queen Hippo Sticky Fish Bonez",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Queen Hippo Sticky Fish Bonez $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Queen Hippo Pre-Roll",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Queen Hippo Pre-Roll $4.85"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Moonstone",
+    "brand": "The Heirloom Collective",
+    "message": "New: The Heirloom Collective - Purple Moonstone $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Chem Punch Live Fire Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Purple Chem Punch Live Fire Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pumpkin Spice Vape Cart",
+    "brand": "AMP",
+    "message": "New: AMP - Pumpkin Spice Vape Cart $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pride Punch Disposable Pen",
+    "brand": "Good News",
+    "message": "New: Good News - Pride Punch Disposable Pen $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Prickly Pear Maroon Monkey Live Resin Bites",
+    "brand": "Rezzy",
+    "message": "New: Rezzy - Prickly Pear Maroon Monkey Live Resin Bites $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomegranate Hibiscus 2pk Fruit Notes",
+    "brand": "Coda Signature",
+    "message": "New: Coda Signature - Pomegranate Hibiscus 2pk Fruit Notes $6.47"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Platinum OGD",
+    "brand": "Mello",
+    "message": "New: Mello - Platinum OGD $22.65"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Platinum Garlic Pre-Roll",
+    "brand": "Altitude",
+    "message": "New: Altitude - Platinum Garlic Pre-Roll $6.47"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Platinum Garlic",
+    "brand": "Apothca",
+    "message": "New: Apothca - Platinum Garlic $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Platinum Banana OG Live Rosin Vape Cart",
+    "brand": "Suncrafted",
+    "message": "New: Suncrafted - Platinum Banana OG Live Rosin Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pique Hot Sauce",
+    "brand": "Tropizen",
+    "message": "New: Tropizen - Pique Hot Sauce $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express Vape Cart",
+    "brand": "Solar Cannabis Co.",
+    "message": "New: Solar Cannabis Co. - Pineapple Express Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Dream Zzzonked Sleepy Gummies",
+    "brand": "Zzzonked",
+    "message": "New: Zzzonked - Pineapple Dream Zzzonked Sleepy Gummies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Coconut Express Seltzer",
+    "brand": "Nectar Premium",
+    "message": "New: Nectar Premium - Pineapple Coconut Express Seltzer $6.47"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pie Scream",
+    "brand": "Garden Remedies",
+    "message": "New: Garden Remedies - Pie Scream $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butta Crunch Pre-Roll",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Peanut Butta Crunch Pre-Roll $8.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peak Pro Chamber",
+    "brand": "Puffco",
+    "message": "New: Puffco - Peak Pro Chamber $60.24"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peachy Mango Hashables",
+    "brand": "Hashables",
+    "message": "New: Hashables - Peachy Mango Hashables $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Tangerine Tea Powder 5mg Drink Mix 10pk",
+    "brand": "Vibations",
+    "message": "New: Vibations - Peach Tangerine Tea Powder 5mg Drink Mix 10pk $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pax Era Life",
+    "brand": "PAX",
+    "message": "New: PAX - Pax Era Life $33.88"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pax Era Battery",
+    "brand": "PAX",
+    "message": "New: PAX - Pax Era Battery $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Papaya Slapper",
+    "brand": "Bountiful Farms",
+    "message": "New: Bountiful Farms - Papaya Slapper $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Papaya Melonz",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Papaya Melonz $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PUFFCO PEAK PRO",
+    "brand": "Puffco",
+    "message": "New: Puffco - PUFFCO PEAK PRO $400.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Original Glue Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Original Glue Blunts $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Oreo Stomper S1",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Oreo Stomper S1 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Blast 25mg Tincture",
+    "brand": "COUNTDOWN",
+    "message": "New: COUNTDOWN - Orange Blast 25mg Tincture $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Octane Zushers",
+    "brand": "Ideal Craft Cannabis",
+    "message": "New: Ideal Craft Cannabis - Octane Zushers $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OG Kush Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - OG Kush Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuke Em H Reaper Joint",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Nuke Em H Reaper Joint $55.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms Orange Bic Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Nova Farms Orange Bic Lighter $3.76"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms Farmscape (Military Green) T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Nova Farms Farmscape (Military Green) T-Shirt $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms EZ Reach BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Nova Farms EZ Reach BIC Lighter $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms Broccoli T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Nova Farms Broccoli T-Shirt $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms Black BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Nova Farms Black BIC Lighter $3.76"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms - Tree - T-Shirt - Tie Dye",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Nova Farms - Tree - T-Shirt - Tie Dye $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nova Farms - Tree - T-Shirt - Black",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Nova Farms - Tree - T-Shirt - Black $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "North Shore Sauce Packets 10pk",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - North Shore Sauce Packets 10pk $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Need a Lift? T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Need a Lift? T-Shirt $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Need a Lift Hoodie",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Need a Lift Hoodie $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Napoleon",
+    "brand": "Mass Alternative Care",
+    "message": "New: Mass Alternative Care - Napoleon $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motor Breath",
+    "brand": "Altitude",
+    "message": "New: Altitude - Motor Breath $40.46"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbow Pre-Roll",
+    "brand": "Fresh Connection",
+    "message": "New: Fresh Connection - Moonbow Pre-Roll $12.14"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MoonBow",
+    "brand": "Fresh Connection",
+    "message": "New: Fresh Connection - MoonBow $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MoonBerry Gummies",
+    "brand": "Goods.",
+    "message": "New: Goods. - MoonBerry Gummies $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Monster Profit Live Resin Vape Cart",
+    "brand": "The Lab",
+    "message": "New: The Lab - Monster Profit Live Resin Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Monster Jam #6",
+    "brand": "Ideal Craft Cannabis",
+    "message": "New: Ideal Craft Cannabis - Monster Jam #6 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Monkey Berries Live Resin Vape Cart",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Monkey Berries Live Resin Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mixed Berry Zzzonked Gummies",
+    "brand": "Zzzonked",
+    "message": "New: Zzzonked - Mixed Berry Zzzonked Gummies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint Chocolate Chip",
+    "brand": "Apothca",
+    "message": "New: Apothca - Mint Chocolate Chip $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mile High Mint Bars",
+    "brand": "Incredibles",
+    "message": "New: Incredibles - Mile High Mint Bars $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Meringue 5pk Pre-Rolls",
+    "brand": "Caroline's Cannabis",
+    "message": "New: Caroline's Cannabis - Meringue 5pk Pre-Rolls $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Meltdown Pumpkin Pie Bar",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Meltdown Pumpkin Pie Bar $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Meltdown Milk Chocolate Bar",
+    "brand": "Meltdown",
+    "message": "New: Meltdown - Meltdown Milk Chocolate Bar $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Meltdown Dark Chocolate Bar",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Meltdown Dark Chocolate Bar $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Me Time Berry Disposable Vape",
+    "brand": "Good News",
+    "message": "New: Good News - Me Time Berry Disposable Vape $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Maui Wowie Live Resin Vape Cart",
+    "brand": "AMP",
+    "message": "New: AMP - Maui Wowie Live Resin Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Masterpiece Pre-Roll",
+    "brand": "Mello",
+    "message": "New: Mello - Masterpiece Pre-Roll $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Masterpiece",
+    "brand": "Mello",
+    "message": "New: Mello - Masterpiece $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Maple Almond Butter Dream Bon Bons + 2mg Melatonin",
+    "brand": "byky",
+    "message": "New: byky - Maple Almond Butter Dream Bon Bons + 2mg Melatonin $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Jazz Live Resin Vape Cart",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - Mango Jazz Live Resin Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Chow Mein",
+    "brand": "Coastal Healing",
+    "message": "New: Coastal Healing - Mango Chow Mein $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mandarin Blossom Live Terp Slush",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - Mandarin Blossom Live Terp Slush $50.16"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Malibu Marsha",
+    "brand": "Find.",
+    "message": "New: Find. - Malibu Marsha $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mac Rib",
+    "brand": "The Bank",
+    "message": "New: The Bank - Mac Rib $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MF Pie",
+    "brand": "Standard Farms",
+    "message": "New: Standard Farms - MF Pie $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Love Drops TIN 30pk",
+    "brand": "1906",
+    "message": "New: 1906 - Love Drops TIN 30pk $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "London Pound Cake Live Hash Rosin",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - London Pound Cake Live Hash Rosin $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Local Wildflower Blended Honey 10pk",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Local Wildflower Blended Honey 10pk $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Limeade Live Fire Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Limeade Live Fire Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lime Solar Energy Shot",
+    "brand": "Solar Cannabis Co.",
+    "message": "New: Solar Cannabis Co. - Lime Solar Energy Shot $4.85"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lime Grape Soda Skunk Sauce Cart",
+    "brand": "The Heirloom Collective",
+    "message": "New: The Heirloom Collective - Lime Grape Soda Skunk Sauce Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lilac Diesel",
+    "brand": "Smyth",
+    "message": "New: Smyth - Lilac Diesel $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lilac Cookies",
+    "brand": "SMASH Hits",
+    "message": "New: SMASH Hits - Lilac Cookies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lifted Lemon Gummies",
+    "brand": "Goods.",
+    "message": "New: Goods. - Lifted Lemon Gummies $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Zephyr",
+    "brand": "Coastal Healing",
+    "message": "New: Coastal Healing - Lemon Zephyr $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Sugar 5pk Pre-Rolls",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Lemon Sugar 5pk Pre-Rolls $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Pound Cake Live Resin Vape Cart",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - Lemon Pound Cake Live Resin Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Mints Live Rosin Badder",
+    "brand": "FloraCal Farms",
+    "message": "New: FloraCal Farms - Lemon Mints Live Rosin Badder $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Disco",
+    "brand": "In House",
+    "message": "New: In House - Lemon Disco $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Cherry Kush Wax",
+    "brand": "Crispy Commission",
+    "message": "New: Crispy Commission - Lemon Cherry Kush Wax $100.32"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Cane",
+    "brand": "Fresh Connection",
+    "message": "New: Fresh Connection - Lemon Cane $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Cake Vape Cart OMG",
+    "brand": "OMG Powered by Wellman Farms",
+    "message": "New: OMG Powered by Wellman Farms - Lemon Cake Vape Cart OMG $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Legend of Lime Pre-Roll",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Legend of Lime Pre-Roll $4.85"
+  },
+  {
+    "type": "new_product",
+    "product_name": "L'Orange Vape Cart",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - L'Orange Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Mintz Pre-Roll",
+    "brand": "Impressed",
+    "message": "New: Impressed - Kush Mintz Pre-Roll $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Mintz",
+    "brand": "Impressed",
+    "message": "New: Impressed - Kush Mintz $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kool Grapes 5pk Pre-Rolls",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Kool Grapes 5pk Pre-Rolls $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kingston Kind 5pk Pre-Rolls",
+    "brand": "SMASH Hits",
+    "message": "New: SMASH Hits - Kingston Kind 5pk Pre-Rolls $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "King Size Virgin Cone 3pk",
+    "brand": "OCB® Rolling Papers & Cones",
+    "message": "New: OCB® Rolling Papers & Cones - King Size Virgin Cone 3pk $2.84"
+  },
+  {
+    "type": "new_product",
+    "product_name": "King Louis XIII Full Spectrum Disposable Vape Pen",
+    "brand": "Classix",
+    "message": "New: Classix - King Louis XIII Full Spectrum Disposable Vape Pen $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kid Dynamite Cured Rosin Vape Cart",
+    "brand": "Holistic Health Group",
+    "message": "New: Holistic Health Group - Kid Dynamite Cured Rosin Vape Cart $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Key Lime Pie Chocolate  Bar",
+    "brand": "Meltdown",
+    "message": "New: Meltdown - Key Lime Pie Chocolate  Bar $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kazuma",
+    "brand": "Botanist",
+    "message": "New: Botanist - Kazuma $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "K'Smorz",
+    "brand": "Bountiful Farms",
+    "message": "New: Bountiful Farms - K'Smorz $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "K Dynamite Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - K Dynamite Blunt $7.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jupiter L6 Battery",
+    "brand": "Jupiter",
+    "message": "New: Jupiter - Jupiter L6 Battery $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Sorbet",
+    "brand": "Mello",
+    "message": "New: Mello - Jungle Sorbet $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz",
+    "brand": "Ideal Craft Cannabis",
+    "message": "New: Ideal Craft Cannabis - Jokerz $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jerry's Mixed Berry Picks",
+    "brand": "Garcia Hand Picked",
+    "message": "New: Garcia Hand Picked - Jerry's Mixed Berry Picks $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jazz Queen Live Badder",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - Jazz Queen Live Badder $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JMO Hash Rosin",
+    "brand": "Holistic Health Group",
+    "message": "New: Holistic Health Group - JMO Hash Rosin $60.68"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Inspired Tartberry Pastilles",
+    "brand": "Beboe",
+    "message": "New: Beboe - Inspired Tartberry Pastilles $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Infused Non-Alcoholic Full Spectrum IPA brew",
+    "brand": "Witch Dr.",
+    "message": "New: Witch Dr. - Infused Non-Alcoholic Full Spectrum IPA brew $7.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indiana Bubble Gum",
+    "brand": "Gentlemen Smugglers",
+    "message": "New: Gentlemen Smugglers - Indiana Bubble Gum $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Ice Cream Cake Blunt $7.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ISO Dichro Pipe JEC",
+    "brand": "Witch Dr.",
+    "message": "New: Witch Dr. - ISO Dichro Pipe JEC $94.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ISE Live Badder",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - ISE Live Badder $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ICE MINT",
+    "brand": "Incredibles",
+    "message": "New: Incredibles - ICE MINT $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Nighttime 2X",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Nighttime 2X $79.29"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Nighttime",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Nighttime $55.02"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - High CBD 10:1",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - High CBD 10:1 $70.39"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Daytime 2x .",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Daytime 2x . $79.29"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Daytime",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Daytime $55.02"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Anytime 2X .",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Anytime 2X . $79.29"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - Anytime .",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - Anytime . $55.02"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Howl's - 1:1 THC-CBD",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - Howl's - 1:1 THC-CBD $70.39"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed Wanderlust Button Up Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed Wanderlust Button Up Shirt $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed Thank You For Staying High T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed Thank You For Staying High T-Shirt $23.53"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed Thank You For Staying High Hoodie",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed Thank You For Staying High Hoodie $42.35"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed Stay Out Of The Basement T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed Stay Out Of The Basement T-Shirt $23.53"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed Pathfinder Windbreaker",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed Pathfinder Windbreaker $47.06"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Higher Breed My First High T-Shirt",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Higher Breed My First High T-Shirt $23.53"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heirloom Sour Cubes",
+    "brand": "The Heirloom Collective",
+    "message": "New: The Heirloom Collective - Heirloom Sour Cubes $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hazelnut Espresso Bon Bons",
+    "brand": "byky",
+    "message": "New: byky - Hazelnut Espresso Bon Bons $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hashables Multicolored Logo Hoodie Tie Dye Black",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Hashables Multicolored Logo Hoodie Tie Dye Black $37.65"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hashables Milk Chocolate Bar",
+    "brand": "Hashables",
+    "message": "New: Hashables - Hashables Milk Chocolate Bar $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hashables Cookies & Cream Chocolate Bar",
+    "brand": "Hashables",
+    "message": "New: Hashables - Hashables Cookies & Cream Chocolate Bar $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hashables - Fruits & Flowers - T-Shirt (Blue)",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Hashables - Fruits & Flowers - T-Shirt (Blue) $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hashables - Fruits & Flowers - T-Shirt (Black)",
+    "brand": "Higher Breed",
+    "message": "New: Higher Breed - Hashables - Fruits & Flowers - T-Shirt (Black) $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hans Solo Burger Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Hans Solo Burger Blunt $7.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hans Solo Burger Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Hans Solo Burger Blunt $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hans Solo Burger 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Hans Solo Burger 4pk Blunts $29.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Half Pint 4",
+    "brand": "Triple 7",
+    "message": "New: Triple 7 - Half Pint 4 $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gypsy Road Southie Sundaze Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Gypsy Road Southie Sundaze Blunt $18.61"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gypsie Road Cured Sugar",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Gypsie Road Cured Sugar $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gypsie Road 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Gypsie Road 4pk Blunts $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guava Yogurt Live Hash Rosin",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Guava Yogurt Live Hash Rosin $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guava Now N Later",
+    "brand": "Bountiful Farms",
+    "message": "New: Bountiful Farms - Guava Now N Later $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guava Gelato",
+    "brand": "The Bank",
+    "message": "New: The Bank - Guava Gelato $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gruntz",
+    "brand": "The Bank",
+    "message": "New: The Bank - Gruntz $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grey Nova Farms 5 Panel",
+    "brand": "Nova Gear",
+    "message": "New: Nova Gear - Grey Nova Farms 5 Panel $15.06"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Dream Vape Cart",
+    "brand": "Strane",
+    "message": "New: Strane - Green Dream Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Greasy Grapes",
+    "brand": "Lite Weight",
+    "message": "New: Lite Weight - Greasy Grapes $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grateful Breath",
+    "brand": "Apothca",
+    "message": "New: Apothca - Grateful Breath $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grapefruit Guava Vegan Gummies",
+    "brand": "Farm to Fam",
+    "message": "New: Farm to Fam - Grapefruit Guava Vegan Gummies $18.61"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Diamonds Live Sugar",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Grape Diamonds Live Sugar $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Banana Gas 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Grape Banana Gas 4pk Blunts $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grandaddy Purple Vape Cart",
+    "brand": "Earth Shine Gardens",
+    "message": "New: Earth Shine Gardens - Grandaddy Purple Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tree",
+    "brand": "Impressed",
+    "message": "New: Impressed - Golden Tree $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Pineapple Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Golden Pineapple Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Papaya Vape Cart",
+    "brand": "Bailey's Buds x Garden Remedies",
+    "message": "New: Bailey's Buds x Garden Remedies - Golden Papaya Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glue",
+    "brand": "AMP",
+    "message": "New: AMP - Glue $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gloss Boss",
+    "brand": "Bountiful Farms",
+    "message": "New: Bountiful Farms - Gloss Boss $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glazed Apricot Gelato",
+    "brand": "The Bank",
+    "message": "New: The Bank - Glazed Apricot Gelato $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghost Train Haze 5pk Pre-Rolls",
+    "brand": "Anthologie",
+    "message": "New: Anthologie - Ghost Train Haze 5pk Pre-Rolls $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghost Rider Shatter",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Ghost Rider Shatter $45.41"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Georgia Pie Batter",
+    "brand": "Insa",
+    "message": "New: Insa - Georgia Pie Batter $50.16"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face 4pk Joints",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Gas Face 4pk Joints $33.98"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Gas Face 4pk Blunts $29.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Reaper Pre-Roll",
+    "brand": "Holistic Health Group",
+    "message": "New: Holistic Health Group - Garlic Reaper Pre-Roll $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Drip Live Resin Dablicator",
+    "brand": "Superflux",
+    "message": "New: Superflux - Garlic Drip Live Resin Dablicator $50.16"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Breath Southie Sundaze Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Garlic Breath Southie Sundaze Blunt $18.61"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Breath Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Garlic Breath Blunt $11.33"
+  },
+  {
+    "type": "new_product",
+    "product_name": "G Pen Gio Battery",
+    "brand": "Grenco",
+    "message": "New: Grenco - G Pen Gio Battery $20.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Funk MTN Live Hash Rosin",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Funk MTN Live Hash Rosin $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Free Spirit Disposable Vape Pen",
+    "brand": "Good News",
+    "message": "New: Good News - Free Spirit Disposable Vape Pen $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Zkittlez",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Forbidden Zkittlez $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fire Dawg",
+    "brand": "AMP",
+    "message": "New: AMP - Fire Dawg $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fatso x 09 Animal Cookies Nova Nifty",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Fatso x 09 Animal Cookies Nova Nifty $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Strawberry Kiwi Lychee Energize Gummy",
+    "brand": "Hedy",
+    "message": "New: Hedy - Fast Acting Strawberry Kiwi Lychee Energize Gummy $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Strawberry Guava Gummy",
+    "brand": "Hedy",
+    "message": "New: Hedy - Fast Acting Strawberry Guava Gummy $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Dark Chocolate Bar",
+    "brand": "Hedy",
+    "message": "New: Hedy - Fast Acting Dark Chocolate Bar $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Falcon Berry Live Rosin Vape Cart",
+    "brand": "Good Chemistry Nurseries",
+    "message": "New: Good Chemistry Nurseries - Falcon Berry Live Rosin Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ethos Chem OG",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Ethos Chem OG $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Elderbetty",
+    "brand": "Betty's Eddies",
+    "message": "New: Betty's Eddies - Elderbetty $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ekto Cooler Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Ekto Cooler Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ebony Ivory Live Resin Vape Cart",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Ebony Ivory Live Resin Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Eastmont",
+    "brand": "Good Chemistry Nurseries",
+    "message": "New: Good Chemistry Nurseries - Eastmont $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Frosting Cured Budder",
+    "brand": "Superflux",
+    "message": "New: Superflux - Durban Frosting Cured Budder $50.16"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dripz",
+    "brand": "Bountiful Farms",
+    "message": "New: Bountiful Farms - Dripz $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Double Sided Jack Moodmat UV & Glow",
+    "brand": "Witch Dr.",
+    "message": "New: Witch Dr. - Double Sided Jack Moodmat UV & Glow $18.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Double Krush Live Badder",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Double Krush Live Badder $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Double Dream",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Double Dream $16.18"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Donny Burger Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Donny Burger Blunt $7.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dirty Banana Sticky Fish Bonez",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Dirty Banana Sticky Fish Bonez $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Deadhead OG 4pk Blunts",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Deadhead OG 4pk Blunts $29.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Daywrecker Live Sugar",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Daywrecker Live Sugar $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DOG 2.0",
+    "brand": "Impressed",
+    "message": "New: Impressed - DOG 2.0 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cucumber Dream Seltzer",
+    "brand": "Nectar Premium",
+    "message": "New: Nectar Premium - Cucumber Dream Seltzer $6.47"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Crescendo",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Crescendo $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cranberry Walnut Dark Chocolate Dive Bar",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Cranberry Walnut Dark Chocolate Dive Bar $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cool Key Lime Kiwi Gummies",
+    "brand": "Mindy's Edibles",
+    "message": "New: Mindy's Edibles - Cool Key Lime Kiwi Gummies $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookies and Cream Cured Sugar",
+    "brand": "Mass Alternative Care",
+    "message": "New: Mass Alternative Care - Cookies and Cream Cured Sugar $60.68"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Chem",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Colorado Chem $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Coco Quemado",
+    "brand": "Find.",
+    "message": "New: Find. - Coco Quemado $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cobra Milk",
+    "brand": "In House",
+    "message": "New: In House - Cobra Milk $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cliq Battery",
+    "brand": "Cliq",
+    "message": "New: Cliq - Cliq Battery $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Clem-Berry Live Fire Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Clem-Berry Live Fire Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolope Southie Sundaze Blunt",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Chocolope Southie Sundaze Blunt $18.61"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolatina",
+    "brand": "Apothca",
+    "message": "New: Apothca - Chocolatina $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate Covered Pretzels",
+    "brand": "Standard Farms",
+    "message": "New: Standard Farms - Chocolate Covered Pretzels $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chimera 3",
+    "brand": "Insa",
+    "message": "New: Insa - Chimera 3 $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chill Watermelon Syrup Tinture",
+    "brand": "Chill Medicated",
+    "message": "New: Chill Medicated - Chill Watermelon Syrup Tinture $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chill Sour Apple Syrup Tinture",
+    "brand": "Chill Medicated",
+    "message": "New: Chill Medicated - Chill Sour Apple Syrup Tinture $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chill Grape Syrup Tincture 250mg",
+    "brand": "Chill Medicated",
+    "message": "New: Chill Medicated - Chill Grape Syrup Tincture 250mg $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Slimeade",
+    "brand": "Smyth",
+    "message": "New: Smyth - Cherry Slimeade $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Cheesecake Chocolate Bar",
+    "brand": "Insa",
+    "message": "New: Insa - Cherry Cheesecake Chocolate Bar $17.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chernobyl 5pk Pre-Rolls",
+    "brand": "Anthologie",
+    "message": "New: Anthologie - Chernobyl 5pk Pre-Rolls $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdog #4 Chillum",
+    "brand": "SMASH Hits",
+    "message": "New: SMASH Hits - Chemdog #4 Chillum $13.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chembargo Pre-Roll",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Chembargo Pre-Roll $4.85"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem De La Chem 5pk Pre-Rolls",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Chem De La Chem 5pk Pre-Rolls $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Caribbean Kerosene",
+    "brand": "Nova Farms x Riverside Paper Co",
+    "message": "New: Nova Farms x Riverside Paper Co - Caribbean Kerosene $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Caramel Apple Vape Cart",
+    "brand": "AMP",
+    "message": "New: AMP - Caramel Apple Vape Cart $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Caramel Apple Drops",
+    "brand": "Insa",
+    "message": "New: Insa - Caramel Apple Drops $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Captains Mustard Infused Packets 10pk",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Captains Mustard Infused Packets 10pk $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Captains Infused Ketchup Packets 10pk",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Captains Infused Ketchup Packets 10pk $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Captains Infused Barbeque Sauce Packets 10pk",
+    "brand": "Ocean Breeze",
+    "message": "New: Ocean Breeze - Captains Infused Barbeque Sauce Packets 10pk $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulk Nectarine Squeeze",
+    "brand": "Cloud Cover",
+    "message": "New: Cloud Cover - Bulk Nectarine Squeeze $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulk Dubble Cup",
+    "brand": "Cloud Cover",
+    "message": "New: Cloud Cover - Bulk Dubble Cup $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulk Cherry Punch",
+    "brand": "Cloud Cover",
+    "message": "New: Cloud Cover - Bulk Cherry Punch $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulk Boo Berry",
+    "brand": "Cloud Cover",
+    "message": "New: Cloud Cover - Bulk Boo Berry $9.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brunch Orange Disposable Vape Pen",
+    "brand": "Good News",
+    "message": "New: Good News - Brunch Orange Disposable Vape Pen $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bruce Banner #3",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Bruce Banner #3 $16.18"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brownie Bites",
+    "brand": "Bubby's Baked",
+    "message": "New: Bubby's Baked - Brownie Bites $12.14"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Booberry Cookies Ground Flower",
+    "brand": "MIDZ",
+    "message": "New: MIDZ - Booberry Cookies Ground Flower $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Nova Bites 20pk",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - Blueberry Nova Bites 20pk $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Lavender Vape Cart",
+    "brand": "Altitude",
+    "message": "New: Altitude - Blueberry Lavender Vape Cart $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Indica Gummies 20pk",
+    "brand": "Wana",
+    "message": "New: Wana - Blueberry Indica Gummies 20pk $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Sticky Fish BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - Blue Sticky Fish BIC Lighter $4.71"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Kief",
+    "brand": "AMP",
+    "message": "New: AMP - Blue Dream Kief $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bliss Drops TIN 20pk",
+    "brand": "1906",
+    "message": "New: 1906 - Bliss Drops TIN 20pk $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Patronous",
+    "brand": "Mello",
+    "message": "New: Mello - Black Patronous $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Lime Reserve",
+    "brand": "The Heirloom Collective",
+    "message": "New: The Heirloom Collective - Black Lime Reserve $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Betty Good Times Strawberry 10pk",
+    "brand": "Betty's Eddies",
+    "message": "New: Betty's Eddies - Betty Good Times Strawberry 10pk $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Gelato Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Berry Gelato Vape Cart $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Force 25mg Tincture",
+    "brand": "COUNTDOWN",
+    "message": "New: COUNTDOWN - Berry Force 25mg Tincture $10.52"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Punch Live Diamonds and Sauce",
+    "brand": "Nature's Heritage",
+    "message": "New: Nature's Heritage - Banana Punch Live Diamonds and Sauce $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Mai Tai Live Vape Cart",
+    "brand": "High Supply",
+    "message": "New: High Supply - Banana Mai Tai Live Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bake Sale Live Fire Vape Cart",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Bake Sale Live Fire Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BIC Lighter",
+    "brand": "Bic",
+    "message": "New: Bic - BIC Lighter $3.76"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apricot Gebo Pod + Battery",
+    "brand": "Ration",
+    "message": "New: Ration - Apricot Gebo Pod + Battery $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apples and Mangos Live Crumble",
+    "brand": "Fine Fettle",
+    "message": "New: Fine Fettle - Apples and Mangos Live Crumble $35.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz Live Hash Rosin",
+    "brand": "Southie Adams",
+    "message": "New: Southie Adams - Apple Tartz Live Hash Rosin $45.31"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apex Live Resin Vape Cart",
+    "brand": "Sticky Fish",
+    "message": "New: Sticky Fish - Apex Live Resin Vape Cart $30.74"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Mintz Cake",
+    "brand": "The Bank",
+    "message": "New: The Bank - Animal Mintz Cake $25.08"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Adobo Infused Seasoning",
+    "brand": "Shake N Baked",
+    "message": "New: Shake N Baked - Adobo Infused Seasoning $20.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Active Gebo Pod + Battery",
+    "brand": "Ration",
+    "message": "New: Ration - Active Gebo Pod + Battery $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ache Away Cherry Eddies",
+    "brand": "Betty's Eddies",
+    "message": "New: Betty's Eddies - Ache Away Cherry Eddies $15.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AVD Stik Battery",
+    "brand": "AVD",
+    "message": "New: AVD - AVD Stik Battery $16.18"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ACDC 1:1 Vape Cart",
+    "brand": "Solar Cannabis Co.",
+    "message": "New: Solar Cannabis Co. - ACDC 1:1 Vape Cart $40.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1/3oz Howl's - Magic Max",
+    "brand": "Howl's Tincture",
+    "message": "New: Howl's Tincture - 1/3oz Howl's - Magic Max $89.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "$65 Space Glass Bong",
+    "brand": "Nova Farms",
+    "message": "New: Nova Farms - $65 Space Glass Bong $65.00"
+  }
+]
