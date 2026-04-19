@@ -1,135 +1,111 @@
 import { chromium } from 'playwright';
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-async function extractProductsFromBUDR(page) {
-  return await page.evaluate(async () => {
-    const results = [];
-    const seen = {};
+function parseJaneProducts(text) {
+  var products = [];
+  var seen = {};
+  var blocks = text.split('Add to bag');
 
-    // Scroll to trigger lazy loading - CRITICAL for Shopify
-    for (let scroll = 0; scroll < 20; scroll++) {
-      window.scrollBy(0, 600);
-      await new Promise(r => setTimeout(r, 250));
+  for (var i = 0; i < blocks.length; i++) {
+    var block = blocks[i].trim();
+    if (block.length < 15) continue;
+    if (block.includes('Gift Card') || block.includes('gift card')) continue;
+
+    var strainMatch = block.match(/\b(Sativa|Indica|Hybrid)\b/i);
+    var strain = strainMatch ? strainMatch[1].toLowerCase() : null;
+
+    var thcMatch = block.match(/THC\s*(\d+\.?\d*)%?/) || block.match(/(\d+\.?\d*)\s*mg\s*THC/i) || block.match(/(\d+\.?\d*)mg THC/i);
+    var cbdMatch = block.match(/CBD\s*(\d+\.?\d*)%?/) || block.match(/(\d+\.?\d*)\s*mg\s*CBD/i);
+
+    var priceWeightMatch = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/i);
+    var plainPrice = block.match(/\$(\d+\.?\d*)/);
+
+    var price = null;
+    var weight = null;
+
+    if (priceWeightMatch) {
+      price = parseFloat(priceWeightMatch[1]);
+      weight = priceWeightMatch[2].trim();
+    } else if (plainPrice) {
+      price = parseFloat(plainPrice[1]);
     }
 
-    // Extract products from Shopify grid
-    // Look for product links with various Shopify patterns
-    const selectors = [
-      'a[href*="/products/"]',
-      '[data-product-id] a',
-      '.product-item a',
-      '[class*="ProductCard"] a',
-      '[class*="product-card"] a'
-    ];
+    if (!price || price <= 0) continue;
 
-    let productLinks = [];
-    for (const sel of selectors) {
-      productLinks = document.querySelectorAll(sel);
-      if (productLinks.length > 0) break;
-    }
+    var brand = '';
+    var name = '';
 
-    // Fallback: get all links that look like products
-    if (productLinks.length === 0) {
-      productLinks = Array.from(document.querySelectorAll('a')).filter(a => 
-        a.href.includes('/products/') && a.textContent.length > 3
-      );
-    }
-
-    // Extract text from each product area
-    const productContainers = document.querySelectorAll(
-      '[data-product-id], [class*="ProductCard"], [class*="product-card"], li[class*="product"]'
+    // Try to extract name from start of block
+    var endIdx = Math.min(
+      block.indexOf('THC') > 0 ? block.indexOf('THC') : 999,
+      block.indexOf('CBD') > 0 ? block.indexOf('CBD') : 999,
+      block.indexOf('$') > 0 ? block.indexOf('$') : 999,
+      120
     );
+    name = block.substring(0, endIdx).trim();
+    name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '').trim();
 
-    for (let i = 0; i < productContainers.length; i++) {
-      const container = productContainers[i];
-      const text = (container.textContent || '').replace(/\s+/g, ' ').trim();
-      
-      if (!text || text.length < 10) continue;
-
-      // Extract price (look for $ pattern)
-      const priceMatch = text.match(/\$(\d+\.?\d*)/);
-      if (!priceMatch) continue;
-
-      const price = parseFloat(priceMatch[1]);
-      if (price <= 0 || price > 500) continue; // Sanity check
-
-      // Extract product name (usually first part before price/THC)
-      let name = text;
-      const nameEndIdx = Math.min(
-        text.indexOf('$') > 0 ? text.indexOf('$') : 999,
-        text.indexOf('THC') > 0 ? text.indexOf('THC') : 999,
-        text.indexOf('CBD') > 0 ? text.indexOf('CBD') : 999,
-        200
-      );
-      if (nameEndIdx < 200) {
-        name = text.substring(0, nameEndIdx).trim();
+    // Extract brand from name (pattern: "BrandProduct NameBrandCategory")
+    var brandMatch = name.match(/^(.+?)([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s*$/);
+    if (!brandMatch) {
+      // Try another pattern: look for repeated brand name
+      var nameText = block.substring(0, Math.min(block.indexOf('$') || 200, 200));
+      var words = nameText.split(/(?=[A-Z])/);
+      if (words.length > 2) {
+        name = nameText.substring(0, 60).trim();
       }
-      name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '').trim();
-      name = name.substring(0, 80);
-
-      if (!name || name.length < 3) continue;
-
-      // Extract brand (usually "Brand Name -" pattern)
-      let brand = '';
-      const brandMatch = name.match(/^([A-Za-z][A-Za-z0-9\s.&!']+?)\s*[-\u2013\u2014]/);
-      if (brandMatch) {
-        brand = brandMatch[1].trim();
-        name = name.substring(brandMatch[0].length).trim();
-      }
-
-      // Extract cannabinoids
-      const thcMatch = text.match(/THC\s*[:\s]*(\d+\.?\d*)%?/i);
-      const cbdMatch = text.match(/CBD\s*[:\s]*(\d+\.?\d*)%?/i);
-
-      // Extract strain type
-      const strainMatch = text.match(/\b(Sativa|Indica|Hybrid)\b/i);
-      const strain = strainMatch ? strainMatch[1].toLowerCase() : null;
-
-      // Extract weight
-      const weightMatch = text.match(/(\d+\.?\d*)\s*(?:g|mg|ml|oz)/);
-      const weight = weightMatch ? weightMatch[0] : null;
-
-      // Create unique ID
-      const productId = container.getAttribute('data-product-id') || 
-                       (name + price).replace(/\W/g, '').substring(0, 20);
-      const externalId = 'budrcannabis-' + productId;
-
-      if (seen[externalId]) continue;
-      seen[externalId] = true;
-
-      results.push({
-        external_id: externalId,
-        name: name,
-        brand: brand || '',
-        category: determineCategoryFromText(text),
-        strain_type: strain,
-        thc_pct: thcMatch ? parseFloat(thcMatch[1]) : null,
-        cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
-        price: price,
-        original_price: null,
-        weight_label: weight,
-        deal_description: null,
-      });
     }
 
-    return results;
-  });
-}
+    name = name.replace(/\s+/g, ' ').trim();
+    if (name.length > 80) name = name.substring(0, 80).trim();
+    if (name.length < 3) continue;
 
-function determineCategoryFromText(text) {
-  const lower = text.toLowerCase();
-  if (lower.includes('flower') || lower.includes('oz') || lower.includes('gram')) return 'flower';
-  if (lower.includes('pre-roll') || lower.includes('pre roll') || lower.includes('preroll')) return 'pre-rolls';
-  if (lower.includes('vape') || lower.includes('cartridge') || lower.includes('cart') || lower.includes('disposable')) return 'vaporizers';
-  if (lower.includes('edible') || lower.includes('gummy') || lower.includes('gummies') || lower.includes('chocolate')) return 'edible';
-  if (lower.includes('concentrate') || lower.includes('wax') || lower.includes('rosin') || lower.includes('live resin')) return 'concentrate';
-  if (lower.includes('tincture') || lower.includes('oil') || lower.includes('drops')) return 'tincture';
-  if (lower.includes('topical') || lower.includes('balm') || lower.includes('cream')) return 'topical';
-  return 'other';
+    var category = 'other';
+    var catPatterns = [
+      [/\bFlower\b/i, 'flower'],
+      [/\bGround Flower\b/i, 'flower'],
+      [/\bPre Roll|Pre-Roll|Shorties\b/i, 'pre-rolls'],
+      [/\bVape|Cartridge|Cart|AIO|BRIQ|Disposable\b/i, 'vaporizers'],
+      [/\bEdible|Gummy|Gummies|Chocolate|Confection|Seltzer|Beverage\b/i, 'edible'],
+      [/\bConcentrate|Rosin|Resin|Wax|Badder|Shatter|Crumble\b/i, 'concentrate'],
+      [/\bTincture|Oil|Drops\b/i, 'tincture'],
+      [/\bTopical|Balm|Cream\b/i, 'topical'],
+    ];
+    for (var cp = 0; cp < catPatterns.length; cp++) {
+      if (catPatterns[cp][0].test(block)) { category = catPatterns[cp][1]; break; }
+    }
+
+    if (!weight) {
+      var wMatch = block.match(/\((\d+\.?\d*)\s*[Gg]\)/) || block.match(/(\d+\.?\d*)\s*(?:g|oz)\b/i);
+      if (wMatch) weight = wMatch[1] + 'g';
+    }
+
+    var productCode = block.match(/\b(\d{5})\b/)?.[1] || block.match(/\b(\d{4,6})\b/)?.[1];
+    var externalId = 'budrcannabis-' + (productCode || (name + price).replace(/[^a-z0-9]/gi, '').substring(0, 20));
+
+    if (seen[externalId]) continue;
+    seen[externalId] = true;
+
+    products.push({
+      external_id: externalId,
+      name: name,
+      brand: brand,
+      category: category,
+      strain_type: strain,
+      thc_pct: thcMatch ? parseFloat(thcMatch[1]) : null,
+      cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
+      price: price,
+      original_price: null,
+      weight_label: weight,
+      deal_description: null,
+    });
+  }
+
+  return products;
 }
 
 function normalizeBUDRProduct(raw) {
-  const normalized = normalizeProduct({
+  var normalized = normalizeProduct({
     external_id: raw.external_id,
     name: raw.name || '',
     brand: raw.brand || '',
@@ -159,48 +135,71 @@ export async function scrapeBUDRCannabis(dispensary) {
   }
 
   try {
-    const browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext({
+    var browser = await chromium.launch({ headless: true });
+    var context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
 
-    const page = await context.newPage();
-    
+    var page = await context.newPage();
+
     try {
       await page.goto(dispensary.store_url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(2000);
+      await page.waitForTimeout(3000);
 
-      // Handle age gate if present
+      // Handle age gate - click "Yes" button
       try {
-        const ageButton = await page.locator('button:has-text("I confirm"), button:has-text("Yes"), [aria-label*="21"]').first();
-        if (await ageButton.isVisible()) {
-          await ageButton.click();
-          await page.waitForTimeout(1500);
+        var ageBtn = page.locator('button:has-text("Yes"), a:has-text("Yes")').first();
+        if (await ageBtn.isVisible({ timeout: 3000 })) {
+          await ageBtn.click();
+          console.log('  [budrcannabis] Age gate passed');
+          await page.waitForTimeout(2000);
         }
       } catch (e) {
-        // No age gate, continue
+        // No age gate
       }
 
-      // Extract products
-      const rawProducts = await extractProductsFromBUDR(page);
-      console.log('  [budrcannabis] Extracted: ' + rawProducts.length + ' raw products');
+      // Wait for shadow DOM to load with products
+      await page.waitForTimeout(8000);
+
+      // Scroll to trigger lazy loading inside shadow DOM
+      for (var s = 0; s < 15; s++) {
+        await page.evaluate(function() { window.scrollBy(0, 600); });
+        await page.waitForTimeout(300);
+      }
+      await page.waitForTimeout(2000);
+
+      // Extract text from shadow DOM
+      var text = await page.evaluate(function() {
+        var host = document.getElementById('shadow-host');
+        if (host && host.shadowRoot) {
+          return host.shadowRoot.textContent || '';
+        }
+        // Fallback: try regular DOM
+        return document.body.innerText || '';
+      });
+
+      console.log('  [budrcannabis] Shadow DOM text: ' + text.length + ' chars');
+
+      var addToBagCount = (text.match(/Add to bag/g) || []).length;
+      console.log('  [budrcannabis] Add to bag buttons: ' + addToBagCount);
+
+      // Parse products using Jane-style parser
+      var rawProducts = parseJaneProducts(text);
+      console.log('  [budrcannabis] Parsed: ' + rawProducts.length + ' raw products');
 
       // Normalize and validate
-      const catCounts = {};
-      const normalized = [];
-      for (const raw of rawProducts) {
-        const prod = normalizeBUDRProduct(raw);
-        const cat = (prod.category || '').toLowerCase();
-        
-        // Filter out non-products
+      var catCounts = {};
+      var normalized = [];
+      for (var i = 0; i < rawProducts.length; i++) {
+        var prod = normalizeBUDRProduct(rawProducts[i]);
+        var cat = (prod.category || '').toLowerCase();
         if (cat === 'accessories' || cat === 'apparel') continue;
         if (validateProduct(prod).length > 0) continue;
-        
         catCounts[prod.category] = (catCounts[prod.category] || 0) + 1;
         normalized.push(prod);
       }
 
-      const catInfo = Object.entries(catCounts).map(e => e[0] + ': ' + e[1]).join(', ');
+      var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
       console.log('  [budrcannabis] Categories: ' + catInfo);
       console.log('  [budrcannabis] Done: ' + normalized.length + ' valid products');
 
@@ -210,9 +209,9 @@ export async function scrapeBUDRCannabis(dispensary) {
 
       return { products: normalized, errors: [] };
     } catch (err) {
-      await page.close();
-      await context.close();
-      await browser.close();
+      try { await page.close(); } catch(e) {}
+      try { await context.close(); } catch(e) {}
+      try { await browser.close(); } catch(e) {}
       console.error('  [budrcannabis] FAILED: ' + err.message);
       return { products: [], errors: [err.message] };
     }
