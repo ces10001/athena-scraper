@@ -1,109 +1,98 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-async function scrapeStorePage(browser, url, storeName) {
-  console.log('  [curaleaf] Loading: ' + url);
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-  });
-  const page = await context.newPage();
+async function extractProductsFromCurrentPage(page) {
+  return await page.evaluate(function() {
+    var results = [];
+    var seen = {};
+    var links = document.querySelectorAll('a[href*="/menu/"]');
 
-  try {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
-    await page.waitForTimeout(3000);
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      var href = a.getAttribute('href') || '';
+      var idMatch = href.match(/-(\d+)(?:\?|$)/);
+      if (!idMatch) continue;
+      var productId = idMatch[1];
+      if (seen[productId]) continue;
+      seen[productId] = true;
 
-    for (var i = 0; i < 30; i++) {
-      await page.evaluate(function() { window.scrollBy(0, 800); });
-      await page.waitForTimeout(200);
-    }
-    await page.waitForTimeout(2000);
+      var catMatch = href.match(/\/menu\/([a-z-]+)-\d+\//);
+      var category = catMatch ? catMatch[1] : 'other';
 
-    var products = await page.evaluate(function() {
-      var results = [];
-      var seen = {};
-      var links = document.querySelectorAll('a[href*="/menu/"]');
+      var text = (a.textContent || '').replace(/\s+/g, ' ').trim();
+      if (!text || text.length < 5) continue;
 
-      for (var i = 0; i < links.length; i++) {
-        var a = links[i];
-        var href = a.getAttribute('href') || '';
-        var idMatch = href.match(/-(\d+)(?:\?|$)/);
-        if (!idMatch) continue;
-        var productId = idMatch[1];
-        if (seen[productId]) continue;
-        seen[productId] = true;
+      var strainMatch = text.match(/\b(Sativa|Indica|Hybrid)\b/i);
+      var strain = strainMatch ? strainMatch[1] : null;
+      var thcMatch = text.match(/THC:\s*(\d+\.?\d*)%?/);
+      var cbdMatch = text.match(/CBD:\s*(\d+\.?\d*)%?/);
+      var thcMgMatch = text.match(/THC:\s*(\d+\.?\d*)\s*MG/i);
+      var prices = text.match(/\$(\d+\.?\d*)/g) || [];
+      var discountMatch = text.match(/(\d+)%\s*Off/i);
+      var weightMatch = text.match(/\b(\d+\.?\d*)\s*g\b(?!\s*ea)/i) ||
+                        text.match(/\b(\d+)\s*mg\s*$/im) ||
+                        text.match(/(\d+-Pack)/i);
 
-        var catMatch = href.match(/\/menu\/([a-z-]+)-\d+\//);
-        var category = catMatch ? catMatch[1] : 'other';
+      var brandMatch = text.match(/by\s+([A-Za-z][A-Za-z\s.!'&]+?)(?=[A-Z][a-z]{2,})/);
+      if (!brandMatch) brandMatch = text.match(/by\s+([A-Za-z][A-Za-z\s.!'&]+?)(?=THC|CBD|\$|\d+%)/);
+      var brand = brandMatch ? brandMatch[1].trim() : null;
 
-        var text = (a.textContent || '').replace(/\s+/g, ' ').trim();
-        if (!text || text.length < 5) continue;
-
-        var strain = (text.match(/\b(Sativa|Indica|Hybrid)\b/i) || [])[1] || null;
-        var thcMatch = text.match(/THC:\s*(\d+\.?\d*)%?/);
-        var cbdMatch = text.match(/CBD:\s*(\d+\.?\d*)%?/);
-        var prices = text.match(/\$(\d+\.?\d*)/g) || [];
-        var discountMatch = text.match(/(\d+)%\s*Off/i);
-        var weightMatch = text.match(/\b(\d+\.?\d*)\s*g\b/i) ||
-                          text.match(/\b(\d+)\s*mg\b/i) ||
-                          text.match(/(\d+-Pack)/i);
-
-        var brandMatch = text.match(/by\s+([A-Za-z][A-Za-z\s.!']+?)(?:\s*[A-Z][a-z])/);
-        var brand = brandMatch ? brandMatch[1].trim() : null;
-
-        var name = '';
-        if (brand) {
-          var afterBrand = text.indexOf(brand) + brand.length;
-          var beforeThc = text.indexOf('THC:');
-          var beforePrice = text.indexOf('$');
-          var endIdx = beforeThc > afterBrand ? beforeThc : (beforePrice > afterBrand ? beforePrice : text.length);
-          name = text.substring(afterBrand, endIdx).trim();
+      var name = '';
+      if (brand) {
+        var brandIdx = text.indexOf(brand);
+        var afterBrand = brandIdx + brand.length;
+        var thcIdx = text.indexOf('THC:');
+        var cbdIdx = text.indexOf('CBD:');
+        var priceIdx = text.indexOf('$');
+        var endPoints = [thcIdx, cbdIdx, priceIdx].filter(function(x) { return x > afterBrand; });
+        var endIdx = endPoints.length > 0 ? Math.min.apply(null, endPoints) : text.length;
+        name = text.substring(afterBrand, endIdx).trim();
+        name = name.replace(/\b\d+\.?\d*\s*g\b/gi, '').replace(/\b\d+mg\b/gi, '').trim();
+        name = name.replace(/^\d+\s*/, '').replace(/\s*\d+$/, '').trim();
+      }
+      if (!name || name.length < 2) {
+        var slugMatch = href.match(/\/menu\/[^/]+\/[a-z-]+-[a-z]+-(.+?)-\d+(?:\?|$)/);
+        if (slugMatch) {
+          name = slugMatch[1].replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
         }
-        if (!name) {
-          var slugMatch = href.match(/\/menu\/[^/]+\/(.+?)-\d+(?:\?|$)/);
-          if (slugMatch) {
-            name = slugMatch[1].replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
-          }
-        }
-
-        var salePrice = null;
-        var originalPrice = null;
-        if (prices.length >= 2) {
-          var p1 = parseFloat(prices[0].replace('$', ''));
-          var p2 = parseFloat(prices[1].replace('$', ''));
-          if (p1 < p2) { salePrice = p1; originalPrice = p2; }
-          else { salePrice = p1; originalPrice = p2 > 0 && p2 < p1 ? null : p2; }
-        } else if (prices.length === 1) {
-          salePrice = parseFloat(prices[0].replace('$', ''));
-        }
-
-        if (!salePrice && !name) continue;
-
-        results.push({
-          external_id: 'curaleaf-' + productId,
-          name: name || 'Unknown',
-          brand: brand || '',
-          category: category,
-          strain_type: strain ? strain.toLowerCase() : null,
-          thc_pct: thcMatch ? parseFloat(thcMatch[1]) : null,
-          cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
-          price: salePrice,
-          original_price: (originalPrice && originalPrice > salePrice) ? originalPrice : null,
-          weight_label: weightMatch ? weightMatch[0] : null,
-          deal_description: discountMatch ? discountMatch[1] + '% Off' : null,
-        });
       }
 
-      return results;
-    });
+      var salePrice = null;
+      var originalPrice = null;
+      if (prices.length >= 2) {
+        var p1 = parseFloat(prices[0].replace('$', ''));
+        var p2 = parseFloat(prices[1].replace('$', ''));
+        if (p1 < p2) { salePrice = p1; originalPrice = p2; }
+        else { salePrice = p1; }
+      } else if (prices.length === 1) {
+        salePrice = parseFloat(prices[0].replace('$', ''));
+      }
 
-    console.log('  [curaleaf] Extracted ' + products.length + ' products from DOM');
-    return products;
+      if (!salePrice && !name) continue;
 
-  } catch (err) {
-    console.error('  [curaleaf] Error on ' + url + ': ' + err.message);
-    return [];
-  } finally {
-    await context.close();
-  }
+      results.push({
+        external_id: 'curaleaf-' + productId,
+        name: name || 'Unknown Product',
+        brand: brand || '',
+        category: category,
+        strain_type: strain ? strain.toLowerCase() : null,
+        thc_pct: thcMatch ? parseFloat(thcMatch[1]) : (thcMgMatch ? parseFloat(thcMgMatch[1]) : null),
+        cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
+        price: salePrice,
+        original_price: (originalPrice && originalPrice > salePrice) ? originalPrice : null,
+        weight_label: weightMatch ? weightMatch[0] : null,
+        deal_description: discountMatch ? discountMatch[1] + '% Off' : (originalPrice ? 'Sale' : null),
+      });
+    }
+
+    var pageLinks = document.querySelectorAll('a[href*="page="]');
+    var maxPage = 1;
+    for (var k = 0; k < pageLinks.length; k++) {
+      var pm = (pageLinks[k].getAttribute('href') || '').match(/page=(\d+)/);
+      if (pm) { var pn = parseInt(pm[1]); if (pn > maxPage) maxPage = pn; }
+    }
+
+    return { products: results, maxPage: maxPage };
+  });
 }
 
 function normalizeCuraleafProduct(raw) {
@@ -138,51 +127,4 @@ export async function scrapeCuraleaf(dispensary) {
 
   try {
     var { chromium } = await import('playwright');
-    var browser = await chromium.launch({ headless: true });
-
-    var allProducts = new Map();
-    var errors = [];
-    var menuTypes = dispensary.menu_types || ['recreational'];
-
-    for (var m = 0; m < menuTypes.length; m++) {
-      var menuType = menuTypes[m];
-      var url = 'https://ct.curaleaf.com/shop/connecticut/' + dispensary.store_slug + '/' + menuType;
-
-      try {
-        var products = await scrapeStorePage(browser, url, dispensary.name);
-
-        for (var p = 0; p < products.length; p++) {
-          var raw = products[p];
-          var cat = (raw.category || '').toLowerCase();
-          if (cat === 'accessories' || cat === 'apparel') continue;
-
-          var normalized = normalizeCuraleafProduct(raw);
-          if (validateProduct(normalized).length === 0) {
-            var key = normalized.external_id;
-            if (!allProducts.has(key)) {
-              allProducts.set(key, normalized);
-            }
-          }
-        }
-      } catch (err) {
-        errors.push(menuType + ': ' + err.message);
-      }
-    }
-
-    await browser.close();
-
-    var result = Array.from(allProducts.values());
-    var catCounts = {};
-    result.forEach(function(p) { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
-    var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
-    console.log('  [curaleaf] Categories: ' + catInfo);
-    console.log('  [curaleaf] Done: ' + result.length + ' valid products');
-    return { products: result, errors: errors };
-
-  } catch (err) {
-    console.error('  [curaleaf] FAILED: ' + err.message);
-    return { products: [], errors: [err.message] };
-  }
-}
-
-export default { scrapeCuraleaf };
+    var browser = await chromium.launch({ headless: tru
