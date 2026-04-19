@@ -127,4 +127,87 @@ export async function scrapeCuraleaf(dispensary) {
 
   try {
     var { chromium } = await import('playwright');
-    var browser = await chromium.launch({ headless: tru
+    var browser = await chromium.launch({ headless: true });
+    var context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    });
+
+    var allProducts = new Map();
+    var errors = [];
+    var menuTypes = dispensary.menu_types || ['recreational'];
+
+    for (var m = 0; m < menuTypes.length; m++) {
+      var menuType = menuTypes[m];
+      var baseUrl = 'https://ct.curaleaf.com/shop/connecticut/' + dispensary.store_slug + '/' + menuType + '/menu';
+
+      try {
+        var page = await context.newPage();
+        await page.goto(baseUrl, { waitUntil: 'networkidle', timeout: 45000 });
+        await page.waitForTimeout(2000);
+
+        var firstResult = await extractProductsFromCurrentPage(page);
+        var maxPage = firstResult.maxPage || 1;
+        var pageProducts = firstResult.products || [];
+
+        console.log('  [curaleaf] ' + menuType + ' page 1: ' + pageProducts.length + ' products, ' + maxPage + ' total pages');
+
+        for (var p = 0; p < pageProducts.length; p++) {
+          var id = pageProducts[p].external_id;
+          if (!allProducts.has(id)) allProducts.set(id, pageProducts[p]);
+        }
+        await page.close();
+
+        for (var pg = 2; pg <= maxPage; pg++) {
+          var pageUrl = baseUrl + '?page=' + pg;
+          var nextPage = await context.newPage();
+          try {
+            await nextPage.goto(pageUrl, { waitUntil: 'networkidle', timeout: 30000 });
+            await nextPage.waitForTimeout(1500);
+            var pgResult = await extractProductsFromCurrentPage(nextPage);
+            var pgProducts = pgResult.products || [];
+            for (var pp = 0; pp < pgProducts.length; pp++) {
+              var pid = pgProducts[pp].external_id;
+              if (!allProducts.has(pid)) allProducts.set(pid, pgProducts[pp]);
+            }
+            if (pg % 5 === 0 || pg === maxPage) {
+              console.log('  [curaleaf] ' + menuType + ' page ' + pg + '/' + maxPage + ': ' + allProducts.size + ' total so far');
+            }
+          } catch (pgErr) {
+            console.warn('  [curaleaf] Page ' + pg + ' failed: ' + pgErr.message);
+          } finally {
+            await nextPage.close();
+          }
+          await new Promise(function(r) { setTimeout(r, 500); });
+        }
+      } catch (err) {
+        errors.push(menuType + ': ' + err.message);
+        console.error('  [curaleaf] ' + menuType + ' error: ' + err.message);
+      }
+    }
+
+    await context.close();
+    await browser.close();
+
+    var validProducts = [];
+    var catCounts = {};
+    for (var [key, raw] of allProducts) {
+      var cat = (raw.category || '').toLowerCase();
+      if (cat === 'accessories' || cat === 'apparel') continue;
+      var normalized = normalizeCuraleafProduct(raw);
+      if (validateProduct(normalized).length === 0) {
+        catCounts[normalized.category] = (catCounts[normalized.category] || 0) + 1;
+        validProducts.push(normalized);
+      }
+    }
+
+    var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
+    console.log('  [curaleaf] Categories: ' + catInfo);
+    console.log('  [curaleaf] Done: ' + validProducts.length + ' valid products (from ' + allProducts.size + ' total)');
+    return { products: validProducts, errors: errors };
+  } catch (err) {
+    console.error('  [curaleaf] FAILED: ' + err.message);
+    return { products: [], errors: [err.message] };
+  }
+}
+
+export default { scrapeCuraleaf };
