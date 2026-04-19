@@ -6,11 +6,11 @@ import { validateProduct } from './lib/normalizer.mjs';
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync, readdirSync } from 'fs';
 
-const ADAPTERS = { dutchie: scrapeDutchie, curaleaf: scrapeCuraleaf };
+var ADAPTERS = { dutchie: scrapeDutchie, curaleaf: scrapeCuraleaf };
 
 function parseArgs() {
   var args = process.argv.slice(2);
-  var opts = { platform: null, name: null, dryRun: false, concurrency: 1, verbose: false };
+  var opts = { platform: null, name: null, dryRun: false, verbose: false };
   for (var i = 0; i < args.length; i++) {
     switch (args[i]) {
       case '--platform': opts.platform = args[++i]; break;
@@ -33,7 +33,7 @@ function diffProducts(oldProducts, newProducts) {
       continue;
     }
     if (oldP.price_cents && newP.price_cents && oldP.price_cents !== newP.price_cents) {
-      alerts.push({ type: newP.price_cents < oldP.price_cents ? 'price_drop' : 'price_increase', product_name: newP.name, brand: newP.brand, message: newP.brand + ' ' + newP.name + ': $' + (oldP.price_cents / 100).toFixed(2) + ' → $' + (newP.price_cents / 100).toFixed(2) });
+      alerts.push({ type: newP.price_cents < oldP.price_cents ? 'price_drop' : 'price_increase', product_name: newP.name, brand: newP.brand, message: newP.brand + ' ' + newP.name + ': $' + (oldP.price_cents / 100).toFixed(2) + ' > $' + (newP.price_cents / 100).toFixed(2) });
     }
   }
   for (var [id, oldP] of oldMap) {
@@ -54,7 +54,6 @@ async function ensureDirs() {
 }
 
 function slug(d) { return d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''); }
-
 async function loadPrev(d) { try { return JSON.parse(await readFile(RESULTS_DIR + '/' + slug(d) + '.json', 'utf-8')); } catch { return []; } }
 async function saveProd(d, products) { await writeFile(RESULTS_DIR + '/' + slug(d) + '.json', JSON.stringify(products, null, 2)); }
 async function saveAlerts(d, alerts) { if (alerts.length > 0) await writeFile(ALERTS_DIR + '/' + slug(d) + '_' + Date.now() + '.json', JSON.stringify(alerts, null, 2)); }
@@ -78,7 +77,6 @@ async function main() {
   });
 
   console.log('Targets: ' + targets.length + ' dispensaries\n');
-
   var stats = { total: targets.length, ok: 0, fail: 0, products: 0, alerts: 0, errors: [] };
 
   for (var i = 0; i < targets.length; i++) {
