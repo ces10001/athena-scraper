@@ -138,8 +138,8 @@ export async function scrapeFineFettle(dispensary) {
         var page = null;
         try {
           page = await context.newPage();
-          await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
-          await page.waitForTimeout(2000);
+          await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+          await page.waitForTimeout(5000);
 
           for (var scroll = 0; scroll < 15; scroll++) {
             await page.evaluate(function() { window.scrollBy(0, 800); });
