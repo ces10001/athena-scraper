@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T01:30:42.339Z",
+  "lastUpdated": "2026-04-19T01:51:54.606Z",
   "dispensaries": [
     "high-profile-canton",
     "shangri-la-norwalk-main-ave",
@@ -8,6 +8,6 @@
   "stats": {
     "total": 2544,
     "scraped": 3,
-    "alerts": 1547
+    "alerts": 0
   }
 }
