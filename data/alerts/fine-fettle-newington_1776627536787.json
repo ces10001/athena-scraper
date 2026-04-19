@@ -1,0 +1,122 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Slingria (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "New: Sativa flower\n\nFind - Slingria (S) Flower $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Critical Crumb (H) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Glue Fondue (S) Flower",
+    "brand": "OZ\n\nSativa flower\n\nSponsored\n\nRythm",
+    "message": "OZ\n\nSativa flower\n\nSponsored\n\nRythm Glue Fondue (S) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Suga T's (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker Suga T's (H) Flower: $21.70 > $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "New: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "New: Hybrid flower\n\nCuraleaf - Atomic Breath (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SBC (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "New: OZ\n\nHybrid flower\n\nEarl Baker - SBC (H) Flower $24.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sunshine Daydream (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "Indica flower\n\nAffinity Grow Sunshine Daydream (I) Flower: $34.00 > $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "New: Indica flower\n\nAffinity Grow - GMO (I) Flower $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Sativa flower\n\nTheraplant Pinyatti (S) Flower: $45.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BNC-S-20 (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BNC-S-20 (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Orange Z (S) Flower: $90.00 > $79.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White (I) Flower",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Freestyle (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Freestyle (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Fritterz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake (I) Flower",
+    "brand": "Indica flower\n\nTheraplant",
+    "message": "Gone: Indica flower\n\nTheraplant - Wedding Cake (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RS1000 (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "Gone: OZ\n\nHybrid flower\n\nEarl Baker - RS1000 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Gone: Indica flower\n\nGrassroots - Pillow Mints (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91 (S) Smalls",
+    "brand": "Sativa flower\n\nLil Budz",
+    "message": "Gone: Sativa flower\n\nLil Budz - Chem 91 (S) Smalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "American Pi (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "Gone: OZ\n\nHybrid flower\n\nEarl Baker - American Pi (H) Flower"
+  }
+]

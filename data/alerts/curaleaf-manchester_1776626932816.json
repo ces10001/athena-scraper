@@ -1,0 +1,254 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Indica Princess Whole Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Indica Princess Whole Flower: $99.00 > $113.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns Whole Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns Whole Flower: $99.00 > $123.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG Whole Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG Whole Flower: $99.00 > $113.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pupil Whole Flower",
+    "brand": "CuraleafMr E",
+    "message": "CuraleafMr E Pupil Whole Flower: $99.00 > $113.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry PRFT Whole Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Raspberry PRFT Whole Flower: $99.00 > $113.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomme Jelly Whole Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Pomme Jelly Whole Flower: $99.00 > $123.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Delphi Diesel Pre-Roll Pack",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Delphi Diesel Pre-Roll Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Z Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz Ground Flower",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Gush Mintz Ground Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "3.5g",
+    "brand": null,
+    "message": "Gone: null - 3.5g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream CKE Whole Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Ice Cream CKE Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ParkerLeft on Red All-in-One",
+    "brand": "Edie",
+    "message": "Gone: Edie - ParkerLeft on Red All-in-One"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CannabisDesert Diamonds",
+    "brand": "Rodeo",
+    "message": "Gone: Rodeo - CannabisDesert Diamonds"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savoti Capsules",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Savoti Capsules"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowChill Relief Ratioed Gel",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowChill Relief Ratioed Gel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowMint Tincture",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowMint Tincture"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comfort Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Comfort Ratioed Tablets"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowGary P BHO Badder",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowGary P BHO Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaEucalyptus & Lemongrass Ratioed Lotion",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaEucalyptus & Lemongrass Ratioed Lotion"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowTap Out BHO Badder",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowTap Out BHO Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Harmony Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Harmony Ratioed Tablets"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowSpeakeasy BHO Badder",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowSpeakeasy BHO Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Humboldt Sour Diesel Whole Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Humboldt Sour Diesel Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g",
+    "brand": null,
+    "message": "Gone: null - 1g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints Whole Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ascend Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Ascend Ratioed Tablets"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaEmerald Kush Live Resin Sugar",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaEmerald Kush Live Resin Sugar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ProofDash of Sweet Infusion",
+    "brand": "Zero",
+    "message": "Gone: Zero - ProofDash of Sweet Infusion"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowEndgame Punchline BHO Badder",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowEndgame Punchline BHO Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BreakStars & Stripes High Dose Gummies",
+    "brand": "Lucky",
+    "message": "Gone: Lucky - BreakStars & Stripes High Dose Gummies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Live Rosin",
+    "brand": "TheraplantSBC",
+    "message": "Gone: TheraplantSBC - Live Rosin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowCBD Rollerball",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowCBD Rollerball"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaMend Cooling Ratioed Balm",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaMend Cooling Ratioed Balm"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowEnchanted Forest BHO Sugar",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowEnchanted Forest BHO Sugar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ProofDash of Cherry Infusion",
+    "brand": "Zero",
+    "message": "Gone: Zero - ProofDash of Cherry Infusion"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaLemon Skunk Live Resin Sugar",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaLemon Skunk Live Resin Sugar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Relief Ratioed Tablets",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Relief Ratioed Tablets"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaHazy Fields Live Resin Sugar",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaHazy Fields Live Resin Sugar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Buff Rosin",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Super Buff Rosin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaHazy Fields Live Resin Badder",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaHazy Fields Live Resin Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowPermanent Marker BHO Badder",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowPermanent Marker BHO Badder"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GrowPurple Milk RSO Syringe",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GrowPurple Milk RSO Syringe"
+  }
+]

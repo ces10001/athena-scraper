@@ -1,0 +1,98 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk (I) Flower",
+    "brand": "Indica flower\n\nBRIX Cannabis",
+    "message": "Indica flower\n\nBRIX Cannabis Purple Milk (I) Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind PB Bites (S) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Bananaconda (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "Sativa flower\n\nGood Green Chkn n WflZ (S) Flower: $140.00 > $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "New: Hybrid flower\n\nLil Budz - Jealousy (H) Smalls $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Indica flower\n\nGood Green Bubba F (I) Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "New: Hybrid flower\n\nBRIX Cannabis - Govmint Oasis (H) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SBC (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "New: OZ\n\nHybrid flower\n\nEarl Baker - SBC (H) Flower $24.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Gas Lit (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem 91 (S) Smalls",
+    "brand": "Sativa flower\n\nLil Budz",
+    "message": "Sativa flower\n\nLil Budz Chem 91 (S) Smalls: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Titan Express (S) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nLet's Burn",
+    "message": "New: OFF\n\nIndica flower\n\nLet's Burn - CT Kush Cake (I) Flower $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nLet's Burn",
+    "message": "New: OFF\n\nHybrid flower\n\nLet's Burn - Mule Fuel (H) Flower $33.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "products\n\nHybrid flower\n\nSponsored\n\nTheraplant",
+    "message": "Gone: products\n\nHybrid flower\n\nSponsored\n\nTheraplant - Banapple Medellin (H) Flower"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss - C0170000009",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid Galaxeats Gummies Blueberry Bliss - C0170000009 $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Awssom Pre-Pack 7g Hi-Fi 4G #9 (S) - 00044",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Awssom Pre-Pack 7g Hi-Fi 4G #9 (S) - 00044"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Orange Sunshine Pre-Rolls (I) - 00888",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Orange Sunshine Pre-Rolls (I) - 00888"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Theraplant Wedding Cake Infused Shorties (I) - 41677",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Theraplant Wedding Cake Infused Shorties (I) - 41677"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Island Punch | Indica Gummies | 100mg (20pk) | C0060000374",
+    "brand": "Wana",
+    "message": "New: Wana - Island Punch | Indica Gummies | 100mg (20pk) | C0060000374 $22.10"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy | Pre-Pack Smalls | 3.5g | 000824 | WARNING: High THC",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy | Pre-Pack Smalls | 3.5g | 000824 | WARNING: High THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "MAC Stomper | Pre-Pack | 3.5g | 00703",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - MAC Stomper | Pre-Pack | 3.5g | 00703"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000478",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000478"
+  }
+]

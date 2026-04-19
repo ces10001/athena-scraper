@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Bubble | Disposable Vape | 2g | 26843",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Bubble | Disposable Vape | 2g | 26843 $90.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Bubble | Disposable Vape | 2g | 26534",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Bubble | Disposable Vape | 2g | 26534"
+  }
+]

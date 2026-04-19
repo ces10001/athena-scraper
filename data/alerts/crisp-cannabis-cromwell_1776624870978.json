@@ -1,0 +1,224 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Blue Dream 1g Pre-roll 0047",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Blue Dream 1g Pre-roll 0047 $8.12"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "INC.EDIBLES 20 PACK GREENER APPLE FAST ACTING THC GUMMIES 01192",
+    "brand": "inc.edibles",
+    "message": "inc.edibles INC.EDIBLES 20 PACK GREENER APPLE FAST ACTING THC GUMMIES 01192: $8.00 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272: $15.20 > $19.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0077",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Blueberry Lemonade Lucky Elixir 0077: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "lucky break",
+    "message": "lucky break Spearmint Lucky Spritz 0046: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FAST ACTING LUCKY HOT HONEY 0089",
+    "brand": "lucky break",
+    "message": "lucky break FAST ACTING LUCKY HOT HONEY 0089: $17.20 > $21.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "inc.edibles 20 Pack Summer Peach THC Gummies 01087",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Summer Peach THC Gummies 01087: $15.20 > $19.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246",
+    "brand": "Happy Confections",
+    "message": "Happy Confections THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246: $13.60 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Wintergreen Hybrid Mints T95.2mg H 00196",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Wintergreen Hybrid Mints T95.2mg H 00196: $28.80 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Agave 0086",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Lucky Agave 0086: $11.60 > $14.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Fruit Punch Lucky Elixir 0075: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Coast Cannabis CO. Peach 20:1 Infused Gummies (CBD:THC) Microdosed (C0070000344)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Peach 20:1 Infused Gummies (CBD:THC) Microdosed (C0070000344): $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219",
+    "brand": "Happy Confections",
+    "message": "Happy Confections The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219: $13.60 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208: $28.80 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "lucky break",
+    "message": "lucky break Peppermint Lucky Spritz 0060: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "lucky break",
+    "message": "lucky break Lemon Lucky Spritz 0058: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0076",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Watermelon Lime Lucky Elixir 0076: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Lucky Honey 0087: $21.20 > $26.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Coast Cannabis CO. Cranberry Pom 5:5:5 Infused Gummies (CBN:CBD:THC) (C0070000311)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Cranberry Pom 5:5:5 Infused Gummies (CBN:CBD:THC) (C0070000311): $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00421",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero Cannabis-Infused Gummies 00421: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry Cannabis-Infused Gummies 00439: $27.20 > $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Mule Fuel 1g Pre-roll 0045",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Mule Fuel 1g Pre-roll 0045"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Blue Dream 3.5g 0042",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Blue Dream 3.5g 0042"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Mule Fuel 7g Fun Size Budz 0036 (WARNING- HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Mule Fuel 7g Fun Size Budz 0036 (WARNING- HIGH THC)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Mule Fuel 3.5g 0035 (WARNING- HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Mule Fuel 3.5g 0035 (WARNING- HIGH THC)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Pack 3.5g SZO 00073",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Springtime Pre-Pack 3.5g SZO 00073"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata 1g Pre Roll (H) 00542",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - C-Stata 1g Pre Roll (H) 00542"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coast Cannabis CO. Cherry 10:5 Infused Gummies (CBD:THC) (C0070000343)",
+    "brand": "COAST Cannabis Co.",
+    "message": "Gone: COAST Cannabis Co. - Coast Cannabis CO. Cherry 10:5 Infused Gummies (CBD:THC) (C0070000343)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding Flower I 26561",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding Flower I 26561"
+  }
+]

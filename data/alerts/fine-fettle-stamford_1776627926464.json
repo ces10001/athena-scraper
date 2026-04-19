@@ -1,0 +1,122 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Moonbeam Latto (H) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind Slingria (S) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG (I) Flower",
+    "brand": "Indica flower\n\nCuraleaf",
+    "message": "Indica flower\n\nCuraleaf True OG (I) Flower: $86.10 > $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "New: Hybrid flower\n\nBRIX Cannabis - Jungle Cake (H) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "New: Indica flower\n\nGood Green - Bubba F (I) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "New: Hybrid flower\n\nBRIX Cannabis - Govmint Oasis (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Hybrid flower\n\nTheraplant Gas Face (H) Flower: $123.00 > $140.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Back Porch (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Back Porch (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "New: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "New: Sativa flower\n\nCuraleaf - Pomme Jelly (S) Flower $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "New: Hybrid flower\n\nTheraplant - Black Cherry GMO (H) Flower $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots Zesty Garlic Kookyz (I) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "New: Hybrid flower\n\nCuraleaf - White Hot Guava (H) Flower $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Gas Lit (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Atomic Breath (H) Flower $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Pi (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Sativa flower\n\nTheraplant Berry Pi (S) Flower: $70.00 > $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "New: Sativa flower\n\nCuraleaf - Orange Z (S) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Gone: Indica flower\n\nSponsored\n\nRythm - Animal Face (I) Flower"
+  }
+]

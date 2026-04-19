@@ -1,6 +1,9 @@
 {
-  "lastUpdated": "2026-04-19T09:50:40.220Z",
+  "lastUpdated": "2026-04-19T20:14:16.471Z",
   "dispensaries": [
+    "affinity-dispensary",
+    "affinity-new-haven-med",
+    "affinity-new-haven-rec",
     "awwsom",
     "crisp-cannabis-cromwell",
     "crisp-cannabis-east-hartford",
@@ -37,6 +40,8 @@
     "rejoice-meriden",
     "rejoice-norwich",
     "rejoice-seymour",
+    "rise-branford",
+    "rise-orange",
     "rodeo-cannabis-rocky-hill",
     "shangri-la-norwalk-ct-ave",
     "shangri-la-norwalk-main-ave",
@@ -53,8 +58,8 @@
     "zen-leaf-meriden"
   ],
   "stats": {
-    "total": 13986,
-    "scraped": 62,
-    "alerts": 7655
+    "total": 13121,
+    "scraped": 67,
+    "alerts": 5026
   }
 }

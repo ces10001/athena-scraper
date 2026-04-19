@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade - 00033",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Pink Lemonade - 00033 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Affinity Lemon Skunk Flower (S) - 00883",
+    "brand": "Affinity",
+    "message": "New: Affinity - Affinity Lemon Skunk Flower (S) - 00883 $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity",
+    "message": "New: Affinity - Coconut Milk Flower T29.49% I 00794 $33.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Shaka Pre-Pack 3.5g Banana Cake #20 (BNC-S-20) 00087",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - Shaka Pre-Pack 3.5g Banana Cake #20 (BNC-S-20) 00087"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Pack 3.5g Devi #11 (D11) (S) - 00091",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Pack 3.5g Devi #11 (D11) (S) - 00091"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Awssom Pre-Ground 7g Hi-Fi 4G #9 (S) - 00070",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Awssom Pre-Ground 7g Hi-Fi 4G #9 (S) - 00070"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 7g BNC-S-20 00105",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 7g BNC-S-20 00105"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies (H) - 00218",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Fast-Acting Strawberry Kiwi Gummies (H) - 00218"
+  }
+]

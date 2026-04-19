@@ -1,0 +1,116 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Animal Face (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Indica flower\n\nSponsored\n\nRythm Animal Face (I) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Gas Lit (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Baby C.kes (I) Flower",
+    "brand": "OZ\n\nIndica flower\n\nEarl Baker",
+    "message": "OZ\n\nIndica flower\n\nEarl Baker Baby C.kes (I) Flower: $27.30 > $30.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Trophy Diesel (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker Trophy Diesel (H) Flower: $27.30 > $30.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Hybrid flower\n\nall:hours 10G's (H) part:timers Flower: $41.00 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "RS1000 (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker RS1000 (H) Flower: $27.30 > $30.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Kandi Jam (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind Kandi Jam (S) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "Hybrid flower\n\nBRIX Cannabis Govmint Oasis (H) Flower: $35.00 > $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Hybrid flower\n\nSponsored\n\nTheraplant",
+    "message": "Gone: Hybrid flower\n\nSponsored\n\nTheraplant - Carbon FBR (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "Gone: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Gone: Hybrid flower\n\nall:hours - Mule Fuel (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGood Green",
+    "message": "Gone: OFF\n\nIndica flower\n\nGood Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "Gone: Indica flower\n\nall:hours - Hash Burger (I) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "Gone: Indica flower\n\nAffinity Grow - Garlic Icing (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nLet's Burn",
+    "message": "Gone: OFF\n\nIndica flower\n\nLet's Burn - CT Kush Cake (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "Gone: Indica flower\n\nAffinity Grow - Hippie Crasher (I) Flower"
+  }
+]

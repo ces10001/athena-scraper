@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Chew RSO Grape Currant 1:1 Gummies I 00879",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Chew RSO Grape Currant 1:1 Gummies I 00879 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01504 TC 37.418%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01504 TC 37.418% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Sour Green Apple (S) T99.4mg - C0170000023",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Sour Green Apple (S) T99.4mg - C0170000023 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01454 TC 28.434%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01454 TC 28.434% $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 1g|Starstruck 00128",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy|PreRoll 1g|Starstruck 00128 $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Banapple Burger Rosin Voca Pro 41616",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Banapple Burger Rosin Voca Pro 41616 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Mule Fuel 1g Pre-roll 0026",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Mule Fuel 1g Pre-roll 0026 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wana Indica Gummies Blueberry 00251",
+    "brand": "Wana",
+    "message": "New: Wana - Wana Indica Gummies Blueberry 00251 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke 1g Infused PR 41524",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke 1g Infused PR 41524 $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon Vape 41571",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon Vape 41571 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Mango Puff (I) C0170000036",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Mango Puff (I) C0170000036 $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000038",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Golden Tangie (S) C0170000038 $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND. Preroll 1g Single Critical Crumb (H) 01459 TC 19.32%",
+    "brand": "Find.",
+    "message": "New: Find. - FIND. Preroll 1g Single Critical Crumb (H) 01459 TC 19.32% $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg THCA Infused Pre-Roll H 26846",
+    "brand": "CT Pharma",
+    "message": "New: CT Pharma - Durban Stardawg THCA Infused Pre-Roll H 26846 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405 $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing 1g LT Vape T865 I 00843",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing 1g LT Vape T865 I 00843"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tart Vape 41561",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Apple Tart Vape 41561"
+  }
+]

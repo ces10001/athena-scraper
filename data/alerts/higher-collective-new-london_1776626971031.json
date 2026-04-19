@@ -1,0 +1,188 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "CannabisGush Mintz Disposable",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisGush Mintz Disposable $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewLive Resin Pink Lemonade Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewLive Resin Pink Lemonade Gummies $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fritterz Whole Flower",
+    "brand": "comffy",
+    "message": "New: comffy - Fritterz Whole Flower $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisPurple Milk Lil Budz",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisPurple Milk Lil Budz $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakPineapple Expression Rechargeable Disposable",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakPineapple Expression Rechargeable Disposable $26.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakMaui Wowie Disposable",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakMaui Wowie Disposable $26.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Taffy Twist x Dulce De Uva Cartridge",
+    "brand": "AGL",
+    "message": "New: AGL - Taffy Twist x Dulce De Uva Cartridge $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakLive Resin Rainbow Beltz Disposable",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakLive Resin Rainbow Beltz Disposable $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BreakBlueberry Dream Rechargeable Disposable",
+    "brand": "Lucky",
+    "message": "New: Lucky - BreakBlueberry Dream Rechargeable Disposable $26.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lady in Red Live Resin Disposable",
+    "brand": "Amigos",
+    "message": "New: Amigos - Lady in Red Live Resin Disposable $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewRaspberry Lime 5:1 Gummies",
+    "brand": "Sound",
+    "message": "New: Sound - ViewRaspberry Lime 5:1 Gummies $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Snoozzzeberry $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Blue Razzberry Gummies",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Blue Razzberry Gummies $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple Pre-Roll",
+    "brand": "Affinity",
+    "message": "New: Affinity - Black Maple Pre-Roll $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaHeir Heads Shorties",
+    "brand": "CT",
+    "message": "New: CT - PharmaHeir Heads Shorties $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CannabisPermanent Marker Whole Flower",
+    "brand": "Brix",
+    "message": "Gone: Brix - CannabisPermanent Marker Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Frosting Gelato Pre-Roll",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Blueberry Frosting Gelato Pre-Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin Whole Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Z Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Marker Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Marker Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Ghost Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Green Ghost Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Papi Purple Live Resin Disposable",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Papi Purple Live Resin Disposable"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "Gone: null - 0.5g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "0.5g",
+    "brand": null,
+    "message": "Gone: null - 0.5g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ViewPeanut Butter Pretzel Milk Chocolate Bar",
+    "brand": "Sound",
+    "message": "Gone: Sound - ViewPeanut Butter Pretzel Milk Chocolate Bar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Sour Watermelon Lime Gummies",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Fast Acting Sour Watermelon Lime Gummies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "ViewMidnight Mint 2:1 CBN Chocolate Bar",
+    "brand": "Sound",
+    "message": "Gone: Sound - ViewMidnight Mint 2:1 CBN Chocolate Bar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Quick Limoncello Gummies",
+    "brand": "Wana",
+    "message": "Gone: Wana - Quick Limoncello Gummies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey Fatboy",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey Fatboy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey Infused Party Pack",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey Infused Party Pack"
+  }
+]

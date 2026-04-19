@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1g Sub Zero (SZO) (I) - 00092",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1g Sub Zero (SZO) (I) - 00092 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g LMJ 00099",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g LMJ 00099 $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Pineapple Express 1g Vape (S) - 00860",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Pineapple Express 1g Vape (S) - 00860"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Earl Baker Mac N Jack 1g Pre Roll (S) 96000",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Earl Baker Mac N Jack 1g Pre Roll (S) 96000"
+  }
+]

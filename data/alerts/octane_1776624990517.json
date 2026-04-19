@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Mango | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView",
+    "brand": "SoundView",
+    "message": "SoundView Mango | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blood Orange | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView",
+    "brand": "SoundView",
+    "message": "SoundView Blood Orange | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Kiwi | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView",
+    "brand": "SoundView",
+    "message": "SoundView Strawberry Kiwi | 12oz Can | THC Seltzer | 3mg THC, 3mg CBD, 3mg CBG | SoundView: $6.00 > $4.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Live Resin Watermelon 1:1:1 THC,CBD,CBG ( H ) Gummies 00192",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Live Resin Watermelon 1:1:1 THC,CBD,CBG ( H ) Gummies 00192"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach RSO Gummies ( I ) 20ct 00205",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Peach RSO Gummies ( I ) 20ct 00205"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Sunset 10ct Gummies ( I ) | 00365 | Camino",
+    "brand": "Camino",
+    "message": "Gone: Camino - Strawberry Sunset 10ct Gummies ( I ) | 00365 | Camino"
+  }
+]

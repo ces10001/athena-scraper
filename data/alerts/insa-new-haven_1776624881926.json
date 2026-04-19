@@ -1,0 +1,62 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "all:hours Banapple Burger Rosin Voca Pro 41616",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Banapple Burger Rosin Voca Pro 41616 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Musk #1 1g LT Vape T823 H 00859",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Musk #1 1g LT Vape T823 H 00859 $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Banapple Burger Rosin Cart 41617",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Banapple Burger Rosin Cart 41617 $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon MT 41568",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon MT 41568 $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - Pure Michigan 091",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower - Pure Michigan 091 $40.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cke 0.5g BHO Slim Bar T433 I 00786",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Ice Cream Cke 0.5g BHO Slim Bar T433 I 00786"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Whole Flower 14g Raspberry PRFT (S) 01055 TC 25.183%",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Curaleaf Whole Flower 14g Raspberry PRFT (S) 01055 TC 25.183%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cann - Lemon Lavender 12oz (3mg THC 6mg CBD)",
+    "brand": "Cann",
+    "message": "Gone: Cann - Cann - Lemon Lavender 12oz (3mg THC 6mg CBD)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Cartridge 1g Old School OG (H) 01386",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Cartridge 1g Old School OG (H) 01386"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz Shorties I 26838",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Jokerz Shorties I 26838"
+  }
+]

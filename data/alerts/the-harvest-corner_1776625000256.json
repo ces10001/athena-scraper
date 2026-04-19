@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Live Rosin Peach Mango Gummies T98.2 10pk (2-26758)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Live Rosin Peach Mango Gummies T98.2 10pk (2-26758) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints part:timers Flower T24.34 (4-41198)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints part:timers Flower T24.34 (4-41198) $23.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango RSO Gummies T91.4 10pk (2-26926)",
+    "brand": "Encore",
+    "message": "New: Encore - Mango RSO Gummies T91.4 10pk (2-26926) $24.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jungle Cake Lil' Budz Flower T27.35 (10-00491)",
+    "brand": "BRX",
+    "message": "Gone: BRX - Jungle Cake Lil' Budz Flower T27.35 (10-00491)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin Flower T26.12 (4-41721)",
+    "brand": "Thera",
+    "message": "Gone: Thera - Banapple Medellin Flower T26.12 (4-41721)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata Lil' Budz Flower T25.99 (10-00402)",
+    "brand": "BRX",
+    "message": "Gone: BRX - C-Stata Lil' Budz Flower T25.99 (10-00402)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz 5 Pack THCA Infused Shorties Pre Rolls T50.31 5pk (2-26904)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Gush Mintz 5 Pack THCA Infused Shorties Pre Rolls T50.31 5pk (2-26904)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Wedding Single Fatboy Pre Roll T41.61 (4-41459)",
+    "brand": "Thera",
+    "message": "Gone: Thera - Hash Wedding Single Fatboy Pre Roll T41.61 (4-41459)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green G Vape Cart T453 (4-41175)",
+    "brand": "Thera",
+    "message": "Gone: Thera - Green G Vape Cart T453 (4-41175)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints over:timers Flower T22.98 (4-41626)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints over:timers Flower T22.98 (4-41626)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango RSO Gummies T94 10pk (2-26850)",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Mango RSO Gummies T94 10pk (2-26850)"
+  }
+]

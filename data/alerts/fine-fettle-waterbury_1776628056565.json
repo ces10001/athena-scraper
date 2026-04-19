@@ -1,0 +1,68 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Indica flower\n\nSponsored\n\nRythm Cheddar Cheeze (I) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem-band (H) Flower",
+    "brand": "Sponsored\n\nCTPharma",
+    "message": "Sponsored\n\nCTPharma Chem-band (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "RS1000 (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker RS1000 (H) Flower: $27.30 > $30.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Indica flower\n\nGood Green Bubba F (I) Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Hybrid flower\n\nGood Green Bananaconda (H) Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "Indica flower\n\nall:hours Hash Burger (I) part:timers Flower: $35.00 > $31.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "OZ\n\nSativa flower\n\nCuraleaf",
+    "message": "OZ\n\nSativa flower\n\nCuraleaf Pomme Jelly (S) Flower: $150.00 > $92.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paradise Snacks (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Gone: Indica flower\n\nGood Green - Paradise Snacks (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "Gone: Sativa flower\n\nGrassroots - Pineapple Sunrise (S) Flower"
+  }
+]
