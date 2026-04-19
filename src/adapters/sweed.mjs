@@ -140,7 +140,6 @@ function normalizeSweedProduct(raw) {
 
 async function getTargetFrame(page) {
   // Check for sweed iframe (used by Zen Leaf and others)
-  // If found, extract from inside the iframe; otherwise use main page
   try {
     var sweedFrame = page.frame('sweed-iframe-display');
     if (sweedFrame) {
@@ -149,7 +148,7 @@ async function getTargetFrame(page) {
     }
   } catch (e) {}
 
-  // Fallback: try to find any iframe with sweed in the name/url
+  // Fallback: try to find any iframe with sweed in the url
   try {
     var frames = page.frames();
     for (var f = 0; f < frames.length; f++) {
@@ -161,8 +160,29 @@ async function getTargetFrame(page) {
     }
   } catch (e) {}
 
-  // No iframe found, use main page (Curaleaf, HC work this way)
   return page;
+}
+
+async function expandAllProducts(page) {
+  // Click "View all" buttons to expand product lists (HC and similar)
+  // Also click "Show more" buttons for additional content
+  try {
+    var clicked = await page.evaluate(function() {
+      var count = 0;
+      var buttons = document.querySelectorAll('button');
+      for (var i = 0; i < buttons.length; i++) {
+        var text = buttons[i].textContent.trim().toLowerCase();
+        if (text.includes('view all') || text === 'show more') {
+          buttons[i].click();
+          count++;
+        }
+      }
+      return count;
+    });
+    if (clicked > 0) {
+      console.log('  [sweed] Clicked ' + clicked + ' expand buttons');
+    }
+  } catch (e) {}
 }
 
 export async function scrapeSweed(dispensary) {
@@ -191,18 +211,29 @@ export async function scrapeSweed(dispensary) {
         await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
         await page.waitForTimeout(12000);
 
-        // Get the correct frame to extract from (iframe for Zen Leaf, main page for others)
+        // Get correct frame (iframe for Zen Leaf, main page for others)
         var targetFrame = await getTargetFrame(page);
 
-        // Scroll to load lazy content
+        // Click "View all" and "Show more" buttons (HC fix)
+        await expandAllProducts(targetFrame);
+        await page.waitForTimeout(3000);
+
+        // Click them again in case more appeared after first round
+        await expandAllProducts(targetFrame);
+        await page.waitForTimeout(2000);
+
+        // Scroll to load all lazy content
         try {
-          await targetFrame.evaluate(function() {
-            for (var i = 0; i < 10; i++) {
-              window.scrollBy(0, 600);
-            }
-          });
+          for (var s = 0; s < 20; s++) {
+            await targetFrame.evaluate(function() { window.scrollBy(0, 800); });
+            await page.waitForTimeout(300);
+          }
           await page.waitForTimeout(2000);
         } catch (e) {}
+
+        // Click any remaining "Show more" after scrolling
+        await expandAllProducts(targetFrame);
+        await page.waitForTimeout(2000);
 
         var firstResult = await extractProductsFromPage(targetFrame);
         var maxPage = firstResult.maxPage || 1;
@@ -217,6 +248,7 @@ export async function scrapeSweed(dispensary) {
         }
         await page.close();
 
+        // Paginate if needed (Curaleaf uses URL-based pagination)
         if (maxPage > 1) {
           for (var pg = 2; pg <= maxPage; pg++) {
             var sep = menuUrl.includes('?') ? '&' : '?';
@@ -224,10 +256,18 @@ export async function scrapeSweed(dispensary) {
             var nextPage = await context.newPage();
             try {
               await nextPage.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-              await nextPage.waitForTimeout(8000);
+              await nextPage.waitForTimeout(10000);
 
-              // Check for iframe again on paginated pages
               var nextTarget = await getTargetFrame(nextPage);
+
+              // Scroll to load lazy content on paginated pages
+              try {
+                for (var ps = 0; ps < 10; ps++) {
+                  await nextTarget.evaluate(function() { window.scrollBy(0, 600); });
+                  await nextPage.waitForTimeout(200);
+                }
+                await nextPage.waitForTimeout(1000);
+              } catch (e) {}
 
               var pgResult = await extractProductsFromPage(nextTarget);
               for (var pp = 0; pp < pgResult.products.length; pp++) {
