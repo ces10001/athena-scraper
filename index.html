@@ -11,14 +11,15 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script>window.HELMET_IMG="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAYfUlEQVR42rV6W28kV5JeRJyTmXXJqiLrQhYpsrvZN6mlHkkzmhnNaCysd+3d8QC7C4/tV8OAAb/4Fxjwg3+B4VfDv2ANPyywftm5eKAZrL3StKZbal36zm52N7t5qSLrmpWZ55wIP2RWscgm5RkbLhAEi0VWRZwT8cUXXwQiIoAAIAAAgIgAAgLmP5/6QABEJAWkQCkEAkVIKCLgGJUSEHGMAIAIzKgUao1KAwAqjUqJNcIOnJPs0wWQFCCKs4gIiJB9NCKScmnCJgUmcE7YIYAwz2zRACACCCgAIgIEgKkAAAkYAIERgACRGQsyNBFAAkQiAAQkQEBEREJERgACRGQsyNBFAAkYAIEREJERgACRGQs4gIiJBFBpZBQmFHp3HpCAEClxDlxDgQylxARhOft0UfHfOy4UUBeNV8wPxYAAkQgBAQkAsi/EwggIQAhCAAiokJUikiT9iRzQESYgRwAolIojEqDiLBTQYGtzT9NKUDkJM6jY3bMfGSYiOijyJl/nBE8iAhI2dkDISBlRgIAZFeR/RkpAJvfgAiSzkKIACkIxBhyipWHCrL/FQBxRnkBKp09R0TyfDsZCzOAgDBkZz8XPNMQQsA5g/N3lFOOHwgBFWTmEuVXgQiISAREpLQAgAhqT0RABIlABLUi7ZHSoEj5BceOPA8QgQiEQYBR2FlVLBEpZ1JhId8Ta9mmgJAbjQjWyTSQZgGv8gtCAAREnJmOeOzgEQFJZ+YCIRABEhKhIkQirfPvpEVE+UEeV0oDAmlf+T75AWpNfoCkhBlESCsQIJ2FMZLS/mJdrANE8n0zGoozYp0wAztEFGsBBJWXsxu2J+sY/uGF7P/a/KO53ezsp3UCss3vWWQ7BpdREhBrUam8rvMpwK3OGP79f3ZnirCZD1n85PU8ByeeJYY4Ru3lc6ZXHPjf2k+da8y5EmQAAAAASUVORK5CYII=";</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--f);background:var(--bg);color:var(--tx);min-height:100vh}
 ::selection{background:var(--cy);color:#fff}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#eee}::-webkit-scrollbar-thumb{background:#ccc;border-radius:3px}
 .app{max-width:1520px;margin:0 auto;padding:14px 22px}
 .hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;flex-wrap:wrap;gap:12px}
-.logo{display:flex;align-items:center;gap:14px}.logo img{width:58px;height:58px;object-fit:contain;animation:helmglow 3s ease-in-out infinite}@keyframes helmglow{0%,100%{filter:drop-shadow(0 0 6px rgba(232,96,10,.25))}50%{filter:drop-shadow(0 0 18px rgba(232,96,10,.6)) drop-shadow(0 0 30px rgba(232,96,10,.25))}}
+.logo{display:flex;align-items:center;gap:14px}
 .lt{display:flex;flex-direction:column}.lt h1{font-size:28px;font-weight:800;letter-spacing:4px;color:var(--cy2);line-height:1}.lt span{font-size:10px;letter-spacing:2px;color:var(--tx2);font-family:var(--m);margin-top:2px}
 .meta{font-family:var(--m);font-size:10px;color:var(--tx2);text-align:right;line-height:1.7}
 .glow{height:1px;background:linear-gradient(90deg,transparent,var(--cy),transparent);margin:10px 0;opacity:.2}
@@ -147,7 +148,7 @@ function App(){
 
 function Hdr({d}){
   const t=d?.scraped_at?new Date(d.scraped_at).toLocaleString("en-US",{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"}):"";
-  return<div className="hdr"><div className="logo"><img src={window.HELMET_IMG} alt=""/><div className="lt"><h1>ATHENA</h1></div></div>
+  return<div className="hdr"><div className="logo"><div className="lt"><h1>ATHENA</h1></div></div>
     <div className="meta">{d&&<>{t&&<div>Updated: {t}</div>}<div>{d.stats?.unique_locations||d.stats?.dispensary_count||0} dispensaries | {(d.stats?.total_active||0).toLocaleString()} products</div></>}</div></div>;
 }
 
@@ -183,7 +184,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
   var[selectedProduct,setSelectedProduct]=useState(null);
   useEffect(()=>{if(searchResults.length===1)setSelectedProduct(searchResults[0]);else if(q.trim()&&searchResults.length>0)setSelectedProduct(searchResults[0]);else setSelectedProduct(null)},[searchResults]);
 
-  return<><div className="stats">{[["Active SKUs",data.stats?.total_active||0,"","Total products tracked"],["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Comparable",data.stats?.comparable||0,"","Products at 2+ dispensaries"],["Deals",data.stats?.deals||0,"am","Active promotions"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
+  return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Comparable",data.stats?.comparable||0,"","Products at 2+ dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
     <div className="glow"/>
     <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel}/></div>
     <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Find any product across all dispensaries.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
@@ -374,7 +375,7 @@ function CompareTab({data}){
     return{shared,onlyA,onlyB,aCheaper,bCheaper,same,details:details.sort((a,b)=>(a.priceA-a.priceB)-(b.priceA-b.priceB))}
   },[prods,selA,selB]);
 
-  const doExport=()=>{if(!comparison)return;const hdr=["Product","Brand","Category",cleanD(selA),cleanD(selB),"Difference","Cheaper"];const rows=comparison.details.map(d=>[d.name,d.brand,d.cat,"$"+d.priceA.toFixed(2),"$"+d.priceB.toFixed(2),"$"+(d.priceA-d.priceB).toFixed(2),d.priceA<d.priceB?cleanD(selA):d.priceB<d.priceA?cleanD(selB):"TIE"]);const ws=XLSX.utils.aoa_to_sheet([hdr,...rows]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Comparison");ws["!cols"]=[{wch:40},{wch:20},{wch:15},{wch:12},{wch:12},{wch:12},{wch:20}];XLSX.writeFile(wb,"athena_comparison.xlsx")};
+  const doExport=()=>{if(!comparison)return;var doc=new jspdf.jsPDF('landscape');var nameA=cleanD(selA);var nameB=cleanD(selB);doc.setFontSize(20);doc.setTextColor(232,96,10);doc.text('ATHENA — Competitive Comparison',14,18);doc.setFontSize(10);doc.setTextColor(90,99,112);doc.text(nameA+' vs '+nameB+' — '+new Date().toLocaleDateString(),14,26);doc.setFontSize(11);doc.setTextColor(30,30,30);var y=36;doc.text('Shared Products: '+comparison.shared,14,y);doc.text(nameA+' Cheaper: '+comparison.aCheaper,100,y);doc.text(nameB+' Cheaper: '+comparison.bCheaper,186,y);y+=6;doc.text('Same Price: '+comparison.same,14,y);doc.text('Only '+nameA+': '+comparison.onlyA,100,y);doc.text('Only '+nameB+': '+comparison.onlyB,186,y);y+=10;doc.autoTable({startY:y,head:[['Product','Brand','Cat',nameA,nameB,'Diff','Cheaper']],body:comparison.details.map(d=>[d.name.substring(0,40),d.brand,d.cat,'$'+d.priceA.toFixed(2),'$'+d.priceB.toFixed(2),'$'+(d.priceA-d.priceB).toFixed(2),d.priceA<d.priceB?nameA:d.priceB<d.priceA?nameB:'TIE']),styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:[232,96,10],textColor:255,fontSize:8},columnStyles:{0:{cellWidth:55},1:{cellWidth:25},2:{cellWidth:20},3:{cellWidth:20},4:{cellWidth:20},5:{cellWidth:20},6:{cellWidth:25}},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});doc.setFontSize(7);doc.setTextColor(160,168,180);doc.text('ATHENA Cannabis Pricing Intelligence — '+new Date().toISOString(),14,doc.internal.pageSize.height-8);doc.save('athena_comparison_'+nameA.replace(/\s+/g,'_')+'_vs_'+nameB.replace(/\s+/g,'_')+'.pdf')};
 
   return<div className="pnl"><div className="pnl-t">Head-to-Head Comparison</div><div className="pnl-d">Select two dispensaries to compare every shared product side-by-side.</div>
     <div className="g2" style={{marginBottom:16}}>
@@ -389,7 +390,7 @@ function CompareTab({data}){
       <div className="st"><div className="st-l">Only {cleanD(selA)}</div><div className="st-v am">{comparison.onlyA}</div></div>
       <div className="st"><div className="st-l">Only {cleanD(selB)}</div><div className="st-v am">{comparison.onlyB}</div></div></div>
 
-    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export Comparison</button></div>
+    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export PDF</button></div>
 
     <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th className={isAff(selA)?"yc":""}>{isAff(selA)?"★ ":""}{cleanD(selA)}</th><th className={isAff(selB)?"yc":""}>{isAff(selB)?"★ ":""}{cleanD(selB)}</th><th>Diff</th></tr></thead>
       <tbody>{comparison.details.slice(0,500).map((d,i)=>{const diff=d.priceA-d.priceB;const pct=d.priceB>0?Math.round(diff/d.priceB*100):0;return<tr key={i}><td className="pn">{d.name}</td><td className="dm">{d.brand}</td>
