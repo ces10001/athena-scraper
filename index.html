@@ -19,9 +19,10 @@
 ::selection{background:var(--cy);color:#fff}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#eee}::-webkit-scrollbar-thumb{background:#ccc;border-radius:3px}
 .app{max-width:1520px;margin:0 auto;padding:14px 22px}
 .hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;flex-wrap:wrap;gap:12px}
+.hdr-vid{display:flex;align-items:center}
+.ftr{text-align:center;padding:16px 0 8px;font-family:var(--m);font-size:10px;color:var(--tx3);letter-spacing:1px}
 .logo{display:flex;align-items:center;gap:14px}
 .lt{display:flex;flex-direction:column}.lt h1{font-size:28px;font-weight:800;letter-spacing:4px;color:var(--cy2);line-height:1}.lt span{font-size:10px;letter-spacing:2px;color:var(--tx2);font-family:var(--m);margin-top:2px}
-.meta{font-family:var(--m);font-size:10px;color:var(--tx2);text-align:right;line-height:1.7}
 .glow{height:1px;background:linear-gradient(90deg,transparent,var(--cy),transparent);margin:10px 0;opacity:.2}
 .tabs{display:flex;gap:2px;margin-bottom:14px;background:var(--sf);border-radius:8px;padding:3px;border:1px solid var(--bd);overflow-x:auto}
 .tab{padding:11px 22px;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;color:var(--tx2);transition:all .15s;white-space:nowrap}
@@ -130,11 +131,11 @@ function App(){
       setData(d);var all=getDisps(d.products||[]);setSel(new Set());
     }).catch(function(e){setErr(e.message)});
   },[]);
-  if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
-  if(!data)return React.createElement("div",{className:"app"},React.createElement("div",{className:"ld"},React.createElement("div",{className:"sp"}),React.createElement("span",{style:{color:'var(--tx2)',fontSize:12,fontFamily:'var(--m)'}},"ATHENA initializing...")));
+  if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,{loading:false}),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
+  if(!data)return React.createElement("div",{className:"app"},React.createElement(Hdr,{loading:true}),React.createElement("div",{className:"ld"},React.createElement("div",{className:"sp"}),React.createElement("span",{style:{color:'var(--tx2)',fontSize:12,fontFamily:'var(--m)'}},"ATHENA initializing...")));
   var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["stock","Stock Alerts"],["deals","Deals"],["disps","Dispensary Total Products"],["compare","Compare"]];
   return React.createElement("div",{className:"app"},
-    React.createElement(Hdr,{d:data}),
+    React.createElement(Hdr,{d:data,loading:false}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius}),
     tab==="alerts"&&React.createElement(AlertsTab,{data:data}),
@@ -142,14 +143,21 @@ function App(){
     tab==="stock"&&React.createElement(StockTab,{data:data}),
     tab==="deals"&&React.createElement(DealsTab,{data:data}),
     tab==="disps"&&React.createElement(DispsTab,{data:data}),
-    tab==="compare"&&React.createElement(CompareTab,{data:data})
+    tab==="compare"&&React.createElement(CompareTab,{data:data}),
+    React.createElement(Ftr,{d:data})
   );
 }
 
-function Hdr({d}){
-  const t=d?.scraped_at?new Date(d.scraped_at).toLocaleString("en-US",{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"}):"";
+function Hdr({d,loading}){
+  const vidRef=React.useRef(null);
+  useEffect(()=>{if(!vidRef.current)return;if(loading){vidRef.current.currentTime=1;vidRef.current.play().catch(()=>{})}else{vidRef.current.pause()}},[loading]);
   return<div className="hdr"><div className="logo"><div className="lt"><h1>ATHENA</h1></div></div>
-    <div className="meta">{d&&<>{t&&<div>Updated: {t}</div>}<div>{d.stats?.unique_locations||d.stats?.dispensary_count||0} dispensaries | {(d.stats?.total_active||0).toLocaleString()} products</div></>}</div></div>;
+    <div className="hdr-vid"><video ref={vidRef} loop muted playsInline preload="auto" style={{width:48,height:48,objectFit:'cover',borderRadius:6}}><source src="athena-intro.mp4" type="video/mp4"/></video></div></div>;
+}
+
+function Ftr({d}){
+  const t=d?.scraped_at?new Date(d.scraped_at).toLocaleString("en-US",{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"}):"";
+  return<div className="ftr">{t?"Last updated: "+t:""}  ·  ATHENA v2.0</div>;
 }
 
 /* ═══════════════════════════════════════
