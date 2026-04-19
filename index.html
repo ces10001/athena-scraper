@@ -127,7 +127,7 @@ function App(){
       if(d.products)d.products=d.products.filter(function(p){return!isAccessory(p)});
       if(d.deals)d.deals=d.deals.filter(function(x){return!isAccessory(x)});
       if(d.stock_alerts)d.stock_alerts=d.stock_alerts.filter(function(x){return!isAccessory(x)});
-      setData(d);var all=getDisps(d.products||[]);setSel(new Set(all.filter(isAff)));
+      setData(d);var all=getDisps(d.products||[]);setSel(new Set());
     }).catch(function(e){setErr(e.message)});
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
