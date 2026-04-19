@@ -1,5 +1,5 @@
 export const CT_DISPENSARIES = [
-  // ═══ DUTCHIE (29) ═══
+  // ═══ DUTCHIE (30) ═══
   { name: "High Profile - Canton", city: "Canton", platform: "dutchie", dispensary_id: "662a9bc046220d3c1b6df676" },
   { name: "High Profile - Hamden", city: "Hamden", platform: "dutchie", dispensary_id: "662a9bfa0e8ab0eb3fd9243f" },
   { name: "High Profile - Stratford", city: "Stratford", platform: "dutchie", dispensary_id: "6763431aae2029ca72a21543" },
@@ -8,6 +8,7 @@ export const CT_DISPENSARIES = [
   { name: "Shangri-La - Waterbury", city: "Waterbury", platform: "dutchie", dispensary_id: "6605d93a112df9fb18b3499e" },
   { name: "Shangri-La - Plainville", city: "Plainville", platform: "dutchie", dispensary_id: "6605d8bb3d52314698f3fec9" },
   { name: "SweetSpot - Stamford", city: "Stamford", platform: "dutchie", dispensary_id: "68a4e3f2a6cca7eebcedf6ae" },
+  { name: "SweetSpot - West Hartford", city: "West Hartford", platform: "dutchie", dispensary_id: "68a4e3c52050ebdce1713848" },
   { name: "Nova Farms - New Britain", city: "New Britain", platform: "dutchie", dispensary_id: "5e7f67915024dd00ba0d99a4" },
   { name: "Still River Wellness", city: "Torrington", platform: "dutchie", dispensary_id: "63bec4feda338000b42c120d" },
   { name: "Crisp Cannabis - Trumbull", city: "Trumbull", platform: "dutchie", dispensary_id: "66faae512f2e1f4b2652cbaf" },
@@ -62,6 +63,31 @@ export const CT_DISPENSARIES = [
   { name: "Fine Fettle - Waterbury", city: "Waterbury", platform: "finefettle", store_ids: { rec: "6338", med: "6354" } },
   { name: "Fine Fettle - West Hartford", city: "West Hartford", platform: "finefettle", store_ids: { rec: "6383", med: "6419" } },
   { name: "Fine Fettle - Willimantic", city: "Willimantic", platform: "finefettle", store_ids: { rec: "4987", med: "793" } },
+
+  // ═══ JANE — BUDR CANNABIS (7 locations, 9 store IDs) ═══
+  { name: "BUDR - Danbury (Mill Plain)", city: "Danbury", platform: "jane", jane_stores: [
+    { id: 5257, slug: "ct-the-botanist-danbury-adult-use" },
+    { id: 3709, slug: "ct-the-botanist-danbury-medical" }
+  ] },
+  { name: "BUDR - Danbury (Federal Rd)", city: "Danbury", platform: "jane", jane_stores: [
+    { id: 5096, slug: "budr-danbury" }
+  ] },
+  { name: "BUDR - Montville", city: "Montville", platform: "jane", jane_stores: [
+    { id: 5006, slug: "the-botanist-montville-adult-use" },
+    { id: 4833, slug: "budr-montville-medical" }
+  ] },
+  { name: "BUDR - Vernon", city: "Vernon", platform: "jane", jane_stores: [
+    { id: 1486, slug: "budr-vernon-medical" }
+  ] },
+  { name: "BUDR - West Hartford", city: "West Hartford", platform: "jane", jane_stores: [
+    { id: 5095, slug: "budr-west-hartford" }
+  ] },
+  { name: "BUDR - Stratford", city: "Stratford", platform: "jane", jane_stores: [
+    { id: 5894, slug: "budr-cannabis-stratford-adult-use" }
+  ] },
+  { name: "BUDR - Tolland", city: "Tolland", platform: "jane", jane_stores: [
+    { id: 5892, slug: "budr-cannabis-tolland" }
+  ] },
 
   // ═══ AFFINITY (your stores) ═══
   { name: "Affinity Dispensary", city: "Bridgeport", platform: "owner", dispensary_id: "5e584d89cff4460075f52699" },
