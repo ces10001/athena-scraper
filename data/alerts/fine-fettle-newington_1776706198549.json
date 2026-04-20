@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Chem 91 (S) Smalls",
+    "brand": "OFF\n\nSativa flower\n\nLil Budz",
+    "message": "New: OFF\n\nSativa flower\n\nLil Budz - Chem 91 (S) Smalls $35.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "Indica flower\n\nCuraleaf",
+    "message": "Gone: Indica flower\n\nCuraleaf - Triple Stack (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "Gone: Sativa flower\n\nGrassroots - Titan Express (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nLet's Burn",
+    "message": "Gone: OFF\n\nIndica flower\n\nLet's Burn - CT Kush Cake (I) Flower"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $68.00 > $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jane Gold rewardsView allView all15% back((inc)edibles•Bundl",
+    "brand": null,
+    "message": "New: null - Jane Gold rewardsView allView all15% back((inc)edibles•Bundl $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PopularSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386",
+    "brand": null,
+    "message": "New: null - PopularSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!SativaDogwalkers 1g Big Dog Lemon Drip (S) 012",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!SativaDogwalkers 1g Big Dog Lemon Drip (S) 012 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!SativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER (3.5G)",
+    "brand": null,
+    "message": "New: null - SALE!SativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER (3.5G) $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 leftSALE!IndicaDogwalkers 5 Pack Minis B Scout (I) 01",
+    "brand": null,
+    "message": "New: null - Only 2 leftSALE!IndicaDogwalkers 5 Pack Minis B Scout (I) 01 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSALE!SativaSavvy Guap RSO Tangie Crush S 26972SavvyMa",
+    "brand": null,
+    "message": "New: null - 5% backSALE!SativaSavvy Guap RSO Tangie Crush S 26972SavvyMa $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 leftSALE!IndicaAGL 1g Pre Roll Bubba F (I) 01387Advan",
+    "brand": null,
+    "message": "New: null - Only 1 leftSALE!IndicaAGL 1g Pre Roll Bubba F (I) 01387Advan $8.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridSolid State 1g Infused Blunt 41762TheraplantInfus",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridSolid State 1g Infused Blunt 41762TheraplantInfus"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaSuper Buff Vape 41751TheraplantVape Cartridge(1G)",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaSuper Buff Vape 41751TheraplantVape Cartridge(1G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridCarbon Juice Vape 41730TheraplantVape Cartridge(.",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridCarbon Juice Vape 41730TheraplantVape Cartridge(."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaGrand Pappy's Chillemon 7g 41644TheraplantFLOWER",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaGrand Pappy's Chillemon 7g 41644TheraplantFLOWER"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridGreen G Vape 41174TheraplantVape Cartridge(1G)THC",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridGreen G Vape 41174TheraplantVape Cartridge(1G)THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaBanana SPLT MТ 41739TheraplantMini Tank Disposabl",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaBanana SPLT MТ 41739TheraplantMini Tank Disposabl"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridPermanent Patty MT 41732TheraplantMini Tank Dispo",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridPermanent Patty MT 41732TheraplantMini Tank Dispo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaGangsta Grillz Vape 41745TheraplantVape Cartridge",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaGangsta Grillz Vape 41745TheraplantVape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaForeverBerry 2g Fatboy 41681TheraplantInfused Pre",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaForeverBerry 2g Fatboy 41681TheraplantInfused Pre"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridTP Green G 22.86% H 01158 7gTheraplantFLOWER (7G)",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridTP Green G 22.86% H 01158 7gTheraplantFLOWER (7G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaHash Wedding 2g Fatboy 41774TheraplantInfused Pre",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaHash Wedding 2g Fatboy 41774TheraplantInfused Pre"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaPanckes MT 41752TheraplantMini Tank Disposable(EA",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaPanckes MT 41752TheraplantMini Tank Disposable(EA"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)TH",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridModified Donkey Infused Party Pack 41776Theraplan",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridModified Donkey Infused Party Pack 41776Theraplan"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "DealsView allView allSpend X Get YPickup only4/20 Sale- Spend",
+    "brand": null,
+    "message": "Gone: null - DealsView allView allSpend X Get YPickup only4/20 Sale- Spend"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaDogwalkers 1g Big Dog Lemon Drip (S) 01294Dogwalk",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaDogwalkers 1g Big Dog Lemon Drip (S) 01294Dogwalk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PopularSALE!SativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER",
+    "brand": null,
+    "message": "Gone: null - PopularSALE!SativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 leftSponsoredSALE!HybridAGL 300mg Pen Creamsicle Suns",
+    "brand": null,
+    "message": "Gone: null - Only 3 leftSponsoredSALE!HybridAGL 300mg Pen Creamsicle Suns"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalk",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!SativaAGL 5 Pack Minis Living Legend (S) 01163",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!SativaAGL 5 Pack Minis Living Legend (S) 01163"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Hi Life 1g Pre-roll 0031",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Hi Life 1g Pre-roll 0031 $8.12"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Mule Fuel 1g Pre-roll 0045",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Mule Fuel 1g Pre-roll 0045"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 14g Mendo Wedding I 26916",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 14g Mendo Wedding I 26916"
+  }
+]

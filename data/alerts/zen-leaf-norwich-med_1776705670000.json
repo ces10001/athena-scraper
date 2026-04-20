@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "PharmaJokerz",
+    "brand": "CT",
+    "message": "New: CT - PharmaJokerz $30.56"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaDiesel Train Pre-Roll",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaDiesel Train Pre-Roll"
+  }
+]

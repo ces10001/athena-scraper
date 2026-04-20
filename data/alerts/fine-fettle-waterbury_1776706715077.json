@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Fritterz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gouda Gas (I) Flower",
+    "brand": "OZ\n\nIndica flower\n\nEarl Baker",
+    "message": "Gone: OZ\n\nIndica flower\n\nEarl Baker - Gouda Gas (I) Flower"
+  }
+]

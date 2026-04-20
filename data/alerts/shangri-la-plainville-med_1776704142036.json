@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge .5g Purple Urkel (I) 01379",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge .5g Purple Urkel (I) 01379 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01447",
+    "brand": "JAMS",
+    "message": "New: JAMS - Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01447 $22.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let&#39;s Burn Mule Fuel 7g Fun Size Budz 0036",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let&#39;s Burn Mule Fuel 7g Fun Size Budz 0036"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Lucky Honey 0083",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Lucky Honey 0083"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01426",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01426"
+  }
+]

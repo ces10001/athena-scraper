@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Fizz 3mg Orange Soda",
+    "brand": "Fizz",
+    "message": "New: Fizz - Fizz 3mg Orange Soda $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fizz 3mg Lemon Lime Soda",
+    "brand": "Fizz",
+    "message": "New: Fizz - Fizz 3mg Lemon Lime Soda $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Strawberry Kiwi 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Strawberry Kiwi 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fizz 3mg Black Cherry Soda",
+    "brand": "Fizz",
+    "message": "New: Fizz - Fizz 3mg Black Cherry Soda $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Mango 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Mango 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fizz 3mg Diet Cola",
+    "brand": "Fizz",
+    "message": "New: Fizz - Fizz 3mg Diet Cola $5.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Preroll 1g Single PB Bites (S) 01670 TC 30.762%",
+    "brand": "Find.",
+    "message": "Gone: Find. - FIND. Preroll 1g Single PB Bites (S) 01670 TC 30.762%"
+  }
+]

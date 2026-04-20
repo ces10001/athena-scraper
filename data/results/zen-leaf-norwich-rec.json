@@ -280,26 +280,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-527918",
-    "name": "PharmaDiesel Train Pre-Roll",
-    "brand": "CT",
-    "category": "pre-rolls",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 2137,
-    "original_price_cents": 2850,
-    "weight_label": "2g",
-    "weight_grams": 2,
-    "unit_price_per_gram": 1069,
-    "thc_pct": 23.71,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "25% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-485269",
     "name": "PharmaTasty Jane",
     "brand": "CT",
@@ -456,6 +436,26 @@
     "in_stock": true,
     "on_sale": true,
     "deal_description": "25% Off",
+    "image_url": null,
+    "product_url": null
+  },
+  {
+    "external_id": "sweed-489683",
+    "name": "PharmaJokerz",
+    "brand": "CT",
+    "category": "flower",
+    "subcategory": null,
+    "strain_type": null,
+    "price_cents": 3412,
+    "original_price_cents": 4550,
+    "weight_label": "3.5g",
+    "weight_grams": 3.5,
+    "unit_price_per_gram": 975,
+    "thc_pct": 20.82,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": true,
+    "deal_description": "Sale",
     "image_url": null,
     "product_url": null
   }

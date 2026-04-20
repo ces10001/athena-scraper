@@ -18,7 +18,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c45356369090481953dbb619496e98fb",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -42,7 +42,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/32bb765a352722aa7985feb8e84d760c",
     "product_url": null,
-    "med_price_cents": 1750,
+    "med_price_cents": 1625,
     "med_original_price_cents": 2500,
     "medical_only": false,
     "rec_only": true
@@ -66,7 +66,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5487395dff915ea009a086ac47e506be",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -90,7 +90,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9fa8abfe27eb2ac7271395b02e9a9e25",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -114,7 +114,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/470c893125ef5a79ccde74e2e4026857",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -138,7 +138,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a0f0e892c4ea3ee827a9833ca44147b9",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -162,7 +162,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/43cdae11eaf6b725a28c85b88a843356",
     "product_url": null,
-    "med_price_cents": 3850,
+    "med_price_cents": 3575,
     "med_original_price_cents": 5500,
     "medical_only": false,
     "rec_only": true
@@ -186,7 +186,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f38d2372efc5b5902a50174950858407",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -210,7 +210,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6f1bb414c9b8cd492694f354dc75090d",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -234,7 +234,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/82d714229e2cf6602910f356988c8833",
     "product_url": null,
-    "med_price_cents": 2520,
+    "med_price_cents": 2340,
     "med_original_price_cents": 3600,
     "medical_only": false,
     "rec_only": true
@@ -258,7 +258,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/51f6cc8970c7ef328ed2690d09aecfb5",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -282,7 +282,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bb3321e8cc502ddf2b54c6cbbb47a379",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -306,7 +306,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8edcab931e869af11f649bf4a19b715f",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -330,7 +330,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5487395dff915ea009a086ac47e506be",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -354,7 +354,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d97e14e9542fca6817cc089a4366a7ea",
     "product_url": null,
-    "med_price_cents": 3220,
+    "med_price_cents": 2990,
     "med_original_price_cents": 4600,
     "medical_only": false,
     "rec_only": true
@@ -378,7 +378,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a29ffa8b9a687187dda46f198b85f1b5",
     "product_url": null,
-    "med_price_cents": 1050,
+    "med_price_cents": 975,
     "med_original_price_cents": 1500,
     "medical_only": false,
     "rec_only": true
@@ -402,7 +402,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/154e7b9208780abfb33ac144c606b8a9",
     "product_url": null,
-    "med_price_cents": 2520,
+    "med_price_cents": 2340,
     "med_original_price_cents": 3600,
     "medical_only": false,
     "rec_only": true
@@ -426,7 +426,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7cade51c1c0089b9ef2998b046ea4b8d",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -450,7 +450,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/fff8ba1849d137425b8790a621be81ce",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -474,7 +474,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3a80db456211291ccdde5f782f0c9635",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -498,7 +498,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/04c42f9fc7721f03b26ae6b5d5c4f367",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -522,7 +522,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bfb042e27d8dedff3e2e9e554f292695",
     "product_url": null,
-    "med_price_cents": 840,
+    "med_price_cents": 780,
     "med_original_price_cents": 1200,
     "medical_only": false,
     "rec_only": true
@@ -546,7 +546,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f41f2b62d5216d4a17ff3b6688ff3bc3",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -570,7 +570,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6877cf1a2e024838abdf5ef47f8d3324",
     "product_url": null,
-    "med_price_cents": 1400,
+    "med_price_cents": 1300,
     "med_original_price_cents": 2000,
     "medical_only": false,
     "rec_only": true
@@ -594,7 +594,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d3f337fdc47189822f76c2c94e5dd3cc",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -618,7 +618,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/82f59839bd2da75d8e7ac82fd3ecbfde",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -642,7 +642,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e6dfcdbac7e6a00e13d943b7a7cf2957",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -666,7 +666,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/49913d1fc5317fc25276a890ece9cdf3",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -690,7 +690,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/36b3a28aa9dad6a7b85e550e9efee467",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -714,7 +714,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/42dfb956da19f8fe09224f0001bea325",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -738,7 +738,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3ad4096b40ff58b9603cb2d00b33165f",
     "product_url": null,
-    "med_price_cents": 6650,
+    "med_price_cents": 6175,
     "med_original_price_cents": 9500,
     "medical_only": false,
     "rec_only": true
@@ -762,7 +762,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a261594be254103226470a84b3c59414",
     "product_url": null,
-    "med_price_cents": 6650,
+    "med_price_cents": 6175,
     "med_original_price_cents": 9500,
     "medical_only": false,
     "rec_only": true
@@ -786,7 +786,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3eca494e9a69787b454cdec81c0ca421",
     "product_url": null,
-    "med_price_cents": 6650,
+    "med_price_cents": 6175,
     "med_original_price_cents": 9500,
     "medical_only": false,
     "rec_only": true
@@ -810,7 +810,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5487395dff915ea009a086ac47e506be",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -834,7 +834,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/13af61c45fd170ebca8c42f7acd450f8",
     "product_url": null,
-    "med_price_cents": 3150,
+    "med_price_cents": 2925,
     "med_original_price_cents": 4500,
     "medical_only": false,
     "rec_only": true
@@ -858,7 +858,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/be43d5acb0fb860f831827958adebcc7",
     "product_url": null,
-    "med_price_cents": 3150,
+    "med_price_cents": 2925,
     "med_original_price_cents": 4500,
     "medical_only": false,
     "rec_only": true
@@ -882,7 +882,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ba75ac6cb48fa10b6d05b4571007f6da",
     "product_url": null,
-    "med_price_cents": 3150,
+    "med_price_cents": 2925,
     "med_original_price_cents": 4500,
     "medical_only": false,
     "rec_only": true
@@ -906,7 +906,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/70f1ddce19e8a88b53c129a618e136bd",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -930,7 +930,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/37d964bd19cbc311d3f824a2438cebe6",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -954,7 +954,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/eb6593daffc87521a2bc2bb61c89c504",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -978,7 +978,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/de08bcced89e4a7618ee02c6cfe3327c",
     "product_url": null,
-    "med_price_cents": 1050,
+    "med_price_cents": 975,
     "med_original_price_cents": 1500,
     "medical_only": false,
     "rec_only": true
@@ -1002,7 +1002,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/de08bcced89e4a7618ee02c6cfe3327c",
     "product_url": null,
-    "med_price_cents": 1050,
+    "med_price_cents": 975,
     "med_original_price_cents": 1500,
     "medical_only": false,
     "rec_only": true
@@ -1026,7 +1026,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/de08bcced89e4a7618ee02c6cfe3327c",
     "product_url": null,
-    "med_price_cents": 1050,
+    "med_price_cents": 975,
     "med_original_price_cents": 1500,
     "medical_only": false,
     "rec_only": true
@@ -1050,7 +1050,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6f6b6d20bf01c29fd1d01feb37975c4c",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -1074,7 +1074,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a39d01f27bff747ec9eea79ca7cad235",
     "product_url": null,
-    "med_price_cents": 1050,
+    "med_price_cents": 975,
     "med_original_price_cents": 1500,
     "medical_only": false,
     "rec_only": true
@@ -1098,7 +1098,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5f84e2605ab2e024d95785f2ed48444c",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -1122,7 +1122,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6f6b6d20bf01c29fd1d01feb37975c4c",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -1146,7 +1146,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/324803b73cbcc6b59b046e71afefbee5",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -1170,7 +1170,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d467c03381ebc9122b2827e1437fcc41",
     "product_url": null,
-    "med_price_cents": 1120,
+    "med_price_cents": 1040,
     "med_original_price_cents": 1600,
     "medical_only": false,
     "rec_only": true
@@ -1194,7 +1194,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/028e9244275ac6683bcdef7fd0f9cf36",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1218,7 +1218,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/75d53ec9bd1a5963ce8afe17e004b041",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -1242,7 +1242,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a63936206430f8d413f428689e0298d8",
     "product_url": null,
-    "med_price_cents": 2310,
+    "med_price_cents": 2145,
     "med_original_price_cents": 3300,
     "medical_only": false,
     "rec_only": true
@@ -1266,7 +1266,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a7aabba3d13dbaffa98fcf48e05bfd63",
     "product_url": null,
-    "med_price_cents": 2310,
+    "med_price_cents": 2145,
     "med_original_price_cents": 3300,
     "medical_only": false,
     "rec_only": true
@@ -1290,7 +1290,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/61e78a4435cf98de113d5e000b2cd4a7",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -1314,7 +1314,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8e20a31e6c643db2ae327cbc1aa14057",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -1338,7 +1338,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a63936206430f8d413f428689e0298d8",
     "product_url": null,
-    "med_price_cents": 2310,
+    "med_price_cents": 2145,
     "med_original_price_cents": 3300,
     "medical_only": false,
     "rec_only": true
@@ -1362,7 +1362,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f07b868cbe9f177a7adffa16ad4a7f6b",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1386,7 +1386,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a63936206430f8d413f428689e0298d8",
     "product_url": null,
-    "med_price_cents": 2310,
+    "med_price_cents": 2145,
     "med_original_price_cents": 3300,
     "medical_only": false,
     "rec_only": true
@@ -1410,7 +1410,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/75d53ec9bd1a5963ce8afe17e004b041",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -1434,7 +1434,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e3b5d6fc0f628393b2633d8f501b924b",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -1458,7 +1458,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/00aedf018f7773d639e2de527e340897",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1482,7 +1482,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b9c85a4dd82b98ee1a2d49ec0e975b68",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1506,7 +1506,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/73c41200894632df514ee4c5a94f81d1",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1530,7 +1530,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3fd44100ba85fe93edbedd9c6e996793",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1554,7 +1554,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/16c1b5470e6a0b6c5f1575e25c92ff54",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1578,7 +1578,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9776a1b3e5f74761e83080a7df97c218",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1602,7 +1602,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ee872d49f7482f232f6fb31af830b67d",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1626,7 +1626,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b157f3a5f7a4042999b89080ea0127d3",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -1650,7 +1650,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e933f94c1355d0099b1b15ba91b82a2e",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1674,7 +1674,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/dfa453f5eebddf70a2ddfcad2609bb71",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1698,7 +1698,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9c304f80ade0503c5c2c192d21e5b180",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1722,7 +1722,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/282720b111a8e2bc28e1ad48380b6d99",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1746,7 +1746,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a5dc8ded8503019077fc556237904338",
     "product_url": null,
-    "med_price_cents": 2170,
+    "med_price_cents": 2015,
     "med_original_price_cents": 3100,
     "medical_only": false,
     "rec_only": true
@@ -1770,7 +1770,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/dcfe039135cffc26a034bc2cbbefab3b",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1794,7 +1794,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/aef52dd0f26ac9ba3e32624f8d52dba7",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1818,7 +1818,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d690cf74739cb72ec327ccf86103c48b",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1842,7 +1842,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/facdfb82253db8d2b51d933bf7b51d45",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1866,7 +1866,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2571d8e75a44f6233c88996c313ffbd2",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1890,7 +1890,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/06145427f41f2d07cc33483e6cd38629",
     "product_url": null,
-    "med_price_cents": 2170,
+    "med_price_cents": 2015,
     "med_original_price_cents": 3100,
     "medical_only": false,
     "rec_only": true
@@ -1914,7 +1914,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6d966000cbe135cfbef0a3e10cbb3e3b",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -1938,7 +1938,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7cff06e537e3a892cd45133e2e13e7f4",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1962,7 +1962,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/257014ed0d81fce3bf043ab5b27ff481",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -1986,7 +1986,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8b47bf5ea1cfcf698f133344b7bb64fe",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -2010,7 +2010,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/105c18aee1d01331dc10a1cb25649b95",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -2034,7 +2034,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/064ddb534ae745024eee2dda45355c80",
     "product_url": null,
-    "med_price_cents": 2240,
+    "med_price_cents": 2080,
     "med_original_price_cents": 3200,
     "medical_only": false,
     "rec_only": true
@@ -2058,7 +2058,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ecd2d7ac1015692b61b79ec79b90fac2",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -2082,7 +2082,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bac43ad0277272c5258eac85562398c8",
     "product_url": null,
-    "med_price_cents": 2380,
+    "med_price_cents": 2210,
     "med_original_price_cents": 3400,
     "medical_only": false,
     "rec_only": true
@@ -2106,7 +2106,7 @@
     "deal_description": null,
     "image_url": "https://dutchie-images.s3.us-west-2.amazonaws.com/c69b2c20075e9c912a7d68f1a65442c3",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -2130,7 +2130,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f0c5288792a6cc03851fa79522224ab1",
     "product_url": null,
-    "med_price_cents": 3220,
+    "med_price_cents": 2990,
     "med_original_price_cents": 4600,
     "medical_only": false,
     "rec_only": true
@@ -2154,7 +2154,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a71208168dea6b29bf3a5d916ee50526",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2178,7 +2178,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e7db20fb0489441c8d451f390ee1fd12",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -2202,7 +2202,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4b4c0a70024f41b4b960d7df7b04cb87",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2226,7 +2226,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e75dc7467aeab1cf9f3e4b556c961177",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2250,7 +2250,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a8d5dc0068b5cf8c79c0f52a518003a4",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2274,7 +2274,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3f39c8d701d7fff13ad676ec34db3025",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -2298,7 +2298,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b3680868054488d14c0731d8d191904e",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -2322,7 +2322,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/af19c7b90bd7c22232947bd206c6a9b0",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -2346,7 +2346,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7c5b075f992eabf931539cd8ba62764e",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -2370,7 +2370,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/7db527b38c489126542d16793c92890f",
     "product_url": null,
-    "med_price_cents": 5950,
+    "med_price_cents": 5525,
     "med_original_price_cents": 8500,
     "medical_only": false,
     "rec_only": true
@@ -2394,7 +2394,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/470c893125ef5a79ccde74e2e4026857",
     "product_url": null,
-    "med_price_cents": 2450,
+    "med_price_cents": 2275,
     "med_original_price_cents": 3500,
     "medical_only": false,
     "rec_only": true
@@ -2418,7 +2418,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6afcf2642494ffca8133d6d63969e35e",
     "product_url": null,
-    "med_price_cents": 3920,
+    "med_price_cents": 3640,
     "med_original_price_cents": 5600,
     "medical_only": false,
     "rec_only": true
@@ -2442,7 +2442,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1f6309b80a5acb73234f222e9b274c44",
     "product_url": null,
-    "med_price_cents": 12600,
+    "med_price_cents": 11700,
     "med_original_price_cents": 18000,
     "medical_only": false,
     "rec_only": true
@@ -2466,7 +2466,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2a6262b83445b774cae250bdeb6efd0d",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2490,7 +2490,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1d9ee1acd48db21ff93a2709abd03794",
     "product_url": null,
-    "med_price_cents": 3360,
+    "med_price_cents": 3120,
     "med_original_price_cents": 4800,
     "medical_only": false,
     "rec_only": true
@@ -2514,7 +2514,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b0bb5d120fa64d36f4c52d718ee252a1",
     "product_url": null,
-    "med_price_cents": 12600,
+    "med_price_cents": 11700,
     "med_original_price_cents": 18000,
     "medical_only": false,
     "rec_only": true
@@ -2538,7 +2538,7 @@
     "deal_description": null,
     "image_url": "https://dutchie-images.s3.us-west-2.amazonaws.com/b0897faf8982181e4cccf3e96056068e",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true
@@ -2562,7 +2562,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f8abff14ff8ab7de7d5058ff52527c3e",
     "product_url": null,
-    "med_price_cents": 1400,
+    "med_price_cents": 1300,
     "med_original_price_cents": 2000,
     "medical_only": false,
     "rec_only": true
@@ -2586,7 +2586,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f8abff14ff8ab7de7d5058ff52527c3e",
     "product_url": null,
-    "med_price_cents": 1400,
+    "med_price_cents": 1300,
     "med_original_price_cents": 2000,
     "medical_only": false,
     "rec_only": true
@@ -2610,7 +2610,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6f1bb414c9b8cd492694f354dc75090d",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2634,7 +2634,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/a648a321a0678e3ebd9e7e5c10cd4537",
     "product_url": null,
-    "med_price_cents": 3850,
+    "med_price_cents": 3575,
     "med_original_price_cents": 5500,
     "medical_only": false,
     "rec_only": true
@@ -2658,7 +2658,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f38d2372efc5b5902a50174950858407",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2682,7 +2682,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8daa93ac502af8220d1745e790ce5301",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2706,7 +2706,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/31714ec29c7ac89c73e510afd940119e",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2730,7 +2730,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/31714ec29c7ac89c73e510afd940119e",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2754,7 +2754,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/31714ec29c7ac89c73e510afd940119e",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2778,7 +2778,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/faf708bc1afef19c424ae41bd098bbc0",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2802,7 +2802,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/eaf3206ce9e9bb8a4d9a571caaf9918a",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2826,7 +2826,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4e3866118de661889aac80647b0e8e83",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2850,7 +2850,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/87713eb1c99a9061693a45a22a914053",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2874,7 +2874,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/bf7617897c611ff5a385dbce2596967e",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2898,7 +2898,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/3de34dd00af45a454d44669e85289c96",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2922,7 +2922,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f45456a327d911f725202acb02b08487",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2946,7 +2946,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5853e0a3c97df248b823b832876ae816",
     "product_url": null,
-    "med_price_cents": 4900,
+    "med_price_cents": 4550,
     "med_original_price_cents": 7000,
     "medical_only": false,
     "rec_only": true
@@ -2970,7 +2970,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f38d2372efc5b5902a50174950858407",
     "product_url": null,
-    "med_price_cents": 5040,
+    "med_price_cents": 4680,
     "med_original_price_cents": 7200,
     "medical_only": false,
     "rec_only": true
@@ -2994,7 +2994,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0f3bc005274d817042601af4bd1bee64",
     "product_url": null,
-    "med_price_cents": 2100,
+    "med_price_cents": 1950,
     "med_original_price_cents": 3000,
     "medical_only": false,
     "rec_only": true
@@ -3018,7 +3018,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f32c707d56c06fa259e8789fcf547b3c",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -3042,7 +3042,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/6c770f2aee6f36f1bba188f6088458d7",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -3066,7 +3066,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/edibles-stock-chocolate-v1.jpg",
     "product_url": null,
-    "med_price_cents": 1960,
+    "med_price_cents": 1820,
     "med_original_price_cents": 2800,
     "medical_only": false,
     "rec_only": true
@@ -3090,7 +3090,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/997496227f858446ae6c095fba868f16",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3114,7 +3114,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/9670d8029cc66cbf021f6f24990cf817",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3138,7 +3138,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/466e27a452bdecf5161ef2e103ca0afc",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3162,7 +3162,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d4d28fd2f8446dbd194224f178aca82a",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3186,7 +3186,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c43af9a2538945ae0e57f1b2d4e109bf",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3210,7 +3210,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/68af36972f525839dbb4d7094f3ef691",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3234,7 +3234,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/4bc35bebfb2f414ad6b000a6a6aa89d6",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3258,7 +3258,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/662a55d7dc32b5259e0ae86617648c03",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3282,7 +3282,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/04baf4dd77b566cb6b43e473f390d698",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3306,7 +3306,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c7f813a671e7e34933029d6277dc62a0",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3330,7 +3330,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/d3ccf8fa38e9093a4587f5afc72b9073",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3354,7 +3354,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5b3001eeffd9a764e807094757499cfa",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3378,7 +3378,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/adcb95737de0e7a399704adecc42a802",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3402,7 +3402,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/b25caaeddb545bbfadf182d2a0152459",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3426,7 +3426,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/1e08b91ac0892f033763730a8079a7d9",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3450,7 +3450,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/092c26eac724089f7d4d83c759bb33db",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3474,7 +3474,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c1e55a6f7abba1aee0ba419d054a90cc",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3498,7 +3498,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/008f797fd256532f3bfda2a98b1773e4",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3522,7 +3522,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/8240b123108be47bd53d700304737a76",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3546,7 +3546,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/c81e3211bb696c8a0a90016f3b99f07a",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3570,7 +3570,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/f5eef0ee4e631494b15f293d54eafdb1",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3594,7 +3594,7 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/5d79a7b8e3958d225d2cc43a9114463b",
     "product_url": null,
-    "med_price_cents": 419,
+    "med_price_cents": 389,
     "med_original_price_cents": 599,
     "medical_only": false,
     "rec_only": true
@@ -3618,7 +3618,7 @@
     "deal_description": null,
     "image_url": "https://dutchie-images.s3.us-west-2.amazonaws.com/0ad9686dd12feeb60e7b353811633388",
     "product_url": null,
-    "med_price_cents": 3500,
+    "med_price_cents": 3250,
     "med_original_price_cents": 5000,
     "medical_only": false,
     "rec_only": true

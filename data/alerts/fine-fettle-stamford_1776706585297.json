@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Gone: Hybrid flower\n\nTheraplant - Banapple Medellin (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jai Alai (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Jai Alai (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citradelic Haze (S) Ground Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "Gone: Sativa flower\n\nGrassroots - Citradelic Haze (S) Ground Flower"
+  }
+]

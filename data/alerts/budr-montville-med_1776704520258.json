@@ -1,0 +1,218 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $58.40 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Big Savings on Our Best Products — Shop Now!View allView all20% OFFHybridDogwalk",
+    "brand": null,
+    "message": "null Big Savings on Our Best Products — Shop Now!View allView all20% OFFHybridDogwalk: $21.60 > $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER $21.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jane Gold rewardsView allView all15% back((inc)edibles•Bundl",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all15% back((inc)edibles•Bundl: $21.60 > $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 left20% OFFHybridHigh Strength Pagoti Capsules 41074T",
+    "brand": null,
+    "message": "New: null - Only 1 left20% OFFHybridHigh Strength Pagoti Capsules 41074T $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Popular20% OFFHybridDogwalkers 5 Pack Minis Vel Croz (H) 013",
+    "brand": null,
+    "message": "New: null - Popular20% OFFHybridDogwalkers 5 Pack Minis Vel Croz (H) 013 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 left20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206",
+    "brand": null,
+    "message": "New: null - Only 2 left20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206 $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 left20% OFFSativaLemon Skunk Flower T27.43% S 00883Af",
+    "brand": null,
+    "message": "New: null - Only 3 left20% OFFSativaLemon Skunk Flower T27.43% S 00883Af $26.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "5% back20% OFFSativaSavvy Smalls 14g Super Lemon G S 26930Sa",
+    "brand": null,
+    "message": "null 5% back20% OFFSativaSavvy Smalls 14g Super Lemon G S 26930Sa: $47.20 > $79.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored20% OFFHybridRythm 28g Vel Croz (H) 01384RYTHMMixed",
+    "brand": null,
+    "message": "New: null - Sponsored20% OFFHybridRythm 28g Vel Croz (H) 01384RYTHMMixed $131.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 left20% OFFIndicaDogwalkers 1g Big Dog Animal Face (I",
+    "brand": null,
+    "message": "New: null - Only 1 left20% OFFIndicaDogwalkers 1g Big Dog Animal Face (I $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridAGL 7g Select Grind Grape Bubble G (H) 01202Adv",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridAGL 7g Select Grind Grape Bubble G (H) 01202Adv $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaCookies- C. Rollz 1g Whole Flower Pre-roll I 60",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaCookies- C. Rollz 1g Whole Flower Pre-roll I 60 $12.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaGrand Pappy's Chillemon 7g 41644TheraplantFLOWE",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaGrand Pappy's Chillemon 7g 41644TheraplantFLOWE"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridHigh Strength Pagoti Capsules 41074TheraplantCa",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridHigh Strength Pagoti Capsules 41074TheraplantCa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaGangsta Grillz Vape 41745TheraplantVape Cartrid",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaGangsta Grillz Vape 41745TheraplantVape Cartrid"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaSuper Buff Vape 41751TheraplantVape Cartridge(1",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaSuper Buff Vape 41751TheraplantVape Cartridge(1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaHash Wedding Infused Party Pack 41777Theraplant",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaHash Wedding Infused Party Pack 41777Theraplant"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridSolid State 1g Infused Blunt 41762TheraplantInf",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridSolid State 1g Infused Blunt 41762TheraplantInf"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaStrawberry Cndy Infused Party Pack 41778Therapl",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaStrawberry Cndy Infused Party Pack 41778Therapl"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaHash Planet Vape 41567TheraplantVape Cartridge(",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaHash Planet Vape 41567TheraplantVape Cartridge("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybrid360X RSO Syringe 41662TheraplantOil Syringe(EAC",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybrid360X RSO Syringe 41662TheraplantOil Syringe(EAC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaBanana SPLT MТ 41739TheraplantMini Tank Disposa",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaBanana SPLT MТ 41739TheraplantMini Tank Disposa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridTP Green G 22.86% H 01158 7gTheraplantFLOWER (7",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridTP Green G 22.86% H 01158 7gTheraplantFLOWER (7"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaMedium Strength Savoti Capsule 41577TheraplantC",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaMedium Strength Savoti Capsule 41577TheraplantC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "DealsView allView allSpend X Get YPickup only4/20 Sale- Spend",
+    "brand": null,
+    "message": "Gone: null - DealsView allView allSpend X Get YPickup only4/20 Sale- Spend"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back20% OFFIndicaSoundView BlueZZZberry 5:1 CBN Gummies",
+    "brand": null,
+    "message": "Gone: null - Cash back20% OFFIndicaSoundView BlueZZZberry 5:1 CBN Gummies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Popular20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTH",
+    "brand": null,
+    "message": "Gone: null - Popular20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored20% OFFSativaRythm 3.5g Lemon Drip (S) 01243RYTHMFL",
+    "brand": null,
+    "message": "Gone: null - Sponsored20% OFFSativaRythm 3.5g Lemon Drip (S) 01243RYTHMFL"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaLemon Skunk Flower T27.43% S 00883Affinity Grow",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaLemon Skunk Flower T27.43% S 00883Affinity Grow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 leftSponsored20% OFFHybridall:hours Mule Fuel 41241al",
+    "brand": null,
+    "message": "Gone: null - Only 1 leftSponsored20% OFFHybridall:hours Mule Fuel 41241al"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFIndicaGood Green Ground Flower 28g Mystic Mint (I) 01",
+    "brand": null,
+    "message": "Gone: null - 20% OFFIndicaGood Green Ground Flower 28g Mystic Mint (I) 01"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridAGL 300mg Pen Creamsicle Sunset (H) 01406Advanc",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridAGL 300mg Pen Creamsicle Sunset (H) 01406Advanc"
+  }
+]

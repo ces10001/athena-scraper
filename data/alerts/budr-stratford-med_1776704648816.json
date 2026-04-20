@@ -1,0 +1,134 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $28.00 > $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored5% backSALE!SativaSavvy Smalls 28g Super Lemon G S",
+    "brand": null,
+    "message": "New: null - Sponsored5% backSALE!SativaSavvy Smalls 28g Super Lemon G S $145.35"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaGood Green 28g Bubba F (I) 01379Good GreenMixed B",
+    "brand": null,
+    "message": "New: null - SALE!IndicaGood Green 28g Bubba F (I) 01379Good GreenMixed B $124.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSALE!HybridSavvy Guap RSO Peachy Punch 1:1 CBD:THC H",
+    "brand": null,
+    "message": "New: null - 5% backSALE!HybridSavvy Guap RSO Peachy Punch 1:1 CBD:THC H $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!IndicaRythm 7g Small Flower GMO (I) 01349RYTHM",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!IndicaRythm 7g Small Flower GMO (I) 01349RYTHM $50.15"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridGrassroots Whole Flower 3.5g Atomic Breath (H) 01",
+    "brand": null,
+    "message": "New: null - SALE!HybridGrassroots Whole Flower 3.5g Atomic Breath (H) 01 $22.95"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 leftSALE!HybridGood Green 14g Slapz (H) 01343Good Gre",
+    "brand": null,
+    "message": "New: null - Only 2 leftSALE!HybridGood Green 14g Slapz (H) 01343Good Gre $77.35"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSALE!IndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy",
+    "brand": null,
+    "message": "New: null - 5% backSALE!IndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!HybridRythm 28g Afternoon Delight #4 (H) 01383",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!HybridRythm 28g Afternoon Delight #4 (H) 01383 $139.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cash back35% OFFIndicaLighthouse-Garlotti Live Resin-(I)-510",
+    "brand": null,
+    "message": "New: null - Cash back35% OFFIndicaLighthouse-Garlotti Live Resin-(I)-510 $58.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Holiday Bundle Deal!View allView allSALE!HybridSV Strawberry",
+    "brand": null,
+    "message": "Gone: null - Holiday Bundle Deal!View allView allSALE!HybridSV Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!SativaSeattle Sour Kush 1g Pure Vape T850 S 26",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!SativaSeattle Sour Kush 1g Pure Vape T850 S 26"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaGush Mintz Flower I 26712CTPharmaFlower(3.5G)",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaGush Mintz Flower I 26712CTPharmaFlower(3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 leftSponsoredSALE!IndicaRythm 14g Animal Face (I) 013",
+    "brand": null,
+    "message": "Gone: null - Only 3 leftSponsoredSALE!IndicaRythm 14g Animal Face (I) 013"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftCash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-(S)-Bar-1",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftCash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-(S)-Bar-1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaDogwalkers 5 Pack Minis Animal Face (I) 01354Dogw",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaDogwalkers 5 Pack Minis Animal Face (I) 01354Dogw"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!HybridJealousy Whole Flower 3.5g (H) 00512Brix",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!HybridJealousy Whole Flower 3.5g (H) 00512Brix"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaNimbus Snacks",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaNimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredCash back35% OFFIndicaLighthouse-Garlotti Live Resi",
+    "brand": null,
+    "message": "Gone: null - SponsoredCash back35% OFFIndicaLighthouse-Garlotti Live Resi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridChem D Lil' Budz 7g (H) 00524Lil' BudzSmalls(7G)T",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridChem D Lil' Budz 7g (H) 00524Lil' BudzSmalls(7G)T"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridThe Goods - Whole Flower - Tropical Kush 30001The",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridThe Goods - Whole Flower - Tropical Kush 30001The"
+  }
+]
