@@ -1,0 +1,152 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Tropical Heatwave (H) Flower: $90.00 > $79.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Drip (S) Flower",
+    "brand": "Sativa flower\n\nSponsored\n\nRythm",
+    "message": "Sativa flower\n\nSponsored\n\nRythm Lemon Drip (S) Flower: $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pineapple Sunrise (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "Sativa flower\n\nGrassroots Pineapple Sunrise (S) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Indica flower\n\nLil Budz",
+    "message": "Indica flower\n\nLil Budz Purple Milk (I) Smalls: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Paw Paw (H) Flower: $90.00 > $79.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Indica flower\n\nSponsored\n\nRythm Cheddar Cheeze (I) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bad Decisions (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker Bad Decisions (H) Flower: $30.80 > $27.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots Astro GMO (I) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Muffin Grease (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Muffin Grease (H) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gee Forcez (I) Flower",
+    "brand": "OZ\n\nIndica flower\n\nEarl Baker",
+    "message": "OZ\n\nIndica flower\n\nEarl Baker Gee Forcez (I) Flower: $40.60 > $35.70"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Freestyle (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Freestyle (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mint Condition (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Mint Condition (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "Gone: Indica flower\n\nall:hours - Hash Burger (I) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Gone: Indica flower\n\nGood Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "Gone: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Gone: Hybrid flower\n\nFind - Gas Lit (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry PRFT (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Gone: Sativa flower\n\nCuraleaf - Raspberry PRFT (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Singapore Sling (S) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Singapore Sling (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Gone: Sativa flower\n\nCuraleaf - Orange Z (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "Indica flower\n\nCTPharma",
+    "message": "Gone: Indica flower\n\nCTPharma - Gush Mintz (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight #4 (H) Flower",
+    "brand": "Hybrid flower\n\nRythm",
+    "message": "Gone: Hybrid flower\n\nRythm - Afternoon Delight #4 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Gone: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower"
+  }
+]

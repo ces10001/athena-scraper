@@ -1,0 +1,110 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nTheraplant",
+    "message": "OFF\n\nSativa flower\n\nTheraplant Pinyatti (S) Flower: $45.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Afternoon Delight #4 (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nSponsored\n\nRythm",
+    "message": "OFF\n\nHybrid flower\n\nSponsored\n\nRythm Afternoon Delight #4 (H) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nSponsored\n\nRythm",
+    "message": "OFF\n\nIndica flower\n\nSponsored\n\nRythm Cheddar Cheeze (I) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGrassroots",
+    "message": "OFF\n\nIndica flower\n\nGrassroots Zesty Garlic Kookyz (I) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nSponsored\n\nTheraplant",
+    "message": "OFF\n\nHybrid flower\n\nSponsored\n\nTheraplant Black Cherry GMO (H) Flower: $28.00 > $18.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Gas Lit (H) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slingria (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nFind",
+    "message": "OFF\n\nSativa flower\n\nFind Slingria (S) Flower: $25.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "OFF\n\nIndica flower\n\nall:hours",
+    "message": "OFF\n\nIndica flower\n\nall:hours Hash Burger (I) part:timers Flower: $35.00 > $23.25"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Gone: Indica flower\n\nGood Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rose Gold RTZ (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Rose Gold RTZ (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "Gone: Hybrid flower\n\nBRIX Cannabis - Govmint Oasis (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Gone: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Gone: Hybrid flower\n\nShaka - BLB (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Gone: Hybrid flower\n\nCuraleaf - White Hot Guava (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Breath (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Atomic Breath (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Paw Paw (H) Flower"
+  }
+]

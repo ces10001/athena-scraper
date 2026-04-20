@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Floral Frost (H) Flower $26.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Hour (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Golden Hour (H) Flower"
+  }
+]

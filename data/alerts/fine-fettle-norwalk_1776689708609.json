@@ -1,0 +1,80 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Forest Reserve (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nFind",
+    "message": "OFF\n\nSativa flower\n\nFind PB Bites (S) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nCuraleaf",
+    "message": "OFF\n\nHybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Atomic Breath (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nBRIX Cannabis",
+    "message": "OFF\n\nHybrid flower\n\nBRIX Cannabis Govmint Oasis (H) Flower: $35.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Apple Tartz (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Gas Lit (H) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nGood Green",
+    "message": "OFF\n\nSativa flower\n\nGood Green Chkn n WflZ (S) Flower: $160.00 > $112.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nLet's Burn",
+    "message": "OFF\n\nHybrid flower\n\nLet's Burn Mule Fuel (H) Flower: $33.60 > $29.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nShaka",
+    "message": "OFF\n\nHybrid flower\n\nShaka BLB (H) Flower: $32.00 > $22.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Pi (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Gone: Sativa flower\n\nTheraplant - Berry Pi (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Gone: Indica flower\n\nGood Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slingria (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Gone: Sativa flower\n\nFind - Slingria (S) Flower"
+  }
+]

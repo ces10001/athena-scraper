@@ -1,0 +1,2894 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - B Scout $85.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints $27.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "New: Select - Orange Kooykz $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Confidential Cherries",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Confidential Cherries $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scrub Trooper",
+    "brand": "Brix",
+    "message": "New: Brix - Scrub Trooper $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling $61.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Sherbet",
+    "brand": "SoundView",
+    "message": "New: SoundView - Watermelon Sherbet $48.30"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Green Apple $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "New: Select - Orange Matter $17.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Biscotti Pie",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Biscotti Pie $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon",
+    "brand": "SoundView",
+    "message": "New: SoundView - Watermelon $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Lemonade",
+    "brand": "SoundView",
+    "message": "New: SoundView - Raspberry Lemonade $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pi in the Sky",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pi in the Sky $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orchard Peach",
+    "brand": "Camino",
+    "message": "New: Camino - Orchard Peach $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Coconut Milk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Coconut Milk $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Garlic Icing $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue NDZ",
+    "brand": "Brix",
+    "message": "New: Brix - Blue NDZ $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Titan Express $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Margarita",
+    "brand": "SoundView",
+    "message": "New: SoundView - Margarita $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Cider",
+    "brand": "SoundView",
+    "message": "New: SoundView - Apple Cider $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Burst",
+    "brand": "Camino",
+    "message": "New: Camino - Tropical Burst $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Blue Lobster $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "New: Select - Cherry Pi $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Hippie Crasher $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BlueZZZberry",
+    "brand": "SoundView",
+    "message": "New: SoundView - BlueZZZberry $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "New: Find. - PB Bites $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Catching Citrus Dreams",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Catching Citrus Dreams $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Cookies",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Cookies $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Diesel",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Sour Diesel $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Hot Guava $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Durban",
+    "brand": "Select",
+    "message": "New: Select - Sour Durban $80.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "New: Select - GASolotti 95 $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Grape $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry",
+    "brand": "SoundView",
+    "message": "New: SoundView - Black Cherry $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Martian Mints",
+    "brand": "Find.",
+    "message": "New: Find. - Martian Mints $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Island Punch",
+    "brand": "Wana",
+    "message": "New: Wana - Island Punch $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz",
+    "brand": "Brix",
+    "message": "New: Brix - Gush Mintz $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mellow Mango",
+    "brand": "SoundView",
+    "message": "New: SoundView - Mellow Mango $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Bellini",
+    "brand": "Wana",
+    "message": "New: Wana - Peach Bellini $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Delphi Diesel",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Delphi Diesel $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "New: Select - Garlotti $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Animal Face $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Apple Tartz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dash of Orange",
+    "brand": "Zero Proof",
+    "message": "New: Zero Proof - Dash of Orange $21.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Widow",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - White Widow $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Jokerz $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Smash",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Watermelon Smash $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - CT Kush Cake $32.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Connecticut Sunrise",
+    "brand": "Wana",
+    "message": "New: Wana - Connecticut Sunrise $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $80.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SZO",
+    "brand": "Springtime",
+    "message": "New: Springtime - SZO $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chillaxing Cherry Limeade",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Chillaxing Cherry Limeade $8.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - CT Kush Cake $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE $6.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit",
+    "brand": "SoundView",
+    "message": "New: SoundView - Forbidden Fruit $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lunar Diesel",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Lunar Diesel $61.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OMG",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - OMG $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry",
+    "brand": "Brix",
+    "message": "New: Brix - Blueberry $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cough",
+    "brand": "Comffy",
+    "message": "New: Comffy - Strawberry Cough $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Green Queen $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MF-107",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - MF-107 $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bruce Bamer",
+    "brand": "Amigos",
+    "message": "New: Amigos - Bruce Bamer $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Lemon",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Blueberry Lemon $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blood Orange",
+    "brand": "SoundView",
+    "message": "New: SoundView - Blood Orange $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk $40.95"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Mandarin",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Mandarin $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon Haze",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Super Lemon Haze $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Soap",
+    "brand": "Savvy",
+    "message": "New: Savvy - The Soap $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry",
+    "brand": "Fizz",
+    "message": "New: Fizz - Black Cherry $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Greener Apple",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Greener Apple $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chill Relief",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Chill Relief $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rose Gold RTZ",
+    "brand": "Good Green",
+    "message": "New: Good Green - Rose Gold RTZ $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rose Gold RTZ",
+    "brand": "Good Green",
+    "message": "New: Good Green - Rose Gold RTZ $114.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Roll $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Mint $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Swamp Water Fumez $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Lime",
+    "brand": "Fizz",
+    "message": "New: Fizz - Lemon Lime $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange",
+    "brand": "Fizz",
+    "message": "New: Fizz - Orange $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Regina Goregous",
+    "brand": "Good Green",
+    "message": "New: Good Green - Regina Goregous $71.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "New: Select - Cherry Pi $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango",
+    "brand": "SoundView",
+    "message": "New: SoundView - Mango $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "New: Find. - Glacial Garden $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz",
+    "brand": "Brix",
+    "message": "New: Brix - Gush Mintz $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Gush Mintz $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comfort",
+    "brand": "Avexia",
+    "message": "New: Avexia - Comfort $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Silver Grapefruit",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Super Silver Grapefruit $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Purple Milk $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata",
+    "brand": "Brix",
+    "message": "New: Brix - C-Stata $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dos Mendos",
+    "brand": "Savvy",
+    "message": "New: Savvy - Dos Mendos $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Marker $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Strawberry Peach",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Strawberry Peach $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Funk",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Funk $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata",
+    "brand": "Brix",
+    "message": "New: Brix - C-Stata $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "New: Select - GMO $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel",
+    "brand": "Comffy",
+    "message": "New: Comffy - Purple Urkel $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem Junk",
+    "brand": "Brix",
+    "message": "New: Brix - Chem Junk $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE $60.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afgooey",
+    "brand": "Brix",
+    "message": "New: Brix - Afgooey $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n Wflz",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n Wflz $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Wave Tea",
+    "brand": "Uncle Arnie's",
+    "message": "New: Uncle Arnie's - Watermelon Wave Tea $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "New: all:hours - Space Gello $27.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Peaceful Paradise $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Banana Cream OG $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pomme Jelly $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Lemonade",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Blueberry Lemonade $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Garlotti $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - B Scout $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citrus Punch",
+    "brand": "SoundView",
+    "message": "New: SoundView - Citrus Punch $49.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Freshly Squeezed",
+    "brand": "Camino",
+    "message": "New: Camino - Freshly Squeezed $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Cheddar Cheeze $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Crushin' It Cran-Raspberry",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Crushin' It Cran-Raspberry $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Apple Pucker",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Apple Pucker $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer OG",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer OG $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gary P",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Gary P $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Eucalyptus & Lemongrass",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Eucalyptus & Lemongrass $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake",
+    "brand": "Amigos",
+    "message": "New: Amigos - CT Kush Cake $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tap Out",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Tap Out $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon G",
+    "brand": "Savvy",
+    "message": "New: Savvy - Super Lemon G $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon G",
+    "brand": "Savvy",
+    "message": "New: Savvy - Super Lemon G $135.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Durban Poison $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stomper Kush",
+    "brand": "Savvy",
+    "message": "New: Savvy - Stomper Kush $135.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze x Headcracker",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Cheddar Cheeze x Headcracker $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School",
+    "brand": "Select",
+    "message": "New: Select - Old School $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Scout Breath $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $61.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit",
+    "brand": "Find.",
+    "message": "New: Find. - Gas Lit $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Surfer",
+    "brand": "Comffy",
+    "message": "New: Comffy - Couch Surfer $8.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Harmony",
+    "brand": "Avexia",
+    "message": "New: Avexia - Harmony $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cndy Apple",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Cndy Apple $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout x LA Kush CKE",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout x LA Kush CKE $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Roll $6.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Cheddar Cheeze $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zen Magic",
+    "brand": "Uncle Arnie's",
+    "message": "New: Uncle Arnie's - Zen Magic $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Widow",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - White Widow $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookie Crumble Milk Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Cookie Crumble Milk Chocolate $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Berry",
+    "brand": "Camino",
+    "message": "New: Camino - Wild Berry $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peach $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lime",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Watermelon Lime $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Blue Dream $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Brains $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel",
+    "brand": "Select",
+    "message": "New: Select - Purple Urkel $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Breath $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $114.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Humboldt Sour Diesel",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Humboldt Sour Diesel $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Orange Z $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Left on Red",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Left on Red $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Mango $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Lucky",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Lemon Lucky $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spacedawg",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Spacedawg $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Speakeasy",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Speakeasy $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grandaddy Purple",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Grandaddy Purple $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $44.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Toasted S'mores Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Toasted S'mores Chocolate $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Garlotti $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "New: Select - GMO $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pumpkin Spice",
+    "brand": "SoundView",
+    "message": "New: SoundView - Pumpkin Spice $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake $38.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "New: Select - Couch Kush $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trop Cherry",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Trop Cherry $34.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citradelic Haze",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Citradelic Haze $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wilson Zero",
+    "brand": "Savvy",
+    "message": "New: Savvy - Wilson Zero $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Coasting Cherry Punch",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Coasting Cherry Punch $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Swamp Water Fumez $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Habanero",
+    "brand": "Camino",
+    "message": "New: Camino - Pineapple Habanero $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $107.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $60.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TGI Purple",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - TGI Purple $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pinyatti $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem-Band",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Chem-Band $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Salted Caramel",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - Salted Caramel $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomegranate Punch",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Pomegranate Punch $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "New: Savvy - Nimbus Snacks $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Savvy",
+    "message": "New: Savvy - GMO $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School OG",
+    "brand": "Select",
+    "message": "New: Select - Old School OG $80.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OMG",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - OMG $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Moonbeam Latto $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Limoncello",
+    "brand": "Wana",
+    "message": "New: Wana - Limoncello $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "New: Select - Raspberry Orange Lime $17.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Wedding $25.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Berry Batter $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dieselato",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dieselato $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Ice Cream Cake $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ascend",
+    "brand": "Avexia",
+    "message": "New: Avexia - Ascend $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Tyde",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Purple Tyde $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Good Vibes",
+    "brand": "New Roads",
+    "message": "New: New Roads - Berry Good Vibes $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon",
+    "brand": "SoundView",
+    "message": "New: SoundView - Watermelon $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Margarita",
+    "brand": "Wana",
+    "message": "New: Wana - Strawberry Margarita $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Emerald Kush",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Emerald Kush $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - C-Stata $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Permanent Marker $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sativa Milk",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sativa Milk $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trophy Diesel",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Trophy Diesel $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peppermint",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Peppermint $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip x Sour D",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Lemon Drip x Sour D $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mr E Pupil",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Mr E Pupil $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motorbreath",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Motorbreath $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bubba F $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bubba F $71.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bubba F $114.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MAC",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - MAC $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Sour Z $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunny Stomper",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sunny Stomper $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RNTZ x Fantasy Melonz",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - RNTZ x Fantasy Melonz $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savoti",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Savoti $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CBD",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - CBD $28.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face $107.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Atomic Breath $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "New: Find. - Back Porch $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Nana",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ultra Nana $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Acapulco Gold",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Acapulco Gold $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $35.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Breath Flower Max",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - PB Breath Flower Max $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dash of Sweet",
+    "brand": "Zero Proof",
+    "message": "New: Zero Proof - Dash of Sweet $21.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Stankonya",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Stankonya $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tangie Crush",
+    "brand": "Savvy",
+    "message": "New: Savvy - Tangie Crush $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemonade",
+    "brand": "Layup",
+    "message": "New: Layup - Lemonade $4.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spearmint",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Spearmint $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Tropical Haze $17.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Blue Razzberry",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Blue Razzberry $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Kiwi",
+    "brand": "SoundView",
+    "message": "New: SoundView - Strawberry Kiwi $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Endgame Punchline",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Endgame Punchline $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Fire OG $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "New: Select - Orange Kookyz $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Icee Hot",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Icee Hot $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Escape",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Grape Escape $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout x LA Kush CKE",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout x LA Kush CKE $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Kiwi",
+    "brand": "SoundView",
+    "message": "New: SoundView - Strawberry Kiwi $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Full Tank",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Full Tank $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel",
+    "brand": "Select",
+    "message": "New: Select - Purple Urkel $80.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "strahhhberry",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - strahhhberry $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Midnight Mint Milk Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Midnight Mint Milk Chocolate $20.30"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MAC",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - MAC $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "New: Select - Dosido $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer Peach",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Summer Peach $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ForeverBerry",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - ForeverBerry $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Triple Stack $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Skunk $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Jack",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Super Jack $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Wedding Cake $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fruit Punch",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Fruit Punch $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Emerald Kush",
+    "brand": "Savvy",
+    "message": "New: Savvy - Emerald Kush $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Guava",
+    "brand": "Amigos",
+    "message": "New: Amigos - Pink Guava $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG",
+    "brand": "Savvy",
+    "message": "New: Savvy - Alien OG $92.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Drip",
+    "brand": "Savvy",
+    "message": "New: Savvy - Berry Drip $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - PB $12.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO Skunk",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GMO Skunk $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yeet",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Yeet $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "New: Select - Garlotti $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "New: Select - Garlotti $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer x CDLC",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer x CDLC $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Foreign Kush Mints $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Tangahhhrine",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Tangahhhrine $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinyatti",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pinyatti $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Mango",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Peach Mango $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "New: all:hours - Space Gello $44.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indica Dark",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Indica Dark $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Berries Dark Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Wild Berries Dark Chocolate $20.30"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Speakeasy",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Speakeasy $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BLB",
+    "brand": "Shaka",
+    "message": "New: Shaka - BLB $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Green Queen $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookies & Cream White Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Cookies & Cream White Chocolate $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "H0rchata",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - H0rchata $48.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sultry Cinnamon",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Sultry Cinnamon $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fever Dream",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Fever Dream $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Black Cherry $3.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot $87.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purpentine",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Purpentine $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Hot Guava $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Oklahoma Coma",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Oklahoma Coma $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Snoozzzeberry $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CBD",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - CBD $8.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomegranate Blueberry Acai",
+    "brand": "Wana",
+    "message": "New: Wana - Pomegranate Blueberry Acai $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wintergreen",
+    "brand": "SoundView",
+    "message": "New: SoundView - Wintergreen $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trop Cherry Honey Bananas",
+    "brand": "all:hours",
+    "message": "New: all:hours - Trop Cherry Honey Bananas $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream",
+    "brand": "Comffy",
+    "message": "New: Comffy - Blue Dream $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Fresh",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Lemon Fresh $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pinnacle",
+    "brand": "Savvy",
+    "message": "New: Savvy - Pinnacle $92.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Diesel",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Sour Diesel $44.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's $27.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMOG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - GMOG $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow Parade",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Rainbow Parade $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fritterz",
+    "brand": "Comffy",
+    "message": "New: Comffy - Fritterz $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "New: Savvy - Blue Andeze $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "New: Savvy - Blue Andeze $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - GMO $46.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Venom Breath",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Venom Breath $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Midnight O",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Midnight O $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paradise Snacks",
+    "brand": "Good Green",
+    "message": "New: Good Green - Paradise Snacks $64.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dash of Cherry",
+    "brand": "Zero Proof",
+    "message": "New: Zero Proof - Dash of Cherry $21.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Pineapple Express $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Lemon Skunk $56.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Black Maple $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Diesel",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Peach Diesel $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lady in Red",
+    "brand": "Amigos",
+    "message": "New: Amigos - Lady in Red $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "INKD UP",
+    "brand": "Brix",
+    "message": "New: Brix - INKD UP $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Relief",
+    "brand": "Avexia",
+    "message": "New: Avexia - Relief $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti",
+    "brand": "Select",
+    "message": "New: Select - GASolotti $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Bananaconda $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Inkowgnito Mode",
+    "brand": "Brix",
+    "message": "New: Brix - Inkowgnito Mode $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunny Stomper",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Sunny Stomper $25.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Green Apple $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Papi Purple",
+    "brand": "Amigos",
+    "message": "New: Amigos - Papi Purple $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz $47.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OGBK Stomper",
+    "brand": "Savvy",
+    "message": "New: Savvy - OGBK Stomper $41.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "New: Savvy - Red Gary $11.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Blue Lobster $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hazy Fields",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Hazy Fields $43.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Soap",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - The Soap $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz",
+    "brand": "Good Green",
+    "message": "New: Good Green - Slapz $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Modified Haze $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Lime",
+    "brand": "SoundView",
+    "message": "New: SoundView - Lemon Lime $4.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - B Scout $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Cherry Tart",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Cherry Tart $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Durban Legacy $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dark Chocolate",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Dark Chocolate $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hazy Fields",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Hazy Fields $43.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Astro GMO $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BBH",
+    "brand": "Awssom",
+    "message": "New: Awssom - BBH $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Budda Buddha",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Peanut Budda Buddha $14.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mixed Berry",
+    "brand": "SoundView",
+    "message": "New: SoundView - Mixed Berry $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trop Cherry Honey Bananas",
+    "brand": "all:hours",
+    "message": "New: all:hours - Trop Cherry Honey Bananas $33.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry BMB",
+    "brand": "Select",
+    "message": "New: Select - Cherry BMB $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "New: Find. - Critical Crumb $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Hickory Hash $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweet Berry Burst",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sweet Berry Burst $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vel Croz",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Vel Croz $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunset Citron",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Sunset Citron $8.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $60.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $107.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "New: all:hours - Space Gello $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Paw Paw $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creative Clementine",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Creative Clementine $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slip",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Slip $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Permanent Marker $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem-Band",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Chem-Band $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zlushie",
+    "brand": "Amigos",
+    "message": "New: Amigos - Zlushie $50.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff",
+    "brand": "Brix",
+    "message": "New: Brix - Super Buff $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "New: Select - GMO $80.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Deep Blue Gas",
+    "brand": "Savvy",
+    "message": "New: Savvy - Deep Blue Gas $135.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Juice OG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Juice OG $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Left on Red",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Left on Red $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scorpion Bowl",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Scorpion Bowl $16.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks $32.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "New: Select - Sofa Sonata $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Escape",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Grape Escape $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "New: Find. - Half Moonana $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Alien OG $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Acapulco Gold",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Acapulco Gold $45.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butter Pretzel Milk Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peanut Butter Pretzel Milk Chocolate $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie $78.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel $27.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blackberry Durban",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Blackberry Durban $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds $23.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Modified Haze $44.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Breath $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lemonade",
+    "brand": "Camino",
+    "message": "New: Camino - Watermelon Lemonade $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blackberry Dream",
+    "brand": "Camino",
+    "message": "New: Camino - Blackberry Dream $24.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Jealousy $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Super Buff $39.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Marker",
+    "brand": "Brix",
+    "message": "New: Brix - Blue Marker $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "New: Select - Old School Blue $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Purple Milk $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Medellin",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Medellin $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy",
+    "brand": "Brix",
+    "message": "New: Brix - Jealousy $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moscow Mule",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Moscow Mule $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Govmint Oasis",
+    "brand": "Brix",
+    "message": "New: Brix - Govmint Oasis $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Lime",
+    "brand": "SoundView",
+    "message": "New: SoundView - Raspberry Lime $23.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solo Burger",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Solo Burger $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glitter Bomb",
+    "brand": "Brix",
+    "message": "New: Brix - Glitter Bomb $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Melon Crash",
+    "brand": "Savvy",
+    "message": "New: Savvy - Melon Crash $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Sunrise",
+    "brand": "Brix",
+    "message": "New: Brix - Mystic Sunrise $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata",
+    "brand": "Brix",
+    "message": "New: Brix - C-Stata $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peachy Punch",
+    "brand": "Savvy",
+    "message": "New: Savvy - Peachy Punch $7.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Magenta Dream",
+    "brand": "Savvy",
+    "message": "New: Savvy - Magenta Dream $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer OG",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer OG $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "New: Find. - Bulbz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Marker $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bad Decisions",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Bad Decisions $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gasolina",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gasolina $47.60"
+  }
+]

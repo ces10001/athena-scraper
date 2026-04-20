@@ -1,0 +1,476 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaThe Happy Confection MED - Sunset Citron (I) -",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaThe Happy Confection MED - Sunset Citron (I) - $71.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 left20% OFFSativaThe Happy Confection-Creative Clementine",
+    "brand": null,
+    "message": "New: null - Only 1 left20% OFFSativaThe Happy Confection-Creative Clementine $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybrid",
+    "brand": null,
+    "message": "New: null - 20% OFFHybrid $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybrid",
+    "brand": null,
+    "message": "New: null - 20% OFFHybrid $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DealsView allView allSpend X Get YPickup only4/20 Sale- Spend",
+    "brand": null,
+    "message": "New: null - DealsView allView allSpend X Get YPickup only4/20 Sale- Spend $301.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape( $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape( $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFSativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape",
+    "brand": null,
+    "message": "New: null - 20% OFFSativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Big Savings on Our Best Products — Shop Now!View allView all",
+    "brand": null,
+    "message": "null Big Savings on Our Best Products — Shop Now!View allView all: $58.00 > $71.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 leftSponsored20% OFFIndicaBUDR Roll 2g AIO Vape 41674",
+    "brand": null,
+    "message": "New: null - Only 1 leftSponsored20% OFFIndicaBUDR Roll 2g AIO Vape 41674 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFBudr BatteryBudrPortable Vaporizer(EACH)",
+    "brand": null,
+    "message": "New: null - 20% OFFBudr BatteryBudrPortable Vaporizer(EACH) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFBudr Black Currant Hemp-Derived Seltzer 3mg THC 3mg C",
+    "brand": null,
+    "message": "New: null - 20% OFFBudr Black Currant Hemp-Derived Seltzer 3mg THC 3mg C $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFBudr White Grape Pear Hemp-Derived Seltzer 3mg THC 3m",
+    "brand": null,
+    "message": "New: null - 20% OFFBudr White Grape Pear Hemp-Derived Seltzer 3mg THC 3m $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFBudr Pomegranate Blueberry Acai Hemp-Derived Seltzer",
+    "brand": null,
+    "message": "New: null - 20% OFFBudr Pomegranate Blueberry Acai Hemp-Derived Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFCBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3m",
+    "brand": null,
+    "message": "New: null - 20% OFFCBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3m $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridCarbon FBR 14g 41718TheraplantFLOWER (14G)THC 2",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridCarbon FBR 14g 41718TheraplantFLOWER (14G)THC 2 $58.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridall:hours Mule Fuel 41241all:hoursPremium Flowe",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridall:hours Mule Fuel 41241all:hoursPremium Flowe $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFSativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER (3.5",
+    "brand": null,
+    "message": "New: null - 20% OFFSativaRythm 3.5g Lemon Drip (S) 01243RYTHMFLOWER (3.5 $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "20% OFFIndicaCTP GMO Flower 23.42% I 26444 3.5gCTPharmaFLOWE",
+    "brand": null,
+    "message": "null 20% OFFIndicaCTP GMO Flower 23.42% I 26444 3.5gCTPharmaFLOWE: $21.00 > $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G) $131.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jane Gold rewardsView allView all15% back((inc)edibles•Bundl",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all15% back((inc)edibles•Bundl: $26.00 > $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored20% OFFIndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vap",
+    "brand": null,
+    "message": "New: null - Sponsored20% OFFIndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vap $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G $131.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridHigh Strength Pagoti Capsules 41074TheraplantCa",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridHigh Strength Pagoti Capsules 41074TheraplantCa $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCart",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCart $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridAGL 1g Vape Animal Face x Purple Tyde (I) 01391",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridAGL 1g Vape Animal Face x Purple Tyde (I) 01391 $36.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFSativaThe Happy Confection MED - Boosted Berry (S) -",
+    "brand": null,
+    "message": "New: null - 20% OFFSativaThe Happy Confection MED - Boosted Berry (S) - $73.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "20% OFFSativaCTP Seattle Sour Kush BHO Live Resin Sugar T81.",
+    "brand": null,
+    "message": "null 20% OFFSativaCTP Seattle Sour Kush BHO Live Resin Sugar T81.: $40.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% back20% OFFIndicaEncore Sweet Berry Burst Gummies T93.6m",
+    "brand": null,
+    "message": "New: null - 15% back20% OFFIndicaEncore Sweet Berry Burst Gummies T93.6m $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFHybridRythm 3.5g RNTZ (H) 01244RYTHMFLOWER (3.5G)THC",
+    "brand": null,
+    "message": "New: null - 20% OFFHybridRythm 3.5g RNTZ (H) 01244RYTHMFLOWER (3.5G)THC $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm 1g LEAF Live Sauce Pen White Truffle (I)",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cash back20% OFFIndicaSoundView BlueZZZberry 5:1 CBN Gummies",
+    "brand": null,
+    "message": "New: null - Cash back20% OFFIndicaSoundView BlueZZZberry 5:1 CBN Gummies $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Popular20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTH",
+    "brand": null,
+    "message": "New: null - Popular20% OFFIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTH $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored20% OFFHybridCarbon FBR 14g 41718TheraplantFLOWER (",
+    "brand": null,
+    "message": "New: null - Sponsored20% OFFHybridCarbon FBR 14g 41718TheraplantFLOWER ( $58.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaGangsta Grillz Vape 41745TheraplantVape Cartrid",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaGangsta Grillz Vape 41745TheraplantVape Cartrid $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sponsored20% OFFHybridFIND. Whole Flower 7g Back Porch (H) 0",
+    "brand": null,
+    "message": "null Sponsored20% OFFHybridFIND. Whole Flower 7g Back Porch (H) 0: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "20% OFFSativaFIND. Whole Flower 7g Diesel Bites (S) 01444 TC",
+    "brand": null,
+    "message": "null 20% OFFSativaFIND. Whole Flower 7g Diesel Bites (S) 01444 TC: $36.00 > $28.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G) $87.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFIndicaGood Green Ground Flower 28g Mystic Mint (I) 01",
+    "brand": null,
+    "message": "New: null - 20% OFFIndicaGood Green Ground Flower 28g Mystic Mint (I) 01 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "20% OFFSativaLemon Skunk Flower T27.43% S 00883Affinity Grow",
+    "brand": null,
+    "message": "New: null - 20% OFFSativaLemon Skunk Flower T27.43% S 00883Affinity Grow $26.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T",
+    "brand": null,
+    "message": "Gone: null - SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!IndicaCamino Sours-Blackberry Dream with CBN",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!IndicaCamino Sours-Blackberry Dream with CBN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1",
+    "brand": null,
+    "message": "Gone: null - 35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% back20% OFF!IndicaCOAST Wildberry Gummies 89.6mg I 00345",
+    "brand": null,
+    "message": "Gone: null - 20% back20% OFF!IndicaCOAST Wildberry Gummies 89.6mg I 00345"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!IndicaCamino Midnight Blueberry 5:1 CBN T95.",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!IndicaCamino Midnight Blueberry 5:1 CBN T95."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% OFF 1/2 GHybridAFG Enchanted Forest BHO Sugar 79.65% H 0",
+    "brand": null,
+    "message": "Gone: null - 15% OFF 1/2 GHybridAFG Enchanted Forest BHO Sugar 79.65% H 0"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% back20% OFF!HybridCoast Cannabis CO. Peach 20:1 Infused",
+    "brand": null,
+    "message": "Gone: null - 20% back20% OFF!HybridCoast Cannabis CO. Peach 20:1 Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFF!IndicaAmigos-Lady in Red Live Resin-(I)-Disposable-1",
+    "brand": null,
+    "message": "Gone: null - 35% OFF!IndicaAmigos-Lady in Red Live Resin-(I)-Disposable-1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFIndicaLighthouse-Wedding Cake Live Resin-(I)",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFIndicaLighthouse-Wedding Cake Live Resin-(I)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!HybridCamino Watermelon Lemonade Cannabis-In",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!HybridCamino Watermelon Lemonade Cannabis-In"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFHybridRC Airo X GG4 x Peelz Vape 87.94% H 00288 1gAir",
+    "brand": null,
+    "message": "Gone: null - 20% OFFHybridRC Airo X GG4 x Peelz Vape 87.94% H 00288 1gAir"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 left35% OFF!SativaAmigos-Pineapple Express Live Resin",
+    "brand": null,
+    "message": "Gone: null - Only 1 left35% OFF!SativaAmigos-Pineapple Express Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFFIndicaWana Optimals Quick Dream Berry Gummies 00419Wa",
+    "brand": null,
+    "message": "Gone: null - 35% OFFIndicaWana Optimals Quick Dream Berry Gummies 00419Wa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Budr BatteryBudrPortable Vaporizer(EACH)",
+    "brand": null,
+    "message": "Gone: null - Budr BatteryBudrPortable Vaporizer(EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER (3.5G)",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOWER (3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)THC 35",
+    "brand": null,
+    "message": "Gone: null - HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)THC 35"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridHigh Strength Pagoti Capsules 41074TheraplantCapsules(",
+    "brand": null,
+    "message": "Gone: null - HybridHigh Strength Pagoti Capsules 41074TheraplantCapsules("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BundleSativaThe Happy Confection MED - Boosted Berry (S) - 0",
+    "brand": null,
+    "message": "Gone: null - BundleSativaThe Happy Confection MED - Boosted Berry (S) - 0"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAGL 1g Vape Animal Face x Purple Tyde (I) 01391Advance",
+    "brand": null,
+    "message": "Gone: null - HybridAGL 1g Vape Animal Face x Purple Tyde (I) 01391Advance"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash backIndicaSoundView BlueZZZberry 5:1 CBN Gummies T94.6m",
+    "brand": null,
+    "message": "Gone: null - Cash backIndicaSoundView BlueZZZberry 5:1 CBN Gummies T94.6m"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RY",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RY"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Popular5% backSativaSavvy Smalls 28g Nimbus Snacks S 26906Sa",
+    "brand": null,
+    "message": "Gone: null - Popular5% backSativaSavvy Smalls 28g Nimbus Snacks S 26906Sa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored5% backHybridSavvy Smalls 7g Zuava H 26948SavvyFLOW",
+    "brand": null,
+    "message": "Gone: null - Sponsored5% backHybridSavvy Smalls 7g Zuava H 26948SavvyFLOW"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOW",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaRythm B Scout 3.5g (I) 35.29% 01206RYTHMFLOW"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSativaSavvy Smalls 7g E85 S 26914SavvyFLOWER (7G)THC",
+    "brand": null,
+    "message": "Gone: null - 5% backSativaSavvy Smalls 7g E85 S 26914SavvyFLOWER (7G)THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 leftSponsoredSativaRythm 3.5g Lemon Drip (S) 01243RYT",
+    "brand": null,
+    "message": "Gone: null - Only 3 leftSponsoredSativaRythm 3.5g Lemon Drip (S) 01243RYT"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)THC 36.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)THC 36."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% backIndicaEncore Sweet Berry Burst Gummies T93.6mg I 268",
+    "brand": null,
+    "message": "Gone: null - 15% backIndicaEncore Sweet Berry Burst Gummies T93.6mg I 268"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSativaLemon Skunk Flower T27.43% S 00883Affinity Gr",
+    "brand": null,
+    "message": "Gone: null - SponsoredSativaLemon Skunk Flower T27.43% S 00883Affinity Gr"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSativaSavvy Guap RSO Tangie Crush S 26972SavvyMacro D",
+    "brand": null,
+    "message": "Gone: null - 5% backSativaSavvy Guap RSO Tangie Crush S 26972SavvyMacro D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridall:hours Mule Fuel 41241all:hoursPremium Flo",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridall:hours Mule Fuel 41241all:hoursPremium Flo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaCookies- C. Rollz 1g Whole Flower Pre-roll I 60005Cook",
+    "brand": null,
+    "message": "Gone: null - IndicaCookies- C. Rollz 1g Whole Flower Pre-roll I 60005Cook"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)THC 24.",
+    "brand": null,
+    "message": "Gone: null - HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)THC 24."
+  }
+]

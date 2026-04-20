@@ -1,0 +1,134 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Animal Scout #10 (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nSponsored\n\nRythm",
+    "message": "OFF\n\nIndica flower\n\nSponsored\n\nRythm Animal Scout #10 (I) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGrassroots",
+    "message": "OFF\n\nIndica flower\n\nGrassroots Triple Stack (I) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Forest Reserve (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonbeam Latto (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Moonbeam Latto (H) Flower: $25.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nFind",
+    "message": "OFF\n\nSativa flower\n\nFind PB Bites (S) Flower: $25.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nGood Green",
+    "message": "OFF\n\nSativa flower\n\nGood Green Chkn n WflZ (S) Flower: $35.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nCuraleaf",
+    "message": "OFF\n\nHybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $25.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGrassroots",
+    "message": "OFF\n\nIndica flower\n\nGrassroots Zesty Garlic Kookyz (I) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nCuraleaf",
+    "message": "OFF\n\nSativa flower\n\nCuraleaf Orange Z (S) Flower: $90.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nFind",
+    "message": "OFF\n\nSativa flower\n\nFind PB Bites (S) Flower: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nShaka",
+    "message": "OFF\n\nHybrid flower\n\nShaka BLB (H) Flower: $32.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apes In Space (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nCuraleaf",
+    "message": "OFF\n\nIndica flower\n\nCuraleaf Apes In Space (I) Flower: $90.00 > $63.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Gone: Hybrid flower\n\nTheraplant - Carbon FBR (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lunar Diesel (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Lunar Diesel (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Gone: Indica flower\n\nGood Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "Gone: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Gone: Hybrid flower\n\nFind - Gas Lit (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "Indica flower\n\nCTPharma",
+    "message": "Gone: Indica flower\n\nCTPharma - Gush Mintz (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Paw Paw (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Gone: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower"
+  }
+]

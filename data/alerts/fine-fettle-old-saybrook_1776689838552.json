@@ -1,0 +1,110 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Forest Reserve (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nTheraplant",
+    "message": "OFF\n\nHybrid flower\n\nTheraplant Gas Face (H) Flower: $140.00 > $92.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry PRFT (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nCuraleaf",
+    "message": "OFF\n\nSativa flower\n\nCuraleaf Raspberry PRFT (S) Flower: $90.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nCuraleaf",
+    "message": "OFF\n\nSativa flower\n\nCuraleaf Orange Z (S) Flower: $90.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGrassroots",
+    "message": "OFF\n\nHybrid flower\n\nGrassroots Paw Paw (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "OFF\n\nHybrid flower\n\nall:hours",
+    "message": "OFF\n\nHybrid flower\n\nall:hours 10G's (H) part:timers Flower: $47.00 > $30.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slapz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGood Green",
+    "message": "OFF\n\nHybrid flower\n\nGood Green Slapz (H) Flower: $35.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nAffinity Grow",
+    "message": "OFF\n\nIndica flower\n\nAffinity Grow Black Maple (I) Flower: $39.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nCuraleaf",
+    "message": "OFF\n\nIndica flower\n\nCuraleaf Triple Stack (I) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGood Green",
+    "message": "OFF\n\nIndica flower\n\nGood Green Bubba F (I) Flower: $35.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nGood Green",
+    "message": "OFF\n\nHybrid flower\n\nGood Green Bananaconda (H) Flower: $35.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nCuraleaf",
+    "message": "OFF\n\nHybrid flower\n\nCuraleaf White Hot Guava (H) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "OFF\n\nIndica flower\n\nLil Budz",
+    "message": "OFF\n\nIndica flower\n\nLil Budz Purple Milk (I) Smalls: $50.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nFind",
+    "message": "OFF\n\nHybrid flower\n\nFind Tropical Heatwave (H) Flower: $90.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGrassroots",
+    "message": "OFF\n\nIndica flower\n\nGrassroots White Caps (I) Flower: $30.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nShaka",
+    "message": "OFF\n\nHybrid flower\n\nShaka BLB (H) Flower: $32.00 > $22.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "Gone: Hybrid flower\n\nLil Budz - Chem D (H) Smalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "Gone: Hybrid flower\n\nLil Budz - Chem D (H) Smalls"
+  }
+]

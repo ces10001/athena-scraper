@@ -1,6 +1,8 @@
 {
-  "lastUpdated": "2026-04-20T01:47:33.356Z",
+  "lastUpdated": "2026-04-20T13:14:58.878Z",
   "dispensaries": [
+    "affinity-bridgeport-med",
+    "affinity-bridgeport-rec",
     "affinity-dispensary-med",
     "affinity-dispensary-rec",
     "affinity-dispensary",
@@ -154,8 +156,8 @@
     "zen-leaf-waterbury-rec"
   ],
   "stats": {
-    "total": 22065,
+    "total": 26111,
     "scraped": 115,
-    "alerts": 20433
+    "alerts": 8064
   }
 }

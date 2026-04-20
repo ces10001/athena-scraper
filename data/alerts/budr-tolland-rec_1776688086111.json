@@ -1,0 +1,152 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "DealsView allView allSpend X Get YPickup only4/20 Sale- Spend",
+    "brand": null,
+    "message": "New: null - DealsView allView allSpend X Get YPickup only4/20 Sale- Spend $301.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EA",
+    "brand": null,
+    "message": "New: null - SALE!HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EA $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG",
+    "brand": null,
+    "message": "New: null - SALE!Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr White Grape Pear Hemp-Derived Seltzer 3mg THC 3mg",
+    "brand": null,
+    "message": "New: null - SALE!Budr White Grape Pear Hemp-Derived Seltzer 3mg THC 3mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3m",
+    "brand": null,
+    "message": "New: null - SALE!Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3m $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EA",
+    "brand": null,
+    "message": "New: null - SALE!HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EA $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC",
+    "brand": null,
+    "message": "New: null - SALE!Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(E",
+    "brand": null,
+    "message": "New: null - SALE!SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(E $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!SativaLoud Cannabis Clementine (S) C0170000029Loud Cann",
+    "brand": null,
+    "message": "New: null - SALE!SativaLoud Cannabis Clementine (S) C0170000029Loud Cann $38.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 leftSALE!SativaCookies- Blueberry Banana 1g Whole Flo",
+    "brand": null,
+    "message": "New: null - Only 3 leftSALE!SativaCookies- Blueberry Banana 1g Whole Flo $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 left5% backSALE!IndicaSavvy Guap RSO Melon Crash 1:2",
+    "brand": null,
+    "message": "New: null - Only 3 left5% backSALE!IndicaSavvy Guap RSO Melon Crash 1:2 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaGood Green Ground Flower 28g Mystic Mint (I) 0140",
+    "brand": null,
+    "message": "New: null - SALE!IndicaGood Green Ground Flower 28g Mystic Mint (I) 0140 $93.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridGood Green 14g Rose Gold RTZ (H) 01366Good GreenM",
+    "brand": null,
+    "message": "New: null - SALE!HybridGood Green 14g Rose Gold RTZ (H) 01366Good GreenM $85.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Budr White Grape Pear Hemp-Derived Seltzer 3mg THC 3mg CBG 1",
+    "brand": null,
+    "message": "Gone: null - Budr White Grape Pear Hemp-Derived Seltzer 3mg THC 3mg CBG 1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG 12oz",
+    "brand": null,
+    "message": "Gone: null - Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG 12oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3mg THC",
+    "brand": null,
+    "message": "Gone: null - Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3mg THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC 3mg",
+    "brand": null,
+    "message": "Gone: null - Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC 3mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T",
+    "brand": null,
+    "message": "Gone: null - SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaLoud Cannabis Clementine (S) C0170000029Loud Cannabis",
+    "brand": null,
+    "message": "Gone: null - SativaLoud Cannabis Clementine (S) C0170000029Loud Cannabis"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backCBDSavvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945Sav",
+    "brand": null,
+    "message": "Gone: null - 5% backCBDSavvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945Sav"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good",
+    "brand": null,
+    "message": "Gone: null - IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridGood Green 14g Rose Gold RTZ (H) 01366Good GreenMixed",
+    "brand": null,
+    "message": "Gone: null - HybridGood Green 14g Rose Gold RTZ (H) 01366Good GreenMixed"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaEarl Baker - Whole Flower - Mac N Jack 0097Earl BakerF",
+    "brand": null,
+    "message": "Gone: null - SativaEarl Baker - Whole Flower - Mac N Jack 0097Earl BakerF"
+  }
+]

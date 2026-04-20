@@ -1,0 +1,482 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $6.00 > $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "New THC Beverages!View allView allSALE!Fizz 3mg Orange Soda",
+    "brand": null,
+    "message": "New: null - New THC Beverages!View allView allSALE!Fizz 3mg Orange Soda $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC",
+    "brand": null,
+    "message": "New: null - SALE!New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!New Roads Berry Good Vibes Hemp-Derived Beverage (3mg T",
+    "brand": null,
+    "message": "New: null - SALE!New Roads Berry Good Vibes Hemp-Derived Beverage (3mg T $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!FiveIslands Classic Tea Hemp-Derived Beverage (3mg THC)",
+    "brand": null,
+    "message": "New: null - SALE!FiveIslands Classic Tea Hemp-Derived Beverage (3mg THC) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!New Roads Tropical Daze Hemp-Derived Beverage (3mg THC)",
+    "brand": null,
+    "message": "New: null - SALE!New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!CANN Ginger Lemongrass Hemp-Derived Beverage (3mg THC /",
+    "brand": null,
+    "message": "New: null - SALE!CANN Ginger Lemongrass Hemp-Derived Beverage (3mg THC / $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg TH",
+    "brand": null,
+    "message": "New: null - SALE!HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg TH $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!FiveIslands Peach Tea Hemp-Derived Beverage (3mg THC) 1",
+    "brand": null,
+    "message": "New: null - SALE!FiveIslands Peach Tea Hemp-Derived Beverage (3mg THC) 1 $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!FiveIslands Half & Half Hemp-Derived Beverage (3mg THC)",
+    "brand": null,
+    "message": "New: null - SALE!FiveIslands Half & Half Hemp-Derived Beverage (3mg THC) $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3",
+    "brand": null,
+    "message": "New: null - SALE!HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3 $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DealsView allView allSpend X Get YPickup only4/20 Sale- Spend",
+    "brand": null,
+    "message": "New: null - DealsView allView allSpend X Get YPickup only4/20 Sale- Spend $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 013",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 013 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 leftSponsoredSALE!Indicaall:hours Hash Burger over:ti",
+    "brand": null,
+    "message": "New: null - Only 1 leftSponsoredSALE!Indicaall:hours Hash Burger over:ti $45.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SALE!SativaDark Heart Collection Whole Flower 3.5g Titan Exp",
+    "brand": null,
+    "message": "null SALE!SativaDark Heart Collection Whole Flower 3.5g Titan Exp: $30.00 > $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!HybridGrassroots Ground Flower 3.5g Floral Fro",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!HybridGrassroots Ground Flower 3.5g Floral Fro $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EA",
+    "brand": null,
+    "message": "New: null - SALE!HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EA $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridAGL 300mg Pen Apple Cobbler x RNTZ (H) 01293Advan",
+    "brand": null,
+    "message": "New: null - SALE!HybridAGL 300mg Pen Apple Cobbler x RNTZ (H) 01293Advan $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredSALE!SativaRythm 1g LEAF Live Sauce Pen Lemon Haze",
+    "brand": null,
+    "message": "New: null - SponsoredSALE!SativaRythm 1g LEAF Live Sauce Pen Lemon Haze $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridCarbon FBR 14g 41718TheraplantFLOWER (14G)THC 23.",
+    "brand": null,
+    "message": "New: null - SALE!HybridCarbon FBR 14g 41718TheraplantFLOWER (14G)THC 23. $68.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(E",
+    "brand": null,
+    "message": "New: null - SALE!SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(E $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 left15% backSALE!IndicaEncore Pomegranate Punch CBN:T",
+    "brand": null,
+    "message": "New: null - Only 2 left15% backSALE!IndicaEncore Pomegranate Punch CBN:T $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridRythm 7g Small Flower Swamp Water Fumez (H) 01380",
+    "brand": null,
+    "message": "New: null - SALE!HybridRythm 7g Small Flower Swamp Water Fumez (H) 01380 $55.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jane Gold rewardsView allView all20% backRodeo Cannabis•Bund",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all20% backRodeo Cannabis•Bund: $32.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 leftSALE!IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vap",
+    "brand": null,
+    "message": "New: null - Only 2 leftSALE!IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vap $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EA",
+    "brand": null,
+    "message": "New: null - SALE!HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EA $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 leftSALE!Budr White Grape Pear Hemp-Derived Seltzer 3",
+    "brand": null,
+    "message": "New: null - Only 2 leftSALE!Budr White Grape Pear Hemp-Derived Seltzer 3 $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr LighterBudrLighter(EACH)",
+    "brand": null,
+    "message": "New: null - SALE!Budr LighterBudrLighter(EACH) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3m",
+    "brand": null,
+    "message": "New: null - SALE!Budr Pomegranate Blueberry Acai Hemp-Derived Seltzer 3m $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!CBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3mg",
+    "brand": null,
+    "message": "New: null - SALE!CBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG",
+    "brand": null,
+    "message": "New: null - SALE!Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Budr 1 1/4 Rolling PapersBudrRolling Papers(EACH)",
+    "brand": null,
+    "message": "New: null - SALE!Budr 1 1/4 Rolling PapersBudrRolling Papers(EACH) $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!Indicaall:hours Hash Burger over:timers 41391all:hoursO",
+    "brand": null,
+    "message": "New: null - SALE!Indicaall:hours Hash Burger over:timers 41391all:hoursO $45.90"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Our Best Sellers — Customer Favorites, Tried and True!View a",
+    "brand": null,
+    "message": "null Our Best Sellers — Customer Favorites, Tried and True!View a: $29.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!SativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368",
+    "brand": null,
+    "message": "New: null - SALE!SativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01",
+    "brand": null,
+    "message": "New: null - SALE!IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backSALE!IndicaEncore Pomegranate Punch CBN:THC Gummies",
+    "brand": null,
+    "message": "New: null - 15% backSALE!IndicaEncore Pomegranate Punch CBN:THC Gummies $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backSALE!SativaEncore Sour Watermelon Gummies T95.8mg S 26875Encore EdiblesG",
+    "brand": null,
+    "message": "New: null - 15% backSALE!SativaEncore Sour Watermelon Gummies T95.8mg S 26875Encore EdiblesG $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC",
+    "brand": null,
+    "message": "New: null - SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartri",
+    "brand": null,
+    "message": "New: null - SALE!IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartri $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) 12 o",
+    "brand": null,
+    "message": "Gone: null - New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) 12 o"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC) 12",
+    "brand": null,
+    "message": "Gone: null - New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC) 12"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Berry Good Vibes Hemp-Derived Beverage (3mg THC) 1",
+    "brand": null,
+    "message": "Gone: null - New Roads Berry Good Vibes Hemp-Derived Beverage (3mg THC) 1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FiveIslands Classic Tea Hemp-Derived Beverage (3mg THC) 12 o",
+    "brand": null,
+    "message": "Gone: null - FiveIslands Classic Tea Hemp-Derived Beverage (3mg THC) 12 o"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CANN Ginger Lemongrass Hemp-Derived Beverage (3mg THC / 6mg",
+    "brand": null,
+    "message": "Gone: null - CANN Ginger Lemongrass Hemp-Derived Beverage (3mg THC / 6mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6",
+    "brand": null,
+    "message": "Gone: null - HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FiveIslands Peach Tea Hemp-Derived Beverage (3mg THC) 12 ozF",
+    "brand": null,
+    "message": "Gone: null - FiveIslands Peach Tea Hemp-Derived Beverage (3mg THC) 12 ozF"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FiveIslands Half & Half Hemp-Derived Beverage (3mg THC) 12 o",
+    "brand": null,
+    "message": "Gone: null - FiveIslands Half & Half Hemp-Derived Beverage (3mg THC) 12 o"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3mg TH",
+    "brand": null,
+    "message": "Gone: null - HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3mg TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "DealsView allView allProductPickup onlyLighthouse Sale- Save 35% offProductPicku",
+    "brand": null,
+    "message": "Gone: null - DealsView allView allProductPickup onlyLighthouse Sale- Save 35% offProductPicku"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored15% backIndicaEncore Pomegranate Punch CBN:THC Gumm",
+    "brand": null,
+    "message": "Gone: null - Sponsored15% backIndicaEncore Pomegranate Punch CBN:THC Gumm"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5",
+    "brand": null,
+    "message": "Gone: null - HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftIndicaall:hours Hash Burger over:timers 41391all:",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftIndicaall:hours Hash Burger over:timers 41391all:"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% backSativaEncore Sweet Strawberry Gummies T91mg S 26893Encore EdiblesGummies",
+    "brand": null,
+    "message": "Gone: null - 15% backSativaEncore Sweet Strawberry Gummies T91mg S 26893Encore EdiblesGummies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridRythm 7g Small Flower Afternoon Delight #4 (H",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridRythm 7g Small Flower Afternoon Delight #4 (H"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridGood Green 3.5g Bananaconda (H) 01385Good GreenFLOWER",
+    "brand": null,
+    "message": "Gone: null - HybridGood Green 3.5g Bananaconda (H) 01385Good GreenFLOWER"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 left35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-D",
+    "brand": null,
+    "message": "Gone: null - Only 1 left35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backIndicaSavvy Smalls 7g Blue Gas I 26866SavvyFLOWER (7G",
+    "brand": null,
+    "message": "Gone: null - 5% backIndicaSavvy Smalls 7g Blue Gas I 26866SavvyFLOWER (7G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored35% OFFSativaWana Quick Sativa Connecticut Sunrise",
+    "brand": null,
+    "message": "Gone: null - Sponsored35% OFFSativaWana Quick Sativa Connecticut Sunrise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSativaSavvy Smalls 7g E85 S 26914SavvyFLOWER (7G)THC",
+    "brand": null,
+    "message": "Gone: null - 5% backSativaSavvy Smalls 7g E85 S 26914SavvyFLOWER (7G)THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFIndicaLighthouse-Grandaddy Purple Live Resin",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFIndicaLighthouse-Grandaddy Purple Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 leftHybridCarbon FBR 14g 41718TheraplantFLOWER (14G)T",
+    "brand": null,
+    "message": "Gone: null - Only 1 leftHybridCarbon FBR 14g 41718TheraplantFLOWER (14G)T"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!IndicaCamino Wild Berry Cannabis-Infused Gum",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!IndicaCamino Wild Berry Cannabis-Infused Gum"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 left35% OFF!IndicaAmigos-Zlushie Live Resin-(I)-Dispo",
+    "brand": null,
+    "message": "Gone: null - Only 1 left35% OFF!IndicaAmigos-Zlushie Live Resin-(I)-Dispo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFFIndicaWana Quick Indica Island Punch Fast-Acting Gumm",
+    "brand": null,
+    "message": "Gone: null - 35% OFFIndicaWana Quick Indica Island Punch Fast-Acting Gumm"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 left20% back20% OFF!HybridCoast Cannabis CO. Cherry 1",
+    "brand": null,
+    "message": "Gone: null - Only 3 left20% back20% OFF!HybridCoast Cannabis CO. Cherry 1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFFSativaAiro X Karma's Diesel 1g Vape (C0070000386)Airo",
+    "brand": null,
+    "message": "Gone: null - 20% OFFSativaAiro X Karma's Diesel 1g Vape (C0070000386)Airo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!HybridCamino Sours-Strawberry Sunset Cannabi",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!HybridCamino Sours-Strawberry Sunset Cannabi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFFHybridWana 5:1 CBD/THC Gummies Pomegranate Blueberry",
+    "brand": null,
+    "message": "Gone: null - 35% OFFHybridWana 5:1 CBD/THC Gummies Pomegranate Blueberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!SativaCamino Pineapple Habanero Cannabis-Inf",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!SativaCamino Pineapple Habanero Cannabis-Inf"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vap",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T",
+    "brand": null,
+    "message": "Gone: null - SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)THC 91.03",
+    "brand": null,
+    "message": "Gone: null - IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)THC 91.03"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S)",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAGL 300mg Pen Apple Cobbler x RNTZ (H) 01293Advanced G",
+    "brand": null,
+    "message": "Gone: null - HybridAGL 300mg Pen Apple Cobbler x RNTZ (H) 01293Advanced G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% backBundleIndicainc.edibles 20 Pack Snoozzzeberry",
+    "brand": null,
+    "message": "Gone: null - 15% backBundleIndicainc.edibles 20 Pack Snoozzzeberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 left15% backSativaEncore Sweet Strawberry Gummies T91mg S 26893Encore Edi",
+    "brand": null,
+    "message": "Gone: null - Only 2 left15% backSativaEncore Sweet Strawberry Gummies T91mg S 26893Encore Edi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAGL 300mg Pen Purple Tyde x Bubba F (H) 01183Advanced",
+    "brand": null,
+    "message": "Gone: null - HybridAGL 300mg Pen Purple Tyde x Bubba F (H) 01183Advanced"
+  }
+]
