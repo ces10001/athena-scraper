@@ -2,7 +2,9 @@ name: ATHENA Nightly Scrape
 
 on:
   schedule:
-    - cron: '47 7 * * *'
+    - cron: '30 10 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,7 +13,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
 
     steps:
       - name: Checkout
