@@ -173,9 +173,9 @@ const DISP_INFO = {
   'rise-orange': { name: 'Rise - Orange', city: 'Orange' },
   'venu-flower-collective': { name: 'Venu Flower Collective', city: 'Middletown' },
   // ═══ AFFINITY (original + rec/med split) ═══
-  'affinity-dispensary': { name: 'Affinity Dispensary', city: 'Bridgeport' },
-  'affinity-dispensary-rec': { name: 'Affinity Dispensary (Rec)', city: 'Bridgeport' },
-  'affinity-dispensary-med': { name: 'Affinity Dispensary (Med)', city: 'Bridgeport' },
+  'affinity-dispensary': { name: 'Affinity - Bridgeport', city: 'Bridgeport' },
+  'affinity-dispensary-rec': { name: 'Affinity - Bridgeport (Rec)', city: 'Bridgeport' },
+  'affinity-dispensary-med': { name: 'Affinity - Bridgeport (Med)', city: 'Bridgeport' },
   'affinity-new-haven-med': { name: 'Affinity - New Haven (Med)', city: 'New Haven' },
   'affinity-new-haven-rec': { name: 'Affinity - New Haven (Rec)', city: 'New Haven' },
 };
@@ -338,7 +338,24 @@ async function main() {
   if (!existsSync(RESULTS_DIR)) { console.error('No results directory'); process.exit(1); }
   var files = (await readdir(RESULTS_DIR)).filter(f => f.endsWith('.json'));
   if (files.length === 0) { console.error('No result files'); process.exit(1); }
-  console.log('Found ' + files.length + ' dispensary files');
+
+  // ═══ DEDUP: Skip old parent files when rec/med split versions exist ═══
+  var fileSet = new Set(files.map(f => f.replace('.json', '')));
+  var skippedOld = [];
+  files = files.filter(function(f) {
+    var slug = f.replace('.json', '');
+    // If this slug has -rec or -med siblings, skip the parent
+    if (!slug.endsWith('-rec') && !slug.endsWith('-med')) {
+      if (fileSet.has(slug + '-rec') || fileSet.has(slug + '-med')) {
+        skippedOld.push(slug);
+        return false;
+      }
+    }
+    return true;
+  });
+  if (skippedOld.length > 0) console.log('Skipped ' + skippedOld.length + ' old parent files (replaced by rec/med split): ' + skippedOld.join(', '));
+
+  console.log('Processing ' + files.length + ' dispensary files');
 
   var allDisps = {};
   var allRaw = [];
@@ -482,11 +499,19 @@ async function main() {
   var dispensaryCounts = {};
   for (var [name, info] of Object.entries(allDisps)) dispensaryCounts[name] = info.product_count;
 
+  // Count unique physical locations (group rec/med under same base name)
+  var uniqueBases = new Set();
+  Object.keys(allDisps).forEach(function(name) {
+    var base = name.replace(/\s*\((?:Med|Rec)\)\s*$/, '').trim();
+    uniqueBases.add(base);
+  });
+
   var output = {
     scraped_at: new Date().toISOString(),
     stats: {
       total_active: allRaw.length,
       dispensary_count: Object.keys(allDisps).length,
+      unique_locations: uniqueBases.size,
       comparable: comparable,
       deals: deals.length,
       dispensary_counts: dispensaryCounts,
@@ -503,7 +528,7 @@ async function main() {
   console.log('  Products:     ' + products.length);
   console.log('  Comparable:   ' + comparable);
   console.log('  Deals:        ' + deals.length);
-  console.log('  Dispensaries: ' + Object.keys(allDisps).length);
+  console.log('  Dispensaries: ' + Object.keys(allDisps).length + ' entries (' + uniqueBases.size + ' physical locations)');
 }
 
 main().catch(err => { console.error('Error:', err); process.exit(1); });
