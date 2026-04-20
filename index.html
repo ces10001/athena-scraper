@@ -368,41 +368,132 @@ function DispsTab({data}){
 }
 
 /* ═══════════════════════════════════════
-   COMPARE TAB (full comparison + PDF)
+   COMPARE TAB (1 vs many + analyst PDF)
    ═══════════════════════════════════════ */
+function haversine(c1,c2){if(!c1||!c2)return null;var R=3959,dLat=(c2[0]-c1[0])*Math.PI/180,dLon=(c2[1]-c1[1])*Math.PI/180,a=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(c1[0]*Math.PI/180)*Math.cos(c2[0]*Math.PI/180)*Math.sin(dLon/2)*Math.sin(dLon/2);return Math.round(R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))*10)/10}
+function getCity(name,data){var d=data.dispensaries||{};return d[name]?d[name].city:null}
+
 function CompareTab({data}){
-  const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);const affC=allD.filter(isAff);
-  const[selA,setSelA]=useState("");const[selB,setSelB]=useState("");
+  const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);const affC=allD.filter(isAff);const compD=allD.filter(d=>!isAff(d));
+  const[selA,setSelA]=useState(affC[0]||"");const[selComps,setSelComps]=useState(new Set());const[compSearch,setCompSearch]=useState("");
+  const togComp=useCallback(d=>{setSelComps(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
+  const filteredComps=useMemo(()=>{if(!compSearch.trim())return compD;const s=compSearch.toLowerCase();return compD.filter(d=>d.toLowerCase().includes(s))},[compD,compSearch]);
+  const prodCountA=useMemo(()=>{let c=0;prods.forEach(p=>{if(p.dispensaries&&p.dispensaries[selA])c++});return c},[prods,selA]);
 
-  const comparison=useMemo(()=>{if(!selA||!selB)return null;let shared=0,onlyA=0,onlyB=0,aCheaper=0,bCheaper=0,same=0,details=[];
-    prods.forEach(p=>{const pa=p.dispensaries?.[selA];const pb=p.dispensaries?.[selB];if(pa&&pb){shared++;if(pa<pb){aCheaper++;details.push({name:p.name,brand:p.brand,cat:p.category,priceA:pa,priceB:pb})}else if(pb<pa){bCheaper++;details.push({name:p.name,brand:p.brand,cat:p.category,priceA:pa,priceB:pb})}else{same++;details.push({name:p.name,brand:p.brand,cat:p.category,priceA:pa,priceB:pb})}}else if(pa)onlyA++;else if(pb)onlyB++});
-    return{shared,onlyA,onlyB,aCheaper,bCheaper,same,details:details.sort((a,b)=>(a.priceA-a.priceB)-(b.priceA-b.priceB))}
-  },[prods,selA,selB]);
+  const analysis=useMemo(()=>{if(!selA||selComps.size===0)return null;const results=[];const cityA=getCity(selA,data);const coordA=cityA?COORDS[cityA]:null;
+    selComps.forEach(comp=>{const cityB=getCity(comp,data);const coordB=cityB?COORDS[cityB]:null;const dist=haversine(coordA,coordB);
+      let shared=0,onlyA=0,onlyB=0,aCheaper=0,bCheaper=0,same=0,totalSavingsA=0,totalSavingsB=0,details=[],catBreak={},dealsA=0,dealsB=0,brandsOnlyB=new Set(),catsOnlyB={};
+      const prodCountB=prods.filter(p=>p.dispensaries&&p.dispensaries[comp]).length;
+      prods.forEach(p=>{const pa=p.dispensaries?.[selA];const pb=p.dispensaries?.[comp];const cat=p.category||'Other';
+        if(pa&&pb){shared++;if(!catBreak[cat])catBreak[cat]={shared:0,aCheaper:0,bCheaper:0,same:0};catBreak[cat].shared++;
+          if(pa<pb){aCheaper++;catBreak[cat].aCheaper++;totalSavingsB+=pb-pa}else if(pb<pa){bCheaper++;catBreak[cat].bCheaper++;totalSavingsA+=pa-pb}else{same++;catBreak[cat].same++}
+          details.push({name:p.name,brand:p.brand,cat,priceA:pa,priceB:pb})}
+        else if(pa)onlyA++;
+        else if(pb){onlyB++;brandsOnlyB.add(p.brand||'Unknown');if(!catsOnlyB[cat])catsOnlyB[cat]=0;catsOnlyB[cat]++}
+        if(p.promos?.[selA])dealsA++;if(p.promos?.[comp])dealsB++});
+      const avgPriceA=details.length>0?details.reduce((s,d)=>s+d.priceA,0)/details.length:0;
+      const avgPriceB=details.length>0?details.reduce((s,d)=>s+d.priceB,0)/details.length:0;
+      results.push({name:comp,city:cityB,dist,shared,onlyA,onlyB,aCheaper,bCheaper,same,totalSavingsA,totalSavingsB,details:details.sort((a,b)=>(a.priceA-a.priceB)-(b.priceA-b.priceB)),catBreak,dealsA,dealsB,brandsOnlyB:[...brandsOnlyB],catsOnlyB,prodCountB,avgPriceA,avgPriceB})});
+    return{results:results.sort((a,b)=>(a.dist||999)-(b.dist||999)),prodCountA}
+  },[prods,selA,selComps,data]);
 
-  const doExport=()=>{if(!comparison)return;var doc=new jspdf.jsPDF('landscape');var nameA=cleanD(selA);var nameB=cleanD(selB);doc.setFontSize(20);doc.setTextColor(232,96,10);doc.text('ATHENA — Competitive Comparison',14,18);doc.setFontSize(10);doc.setTextColor(90,99,112);doc.text(nameA+' vs '+nameB+' — '+new Date().toLocaleDateString(),14,26);doc.setFontSize(11);doc.setTextColor(30,30,30);var y=36;doc.text('Shared Products: '+comparison.shared,14,y);doc.text(nameA+' Cheaper: '+comparison.aCheaper,100,y);doc.text(nameB+' Cheaper: '+comparison.bCheaper,186,y);y+=6;doc.text('Same Price: '+comparison.same,14,y);doc.text('Only '+nameA+': '+comparison.onlyA,100,y);doc.text('Only '+nameB+': '+comparison.onlyB,186,y);y+=10;doc.autoTable({startY:y,head:[['Product','Brand','Cat',nameA,nameB,'Diff','Cheaper']],body:comparison.details.map(d=>[d.name.substring(0,40),d.brand,d.cat,'$'+d.priceA.toFixed(2),'$'+d.priceB.toFixed(2),'$'+(d.priceA-d.priceB).toFixed(2),d.priceA<d.priceB?nameA:d.priceB<d.priceA?nameB:'TIE']),styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:[232,96,10],textColor:255,fontSize:8},columnStyles:{0:{cellWidth:55},1:{cellWidth:25},2:{cellWidth:20},3:{cellWidth:20},4:{cellWidth:20},5:{cellWidth:20},6:{cellWidth:25}},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});doc.setFontSize(7);doc.setTextColor(160,168,180);doc.text('ATHENA Cannabis Pricing Intelligence — '+new Date().toISOString(),14,doc.internal.pageSize.height-8);doc.save('athena_comparison_'+nameA.replace(/\s+/g,'_')+'_vs_'+nameB.replace(/\s+/g,'_')+'.pdf')};
+  const doExport=()=>{if(!analysis)return;var doc=new jspdf.jsPDF('portrait');var nameA=cleanD(selA);var W=doc.internal.pageSize.width;var pg=1;
+    function footer(){doc.setFontSize(7);doc.setTextColor(160);doc.text('ATHENA Competitive Intelligence Report — Confidential — '+new Date().toLocaleDateString(),14,doc.internal.pageSize.height-8);doc.text('Page '+pg,W-25,doc.internal.pageSize.height-8);pg++}
+    function newPage(){footer();doc.addPage();return 20}
+    // COVER PAGE
+    doc.setFillColor(30,30,30);doc.rect(0,0,W,50,'F');doc.setFontSize(28);doc.setTextColor(232,96,10);doc.text('ATHENA',14,28);doc.setFontSize(10);doc.setTextColor(200);doc.text('COMPETITIVE INTELLIGENCE REPORT',14,38);doc.setFontSize(14);doc.setTextColor(30);var y=68;doc.text(nameA+' vs '+analysis.results.length+' Competitor'+(analysis.results.length>1?'s':''),14,y);
+    doc.setFontSize(9);doc.setTextColor(90);y+=10;doc.text('Generated: '+new Date().toLocaleString(),14,y);doc.text('Products analyzed: '+analysis.prodCountA,14,y+6);
+    // EXECUTIVE SUMMARY
+    y+=20;doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('EXECUTIVE SUMMARY',14,y);y+=8;doc.setFontSize(9);doc.setTextColor(50);
+    var totalShared=analysis.results.reduce((s,r)=>s+r.shared,0);var totalACheaper=analysis.results.reduce((s,r)=>s+r.aCheaper,0);var totalBCheaper=analysis.results.reduce((s,r)=>s+r.bCheaper,0);var totalGaps=analysis.results.reduce((s,r)=>s+r.onlyB,0);
+    var winRate=totalShared>0?Math.round(totalACheaper/totalShared*100):0;
+    var lines=['Across '+analysis.results.length+' competitor(s), '+nameA+' shares '+totalShared+' comparable products.','Your win rate is '+winRate+'% — you have the lower price on '+totalACheaper+' products vs competitors\' '+totalBCheaper+'.','There are '+totalGaps+' products carried by competitors that you do not stock — potential inventory expansion opportunities.'];
+    lines.forEach(l=>{doc.text(l,14,y);y+=5});
+    if(winRate>=60)doc.text('ASSESSMENT: Strong competitive position. Focus on maintaining margins and filling product gaps.',14,y+4);
+    else if(winRate>=40)doc.text('ASSESSMENT: Moderate competitive position. Strategic price adjustments on key categories recommended.',14,y+4);
+    else doc.text('ASSESSMENT: Vulnerable competitive position. Immediate pricing review and gap analysis recommended.',14,y+4);
+    y+=14;
+    // COMPETITOR DISTANCE & OVERVIEW TABLE
+    doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('COMPETITOR OVERVIEW',14,y);y+=4;
+    doc.autoTable({startY:y,head:[['Competitor','City','Distance','Their Products','Shared','You Win','They Win','Same','Threat']],
+      body:analysis.results.map(r=>[cleanD(r.name),r.city||'—',(r.dist?r.dist+' mi':'—'),r.prodCountB,r.shared,r.aCheaper,r.bCheaper,r.same,(r.shared>0?Math.round(r.bCheaper/r.shared*100):0)+'%']),
+      styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:[232,96,10],textColor:255,fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+    y=doc.lastAutoTable.finalY+10;
+    // PER-COMPETITOR ANALYSIS
+    analysis.results.forEach((r,ri)=>{if(y>240)y=newPage();
+      doc.setFontSize(11);doc.setTextColor(232,96,10);doc.text((ri+1)+'. '+cleanD(r.name)+' — '+(r.city||'CT')+(r.dist?' ('+r.dist+' mi)':''),14,y);y+=6;
+      doc.setFontSize(8);doc.setTextColor(50);
+      // Category breakdown
+      var catRows=Object.entries(r.catBreak).sort((a,b)=>b[1].shared-a[1].shared).map(([cat,info])=>[cat,info.shared,info.aCheaper,info.bCheaper,info.same]);
+      if(catRows.length>0){doc.autoTable({startY:y,head:[['Category','Shared','You Win','They Win','Same']],body:catRows,styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:[50,50,50],textColor:255,fontSize:7},margin:{left:14,right:100}});y=doc.lastAutoTable.finalY+4}
+      // Product gaps summary
+      if(r.onlyB>0){doc.text('Product Gaps: '+r.onlyB+' products they carry that you don\'t.',14,y);y+=4;
+        var topGapCats=Object.entries(r.catsOnlyB).sort((a,b)=>b[1]-a[1]).slice(0,5).map(e=>e[0]+' ('+e[1]+')').join(', ');
+        doc.text('  Top gap categories: '+topGapCats,14,y);y+=4;
+        if(r.brandsOnlyB.length>0){doc.text('  Exclusive brands: '+r.brandsOnlyB.slice(0,8).join(', ')+(r.brandsOnlyB.length>8?' + '+(r.brandsOnlyB.length-8)+' more':''),14,y);y+=4}}
+      // Deals comparison
+      doc.text('Deals: You have '+r.dealsA+' active promotions vs their '+r.dealsB+'.',14,y);y+=4;
+      // Savings analysis
+      if(r.totalSavingsA>0)doc.text('If customers shopped you instead: avg $'+(r.totalSavingsA/Math.max(r.aCheaper,1)).toFixed(2)+'/item savings ('+r.aCheaper+' items).',14,y);
+      y+=8});
+    // RECOMMENDATIONS PAGE
+    if(y>200)y=newPage();
+    doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('STRATEGIC RECOMMENDATIONS',14,y);y+=8;doc.setFontSize(9);doc.setTextColor(50);
+    var recs=[];
+    // Generate smart recommendations
+    var closestThreat=analysis.results.filter(r=>r.dist&&r.dist<10).sort((a,b)=>(b.shared>0?b.bCheaper/b.shared:0)-(a.shared>0?a.bCheaper/a.shared:0))[0];
+    if(closestThreat&&closestThreat.bCheaper>closestThreat.aCheaper)recs.push('URGENT — '+cleanD(closestThreat.name)+' ('+closestThreat.dist+' mi away) undercuts you on '+closestThreat.bCheaper+'/'+closestThreat.shared+' shared products. Prioritize price matching on high-velocity items in this market.');
+    var biggestGapper=analysis.results.sort((a,b)=>b.onlyB-a.onlyB)[0];
+    if(biggestGapper&&biggestGapper.onlyB>20)recs.push('INVENTORY — '+cleanD(biggestGapper.name)+' carries '+biggestGapper.onlyB+' products you don\'t stock. Review their top gap categories ('+Object.entries(biggestGapper.catsOnlyB).sort((a,b)=>b[1]-a[1]).slice(0,3).map(e=>e[0]).join(', ')+') for expansion opportunities.');
+    var weakCats={};analysis.results.forEach(r=>{Object.entries(r.catBreak).forEach(([cat,info])=>{if(!weakCats[cat])weakCats[cat]={wins:0,losses:0};weakCats[cat].wins+=info.aCheaper;weakCats[cat].losses+=info.bCheaper})});
+    var worstCat=Object.entries(weakCats).sort((a,b)=>(b[1].losses-b[1].wins)-(a[1].losses-a[1].wins))[0];
+    if(worstCat&&worstCat[1].losses>worstCat[1].wins)recs.push('PRICING — Your weakest category is '+worstCat[0]+' where competitors beat you '+worstCat[1].losses+' times vs your '+worstCat[1].wins+' wins. Consider vendor renegotiation or margin adjustment.');
+    var dealLeader=analysis.results.sort((a,b)=>b.dealsB-a.dealsB)[0];
+    if(dealLeader&&dealLeader.dealsB>dealLeader.dealsA*2)recs.push('PROMOTIONS — '+cleanD(dealLeader.name)+' runs '+dealLeader.dealsB+' active deals vs your '+dealLeader.dealsA+'. Consider increasing promotional frequency to compete for deal-driven customers.');
+    var strongCat=Object.entries(weakCats).sort((a,b)=>(b[1].wins-b[1].losses)-(a[1].wins-a[1].losses))[0];
+    if(strongCat&&strongCat[1].wins>strongCat[1].losses)recs.push('STRENGTH — You dominate in '+strongCat[0]+' ('+strongCat[1].wins+' wins vs '+strongCat[1].losses+' losses). Consider expanding selection and marketing this category as a differentiator.');
+    if(winRate>=50)recs.push('POSITIONING — With a '+winRate+'% win rate, you have pricing leverage. Maintain current strategy but monitor closest competitors monthly for price changes.');
+    else recs.push('POSITIONING — Your '+winRate+'% win rate suggests room for improvement. Focus on price-sensitive categories first and build toward a 50%+ win rate within 90 days.');
+    recs.push('MONITORING — Set up weekly ATHENA reports for the top 3 closest competitors to track pricing trends and new product launches.');
+    recs.forEach((rec,i)=>{if(y>265)y=newPage();var splitLines=doc.splitTextToSize((i+1)+'. '+rec,W-28);doc.text(splitLines,14,y);y+=splitLines.length*4.5+3});
+    footer();doc.save('athena_competitive_report_'+nameA.replace(/\s+/g,'_')+'_'+new Date().toISOString().split('T')[0]+'.pdf')};
 
-  return<div className="pnl"><div className="pnl-t">Head-to-Head Comparison</div><div className="pnl-d">Select two dispensaries to compare every shared product side-by-side.</div>
-    <div className="g2" style={{marginBottom:16}}>
-      <select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7}} value={selA} onChange={e=>setSelA(e.target.value)}><option value="">Select Dispensary A</option>{allD.map(d=><option key={d} value={d}>{cleanD(d)}</option>)}</select>
-      <select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7}} value={selB} onChange={e=>setSelB(e.target.value)}><option value="">Select Dispensary B</option>{allD.map(d=><option key={d} value={d}>{cleanD(d)}</option>)}</select>
+  return<div className="pnl"><div className="pnl-t">Competitive Comparison</div><div className="pnl-d">Select your dispensary and one or more competitors for a full competitive analysis with exportable PDF report.</div>
+    <div style={{marginBottom:16}}>
+      <label style={{fontSize:11,fontWeight:600,color:'var(--tx2)',display:'block',marginBottom:4}}>YOUR DISPENSARY</label>
+      <select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7}} value={selA} onChange={e=>setSelA(e.target.value)}><option value="">Select your dispensary</option>{allD.map(d=><option key={d} value={d}>{cleanD(d)}</option>)}</select>
+    </div>
+    <div style={{marginBottom:16}}>
+      <div className="row" style={{justifyContent:'space-between',marginBottom:6}}><label style={{fontSize:11,fontWeight:600,color:'var(--tx2)'}}>COMPETITORS ({selComps.size} selected)</label>
+        <div className="row"><button className="btn" style={{fontSize:9,padding:'3px 8px'}} onClick={()=>setSelComps(new Set(compD))}>All</button><button className="btn" style={{fontSize:9,padding:'3px 8px'}} onClick={()=>setSelComps(new Set())}>Clear</button></div></div>
+      <div className="srch" style={{marginBottom:8}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search competitors..." value={compSearch} onChange={e=>setCompSearch(e.target.value)}/></div>
+      <div style={{maxHeight:200,overflowY:'auto',border:'1px solid var(--bd)',borderRadius:7,background:'var(--bg2)'}}>
+        {filteredComps.map(d=>{const on=selComps.has(d);const city=getCity(d,data);const cityA=getCity(selA,data);const dist=cityA&&city?haversine(COORDS[cityA],COORDS[city]):null;
+          return<div key={d} onClick={()=>togComp(d)} style={{padding:'7px 12px',cursor:'pointer',borderBottom:'1px solid rgba(0,0,0,.06)',display:'flex',justifyContent:'space-between',alignItems:'center',background:on?'rgba(232,96,10,.06)':'transparent'}}>
+            <div style={{display:'flex',alignItems:'center',gap:8}}><div style={{width:14,height:14,borderRadius:3,border:'2px solid '+(on?'var(--cy)':'var(--bd)'),background:on?'var(--cy)':'transparent',display:'flex',alignItems:'center',justifyContent:'center'}}>{on&&<span style={{color:'#fff',fontSize:10,fontWeight:700}}>✓</span>}</div>
+              <span style={{fontSize:13,color:on?'var(--cy)':'var(--tx)'}}>{cleanD(d)}</span></div>
+            <span style={{fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>{dist?dist+' mi':city||''}</span></div>})}
+      </div>
     </div>
 
-    {comparison&&<><div className="stats"><div className="st"><div className="st-l">Shared Products</div><div className="st-v">{comparison.shared}</div></div>
-      <div className="st"><div className="st-l">{cleanD(selA)} Cheaper</div><div className="st-v" style={{color:isAff(selA)?'var(--cy)':'var(--gn)'}}>{comparison.aCheaper}</div></div>
-      <div className="st"><div className="st-l">Same Price</div><div className="st-v">{comparison.same}</div></div>
-      <div className="st"><div className="st-l">{cleanD(selB)} Cheaper</div><div className="st-v" style={{color:isAff(selB)?'var(--cy)':'var(--gn)'}}>{comparison.bCheaper}</div></div>
-      <div className="st"><div className="st-l">Only {cleanD(selA)}</div><div className="st-v am">{comparison.onlyA}</div></div>
-      <div className="st"><div className="st-l">Only {cleanD(selB)}</div><div className="st-v am">{comparison.onlyB}</div></div></div>
+    {analysis&&<><div className="stats"><div className="st"><div className="st-l">Your Products</div><div className="st-v">{analysis.prodCountA}</div></div>
+      <div className="st"><div className="st-l">Competitors</div><div className="st-v">{analysis.results.length}</div></div>
+      <div className="st"><div className="st-l">You're Cheaper</div><div className="st-v gn">{analysis.results.reduce((s,r)=>s+r.aCheaper,0)}</div></div>
+      <div className="st"><div className="st-l">They're Cheaper</div><div className="st-v rd">{analysis.results.reduce((s,r)=>s+r.bCheaper,0)}</div></div>
+      <div className="st"><div className="st-l">Product Gaps</div><div className="st-v am">{analysis.results.reduce((s,r)=>s+r.onlyB,0)}</div></div></div>
 
-    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export PDF</button></div>
+    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export Full Report (PDF)</button></div>
 
-    <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th className={isAff(selA)?"yc":""}>{isAff(selA)?"★ ":""}{cleanD(selA)}</th><th className={isAff(selB)?"yc":""}>{isAff(selB)?"★ ":""}{cleanD(selB)}</th><th>Diff</th></tr></thead>
-      <tbody>{comparison.details.slice(0,500).map((d,i)=>{const diff=d.priceA-d.priceB;const pct=d.priceB>0?Math.round(diff/d.priceB*100):0;return<tr key={i}><td className="pn">{d.name}</td><td className="dm">{d.brand}</td>
-        <td className="pr" style={{color:d.priceA<d.priceB?'var(--gn)':d.priceA>d.priceB?'var(--rd)':'var(--tx2)',background:d.priceA<d.priceB?'rgba(26,143,63,.05)':d.priceA>d.priceB?'rgba(212,32,48,.05)':'transparent'}}>${d.priceA.toFixed(2)}</td>
-        <td className="pr" style={{color:d.priceB<d.priceA?'var(--gn)':d.priceB>d.priceA?'var(--rd)':'var(--tx2)',background:d.priceB<d.priceA?'rgba(26,143,63,.05)':d.priceB>d.priceA?'rgba(212,32,48,.05)':'transparent'}}>${d.priceB.toFixed(2)}</td>
-        <td className="pr">{diff!==0?<span className={"df "+(diff<0?"up":"dn")}>{diff>0?"+":""}${diff.toFixed(2)} ({pct>0?"+":""}{pct}%)</span>:<span style={{color:'var(--tx3)'}}>—</span>}</td></tr>})}</tbody></table></div></div></>}
+    <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Competitor</th><th>City</th><th>Distance</th><th>Their Products</th><th>Shared</th><th style={{color:'var(--gn)'}}>You Win</th><th style={{color:'var(--rd)'}}>They Win</th><th>Gaps</th><th>Deals (You/Them)</th><th>Threat</th></tr></thead>
+      <tbody>{analysis.results.map((r,i)=>{const threat=r.shared>0?Math.round(r.bCheaper/r.shared*100):0;return<tr key={i}><td className="pn">{cleanD(r.name)}</td><td className="dm">{r.city||'—'}</td>
+        <td className="pr" style={{color:r.dist&&r.dist<10?'var(--rd)':r.dist&&r.dist<20?'var(--am)':'var(--tx2)'}}>{r.dist?r.dist+' mi':'—'}</td>
+        <td className="dm">{r.prodCountB}</td><td className="dm">{r.shared}</td>
+        <td style={{color:'var(--gn)',fontFamily:'var(--m)',fontWeight:600,background:'rgba(26,143,63,.05)'}}>{r.aCheaper}</td>
+        <td style={{color:'var(--rd)',fontFamily:'var(--m)',fontWeight:600,background:'rgba(212,32,48,.05)'}}>{r.bCheaper}</td>
+        <td className="dm">{r.onlyB}</td><td className="dm">{r.dealsA}/{r.dealsB}</td>
+        <td><span className={"badge "+(threat>=50?"rd":threat>=25?"am":"gn")}>{threat}%</span></td></tr>})}</tbody></table></div></div></>}
 
-    {!selA||!selB?<div className="empty"><h3>Select two dispensaries above</h3><p style={{fontSize:12}}>Choose any two dispensaries to see a full product-by-product price comparison.</p></div>:null}
+    {(!selA||selComps.size===0)&&<div className="empty"><h3>{!selA?"Select your dispensary above":"Select one or more competitors"}</h3><p style={{fontSize:12}}>Choose your dispensary and check competitors to generate a full competitive intelligence report with exportable PDF.</p></div>}
   </div>;
 }
 
