@@ -1,0 +1,80 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Gold Cash Gold (GCG) 00081",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Gold Cash Gold (GCG) 00081 $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g Chimera Junky (CHJ) 00068",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g Chimera Junky (CHJ) 00068 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g Jet Fuel OG (JFO) 00066",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g Jet Fuel OG (JFO) 00066 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Peach RSO Gummies 00237",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Peach RSO Gummies 00237 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g POG 00107",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g POG 00107 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g HPA-S-1 00103",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g HPA-S-1 00103 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade - 00033",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid GalaxEats Gummies Pink Lemonade - 00033"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) T94.4mg -00027",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) T94.4mg -00027"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Wild Berry Lemonade Gummies (I) - 00421",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix Wild Berry Lemonade Gummies (I) - 00421"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush (H) - 00015",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid Galaxeats Gummies Raspberry Rush (H) - 00015"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro PB Cups 10pk (H) - 0053",
+    "brand": "Astro",
+    "message": "Gone: Astro - Astro PB Cups 10pk (H) - 0053"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino- Midnight Blueberry- 20ct 00364",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino- Midnight Blueberry- 20ct 00364"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Preroll 1g Single PB Bites (S) 01524",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - FIND. Preroll 1g Single PB Bites (S) 01524"
+  }
+]

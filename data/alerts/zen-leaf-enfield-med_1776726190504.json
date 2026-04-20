@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "PharmaSnow Drift",
+    "brand": "CT",
+    "message": "New: CT - PharmaSnow Drift $40.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaZuava",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaZuava"
+  }
+]

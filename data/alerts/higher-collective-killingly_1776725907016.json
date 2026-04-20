@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Cinnamon Rollz Smalls",
+    "brand": "Cookies",
+    "message": "New: Cookies - Cinnamon Rollz Smalls $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary Ground Flower",
+    "brand": "Savvy",
+    "message": "New: Savvy - Red Gary Ground Flower $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GoodsGarlic Krusher Cartridge",
+    "brand": "The",
+    "message": "New: The - GoodsGarlic Krusher Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Elite Tahoe OG Disposable",
+    "brand": "Select",
+    "message": "New: Select - Elite Tahoe OG Disposable $70.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "Gone: Let's - BurnMule Fuel Pre-Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Banana Whole Flower",
+    "brand": "Cookies",
+    "message": "Gone: Cookies - Blueberry Banana Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CannabisBaby Yoda Lil Budz",
+    "brand": "Brix",
+    "message": "Gone: Brix - CannabisBaby Yoda Lil Budz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Legacy Series Briq 2.0 Couch Kush Disposable",
+    "brand": "Select",
+    "message": "Gone: Select - Legacy Series Briq 2.0 Couch Kush Disposable"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BreakRainbow Beltz Live Resin Disposable",
+    "brand": "Lucky",
+    "message": "Gone: Lucky - BreakRainbow Beltz Live Resin Disposable"
+  }
+]

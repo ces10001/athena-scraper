@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nLet's Burn",
+    "message": "New: OFF\n\nIndica flower\n\nLet's Burn - CT Kush Cake (I) Flower $33.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jai Alai (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Jai Alai (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Fritterz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Gone: Hybrid flower\n\nTheraplant - Banapple Medellin (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Gone: Sativa flower\n\nTheraplant - Grand Pappy's Chillemon (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91 (S) Smalls",
+    "brand": "OFF\n\nSativa flower\n\nLil Budz",
+    "message": "Gone: OFF\n\nSativa flower\n\nLil Budz - Chem 91 (S) Smalls"
+  }
+]

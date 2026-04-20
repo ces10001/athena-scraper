@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream | Live Resin Cart | 1g | C0060000399",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Blue Dream | Live Resin Cart | 1g | C0060000399 $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads | 5pk THCa Infused Pre-rolls | 0.4g each | 26918",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Heir Heads | 5pk THCa Infused Pre-rolls | 0.4g each | 26918 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw | Pre-Pack | 3.5g | 01158",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Paw Paw | Pre-Pack | 3.5g | 01158 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks | Pre-Pack | 7g (41367)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks | Pre-Pack | 7g (41367) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medelin | Pre-Pack | 3.5g | 41517",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medelin | Pre-Pack | 3.5g | 41517 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Mandarin | CBD:THC Gummies | 100mg (10pk) | 26744",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Mandarin | CBD:THC Gummies | 100mg (10pk) | 26744 $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kiwi Strawberry | Fast Acting Gummies | 100mg (20pk) | C0080000218",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Kiwi Strawberry | Fast Acting Gummies | 100mg (20pk) | C0080000218"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise | Pre-Pack Pre-ground | 3.5g | 01467",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pineapple Sunrise | Pre-Pack Pre-ground | 3.5g | 01467"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face | Show Dog Infused Pre-roll | 1g | 01274",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Animal Face | Show Dog Infused Pre-roll | 1g | 01274"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO | Big Ray Single Pre-roll | 1g | 00914 | WARNING: High THC",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - GMO | Big Ray Single Pre-roll | 1g | 00914 | WARNING: High THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk Chocolate | Indica RSO Squares | 100mg | 26730",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Milk Chocolate | Indica RSO Squares | 100mg | 26730"
+  }
+]

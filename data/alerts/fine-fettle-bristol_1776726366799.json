@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Jai Alai (S) Flower",
+    "brand": "OFF\n\nSativa flower\n\nComffy",
+    "message": "Gone: OFF\n\nSativa flower\n\nComffy - Jai Alai (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cloud 9 (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Cloud 9 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Fritterz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Gone: Sativa flower\n\nTheraplant - Grand Pappy's Chillemon (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGrassroots",
+    "message": "Gone: OFF\n\nIndica flower\n\nGrassroots - Pillow Mints (I) Flower"
+  }
+]

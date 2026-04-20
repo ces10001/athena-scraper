@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Couch Surfer (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nComffy",
+    "message": "New: OFF\n\nIndica flower\n\nComffy - Couch Surfer (I) Flower $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "New: Sativa flower\n\nTheraplant - Grand Pappy's Chillemon (S) Flower $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Fritterz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Trophy Diesel (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "Gone: OZ\n\nHybrid flower\n\nEarl Baker - Trophy Diesel (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Drip (S) Flower",
+    "brand": "Sativa flower\n\nRythm",
+    "message": "Gone: Sativa flower\n\nRythm - Lemon Drip (S) Flower"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "New: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087 $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Dark Chocolate RSO T99mg S 26839",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Encore Dark Chocolate RSO T99mg S 26839"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tart Vape 41561",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Apple Tart Vape 41561"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kronic 47 Flower Minis T22.21% S 00869",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Kronic 47 Flower Minis T22.21% S 00869"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Creamsicle Sunset (H) 01406",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 300mg Pen Creamsicle Sunset (H) 01406"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Cliq Elite Pod Durban Poison (S) 00944",
+    "brand": "Select",
+    "message": "Gone: Select - Select Cliq Elite Pod Durban Poison (S) 00944"
+  }
+]

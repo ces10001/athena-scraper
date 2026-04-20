@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "CannabisGush Mintz Whole Flower",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisGush Mintz Whole Flower $30.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnCT Rainbows Whole Flower",
+    "brand": "Let's",
+    "message": "New: Let's - BurnCT Rainbows Whole Flower $23.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Fatboy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Fatboy $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaNimbus Snacks Whole Flower",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaNimbus Snacks Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy Whole Flower",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Banana Pre-Roll",
+    "brand": "Cookies",
+    "message": "Gone: Cookies - Blueberry Banana Pre-Roll"
+  }
+]

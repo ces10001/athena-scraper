@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465 $25.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "A1 Haze Bold T456 H 26691",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - A1 Haze Bold T456 H 26691"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Mango RSO Gummies T91.4mg S 26926",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Mango RSO Gummies T91.4mg S 26926"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rodeo Sun Grown Summer L. (S) 1g Infused Preroll (C0070000320)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Rodeo Sun Grown Summer L. (S) 1g Infused Preroll (C0070000320)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG Infused Lil' Ricky's T40.04% H 00891",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Alien OG Infused Lil' Ricky's T40.04% H 00891"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro PB Cups 5pk 0030",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Astro PB Cups 5pk 0030"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Chem 91 0.5g 5pk Pre Rolls (S) 00507"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 5 Pack 2g Hickory Hash (H) 01478 TC 33.396%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 5 Pack 2g Hickory Hash (H) 01478 TC 33.396%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro Salted Caramel Squares 5pk 0041",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Astro Salted Caramel Squares 5pk 0041"
+  }
+]

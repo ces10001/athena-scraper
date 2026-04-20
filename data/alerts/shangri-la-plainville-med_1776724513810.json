@@ -1,0 +1,176 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge 1g Old School OG (H) 01386",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge 1g Old School OG (H) 01386 $44.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 1g Blue Dream (H) 01491",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 1g Blue Dream (H) 01491 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Moonburst (H) 01485",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Moonburst (H) 01485 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select X Bites Raspberry Orange Lime 00872",
+    "brand": "Select",
+    "message": "New: Select - Select X Bites Raspberry Orange Lime 00872 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select X Bites Orange Matter 01470",
+    "brand": "Select",
+    "message": "New: Select - Select X Bites Orange Matter 01470 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 1g GASolotti (S) 01610",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 1g GASolotti (S) 01610 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 1g Forbidden Fruit (I) 01577",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 1g Forbidden Fruit (I) 01577 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 1g Durban Poison (S) 01582",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 1g Durban Poison (S) 01582 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 1g Couch Kush (H) 01601",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 1g Couch Kush (H) 01601 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Legacy Series 510 .5g Sour Z (S) 01553",
+    "brand": "Select",
+    "message": "New: Select - Select Legacy Series 510 .5g Sour Z (S) 01553 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Sofa Sonata (I) 01629",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Sofa Sonata (I) 01629 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Joocy Froot (H) 01585",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Joocy Froot (H) 01585 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Banana Cream Cayk (H) 01568",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Banana Cream Cayk (H) 01568 $44.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 .5g Golden Tangie (S) 01547",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 .5g Golden Tangie (S) 01547 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 .5g Cherry Pi (S) 01586",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 .5g Cherry Pi (S) 01586 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge .5g Cherry BMB (S) 01296",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge .5g Cherry BMB (S) 01296 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g White Caps (I) 01594 TC 35.799%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g White Caps (I) 01594 TC 35.799% $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Jayna's Sunshine (H) 01619 TC 34.269%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Jayna's Sunshine (H) 01619 TC 34.269% $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Fast Acting Lucky Honey 0087 $17.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RYTHM 14G B SCOUT (I) 01348",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - RYTHM 14G B SCOUT (I) 01348"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 14g CIG 00090",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 14g CIG 00090"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Muel Fuel 3.5g 0022",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Muel Fuel 3.5g 0022"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 7g H4G-S-9 00097",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 7g H4G-S-9 00097"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG Flower T30.57% H 00841",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Alien OG Flower T30.57% H 00841"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Aniaml Face (I) 00932",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Aniaml Face (I) 00932"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00343",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Watermelon Lemonade Cannabis-Infused Gummies 00343"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO Lucky Dugout 3g 0071",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Black Cherry GMO Lucky Dugout 3g 0071"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Mule Fuel 4925",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - all:hours Mule Fuel 4925"
+  }
+]

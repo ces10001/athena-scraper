@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Cloud 9 (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Cloud 9 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kush Mints (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Gone: Indica flower\n\nGrassroots - Kush Mints (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tartz (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Apple Tartz (H) Flower"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "PopularSALE!IndicaRythm 28g B Scout (I) 01362RYTHMMixed Buds",
+    "brand": null,
+    "message": "New: null - PopularSALE!IndicaRythm 28g B Scout (I) 01362RYTHMMixed Buds $139.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridBanapple Medellin 7g 41194TheraplantFlower(7G)THC",
+    "brand": null,
+    "message": "New: null - SALE!HybridBanapple Medellin 7g 41194TheraplantFlower(7G)THC $37.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)T",
+    "brand": null,
+    "message": "New: null - SALE!HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)T $139.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSALE!SativaSavvy Smalls 14g Super Lemon G S 26930Savv",
+    "brand": null,
+    "message": "New: null - 5% backSALE!SativaSavvy Smalls 14g Super Lemon G S 26930Savv $84.15"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 leftSALE!IndicaRythm 3.5g B Scout (I) 01324RYTHMFlowe",
+    "brand": null,
+    "message": "New: null - Only 3 leftSALE!IndicaRythm 3.5g B Scout (I) 01324RYTHMFlowe $39.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC",
+    "brand": null,
+    "message": "New: null - SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridGrassroots Preroll 1g Single Paw Paw (H) 01516 TC",
+    "brand": null,
+    "message": "New: null - SALE!HybridGrassroots Preroll 1g Single Paw Paw (H) 01516 TC $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaGangsta Grillz Vape 41745TheraplantVape Cartridge",
+    "brand": null,
+    "message": "New: null - SALE!IndicaGangsta Grillz Vape 41745TheraplantVape Cartridge $37.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 leftSALE!HybridAGL Go Gr Tz Grind 19.39% H 01057 14gA",
+    "brand": null,
+    "message": "New: null - Only 3 leftSALE!HybridAGL Go Gr Tz Grind 19.39% H 01057 14gA $60.35"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridAGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376A",
+    "brand": null,
+    "message": "New: null - SALE!HybridAGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376A $39.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin",
+    "brand": null,
+    "message": "New: null - Cash back35% OFFSativaLighthouse-Super Lemon Haze Live Resin $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!HybridJealousy Lil' Budz 7g (H) 00522Lil' BudzSmalls(7G",
+    "brand": null,
+    "message": "New: null - SALE!HybridJealousy Lil' Budz 7g (H) 00522Lil' BudzSmalls(7G $43.35"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE!IndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)TH",
+    "brand": null,
+    "message": "New: null - SALE!IndicaRythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)TH $92.65"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "5% backSALE!HybridSavvy Smalls 7g Red Gary H 26895SavvyFlowe",
+    "brand": null,
+    "message": "null 5% backSALE!HybridSavvy Smalls 7g Red Gary H 26895SavvyFlowe: $9.00 > $50.15"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Popular5% backSALE!SativaSavvy Smalls 14g Super Lemon G S 26",
+    "brand": null,
+    "message": "Gone: null - Popular5% backSALE!SativaSavvy Smalls 14g Super Lemon G S 26"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored5% backSALE!SativaSavvy Smalls 28g Super Lemon G S",
+    "brand": null,
+    "message": "Gone: null - Sponsored5% backSALE!SativaSavvy Smalls 28g Super Lemon G S"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!HybridBanapple Medellin 7g 41194TheraplantFlow",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!HybridBanapple Medellin 7g 41194TheraplantFlow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaGood Green 28g Bubba F (I) 01379Good GreenMixed B",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaGood Green 28g Bubba F (I) 01379Good GreenMixed B"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridGrassroots Whole Flower 3.5g Apple Tartz (H) 0162",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridGrassroots Whole Flower 3.5g Apple Tartz (H) 0162"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!IndicaRythm 7g Small Flower GMO (I) 01349RYTHM",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!IndicaRythm 7g Small Flower GMO (I) 01349RYTHM"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridGrassroots Whole Flower 3.5g Atomic Breath (H) 01",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridGrassroots Whole Flower 3.5g Atomic Breath (H) 01"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSALE!HybridGood Green 14g Slapz (H) 01343Good Gre",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSALE!HybridGood Green 14g Slapz (H) 01343Good Gre"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSALE!IndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy",
+    "brand": null,
+    "message": "Gone: null - 5% backSALE!IndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSALE!HybridRythm 28g Afternoon Delight #4 (H) 01383",
+    "brand": null,
+    "message": "Gone: null - SponsoredSALE!HybridRythm 28g Afternoon Delight #4 (H) 01383"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridGood Green 28g Regina Gorgeous (H) 01237Good Gree",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridGood Green 28g Regina Gorgeous (H) 01237Good Gree"
+  }
+]

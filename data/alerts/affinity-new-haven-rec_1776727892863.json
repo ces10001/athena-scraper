@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Berry Drip I 27040 (1pk)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Savvy Guap RSO Berry Drip I 27040 (1pk) $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505 (1g Disp)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505 (1g Disp)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Granddaddy Purp 1g Vape T816 I 00900 (1g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Granddaddy Purp 1g Vape T816 I 00900 (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230 (20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230 (20pk)"
+  }
+]

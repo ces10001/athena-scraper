@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Glazed & Confused (TJC)",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - Pre-Roll Glazed & Confused (TJC) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "2.4g 303 Infused Pre-Rolls MAC1",
+    "brand": "303",
+    "message": "New: 303 - 2.4g 303 Infused Pre-Rolls MAC1 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "2.4g 303 Infused Pre-Rolls Hindu Kush",
+    "brand": "303",
+    "message": "New: 303 - 2.4g 303 Infused Pre-Rolls Hindu Kush $15.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SB Super Boof (N1)",
+    "brand": "Small Buds",
+    "message": "Gone: Small Buds - SB Super Boof (N1)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Strawguava Moon (TJC)",
+    "brand": "Pre-Roll",
+    "message": "Gone: Pre-Roll - Pre-Roll Strawguava Moon (TJC)"
+  }
+]

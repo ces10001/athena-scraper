@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Surfer (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nComffy",
+    "message": "Gone: OFF\n\nIndica flower\n\nComffy - Couch Surfer (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Hour (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Golden Hour (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cloud 9 (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "Gone: OFF\n\nHybrid flower\n\nComffy - Cloud 9 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jungle Cake (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "Gone: Hybrid flower\n\nLil Budz - Jungle Cake (H) Smalls"
+  }
+]
