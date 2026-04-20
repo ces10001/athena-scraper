@@ -367,96 +367,326 @@ function DispsTab({data}){
     <div className="dlist">{list.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div><div className="dcard-n" title={d.name}>{d.isYou?"★ ":""}{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-v">{d.count.toLocaleString()}</div></div>)}</div></div>;
 }
 
+
 /* ═══════════════════════════════════════
-   COMPARE TAB (1 vs many + analyst PDF)
+   COMPARE TAB (1 vs many + 8-page analyst PDF)
    ═══════════════════════════════════════ */
 function haversine(c1,c2){if(!c1||!c2)return null;var R=3959,dLat=(c2[0]-c1[0])*Math.PI/180,dLon=(c2[1]-c1[1])*Math.PI/180,a=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(c1[0]*Math.PI/180)*Math.cos(c2[0]*Math.PI/180)*Math.sin(dLon/2)*Math.sin(dLon/2);return Math.round(R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))*10)/10}
 function getCity(name,data){var d=data.dispensaries||{};return d[name]?d[name].city:null}
 
 function CompareTab({data}){
-  const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);const affC=allD.filter(isAff);const compD=allD.filter(d=>!isAff(d));
+  const prods=data.products||[];const deals=data.deals||[];const allD=useMemo(()=>getDisps(prods),[prods]);const affC=allD.filter(isAff);const compD=allD.filter(d=>!isAff(d));
   const[selA,setSelA]=useState(affC[0]||"");const[selComps,setSelComps]=useState(new Set());const[compSearch,setCompSearch]=useState("");
   const togComp=useCallback(d=>{setSelComps(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
   const filteredComps=useMemo(()=>{if(!compSearch.trim())return compD;const s=compSearch.toLowerCase();return compD.filter(d=>d.toLowerCase().includes(s))},[compD,compSearch]);
   const prodCountA=useMemo(()=>{let c=0;prods.forEach(p=>{if(p.dispensaries&&p.dispensaries[selA])c++});return c},[prods,selA]);
 
   const analysis=useMemo(()=>{if(!selA||selComps.size===0)return null;const results=[];const cityA=getCity(selA,data);const coordA=cityA?COORDS[cityA]:null;
-    selComps.forEach(comp=>{const cityB=getCity(comp,data);const coordB=cityB?COORDS[cityB]:null;const dist=haversine(coordA,coordB);
-      let shared=0,onlyA=0,onlyB=0,aCheaper=0,bCheaper=0,same=0,totalSavingsA=0,totalSavingsB=0,details=[],catBreak={},dealsA=0,dealsB=0,brandsOnlyB=new Set(),catsOnlyB={};
-      const prodCountB=prods.filter(p=>p.dispensaries&&p.dispensaries[comp]).length;
-      prods.forEach(p=>{const pa=p.dispensaries?.[selA];const pb=p.dispensaries?.[comp];const cat=p.category||'Other';
-        if(pa&&pb){shared++;if(!catBreak[cat])catBreak[cat]={shared:0,aCheaper:0,bCheaper:0,same:0};catBreak[cat].shared++;
-          if(pa<pb){aCheaper++;catBreak[cat].aCheaper++;totalSavingsB+=pb-pa}else if(pb<pa){bCheaper++;catBreak[cat].bCheaper++;totalSavingsA+=pa-pb}else{same++;catBreak[cat].same++}
-          details.push({name:p.name,brand:p.brand,cat,priceA:pa,priceB:pb})}
-        else if(pa)onlyA++;
-        else if(pb){onlyB++;brandsOnlyB.add(p.brand||'Unknown');if(!catsOnlyB[cat])catsOnlyB[cat]=0;catsOnlyB[cat]++}
-        if(p.promos?.[selA])dealsA++;if(p.promos?.[comp])dealsB++});
-      const avgPriceA=details.length>0?details.reduce((s,d)=>s+d.priceA,0)/details.length:0;
-      const avgPriceB=details.length>0?details.reduce((s,d)=>s+d.priceB,0)/details.length:0;
-      results.push({name:comp,city:cityB,dist,shared,onlyA,onlyB,aCheaper,bCheaper,same,totalSavingsA,totalSavingsB,details:details.sort((a,b)=>(a.priceA-a.priceB)-(b.priceA-b.priceB)),catBreak,dealsA,dealsB,brandsOnlyB:[...brandsOnlyB],catsOnlyB,prodCountB,avgPriceA,avgPriceB})});
-    return{results:results.sort((a,b)=>(a.dist||999)-(b.dist||999)),prodCountA}
-  },[prods,selA,selComps,data]);
+    // Compute your category avg prices
+    var yourCatPrices={};var yourCatCounts={};
+    prods.forEach(p=>{var pa=p.dispensaries?.[selA];if(!pa)return;var cat=p.category||'Other';if(!yourCatPrices[cat]){yourCatPrices[cat]=0;yourCatCounts[cat]=0}yourCatPrices[cat]+=pa;yourCatCounts[cat]++});
+    var yourAvgByCat={};Object.keys(yourCatPrices).forEach(c=>{yourAvgByCat[c]=yourCatPrices[c]/yourCatCounts[c]});
+    // Compute your deals
+    var yourDeals=deals.filter(d=>isAff(d.dispensary));
 
-  const doExport=()=>{if(!analysis)return;var doc=new jspdf.jsPDF('portrait');var nameA=cleanD(selA);var W=doc.internal.pageSize.width;var pg=1;
-    function footer(){doc.setFontSize(7);doc.setTextColor(160);doc.text('ATHENA Competitive Intelligence Report — Confidential — '+new Date().toLocaleDateString(),14,doc.internal.pageSize.height-8);doc.text('Page '+pg,W-25,doc.internal.pageSize.height-8);pg++}
-    function newPage(){footer();doc.addPage();return 20}
-    // COVER PAGE
-    doc.setFillColor(30,30,30);doc.rect(0,0,W,50,'F');doc.setFontSize(28);doc.setTextColor(232,96,10);doc.text('ATHENA',14,28);doc.setFontSize(10);doc.setTextColor(200);doc.text('COMPETITIVE INTELLIGENCE REPORT',14,38);doc.setFontSize(14);doc.setTextColor(30);var y=68;doc.text(nameA+' vs '+analysis.results.length+' Competitor'+(analysis.results.length>1?'s':''),14,y);
-    doc.setFontSize(9);doc.setTextColor(90);y+=10;doc.text('Generated: '+new Date().toLocaleString(),14,y);doc.text('Products analyzed: '+analysis.prodCountA,14,y+6);
-    // EXECUTIVE SUMMARY
-    y+=20;doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('EXECUTIVE SUMMARY',14,y);y+=8;doc.setFontSize(9);doc.setTextColor(50);
-    var totalShared=analysis.results.reduce((s,r)=>s+r.shared,0);var totalACheaper=analysis.results.reduce((s,r)=>s+r.aCheaper,0);var totalBCheaper=analysis.results.reduce((s,r)=>s+r.bCheaper,0);var totalGaps=analysis.results.reduce((s,r)=>s+r.onlyB,0);
+    selComps.forEach(comp=>{const cityB=getCity(comp,data);const coordB=cityB?COORDS[cityB]:null;const dist=haversine(coordA,coordB);
+      let shared=0,onlyA=0,onlyB=0,aCheaper=0,bCheaper=0,same=0,totalSavingsA=0,totalSavingsB=0,details=[],catBreak={},dealsA=0,dealsB=0,brandsOnlyB=new Set(),catsOnlyB={},gapProducts=[];
+      const prodCountB=prods.filter(p=>p.dispensaries&&p.dispensaries[comp]).length;
+      // Competitor category avg prices
+      var compCatPrices={};var compCatCounts={};
+      prods.forEach(p=>{const pa=p.dispensaries?.[selA];const pb=p.dispensaries?.[comp];const cat=p.category||'Other';
+        if(pb){if(!compCatPrices[cat]){compCatPrices[cat]=0;compCatCounts[cat]=0}compCatPrices[cat]+=pb;compCatCounts[cat]++}
+        if(pa&&pb){shared++;if(!catBreak[cat])catBreak[cat]={shared:0,aCheaper:0,bCheaper:0,same:0,yourTotal:0,theirTotal:0};catBreak[cat].shared++;catBreak[cat].yourTotal+=pa;catBreak[cat].theirTotal+=pb;
+          if(pa<pb){aCheaper++;catBreak[cat].aCheaper++;totalSavingsB+=pb-pa}else if(pb<pa){bCheaper++;catBreak[cat].bCheaper++;totalSavingsA+=pa-pb}else{same++;catBreak[cat].same++}
+          details.push({name:p.name,brand:p.brand,cat,priceA:pa,priceB:pb,weight:p.weight||''})}
+        else if(pa)onlyA++;
+        else if(pb){onlyB++;brandsOnlyB.add(p.brand||'Unknown');if(!catsOnlyB[cat])catsOnlyB[cat]=0;catsOnlyB[cat]++;gapProducts.push({name:p.name,brand:p.brand,cat,price:pb,weight:p.weight||''})}
+        if(p.promos?.[selA])dealsA++;if(p.promos?.[comp])dealsB++});
+      var compAvgByCat={};Object.keys(compCatPrices).forEach(c=>{compAvgByCat[c]=compCatPrices[c]/compCatCounts[c]});
+      // Top items where you're overpriced (reprice candidates)
+      var overpriced=details.filter(d=>d.priceA>d.priceB).sort((a,b)=>(b.priceA-b.priceB)-(a.priceA-a.priceB));
+      // Top items where you're cheaper (margin opportunities)
+      var underpriced=details.filter(d=>d.priceA<d.priceB).sort((a,b)=>(b.priceB-b.priceA)-(a.priceB-a.priceA));
+      var compDeals=deals.filter(d=>d.dispensary===comp);
+      results.push({name:comp,city:cityB,dist,shared,onlyA,onlyB,aCheaper,bCheaper,same,totalSavingsA,totalSavingsB,details:details.sort((a,b)=>(a.priceA-a.priceB)-(b.priceA-b.priceB)),catBreak,dealsA,dealsB,brandsOnlyB:[...brandsOnlyB],catsOnlyB,prodCountB,compAvgByCat,overpriced,underpriced,gapProducts:gapProducts.sort((a,b)=>b.price-a.price),compDeals})});
+    return{results:results.sort((a,b)=>(a.dist||999)-(b.dist||999)),prodCountA,yourAvgByCat,yourDeals}
+  },[prods,deals,selA,selComps,data]);
+
+  const doExport=()=>{if(!analysis)return;
+    var doc=new jspdf.jsPDF('portrait');var nameA=cleanD(selA);var W=doc.internal.pageSize.width;var H=doc.internal.pageSize.height;var pg=1;
+    var CY=[232,96,10];var DK=[30,30,30];var GY=[90,99,112];var GN=[26,143,63];var RD=[212,32,48];
+    function footer(){doc.setFontSize(7);doc.setTextColor(160);doc.text('ATHENA Competitive Intelligence Report — Confidential',14,H-8);doc.text(new Date().toLocaleDateString()+' | Page '+pg,W-50,H-8);pg++}
+    function newPage(){footer();doc.addPage();return 22}
+    function heading(txt,yy){doc.setFontSize(13);doc.setTextColor(...CY);doc.text(txt,14,yy);return yy+8}
+    function subhead(txt,yy){doc.setFontSize(10);doc.setTextColor(...DK);doc.setFont(undefined,'bold');doc.text(txt,14,yy);doc.setFont(undefined,'normal');return yy+6}
+    function body(txt,yy,maxW){doc.setFontSize(8.5);doc.setTextColor(60);var lines=doc.splitTextToSize(txt,(maxW||W-28));doc.text(lines,14,yy);return yy+lines.length*3.8+2}
+    function divider(yy){doc.setDrawColor(230);doc.line(14,yy,W-14,yy);return yy+4}
+    function checkPage(yy,need){if(yy+need>H-20){yy=newPage()}return yy}
+
+    var totalShared=analysis.results.reduce((s,r)=>s+r.shared,0);
+    var totalACheaper=analysis.results.reduce((s,r)=>s+r.aCheaper,0);
+    var totalBCheaper=analysis.results.reduce((s,r)=>s+r.bCheaper,0);
+    var totalGaps=analysis.results.reduce((s,r)=>s+r.onlyB,0);
+    var totalSame=analysis.results.reduce((s,r)=>s+r.same,0);
     var winRate=totalShared>0?Math.round(totalACheaper/totalShared*100):0;
-    var lines=['Across '+analysis.results.length+' competitor(s), '+nameA+' shares '+totalShared+' comparable products.','Your win rate is '+winRate+'% — you have the lower price on '+totalACheaper+' products vs competitors\' '+totalBCheaper+'.','There are '+totalGaps+' products carried by competitors that you do not stock — potential inventory expansion opportunities.'];
-    lines.forEach(l=>{doc.text(l,14,y);y+=5});
-    if(winRate>=60)doc.text('ASSESSMENT: Strong competitive position. Focus on maintaining margins and filling product gaps.',14,y+4);
-    else if(winRate>=40)doc.text('ASSESSMENT: Moderate competitive position. Strategic price adjustments on key categories recommended.',14,y+4);
-    else doc.text('ASSESSMENT: Vulnerable competitive position. Immediate pricing review and gap analysis recommended.',14,y+4);
-    y+=14;
-    // COMPETITOR DISTANCE & OVERVIEW TABLE
-    doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('COMPETITOR OVERVIEW',14,y);y+=4;
-    doc.autoTable({startY:y,head:[['Competitor','City','Distance','Their Products','Shared','You Win','They Win','Same','Threat']],
-      body:analysis.results.map(r=>[cleanD(r.name),r.city||'—',(r.dist?r.dist+' mi':'—'),r.prodCountB,r.shared,r.aCheaper,r.bCheaper,r.same,(r.shared>0?Math.round(r.bCheaper/r.shared*100):0)+'%']),
-      styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:[232,96,10],textColor:255,fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+    var allCats=Object.keys(analysis.yourAvgByCat).sort();
+
+    // ═══ PAGE 1: COVER + EXECUTIVE SUMMARY ═══
+    doc.setFillColor(...DK);doc.rect(0,0,W,55,'F');
+    doc.setFontSize(32);doc.setTextColor(...CY);doc.text('ATHENA',14,25);
+    doc.setFontSize(11);doc.setTextColor(180);doc.text('COMPETITIVE INTELLIGENCE REPORT',14,35);
+    doc.setFontSize(9);doc.setTextColor(140);doc.text(nameA+' — Connecticut Cannabis Market',14,45);
+
+    var y=70;
+    doc.setFontSize(10);doc.setTextColor(...DK);doc.text('Prepared for: '+nameA,14,y);
+    doc.text('Date: '+new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'}),14,y+5);
+    doc.text('Competitors analyzed: '+analysis.results.length,14,y+10);
+    doc.text('Products in your catalog: '+analysis.prodCountA,14,y+15);
+    doc.text('Total comparable products: '+totalShared,14,y+20);
+
+    y+=35;y=heading('EXECUTIVE SUMMARY',y);
+    var assessment=winRate>=60?'STRONG':winRate>=40?'MODERATE':'VULNERABLE';
+    var assessColor=winRate>=60?GN:winRate>=40?CY:RD;
+    doc.setFontSize(18);doc.setTextColor(...assessColor);doc.text(assessment+' COMPETITIVE POSITION',14,y);y+=10;
+    doc.setFontSize(9);doc.setTextColor(60);
+    y=body('Your overall pricing win rate is '+winRate+'%. Across '+analysis.results.length+' competitors, you offer the lowest price on '+totalACheaper+' of '+totalShared+' shared products. Competitors undercut you on '+totalBCheaper+' products. There are '+totalGaps+' products in the market that you do not currently stock.',y);
+    y+=2;
+    // Key metrics boxes
+    doc.setFillColor(252,248,243);doc.roundedRect(14,y,40,18,2,2,'F');doc.roundedRect(58,y,40,18,2,2,'F');doc.roundedRect(102,y,40,18,2,2,'F');doc.roundedRect(146,y,40,18,2,2,'F');
+    doc.setFontSize(14);doc.setTextColor(...CY);doc.text(winRate+'%',22,y+8);doc.setTextColor(...GN);doc.text(String(totalACheaper),70,y+8);doc.setTextColor(...RD);doc.text(String(totalBCheaper),114,y+8);doc.setTextColor(...CY);doc.text(String(totalGaps),158,y+8);
+    doc.setFontSize(6);doc.setTextColor(...GY);doc.text('WIN RATE',22,y+14);doc.text('YOU WIN',70,y+14);doc.text('THEY WIN',114,y+14);doc.text('PRODUCT GAPS',154,y+14);
+    y+=28;
+
+    // ═══ PAGE 2: MARKET POSITION SNAPSHOT ═══
+    y=newPage();y=heading('MARKET POSITION SNAPSHOT',y);
+    y=body('How your pricing compares to the market average across product categories.',y);
+    // Category avg price comparison table
+    var catCompRows=allCats.filter(c=>c.toLowerCase()!=='accessories'&&c.toLowerCase()!=='apparel').map(cat=>{
+      var yourAvg=analysis.yourAvgByCat[cat]||0;
+      // Market avg = avg across all competitors for this category
+      var compTotals=0;var compCounts=0;
+      analysis.results.forEach(r=>{if(r.compAvgByCat[cat]){compTotals+=r.compAvgByCat[cat];compCounts++}});
+      var mktAvg=compCounts>0?compTotals/compCounts:0;
+      var diff=yourAvg-mktAvg;var pct=mktAvg>0?Math.round(diff/mktAvg*100):0;
+      var position=pct<-5?'Value':pct>5?'Premium':'Mid-Market';
+      return[cat,'$'+yourAvg.toFixed(2),'$'+mktAvg.toFixed(2),(diff>=0?'+':'')+pct+'%',position]});
+    doc.autoTable({startY:y,head:[['Category','Your Avg Price','Market Avg','Difference','Position']],body:catCompRows,
+      styles:{fontSize:8,cellPadding:2.5},headStyles:{fillColor:CY,textColor:[255,255,255],fontSize:8},
+      alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14},
+      didParseCell:function(data){if(data.section==='body'&&data.column.index===4){var v=data.cell.raw;if(v==='Value'){data.cell.styles.textColor=GN;data.cell.styles.fontStyle='bold'}else if(v==='Premium'){data.cell.styles.textColor=RD;data.cell.styles.fontStyle='bold'}}}});
     y=doc.lastAutoTable.finalY+10;
-    // PER-COMPETITOR ANALYSIS
-    analysis.results.forEach((r,ri)=>{if(y>240)y=newPage();
-      doc.setFontSize(11);doc.setTextColor(232,96,10);doc.text((ri+1)+'. '+cleanD(r.name)+' — '+(r.city||'CT')+(r.dist?' ('+r.dist+' mi)':''),14,y);y+=6;
-      doc.setFontSize(8);doc.setTextColor(50);
-      // Category breakdown
-      var catRows=Object.entries(r.catBreak).sort((a,b)=>b[1].shared-a[1].shared).map(([cat,info])=>[cat,info.shared,info.aCheaper,info.bCheaper,info.same]);
-      if(catRows.length>0){doc.autoTable({startY:y,head:[['Category','Shared','You Win','They Win','Same']],body:catRows,styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:[50,50,50],textColor:255,fontSize:7},margin:{left:14,right:100}});y=doc.lastAutoTable.finalY+4}
+
+    y=subhead('Price Positioning Summary',y);
+    var valueCats=catCompRows.filter(r=>r[4]==='Value').map(r=>r[0]);
+    var premCats=catCompRows.filter(r=>r[4]==='Premium').map(r=>r[0]);
+    var midCats=catCompRows.filter(r=>r[4]==='Mid-Market').map(r=>r[0]);
+    if(valueCats.length>0)y=body('VALUE LEADER in: '+valueCats.join(', ')+'. You offer below-market pricing — strong for price-sensitive customers.',y);
+    if(premCats.length>0)y=body('PREMIUM PRICED in: '+premCats.join(', ')+'. Review whether premium positioning is intentional or if adjustments are needed.',y);
+    if(midCats.length>0)y=body('MARKET RATE in: '+midCats.join(', ')+'. Competitive pricing in line with the market.',y);
+
+    // ═══ PAGE 3: COMPETITOR OVERVIEW TABLE ═══
+    y=newPage();y=heading('COMPETITOR OVERVIEW',y);
+    y=body('All analyzed competitors ranked by distance from your location.',y);
+    doc.autoTable({startY:y,head:[['#','Competitor','City','Distance','Products','Shared','You Win','They Win','Gaps','Threat']],
+      body:analysis.results.map((r,i)=>[(i+1),cleanD(r.name),r.city||'—',r.dist?r.dist+' mi':'—',r.prodCountB,r.shared,r.aCheaper,r.bCheaper,r.onlyB,(r.shared>0?Math.round(r.bCheaper/r.shared*100):0)+'%']),
+      styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:CY,textColor:[255,255,255],fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14},
+      didParseCell:function(data){if(data.section==='body'&&data.column.index===9){var v=parseInt(data.cell.raw);if(v>=50)data.cell.styles.textColor=RD;else if(v>=25)data.cell.styles.textColor=CY;else data.cell.styles.textColor=GN}}});
+    y=doc.lastAutoTable.finalY+8;
+
+    // ═══ PAGES 4+: PER-COMPETITOR DEEP DIVE ═══
+    analysis.results.slice(0,10).forEach((r,ri)=>{
+      y=newPage();
+      doc.setFillColor(245,246,248);doc.rect(0,y-10,W,28,'F');
+      doc.setFontSize(14);doc.setTextColor(...CY);doc.text('COMPETITOR '+(ri+1)+': '+cleanD(r.name).toUpperCase(),14,y+2);
+      doc.setFontSize(9);doc.setTextColor(...GY);doc.text((r.city||'CT')+(r.dist?' — '+r.dist+' miles from your location':''),14,y+10);y+=25;
+
+      // Head-to-head summary
+      doc.setFillColor(252,248,243);doc.roundedRect(14,y,35,16,2,2,'F');doc.roundedRect(53,y,35,16,2,2,'F');doc.roundedRect(92,y,35,16,2,2,'F');doc.roundedRect(131,y,35,16,2,2,'F');doc.roundedRect(170,y,25,16,2,2,'F');
+      doc.setFontSize(12);doc.setTextColor(...DK);doc.text(String(r.shared),24,y+7);doc.setTextColor(...GN);doc.text(String(r.aCheaper),64,y+7);doc.setTextColor(...RD);doc.text(String(r.bCheaper),103,y+7);doc.setTextColor(...CY);doc.text(String(r.onlyB),142,y+7);doc.text(r.dealsA+'/'+r.dealsB,175,y+7);
+      doc.setFontSize(6);doc.setTextColor(...GY);doc.text('SHARED',24,y+13);doc.text('YOU WIN',64,y+13);doc.text('THEY WIN',103,y+13);doc.text('GAPS',142,y+13);doc.text('DEALS',175,y+13);
+      y+=24;
+
+      // Category breakdown table
+      y=subhead('Category Breakdown',y);
+      var cRows=Object.entries(r.catBreak).sort((a,b)=>b[1].shared-a[1].shared).map(([cat,info])=>{
+        var yourCatAvg=info.shared>0?info.yourTotal/info.shared:0;var theirCatAvg=info.shared>0?info.theirTotal/info.shared:0;
+        var catWinRate=info.shared>0?Math.round(info.aCheaper/info.shared*100):0;
+        return[cat,info.shared,info.aCheaper,info.bCheaper,info.same,'$'+yourCatAvg.toFixed(2),'$'+theirCatAvg.toFixed(2),catWinRate+'%']});
+      if(cRows.length>0){doc.autoTable({startY:y,head:[['Category','Shared','You Win','They Win','Same','Your Avg','Their Avg','Win Rate']],body:cRows,
+        styles:{fontSize:7,cellPadding:1.8},headStyles:{fillColor:DK,textColor:[255,255,255],fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14},
+        didParseCell:function(data){if(data.section==='body'&&data.column.index===7){var v=parseInt(data.cell.raw);if(v>=60)data.cell.styles.textColor=GN;else if(v<40)data.cell.styles.textColor=RD}}});
+        y=doc.lastAutoTable.finalY+6}
+
+      // Top 10 products where you're overpriced
+      y=checkPage(y,50);
+      if(r.overpriced.length>0){
+        y=subhead('Repricing Opportunities (You\'re More Expensive)',y);
+        var repriceRows=r.overpriced.slice(0,10).map(d=>{var diff=d.priceA-d.priceB;var pct=d.priceB>0?Math.round(diff/d.priceB*100):0;return[d.name.substring(0,35),d.brand,d.cat,'$'+d.priceA.toFixed(2),'$'+d.priceB.toFixed(2),'+$'+diff.toFixed(2),'+'+pct+'%']});
+        doc.autoTable({startY:y,head:[['Product','Brand','Cat','Your Price','Their Price','Diff','% Over']],body:repriceRows,
+          styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:RD,textColor:[255,255,255],fontSize:7},margin:{left:14,right:14}});
+        y=doc.lastAutoTable.finalY+3;
+        var totalRepriceSavings=r.overpriced.slice(0,10).reduce((s,d)=>s+(d.priceA-d.priceB),0);
+        y=body('Matching these 10 prices would reduce your price gap by $'+totalRepriceSavings.toFixed(2)+' total across these items.',y)}
+
+      // Top 10 products where you're cheaper (margin opportunity)
+      y=checkPage(y,50);
+      if(r.underpriced.length>0){
+        y=subhead('Margin Opportunities (You\'re Cheaper)',y);
+        var marginRows=r.underpriced.slice(0,10).map(d=>{var diff=d.priceB-d.priceA;var pct=d.priceA>0?Math.round(diff/d.priceA*100):0;return[d.name.substring(0,35),d.brand,d.cat,'$'+d.priceA.toFixed(2),'$'+d.priceB.toFixed(2),'+$'+diff.toFixed(2),pct+'% margin']});
+        doc.autoTable({startY:y,head:[['Product','Brand','Cat','Your Price','Their Price','Headroom','Potential']],body:marginRows,
+          styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:GN,textColor:[255,255,255],fontSize:7},margin:{left:14,right:14}});
+        y=doc.lastAutoTable.finalY+3;
+        y=body('These products have pricing headroom — you could raise prices and still be competitive.',y)}
+
       // Product gaps summary
-      if(r.onlyB>0){doc.text('Product Gaps: '+r.onlyB+' products they carry that you don\'t.',14,y);y+=4;
+      y=checkPage(y,40);
+      if(r.onlyB>0){
+        y=subhead('Product Gaps ('+r.onlyB+' products they carry that you don\'t)',y);
         var topGapCats=Object.entries(r.catsOnlyB).sort((a,b)=>b[1]-a[1]).slice(0,5).map(e=>e[0]+' ('+e[1]+')').join(', ');
-        doc.text('  Top gap categories: '+topGapCats,14,y);y+=4;
-        if(r.brandsOnlyB.length>0){doc.text('  Exclusive brands: '+r.brandsOnlyB.slice(0,8).join(', ')+(r.brandsOnlyB.length>8?' + '+(r.brandsOnlyB.length-8)+' more':''),14,y);y+=4}}
-      // Deals comparison
-      doc.text('Deals: You have '+r.dealsA+' active promotions vs their '+r.dealsB+'.',14,y);y+=4;
-      // Savings analysis
-      if(r.totalSavingsA>0)doc.text('If customers shopped you instead: avg $'+(r.totalSavingsA/Math.max(r.aCheaper,1)).toFixed(2)+'/item savings ('+r.aCheaper+' items).',14,y);
-      y+=8});
-    // RECOMMENDATIONS PAGE
-    if(y>200)y=newPage();
-    doc.setFontSize(13);doc.setTextColor(232,96,10);doc.text('STRATEGIC RECOMMENDATIONS',14,y);y+=8;doc.setFontSize(9);doc.setTextColor(50);
+        y=body('Top gap categories: '+topGapCats,y);
+        if(r.brandsOnlyB.length>0)y=body('Exclusive brands: '+r.brandsOnlyB.slice(0,10).join(', ')+(r.brandsOnlyB.length>10?' + '+(r.brandsOnlyB.length-10)+' more':''),y);
+        // Top 5 gap products by price
+        if(r.gapProducts.length>0){
+          var gapRows=r.gapProducts.slice(0,8).map(g=>[g.name.substring(0,35),g.brand,g.cat,'$'+g.price.toFixed(2)]);
+          doc.autoTable({startY:y,head:[['Product','Brand','Category','Their Price']],body:gapRows,
+            styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:[100,100,100],textColor:[255,255,255],fontSize:7},margin:{left:14,right:100}});
+          y=doc.lastAutoTable.finalY+3}}
+
+      // Deal comparison
+      y=checkPage(y,20);
+      y=subhead('Promotion Comparison',y);
+      y=body('Your active promotions: '+r.dealsA+' | Their active promotions: '+r.dealsB+(r.dealsB>r.dealsA*1.5?' — They significantly outpace your promotional activity.':r.dealsA>r.dealsB*1.5?' — You have a strong promotional advantage.':' — Similar promotional activity levels.'),y);
+    });
+
+    // ═══ PRICING STRATEGY PAGE ═══
+    y=newPage();y=heading('PRICING STRATEGY ANALYSIS',y);
+
+    // Aggregate top overpriced across ALL competitors
+    var allOverpriced={};analysis.results.forEach(r=>{r.overpriced.forEach(d=>{var key=d.name+'|'+d.brand;if(!allOverpriced[key])allOverpriced[key]={name:d.name,brand:d.brand,cat:d.cat,yourPrice:d.priceA,competitorCount:0,avgCompPrice:0,maxDiff:0};allOverpriced[key].competitorCount++;allOverpriced[key].avgCompPrice+=d.priceB;if(d.priceA-d.priceB>allOverpriced[key].maxDiff)allOverpriced[key].maxDiff=d.priceA-d.priceB})});
+    var topReprice=Object.values(allOverpriced).map(p=>{p.avgCompPrice=p.avgCompPrice/p.competitorCount;return p}).sort((a,b)=>b.maxDiff-a.maxDiff).slice(0,15);
+
+    if(topReprice.length>0){
+      y=subhead('Top 15 Repricing Candidates (Most Overpriced vs Market)',y);
+      y=body('These products have the largest price gap versus competitors. Adjusting these prices would have the biggest impact on your competitive positioning.',y);
+      doc.autoTable({startY:y,head:[['Product','Brand','Cat','Your Price','Avg Comp Price','Max Gap','# Competitors Cheaper']],
+        body:topReprice.map(p=>[p.name.substring(0,30),p.brand,p.cat,'$'+p.yourPrice.toFixed(2),'$'+p.avgCompPrice.toFixed(2),'$'+p.maxDiff.toFixed(2),p.competitorCount]),
+        styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:RD,textColor:[255,255,255],fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+      y=doc.lastAutoTable.finalY+6}
+
+    // Aggregate margin opportunities
+    var allUnderpriced={};analysis.results.forEach(r=>{r.underpriced.forEach(d=>{var key=d.name+'|'+d.brand;if(!allUnderpriced[key])allUnderpriced[key]={name:d.name,brand:d.brand,cat:d.cat,yourPrice:d.priceA,competitorCount:0,avgCompPrice:0,maxHeadroom:0};allUnderpriced[key].competitorCount++;allUnderpriced[key].avgCompPrice+=d.priceB;var hr=d.priceB-d.priceA;if(hr>allUnderpriced[key].maxHeadroom)allUnderpriced[key].maxHeadroom=hr})});
+    var topMargin=Object.values(allUnderpriced).map(p=>{p.avgCompPrice=p.avgCompPrice/p.competitorCount;return p}).sort((a,b)=>b.maxHeadroom-a.maxHeadroom).slice(0,15);
+
+    y=checkPage(y,60);
+    if(topMargin.length>0){
+      y=subhead('Top 15 Margin Opportunities (You\'re Cheapest)',y);
+      y=body('You have pricing headroom on these products. Small price increases would improve margins while remaining competitive.',y);
+      doc.autoTable({startY:y,head:[['Product','Brand','Cat','Your Price','Avg Comp Price','Max Headroom','# You Beat']],
+        body:topMargin.map(p=>[p.name.substring(0,30),p.brand,p.cat,'$'+p.yourPrice.toFixed(2),'$'+p.avgCompPrice.toFixed(2),'$'+p.maxHeadroom.toFixed(2),p.competitorCount]),
+        styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:GN,textColor:[255,255,255],fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+      y=doc.lastAutoTable.finalY+6}
+
+    // ═══ PRODUCT GAP ANALYSIS PAGE ═══
+    y=newPage();y=heading('PRODUCT GAP ANALYSIS',y);
+    // Aggregate all gaps across competitors
+    var allGaps={};analysis.results.forEach(r=>{r.gapProducts.forEach(g=>{var key=g.name+'|'+g.brand;if(!allGaps[key])allGaps[key]={name:g.name,brand:g.brand,cat:g.cat,storeCount:0,avgPrice:0,stores:[]};allGaps[key].storeCount++;allGaps[key].avgPrice+=g.price;allGaps[key].stores.push(cleanD(r.name))})});
+    var topGaps=Object.values(allGaps).map(g=>{g.avgPrice=g.avgPrice/g.storeCount;return g}).sort((a,b)=>b.storeCount-a.storeCount||b.avgPrice-a.avgPrice).slice(0,25);
+
+    y=body('Products carried by competitors that are not in your catalog. Items appearing at multiple competitors represent the strongest demand signals.',y);
+
+    if(topGaps.length>0){
+      doc.autoTable({startY:y,head:[['Product','Brand','Category','Avg Price','# Competitors','Where']],
+        body:topGaps.map(g=>[g.name.substring(0,30),g.brand,g.cat,'$'+g.avgPrice.toFixed(2),g.storeCount,g.stores.slice(0,3).join(', ')+(g.stores.length>3?' +'+( g.stores.length-3):'')]),
+        styles:{fontSize:7,cellPadding:2},headStyles:{fillColor:CY,textColor:[255,255,255],fontSize:7},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+      y=doc.lastAutoTable.finalY+6}
+
+    // Gap category breakdown
+    var gapCatSummary={};topGaps.forEach(g=>{if(!gapCatSummary[g.cat])gapCatSummary[g.cat]=0;gapCatSummary[g.cat]++});
+    y=subhead('Gap Categories',y);
+    y=body('Your biggest inventory gaps are in: '+Object.entries(gapCatSummary).sort((a,b)=>b[1]-a[1]).map(e=>e[0]+' ('+e[1]+' products)').join(', ')+'.',y);
+
+    // Brand gaps
+    var brandGaps={};analysis.results.forEach(r=>{r.brandsOnlyB.forEach(b=>{if(!brandGaps[b])brandGaps[b]=0;brandGaps[b]++})});
+    var topBrandGaps=Object.entries(brandGaps).sort((a,b)=>b[1]-a[1]).slice(0,10);
+    if(topBrandGaps.length>0){
+      y=subhead('Brand Gaps',y);
+      y=body('Brands carried by competitors that you don\'t stock: '+topBrandGaps.map(e=>e[0]+' (at '+e[1]+' competitors)').join(', ')+'.',y)}
+
+    // ═══ DEAL & PROMOTION INTELLIGENCE ═══
+    y=newPage();y=heading('DEAL & PROMOTION INTELLIGENCE',y);
+    var yourDealCount=analysis.yourDeals.length;
+    var avgCompDeals=analysis.results.length>0?Math.round(analysis.results.reduce((s,r)=>s+r.dealsB,0)/analysis.results.length):0;
+    y=body('Your active promotions: '+yourDealCount+'. Average competitor promotions: '+avgCompDeals+'.',y);
+    if(yourDealCount<avgCompDeals)y=body('RECOMMENDATION: You are running fewer promotions than the average competitor. Consider increasing promotional activity, especially on high-visibility categories like Flower and Edibles.',y);
+    else y=body('You are running more promotions than average — strong promotional positioning.',y);
+    y+=2;
+
+    // Deal breakdown by competitor
+    y=subhead('Promotions by Competitor',y);
+    var dealRows=analysis.results.map(r=>[cleanD(r.name),r.dealsA,r.dealsB,r.dealsB>r.dealsA?'They lead':'You lead']);
+    doc.autoTable({startY:y,head:[['Competitor','Your Deals','Their Deals','Leader']],body:dealRows,
+      styles:{fontSize:8,cellPadding:2},headStyles:{fillColor:CY,textColor:[255,255,255],fontSize:8},alternateRowStyles:{fillColor:[252,248,243]},margin:{left:14,right:14}});
+    y=doc.lastAutoTable.finalY+8;
+
+    // Your top deals
+    if(analysis.yourDeals.length>0){
+      y=checkPage(y,50);
+      y=subhead('Your Active Promotions',y);
+      var yourDealRows=analysis.yourDeals.sort((a,b)=>b.pct_off-a.pct_off).slice(0,10).map(d=>[d.product.substring(0,30),d.brand,d.category,'$'+d.discounted.toFixed(2),'$'+d.original.toFixed(2),d.pct_off+'%']);
+      doc.autoTable({startY:y,head:[['Product','Brand','Category','Sale Price','Original','Discount']],body:yourDealRows,
+        styles:{fontSize:7,cellPadding:1.5},headStyles:{fillColor:GN,textColor:[255,255,255],fontSize:7},margin:{left:14,right:14}});
+      y=doc.lastAutoTable.finalY+6}
+
+    // ═══ STRATEGIC RECOMMENDATIONS ═══
+    y=newPage();
+    doc.setFillColor(...DK);doc.rect(0,y-10,W,20,'F');
+    doc.setFontSize(16);doc.setTextColor(...CY);doc.text('STRATEGIC RECOMMENDATIONS',14,y+4);y+=20;
+
     var recs=[];
-    // Generate smart recommendations
+    // IMMEDIATE ACTIONS
+    recs.push({section:'IMMEDIATE ACTIONS (This Week)',items:[]});
     var closestThreat=analysis.results.filter(r=>r.dist&&r.dist<10).sort((a,b)=>(b.shared>0?b.bCheaper/b.shared:0)-(a.shared>0?a.bCheaper/a.shared:0))[0];
-    if(closestThreat&&closestThreat.bCheaper>closestThreat.aCheaper)recs.push('URGENT — '+cleanD(closestThreat.name)+' ('+closestThreat.dist+' mi away) undercuts you on '+closestThreat.bCheaper+'/'+closestThreat.shared+' shared products. Prioritize price matching on high-velocity items in this market.');
-    var biggestGapper=analysis.results.sort((a,b)=>b.onlyB-a.onlyB)[0];
-    if(biggestGapper&&biggestGapper.onlyB>20)recs.push('INVENTORY — '+cleanD(biggestGapper.name)+' carries '+biggestGapper.onlyB+' products you don\'t stock. Review their top gap categories ('+Object.entries(biggestGapper.catsOnlyB).sort((a,b)=>b[1]-a[1]).slice(0,3).map(e=>e[0]).join(', ')+') for expansion opportunities.');
+    if(closestThreat&&closestThreat.bCheaper>closestThreat.aCheaper)recs[0].items.push(cleanD(closestThreat.name)+' ('+closestThreat.dist+' mi) undercuts you on '+closestThreat.bCheaper+'/'+closestThreat.shared+' products. Prioritize price-matching on your top 10 highest-traffic items against this competitor.');
+    if(topReprice.length>0)recs[0].items.push('Review the top 15 repricing candidates (page 5). Matching the top 5 alone would significantly improve your win rate in key categories.');
     var weakCats={};analysis.results.forEach(r=>{Object.entries(r.catBreak).forEach(([cat,info])=>{if(!weakCats[cat])weakCats[cat]={wins:0,losses:0};weakCats[cat].wins+=info.aCheaper;weakCats[cat].losses+=info.bCheaper})});
     var worstCat=Object.entries(weakCats).sort((a,b)=>(b[1].losses-b[1].wins)-(a[1].losses-a[1].wins))[0];
-    if(worstCat&&worstCat[1].losses>worstCat[1].wins)recs.push('PRICING — Your weakest category is '+worstCat[0]+' where competitors beat you '+worstCat[1].losses+' times vs your '+worstCat[1].wins+' wins. Consider vendor renegotiation or margin adjustment.');
+    if(worstCat&&worstCat[1].losses>worstCat[1].wins)recs[0].items.push('Your weakest category is '+worstCat[0]+' ('+worstCat[1].losses+' losses vs '+worstCat[1].wins+' wins). Focus pricing adjustments here first for maximum competitive impact.');
+
+    // SHORT-TERM
+    recs.push({section:'SHORT-TERM PRIORITIES (30 Days)',items:[]});
+    var biggestGapper=analysis.results.sort((a,b)=>b.onlyB-a.onlyB)[0];
+    if(biggestGapper&&biggestGapper.onlyB>10)recs[1].items.push('Evaluate stocking top gap products from '+cleanD(biggestGapper.name)+' ('+biggestGapper.onlyB+' products you don\'t carry). Focus on '+Object.entries(biggestGapper.catsOnlyB).sort((a,b)=>b[1]-a[1]).slice(0,2).map(e=>e[0]).join(' and ')+' categories.');
+    if(topBrandGaps.length>0)recs[1].items.push('Contact vendors for brands you\'re missing: '+topBrandGaps.slice(0,3).map(e=>e[0]).join(', ')+'. These brands appear across multiple competitors, indicating strong market demand.');
     var dealLeader=analysis.results.sort((a,b)=>b.dealsB-a.dealsB)[0];
-    if(dealLeader&&dealLeader.dealsB>dealLeader.dealsA*2)recs.push('PROMOTIONS — '+cleanD(dealLeader.name)+' runs '+dealLeader.dealsB+' active deals vs your '+dealLeader.dealsA+'. Consider increasing promotional frequency to compete for deal-driven customers.');
+    if(dealLeader&&dealLeader.dealsB>yourDealCount*1.5)recs[1].items.push('Increase promotional frequency. '+cleanD(dealLeader.name)+' runs '+dealLeader.dealsB+' deals vs your '+yourDealCount+'. Target 2-3 new weekly promotions in high-visibility categories.');
+
+    // MEDIUM-TERM
+    recs.push({section:'MEDIUM-TERM STRATEGY (90 Days)',items:[]});
+    if(topMargin.length>0)recs[2].items.push('Capture margin on '+topMargin.length+' products where you\'re significantly underpriced. Small $1-3 increases on these items would add revenue without losing competitive position.');
     var strongCat=Object.entries(weakCats).sort((a,b)=>(b[1].wins-b[1].losses)-(a[1].wins-a[1].losses))[0];
-    if(strongCat&&strongCat[1].wins>strongCat[1].losses)recs.push('STRENGTH — You dominate in '+strongCat[0]+' ('+strongCat[1].wins+' wins vs '+strongCat[1].losses+' losses). Consider expanding selection and marketing this category as a differentiator.');
-    if(winRate>=50)recs.push('POSITIONING — With a '+winRate+'% win rate, you have pricing leverage. Maintain current strategy but monitor closest competitors monthly for price changes.');
-    else recs.push('POSITIONING — Your '+winRate+'% win rate suggests room for improvement. Focus on price-sensitive categories first and build toward a 50%+ win rate within 90 days.');
-    recs.push('MONITORING — Set up weekly ATHENA reports for the top 3 closest competitors to track pricing trends and new product launches.');
-    recs.forEach((rec,i)=>{if(y>265)y=newPage();var splitLines=doc.splitTextToSize((i+1)+'. '+rec,W-28);doc.text(splitLines,14,y);y+=splitLines.length*4.5+3});
-    footer();doc.save('athena_competitive_report_'+nameA.replace(/\s+/g,'_')+'_'+new Date().toISOString().split('T')[0]+'.pdf')};
+    if(strongCat)recs[2].items.push('Double down on '+strongCat[0]+' — your strongest category ('+strongCat[1].wins+' wins vs '+strongCat[1].losses+' losses). Expand selection and market this as your signature category.');
+    recs[2].items.push('Target a '+Math.min(winRate+15,75)+'% win rate within 90 days (currently '+winRate+'%). This requires flipping approximately '+(Math.round(totalShared*(Math.min(winRate+15,75)-winRate)/100))+' products from competitor-wins to your-wins.');
+
+    // MONITORING
+    recs.push({section:'ONGOING MONITORING',items:['Run ATHENA competitive reports weekly for your top 3 closest competitors.','Set price alerts for any competitor price drops >15% on shared products.','Track product gap changes monthly — new competitor SKUs represent market trends.','Review promotional effectiveness quarterly — compare deal-driven traffic vs margin impact.']});
+
+    recs.forEach(section=>{
+      y=checkPage(y,30);
+      y=subhead(section.section,y);
+      section.items.forEach((item,i)=>{
+        y=checkPage(y,15);
+        var lines=doc.splitTextToSize((i+1)+'. '+item,W-28);
+        doc.setFontSize(8.5);doc.setTextColor(60);doc.text(lines,18,y);y+=lines.length*3.8+3});
+      y+=3});
+
+    // Final assessment
+    y=checkPage(y,20);y=divider(y);
+    doc.setFontSize(9);doc.setTextColor(...DK);doc.setFont(undefined,'bold');
+    doc.text('BOTTOM LINE: ',14,y);doc.setFont(undefined,'normal');
+    var bottomLine=winRate>=60?nameA+' holds a strong competitive position with a '+winRate+'% win rate. Protect margins, fill product gaps, and maintain promotional activity.':winRate>=40?nameA+' has a moderate competitive position at '+winRate+'%. Targeted repricing on '+Math.min(topReprice.length,10)+' key products and filling '+Math.min(totalGaps,20)+' product gaps would significantly strengthen your market position.':nameA+' is in a vulnerable position at '+winRate+'%. Immediate action on repricing, gap analysis, and promotional strategy is required to compete effectively.';
+    var bl=doc.splitTextToSize(bottomLine,W-28);doc.text(bl,14,y+5);
+
+    footer();doc.save('ATHENA_Competitive_Intelligence_'+nameA.replace(/\s+/g,'_')+'_'+new Date().toISOString().split('T')[0]+'.pdf')};
 
   return<div className="pnl"><div className="pnl-t">Competitive Comparison</div><div className="pnl-d">Select your dispensary and one or more competitors for a full competitive analysis with exportable PDF report.</div>
     <div style={{marginBottom:16}}>
@@ -478,11 +708,12 @@ function CompareTab({data}){
 
     {analysis&&<><div className="stats"><div className="st"><div className="st-l">Your Products</div><div className="st-v">{analysis.prodCountA}</div></div>
       <div className="st"><div className="st-l">Competitors</div><div className="st-v">{analysis.results.length}</div></div>
+      <div className="st"><div className="st-l">Win Rate</div><div className="st-v" style={{color:analysis.results.reduce((s,r)=>s+r.shared,0)>0&&Math.round(analysis.results.reduce((s,r)=>s+r.aCheaper,0)/analysis.results.reduce((s,r)=>s+r.shared,0)*100)>=50?'var(--gn)':'var(--rd)'}}>{analysis.results.reduce((s,r)=>s+r.shared,0)>0?Math.round(analysis.results.reduce((s,r)=>s+r.aCheaper,0)/analysis.results.reduce((s,r)=>s+r.shared,0)*100):0}%</div></div>
       <div className="st"><div className="st-l">You're Cheaper</div><div className="st-v gn">{analysis.results.reduce((s,r)=>s+r.aCheaper,0)}</div></div>
       <div className="st"><div className="st-l">They're Cheaper</div><div className="st-v rd">{analysis.results.reduce((s,r)=>s+r.bCheaper,0)}</div></div>
       <div className="st"><div className="st-l">Product Gaps</div><div className="st-v am">{analysis.results.reduce((s,r)=>s+r.onlyB,0)}</div></div></div>
 
-    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export Full Report (PDF)</button></div>
+    <div className="row" style={{justifyContent:'flex-end',marginBottom:10}}><button className="btn pri" onClick={doExport}>Export Full Intelligence Report (PDF)</button></div>
 
     <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Competitor</th><th>City</th><th>Distance</th><th>Their Products</th><th>Shared</th><th style={{color:'var(--gn)'}}>You Win</th><th style={{color:'var(--rd)'}}>They Win</th><th>Gaps</th><th>Deals (You/Them)</th><th>Threat</th></tr></thead>
       <tbody>{analysis.results.map((r,i)=>{const threat=r.shared>0?Math.round(r.bCheaper/r.shared*100):0;return<tr key={i}><td className="pn">{cleanD(r.name)}</td><td className="dm">{r.city||'—'}</td>
@@ -495,6 +726,7 @@ function CompareTab({data}){
 
     {(!selA||selComps.size===0)&&<div className="empty"><h3>{!selA?"Select your dispensary above":"Select one or more competitors"}</h3><p style={{fontSize:12}}>Choose your dispensary and check competitors to generate a full competitive intelligence report with exportable PDF.</p></div>}
   </div>;
+}
 }
 
 ReactDOM.render(<App/>,document.getElementById("root"));
