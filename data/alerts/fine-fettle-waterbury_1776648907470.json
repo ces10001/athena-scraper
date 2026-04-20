@@ -1,0 +1,56 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Gas Lit (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "Indica flower\n\nall:hours Hash Burger (I) part:timers Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paradise Snacks (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "New: Indica flower\n\nGood Green - Paradise Snacks (I) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Pomme Jelly (S) Flower: $92.40 > $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "New: Sativa flower\n\nGrassroots - Pineapple Sunrise (S) Flower $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Floral Frost (H) Flower"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls 7g Zuava H 26948: $65.00 > $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 3 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo",
+    "brand": null,
+    "message": "New: null - Only 3 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo $10.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 7g Gush Mintz I 26872",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls 7g Gush Mintz I 26872: $65.00 > $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored 15% back SALE Hybrid inc.edibles 20 Pack Watermelon Smash",
+    "brand": null,
+    "message": "New: null - Sponsored 15% back SALE Hybrid inc.edibles 20 Pack Watermelon Smash $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Regina Gorgeous (H) 01228",
+    "brand": "Advanced Grow Labs (AGL)\nWarning - High THC -",
+    "message": "New: Advanced Grow Labs (AGL)\nWarning - High THC - - AGL 5 Pack Minis Regina Gorgeous (H) 01228 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% back SALE Hybrid inc.edibles 20 Pack Fast Acting Sour Cherry Tart",
+    "brand": null,
+    "message": "New: null - 15% back SALE Hybrid inc.edibles 20 Pack Fast Acting Sour Cherry Tart $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Pomegranate Punch CBN:THC Gummies CBN47.4mg T92mg I 26879",
+    "brand": "Encore",
+    "message": "New: Encore - Encore Pomegranate Punch CBN:THC Gummies CBN47.4mg T92mg I 26879 $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 14g Super Lemon G S 26930",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls 14g Super Lemon G S 26930: $109.00 > $87.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Sour Black Cherry RSO Gummies T98.8mg H 27003",
+    "brand": "Encore",
+    "message": "New: Encore - Encore Sour Black Cherry RSO Gummies T98.8mg H 27003 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SALE Hybrid Rythm 1g LEAF Live Sauce Pen Jealousy OG (H) 01375 RYTHM Disposable",
+    "brand": null,
+    "message": "New: null - SALE Hybrid Rythm 1g LEAF Live Sauce Pen Jealousy OG (H) 01375 RYTHM Disposable $55.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored SALE Indica Rythm 7g Small Flower GMO (I) 01349 RYTHM Warning - High",
+    "brand": null,
+    "message": "Gone: null - Sponsored SALE Indica Rythm 7g Small Flower GMO (I) 01349 RYTHM Warning - High"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo",
+    "brand": null,
+    "message": "Gone: null - Only 2 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00404",
+    "brand": "Camino\nSour",
+    "message": "Gone: Camino\nSour - Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00404"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE Indica Rythm 3.5g Confidential Cherries (I) 00985 RYTHM Flower (3.5G)",
+    "brand": null,
+    "message": "Gone: null - SALE Indica Rythm 3.5g Confidential Cherries (I) 00985 RYTHM Flower (3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g Red Gary H 26895",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g Red Gary H 26895"
+  }
+]

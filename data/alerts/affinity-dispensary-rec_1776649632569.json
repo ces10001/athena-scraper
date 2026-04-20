@@ -1,0 +1,668 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip (PRIME)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Lemon Drip (PRIME) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Zushi (ARDO)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Yellow Zushi (ARDO) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gary Payton (N1)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Gary Payton (N1) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SB Cherry Slimeade (PRIME)",
+    "brand": "Small Buds",
+    "message": "New: Small Buds - SB Cherry Slimeade (PRIME) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Fritter (PRIME)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Apple Fritter (PRIME) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SB El Chivo (N1)",
+    "brand": "Small Buds",
+    "message": "New: Small Buds - SB El Chivo (N1) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SB Super Boof (N1)",
+    "brand": "Small Buds",
+    "message": "New: Small Buds - SB Super Boof (N1) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Live Rosin Citrus Octane",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Live Rosin Citrus Octane $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Blue Ice - Rosin Gummies (10pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Blue Ice - Rosin Gummies (10pk) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Optimals Fast Asleep Gummies [10-Pack] | 20mg",
+    "brand": "Wana",
+    "message": "New: Wana - Optimals Fast Asleep Gummies [10-Pack] | 20mg $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SHAKE GMO Cookies (GF)",
+    "brand": "SHAKE",
+    "message": "New: SHAKE - SHAKE GMO Cookies (GF) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "KAVIAR Moonrock Sativa",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - KAVIAR Moonrock Sativa $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza A.I.O. Cartridge Northern Lights",
+    "brand": "Bonanza Cannabis",
+    "message": "New: Bonanza Cannabis - Bonanza A.I.O. Cartridge Northern Lights $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza A.I.O. Cartridge White Widow",
+    "brand": "Bonanza Cannabis",
+    "message": "New: Bonanza Cannabis - Bonanza A.I.O. Cartridge White Widow $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Eureka AIO Classic Indica",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - Eureka AIO Classic Indica $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Eureka 1000mg AIO Classic Sativa",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - Eureka 1000mg AIO Classic Sativa $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SB Strawberry Cream Cake (N1)",
+    "brand": "Small Buds",
+    "message": "New: Small Buds - SB Strawberry Cream Cake (N1) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RELOAD - 1g PREMIUM - Sativa",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - RELOAD - 1g PREMIUM - Sativa $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Gelato Cookies",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Gelato Cookies $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Block Berry (MAC)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Block Berry (MAC) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Divorce Cake (N1)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Divorce Cake (N1) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "KAVIAR Moonrock Indica",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - KAVIAR Moonrock Indica $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza Cartridge Honey Boo Boo",
+    "brand": "Flyin' Hawaiian",
+    "message": "New: Flyin' Hawaiian - Bonanza Cartridge Honey Boo Boo $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza Cart Pina Colada",
+    "brand": "Flyin' Hawaiian",
+    "message": "New: Flyin' Hawaiian - Bonanza Cart Pina Colada $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll 303 Mr. Glueball",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - Pre-Roll 303 Mr. Glueball $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smokiez Single Score Sour Watermelon Hybrid",
+    "brand": "Smokiez Edibles",
+    "message": "New: Smokiez Edibles - Smokiez Single Score Sour Watermelon Hybrid $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smokiez SINGLE SCORE Sour Blue Raspberry",
+    "brand": "Smokiez Edibles",
+    "message": "New: Smokiez Edibles - Smokiez SINGLE SCORE Sour Blue Raspberry $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Blueberry Kush",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Blueberry Kush $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Tangerine Dream",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Tangerine Dream $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart NYC Diesel",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart NYC Diesel $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Hula Berry - Rosin Gummies (10pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Hula Berry - Rosin Gummies (10pk) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Strawguava Moon (TJC)",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - Pre-Roll Strawguava Moon (TJC) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Ooples & Banoonoos (TJC)",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - Pre-Roll Ooples & Banoonoos (TJC) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "West Edison RSO Sativa",
+    "brand": "West Edison",
+    "message": "New: West Edison - West Edison RSO Sativa $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "West Ed Disp. Cherry Cola (Bot)",
+    "brand": "West Edison",
+    "message": "New: West Edison - West Ed Disp. Cherry Cola (Bot) $37.06"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wana LTO Quick Blue Slushy",
+    "brand": "Wana",
+    "message": "New: Wana - Wana LTO Quick Blue Slushy $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD Sativa Raspberry 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD Sativa Raspberry 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD Indica Sour Cherry 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD Indica Sour Cherry 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD Indica Marionberry 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD Indica Marionberry 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD Hybrid Sour Tangerine 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD Hybrid Sour Tangerine 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD Hybrid Huckleberry 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD Hybrid Huckleberry 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD 2:1 Peach 10mg CBD : 5mg THC",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD 2:1 Peach 10mg CBD : 5mg THC $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD 2:1 CBN Elderberry 10mg THC : 5mg CBN",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD 2:1 CBN Elderberry 10mg THC : 5mg CBN $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD 20:1 Strawberry 20mg CBD : 1mg THC",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD 20:1 Strawberry 20mg CBD : 1mg THC $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD 1:1:1 Boysenberry 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD 1:1:1 Boysenberry 100mg $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WYLD 1:1 CBG Pear 100mg",
+    "brand": "Wyld",
+    "message": "New: Wyld - WYLD 1:1 CBG Pear 100mg $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trinity (MAC)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Trinity (MAC) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Rosin Infused Pre-Roll Banana Pie",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Rosin Infused Pre-Roll Banana Pie $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Live Rosin Jumpman",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Live Rosin Jumpman $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Live Rosin Infused Pre-Roll Rainbow Taffy",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Live Rosin Infused Pre-Roll Rainbow Taffy $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Live Rosin Infused Pre-Roll Butter Cream Gas",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Live Rosin Infused Pre-Roll Butter Cream Gas $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Live Rosin Infused PR Black Rock",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Live Rosin Infused PR Black Rock $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Hash Infused Pre-Roll Pink Certz",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Hash Infused Pre-Roll Pink Certz $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Hash Infused Pre-Roll Neon Gushers",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Hash Infused Pre-Roll Neon Gushers $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Hash Infused Pre-Roll G-Ride",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Hash Infused Pre-Roll G-Ride $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TS Labs Hash Infused Pre-Roll Banana Ice Pop",
+    "brand": "TS Labs",
+    "message": "New: TS Labs - TS Labs Hash Infused Pre-Roll Banana Ice Pop $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Jamz (HOST)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Strawberry Jamz (HOST) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smokiez Indica Blue Raspberry Gummies 100mg",
+    "brand": "Smokiez Edibles",
+    "message": "New: Smokiez Edibles - Smokiez Indica Blue Raspberry Gummies 100mg $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smokiez Hybrid Watermelon Gummies 100mg",
+    "brand": "Smokiez Edibles",
+    "message": "New: Smokiez Edibles - Smokiez Hybrid Watermelon Gummies 100mg $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Smokiez Hybrid Sour Watermelon Gummies 100mg",
+    "brand": "Smokiez Edibles",
+    "message": "New: Smokiez Edibles - Smokiez Hybrid Sour Watermelon Gummies 100mg $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sinsere Salted Dark Chocolate Bar 100mg",
+    "brand": "Sinsère",
+    "message": "New: Sinsère - Sinsere Salted Dark Chocolate Bar 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sinsere Peanut Butter Bites 100mg",
+    "brand": "Sinsère",
+    "message": "New: Sinsère - Sinsere Peanut Butter Bites 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sinsere Mint Dark Chocolate Bar 100mg",
+    "brand": "Sinsère",
+    "message": "New: Sinsère - Sinsere Mint Dark Chocolate Bar 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sinsere Caramel Peanut Bites 100mg",
+    "brand": "Sinsère",
+    "message": "New: Sinsère - Sinsere Caramel Peanut Bites 100mg $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SHAKE Emerald OG (GF)",
+    "brand": "SHAKE",
+    "message": "New: SHAKE - SHAKE Emerald OG (GF) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SHAKE Cheetoz (GF)",
+    "brand": "SHAKE",
+    "message": "New: SHAKE - SHAKE Cheetoz (GF) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "S&S 1,000mg Live Resin Cart Scotch & Soda",
+    "brand": "Seed & Smith",
+    "message": "New: Seed & Smith - S&S 1,000mg Live Resin Cart Scotch & Soda $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "S&S 1,000mg Live Resin Cart Red Dawn",
+    "brand": "Seed & Smith",
+    "message": "New: Seed & Smith - S&S 1,000mg Live Resin Cart Red Dawn $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "S&S 1,000mg Live Resin Cart Orange Cookies Chem",
+    "brand": "Seed & Smith",
+    "message": "New: Seed & Smith - S&S 1,000mg Live Resin Cart Orange Cookies Chem $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "S&S 1,000mg Live Resin Cart Grape Bubblegum",
+    "brand": "Seed & Smith",
+    "message": "New: Seed & Smith - S&S 1,000mg Live Resin Cart Grape Bubblegum $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "S&S 1,000mg Live Resin Cart Golden Rift",
+    "brand": "Seed & Smith",
+    "message": "New: Seed & Smith - S&S 1,000mg Live Resin Cart Golden Rift $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RELOAD - 1g PREMIUM - Indica",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - RELOAD - 1g PREMIUM - Indica $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RELOAD - 1g PREMIUM - Hybrid",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - RELOAD - 1g PREMIUM - Hybrid $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Quick Piña Colada Indica Gummies [20-Pack] | 100mg",
+    "brand": "Wana",
+    "message": "New: Wana - Quick Piña Colada Indica Gummies [20-Pack] | 100mg $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Super Boof (NR)",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - Pre-Roll Super Boof (NR) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Shawshank (NR)",
+    "brand": "Natty Rems",
+    "message": "New: Natty Rems - Pre-Roll Shawshank (NR) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Grape Cream Cake (NR)",
+    "brand": "Natty Rems",
+    "message": "New: Natty Rems - Pre-Roll Grape Cream Cake (NR) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Blueberry Muffin (NR)",
+    "brand": "Natty Rems",
+    "message": "New: Natty Rems - Pre-Roll Blueberry Muffin (NR) $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Natty 1,000mg Catalina Wine Mixer Gold Tip LR Cart",
+    "brand": "Natty Rems",
+    "message": "New: Natty Rems - Natty 1,000mg Catalina Wine Mixer Gold Tip LR Cart $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "KAVIAR Moonrock Hybrid",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - KAVIAR Moonrock Hybrid $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Juice Man (MAC)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Juice Man (MAC) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glue Trap (ARDO)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Glue Trap (ARDO) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flawless Lavender (HOST)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - Flawless Lavender (HOST) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FLVRZ Infused Pre-roll Watermelon Daiquiri",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - FLVRZ Infused Pre-roll Watermelon Daiquiri $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FLVRZ Infused Pre-roll Strawberry Kiwi Fruit Tart",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - FLVRZ Infused Pre-roll Strawberry Kiwi Fruit Tart $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FLVRZ Infused Pre-roll Mango Gelato",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - FLVRZ Infused Pre-roll Mango Gelato $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FLVRZ Infused Pre-roll Blueberry Pie",
+    "brand": "Kaviar",
+    "message": "New: Kaviar - FLVRZ Infused Pre-roll Blueberry Pie $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Eureka 1000mg AIO Classic Hybrid",
+    "brand": "EUREKA",
+    "message": "New: EUREKA - Eureka 1000mg AIO Classic Hybrid $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosidos (PRIME)",
+    "brand": "DIAMOND",
+    "message": "New: DIAMOND - Dosidos (PRIME) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DogWalkers Pre-Roll Pack - Rainbow Treats",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - DogWalkers Pre-Roll Pack - Rainbow Treats $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DogWalkers Pre-Roll Pack - Merlot Pop",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - DogWalkers Pre-Roll Pack - Merlot Pop $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DogWalkers Pre-Roll Pack - Cherry Popper",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - DogWalkers Pre-Roll Pack - Cherry Popper $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "DogWalkers Pre-Roll Pack - Cherry Kush",
+    "brand": "Pre-Roll",
+    "message": "New: Pre-Roll - DogWalkers Pre-Roll Pack - Cherry Kush $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dialed In Classic Guava Sativa Rosin Gummies 100mg",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - Dialed In Classic Guava Sativa Rosin Gummies 100mg $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Assorted Flavors Sativa Gummies [10-Pack] | 100mg",
+    "brand": "Wana",
+    "message": "New: Wana - Classic Assorted Flavors Sativa Gummies [10-Pack] | 100mg $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Assorted Flavors Indica Gummies [10-Pack] | 100mg",
+    "brand": "Wana",
+    "message": "New: Wana - Classic Assorted Flavors Indica Gummies [10-Pack] | 100mg $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Assorted Flavors Hybrid Gummies [10-Pack] | 100mg",
+    "brand": "Wana",
+    "message": "New: Wana - Classic Assorted Flavors Hybrid Gummies [10-Pack] | 100mg $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Candaze 100mg Rosin Dipz PB&J Grape Hybrid",
+    "brand": "Candaze",
+    "message": "New: Candaze - Candaze 100mg Rosin Dipz PB&J Grape Hybrid $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BrrBerry (HOST)",
+    "brand": "FIRST CLASS",
+    "message": "New: FIRST CLASS - BrrBerry (HOST) $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza Cartridge Orange Runtz",
+    "brand": "Flyin' Hawaiian",
+    "message": "New: Flyin' Hawaiian - Bonanza Cartridge Orange Runtz $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bonanza A.I.O. Cartridge Super Lemon Haze",
+    "brand": "Bonanza Cannabis",
+    "message": "New: Bonanza Cannabis - Bonanza A.I.O. Cartridge Super Lemon Haze $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Passion Fruit OG",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Passion Fruit OG $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Grape Diesel",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Grape Diesel $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Cherry Zkittlez",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Cherry Zkittlez $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "303 Distillate Cart Blue Dream",
+    "brand": "303",
+    "message": "New: 303 - 303 Distillate Cart Blue Dream $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Starfruit - Rosin Gummies (10pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Starfruit - Rosin Gummies (10pk) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Rocket Berry 5:1 - Rosin Gummies (20pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Rocket Berry 5:1 - Rosin Gummies (20pk) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Pomegranate 2:1 - Rosin Gummies (20pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Pomegranate 2:1 - Rosin Gummies (20pk) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Grape Punch - Rosin Gummies (10pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Grape Punch - Rosin Gummies (10pk) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Blueberry - Rosin Gummies (10pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Blueberry - Rosin Gummies (10pk) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "100mg - Acai Berry Sleep 1:1:1 - Rosin Gummies (20pk)",
+    "brand": "Dialed In Gummies",
+    "message": "New: Dialed In Gummies - 100mg - Acai Berry Sleep 1:1:1 - Rosin Gummies (20pk) $21.00"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Watermelon Gummy",
+    "brand": "Encore",
+    "message": "New: Encore - Sour Watermelon Gummy $25.07"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Pod",
+    "brand": null,
+    "message": "New: null - 1g Pod $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g All In One",
+    "brand": null,
+    "message": "New: null - 1g All In One $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lemonade Gummy",
+    "brand": "Camino",
+    "message": "New: Camino - Watermelon Lemonade Gummy $32.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Diesel Live Resin",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Sour Diesel Live Resin $58.10"
+  }
+]

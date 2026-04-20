@@ -1,0 +1,152 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "GrassMiss Strawberry Spark - Fast Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassMiss Strawberry Spark - Fast Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Jokerz Pre-Roll $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Frosting Gelato Pre-Roll",
+    "brand": "Awssom",
+    "message": "New: Awssom - Blueberry Frosting Gelato Pre-Roll $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cake Pre-Roll $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti Pre-Roll $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassOG Grapefruit Spark - Quiet Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassOG Grapefruit Spark - Quiet Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerCold Spell Shorties",
+    "brand": "Earl",
+    "message": "New: Earl - BakerCold Spell Shorties $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Pre-Roll $7.54"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary Pre-Roll",
+    "brand": "Savvy",
+    "message": "New: Savvy - Red Gary Pre-Roll $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassDurban Legacy Spark - Fast Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassDurban Legacy Spark - Fast Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerChem Pop Shorties",
+    "brand": "Earl",
+    "message": "New: Earl - BakerChem Pop Shorties $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Skunk Pre-Roll",
+    "brand": "SavvyGMO",
+    "message": "New: SavvyGMO - Skunk Pre-Roll $7.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face Infused Showdogs",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Animal Face Infused Showdogs $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face Shorties",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Animal Face Shorties $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GrassChemdawg Spark - All Times Pre-Roll",
+    "brand": "Miss",
+    "message": "New: Miss - GrassChemdawg Spark - All Times Pre-Roll $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Living Legend Pre-Roll",
+    "brand": "AGL",
+    "message": "New: AGL - Living Legend Pre-Roll $5.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Regina Gorgeous Shorties",
+    "brand": "AGL",
+    "message": "New: AGL - Regina Gorgeous Shorties $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Martian Mints Pre-Roll",
+    "brand": "FIND.",
+    "message": "New: FIND. - Martian Mints Pre-Roll $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hypnotik Pre-Roll",
+    "brand": "AGL",
+    "message": "New: AGL - Hypnotik Pre-Roll $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnHash Burger Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnHash Burger Pre-Roll $8.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Starstruck Pre-Roll",
+    "brand": "comffy",
+    "message": "New: comffy - Starstruck Pre-Roll $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BakerStankonya Whole Flower",
+    "brand": "Earl",
+    "message": "New: Earl - BakerStankonya Whole Flower $30.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brownie Scout Cartridge",
+    "brand": "Rythm",
+    "message": "New: Rythm - Brownie Scout Cartridge $17.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight #4 Whole Flower",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Afternoon Delight #4 Whole Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BreakMaui Wowie Disposable",
+    "brand": "Lucky",
+    "message": "Gone: Lucky - BreakMaui Wowie Disposable"
+  }
+]

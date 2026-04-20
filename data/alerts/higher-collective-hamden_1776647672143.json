@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Animal Face Shorties",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Animal Face Shorties $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb Pre-Roll",
+    "brand": "FIND.",
+    "message": "New: FIND. - Critical Crumb Pre-Roll $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Taffy Twist Shorties",
+    "brand": "AGL",
+    "message": "New: AGL - Taffy Twist Shorties $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisSoap Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisSoap Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaScout Breath",
+    "brand": "CT",
+    "message": "New: CT - PharmaScout Breath $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butter Bites Pre-Roll",
+    "brand": "FIND.",
+    "message": "New: FIND. - Peanut Butter Bites Pre-Roll $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Skunk Pre-Roll",
+    "brand": "SavvyGMO",
+    "message": "New: SavvyGMO - Skunk Pre-Roll $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisBlueberry Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisBlueberry Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lato 1:1 Infused Shorties",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Lato 1:1 Infused Shorties $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pey Cough 3:2 Infused Shorties",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pey Cough 3:2 Infused Shorties $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singles",
+    "brand": "SpringtimeSZO",
+    "message": "New: SpringtimeSZO - Singles $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BurnMule Fuel Pre-Roll",
+    "brand": "Let's",
+    "message": "New: Let's - BurnMule Fuel Pre-Roll $9.28"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dulce De Uva Shorties",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Dulce De Uva Shorties $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkel Cartridge",
+    "brand": "comffy",
+    "message": "New: comffy - Purple Urkel Cartridge $54.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice Cartridge"
+  }
+]

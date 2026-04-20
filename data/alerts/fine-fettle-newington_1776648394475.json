@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Hybrid flower\n\nTheraplant Black Cherry GMO (H) Flower: $25.00 > $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "New: Hybrid flower\n\nCuraleaf - White Hot Guava (H) Flower $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Orange Z (S) Flower: $79.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Sativa flower\n\nTheraplant",
+    "message": "Sativa flower\n\nTheraplant Pinyatti (S) Flower: $40.00 > $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Bananaconda (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BNC-S-20 (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BNC-S-20 (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "Indica flower\n\nall:hours Hash Burger (I) part:timers Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "New: Sativa flower\n\nFind - PB Bites (S) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "New: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "New: Indica flower\n\nGood Green - Bubba F (I) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "American Pi (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "New: OZ\n\nHybrid flower\n\nEarl Baker - American Pi (H) Flower $30.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Floral Frost (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Paw Paw (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "New: Hybrid flower\n\nFind - Gas Lit (H) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "New: Indica flower\n\nGrassroots - Zesty Garlic Kookyz (I) Flower $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Michigan Cherry (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "New: OZ\n\nHybrid flower\n\nEarl Baker - Michigan Cherry (H) Flower $30.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "New: Hybrid flower\n\nTheraplant - Carbon FBR (H) Flower $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bad Decisions (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "New: OZ\n\nHybrid flower\n\nEarl Baker - Bad Decisions (H) Flower $30.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "New: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "New: Indica flower\n\nAffinity Grow - Black Maple (I) Flower $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Caps (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "New: Indica flower\n\nGrassroots - White Caps (I) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "New: Sativa flower\n\nGrassroots - Titan Express (S) Flower $30.00"
+  }
+]

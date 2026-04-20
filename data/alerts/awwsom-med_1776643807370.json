@@ -1,0 +1,890 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g CIG 00076",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g CIG 00076 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g GAT 00074",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g GAT 00074 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon MT - 41568",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon MT - 41568 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk 1g Pre Roll (I) - 00504",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk 1g Pre Roll (I) - 00504 $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk 1g Pre Roll (H) - 00434",
+    "brand": "Brix",
+    "message": "New: Brix - Cap Junk 1g Pre Roll (H) - 00434 $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Berry Lemonade Gummies (I) 00421",
+    "brand": "Brix",
+    "message": "New: Brix - Wild Berry Lemonade Gummies (I) 00421 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soundview Mango 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can",
+    "brand": "SoundView",
+    "message": "New: SoundView - Soundview Mango 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Sugar Plum Gummies (H) - 00181",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Sugar Plum Gummies (H) - 00181 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Peanut Butter Pretzel Milk Chocolate Bar - 00213",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Peanut Butter Pretzel Milk Chocolate Bar - 00213 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Yeet (H) - 0008",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Yeet (H) - 0008 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "E85 Flower 26812",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - E85 Flower 26812 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959 $29.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g Animal Tsunami (ATS) - 00080",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g Animal Tsunami (ATS) - 00080 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Gold Cash Gold (GCG) - 00081",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Gold Cash Gold (GCG) - 00081 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 14g Guava Tart (GAT) - 00089",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 14g Guava Tart (GAT) - 00089 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Clementine (S) 1g Vape Cartridge 00029",
+    "brand": "Loud Cannabis",
+    "message": "New: Loud Cannabis - Loud Clementine (S) 1g Vape Cartridge 00029 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Blockberry (BLB) - 00075",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Blockberry (BLB) - 00075 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon 1oz (S) - 41659",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon 1oz (S) - 41659 $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g Delicata Cookies (DLC) - 00085",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g Delicata Cookies (DLC) - 00085 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g Devi #11 (D11) 00091",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g Devi #11 (D11) 00091 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Orange Cookiez (I) 1g Vape Cartridge 00028",
+    "brand": "Loud Cannabis",
+    "message": "New: Loud Cannabis - Loud Orange Cookiez (I) 1g Vape Cartridge 00028 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Sour Z (H) 1g Vape Cartridge 00030",
+    "brand": "Loud Cannabis",
+    "message": "New: Loud Cannabis - Loud Sour Z (H) 1g Vape Cartridge 00030 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Golden Tangie (S) 00038 1g Vape Cartridge",
+    "brand": "Loud Cannabis",
+    "message": "New: Loud Cannabis - Loud Cannabis Golden Tangie (S) 00038 1g Vape Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Ground 7g LMJ 00067",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Ground 7g LMJ 00067 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy - Brass Bonanza Flower 3.5g (S) - 00049",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy - Brass Bonanza Flower 3.5g (S) - 00049 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Pack 3.5g DLC 00060",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Pack 3.5g DLC 00060 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Awssom 1g Pre-Roll Blueberry Frosting Gelato - 00059",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom 1g Pre-Roll Blueberry Frosting Gelato - 00059 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Whole Flower (1/8 Oz) Do-Si-Lato (I) 00013",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Whole Flower (1/8 Oz) Do-Si-Lato (I) 00013 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Planet MT - 41565",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Planet MT - 41565 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g Georgia Pie (GGP) - 00083",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g Georgia Pie (GGP) - 00083 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 7g Hifi 4g #9 (H4G-9) - 00097",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 7g Hifi 4g #9 (H4G-9) - 00097 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 14g Great Lake Grapes (GRA) - 00088",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 14g Great Lake Grapes (GRA) - 00088 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g Jet Fuel OG 00066",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g Jet Fuel OG 00066 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) 00027",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) 00027 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g Guava Tart (GAT) - 00086",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g Guava Tart (GAT) - 00086 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g Whiplash (WPH) - 00096",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g Whiplash (WPH) - 00096 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Ground 7.0g TGK 00064",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Ground 7.0g TGK 00064 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Banana Cake #20 (BNC-20) - 00087",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Banana Cake #20 (BNC-20) - 00087 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g Don Mega (DME) - 00082",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g Don Mega (DME) - 00082 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker (41138)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker (41138) $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk 1g LT Vape S 00820",
+    "brand": "Affinity",
+    "message": "New: Affinity - Lemon Skunk 1g LT Vape S 00820 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HYPHEN Juice OG 1g Pod",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - HYPHEN Juice OG 1g Pod $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Pina Colada 00032",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid GalaxEats Gummies Pina Colada 00032 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g Whiplash (WPH) 00100",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g Whiplash (WPH) 00100 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 14g Citral Glue (CIG) - 00090",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 14g Citral Glue (CIG) - 00090 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy 7g | Golden Hour - 00169",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy 7g | Golden Hour - 00169 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem 91 0.5g 5pk Pre Rolls (S) - 00507",
+    "brand": "Brix",
+    "message": "New: Brix - Chem 91 0.5g 5pk Pre Rolls (S) - 00507 $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "INKD UP 1g All in One Vape (I) - 00479",
+    "brand": "Brix",
+    "message": "New: Brix - INKD UP 1g All in One Vape (I) - 00479 $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g CHJ (I) - 00068",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g CHJ (I) - 00068 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Mikado Mintz 3.5g - 0006",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Mikado Mintz 3.5g - 0006 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g Triangle Kush (TGK) - 00071",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g Triangle Kush (TGK) - 00071 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush 00015",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid Galaxeats Gummies Raspberry Rush 00015 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy 3.5g | Fritterz - 00141",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy 3.5g | Fritterz - 00141 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG Skunk .5g",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GG Skunk .5g $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g SZO 00073",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g SZO 00073 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g GRA 00072",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g GRA 00072 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 7g Banana Cake #20 (BNC-20) 00105",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 7g Banana Cake #20 (BNC-20) 00105 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Mango 5:5 THC:CBD - 0227",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Mango 5:5 THC:CBD - 0227 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours - 10ct Tropical Burst THC:THCV 10:6 - 00342",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours - 10ct Tropical Burst THC:THCV 10:6 - 00342 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Pineapple Habanero - 00327",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Pineapple Habanero - 00327 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Sour Watermelon 00016",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid Galaxeats Gummies Sour Watermelon 00016 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Sour Green Apple 00035",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid GalaxEats Gummies Sour Green Apple 00035 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade - 00034",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid GalaxEats Gummies Pink Lemonade - 00034 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g BNC #20 00041",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g BNC #20 00041 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soap 1g Pre Roll (S) - 00460",
+    "brand": "Brix",
+    "message": "New: Brix - Soap 1g Pre Roll (S) - 00460 $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Mule Fuel Bubble Hash Infused Shorties - 41621",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Mule Fuel Bubble Hash Infused Shorties - 41621 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours - Nimbus Snacks part:timers (S) - 41366",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours - Nimbus Snacks part:timers (S) - 41366 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours - Air Hdz part:timers (I) - 41265",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours - Air Hdz part:timers (I) - 41265 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours - 10G's part:timers (H) - 41360",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours - 10G's part:timers (H) - 41360 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 7g Whiplash (WPH) - 00098",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 7g Whiplash (WPH) - 00098 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack 7g Purple OG (POG) - 00102",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack 7g Purple OG (POG) - 00102 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Z Cke 1g LT Bar I 00825",
+    "brand": "Affinity",
+    "message": "New: Affinity - Z Cke 1g LT Bar I 00825 $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wook Stomper Shorties H 26792",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Wook Stomper Shorties H 26792 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Happy Confection - Medium Dose Infused Gems (THC:CBD:CBG) - Coasting Cherry Punch (H) - 00248",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - The Happy Confection - Medium Dose Infused Gems (THC:CBD:CBG) - Coasting Cherry Punch (H) - 00248 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Essence Hyphen Pod 1g Banana Cream OG H 26845",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - The Essence Hyphen Pod 1g Banana Cream OG H 26845 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Essence Hyphen - AIO 1g Pineapple Skunk (S) - 26681",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - The Essence Hyphen - AIO 1g Pineapple Skunk (S) - 26681 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Silver Grapefruit 3.5 Jar - 046",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Super Silver Grapefruit 3.5 Jar - 046 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff Lil' Budz 7g (H) - 00523",
+    "brand": "Brix",
+    "message": "New: Brix - Super Buff Lil' Budz 7g (H) - 00523 $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream 0.5g LT Vape I 00867",
+    "brand": "Affinity",
+    "message": "New: Affinity - Sunshine Daydream 0.5g LT Vape I 00867 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunny Stomper Infused Pre-Roll (H) - 26757",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Sunny Stomper Infused Pre-Roll (H) - 26757 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy PR Minis (H) - 41708",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy PR Minis (H) - 41708 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Roll 1.0g Sub Zero (SZO) - 00092",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Roll 1.0g Sub Zero (SZO) - 00092 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Speakeasy 1g LT Vape (S) - 00750",
+    "brand": "Affinity",
+    "message": "New: Affinity - Speakeasy 1g LT Vape (S) - 00750 $46.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soundview Strawberry Kiwi Seltzer 3mg THC 3mg CBD 3mg CBG - 12 Oz Single Can",
+    "brand": "SoundView",
+    "message": "New: SoundView - Soundview Strawberry Kiwi Seltzer 3mg THC 3mg CBD 3mg CBG - 12 Oz Single Can $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soundview Blood Orange 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can",
+    "brand": "SoundView",
+    "message": "New: SoundView - Soundview Blood Orange 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Raspberry Lime 5:1 CBD Gummies 00126",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Raspberry Lime 5:1 CBD Gummies 00126 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Live Resin Watermelon 1:1:1 (THC:CBD:CBG) Gummies 00136",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Live Resin Watermelon 1:1:1 (THC:CBD:CBG) Gummies 00136 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies (H) - 00194",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Black Cherry Gummies (H) - 00194 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Cookies & Cream White Chocolate Bar - 00185",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Cookies & Cream White Chocolate Bar - 00185 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Watermelon Sherbet Live Resin Vape 1g (H) - 00214",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Watermelon Sherbet Live Resin Vape 1g (H) - 00214 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Peach RSO Gummies - 00205",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Peach RSO Gummies - 00205 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Mellow Mango 1:1:1 Gummies (THC:CBD:CBN) - 00203",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Mellow Mango 1:1:1 Gummies (THC:CBD:CBN) - 00203 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Love Potion 1g Live Resin Disposable Vape (S) - 00201",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Love Potion 1g Live Resin Disposable Vape (S) - 00201 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Live Resin Pink Lemonade Gummies (S) - 00199",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Live Resin Pink Lemonade Gummies (S) - 00199 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Gasolina 1g Live Resin Disposable Vape (S) - 00200",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Gasolina 1g Live Resin Disposable Vape (S) - 00200 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Black Rock Lava Cake (BLR) 00077",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Black Rock Lava Cake (BLR) 00077 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Cliq Elite Pod .5g Durban Poison (S) 00944",
+    "brand": "Select",
+    "message": "New: Select - Select Cliq Elite Pod .5g Durban Poison (S) 00944 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scout Breath Shorties 5 x 0.4g",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Scout Breath Shorties 5 x 0.4g $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Sun Grown Summer L. 1g Infused Preroll - 00320",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Sun Grown Summer L. 1g Infused Preroll - 00320 $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Sun Grown Deadeye Drip 0.5g 5 Pack Prerolls - 00354",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Sun Grown Deadeye Drip 0.5g 5 Pack Prerolls - 00354 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pey Cough 3:2 Shorties Infused Pre-Roll 4-Pack | 1.6g (41063)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pey Cough 3:2 Shorties Infused Pre-Roll 4-Pack | 1.6g (41063) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker 1oz (H) - 41602",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Marker 1oz (H) - 41602 $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker 0.5g LT Vape I 00821",
+    "brand": "Affinity",
+    "message": "New: Affinity - Permanent Marker 0.5g LT Vape I 00821 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Diesel 3.5 Jar - 045",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Peach Diesel 3.5 Jar - 045 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes 3.5g - 41521",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes 3.5g - 41521 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OGKB Stomper .5g",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - OGKB Stomper .5g $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Milk Chocolate RSO 100mg [10pk]",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Milk Chocolate RSO 100mg [10pk] $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Medium Dose Infused Gems THC:CBD:CBG - Sultry Cinnamon (H) - 00174",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Medium Dose Infused Gems THC:CBD:CBG - Sultry Cinnamon (H) - 00174 $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Lemonade Gummies (H) - 00428",
+    "brand": "Brix",
+    "message": "New: Brix - Mango Lemonade Gummies (H) - 00428 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Mango Puff (I) 00036 1g Vape Cartridge",
+    "brand": "Loud Cannabis",
+    "message": "New: Loud Cannabis - Loud Cannabis Mango Puff (I) 00036 1g Vape Cartridge $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ko'Zeto Infused Pre-Rolls H 00830",
+    "brand": "Affinity",
+    "message": "New: Affinity - Ko'Zeto Infused Pre-Rolls H 00830 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz Flower (I) - 26746",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Jokerz Flower (I) - 26746 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Inc.edibles 20 Pack Fast Acting Sour Cherry Tart Gummies 01005",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Inc.edibles 20 Pack Fast Acting Sour Cherry Tart Gummies 01005 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke 14g - 41472",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke 14g - 41472 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke 0.5g BHO Slim Bar I 00786",
+    "brand": "Affinity",
+    "message": "New: Affinity - Ice Cream Cke 0.5g BHO Slim Bar I 00786 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hazy Fields Bold Vape (S) - 26676",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Hazy Fields Bold Vape (S) - 26676 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding Infused Party Pack (I) - 41777",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding Infused Party Pack (I) - 41777 $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HYPHEN Super Jack 1g Pod",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - HYPHEN Super Jack 1g Pod $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HYPHEN Spacedawg 1g Pod",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - HYPHEN Spacedawg 1g Pod $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guap RSO Tangie Crush 50mg",
+    "brand": "Savvy",
+    "message": "New: Savvy - Guap RSO Tangie Crush 50mg $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G (41158)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G (41158) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face PR Minis (H) - 41707",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face PR Minis (H) - 41707 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face 14g (H) - 41637",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face 14g (H) - 41637 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Breath 1g LT Bar S 00807",
+    "brand": "Affinity",
+    "message": "New: Affinity - Gas Breath 1g LT Bar S 00807 $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Full Tank .5g",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Full Tank .5g $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore - Sour Mandarin RSO Gummies 1:1 THC:CBD (I) - 26569",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Encore - Sour Mandarin RSO Gummies 1:1 THC:CBD (I) - 26569 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg Flower H 26439",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg Flower H 26439 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosilato Bold Vape (I) - 26722",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dosilato Bold Vape (I) - 26722 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g Paw Paw (H) 01158",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g Paw Paw (H) 01158 $29.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy 1g Vape Purple Urkel - 00150",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy 1g Vape Purple Urkel - 00150 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy - Type A Flower 3.5g (S) - 00117",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy - Type A Flower 3.5g (S) - 00117 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy - Starstruck Flower 3.5g (H) - 00120",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy - Starstruck Flower 3.5g (H) - 00120 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy 1g LT Bar H 00866",
+    "brand": "Affinity",
+    "message": "New: Affinity - Capy 1g LT Bar H 00866 $52.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours - 10ct Watermelon Spritz - 00376",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours - 10ct Watermelon Spritz - 00376 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours - 10ct Strawberry Sunset - 00365",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours - 10ct Strawberry Sunset - 00365 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours - 10ct Orchard Peach THC:CBD 10:10 - 00361",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours - 10ct Orchard Peach THC:CBD 10:10 - 00361 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours - 10ct Blackberry Dream THC:CBD:CBN 10:10:10 - 00344",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours - 10ct Blackberry Dream THC:CBD:CBN 10:10:10 - 00344 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Watermelon Lemonade - 00343",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Watermelon Lemonade - 00343 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Midnight Blueberry 5:1 THC:CBN - 0364",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Midnight Blueberry 5:1 THC:CBN - 0364 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Freshly Squeezed THC:CBG - 00378",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Freshly Squeezed THC:CBG - 00378 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino - Chill Wild Berry - 0396",
+    "brand": "Camino",
+    "message": "New: Camino - Camino - Chill Wild Berry - 0396 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Ch. GMO (41211)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Ch. GMO (41211) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Pi 14g (S) - 41665",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Berry Pi 14g (S) - 41665 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Ground 7g BBH 00069",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Ground 7g BBH 00069 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro Salted Caramel Squares 10pk 0059",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Astro Salted Caramel Squares 10pk 0059 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss 00009",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid Galaxeats Gummies Blueberry Bliss 00009 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart 7g (H) - 41604",
+    "brand": "all:hours",
+    "message": "New: all:hours - Apple Tart 7g (H) - 41604 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Amethyst Diesel 0.5g 5pk Pre Rolls (I) - 00487",
+    "brand": "Brix",
+    "message": "New: Brix - Amethyst Diesel 0.5g 5pk Pre Rolls (I) - 00487 $22.40"
+  }
+]

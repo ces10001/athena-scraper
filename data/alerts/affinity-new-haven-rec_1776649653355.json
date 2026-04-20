@@ -1,0 +1,692 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Capy Flower Minis T32.04% H 00824 (3.5g)(Affinity Grow)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Flower Minis T32.04% H 00824 (3.5g)(Affinity Grow): $42.00 > $25.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Legacy Series 510 1g Blue Dream (H) 01491 (1g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Legacy Series 510 1g Blue Dream (H) 01491 (1g): $52.80 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Joocy Froot (H) 01351 (2gDisp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g Joocy Froot (H) 01351 (2gDisp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505 (1g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505 (1g Disp): $52.80 > $66.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hippie Crasher Flower T30.09% I 00894 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Hippie Crasher Flower T30.09% I 00894 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208 (20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208 (20pk): $25.60 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple Flower T30.10% I 00856 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Black Maple Flower T30.10% I 00856 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Sundae Slumber (I) 01343 (I)(2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g Sundae Slumber (I) 01343 (I)(2g Disp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Grape Currant 1:1 Gummies I 00879 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Grape Currant 1:1 Gummies I 00879 (20pk): $31.00 > $18.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Blue Dream (H) 01226 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g Blue Dream (H) 01226 (2g Disp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Caddy Rainbow Flower T29.82% I 00923 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Caddy Rainbow Flower T29.82% I 00923 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Blueberry Snap Gummies I 00893 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Blueberry Snap Gummies I 00893 (20pk): $31.00 > $18.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO 1g Big Ray T30.52% I 00914 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow GMO 1g Big Ray T30.52% I 00914 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Cartridge 1g NYC Diesel (H) 01492 (1g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Cartridge 1g NYC Diesel (H) 01492 (1g): $51.20 > $64.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower 7g Sunday Smoothie (S) 01060 TC 27.831% (7g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower 7g Sunday Smoothie (S) 01060 TC 27.831% (7g): $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select X Bites Orange Matter 01375 (20pk) (H)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select X Bites Orange Matter 01375 (20pk) (H): $24.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine Flower T30.88% I 00940 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine Flower T30.88% I 00940 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883 (3.5)(Affinity Grow)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Lemon Skunk Flower T27.43% S 00883 (3.5)(Affinity Grow): $46.00 > $27.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01632 (1g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 1g Golden Tangie (S) 01632 (1g): $52.80 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01598 TC 34.697% (5pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01598 TC 34.697% (5pk): $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Legacy Series Briq 2.0 2g Couch Kush (H) 01536 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Legacy Series Briq 2.0 2g Couch Kush (H) 01536 (2g Disp): $100.00 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series Briq 2.0 2g Sofa Sonata (I) 01576 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series Briq 2.0 2g Sofa Sonata (I) 01576 (2g Disp): $100.00 > $125.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Breath Infused Lil' Ricky's T37.80% H 00917 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow PB Breath Infused Lil' Ricky's T37.80% H 00917 (3pk): $28.00 > $16.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Sour Durban (S) 01278 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g Sour Durban (S) 01278 (2g Disp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hippie Crasher Pre-Rolls T31.38% I 00928 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Hippie Crasher Pre-Rolls T31.38% I 00928 (3pk): $32.00 > $19.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01401 (20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01401 (20pk): $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preroll 5 Pack 2g Singapore Sling (S) 01453 TC 28.743% (5pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preroll 5 Pack 2g Singapore Sling (S) 01453 TC 28.743% (5pk): $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select X Bites Strawberry 01572 (H)(20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select X Bites Strawberry 01572 (H)(20pk): $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01455 (20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01455 (20pk): $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series Briq 2 1g Mango Puff (I) 01570 (1g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series Briq 2 1g Mango Puff (I) 01570 (1g Disp): $52.80 > $66.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dirty Taxi Flower T27.60% S 00782 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Dirty Taxi Flower T27.60% S 00782 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine Lil' Ricky's T25.13% I 00890 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine Lil' Ricky's T25.13% I 00890 (3pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soap #2 Lil' Ricky's T25.18% S 00919 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Soap #2 Lil' Ricky's T25.18% S 00919 (3pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Purple Urkel (I) 01336 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g Purple Urkel (I) 01336 (2g Disp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 1g Mango Puff (I) 01501 (1g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 1g Mango Puff (I) 01501 (1g): $52.80 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower 14g Paw Paw (H) 01696 TC 38.511% (H)(14g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Whole Flower 14g Paw Paw (H) 01696 TC 38.511% (H)(14g): $104.00 > $130.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Cartridge 1g Garlotti (S) 01316 (1g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Cartridge 1g Garlotti (S) 01316 (1g): $51.20 > $64.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series Briq 2.0 2g Banana Cream Cayk (H) 01529 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series Briq 2.0 2g Banana Cream Cayk (H) 01529 (2g Disp): $100.00 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series Briq 2 2g Cherry Pi (S) 01609 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series Briq 2 2g Cherry Pi (S) 01609 (2g Disp): $100.00 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zero Proof Squeeze Dash of Cherry (H) 01599 (40mL)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Zero Proof Squeeze Dash of Cherry (H) 01599 (40mL): $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zero Proof Squeeze Dash of Sweet (H) 01626 (40ml)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Zero Proof Squeeze Dash of Sweet (H) 01626 (40ml): $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower 7g Kandi Jam (S) 01305 TC 26.230% (7g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower 7g Kandi Jam (S) 01305 TC 26.230% (7g): $44.00 > $55.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple Pre-Rolls T28.59% I 00885 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Black Maple Pre-Rolls T28.59% I 00885 (3pk): $32.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream Flower T29.89% I 00810 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream Flower T29.89% I 00810 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Lil' Ricky's T30.03% H 00889 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Lil' Ricky's T30.03% H 00889 (3pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy 1g Big Ray T27.46% H 00906 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy 1g Big Ray T27.46% H 00906 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Infused Lil' Ricky's T44.20% H 00916 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Infused Lil' Ricky's T44.20% H 00916 (3pk): $24.00 > $14.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Tangerine Peach Gummies H 00915 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Tangerine Peach Gummies H 00915 (20pk): $31.00 > $18.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Pineapple Toasted Coconut Gummies S 00929 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Pineapple Toasted Coconut Gummies S 00929 (20pk): $31.00 > $18.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Rainbow Rush Gummies S 00922 (20pk): $31.00 > $18.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Appz Bnnz Flower T25.77% H 00932 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Appz Bnnz Flower T25.77% H 00932 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Dark Heart Collection Preroll 5 Pack 2g Moonbean Latto (H) 01525 TC 25.457% (5pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Dark Heart Collection Preroll 5 Pack 2g Moonbean Latto (H) 01525 TC 25.457% (5pk): $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 14g Raspberry PRFT (S) TC 25.183% 01055 (14g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 14g Raspberry PRFT (S) TC 25.183% 01055 (14g): $88.00 > $110.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Star Killer OG Flower Minis T29.91% I 00828 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Star Killer OG Flower Minis T29.91% I 00828 (3.5g): $42.00 > $25.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Starkiller OG Infused Lil' Ricky's T37.54% I 00904  (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Starkiller OG Infused Lil' Ricky's T37.54% I 00904  (3pk): $28.00 > $16.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tear Gas Infused Lil' Ricky's T31.17% I 00908 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Tear Gas Infused Lil' Ricky's T31.17% I 00908 (3pk): $28.00 > $16.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) 01211 TC 32.401% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g White Hot Guava (H) 01211 TC 32.401% (3.5g): $40.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine Pre-Rolls T26.69% I 00888 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine Pre-Rolls T26.69% I 00888 (3pk): $32.00 > $19.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) TC 29.891% 01115 (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) TC 29.891% 01115 (3.5g): $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 .5g Cherry Pi (S) 01586 (0.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 .5g Cherry Pi (S) 01586 (0.5g): $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775% (1pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775% (1pk): $11.20 > $14.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grinz Infused Lil' Ricky's T36.49% I 00887 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Grinz Infused Lil' Ricky's T36.49% I 00887 (3pk): $28.00 > $16.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Legacy Series Briq 2 1g Sour Z (S) 01565 (1g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Legacy Series Briq 2 1g Sour Z (S) 01565 (1g Disp): $52.80 > $66.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Medellin Flower T29.66% I 00823 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Medellin Flower T29.66% I 00823 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Haze x Block Island Kush 1g Big Ray T20.08% S 00875 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Tropical Haze x Block Island Kush 1g Big Ray T20.08% S 00875 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Soap #2 Flower T24.26% S 00903 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow The Soap #2 Flower T24.26% S 00903 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Lobster Flower T27.07% I 00857 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Blue Lobster Flower T27.07% I 00857 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke Flower T23.49% I 00926 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ice Cream Cke Flower T23.49% I 00926 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower 7g Half Moonana (H) 01166 TC 20.609% (7g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower 7g Half Moonana (H) 01166 TC 20.609% (7g): $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower 7g Agent Z (S) 00791 (7g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower 7g Agent Z (S) 00791 (7g): $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39% (3.5g): $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01364 TC 30.24% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01364 TC 30.24% (3.5g): $40.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Citral Ice Flower Minis T21.74% S 00864 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Citral Ice Flower Minis T21.74% S 00864 (3.5g): $40.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower 3.5g White Caps (I) 01542 TC 37.946% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Whole Flower 3.5g White Caps (I) 01542 TC 37.946% (3.5g): $40.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Endgame Punchline Flower T23.15% I 00737 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Endgame Punchline Flower T23.15% I 00737 (3.5g): $38.00 > $22.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dirty Taxi 1g Big Ray T20.20% S 00882 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Dirty Taxi 1g Big Ray T20.20% S 00882 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Alien OG Infused Lil' Ricky's T40.04% H 00891 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Alien OG Infused Lil' Ricky's T40.04% H 00891 (3pk): $28.00 > $16.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker 0.5g LT Vape T429 I 00821 (0.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Permanent Marker 0.5g LT Vape T429 I 00821 (0.5g): $27.00 > $19.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01521 (20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01521 (20pk): $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Preroll 1g Single Slip (I) 01039 TC 24.70% (1pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Preroll 1g Single Slip (I) 01039 TC 24.70% (1pk): $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Preroll 1g Single PB Bites (S) 01434 TC 19.699% (1g)(S)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Preroll 1g Single PB Bites (S) 01434 TC 19.699% (1g)(S): $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select X Bites Raspberry Orange Lime 00842(H)(20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select X Bites Raspberry Orange Lime 00842(H)(20pk): $24.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "M.O.B. Lil' Ricky's T21.61% I 00918 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow M.O.B. Lil' Ricky's T21.61% I 00918 (3pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preroll 1g Single Ched R Cheez (I) 01362 TC 27.170% (1pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preroll 1g Single Ched R Cheez (I) 01362 TC 27.170% (1pk): $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Triple X 0.5G LT Vape T400 I 00878 (0.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Triple X 0.5G LT Vape T400 I 00878 (0.5g): $23.40 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Superboo 1g Big Ray T21.93% H 00765 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Superboo 1g Big Ray T21.93% H 00765 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream Flower T28.06% I 00801 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream Flower T28.06% I 00801 (3.5g): $46.00 > $27.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Star Killer x CDLC 1g Big Ray T18.65% I 00858 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Star Killer x CDLC 1g Big Ray T18.65% I 00858 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Solo Burger Flower T27.58% I 00907 (3.5g)(I)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Solo Burger Flower T27.58% I 00907 (3.5g)(I): $46.00 > $27.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Legacy Series Briq 2 1g Moonburst (H) 01589 (1g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Legacy Series Briq 2 1g Moonburst (H) 01589 (1g Disp): $52.80 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 .5g Sofa Sonata (I) 01556 (0.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 .5g Sofa Sonata (I) 01556 (0.5g): $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 .5g Joocy Froot (H) 01614 (0.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 .5g Joocy Froot (H) 01614 (0.5g): $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g GMO (H) 01335 (2g Disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite Briq All In One Disposable Vape 2g GMO (H) 01335 (2g Disp): $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite All In One .3g Tahoe OG (I) 01319 (0.3g disp)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Elite All In One .3g Tahoe OG (I) 01319 (0.3g disp): $28.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ori Flower T22.78% I 00924 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ori Flower T22.78% I 00924 (3.5g): $36.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "MF-107 Flower T27.83% S 00837 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow MF-107 Flower T27.83% S 00837 (3.5g): $46.00 > $27.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Kronic 47 1g Big Ray T23.03% S 00933 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Kronic 47 1g Big Ray T23.03% S 00933 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Fast Acting Jellies Sour Green Apple (H) 01157 (20pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Green Apple (H) 01157 (20pk): $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower 28g Nuclear Mfns (H) 01497 TC 24.222% (H)(28g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Whole Flower 28g Nuclear Mfns (H) 01497 TC 24.222% (H)(28g): $160.00 > $200.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower 28g Lunar Diesel (H) 01541 TC 31.527% (H)(28g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Whole Flower 28g Lunar Diesel (H) 01541 TC 31.527% (H)(28g): $192.00 > $240.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GG4 LOTO Flower T24.66% I 00934 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow GG4 LOTO Flower T24.66% I 00934 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower 14g Tropical Heatwave (H) 01655 TC 31.998% (14g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower 14g Tropical Heatwave (H) 01655 TC 31.998% (14g): $104.00 > $130.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 3.5g Nuclear MFNS (H) 01044 TC 26.275% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Nuclear MFNS (H) 01044 TC 26.275% (3.5g): $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 3.5g Jayna's Sunshine (H) 01315 TC 33.734% (3.5g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Jayna's Sunshine (H) 01315 TC 33.734% (3.5g): $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 28g Pomme Jelly (S) 01173 TC 24.667% (28g)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 28g Pomme Jelly (S) 01173 TC 24.667% (28g): $160.00 > $200.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904 (14g)(I)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904 (14g)(I): $88.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Slip (I) TC 18.072% 00827 (5pk)",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Preroll 5 Pack 2g Slip (I) TC 18.072% 00827 (5pk): $27.20 > $34.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coconut Milk Flower T29.49% H 00794 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Coconut Milk Flower T29.49% H 00794 (3.5g): $48.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Roll Flower T23.46% I 00831 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chem Roll Flower T23.46% I 00831 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Roll 1g Big Ray T22.63% I 00863 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chem Roll 1g Big Ray T22.63% I 00863 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Ox 1g Big Ray T20.89% I 00862 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chem Ox 1g Big Ray T20.89% I 00862 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheese 1g Big Ray T24.38% I 00849 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Cheese 1g Big Ray T24.38% I 00849 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Fritter Flower T23.93% I 00912 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Apple Fritter Flower T23.93% I 00912 (3.5g): $45.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "501st 1g Big Ray T18.93% I 00876 (1pk)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow 501st 1g Big Ray T18.93% I 00876 (1pk): $16.00 > $9.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "M.O.B. Flower Minis T22.88% I 00880 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - M.O.B. Flower Minis T22.88% I 00880 (3.5g)"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "Hybrid flower\n\nBRIX Cannabis",
+    "message": "Hybrid flower\n\nBRIX Cannabis Govmint Oasis (H) Flower: $31.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "New: Hybrid flower\n\nall:hours - Mule Fuel (H) Flower $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Back Porch (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "New: Hybrid flower\n\nFind - Back Porch (H) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "New: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nGood Green",
+    "message": "New: OFF\n\nIndica flower\n\nGood Green - Bubba F (I) Flower $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Kandi Jam (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind Kandi Jam (S) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "New: Indica flower\n\nall:hours - Hash Burger (I) part:timers Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "New: Hybrid flower\n\nTheraplant - Carbon FBR (H) Flower $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Kush Cake (I) Flower",
+    "brand": "OFF\n\nIndica flower\n\nLet's Burn",
+    "message": "New: OFF\n\nIndica flower\n\nLet's Burn - CT Kush Cake (I) Flower $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nLet's Burn",
+    "message": "New: OFF\n\nHybrid flower\n\nLet's Burn - Mule Fuel (H) Flower $33.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlic Icing (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "New: Indica flower\n\nAffinity Grow - Garlic Icing (I) Flower $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hippie Crasher (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "New: Indica flower\n\nAffinity Grow - Hippie Crasher (I) Flower $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Indica flower\n\nLil Budz",
+    "message": "New: Indica flower\n\nLil Budz - Purple Milk (I) Smalls $50.00"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Diesel Bites Pre-Roll",
+    "brand": "FIND.",
+    "message": "New: FIND. - Diesel Bites Pre-Roll $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisGush Mintz Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisGush Mintz Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CannabisChemdawg Chem 91 Pre-Roll",
+    "brand": "Brix",
+    "message": "New: Brix - CannabisChemdawg Chem 91 Pre-Roll $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaGMO Shorties",
+    "brand": "CT",
+    "message": "New: CT - PharmaGMO Shorties $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto Pre-Roll Minis",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Moonbeam Latto Pre-Roll Minis $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Infused Shorties",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake Infused Shorties $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Regina Gorgeous Shorties",
+    "brand": "AGL",
+    "message": "New: AGL - Regina Gorgeous Shorties $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz Pre-Roll",
+    "brand": "FIND.",
+    "message": "New: FIND. - Bulbz Pre-Roll $9.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ched R Cheez Pre-Roll",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Ched R Cheez Pre-Roll $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heart CollectionDelphi Diesel Shorties",
+    "brand": "Dark",
+    "message": "New: Dark - Heart CollectionDelphi Diesel Shorties $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake Infused Pre-Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cake Infused Pre-Roll $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice Cartridge $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ViewCitrus Punch Live Resin Disposable",
+    "brand": "Sound",
+    "message": "New: Sound - ViewCitrus Punch Live Resin Disposable $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BreakPineapple Expression Rechargable Disposable",
+    "brand": "Lucky",
+    "message": "Gone: Lucky - BreakPineapple Expression Rechargable Disposable"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice Disposable",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice Disposable"
+  }
+]
