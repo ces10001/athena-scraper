@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blue Sherb Live Resin AIO 1g T747 H 26749",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Sherb Live Resin AIO 1g T747 H 26749 $32.23"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ForeverBerry 2g Fatboy 41681",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - ForeverBerry 2g Fatboy 41681 $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Sour Mandarin RSO Gummies T95.4mg C106.6mg I 26744",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Sour Mandarin RSO Gummies T95.4mg C106.6mg I 26744"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads Flower H 26778",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads Flower H 26778"
+  }
+]

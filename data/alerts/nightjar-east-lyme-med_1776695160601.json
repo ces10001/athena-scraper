@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Vape | Essence Hyphen | Juice OG 1g | 26720",
+    "brand": "Hyphen",
+    "message": "Gone: Hyphen - Vape | Essence Hyphen | Juice OG 1g | 26720"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Topical | Mend 1:1 Cooling Body Balm MED | 26274",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Topical | Mend 1:1 Cooling Body Balm MED | 26274"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | True OG 14g | 00904",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Flower | True OG 14g | 00904"
+  }
+]

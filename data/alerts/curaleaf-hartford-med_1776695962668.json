@@ -1,0 +1,50 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "Select NYC Diesel: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "Select GASolotti 95: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "Select Garlotti: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Select Old School Blue: $42.25 > $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - CT Rainbows $8.40"
+  }
+]

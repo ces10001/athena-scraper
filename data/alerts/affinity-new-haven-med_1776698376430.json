@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075 (H)(2.4oz)",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch Lucky Elixir 0075 (H)(2.4oz): $35.00 > $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours 10G's Hash Nugs 41760 (H) (3.5g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - all:hours 10G's Hash Nugs 41760 (H) (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO 7g 41651 (H) (7g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO 7g 41651 (H) (7g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dirty Taxi Flower T27.60% S 00782 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Dirty Taxi Flower T27.60% S 00782 (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Grape Currant 1:1 Gummies I 00879 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Chew RSO Grape Currant 1:1 Gummies I 00879 (20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rodeo Sun Grown Summer L. (S) 3.5g Flower (C0070000318) (3.5g)",
+    "brand": "Rodeo Cannabis Co",
+    "message": "Gone: Rodeo Cannabis Co - Rodeo Sun Grown Summer L. (S) 3.5g Flower (C0070000318) (3.5g)"
+  }
+]

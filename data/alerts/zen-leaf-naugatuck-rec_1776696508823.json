@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "PharmaBlue Andeze Pre-Roll",
+    "brand": "CT",
+    "message": "New: CT - PharmaBlue Andeze Pre-Roll $21.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaDiesel Train Pre-Roll",
+    "brand": "CT",
+    "message": "New: CT - PharmaDiesel Train Pre-Roll $21.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PharmaSunny Stomper",
+    "brand": "CT",
+    "message": "New: CT - PharmaSunny Stomper $34.12"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaLemon Cherry Sherb Pre-Roll",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaLemon Cherry Sherb Pre-Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaThe Soap",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaThe Soap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PharmaGlitter Bomb",
+    "brand": "CT",
+    "message": "Gone: CT - PharmaGlitter Bomb"
+  }
+]

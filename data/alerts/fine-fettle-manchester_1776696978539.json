@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Drip (S) Flower",
+    "brand": "Sativa flower\n\nSponsored\n\nRythm",
+    "message": "Sativa flower\n\nSponsored\n\nRythm Lemon Drip (S) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Indica flower\n\nSponsored\n\nRythm Cheddar Cheeze (I) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afternoon Delight #4 (H) Flower",
+    "brand": "Hybrid Flower\n\nHybrid flower\n\nSponsored\n\nRythm",
+    "message": "New: Hybrid Flower\n\nHybrid flower\n\nSponsored\n\nRythm - Afternoon Delight #4 (H) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nCTPharma",
+    "message": "New: Indica flower\n\nSponsored\n\nCTPharma - Gush Mintz (I) Flower $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Tropical Heatwave (H) Flower: $79.00 > $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "New: Hybrid flower\n\nFind - Gas Lit (H) Flower $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Muffin Grease (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Muffin Grease (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "New: Sativa flower\n\nCuraleaf - Raspberry PRFT (S) Flower $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Indica flower\n\nLil Budz",
+    "message": "Indica flower\n\nLil Budz Purple Milk (I) Smalls: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "Indica flower\n\nall:hours",
+    "message": "New: Indica flower\n\nall:hours - Hash Burger (I) part:timers Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Paw Paw (H) Flower: $79.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pineapple Sunrise (S) Flower",
+    "brand": "Sativa flower\n\nGrassroots",
+    "message": "Sativa flower\n\nGrassroots Pineapple Sunrise (S) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots Astro GMO (I) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bad Decisions (H) Flower",
+    "brand": "OZ\n\nHybrid flower\n\nEarl Baker",
+    "message": "OZ\n\nHybrid flower\n\nEarl Baker Bad Decisions (H) Flower: $27.30 > $30.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "New: Indica flower\n\nGood Green - Bubba F (I) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gee Forcez (I) Flower",
+    "brand": "OZ\n\nIndica flower\n\nEarl Baker",
+    "message": "OZ\n\nIndica flower\n\nEarl Baker Gee Forcez (I) Flower: $35.70 > $40.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling (S) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling (S) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "New: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower $160.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "New: Sativa flower\n\nCuraleaf - Orange Z (S) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "New: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "H4G-S-9 (S) Flower",
+    "brand": "Sativa flower\n\nSpringtime",
+    "message": "Gone: Sativa flower\n\nSpringtime - H4G-S-9 (S) Flower"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "Hybrid flower\n\nTheraplant",
+    "message": "Hybrid flower\n\nTheraplant Gas Face (H) Flower: $92.25 > $140.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Indica flower\n\nLil Budz",
+    "message": "Indica flower\n\nLil Budz Purple Milk (I) Smalls: $35.20 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Tropical Heatwave (H) Flower: $63.20 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Paw Paw (H) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Forest Reserve (H) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "Indica flower\n\nCuraleaf",
+    "message": "Indica flower\n\nCuraleaf Triple Stack (I) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Hybrid flower\n\nGood Green Bananaconda (H) Flower: $24.80 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Indica flower\n\nGood Green",
+    "message": "Indica flower\n\nGood Green Bubba F (I) Flower: $24.80 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf White Hot Guava (H) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Maple (I) Flower",
+    "brand": "Indica flower\n\nAffinity Grow",
+    "message": "Indica flower\n\nAffinity Grow Black Maple (I) Flower: $27.20 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Caps (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots White Caps (I) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Hybrid flower\n\nGood Green Slapz (H) Flower: $24.80 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Orange Z (S) Flower: $63.20 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "Hybrid flower\n\nall:hours 10G's (H) part:timers Flower: $30.75 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry PRFT (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Raspberry PRFT (S) Flower: $63.20 > $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "New: Hybrid flower\n\nLil Budz - Chem D (H) Smalls $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "New: Hybrid flower\n\nLil Budz - Chem D (H) Smalls $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake (I) Flower",
+    "brand": "Indica flower\n\nTheraplant",
+    "message": "Gone: Indica flower\n\nTheraplant - Wedding Cake (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Gone: Hybrid flower\n\nGrassroots - Nuclear Mfns (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Gone: Indica flower\n\nGrassroots - Triple Stack (I) Flower"
+  }
+]

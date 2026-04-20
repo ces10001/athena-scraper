@@ -1,25 +1,5 @@
 [
   {
-    "external_id": "sweed-485648",
-    "name": "PharmaScout Breath Pre-Roll",
-    "brand": "CT",
-    "category": "pre-rolls",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 1927,
-    "original_price_cents": 2570,
-    "weight_label": "2g",
-    "weight_grams": 2,
-    "unit_price_per_gram": 964,
-    "thc_pct": 30.01,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "25% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-485276",
     "name": "PharmaDurban Stardawg Pre-Roll",
     "brand": "CT",
@@ -456,6 +436,26 @@
     "in_stock": true,
     "on_sale": true,
     "deal_description": "Sale",
+    "image_url": null,
+    "product_url": null
+  },
+  {
+    "external_id": "sweed-518001",
+    "name": "PharmaGush Mintz Infused Pre-Roll",
+    "brand": "CT",
+    "category": "infused-pre-rolls",
+    "subcategory": null,
+    "strain_type": null,
+    "price_cents": 3412,
+    "original_price_cents": 4550,
+    "weight_label": "2g",
+    "weight_grams": 2,
+    "unit_price_per_gram": 1706,
+    "thc_pct": 50.31,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": true,
+    "deal_description": "25% Off",
     "image_url": null,
     "product_url": null
   }

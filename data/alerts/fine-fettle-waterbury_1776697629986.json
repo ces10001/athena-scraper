@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Golden Hour (H) Flower",
+    "brand": "OFF\n\nHybrid flower\n\nComffy",
+    "message": "New: OFF\n\nHybrid flower\n\nComffy - Golden Hour (H) Flower $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff (H) Smalls",
+    "brand": "Hybrid flower\n\nLil Budz",
+    "message": "New: Hybrid flower\n\nLil Budz - Super Buff (H) Smalls $50.00"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Ridgeline Lantz Whole Flower",
+    "brand": "Cookies",
+    "message": "New: Cookies - Ridgeline Lantz Whole Flower $46.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BurnCT Kush Cake Whole Flower",
+    "brand": "Let's",
+    "message": "Gone: Let's - BurnCT Kush Cake Whole Flower"
+  }
+]

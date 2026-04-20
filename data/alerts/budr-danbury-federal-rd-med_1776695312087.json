@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $68.00 > $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFIndicaLighthouse-Wedding Cake Live Resin-(I)",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFIndicaLighthouse-Wedding Cake Live Resin-(I)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFHybridLighthouse-Blue Dream Live Resin-(H)-5",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFHybridLighthouse-Blue Dream Live Resin-(H)-5"
+  }
+]

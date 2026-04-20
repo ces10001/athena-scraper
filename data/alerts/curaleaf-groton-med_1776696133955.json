@@ -1,0 +1,104 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "Select Banana Cream Cayk: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "Select Sour Z: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "Select GASolotti 95: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "Select NYC Diesel: $42.25 > $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Triple Stack $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "Select Golden Tangie: $42.25 > $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School OG",
+    "brand": "Select",
+    "message": "New: Select - Old School OG $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit",
+    "brand": "SoundView",
+    "message": "New: SoundView - Forbidden Fruit $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "New: Find. - PB Bites $46.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $42.25 > $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Inkowgnito Mode",
+    "brand": "Brix",
+    "message": "New: Brix - Inkowgnito Mode $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MF-107",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - MF-107 $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "Select Garlotti: $42.25 > $29.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Select Old School Blue: $42.25 > $29.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosi-Punch",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dosi-Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon"
+  }
+]

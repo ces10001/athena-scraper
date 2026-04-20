@@ -1,0 +1,98 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Whole Flower Mac Stomper (S) 00316",
+    "brand": "Brix",
+    "message": "New: Brix - Brix Cannabis Whole Flower Mac Stomper (S) 00316 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392 $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Fritter Flower T23.93% H 00912",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Apple Fritter Flower T23.93% H 00912 $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Slapz (H) 01371",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Slapz (H) 01371 $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen B Scout x LA Kush CKE (I) 01396",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen B Scout x LA Kush CKE (I) 01396 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Taffy Twist x Bubba F (I) 01291",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen Taffy Twist x Bubba F (I) 01291 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MF-107 Flower T27.83% S 00837",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - MF-107 Flower T27.83% S 00837 $27.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Pen Animal Face (I) 01424",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 1g LEAF Pen Animal Face (I) 01424 $38.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Do Not Trip (H) 01284",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 14g Do Not Trip (H) 01284 $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Black Maple 22 (I) 01332",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 14g Black Maple 22 (I) 01332 $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 1g Big Dog Animal Face (I) 01423",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Dogwalkers 1g Big Dog Animal Face (I) 01423 $10.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Regina Gorgeous (H) 01416",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen Regina Gorgeous (H) 01416 $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Bubba F (I) 01387",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Bubba F (I) 01387 $5.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Bananaconda (H) 01404",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Bananaconda (H) 01404 $7.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 5 Pack 2g Singapore Sling (S) 01453 TC 28.743%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 5 Pack 2g Singapore Sling (S) 01453 TC 28.743%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Cartridge .5g Purple Urkel (I) 01294",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Cartridge .5g Purple Urkel (I) 01294"
+  }
+]

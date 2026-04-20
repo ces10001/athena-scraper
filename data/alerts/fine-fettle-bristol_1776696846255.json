@@ -1,0 +1,128 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Animal Scout #10 (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nRythm",
+    "message": "Indica flower\n\nSponsored\n\nRythm Animal Scout #10 (I) Flower: $35.20 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "Indica flower\n\nSponsored\n\nCTPharma",
+    "message": "New: Indica flower\n\nSponsored\n\nCTPharma - Gush Mintz (I) Flower $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Moonbeam Latto (H) Flower: $17.60 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind PB Bites (S) Flower: $17.60 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Hybrid flower\n\nCuraleaf",
+    "message": "Hybrid flower\n\nCuraleaf Nuclear Mfns (H) Flower: $17.60 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots Zesty Garlic Kookyz (I) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Triple Stack (I) Flower",
+    "brand": "Indica flower\n\nGrassroots",
+    "message": "Indica flower\n\nGrassroots Triple Stack (I) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "Hybrid flower\n\nFind Forest Reserve (H) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "Hybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $20.80 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "New: Sativa flower\n\nGood Green - Chkn n WflZ (S) Flower $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "New: Hybrid flower\n\nGood Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Hybrid flower\n\nFind",
+    "message": "New: Hybrid flower\n\nFind - Gas Lit (H) Flower $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Sativa flower\n\nFind",
+    "message": "Sativa flower\n\nFind PB Bites (S) Flower: $35.20 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Sativa flower\n\nGood Green",
+    "message": "Sativa flower\n\nGood Green Chkn n WflZ (S) Flower: $24.80 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Hybrid flower\n\nShaka",
+    "message": "Hybrid flower\n\nShaka BLB (H) Flower: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Sativa flower\n\nCuraleaf",
+    "message": "Sativa flower\n\nCuraleaf Orange Z (S) Flower: $63.20 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apes In Space (I) Flower",
+    "brand": "Indica flower\n\nCuraleaf",
+    "message": "Indica flower\n\nCuraleaf Apes In Space (I) Flower: $63.20 > $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lunar Diesel (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Lunar Diesel (H) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "Hybrid flower\n\nall:hours",
+    "message": "New: Hybrid flower\n\nall:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Hybrid flower\n\nGrassroots",
+    "message": "New: Hybrid flower\n\nGrassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Flower\n\nSponsored\n\nTheraplant\n\nHybrid flower\n\nTheraplant",
+    "message": "Gone: Flower\n\nSponsored\n\nTheraplant\n\nHybrid flower\n\nTheraplant - Black Cherry GMO (H) Flower"
+  }
+]
