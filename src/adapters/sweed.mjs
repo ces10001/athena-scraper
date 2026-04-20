@@ -116,6 +116,126 @@ async function extractProductsFromPage(pageOrFrame) {
   });
 }
 
+/* ═══════════════════════════════════════
+   TEXT-BASED FALLBACK PARSER
+   Used when link-based extraction fails (Zen Leaf, etc.)
+   Splits page text by "Add to Cart" to find product blocks
+   ═══════════════════════════════════════ */
+function parseTextProducts(text) {
+  var products = [];
+  var seen = {};
+  var blocks = text.split('Add to Cart');
+
+  for (var i = 0; i < blocks.length; i++) {
+    var block = blocks[i].trim();
+    if (block.length < 10) continue;
+
+    // Take the last portion of each block (product info sits right before the button)
+    if (block.length > 400) block = block.substring(block.length - 400);
+
+    // Skip non-product blocks
+    if (block.includes('Gift Card') || block.includes('gift card')) continue;
+    if (block.includes('Dispensary Menu') && !block.includes('$')) continue;
+
+    var strainMatch = block.match(/\b(Sativa|Indica|Hybrid)\b/i);
+    var strain = strainMatch ? strainMatch[1].toLowerCase() : null;
+
+    var thcMatch = block.match(/THC:\s*(\d+\.?\d*)%?/i) || block.match(/THC\s*(\d+\.?\d*)\s*MG/i);
+    var cbdMatch = block.match(/CBD:\s*(\d+\.?\d*)%?/i) || block.match(/CBD\s*(\d+\.?\d*)\s*MG/i);
+
+    // Extract prices
+    var prices = block.match(/\$(\d+\.?\d*)/g) || [];
+    if (prices.length === 0) continue;
+
+    var salePrice = null;
+    var originalPrice = null;
+    var discountMatch = block.match(/(\d+)%\s*OFF/i);
+
+    if (prices.length >= 2) {
+      var p1 = parseFloat(prices[0].replace('$', ''));
+      var p2 = parseFloat(prices[1].replace('$', ''));
+      if (p1 < p2) { salePrice = p1; originalPrice = p2; }
+      else if (p2 < p1) { salePrice = p2; originalPrice = p1; }
+      else { salePrice = p1; }
+    } else {
+      salePrice = parseFloat(prices[0].replace('$', ''));
+    }
+
+    if (!salePrice || salePrice <= 0 || salePrice > 500) continue;
+
+    // Extract brand — pattern: "Category by BrandName" or "BrandName\nCategory by BrandName"
+    var brand = '';
+    var brandMatch = block.match(/by\s+([A-Za-z][A-Za-z\s.!'&]+?)(?=\n|THC|CBD|\$)/i);
+    if (brandMatch) brand = brandMatch[1].trim();
+
+    // Extract product name — after brand line, before THC/price
+    var name = '';
+    var lines = block.split('\n').map(function(l) { return l.trim(); }).filter(function(l) { return l.length > 0; });
+
+    // Find the product name line (usually after brand, before THC/weight/price)
+    for (var li = 0; li < lines.length; li++) {
+      var line = lines[li];
+      // Skip strain type, category, brand, price, discount, stock lines
+      if (/^(Sativa|Indica|Hybrid|SALE|Deals|Only \d|from \$|\$|THC|CBD|\d+%|View all|Featured)/.test(line)) continue;
+      if (/by\s+\w/.test(line)) continue;
+      if (/^\d+\s*(g|mg|ml|pk|Cartridge|Disposable|Gummy)/.test(line)) continue;
+      if (/^(Flower|Vape|Edible|Pre-Roll|Concentrate|Tincture|Topical|Accessor)/.test(line) && line.length < 20) continue;
+      // This might be the product name
+      if (line.length >= 3 && line.length <= 80 && !name) {
+        name = line;
+      }
+    }
+
+    if (!name || name.length < 2) continue;
+    name = name.substring(0, 80);
+
+    // Determine category from block text
+    var category = 'other';
+    var catPatterns = [
+      [/\bFlower\b/i, 'flower'],
+      [/\bGround Flower\b/i, 'flower'],
+      [/\bPre.?Roll/i, 'pre-rolls'],
+      [/\bInfused Pre.?Roll/i, 'pre-rolls'],
+      [/\bVape|Cartridge|Cart|Disposable\b/i, 'vaporizers'],
+      [/\bEdible|Gummy|Gummies|Chocolate|Seltzer|Beverage\b/i, 'edible'],
+      [/\bConcentrate|Rosin|Resin|Wax|Badder|Shatter\b/i, 'concentrate'],
+      [/\bTincture|Oil|Drops\b/i, 'tincture'],
+      [/\bTopical|Balm|Cream\b/i, 'topical'],
+    ];
+    for (var cp = 0; cp < catPatterns.length; cp++) {
+      if (catPatterns[cp][0].test(block)) { category = catPatterns[cp][1]; break; }
+    }
+
+    // Extract weight
+    var weightMatch = block.match(/\b(\d+\.?\d*)\s*g\s+(?:Cartridge|Disposable|Cart)/i) ||
+                      block.match(/\b(\d+\.?\d*)g\b/i) ||
+                      block.match(/\b(\d+)\s*mg\b/i) ||
+                      block.match(/(\d+)\s*(?:pk|pack)\b/i);
+    var weight = weightMatch ? weightMatch[0].trim() : null;
+
+    // Create unique ID from name + price
+    var externalId = 'sweed-text-' + (name + salePrice).replace(/[^a-z0-9]/gi, '').substring(0, 25);
+    if (seen[externalId]) continue;
+    seen[externalId] = true;
+
+    products.push({
+      external_id: externalId,
+      name: name,
+      brand: brand,
+      category: category,
+      strain_type: strain,
+      thc_pct: thcMatch ? parseFloat(thcMatch[1]) : null,
+      cbd_pct: cbdMatch ? parseFloat(cbdMatch[1]) : null,
+      price: salePrice,
+      original_price: (originalPrice && originalPrice > salePrice) ? originalPrice : null,
+      weight_label: weight,
+      deal_description: discountMatch ? discountMatch[1] + '% Off' : (originalPrice ? 'Sale' : null),
+    });
+  }
+
+  return products;
+}
+
 function normalizeSweedProduct(raw) {
   var normalized = normalizeProduct({
     external_id: raw.external_id,
@@ -163,11 +283,10 @@ async function getTargetFrame(page) {
   return page;
 }
 
-async function expandAllProducts(page) {
-  // Click "View all" buttons to expand product lists (HC and similar)
-  // Also click "Show more" buttons for additional content
+async function expandAllProducts(target) {
+  // Click "View all" and "Show more" buttons to expand product lists (HC and similar)
   try {
-    var clicked = await page.evaluate(function() {
+    var clicked = await target.evaluate(function() {
       var count = 0;
       var buttons = document.querySelectorAll('button');
       for (var i = 0; i < buttons.length; i++) {
@@ -183,6 +302,36 @@ async function expandAllProducts(page) {
       console.log('  [sweed] Clicked ' + clicked + ' expand buttons');
     }
   } catch (e) {}
+}
+
+async function extractWithTextFallback(targetFrame, page) {
+  // Step 1: Try normal link-based extraction
+  var result = await extractProductsFromPage(targetFrame);
+  var products = result.products || [];
+  var maxPage = result.maxPage || 1;
+
+  // Step 2: If link-based got < 10 products, try text-based fallback
+  if (products.length < 10) {
+    console.log('  [sweed] Link parser found only ' + products.length + ' products, trying text fallback...');
+    try {
+      var text = await targetFrame.evaluate(function() {
+        return document.body ? document.body.innerText : '';
+      });
+      var addToCartCount = (text.match(/Add to Cart/g) || []).length;
+      if (addToCartCount > 0) {
+        console.log('  [sweed] Found ' + addToCartCount + ' "Add to Cart" blocks');
+        var textProducts = parseTextProducts(text);
+        console.log('  [sweed] Text parser extracted: ' + textProducts.length + ' products');
+        if (textProducts.length > products.length) {
+          products = textProducts;
+        }
+      }
+    } catch (e) {
+      console.warn('  [sweed] Text fallback failed: ' + e.message);
+    }
+  }
+
+  return { products: products, maxPage: maxPage };
 }
 
 export async function scrapeSweed(dispensary) {
@@ -235,7 +384,8 @@ export async function scrapeSweed(dispensary) {
         await expandAllProducts(targetFrame);
         await page.waitForTimeout(2000);
 
-        var firstResult = await extractProductsFromPage(targetFrame);
+        // Extract products (with text fallback for Zen Leaf)
+        var firstResult = await extractWithTextFallback(targetFrame, page);
         var maxPage = firstResult.maxPage || 1;
         var pageProducts = firstResult.products || [];
 
@@ -269,7 +419,7 @@ export async function scrapeSweed(dispensary) {
                 await nextPage.waitForTimeout(1000);
               } catch (e) {}
 
-              var pgResult = await extractProductsFromPage(nextTarget);
+              var pgResult = await extractWithTextFallback(nextTarget, nextPage);
               for (var pp = 0; pp < pgResult.products.length; pp++) {
                 var pid = pgResult.products[pp].external_id;
                 if (!allProducts.has(pid)) allProducts.set(pid, pgResult.products[pp]);
