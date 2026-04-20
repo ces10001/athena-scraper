@@ -176,12 +176,23 @@ const DISP_INFO = {
   'affinity-dispensary': { name: 'Affinity - Bridgeport', city: 'Bridgeport' },
   'affinity-dispensary-rec': { name: 'Affinity - Bridgeport (Rec)', city: 'Bridgeport' },
   'affinity-dispensary-med': { name: 'Affinity - Bridgeport (Med)', city: 'Bridgeport' },
+  'affinity-bridgeport': { name: 'Affinity - Bridgeport', city: 'Bridgeport' },
+  'affinity-bridgeport-rec': { name: 'Affinity - Bridgeport (Rec)', city: 'Bridgeport' },
+  'affinity-bridgeport-med': { name: 'Affinity - Bridgeport (Med)', city: 'Bridgeport' },
   'affinity-new-haven-med': { name: 'Affinity - New Haven (Med)', city: 'New Haven' },
   'affinity-new-haven-rec': { name: 'Affinity - New Haven (Rec)', city: 'New Haven' },
 };
 
+// Map old result file slugs to new canonical slugs (when config names changed)
+const SLUG_REMAP = {
+  'affinity-dispensary': 'affinity-bridgeport',
+  'affinity-dispensary-rec': 'affinity-bridgeport-rec',
+  'affinity-dispensary-med': 'affinity-bridgeport-med',
+};
+
 function getDispInfo(slug) {
-  if (DISP_INFO[slug]) return DISP_INFO[slug];
+  var canonical = SLUG_REMAP[slug] || slug;
+  if (DISP_INFO[canonical]) return DISP_INFO[canonical];
   return { name: slug.replace(/-+/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), city: 'CT' };
 }
 
@@ -339,21 +350,29 @@ async function main() {
   var files = (await readdir(RESULTS_DIR)).filter(f => f.endsWith('.json'));
   if (files.length === 0) { console.error('No result files'); process.exit(1); }
 
-  // ═══ DEDUP: Skip old parent files when rec/med split versions exist ═══
+  // ═══ DEDUP: Skip old parent files + old-named remapped files ═══
   var fileSet = new Set(files.map(f => f.replace('.json', '')));
   var skippedOld = [];
   files = files.filter(function(f) {
     var slug = f.replace('.json', '');
-    // If this slug has -rec or -med siblings, skip the parent
+    // Rule 1: Skip parent files when rec/med split versions exist
     if (!slug.endsWith('-rec') && !slug.endsWith('-med')) {
       if (fileSet.has(slug + '-rec') || fileSet.has(slug + '-med')) {
         skippedOld.push(slug);
         return false;
       }
     }
+    // Rule 2: Skip old-named files when remapped new-named files exist
+    if (SLUG_REMAP[slug]) {
+      var newSlug = SLUG_REMAP[slug];
+      if (fileSet.has(newSlug)) {
+        skippedOld.push(slug + ' → ' + newSlug);
+        return false;
+      }
+    }
     return true;
   });
-  if (skippedOld.length > 0) console.log('Skipped ' + skippedOld.length + ' old parent files (replaced by rec/med split): ' + skippedOld.join(', '));
+  if (skippedOld.length > 0) console.log('Skipped ' + skippedOld.length + ' old/duplicate files: ' + skippedOld.join(', '));
 
   console.log('Processing ' + files.length + ' dispensary files');
 
