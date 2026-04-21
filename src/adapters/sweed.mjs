@@ -333,7 +333,7 @@ export async function scrapeSweed(dispensary) {
         var hydration = await tryHydrationExtraction(page);
         
         // If no hydration on homepage, try appending /menu for "All Products" page (HC pattern)
-        if (!hydration && !menuUrl.endsWith('/menu')) {
+        if (!hydration) {
           var allProductsUrl = menuUrl.replace(/\/?$/, '') + '/menu';
           console.log('  [sweed] No hydration on homepage, trying All Products: ' + allProductsUrl);
           await page.goto(allProductsUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
