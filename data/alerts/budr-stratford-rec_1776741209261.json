@@ -1,0 +1,182 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "null @import\"https://fonts.googleapis.com/css2?family=Source+Sans: $39.10 > $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG",
+    "brand": null,
+    "message": "New: null - SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 2 leftIndicaAGL 1g Pre Roll Bubba F (I) 01387Advanced G",
+    "brand": null,
+    "message": "New: null - Only 2 leftIndicaAGL 1g Pre Roll Bubba F (I) 01387Advanced G $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMCartri",
+    "brand": null,
+    "message": "New: null - HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMCartri $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A",
+    "brand": null,
+    "message": "New: null - HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cash backSativaLighthouse-Laughing Buddha Live Resin-(S)-Bar",
+    "brand": null,
+    "message": "New: null - Cash backSativaLighthouse-Laughing Buddha Live Resin-(S)-Bar $68.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Lab",
+    "brand": null,
+    "message": "New: null - HybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Lab $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridAGL 300mg Pen Regina Gorgeous (H) 01416Advanced Grow L",
+    "brand": null,
+    "message": "New: null - HybridAGL 300mg Pen Regina Gorgeous (H) 01416Advanced Grow L $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridCapy Flower T33.46% H 00795Affinity GrowFlower(3.5G)TH",
+    "brand": null,
+    "message": "New: null - HybridCapy Flower T33.46% H 00795Affinity GrowFlower(3.5G)TH $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 leftIndicaAGL 300mg Pen Cheddar Cheeze (I) 01409Advan",
+    "brand": null,
+    "message": "New: null - Only 1 leftIndicaAGL 300mg Pen Cheddar Cheeze (I) 01409Advan $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SativaSuper Buff Vape 41751TheraplantVape Cartridge(1G)THC 9",
+    "brand": null,
+    "message": "New: null - SativaSuper Buff Vape 41751TheraplantVape Cartridge(1G)THC 9 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Gr",
+    "brand": null,
+    "message": "New: null - HybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Gr $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "IndicaAGL 300mg Pen B Scout x LA Kush CKE (I) 01396Advanced",
+    "brand": null,
+    "message": "New: null - IndicaAGL 300mg Pen B Scout x LA Kush CKE (I) 01396Advanced $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5",
+    "brand": null,
+    "message": "New: null - HybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "IndicaRythm 3.5g B Scout (I) 01324RYTHMFlower(3.5G)THC 34.25",
+    "brand": null,
+    "message": "New: null - IndicaRythm 3.5g B Scout (I) 01324RYTHMFlower(3.5G)THC 34.25 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SativaSoundView Raspberry Lemonade Live Resin Disposable Vap",
+    "brand": null,
+    "message": "New: null - SativaSoundView Raspberry Lemonade Live Resin Disposable Vap $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PopularSALE!SativaAGL 300mg Pen Durban Z (S) 01407Advanced G",
+    "brand": null,
+    "message": "Gone: null - PopularSALE!SativaAGL 300mg Pen Durban Z (S) 01407Advanced G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!Hybridall:hours Mule Fuel 41241all:hoursPremium Flower(",
+    "brand": null,
+    "message": "Gone: null - SALE!Hybridall:hours Mule Fuel 41241all:hoursPremium Flower("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-",
+    "brand": null,
+    "message": "Gone: null - Cash back35% OFFSativaLighthouse-Laughing Buddha Live Resin-"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% back25% OFF!HybridCamino Sours Watermelon Spritz Cannabi",
+    "brand": null,
+    "message": "Gone: null - 15% back25% OFF!HybridCamino Sours Watermelon Spritz Cannabi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1",
+    "brand": null,
+    "message": "Gone: null - 35% OFF!HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaAGL 300mg Pen Cheddar Cheeze (I) 01409Advanced Gr",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaAGL 300mg Pen Cheddar Cheeze (I) 01409Advanced Gr"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaHash Wedding Infused Party Pack 41777Theraplant10",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaHash Wedding Infused Party Pack 41777Theraplant10"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!IndicaCTP Tasty Jane Flower 22.72% I 26464 3.5gCTPharma",
+    "brand": null,
+    "message": "Gone: null - SALE!IndicaCTP Tasty Jane Flower 22.72% I 26464 3.5gCTPharma"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!HybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanc",
+    "brand": null,
+    "message": "Gone: null - SALE!HybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanc"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaEarl Baker - Whole Flower - Next level 0108Earl B",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaEarl Baker - Whole Flower - Next level 0108Earl B"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaRythm 7g Small Flower Gazzurple (S) 01389RYTHMSma",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaRythm 7g Small Flower Gazzurple (S) 01389RYTHMSma"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE!SativaSelect Flavor Series 510 1g Golden Tangie (S) 016",
+    "brand": null,
+    "message": "Gone: null - SALE!SativaSelect Flavor Series 510 1g Golden Tangie (S) 016"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 leftSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 0",
+    "brand": null,
+    "message": "Gone: null - Only 3 leftSALE!HybridDogwalkers 5 Pack Minis Vel Croz (H) 0"
+  }
+]

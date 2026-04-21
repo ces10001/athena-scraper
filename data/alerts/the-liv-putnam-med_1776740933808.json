@@ -1,0 +1,332 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Zone 14g Citral Glue 00090",
+    "brand": "Zone",
+    "message": "Zone Zone 14g Citral Glue 00090: $55.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zone Pre-Pack 7g BNC-S-20 00105",
+    "brand": "Zone",
+    "message": "Zone Zone Pre-Pack 7g BNC-S-20 00105: $30.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zone 14g Guava Tart 00089",
+    "brand": "Zone",
+    "message": "Zone Zone 14g Guava Tart 00089: $55.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots PR Pack (5x.4g) White Hot Guava (H) 01499",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots PR Pack (5x.4g) White Hot Guava (H) 01499: $19.60 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf 14g True OG (I) 00904",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf 14g True OG (I) 00904: $64.40 > $92.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity PR Pack (3x.7g) Orange Sunshine (I) 00888",
+    "brand": "Affinity",
+    "message": "Affinity Affinity PR Pack (3x.7g) Orange Sunshine (I) 00888: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zone 14g Great Lake Grapes 00088",
+    "brand": "Zone",
+    "message": "Zone Zone 14g Great Lake Grapes 00088: $55.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots PR Pack (5x.4g)  Moonbeam Latto (H) 01399",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots PR Pack (5x.4g)  Moonbeam Latto (H) 01399: $19.60 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Watermelon Lemonade 00408",
+    "brand": "Camino",
+    "message": "Camino Camino Watermelon Lemonade 00408: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preroll 1g Ched R Cheez (I) 01436",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preroll 1g Ched R Cheez (I) 01436: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots PR Pack (5x.4g) Singapore Sling (S) 01453",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots PR Pack (5x.4g) Singapore Sling (S) 01453: $19.60 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection - Catching Citrus Dreams (I) 00397",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Catching Citrus Dreams (I) 00397: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection - Coasting Cherry Punch (H) 00370",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Coasting Cherry Punch (H) 00370: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Awssom 7g HiFi 4g #9 00044",
+    "brand": "Awssom",
+    "message": "Awssom Awssom 7g HiFi 4g #9 00044: $30.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zone Pre-Pack 7g Whiplash 00098",
+    "brand": "Zone",
+    "message": "Zone Zone Pre-Pack 7g Whiplash 00098: $30.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity PR Pack (3x.7g) Sunshine Daydream (I) 00836",
+    "brand": "Affinity",
+    "message": "Affinity Affinity PR Pack (3x.7g) Sunshine Daydream (I) 00836: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915",
+    "brand": "Select",
+    "message": "Select Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915: $26.60 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Cliq Elite Pod .5g Purple Urkel (I) 00957",
+    "brand": "Select",
+    "message": "Select Select Cliq Elite Pod .5g Purple Urkel (I) 00957: $26.60 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours Blackberry Dream 1:1:1 (I) 00395",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Blackberry Dream 1:1:1 (I) 00395: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours Watermelon Spritz 00404",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Watermelon Spritz 00404: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity PR Pack (3x.3g) The Soap #2 Lil' Ricky's (S) 00919",
+    "brand": "Affinity",
+    "message": "Affinity Affinity PR Pack (3x.3g) The Soap #2 Lil' Ricky's (S) 00919: $11.20 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preground 3.5g Jayna's Sunshine (H) 01454",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preground 3.5g Jayna's Sunshine (H) 01454: $21.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g NYC Diesel (H) 01036",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g NYC Diesel (H) 01036: $20.30 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection - Creative Clementine THCV (S) 00452",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Creative Clementine THCV (S) 00452: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917",
+    "brand": "Affinity",
+    "message": "Affinity Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917: $16.10 > $23.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity Infused PR Pack (3x.3g) Alien OG Lil' Ricky's (H) 00891",
+    "brand": "Affinity",
+    "message": "Affinity Affinity Infused PR Pack (3x.3g) Alien OG Lil' Ricky's (H) 00891: $16.10 > $23.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection -Crushin' It Cran-Raspberry - 00245",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection -Crushin' It Cran-Raspberry - 00245: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection - Sultry Cinnamon - 00174",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Sultry Cinnamon - 00174: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection - Rainbow Parade - 00173",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Rainbow Parade - 00173: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g Garlotti (S) 01314",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g Garlotti (S) 01314: $20.30 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g Dosido (I) 01410",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g Dosido (I) 01410: $20.30 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preground 3.5g Pineapple Sunrise (S) 01467",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Preground 3.5g Pineapple Sunrise (S) 01467: $21.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. 7g Half Moonana (H) 01166",
+    "brand": "Find.",
+    "message": "Find. FIND. 7g Half Moonana (H) 01166: $29.40 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf 3.5g White Hot Guava (H) 00959",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf 3.5g White Hot Guava (H) 00959: $23.10 > $28.05"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf 3.5g Grower's Mix (I) 01053",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf 3.5g Grower's Mix (I) 01053: $23.10 > $28.05"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Wild Berry 00396",
+    "brand": "Camino",
+    "message": "Camino Camino Wild Berry 00396: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours Tropical Burst 00415",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Tropical Burst 00415: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours Strawberry Sunset 00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Strawberry Sunset 00365: $20.25 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours Orchard Peach CBD 1:1 00361",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Orchard Peach CBD 1:1 00361: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Pineapple Habanero 00421",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero 00421: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Midnight Blueberry 00364",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry 00364: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Mango 00227",
+    "brand": "Camino",
+    "message": "Camino Camino Mango 00227: $22.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Freshly Squeezed 00465",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed 00465: $22.50 > $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Theraplant 7g Colorado Flo (Aniva) 41594",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Theraplant 7g Colorado Flo (Aniva) 41594"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Awssom Pre-Ground 7g Blueberry Hashplant 00069",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Awssom Pre-Ground 7g Blueberry Hashplant 00069"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos AIO 1g Zlushie Live Resin (I) 00446",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Amigos AIO 1g Zlushie Live Resin (I) 00446"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Infused Big Ray 1g Grinz (I) 00789",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Infused Big Ray 1g Grinz (I) 00789"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Big Ray 1g Tropical Haze x Block Island Kush (S) 00875",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Big Ray 1g Tropical Haze x Block Island Kush (S) 00875"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Big Ray 1g Modified Obama (H) 00877",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Big Ray 1g Modified Obama (H) 00877"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Big Ray 1g Dirty Taxi (S) 00882",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Big Ray 1g Dirty Taxi (S) 00882"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Big Ray 1g Arrigoni Haze (S) 00854",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Big Ray 1g Arrigoni Haze (S) 00854"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity AIO .5g Permanent Marker BHO Slim Bar (I) 00649",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity AIO .5g Permanent Marker BHO Slim Bar (I) 00649"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity 3.5g Lemon Skunk (S) 00883",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity 3.5g Lemon Skunk (S) 00883"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity 3.5g Coconut Milk Flower (I) 00794",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity 3.5g Coconut Milk Flower (I) 00794"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Roll 1.0g Jet Fuel 00066",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Roll 1.0g Jet Fuel 00066"
+  }
+]

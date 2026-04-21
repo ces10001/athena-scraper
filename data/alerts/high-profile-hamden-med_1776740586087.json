@@ -1,0 +1,602 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Blood Orange | Gummies | 100mg (20pk) | C0080000224",
+    "brand": "SoundView",
+    "message": "SoundView Blood Orange | Gummies | 100mg (20pk) | C0080000224: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream | Live Resin Cart | 1g | C0060000399",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Blue Dream | Live Resin Cart | 1g | C0060000399: $42.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "NYC Diesel | Elite Vape Cart | 1g | 01492",
+    "brand": "Select",
+    "message": "Select NYC Diesel | Elite Vape Cart | 1g | 01492: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Muffins | Pre-Pack | 14g (01357)",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Muffins | Pre-Pack | 14g (01357): $68.00 > $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise | Pre-Pack Pre-ground | 3.5g | 01467",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise | Pre-Pack Pre-ground | 3.5g | 01467 $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lady In Red | Live Resin Disposable | 1g | C0060000443",
+    "brand": "Amigos",
+    "message": "Amigos Lady In Red | Live Resin Disposable | 1g | C0060000443: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Island Punch | Indica Gummies | 100mg (20pk) | C0060000374",
+    "brand": "Wana",
+    "message": "Wana Island Punch | Indica Gummies | 100mg (20pk) | C0060000374: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "OG Kush | Live Resin Disposable | 1g | C0060000427",
+    "brand": "Amigos",
+    "message": "Amigos OG Kush | Live Resin Disposable | 1g | C0060000427: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dosidos | Live Resin Cart | 1g | C0060000398",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Dosidos | Live Resin Cart | 1g | C0060000398: $42.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Singapore Sling | 5pk Pre-Rolls | 0.4g each | 01453",
+    "brand": "Grassroots",
+    "message": "Grassroots Singapore Sling | 5pk Pre-Rolls | 0.4g each | 01453: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Papi Purple | Live Resin Disposable | 1g | C0060000417",
+    "brand": "Amigos",
+    "message": "Amigos Papi Purple | Live Resin Disposable | 1g | C0060000417: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express | Pre-Pack | 3.5g | 01359",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Titan Express | Pre-Pack | 3.5g | 01359: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Delphi Diesel | Pre-Ground | 3.5g | 01528",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Delphi Diesel | Pre-Ground | 3.5g | 01528: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw | Pre-Pack | 3.5g | 01158",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Paw Paw | Pre-Pack | 3.5g | 01158: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG | Pre-Pack | 28g | 01161",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG | Pre-Pack | 28g | 01161: $160.00 > $200.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000416",
+    "brand": "Wana",
+    "message": "Wana Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000416: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Matter | X Bites | 100mg (10pk) | 01375",
+    "brand": "Select",
+    "message": "Select Orange Matter | X Bites | 100mg (10pk) | 01375: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hippie Crasher | 3pk Pre-rolls | 0.7g each | 00928 | WARNING: High THC",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Hippie Crasher | 3pk Pre-rolls | 0.7g each | 00928 | WARNING: High THC: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slapz | 5pk Pre-rolls | 0.5g each | 01372",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Slapz | 5pk Pre-rolls | 0.5g each | 01372: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Cider | Gummies | 100mg (20pk) | C0080000157",
+    "brand": "SoundView",
+    "message": "SoundView Apple Cider | Gummies | 100mg (20pk) | C0080000157: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Forbidden Fruit | Live Resin Disposable Vape | 1g | C0080000226",
+    "brand": "SoundView",
+    "message": "SoundView Forbidden Fruit | Live Resin Disposable Vape | 1g | C0080000226: $52.50 > $75.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Rainbows | Pre-Pack Smalls | 7g | C0200000014",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Rainbows | Pre-Pack Smalls | 7g | C0200000014: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Old School OG | Elite Vape Cart | 1g | 01386",
+    "brand": "Select",
+    "message": "Select Old School OG | Elite Vape Cart | 1g | 01386: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG | Elite Disposable Briq | 2g | 01098",
+    "brand": "Select",
+    "message": "Select Tahoe OG | Elite Disposable Briq | 2g | 01098: $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath | Pre-Pack | 3.5g | 01269",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath | Pre-Pack | 3.5g | 01269: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Casino Floor | Legacy Series Disposable Briq | 2g | 01560",
+    "brand": "Select",
+    "message": "Select Casino Floor | Legacy Series Disposable Briq | 2g | 01560: $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rainbow Haze | R2G Liquid Diamonds Vaporizer Bundle | 1g | C0070000281",
+    "brand": "Airo",
+    "message": "Airo Rainbow Haze | R2G Liquid Diamonds Vaporizer Bundle | 1g | C0070000281: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO | Elite Disposable Vape | 0.3g | 01372",
+    "brand": "Select",
+    "message": "Select GMO | Elite Disposable Vape | 0.3g | 01372: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mystic Mintz | Live Resin Disposable | 1g | C0060000390",
+    "brand": "Amigos",
+    "message": "Amigos Mystic Mintz | Live Resin Disposable | 1g | C0060000390: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Acapulco Gold | Live Resin Bar | 1g | C0060000463",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Acapulco Gold | Live Resin Bar | 1g | C0060000463: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Garlotti | Live Resin Bar | 1g | C0060000462",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Garlotti | Live Resin Bar | 1g | C0060000462: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Berry 3:1:1:1 | CBD:THC:CBN:CBG Gummies | 100mg (20pk) (C0060000435)",
+    "brand": "Wana",
+    "message": "Wana Dream Berry 3:1:1:1 | CBD:THC:CBN:CBG Gummies | 100mg (20pk) (C0060000435): $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Exotic Yuzu 2:1 | CBD:THC Gummies | 100mg (20pk) | C0060000266",
+    "brand": "Wana",
+    "message": "Wana Exotic Yuzu 2:1 | CBD:THC Gummies | 100mg (20pk) | C0060000266: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peach Bellini | Gummies | 100mg | C0060000436 (20pk)",
+    "brand": "Wana",
+    "message": "Wana Peach Bellini | Gummies | 100mg | C0060000436 (20pk): $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Half Moonana | Pre-Pack | 7g | 01166",
+    "brand": "Find.",
+    "message": "Find. Half Moonana | Pre-Pack | 7g | 01166: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Hot Guava | Pre-Pack | 3.5g | 00959",
+    "brand": "Curaleaf",
+    "message": "Curaleaf White Hot Guava | Pre-Pack | 3.5g | 00959: $28.00 > $31.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Dreamy | THC:CBN Gummies | 100mg (20pk) | C0080000234",
+    "brand": "SoundView",
+    "message": "SoundView Berry Dreamy | THC:CBN Gummies | 100mg (20pk) | C0080000234: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BlueZZZberry | 5:1 CBN:THC Gummies | 100mg (20pk) | C0080000230",
+    "brand": "SoundView",
+    "message": "SoundView BlueZZZberry | 5:1 CBN:THC Gummies | 100mg (20pk) | C0080000230: $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Delphi Diesel | 5pk Pre-Rolls | 0.4g each | 01527",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Delphi Diesel | 5pk Pre-Rolls | 0.4g each | 01527: $27.20 > $30.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash | Pre-Pack Pre-ground | 3.5g | 01476",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Hickory Hash | Pre-Pack Pre-ground | 3.5g | 01476: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Janaya's Sunrise | Pre-Pack Pre-ground | 3.5g | 01454",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Janaya's Sunrise | Pre-Pack Pre-ground | 3.5g | 01454: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Old School Blue | Elite Vape Cart | 1g | 01300",
+    "brand": "Select",
+    "message": "Select Old School Blue | Elite Vape Cart | 1g | 01300: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz | Flavor Series Disposable Briq | 1g | 01545",
+    "brand": "Select",
+    "message": "Select Orange Kookyz | Flavor Series Disposable Briq | 1g | 01545: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sofa Sonata | Flavor Series Disposable Briq | 1g | 01638",
+    "brand": "Select",
+    "message": "Select Sofa Sonata | Flavor Series Disposable Briq | 1g | 01638: $52.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Alien OG | 3pk Infused Lil' Ricky's Pre-rolls | 0.3g each | 00891",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Alien OG | 3pk Infused Lil' Ricky's Pre-rolls | 0.3g each | 00891: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rose Gold RTZ | 5pk Pre-rolls | 0.5g each | 01365",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Rose Gold RTZ | 5pk Pre-rolls | 0.5g each | 01365: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Living Legend | 5pk Pre-rolls | 0.5g each | 01163",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Living Legend | 5pk Pre-rolls | 0.5g each | 01163: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonlight Dream | Live Resin Bar | 1g | C0060000403",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Moonlight Dream | Live Resin Bar | 1g | C0060000403: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zlushie | Live Resin Disposable | 1g | C0060000446",
+    "brand": "Amigos",
+    "message": "Amigos Zlushie | Live Resin Disposable | 1g | C0060000446: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Margarita | RSO Gummies | 100mg (20pk) | C0080000215",
+    "brand": "SoundView",
+    "message": "SoundView Margarita | RSO Gummies | 100mg (20pk) | C0080000215: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Limoncello | Hybrid Gummies | 100mg (20pk) | C0060000331",
+    "brand": "Wana",
+    "message": "Wana Limoncello | Hybrid Gummies | 100mg (20pk) | C0060000331: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Gorgeous | Single Pre-roll | 1g | 01222",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Regina Gorgeous | Single Pre-roll | 1g | 01222: $8.00 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO | Live Resin Cart | 1g | C0060000380",
+    "brand": "Lighthouse",
+    "message": "Lighthouse GMO | Live Resin Cart | 1g | C0060000380: $42.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mango | Sativa Gummies | 100mg (20pk) | C0060000263",
+    "brand": "Wana",
+    "message": "Wana Mango | Sativa Gummies | 100mg (20pk) | C0060000263: $20.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mule Fuel | Pre-roll | 1g | C0200000026",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel | Pre-roll | 1g | C0200000026: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785): $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Triple X | 3pk Pre-rolls | 0.7g each | 00768",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Triple X | 3pk Pre-rolls | 0.7g each | 00768: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hi Life | 5pk Pre-rolls | 2.5g | C0200000032 | WARNING: High THC",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Hi Life | 5pk Pre-rolls | 2.5g | C0200000032 | WARNING: High THC: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem Ox | Big Ray Single Pre-roll | 1g | 00862",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chem Ox | Big Ray Single Pre-roll | 1g | 00862: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sunshine Daydream | 3pk Infused Pre-roll | 2.1g | 00886",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream | 3pk Infused Pre-roll | 2.1g | 00886: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dash of Cherry | Squeeze | 100mg | 01599",
+    "brand": "Zero Proof",
+    "message": "Zero Proof Dash of Cherry | Squeeze | 100mg | 01599: $31.20 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns | Pre-Pack | 3.5g | 01044",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Mfns | Pre-Pack | 3.5g | 01044: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express | 5pk Pre-Rolls | 0.4g each | 01486",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Titan Express | 5pk Pre-Rolls | 0.4g each | 01486: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01148",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01148: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blackberry  | THC:CBN:CBD Fast-Acting Jellies | 100mg (20pk) | 01533",
+    "brand": "JAMS",
+    "message": "JAMS Blackberry  | THC:CBN:CBD Fast-Acting Jellies | 100mg (20pk) | 01533: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ched R Cheez | Pre-Roll | 1g | 01362",
+    "brand": "Grassroots",
+    "message": "Grassroots Ched R Cheez | Pre-Roll | 1g | 01362: $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Lemonade | Live Resin Gummies | 100mg (20pk) | C0080000221",
+    "brand": "SoundView",
+    "message": "SoundView Pink Lemonade | Live Resin Gummies | 100mg (20pk) | C0080000221: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Passionfruit Pineapple | CBG:CBD:THC Gummies | 100mg (20pk) | C0060000281",
+    "brand": "Wana",
+    "message": "Wana Passionfruit Pineapple | CBG:CBD:THC Gummies | 100mg (20pk) | C0060000281: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blueberry | Indica Gummies | 100mg (20pk) | C0060000251",
+    "brand": "Wana",
+    "message": "Wana Blueberry | Indica Gummies | 100mg (20pk) | C0060000251: $20.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Superboo | 3pk Lil' Ricky's Infused Pre-roll | 0.3g each | 00755",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Superboo | 3pk Lil' Ricky's Infused Pre-roll | 0.3g each | 00755: $19.20 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wintergreen | Hybrid Mints | 100mg (C0080000196)",
+    "brand": "SoundView",
+    "message": "SoundView Wintergreen | Hybrid Mints | 100mg (C0080000196): $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wedding Cake | Live Resin Bar | 1g | C0060000461",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Wedding Cake | Live Resin Bar | 1g | C0060000461: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sunshine Daydream | 3pk Pre-rolls | 0.7g each | 00836",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream | 3pk Pre-rolls | 0.7g each | 00836: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sugar Plum | Gummies | 100mg (20pk) | C0080000181",
+    "brand": "SoundView",
+    "message": "SoundView Sugar Plum | Gummies | 100mg (20pk) | C0080000181: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Margarita | CBD:THC Gummies | 100mg (20pk) | C0060000430",
+    "brand": "Wana",
+    "message": "Wana Strawberry Margarita | CBD:THC Gummies | 100mg (20pk) | C0060000430: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Strawberry Lemonade | Fast-Acting Jellies | 100mg (20pk) | 01113",
+    "brand": "JAMS",
+    "message": "JAMS Sour Strawberry Lemonade | Fast-Acting Jellies | 100mg (20pk) | 01113: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Singapore Sling | Pre-Pack | 14g | 01509",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Singapore Sling | Pre-Pack | 14g | 01509: $88.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Pomegranate | THC:CBD:CBG Fast-Acting Jellies | 100mg (20pk) | 01480",
+    "brand": "JAMS",
+    "message": "JAMS Raspberry Pomegranate | THC:CBD:CBG Fast-Acting Jellies | 100mg (20pk) | 01480: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Parfait | Pre-Pack | 28g | 01021",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Raspberry Parfait | Pre-Pack | 28g | 01021: $160.00 > $200.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Orange Lime | X Bites | 100mg (10pk) | 00842",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime | X Bites | 100mg (10pk) | 00842: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Urkle | Live Resin Disposable Vape | 1g | C0080000124",
+    "brand": "SoundView",
+    "message": "SoundView Purple Urkle | Live Resin Disposable Vape | 1g | C0080000124: $52.50 > $75.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomme Jelly | Pre-Pack | 28g | 01161",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Pomme Jelly | Pre-Pack | 28g | 01161: $160.00 > $200.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomegranate Blueberry 5:1 | CBD:THC Gummies | 100mg (20pk) | C0060000434",
+    "brand": "Wana",
+    "message": "Wana Pomegranate Blueberry 5:1 | CBD:THC Gummies | 100mg (20pk) | C0060000434: $22.10 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Guava | Live Resin Disposable | 1g | C0060000464",
+    "brand": "Amigos",
+    "message": "Amigos Pink Guava | Live Resin Disposable | 1g | C0060000464: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Sunshine | 3pk Pre-rolls | 0.7g each | 00888",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine | 3pk Pre-rolls | 0.7g each | 00888: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "OG Kush | Elite Disposable Briq | 2g | 01123",
+    "brand": "Select",
+    "message": "Select OG Kush | Elite Disposable Briq | 2g | 01123: $96.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mixed Berry | Indica Mints | 100mg (C0080000208)",
+    "brand": "SoundView",
+    "message": "SoundView Mixed Berry | Indica Mints | 100mg (C0080000208): $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Midnight Mint | Milk Chocolate | 2:1 THC:CBN Chocolate Bar | 100mg | C0080000225",
+    "brand": "SoundView",
+    "message": "SoundView Midnight Mint | Milk Chocolate | 2:1 THC:CBN Chocolate Bar | 100mg | C0080000225: $19.60 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Kozeto | 3pk Infused Pre-roll | 2.1g | 00830",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Kozeto | 3pk Infused Pre-roll | 2.1g | 00830: $27.20 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grape N Cream | Big Ray Infused Pre-roll | 1g | 00834",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Grape N Cream | Big Ray Infused Pre-roll | 1g | 00834: $19.20 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "G'Night Grape | 2:1 THC:CBN Gummies | 100mg (20pk) | C0080000236",
+    "brand": "SoundView",
+    "message": "SoundView G'Night Grape | 2:1 THC:CBN Gummies | 100mg (20pk) | C0080000236: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Berry | 4:1:1:1 CBD:THC:CBN:CBG Gummies | 50mg (20pk) | C0060000419",
+    "brand": "Wana",
+    "message": "Wana Dream Berry | 4:1:1:1 CBD:THC:CBN:CBG Gummies | 50mg (20pk) | C0060000419: $23.40 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dash of Sweet | Squeeze | 100mg | 01626",
+    "brand": "Zero Proof",
+    "message": "Zero Proof Dash of Sweet | Squeeze | 100mg | 01626: $31.20 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Kush Cake | Live Resin Disposable | 1g | C0060000387",
+    "brand": "Amigos",
+    "message": "Amigos CT Kush Cake | Live Resin Disposable | 1g | C0060000387: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bulbz | Single Pre-roll | 1g | 01356",
+    "brand": "Find.",
+    "message": "Find. Bulbz | Single Pre-roll | 1g | 01356: $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bruce Bamer | Live Resin Disposable | 1g | C0060000469",
+    "brand": "Amigos",
+    "message": "Amigos Bruce Bamer | Live Resin Disposable | 1g | C0060000469: $45.50 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Maple | 3pk Pre-rolls | 0.7g each | 00885",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Black Maple | 3pk Pre-rolls | 0.7g each | 00885: $25.60 > $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary | 5pk Pre-rolls | 0.4g each | 26903",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary | 5pk Pre-rolls | 0.4g each | 26903"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Glaze | Pre-Pack | 7g | 01395",
+    "brand": "Find.",
+    "message": "Gone: Find. - Island Glaze | Pre-Pack | 7g | 01395"
+  }
+]

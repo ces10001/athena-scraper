@@ -1,0 +1,104 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 7g Zuava H 26948 $52.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "20% OFF 1/4 OZ Indica Rythm 7g Small Flower B Scout (I) 01241 RYTHM Smalls (7G",
+    "brand": null,
+    "message": "null 20% OFF 1/4 OZ Indica Rythm 7g Small Flower B Scout (I) 01241 RYTHM Smalls (7G: $65.00 > $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 1g Big Dog Animal Face (I) 01403",
+    "brand": "Dogwalkers\nWarning - High THC - Big Dog\n\n(EACH)\n\nTHC 33.13%\n\n$15.00",
+    "message": "New: Dogwalkers\nWarning - High THC - Big Dog\n\n(EACH)\n\nTHC 33.13%\n\n$15.00 - Dogwalkers 1g Big Dog Animal Face (I) 01403 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis OMG (H) 01323",
+    "brand": "Dogwalkers\n5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 19.01%\n\n$30.00",
+    "message": "New: Dogwalkers\n5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 19.01%\n\n$30.00 - Dogwalkers 5 Pack Minis OMG (H) 01323 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 1g Big Dog Lemon Drip (S) 01294",
+    "brand": "Dogwalkers\nBig Dog\n\n(EACH)\n\nTHC 26.31%\n\n$15.00",
+    "message": "New: Dogwalkers\nBig Dog\n\n(EACH)\n\nTHC 26.31%\n\n$15.00 - Dogwalkers 1g Big Dog Lemon Drip (S) 01294 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll 1.0g GAT 00086",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll 1.0g GAT 00086 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 7g Gush Mintz I 26872",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 7g Gush Mintz I 26872 $52.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE Hybrid Rythm 7g Small Flower OMG (H) 01270 RYTHM Smalls (7G)",
+    "brand": null,
+    "message": "Gone: null - SALE Hybrid Rythm 7g Small Flower OMG (H) 01270 RYTHM Smalls (7G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Modified Haze Bold T446 H 26857 CTPharma Disposable (EACH)",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Modified Haze Bold T446 H 26857 CTPharma Disposable (EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen B Scout x LA Kush CKE (I) 01396",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 300mg Pen B Scout x LA Kush CKE (I) 01396"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SALE Indica Rythm 3.5g Cheddar Cheeze (I) 01273 RYTHM Warning - High",
+    "brand": null,
+    "message": "Gone: null - SALE Indica Rythm 3.5g Cheddar Cheeze (I) 01273 RYTHM Warning - High"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dogwalkers 1g Big Dog Do Not Trip (H) 01330",
+    "brand": "Dogwalkers\nBig Dog\n\n(EACH)\n\nTHC 27.19%\n\n$15.00",
+    "message": "Gone: Dogwalkers\nBig Dog\n\n(EACH)\n\nTHC 27.19%\n\n$15.00 - Dogwalkers 1g Big Dog Do Not Trip (H) 01330"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Deals View all View all Product Spend $200 - Get $60 off Our Favorites Product S",
+    "brand": "Jane Technologies, Inc.\n\nPlease confirm you're over 21 or a valid medical patient\nI'm over 21\nI'm a valid medical patient\nRemember me for 30 days\n\nBy continuing you agree to Jane's \nOpens in new window\nTerms of Service & \nOpens in new window\nPrivacy Policy",
+    "message": "Gone: Jane Technologies, Inc.\n\nPlease confirm you're over 21 or a valid medical patient\nI'm over 21\nI'm a valid medical patient\nRemember me for 30 days\n\nBy continuing you agree to Jane's \nOpens in new window\nTerms of Service & \nOpens in new window\nPrivacy Policy - Deals View all View all Product Spend $200 - Get $60 off Our Favorites Product S"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo",
+    "brand": null,
+    "message": "Gone: null - Only 3 left Sativa Rodeo Sun Grown Summer L.(S) 1g Preroll (C0070000407) Rodeo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Vape RNTZ x Fantasy Melonz (H) 01394",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 1g Vape RNTZ x Fantasy Melonz (H) 01394"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Afternoon Delight (H) 01195",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 300mg Pen Afternoon Delight (H) 01195"
+  }
+]
