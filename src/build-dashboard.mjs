@@ -170,7 +170,11 @@ const DISP_INFO = {
   'budr-tolland-med': { name: 'BUDR - Tolland (Med)', city: 'Tolland' },
   // ═══ JANE (Rise + Venu) ═══
   'rise-branford': { name: 'Rise - Branford', city: 'Branford' },
+  'rise-branford-rec': { name: 'Rise - Branford (Rec)', city: 'Branford' },
+  'rise-branford-med': { name: 'Rise - Branford (Med)', city: 'Branford' },
   'rise-orange': { name: 'Rise - Orange', city: 'Orange' },
+  'rise-orange-rec': { name: 'Rise - Orange (Rec)', city: 'Orange' },
+  'rise-orange-med': { name: 'Rise - Orange (Med)', city: 'Orange' },
   'venu-flower-collective': { name: 'Venu Flower Collective', city: 'Middletown' },
   // ═══ AFFINITY (original + rec/med split) ═══
   'affinity-dispensary': { name: 'Affinity - Bridgeport', city: 'Bridgeport' },
