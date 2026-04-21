@@ -341,6 +341,15 @@ export async function scrapeSweed(dispensary) {
           hydration = await tryHydrationExtraction(page);
         }
 
+        // If still no hydration, try iframe URL directly (Zen Leaf pattern)
+        if (!hydration) {
+          var iframeUrl = menuUrl.replace(/\/?$/, '') + '/menu?isIframe=true';
+          console.log('  [sweed] Trying iframe URL: ' + iframeUrl);
+          await page.goto(iframeUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+          await page.waitForTimeout(5000);
+          hydration = await tryHydrationExtraction(page);
+        }
+
         if (hydration && hydration.list && hydration.list.length > 0) {
           console.log('  [sweed] ✓ Hydration found! ' + hydration.list.length + '/' + hydration.total + ' products on page 1');
 
@@ -357,12 +366,15 @@ export async function scrapeSweed(dispensary) {
           // Paginate through remaining pages if needed
           var totalPages = Math.ceil(hydration.total / (hydration.pageSize || 24));
           if (totalPages > 1) {
-            var baseUrl = page.url().split('?')[0];
+            var currentUrl = page.url();
+            var baseUrl = currentUrl.split('?')[0];
+            var existingParams = currentUrl.includes('?') ? currentUrl.split('?')[1].replace(/[&?]?page=\d+/, '') : '';
+            var paramJoiner = existingParams ? baseUrl + '?' + existingParams + '&' : baseUrl + '?';
             console.log('  [sweed] Paginating ' + totalPages + ' pages (' + hydration.total + ' total products)...');
 
             for (var pg = 2; pg <= totalPages; pg++) {
               try {
-                var pgUrl = baseUrl + '?page=' + pg;
+                var pgUrl = paramJoiner + 'page=' + pg;
                 await page.goto(pgUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
                 await page.waitForTimeout(3000);
 
