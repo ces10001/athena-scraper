@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Flower | Permanent Marker 3.5g | 00392",
+    "brand": "BRIX",
+    "message": "New: BRIX - Flower | Permanent Marker 3.5g | 00392 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Syringe | Outta My Head 1g | MED | 00852",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Syringe | Outta My Head 1g | MED | 00852 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | B Yo | 00318",
+    "brand": "BRIX",
+    "message": "New: BRIX - Flower | B Yo | 00318 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Living Legend 5 Pack Minis | 01163",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll Pack | Living Legend 5 Pack Minis | 01163 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Rythm | Creamsicle Sunset 14g | 01146",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Flower | Rythm | Creamsicle Sunset 14g | 01146 $98.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Disposable | Apple Tart MT 1g | 41559",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Disposable | Apple Tart MT 1g | 41559"
+  }
+]

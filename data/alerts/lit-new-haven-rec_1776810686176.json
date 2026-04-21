@@ -1,0 +1,104 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Candy Jack 0.5g Vape T407 S 00897",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Candy Jack 0.5g Vape T407 S 00897: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Lemon Skunk Flower T27.43% S 00883: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Lemon Haze 0.5g LT Bar T417 S 00925",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Super Lemon Haze 0.5g LT Bar T417 S 00925: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Star Killer OG Flower T29.81% I 00816",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Star Killer OG Flower T29.81% I 00816: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Fritter Flower T23.93% H 00912",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Apple Fritter Flower T23.93% H 00912: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Coconut Milk Flower T29.49% I 00794: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zelato BX 1g LT Vape T852 I 00822",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Zelato BX 1g LT Vape T852 I 00822: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Soap #2 Lil' Ricky's T25.18% S 00919",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow The Soap #2 Lil' Ricky's T25.18% S 00919: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Granddaddy Purp 1g Vape T816 I 00900",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Granddaddy Purp 1g Vape T816 I 00900: $62.00 > $49.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Mango Key Lime 1:1 Gummies I 00839",
+    "brand": "CHEW",
+    "message": "CHEW Chew RSO Mango Key Lime 1:1 Gummies I 00839: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dirty Taxi 1g Big Ray T20.20% S 00882",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Dirty Taxi 1g Big Ray T20.20% S 00882: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "CHEW",
+    "message": "CHEW Chew RSO Rainbow Rush Gummies S 00922: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke Flower T23.49% I 00926",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ice Cream Cke Flower T23.49% I 00926: $45.00 > $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Goods Tropical RNTZ 1g Vape Cartridge T88.740% S 50001",
+    "brand": "THE GOODS",
+    "message": "Gone: THE GOODS - The Goods Tropical RNTZ 1g Vape Cartridge T88.740% S 50001"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Loud Cannabis Clementine (S) 1G AIO C0170000031",
+    "brand": "LOUD",
+    "message": "Gone: LOUD - Loud Cannabis Clementine (S) 1G AIO C0170000031"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) T94.4mg - C0170000027",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid GalaxEats Gummies Sugar Free Pomegranate (S) T94.4mg - C0170000027"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Brains 1g Infused PR 41691",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Brains 1g Infused PR 41691"
+  }
+]

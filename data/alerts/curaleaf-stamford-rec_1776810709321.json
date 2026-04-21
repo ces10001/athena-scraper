@@ -1,0 +1,68 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Scorpion Bowl",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Scorpion Bowl: $18.00 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $30.00 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $30.00 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $18.00 > $11.70"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Urkel",
+    "brand": "Select",
+    "message": "Select Purple Urkel: $120.00 > $84.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Select Dosido: $30.00 > $19.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Gone: Select - Sundae Slumber"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Purple Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Summer Peach",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Summer Peach"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemon",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Blueberry Lemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Rainbows"
+  }
+]

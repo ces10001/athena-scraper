@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Mikado Mintz",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mikado Mintz $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel $16.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Live Resin Pink Lemonade",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Live Resin Pink Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Tangerine",
+    "brand": "comffy",
+    "message": "Gone: comffy - Atomic Tangerine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy LT Bar",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy LT Bar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie Spark -  All Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie Spark -  All Times"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Moonlight Dream Live Resin THC:CBN",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Moonlight Dream Live Resin THC:CBN: $48.00 > $60.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cold Spell",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Cold Spell"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Berry Burst",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Berry Burst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bananaconda",
+    "brand": "AGL",
+    "message": "Gone: AGL - Bananaconda"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream Live Terpene",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sunshine Daydream Live Terpene"
+  }
+]

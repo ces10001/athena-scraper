@@ -1,0 +1,110 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "CANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-",
+    "brand": "Derived",
+    "message": "Derived CANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-: $6.00 > $3.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CPS Hazy Fields BHO Live Resin Sugar 69.99% S 25896 1",
+    "brand": "gCTPharmaLive",
+    "message": "gCTPharmaLive CPS Hazy Fields BHO Live Resin Sugar 69.99% S 25896 1: $60.00 > $45.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CANN Blood Orange Cardamom Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHem",
+    "brand": "Derived",
+    "message": "Derived CANN Blood Orange Cardamom Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHem: $6.00 > $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "/3mg",
+    "brand": "Derived",
+    "message": "New: Derived - /3mg $3.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": ") 12ozFloat HouseDrink(EACH)6mg CBD/3mg",
+    "brand": "Derived",
+    "message": "Derived ) 12ozFloat HouseDrink(EACH)6mg CBD/3mg: $6.00 > $3.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GP20 1g BHO Live Resin Badder - MED T66.52% H C0020025878 - 1.0",
+    "brand": "gCTPharmaLive Resin",
+    "message": "gCTPharmaLive Resin GP20 1g BHO Live Resin Badder - MED T66.52% H C0020025878 - 1.0: $75.00 > $55.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": ") 12ozCannSocial Tonic(EACH)6mg CBD/3mg THC",
+    "brand": "Derived",
+    "message": "Derived ) 12ozCannSocial Tonic(EACH)6mg CBD/3mg THC: $6.00 > $3.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CANN Grapefruit Rosemary Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-",
+    "brand": "Derived",
+    "message": "Derived CANN Grapefruit Rosemary Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-: $6.00 > $3.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR 14g 41718",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR 14g 41718"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon 7g 41644",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon 7g 41644"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice MT 41729",
+    "brand": "TheraplantMini Tank",
+    "message": "Gone: TheraplantMini Tank - Carbon Juice MT 41729"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 7g Small Flower Afternoon Delight #4 (H) 01373",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 7g Small Flower Afternoon Delight #4 (H) 01373"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc.edibles 20 Pack Snoozzzeberry THC/CBN Gummies 01200(inc)",
+    "brand": "edibles",
+    "message": "Gone: edibles - inc.edibles 20 Pack Snoozzzeberry THC/CBN Gummies 01200(inc)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 32%",
+    "brand": null,
+    "message": "Gone: null - Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 32%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RYTHMLive Sauce Disposable V",
+    "brand": null,
+    "message": "Gone: null - Rythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RYTHMLive Sauce Disposable V"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CBD Oil Syringe - MED C263 C0020025810 - 1mLCTPharmaOral Syringe(EACH)1ml",
+    "brand": null,
+    "message": "Gone: null - CBD Oil Syringe - MED C263 C0020025810 - 1mLCTPharmaOral Syringe(EACH)1ml"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry Marker 1g Infused Blunt 41579",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry Marker 1g Infused Blunt 41579"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "/3mg",
+    "brand": "Derived",
+    "message": "Gone: Derived - /3mg"
+  }
+]

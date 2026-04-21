@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Gazzurple (S) 01390",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g Gazzurple (S) 01390 $133.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 7g Small Flower B Scout (I) 01241",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 7g Small Flower B Scout (I) 01241"
+  }
+]

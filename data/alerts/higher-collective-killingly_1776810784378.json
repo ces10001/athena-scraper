@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Orange Sunshine Live Terpene",
+    "brand": "Affinity",
+    "message": "New: Affinity - Orange Sunshine Live Terpene $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dual Chamber Joocy Fruit x Cherry Chiller (Indica Side)",
+    "brand": "SPLITS",
+    "message": "New: SPLITS - Dual Chamber Joocy Fruit x Cherry Chiller (Indica Side) $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel Train",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Diesel Train $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dual Chamber Strawberry Sauce x Orangeade (Sativa Side)",
+    "brand": "SPLITS",
+    "message": "New: SPLITS - Dual Chamber Strawberry Sauce x Orangeade (Sativa Side) $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dual Chamber Cloud Cookies x Blue Burger (Indica Side)",
+    "brand": "SPLITS",
+    "message": "New: SPLITS - Dual Chamber Cloud Cookies x Blue Burger (Indica Side) $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - Peanut Butter $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dual Chamber Lemon Headz x Garlic Cookies (Indica Side)",
+    "brand": "SPLITS",
+    "message": "New: SPLITS - Dual Chamber Lemon Headz x Garlic Cookies (Indica Side) $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti: $80.00 > $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks THCa Infused",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks THCa Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cake BHO",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Ice Cream Cake BHO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blood Orange",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Blood Orange"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Endgame Punchline",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Endgame Punchline"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pinyatti"
+  }
+]
