@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Good Green Ground Flower 28g B Scout (I) 01401",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green Ground Flower 28g B Scout (I) 01401 $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RTM OMG Flower 24.74% H 00905 3.5",
+    "brand": "gRYTHM",
+    "message": "New: gRYTHM - RTM OMG Flower 24.74% H 00905 3.5 $45.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse -",
+    "brand": "CTLive Resin",
+    "message": "Gone: CTLive Resin - Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse -"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g E85 S 26914",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g E85 S 26914"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Good Green Ground Flower 28g Mystic Mint (I) 01402",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Good Green Ground Flower 28g Mystic Mint (I) 01402"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz Vape 41745",
+    "brand": "TheraplantVape",
+    "message": "Gone: TheraplantVape - Gangsta Grillz Vape 41745"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dogs(.35g x 5 pr",
+    "brand": null,
+    "message": "Gone: null - Dogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dogs(.35g x 5 pr"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "TP 3:1 Transdermal Cream 01073 50",
+    "brand": "mLTheraplantTransdermal",
+    "message": "Gone: mLTheraplantTransdermal - TP 3:1 Transdermal Cream 01073 50"
+  }
+]

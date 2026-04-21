@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Tangerine",
+    "brand": "comffy",
+    "message": "Gone: comffy - Atomic Tangerine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Baby Cakes",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Baby Cakes"
+  }
+]

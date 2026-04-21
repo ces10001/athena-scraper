@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "all:hours Hash Burger over:timers 41391",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Hash Burger over:timers 41391 $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Earl Baker - Whole Flower - Gee Forcez 086",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Earl Baker - Whole Flower - Gee Forcez 086"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Tropical Lucky Chews 12mg 0082Lucky BreakLucky Chews(EACH)72mg 6pk",
+    "brand": null,
+    "message": "Gone: null - Fast Acting Tropical Lucky Chews 12mg 0082Lucky BreakLucky Chews(EACH)72mg 6pk"
+  }
+]

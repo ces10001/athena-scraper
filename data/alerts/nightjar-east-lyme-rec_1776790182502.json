@@ -1,0 +1,116 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Gummies | Catching Citrus Dreams Medium Dose | 20ct | 00397 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Sun Grown | Rainbow B 3.5g | 00387",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "New: Rodeo Cannabis Co. - Flower | Sun Grown | Rainbow B 3.5g | 00387 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Lemon Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Lemon Seltzer | Single $5.99"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Beverage | MUZE | Black Cherry Seltzer | Single",
+    "brand": "MUZE",
+    "message": "New: MUZE - Beverage | MUZE | Black Cherry Seltzer | Single $5.99"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Midnight Mint Milk Chocolate Bar THC:CBN | 20pk | 00225",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Midnight Mint Milk Chocolate Bar THC:CBN | 20pk | 00225 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Edibles | Lucky Elixir | Fast Acting | Blueberry Lemonade | 0055",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Edibles | Lucky Elixir | Fast Acting | Blueberry Lemonade | 0055 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Wildberry | 20pk | 00377",
+    "brand": "COAST Cannabis Co.",
+    "message": "New: COAST Cannabis Co. - Gummies | Wildberry | 20pk | 00377 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tincture | Dog Dayz Pet Tincture Gift Set | 500mg CBD",
+    "brand": "Bay Mountain AG",
+    "message": "New: Bay Mountain AG - Tincture | Dog Dayz Pet Tincture Gift Set | 500mg CBD $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Dieselato 3.5g | 26461",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Flower | Dieselato 3.5g | 26461 $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | SBC 3.5g | 0109",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Flower | SBC 3.5g | 0109 $45.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Disposable | Grape Escape .5g | 00422",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Disposable | Grape Escape .5g | 00422"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Starkiller OG 3.5g | 00816",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Flower | Starkiller OG 3.5g | 00816"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Lucky Elixir | Fast Acting | Fruit Punch | 0075",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Lucky Elixir | Fast Acting | Fruit Punch | 0075"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | JAMS Sour Green Apple | Fast Acting Jellies | 01157",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Gummies | JAMS Sour Green Apple | Fast Acting Jellies | 01157"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Find. | Single Bulbz 1g | 01442",
+    "brand": "Find.",
+    "message": "Gone: Find. - Pre-Roll | Find. | Single Bulbz 1g | 01442"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Good Green | Fantasy Melonz 3.5g | 01337",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Flower | Good Green | Fantasy Melonz 3.5g | 01337"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Savvy | Nimbus Snacks 1g | 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pre-Roll | Savvy | Nimbus Snacks 1g | 27009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Five Islands | Peach THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "Gone: Five Islands - Beverage | Five Islands | Peach THC Iced Tea | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434",
+    "brand": "Wana",
+    "message": "Gone: Wana - Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434"
+  }
+]

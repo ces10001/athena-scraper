@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk Lil' Budz (I) 00529",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Purple Milk Lil' Budz (I) 00529 $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Cannabis Summer L. (S) Preroll C0070000406",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Rodeo Cannabis Summer L. (S) Preroll C0070000406 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Thai Neville Haze Infused Pre-Roll (S) 00785",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Thai Neville Haze Infused Pre-Roll (S) 00785 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Canyon Water Iced Tea 3mg",
+    "brand": "Canyon Water",
+    "message": "New: Canyon Water - Canyon Water Iced Tea 3mg $5.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jokerz Flower (I) 26746",
+    "brand": "CTPharma",
+    "message": "CTPharma Jokerz Flower (I) 26746: $45.00 > $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND. Preroll Single Bulbz (I) 01356",
+    "brand": "Find.",
+    "message": "New: Find. - FIND. Preroll Single Bulbz (I) 01356 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Canyon Water Iced Tea 3mg",
+    "brand": "Canyon Water",
+    "message": "Gone: Canyon Water - Canyon Water Iced Tea 3mg"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy Flower Minis T32.04% H 00824 (3.5g)(Affinity Grow)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy Flower Minis T32.04% H 00824 (3.5g)(Affinity Grow) $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Caddy Rainbow Flower T29.82% I 00923 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Caddy Rainbow Flower T29.82% I 00923 (3.5g) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Sour Z (H) C0170000030 (1g)(H)",
+    "brand": "Borealis Cannabis",
+    "message": "New: Borealis Cannabis - Loud Cannabis Sour Z (H) C0170000030 (1g)(H) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Margarita RSO Gummies T95mg S 00215 (20pk)",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Margarita RSO Gummies T95mg S 00215 (20pk) $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy GRND 7g Nimbus Snacks S 26949 (7g Grind)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Savvy GRND 7g Nimbus Snacks S 26949 (7g Grind) $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher Pre-Rolls T31.38% I 00928 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Hippie Crasher Pre-Rolls T31.38% I 00928 (3pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Whole Flower 14g Orange Z (S) 00975 TC 23.511% (14g)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Curaleaf Whole Flower 14g Orange Z (S) 00975 TC 23.511% (14g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Afternoon Delight #4 (H) 01374 (3.5g)",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Rythm 3.5g Afternoon Delight #4 (H) 01374 (3.5g)"
+  }
+]

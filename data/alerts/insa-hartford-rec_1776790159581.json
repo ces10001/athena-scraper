@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy 1g LT Bar T833 H 00866",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy 1g LT Bar T833 H 00866 $44.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1G VAPE OMG X GO GR TZ (H) 01256",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1G VAPE OMG X GO GR TZ (H) 01256 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Mystic Mint (I) 01302",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Mystic Mint (I) 01302 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro Salted Caramel Squares 5pk 0041",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Astro Salted Caramel Squares 5pk 0041 $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Hash Burger Rosin Roll Shorties 41545",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Hash Burger Rosin Roll Shorties 41545 $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Paradise Snacks (I) 01314",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Paradise Snacks (I) 01314 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Space Gello PR Minis 41458",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Space Gello PR Minis 41458 $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Black Maple 22 (I) 01156",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen Black Maple 22 (I) 01156 $16.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin MT 41136",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin MT 41136"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdog's Chem 91 1g Pre Roll (S) 00461",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Chemdog's Chem 91 1g Pre Roll (S) 00461"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream Infused Pre-Rolls T33.76% I 00886",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream Infused Pre-Rolls T33.76% I 00886"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc.edibles 20 Pack Snoozzzeberry THC CBN Gummies 01136",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - inc.edibles 20 Pack Snoozzzeberry THC CBN Gummies 01136"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Juice OG | Pod | 1g | 26708",
+    "brand": "Savvy",
+    "message": "New: Savvy - Juice OG | Pod | 1g | 26708 $65.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple X | Pre-Pack Smalls | 3.5g | 00719",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Triple X | Pre-Pack Smalls | 3.5g | 00719"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Spacedawg | Pod | 1g | 26707",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Spacedawg | Pod | 1g | 26707"
+  }
+]
