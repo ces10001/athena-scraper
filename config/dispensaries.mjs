@@ -88,7 +88,7 @@ export const CT_DISPENSARIES = [
   { name: "Curaleaf - Manchester (Med)", city: "Manchester", platform: "sweed", sweed_urls: ["https://ct.curaleaf.com/shop/connecticut/curaleaf-ct-manchester/medical/menu"], menu_type: "med" },
 
   // ═══ SWEED — HIGHER COLLECTIVE (5, rec-only) ═══
-  { name: "Higher Collective - Bridgeport", city: "Bridgeport", platform: "sweed", sweed_urls: ["https://highercollective.com/menu/"] },
+  { name: "Higher Collective - Bridgeport", city: "Bridgeport", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/bridgeport/menu"] },
   { name: "Higher Collective - Killingly", city: "Killingly", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/killingly/menu"] },
   { name: "Higher Collective - New London", city: "New London", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/new-london/menu"] },
   { name: "Higher Collective - Torrington", city: "Torrington", platform: "sweed", sweed_urls: ["https://highercollective.com/locations/torrington/menu"] },
@@ -135,8 +135,8 @@ export const CT_DISPENSARIES = [
   ] },
 
   // ═══ AFFINITY (4 = 2 stores × 2 for rec/med split) ═══
-  { name: "Affinity - Bridgeport (Rec)", city: "Bridgeport", platform: "dutchie", dispensary_id: "654265e5dce3df00096862de" },
-  { name: "Affinity - Bridgeport (Med)", city: "Bridgeport", platform: "dutchie", dispensary_id: "658f327ade1ce70009edcfcd" },
-  { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "629fa02faca88d009d0958af" },
-  { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "63b84677d97a120083972651" },
+  { name: "Affinity - Bridgeport (Rec)", city: "Bridgeport", platform: "dutchie", dispensary_id: "654265e5dce3df00096862de", menu_type: "rec" },
+  { name: "Affinity - Bridgeport (Med)", city: "Bridgeport", platform: "dutchie", dispensary_id: "658f327ade1ce70009edcfcd", menu_type: "med" },
+  { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "629fa02faca88d009d0958af", menu_type: "med" },
+  { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "63b84677d97a120083972651", menu_type: "rec" },
 ];
