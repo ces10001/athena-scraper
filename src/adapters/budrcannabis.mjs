@@ -2,33 +2,53 @@ import { chromium } from 'playwright';
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
 /* ═══════════════════════════════════════
-   BUDR CANNABIS ADAPTER
+   BUDR CANNABIS ADAPTER — v3
    Parses Jane-powered shadow DOM product text
    Navigates to /menu/all and clicks "View more" to load all products
    ═══════════════════════════════════════ */
 
 function findCategoryAndBrand(block) {
   // Brand name appears RIGHT BEFORE the category keyword followed by "("
-  // e.g., "SavvyFLOWER (7G)" → brand="Savvy", cat="flower"
+  // Character class includes ™ () and digits for brands like "The Happy Confection™" and "Advanced Grow Labs (AGL)"
+  var B = '([A-Za-z0-9][A-Za-z0-9\\s.\':!&™®(),-]*)';
+
   var catPatterns = [
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Small Flower|Ground Flower|FLOWER|Flower)\s*\(/i, 'flower'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Over:Timers|Smalls)\s*\(/i, 'flower'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:THCA Infused Pre Roll|Infused Pre Roll|Infused Blunt|Pre Roll|Pre-Roll)\s*\(/i, 'pre-rolls'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Strut All-In-One|All-In-One|AIO Vape|Cartridge|Disposable|Cliq Pod|Briq)\s*\(/i, 'vaporizers'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Macro Dosed Gummy|Gummies|Gummy|Chocolate|Chew|Lozenge|Mints)\s*\(/i, 'edible'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Seltzer|Social Soda|Beverage|Iced Tea)\s*\(/i, 'edible'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Badder|Live Rosin|Live Resin|Rosin|Resin|Sugar|Sauce|Diamond|Concentrate)\s*\(/i, 'concentrate'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Tincture|Oral|Capsule|RSO Syringe|Oil Syringe)\s*\(/i, 'tincture'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Topical|Balm|Cream|Lotion)\s*\(/i, 'topical'],
-    [/([A-Za-z][A-Za-z\s.':!&]*?)(?:Sweatsuit|Hoodie|T-Shirt|Hat|Chillum|Grinder|Rolling Tray|Pipe)\s*\(/i, 'accessories'],
+    // Flower
+    [new RegExp(B + '(?:FLOWER|Flower|Small Flower|Smalls|Over:Timers|Ground Flower|Select Grind|Whole Buds|Mixed Buds|Premium Flower)\\s*\\(', 'i'), 'flower'],
+    // Pre-rolls
+    [new RegExp(B + '(?:THCA Infused Pre Roll|Infused Pre Roll|Infused Blunt|Pack THCA Infused Shorties|Pack Infused Pre Rolls|Pre Roll|Pre-Roll|Big Dog|Pack Mini Dogs|Mini Dogs|5 Pack Minis|10 Pack Shorties|Party Pack|Fatboy)\\s*\\(', 'i'), 'pre-rolls'],
+    // Vaporizers
+    [new RegExp(B + '(?:Strut All-In-One|All-In-One|AIO Vape|Cartridge|Disposable|Cliq Pod|Cliq Elite Pod|Briq|Distillate Vape|Live Resin Series|Live Terpene Vape|Pure Vape|Elite Pod|AiroPod|Mini Tank|Vape Cart|510 Cart|Pod)\\s*\\(', 'i'), 'vaporizers'],
+    // Edibles
+    [new RegExp(B + '(?:Macro Dosed Gummy|Gummies|Gummy|Chocolate|Chew|Lozenge|Mints|Confection|RSO Gummies|Quick Gummies|Classic Gummies|Gummie)\\s*\\(', 'i'), 'edible'],
+    [new RegExp(B + '(?:Seltzer|Social Soda|Beverage|Iced Tea|Hemp-Derived)\\s*\\(', 'i'), 'edible'],
+    // Concentrate
+    [new RegExp(B + '(?:Badder|Live Rosin|Live Resin|Rosin|Resin|Sugar|Sauce|Diamond|Concentrate|Wax|Crumble|Shatter|RSO Syringe)\\s*\\(', 'i'), 'concentrate'],
+    // Tincture
+    [new RegExp(B + '(?:Tincture|Oral|Capsule|Oil Syringe|Drops|Oil)\\s*\\(', 'i'), 'tincture'],
+    // Topical
+    [new RegExp(B + '(?:Topical|Balm|Cream|Lotion|Salve)\\s*\\(', 'i'), 'topical'],
+    // Accessories (will be filtered out)
+    [new RegExp(B + '(?:Hoodie|Tee|T-Shirt|Crewneck|Sweatsuit|Designer Polo|Beanie|Cuff Beanie|Dad Hat|Pom Hat|Mesh Hat|Hat|Candle|Pipe|Chillum|Rolling Tray|Grinder|Gift Card|Sticker|Pin)\\s*\\(', 'i'), 'accessories'],
   ];
+
   for (var i = 0; i < catPatterns.length; i++) {
     var m = block.match(catPatterns[i][0]);
     if (m) {
       var brand = m[1].trim().replace(/\d+$/, '').trim();
+      // Clean common prefixes that leak into brand
+      brand = brand.replace(/^.*?(?:Sponsored|For You|New Arrivals|Best Sellers)\s*/i, '').trim();
       return { brand: brand, category: catPatterns[i][1] };
     }
   }
+
+  // Fallback: try to detect category from keywords anywhere in block
+  if (/\bFlower\b/i.test(block) && /\bTHC\b/i.test(block)) return { brand: '', category: 'flower' };
+  if (/\bPre.?Roll|Shorties|Mini Dogs|Big Dog|Fatboy\b/i.test(block)) return { brand: '', category: 'pre-rolls' };
+  if (/\bVape|Cart|Disposable|AIO|Pod\b/i.test(block)) return { brand: '', category: 'vaporizers' };
+  if (/\bGummies|Gummy|Chocolate|Edible|Chew|Seltzer|Beverage\b/i.test(block)) return { brand: '', category: 'edible' };
+  if (/\bBadder|Rosin|Resin|Concentrate|Wax\b/i.test(block)) return { brand: '', category: 'concentrate' };
+
   return { brand: '', category: 'other' };
 }
 
@@ -40,8 +60,11 @@ function parseJaneProducts(text) {
   for (var i = 0; i < blocks.length; i++) {
     var block = blocks[i].trim();
     if (block.length < 15) continue;
-    if (block.includes('Gift Card') || block.includes('gift card')) continue;
-    if (block.length > 500) block = block.substring(block.length - 500);
+    if (/Gift Card/i.test(block) && !/THC/i.test(block)) continue;
+    if (block.length > 600) block = block.substring(block.length - 600);
+
+    // Clean section headers that get prepended
+    block = block.replace(/^.*?(?:Pre-Rolls For You|Flower For You|Vapes For You|Edibles For You|Concentrates For You|New Arrivals|Best Sellers|Deals|View all)\s*/i, '');
 
     // ─── PRICE ───
     var priceWeightMatch = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))\s*$/i);
@@ -56,9 +79,20 @@ function parseJaneProducts(text) {
       price = parseFloat(priceWeightMatch[1]);
       weight = priceWeightMatch[2].trim();
     } else {
+      // Last price is the main price (or sale price)
       price = parseFloat(allPrices[allPrices.length - 1].replace('$', ''));
     }
     if (!price || price <= 0 || price > 500) continue;
+
+    // Check for sale (two prices at end)
+    if (allPrices.length >= 2) {
+      var last = parseFloat(allPrices[allPrices.length - 1].replace('$', ''));
+      var secondLast = parseFloat(allPrices[allPrices.length - 2].replace('$', ''));
+      if (secondLast < last && secondLast > 0) {
+        price = secondLast;
+        originalPrice = last;
+      }
+    }
 
     // ─── CATEGORY + BRAND ───
     var catBrand = findCategoryAndBrand(block);
@@ -76,7 +110,7 @@ function parseJaneProducts(text) {
 
     // ─── PRODUCT NAME ───
     var name = '';
-    if (brand) {
+    if (brand && brand.length > 1) {
       var strainIdx = block.search(/(?:Sativa|Indica|Hybrid|CBD)(?=[A-Z])/i);
       if (strainIdx >= 0) {
         var afterStrain = block.substring(strainIdx).replace(/^(?:Sativa|Indica|Hybrid|CBD)/i, '');
@@ -98,14 +132,18 @@ function parseJaneProducts(text) {
       }
     }
     name = name.replace(/\s+/g, ' ').trim();
-    name = name.replace(/^(?:Only \d+ left|Popular|\d+% (?:back|OFF!?)|SALE!|New|Cash back|.*?View all\s*)+/gi, '').trim();
+    name = name.replace(/^(?:Only \d+ left|Popular|\d+% (?:back|OFF!?)|SALE!|New|Cash back|Sponsored|.*?View all\s*)+/gi, '').trim();
     if (name.length > 80) name = name.substring(0, 80).trim();
     if (name.length < 2) continue;
 
     // ─── WEIGHT ───
     if (!weight) {
-      var sizeMatch = block.match(/\((\d+\.?\d*)\s*[Gg]\)/);
-      if (sizeMatch) weight = sizeMatch[1] + 'g';
+      var sizeMatch = block.match(/\((\d+\.?\d*)\s*[Gg]\)/) || block.match(/\((\d+\.?\d*g)\s*x/i);
+      if (sizeMatch) weight = sizeMatch[1] + (sizeMatch[1].match(/g$/i) ? '' : 'g');
+      else {
+        var pkMatch = block.match(/(\d+)\s*pk\b/i);
+        if (pkMatch) weight = pkMatch[0];
+      }
     }
 
     // ─── DEAL ───
@@ -157,9 +195,10 @@ export async function scrapeBUDRCannabis(dispensary) {
     var page = await context.newPage();
 
     try {
-      // Step 1: Load store page and pass age gate
       await page.goto(dispensary.store_url, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(3000);
+
+      // Handle age gate
       try {
         var ageBtn = page.locator('button:has-text("Yes"), a:has-text("Yes")').first();
         if (await ageBtn.isVisible({ timeout: 3000 })) {
@@ -169,13 +208,16 @@ export async function scrapeBUDRCannabis(dispensary) {
         }
       } catch (e) {}
 
-      // Step 2: Navigate to /menu/all to see ALL products
-      var allUrl = dispensary.store_url.replace(/\/?$/, '/') + 'menu/all';
+      // Navigate to /menu/all using the REDIRECTED URL (some stores redirect)
+      var redirectedUrl = page.url();
+      // Extract base: e.g. "shop-tolland/menu/" → "shop-tolland/"
+      var baseUrl = redirectedUrl.replace(/\/menu\/?.*$/, '/');
+      var allUrl = baseUrl + 'menu/all';
       console.log('  [budrcannabis] Loading All Products: ' + allUrl);
       await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(8000);
 
-      // Step 3: Get total product count
+      // Get total product count
       var totalProducts = await page.evaluate(function() {
         var host = document.getElementById('shadow-host');
         if (!host || !host.shadowRoot) return 0;
@@ -185,8 +227,8 @@ export async function scrapeBUDRCannabis(dispensary) {
       });
       console.log('  [budrcannabis] Total products indicated: ' + totalProducts);
 
-      // Step 4: Click "View more" repeatedly to load ALL products
-      var maxClicks = Math.ceil(totalProducts / 20) + 5; // Safety margin
+      // Click "View more" repeatedly
+      var maxClicks = Math.ceil(totalProducts / 20) + 5;
       var lastCount = 0;
       var stableRounds = 0;
 
@@ -203,21 +245,15 @@ export async function scrapeBUDRCannabis(dispensary) {
             console.log('  [budrcannabis] Product count stabilized at ' + currentCount);
             break;
           }
-        } else {
-          stableRounds = 0;
-        }
+        } else { stableRounds = 0; }
         lastCount = currentCount;
 
-        // Click "View more" button inside shadow DOM
         var clicked = await page.evaluate(function() {
           var host = document.getElementById('shadow-host');
           if (!host || !host.shadowRoot) return false;
           var btns = host.shadowRoot.querySelectorAll('button');
           for (var i = 0; i < btns.length; i++) {
-            if (btns[i].textContent.trim() === 'View more') {
-              btns[i].click();
-              return true;
-            }
+            if (btns[i].textContent.trim() === 'View more') { btns[i].click(); return true; }
           }
           return false;
         });
@@ -228,26 +264,23 @@ export async function scrapeBUDRCannabis(dispensary) {
         }
 
         await page.waitForTimeout(1500);
-
-        // Also scroll down to trigger lazy rendering
         if (click % 3 === 0) {
           await page.evaluate(function() { window.scrollTo(0, document.body.scrollHeight); });
           await page.waitForTimeout(500);
         }
-
         if (click % 10 === 0 && click > 0) {
           console.log('  [budrcannabis] Loading... ' + currentCount + ' products after ' + click + ' clicks');
         }
       }
 
-      // Step 5: Final scroll to render everything
+      // Final scroll
       for (var s = 0; s < 20; s++) {
         await page.evaluate(function() { window.scrollBy(0, 800); });
         await page.waitForTimeout(150);
       }
       await page.waitForTimeout(2000);
 
-      // Step 6: Extract and parse
+      // Extract and parse
       var text = await page.evaluate(function() {
         var host = document.getElementById('shadow-host');
         if (host && host.shadowRoot) return host.shadowRoot.textContent || '';
