@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T04:19:01.909Z",
+  "lastUpdated": "2026-04-21T09:33:14.840Z",
   "dispensaries": [
     "affinity-bridgeport-med",
     "affinity-bridgeport-rec",
@@ -100,7 +100,11 @@
     "rejoice-seymour-med",
     "rejoice-seymour-rec",
     "rejoice-seymour",
+    "rise-branford-med",
+    "rise-branford-rec",
     "rise-branford",
+    "rise-orange-med",
+    "rise-orange-rec",
     "rise-orange",
     "rodeo-cannabis-rocky-hill-med",
     "rodeo-cannabis-rocky-hill-rec",
@@ -156,8 +160,8 @@
     "zen-leaf-waterbury-rec"
   ],
   "stats": {
-    "total": 33378,
-    "scraped": 115,
-    "alerts": 20912
+    "total": 35616,
+    "scraped": 117,
+    "alerts": 7709
   }
 }

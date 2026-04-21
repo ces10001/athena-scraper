@@ -1,0 +1,122 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Black Maple 22 (I) 01332",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 14g Black Maple 22 (I) 01332 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RYTHM 14G CREAMSICLE SUNSET (H) 01146",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - RYTHM 14G CREAMSICLE SUNSET (H) 01146 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Do Not Trip (H) 01284",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 14g Do Not Trip (H) 01284 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Creamsicle Sunset (H) 01287",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g Creamsicle Sunset (H) 01287 $180.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Lemon Drip (S) 01334",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g Lemon Drip (S) 01334 $180.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Black Maple 22 (I) 01306",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Black Maple 22 (I) 01306 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Cheddar Cheeze (I) 01273",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Cheddar Cheeze (I) 01273 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Confidential Cherries (I) 00985",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Confidential Cherries (I) 00985 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Creamsicle Sunset (H) 01115",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Creamsicle Sunset (H) 01115 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Do Not Trip (H) 01268",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Do Not Trip (H) 01268 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Dulce De Uva (I) 01162",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Dulce De Uva (I) 01162 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Grape Bubble G (H) 01198",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Grape Bubble G (H) 01198 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Jet Fuel (H) 01063",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Jet Fuel (H) 01063 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RYTHM 3.5G LEMON FRESH (S) 01196",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - RYTHM 3.5G LEMON FRESH (S) 01196 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Swamp Water Fumez (H) 01381",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Swamp Water Fumez (H) 01381 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Black Maple 22 (I) 01325",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Black Maple 22 (I) 01325 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower B Scout (I) 01241",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower B Scout (I) 01241 $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Confidential Cherries (I) 00992",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Confidential Cherries (I) 00992 $41.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Creamsicle Sunset (H) 01130",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Creamsicle Sunset (H) 01130 $41.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Jet Fuel (H) 01095",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Jet Fuel (H) 01095 $41.60"
+  }
+]

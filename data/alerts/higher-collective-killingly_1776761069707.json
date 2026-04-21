@@ -1,0 +1,578 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Fresh Kicks",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Fresh Kicks: $7.70 > $11.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cap Junk",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Cap Junk: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "FIND.",
+    "message": "FIND. PB Bites: $8.40 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "CTPharma Scout Breath: $16.50 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jungle Cake",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Jungle Cake: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "Savvy Red Gary: $8.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Diesel Bites",
+    "brand": "FIND.",
+    "message": "FIND. Diesel Bites: $11.20 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $9.80 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast-Acting Black Cherry",
+    "brand": "SoundView",
+    "message": "SoundView Fast-Acting Black Cherry: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gush Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Gush Mintz: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chemdawg Chem 91",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Chemdawg Chem 91: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tasty Jane",
+    "brand": "CTPharma",
+    "message": "CTPharma Tasty Jane: $22.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast-Acting Strawberry Kiwi",
+    "brand": "SoundView",
+    "message": "SoundView Fast-Acting Strawberry Kiwi: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "CTPharma",
+    "message": "CTPharma GMO: $16.50 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto Pre-Roll Minis",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Moonbeam Latto Pre-Roll Minis: $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Gorgeous",
+    "brand": "AGL",
+    "message": "AGL Regina Gorgeous: $16.80 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Maui Wowie",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Maui Wowie: $30.80 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bulbz",
+    "brand": "FIND.",
+    "message": "FIND. Bulbz: $9.80 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ched R Cheez",
+    "brand": "Grassroots",
+    "message": "Grassroots Ched R Cheez: $11.20 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Rainbows: $23.20 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria",
+    "brand": "FIND.",
+    "message": "FIND. Slingria: $49.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Delphi Diesel",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Delphi Diesel: $21.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Margarita RSO",
+    "brand": "SoundView",
+    "message": "SoundView Margarita RSO: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BlueZZZberry 5:1 CBN",
+    "brand": "SoundView",
+    "message": "SoundView BlueZZZberry 5:1 CBN: $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel: $39.44 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Magenta Dream",
+    "brand": "Savvy",
+    "message": "Savvy Magenta Dream: $8.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panama Red",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Panama Red: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Milk Chocolate RSO",
+    "brand": "Encore",
+    "message": "Encore Milk Chocolate RSO: $16.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Hot Guava",
+    "brand": "Curaleaf",
+    "message": "Curaleaf White Hot Guava: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $35.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting: $11.20 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Lime 5:1",
+    "brand": "SoundView",
+    "message": "SoundView Raspberry Lime 5:1: $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Live Resin Pink Lemonade",
+    "brand": "SoundView",
+    "message": "SoundView Live Resin Pink Lemonade: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Elite Moonburst",
+    "brand": "Select",
+    "message": "Select Elite Moonburst: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hi Life",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Hi Life: $37.12 > $64.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Singapore Sling Pre-Roll Minis",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Singapore Sling Pre-Roll Minis: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hi Life",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Hi Life: $8.12 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grape Bubble G Preroll Minis",
+    "brand": "AGL",
+    "message": "AGL Grape Bubble G Preroll Minis: $21.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flavor Series Briq 2.0 Mango Puff Briq",
+    "brand": "Select",
+    "message": "Select Flavor Series Briq 2.0 Mango Puff Briq: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Cider",
+    "brand": "SoundView",
+    "message": "SoundView Apple Cider: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba Fett",
+    "brand": "AGL",
+    "message": "AGL Bubba Fett: $21.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Afgooey",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Afgooey: $9.10 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "CTPharma",
+    "message": "CTPharma Lemon Cherry Sherb: $14.00 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Toasted S'mores Milk Chocolate",
+    "brand": "SoundView",
+    "message": "SoundView Toasted S'mores Milk Chocolate: $19.60 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Rainbows: $8.12 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Parfait",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Raspberry Parfait: $119.00 > $170.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Applescotti",
+    "brand": "CTPharma",
+    "message": "CTPharma Applescotti: $14.00 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Elite Tahoe OG",
+    "brand": "Select",
+    "message": "Select Elite Tahoe OG: $70.00 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Muffins",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Muffins: $31.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Dreamy 1:1 CBN",
+    "brand": "SoundView",
+    "message": "SoundView Berry Dreamy 1:1 CBN: $23.80 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Creamsicle Sunset",
+    "brand": "Rythm",
+    "message": "Rythm Creamsicle Sunset: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky: $23.10 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO Lucky Dugout",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Black Cherry GMO Lucky Dugout: $30.80 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wintergreen",
+    "brand": "SoundView",
+    "message": "SoundView Wintergreen: $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $22.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Acapulco Gold",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Acapulco Gold: $30.80 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky: $23.10 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ice Cream Cake Lucky Dugout",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Ice Cream Cake Lucky Dugout: $30.80 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flavor Series Briq 2.0 Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Flavor Series Briq 2.0 Orange Kookyz: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sugar Plum",
+    "brand": "SoundView",
+    "message": "SoundView Sugar Plum: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Kandi Jam",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Kandi Jam: $49.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Kush Cake: $27.84 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel: $9.28 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Legacy Series Briq 2.0 GMO",
+    "brand": "Select",
+    "message": "Select Legacy Series Briq 2.0 GMO: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jokerz",
+    "brand": "CTPharma",
+    "message": "CTPharma Jokerz: $25.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flavor Series Briq 2.0 Joocy Froot",
+    "brand": "Select",
+    "message": "Select Flavor Series Briq 2.0 Joocy Froot: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting: $11.20 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Elite LA Kush Cake",
+    "brand": "Select",
+    "message": "Select Elite LA Kush Cake: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Island Glaze",
+    "brand": "FIND.",
+    "message": "FIND. Island Glaze: $49.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Creamsicle Sunset",
+    "brand": "AGL",
+    "message": "AGL Creamsicle Sunset: $45.50 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Elite Sundae Slumber",
+    "brand": "Select",
+    "message": "Select Elite Sundae Slumber: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Legacy Series Briq 2.0 Casino Floor",
+    "brand": "Select",
+    "message": "Select Legacy Series Briq 2.0 Casino Floor: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG: $126.00 > $180.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Widow",
+    "brand": "Lucky Break",
+    "message": "Lucky Break White Widow: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wild Berries 1:1 CBD Dark Chocolate",
+    "brand": "SoundView",
+    "message": "SoundView Wild Berries 1:1 CBD Dark Chocolate: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flavor Series Briq 2.0 Banana Cream Cake",
+    "brand": "Select",
+    "message": "Select Flavor Series Briq 2.0 Banana Cream Cake: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Gorgeous",
+    "brand": "Good Green",
+    "message": "Good Green Regina Gorgeous: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Miami Stardust Live Rosin",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Miami Stardust Live Rosin: $34.00 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Pomme Jelly: $126.00 > $180.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flavor Series Briq 2.0 Sofa Sonata",
+    "brand": "Select",
+    "message": "Select Flavor Series Briq 2.0 Sofa Sonata: $87.50 > $125.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Yeet",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Yeet: $25.52 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Elite Sour Durban",
+    "brand": "Select",
+    "message": "Select Elite Sour Durban: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zuava Live Rosin",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Zuava Live Rosin: $40.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Red Gary Live Rosin",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Red Gary Live Rosin: $34.00 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Select Dosido: $84.00 > $120.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dieselato",
+    "brand": "CTPharma",
+    "message": "CTPharma Dieselato: $22.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mixed Berry 2:1 THC:CBN",
+    "brand": "SoundView",
+    "message": "SoundView Mixed Berry 2:1 THC:CBN: $25.20 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nimbus Snacks THCa Infused",
+    "brand": "CTPharma",
+    "message": "CTPharma Nimbus Snacks THCa Infused: $25.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "Savvy Red Gary: $25.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky: $18.20 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jokerz Live Rosin",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Jokerz Live Rosin: $34.00 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Legacy Series Briq 2.0 Sour Z",
+    "brand": "Select",
+    "message": "Select Legacy Series Briq 2.0 Sour Z: $87.50 > $125.00"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Original Glue",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Original Glue: $74.62 > $99.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zuava",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Zuava: $74.62 > $99.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Red Gary",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Red Gary: $74.62 > $79.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jokerz",
+    "brand": "On The Rocks",
+    "message": "On The Rocks Jokerz: $74.62 > $99.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $50.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Mint",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Mystic Mint"
+  }
+]
