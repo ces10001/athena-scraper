@@ -354,11 +354,17 @@ async function main() {
   var files = (await readdir(RESULTS_DIR)).filter(f => f.endsWith('.json'));
   if (files.length === 0) { console.error('No result files'); process.exit(1); }
 
-  // ═══ DEDUP: Skip old parent files + old-named remapped files ═══
+  // ═══ DEDUP: Skip old parent files + old-named remapped files + stale files ═══
+  var STALE_SLUGS = new Set(['higher-collective-hartford']); // No longer in config, stale data
   var fileSet = new Set(files.map(f => f.replace('.json', '')));
   var skippedOld = [];
   files = files.filter(function(f) {
     var slug = f.replace('.json', '');
+    // Rule 0: Skip explicitly stale files
+    if (STALE_SLUGS.has(slug)) {
+      skippedOld.push(slug + ' (stale)');
+      return false;
+    }
     // Rule 1: Skip parent files when rec/med split versions exist
     if (!slug.endsWith('-rec') && !slug.endsWith('-med')) {
       if (fileSet.has(slug + '-rec') || fileSet.has(slug + '-med')) {
