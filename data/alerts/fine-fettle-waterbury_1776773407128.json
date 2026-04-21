@@ -1,0 +1,110 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Mfns (H) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "CTPharma",
+    "message": "CTPharma Gush Mintz (I) Flower: $39.00 > $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem-band (H) Flower",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Chem-band (H) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Rythm",
+    "message": "New: Rythm - Cheddar Cheeze (I) Flower $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "Lil Budz Super Buff (H) Smalls: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) Rosin Roll Shorties 4pk (1.6g)",
+    "brand": "roll\n\nall:hours",
+    "message": "New: roll\n\nall:hours - Mule Fuel (H) Rosin Roll Shorties 4pk (1.6g) $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (S) Fatboy Infused Pre-Roll 1pk (2g)",
+    "brand": "roll\n\nSponsored\n\nTheraplant",
+    "message": "New: roll\n\nSponsored\n\nTheraplant - Colorado Flo (S) Fatboy Infused Pre-Roll 1pk (2g) $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghost Train Haze (S) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "roll\n\nAffinity Grow",
+    "message": "New: roll\n\nAffinity Grow - Ghost Train Haze (S) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy (S) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "New: roll\n\nMiss Grass - Durban Legacy (S) BH Infused Pre-Roll 1pk (1g) $22.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Diesel Bites (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nFind",
+    "message": "Gone: roll\n\nFind - Diesel Bites (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Hot Guava (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "Gone: roll\n\nGrassroots - White Hot Guava (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape Escape (I) Petal Puffer Disposable (0.5g)",
+    "brand": "Sponsored\n\nEdie Parker",
+    "message": "Gone: Sponsored\n\nEdie Parker - Grape Escape (I) Petal Puffer Disposable (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CTPharma Chemband (H) Vape Cartridge",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CTPharma Chemband (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dieselato (H) Live Resin Disposable Vape (1g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dieselato (H) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) Mini Tank Disposable (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rainbow Haze (S) Ready To Go Battery and Liquid Diamonds Pod Bundle (1g)",
+    "brand": "Sativa vape\n\nAiro",
+    "message": "Gone: Sativa vape\n\nAiro - Rainbow Haze (S) Ready To Go Battery and Liquid Diamonds Pod Bundle (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Z (S) BRIQ Legacy Series Disposable Vape (1g)"
+  }
+]

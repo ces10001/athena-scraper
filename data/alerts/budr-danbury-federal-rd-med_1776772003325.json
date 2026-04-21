@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Chew RSO Rainbow Rush Gummies S 00922 $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g Lemon Cherry Sherb H 26854",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g Lemon Cherry Sherb H 26854"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Flower 7g Blue Andeze I 27014",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Flower 7g Blue Andeze I 27014"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Zuava 1g Pre-Roll H 26973",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Zuava 1g Pre-Roll H 26973"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Tangie Crush S 26972",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Tangie Crush S 26972"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 14g Super Lemon G S 26930",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 14g Super Lemon G S 26930"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Berry Drip I 27040",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Berry Drip I 27040"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Strut AIO 2g Sour Bubble T1667 I 26843",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Strut AIO 2g Sour Bubble T1667 I 26843"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Strut AIO 2g Pinnacle T1714 H 26883",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Strut AIO 2g Pinnacle T1714 H 26883"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Hyphen AIO 2g Tahoe OG T1749 H 26784",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Hyphen AIO 2g Tahoe OG T1749 H 26784"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 28g Applescotti I 26932",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 28g Applescotti I 26932"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Strut AIO 2g Mango Puff T1755 I 26819",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Strut AIO 2g Mango Puff T1755 I 26819"
+  }
+]

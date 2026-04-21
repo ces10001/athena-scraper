@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Astro GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "Gone: Select - Banana Cream Cayk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kooykz"
+  }
+]

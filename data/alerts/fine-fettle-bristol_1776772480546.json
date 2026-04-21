@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Find",
+    "message": "Find PB Bites (S) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n WflZ (S) Flower $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Mfns (H) Flower: $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Bundle\n\nIndica flower\n\nGrassroots Zesty Garlic Kookyz (I) Flower: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fruit Punch (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Hybrid edible\n\nLucky Break Fruit Punch (H) Fast Acting Lucky Elixir (70g): $18.75 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Honey (H) (5.47oz)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Hybrid edible\n\nLucky Break Fast Acting Honey (H) (5.47oz): $18.75 > $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lime (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "New: Hybrid edible\n\nLucky Break - Watermelon Lime (H) Fast Acting Lucky Elixir (70g) $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti (S) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Bundle\n\nIndica flower\n\nGrassroots Astro GMO (I) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Bundle\n\nIndica flower\n\nGrassroots White Caps (I) Flower: $30.00 > $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's (H) part:timers Flower $41.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Black Maple (I) Flower: $39.00 > $34.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry Orange Lime (H) X Bites (4.85mg 20pk)",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime (H) X Bites (4.85mg 20pk): $20.00 > $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "New: Craic - Milk (H) Fast Acting Chocolate (4.64mg 20pk) $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger (I) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.95mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.95mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Dark (H) Fast Acting Chocolate (4.75mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)",
+    "brand": "back\n\nIndica edible\n\nCoast Cannabis Co.",
+    "message": "Gone: back\n\nIndica edible\n\nCoast Cannabis Co. - Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Spearmint (H) Lucky Spritz (10g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Spearmint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Orange Z (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BLB (H) Flower",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - BLB (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apes In Space (I) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Apes In Space (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)",
+    "brand": "Edible\n\nTheraplant",
+    "message": "Gone: Edible\n\nTheraplant - Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)"
+  }
+]

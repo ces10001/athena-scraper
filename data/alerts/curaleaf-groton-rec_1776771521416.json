@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tropical Heatwave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Grape"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Lemonade",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Pink Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Atomic Breath"
+  }
+]

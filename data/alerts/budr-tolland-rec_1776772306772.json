@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy 1g Big Ray T27.46% H 00906",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy 1g Big Ray T27.46% H 00906 $16.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958"
+  }
+]

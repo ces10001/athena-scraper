@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Afternoon Delight #4 (H) Flower",
+    "brand": "Rythm",
+    "message": "Rythm Afternoon Delight #4 (H) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Sponsored\n\nRythm",
+    "message": "Sponsored\n\nRythm Cheddar Cheeze (I) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Pi (S) Flower",
+    "brand": "Sponsored\n\nTheraplant",
+    "message": "New: Sponsored\n\nTheraplant - Berry Pi (S) Flower $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Find",
+    "message": "New: Find - Gas Lit (H) Flower $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Blue Razzberry (H) Gummies (4.3mg THC 5.2mg CBG 20pk)",
+    "brand": "back\n\nHybrid edible\n\nSponsored\n\ninc.edibles",
+    "message": "back\n\nHybrid edible\n\nSponsored\n\ninc.edibles Sour Blue Razzberry (H) Gummies (4.3mg THC 5.2mg CBG 20pk): $20.00 > $18.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Sponsored\n\nTheraplant",
+    "message": "Gone: Sponsored\n\nTheraplant - Black Cherry GMO (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)"
+  }
+]

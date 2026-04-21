@@ -1,0 +1,158 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "Find",
+    "message": "Find Tropical Heatwave (H) Flower: $79.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Lil Budz",
+    "message": "Lil Budz Purple Milk (I) Smalls: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pomme Jelly (S) Flower $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hippie Crasher (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Hippie Crasher (I) Flower $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nCTPharma",
+    "message": "roll\n\nCTPharma Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g): $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "E85 (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nCTPharma",
+    "message": "roll\n\nCTPharma E85 (S) 0.4g Pre-Rolls 5pk (2g): $29.00 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Chemdawg (H) BH Infused Pre-Roll 1pk (1g): $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g): $22.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g): $24.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "roll\n\nAffinity Grow",
+    "message": "roll\n\nAffinity Grow Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g): $25.00 > $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB (H) Milk Chocolate Cups (4.9mg 10pk)",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - PB (H) Milk Chocolate Cups (4.9mg 10pk) $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake (I) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake (I) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "B Scout (I) Flower",
+    "brand": "Sponsored\n\nRythm",
+    "message": "Sponsored\n\nRythm B Scout (I) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel (H) Flower $33.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Animal Face (I) Flower",
+    "brand": "Sponsored\n\nRythm",
+    "message": "Sponsored\n\nRythm Animal Face (I) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz (I) Flower: $90.00 > $79.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke (I) Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Ice Cream Cke (I) Infused Pre-Roll 1pk (1g): $20.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jelly Brains (I) Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Jelly Brains (I) Infused Pre-Roll 1pk (1g): $20.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Face (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Gas Face (H) 0.4g Pre-Rolls 5pk (2g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel (H) Rosin Roll Shorties 4pk (1.6g)",
+    "brand": "roll\n\nall:hours",
+    "message": "roll\n\nall:hours Mule Fuel (H) Rosin Roll Shorties 4pk (1.6g): $42.00 > $37.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Push OG (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nRodeo Cannabis",
+    "message": "roll\n\nRodeo Cannabis Push OG (I) 1g Pre-Roll 1pk (1g): $12.00 > $11.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis Permanent Marker (I) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Sunset Kush (I) BH Infused Pre-Roll 1pk (1g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdawg (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Chemdawg (H) 0.4g Pre-Rolls 5pk (2g): $30.00 > $26.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Gas Lit (H) Flower"
+  }
+]
