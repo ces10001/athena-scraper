@@ -5,11 +5,12 @@ import { scrapeSweed } from './adapters/sweed.mjs';
 import { scrapeFineFettle } from './adapters/finefettle.mjs';
 import { scrapeJane } from './adapters/jane.mjs';
 import { scrapeBUDRCannabis } from './adapters/budrcannabis.mjs';
+import { scrapeRise } from './adapters/rise.mjs';
 import { validateProduct } from './lib/normalizer.mjs';
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync, readdirSync } from 'fs';
 
-var ADAPTERS = { dutchie: scrapeDutchie, sweed: scrapeSweed, finefettle: scrapeFineFettle, jane: scrapeJane, budrcannabis: scrapeBUDRCannabis };
+var ADAPTERS = { dutchie: scrapeDutchie, sweed: scrapeSweed, finefettle: scrapeFineFettle, jane: scrapeJane, budrcannabis: scrapeBUDRCannabis, rise: scrapeRise };
 
 function parseArgs() {
   var args = process.argv.slice(2);
@@ -77,6 +78,7 @@ async function main() {
     if (d.platform === 'finefettle' && !d.store_ids) return false;
     if (d.platform === 'jane' && !d.jane_stores) return false;
     if (d.platform === 'budrcannabis' && !d.store_url) return false;
+    if (d.platform === 'rise' && !d.rise_url) return false;
     if (opts.platform && d.platform !== opts.platform) return false;
     if (opts.name && !d.name.toLowerCase().includes(opts.name.toLowerCase())) return false;
     return true;
