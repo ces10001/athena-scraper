@@ -135,8 +135,8 @@ export const CT_DISPENSARIES = [
   ] },
 
   // ═══ AFFINITY (4 = 2 stores × 2 for rec/med split) ═══
-  { name: "Affinity - Bridgeport (Rec)", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699", menu_type: "rec" },
-  { name: "Affinity - Bridgeport (Med)", city: "Bridgeport", platform: "dutchie", dispensary_id: "5e584d89cff4460075f52699", menu_type: "med" },
+  { name: "Affinity - Bridgeport (Rec)", city: "Bridgeport", platform: "dutchie", dispensary_id: "654265e5dce3df00096862de" },
+  { name: "Affinity - Bridgeport (Med)", city: "Bridgeport", platform: "dutchie", dispensary_id: "658f327ade1ce70009edcfcd" },
   { name: "Affinity - New Haven (Med)", city: "New Haven", platform: "dutchie", dispensary_id: "629fa02faca88d009d0958af" },
   { name: "Affinity - New Haven (Rec)", city: "New Haven", platform: "dutchie", dispensary_id: "63b84677d97a120083972651" },
 ];
