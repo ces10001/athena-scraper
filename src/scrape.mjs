@@ -87,11 +87,11 @@ async function main() {
   console.log('Targets: ' + targets.length + ' dispensaries\n');
   var stats = { total: targets.length, ok: 0, fail: 0, products: 0, alerts: 0, errors: [] };
 
-  for (var i = 0; i < targets.length; i++) {
-    var dispensary = targets[i];
+  // ─── Process a single dispensary ───
+  async function processOne(dispensary) {
     try {
       var adapter = ADAPTERS[dispensary.platform];
-      if (!adapter) { stats.fail++; continue; }
+      if (!adapter) { stats.fail++; return; }
 
       var result = await adapter(dispensary);
       var valid = result.products.filter(function(p) { return validateProduct(p).length === 0; });
@@ -122,6 +122,43 @@ async function main() {
       console.error('[error] ' + dispensary.name + ': ' + err.message);
       stats.fail++;
       stats.errors.push(dispensary.name + ': ' + err.message);
+    }
+  }
+
+  // ─── Run items in parallel batches ───
+  async function runBatch(items, concurrency) {
+    for (var i = 0; i < items.length; i += concurrency) {
+      var batch = items.slice(i, i + concurrency);
+      await Promise.all(batch.map(processOne));
+    }
+  }
+
+  // ─── Group by platform and run with appropriate concurrency ───
+  var apiPlatforms = ['dutchie', 'sweed']; // HTTP-based, safe to parallelize
+  var browserPlatforms = ['finefettle', 'budrcannabis', 'rise', 'jane']; // Browser-based, run sequentially
+
+  var apiTargets = targets.filter(function(d) { return apiPlatforms.includes(d.platform); });
+  var browserTargets = targets.filter(function(d) { return browserPlatforms.includes(d.platform); });
+
+  // Run API-based stores in parallel (8 at a time for Dutchie GraphQL, 5 for Sweed HTTP)
+  if (apiTargets.length > 0) {
+    var dutchieTargets = apiTargets.filter(function(d) { return d.platform === 'dutchie'; });
+    var sweedTargets = apiTargets.filter(function(d) { return d.platform === 'sweed'; });
+
+    console.log('── API-based: ' + dutchieTargets.length + ' Dutchie + ' + sweedTargets.length + ' Sweed (parallel) ──');
+    
+    // Run Dutchie and Sweed in parallel with each other, batched internally
+    await Promise.all([
+      runBatch(dutchieTargets, 8),
+      runBatch(sweedTargets, 5),
+    ]);
+  }
+
+  // Run browser-based stores sequentially (they launch Chrome)
+  if (browserTargets.length > 0) {
+    console.log('── Browser-based: ' + browserTargets.length + ' stores (sequential) ──');
+    for (var i = 0; i < browserTargets.length; i++) {
+      await processOne(browserTargets[i]);
     }
   }
 
