@@ -1,9 +1,10 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
 /* ═══════════════════════════════════════
-   RISE ADAPTER
+   RISE ADAPTER — v2
    Scrapes Rise dispensaries at risecannabis.com
-   Loops through categories with ?refinementList[root_types][] and paginates with &page=N
+   Navigates to each category page via ?refinementList[root_types][]
+   Rise renders ~24 products per category page (no working pagination)
    ═══════════════════════════════════════ */
 
 var RISE_CATEGORIES = [
@@ -14,7 +15,6 @@ var RISE_CATEGORIES = [
   { slug: 'extract', category: 'concentrate' },
   { slug: 'tincture', category: 'tincture' },
   { slug: 'topical', category: 'topical' },
-  { slug: 'cbd', category: 'cbd' },
 ];
 
 function parseRiseBlocks(text, fallbackCategory) {
@@ -28,15 +28,15 @@ function parseRiseBlocks(text, fallbackCategory) {
     if (block.length > 600) block = block.substring(block.length - 600);
 
     // Rise format is newline-separated (bottom-up):
-    // $OrigPrice (optional)
-    // $SalePrice
-    // Size (optional)
-    // THC info
-    // Category type
-    // Product name
-    // [Discount]
+    // [Strain]
+    // [Discount like "20% OFF" or "20% OFF 1/4 OZ"]
     // Brand
-    // Strain
+    // Product name
+    // Category type
+    // THC info
+    // [Size]
+    // $SalePrice
+    // [$OrigPrice]
 
     var lines = block.split('\n').map(function(l) { return l.trim(); }).filter(function(l) { return l.length > 0; });
     if (lines.length < 3) continue;
@@ -55,8 +55,8 @@ function parseRiseBlocks(text, fallbackCategory) {
     // Parse from bottom up
     var li = lines.length - 1;
 
-    // Prices (1-2 lines of $XX.XX)
-    while (li >= 0 && lines[li].match(/^\$\d/)) {
+    // Prices
+    while (li >= 0 && lines[li].match(/^\$/)) {
       var p = parseFloat(lines[li].replace('$', '').replace(',', ''));
       if (!price) price = p;
       else if (p > price) originalPrice = p;
@@ -65,13 +65,13 @@ function parseRiseBlocks(text, fallbackCategory) {
     }
     if (!price || price <= 0 || price > 500) continue;
 
-    // Size line (optional): "1g", "3.5g", "28g", "1 oz", etc.
+    // Size (optional)
     if (li >= 0 && lines[li].match(/^\d+\.?\d*\s*(?:g|mg|ml|oz|pk)\b/i)) {
       weight = lines[li];
       li--;
     }
 
-    // THC/CBD line(s)
+    // THC/CBD line
     if (li >= 0 && (lines[li].match(/THC/i) || lines[li].match(/CBD/i) || lines[li].match(/^\d+\.?\d*\s*mg/))) {
       var thcLine = lines[li];
       var thcM = thcLine.match(/THC\s*(\d+\.?\d*)%?/i);
@@ -85,7 +85,7 @@ function parseRiseBlocks(text, fallbackCategory) {
       li--;
     }
 
-    // Category/type line: "Premium Flower", "Cartridge", "5 Pack Pre Roll"
+    // Category line
     if (li >= 0) {
       categoryLine = lines[li];
       li--;
@@ -97,14 +97,14 @@ function parseRiseBlocks(text, fallbackCategory) {
       li--;
     }
 
-    // Discount line (optional): "20% OFF"
-    if (li >= 0 && lines[li].match(/^\d+%\s*OFF$/i)) {
-      discount = lines[li];
+    // Discount line (optional) — matches "20% OFF", "20% OFF 1/4 OZ", etc.
+    if (li >= 0 && lines[li].match(/^\d+%\s*OFF/i)) {
+      discount = lines[li].match(/(\d+)%\s*OFF/i)[0];
       li--;
     }
 
     // Brand line
-    if (li >= 0) {
+    if (li >= 0 && !lines[li].match(/^(Sativa|Indica|Hybrid|CBD)$/i)) {
       brand = lines[li];
       li--;
     }
@@ -113,20 +113,25 @@ function parseRiseBlocks(text, fallbackCategory) {
     if (li >= 0 && lines[li].match(/^(Sativa|Indica|Hybrid|CBD)$/i)) {
       strain = lines[li].toLowerCase();
     }
+    // Also check if brand was actually the strain
+    if (!strain && brand.match(/^(Sativa|Indica|Hybrid)$/i)) {
+      strain = brand.toLowerCase();
+      brand = '';
+    }
 
     if (!name || name.length < 2) continue;
 
     // Skip accessories/merch
     var catLower = (categoryLine + ' ' + name).toLowerCase();
-    if (/chillum|shirt|hoodie|hat|grinder|pipe|rolling tray|sticker|sweatsuit|poster|candle/i.test(catLower)) continue;
+    if (/chillum|shirt|hoodie|hat|grinder|pipe|rolling tray|sticker|sweatsuit|poster|candle|jersey|shorts|socks/i.test(catLower)) continue;
 
-    // Map category from the page category line, fallback to URL category
+    // Map category from line, fallback to URL category
     var category = fallbackCategory || 'other';
     var cl = categoryLine.toLowerCase();
-    if (/flower|premium flower|smalls|ground/i.test(cl)) category = 'flower';
-    else if (/pre roll|pre-roll|shorties|blunt/i.test(cl)) category = 'pre-rolls';
-    else if (/cart|vape|disposable|pod|briq|all.in.one/i.test(cl)) category = 'vaporizers';
-    else if (/gummy|gummies|chocolate|edible|chew|lozenge|mint/i.test(cl)) category = 'edible';
+    if (/flower|premium flower|smalls|ground|mixed buds|whole buds|select grind/i.test(cl)) category = 'flower';
+    else if (/pre.?roll|shorties|blunt|mini dogs|big dog|fatboy|minis|party pack/i.test(cl)) category = 'pre-rolls';
+    else if (/cart|vape|disposable|pod|briq|all.in.one|mini tank/i.test(cl)) category = 'vaporizers';
+    else if (/gummy|gummies|chocolate|edible|chew|lozenge|mint|confection/i.test(cl)) category = 'edible';
     else if (/seltzer|soda|beverage|tea|drink/i.test(cl)) category = 'edible';
     else if (/concentrate|badder|rosin|resin|sugar|sauce|diamond|wax/i.test(cl)) category = 'concentrate';
     else if (/tincture|capsule|oral|syringe/i.test(cl)) category = 'tincture';
@@ -182,83 +187,52 @@ export async function scrapeRise(dispensary) {
 
     var allProducts = new Map();
     var errors = [];
-    var baseUrl = dispensary.rise_url.replace(/\/?$/, '/');
+    var baseUrl = dispensary.rise_url.replace(/\/?$/, '');
+
+    // Use a single page for all categories
+    var page = await context.newPage();
 
     for (var c = 0; c < RISE_CATEGORIES.length; c++) {
       var cat = RISE_CATEGORIES[c];
-      var catUrl = baseUrl + '?refinementList[root_types][]=' + cat.slug;
-      var page = null;
+      var catUrl = baseUrl + '/?refinementList%5Broot_types%5D%5B%5D=' + cat.slug;
 
       try {
-        page = await context.newPage();
         await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await page.waitForTimeout(6000);
 
-        // Get total product count from "N PRODUCTS" text
+        // Check product count
         var totalForCat = await page.evaluate(function() {
           var m = document.body.innerText.match(/(\d+)\s*PRODUCTS/i);
           return m ? parseInt(m[1]) : 0;
         });
 
-        if (totalForCat === 0) {
-          await page.close();
-          continue;
-        }
+        if (totalForCat === 0) continue;
 
-        var totalPages = Math.ceil(totalForCat / 24);
-        console.log('  [rise] ' + cat.slug + ': ' + totalForCat + ' products (' + totalPages + ' pages)');
+        console.log('  [rise] ' + cat.slug + ': ' + totalForCat + ' products');
 
-        // Parse page 1
-        for (var s = 0; s < 15; s++) {
+        // Scroll to render all visible products
+        for (var s = 0; s < 20; s++) {
           await page.evaluate(function() { window.scrollBy(0, 600); });
-          await page.waitForTimeout(150);
+          await page.waitForTimeout(200);
         }
-        await page.waitForTimeout(1000);
+        await page.waitForTimeout(1500);
 
         var text = await page.evaluate(function() { return document.body.innerText || ''; });
-        var pageProducts = parseRiseBlocks(text, cat.category);
-        for (var p = 0; p < pageProducts.length; p++) {
-          allProducts.set(pageProducts[p].external_id, pageProducts[p]);
+        var catProducts = parseRiseBlocks(text, cat.category);
+
+        for (var p = 0; p < catProducts.length; p++) {
+          allProducts.set(catProducts[p].external_id, catProducts[p]);
         }
 
-        await page.close();
-        page = null;
+        console.log('  [rise] ' + cat.slug + ': parsed ' + catProducts.length + ' of ' + totalForCat);
 
-        // Parse remaining pages
-        for (var pg = 2; pg <= totalPages; pg++) {
-          try {
-            page = await context.newPage();
-            var pgUrl = catUrl + '&page=' + pg;
-            await page.goto(pgUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-            await page.waitForTimeout(5000);
-
-            for (var s2 = 0; s2 < 15; s2++) {
-              await page.evaluate(function() { window.scrollBy(0, 600); });
-              await page.waitForTimeout(150);
-            }
-            await page.waitForTimeout(1000);
-
-            var pgText = await page.evaluate(function() { return document.body.innerText || ''; });
-            var pgProducts = parseRiseBlocks(pgText, cat.category);
-            for (var pp = 0; pp < pgProducts.length; pp++) {
-              allProducts.set(pgProducts[pp].external_id, pgProducts[pp]);
-            }
-
-            await page.close();
-            page = null;
-          } catch (pgErr) {
-            console.warn('  [rise] ' + cat.slug + ' page ' + pg + ' failed: ' + pgErr.message);
-            try { if (page) await page.close(); } catch(e) {}
-            page = null;
-          }
-        }
       } catch (catErr) {
         errors.push(cat.slug + ': ' + catErr.message);
         console.warn('  [rise] ' + cat.slug + ' error: ' + catErr.message);
-        try { if (page) await page.close(); } catch(e) {}
       }
     }
 
+    await page.close();
     await context.close();
     await browser.close();
 
