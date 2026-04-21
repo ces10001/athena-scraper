@@ -1,15 +1,15 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-var CATEGORIES = ['flower', 'pre-rolls', 'vape-pens', 'concentrates', 'edibles', 'drinks', 'wellness'];
+// Updated category slugs (as of April 2026)
+var CATEGORIES = ['flower', 'pre-roll', 'vape', 'edible', 'tincture', 'topical'];
 
 var CAT_MAP = {
   'flower': 'flower',
-  'pre-rolls': 'pre-rolls',
-  'vape-pens': 'vaporizers',
-  'concentrates': 'concentrate',
-  'edibles': 'edible',
-  'drinks': 'edible',
-  'wellness': 'tincture',
+  'pre-roll': 'pre-rolls',
+  'vape': 'vaporizers',
+  'edible': 'edible',
+  'tincture': 'tincture',
+  'topical': 'topical',
 };
 
 function parseProductsFromText(text, category) {
@@ -21,15 +21,55 @@ function parseProductsFromText(text, category) {
     var block = blocks[i].trim();
     if (block.length < 20) continue;
 
-    var nameMatch = block.match(/([A-Za-z][A-Za-z\s.:'!&]+?)\s*-\s*([^\n$]+?)\s*(C\d{7,})/);
-    if (!nameMatch) continue;
+    // Find the product line with a C-code (e.g. C0140000207)
+    var skuCode = null;
+    var brand = '';
+    var rawName = '';
 
-    var brand = nameMatch[1].trim();
-    var rawName = nameMatch[2].trim();
-    var skuCode = nameMatch[3];
+    // Pattern 1: "Brand - Name CXXXXXXX" (standard with dash)
+    var nameMatch = block.match(/([A-Za-z][A-Za-z\s.:'!&]+?)\s*-\s*([^\n$]+?)\s+(C\d{7,})/);
+    if (nameMatch) {
+      brand = nameMatch[1].trim();
+      rawName = nameMatch[2].trim();
+      skuCode = nameMatch[3];
+    }
 
+    if (!skuCode) {
+      // Pattern 2: Find any line with a C-code and parse around it
+      var lines = block.split('\n').map(function(l) { return l.trim(); }).filter(function(l) { return l.length > 0; });
+      for (var li = 0; li < lines.length; li++) {
+        var cMatch = lines[li].match(/^(.+?)\s+(C\d{7,})/);
+        if (cMatch) {
+          skuCode = cMatch[2];
+          var fullName = cMatch[1].trim();
+          var dashSplit = fullName.split(' - ');
+          if (dashSplit.length >= 2) {
+            brand = dashSplit[0].trim();
+            rawName = dashSplit.slice(1).join(' - ').trim();
+          } else {
+            rawName = fullName;
+            // Look for brand on the next line (Fine Fettle shows "Brand Category" below product name)
+            if (li + 1 < lines.length) {
+              var nextLine = lines[li + 1].trim();
+              // Brand line is usually short and followed by category word
+              var brandMatch = nextLine.match(/^([A-Za-z][A-Za-z\s.'!&]+?)(?:\s+(?:Flower|Vape|Pre-Roll|Edible|Tincture|Topical|Cartridge|Disposable|Gummy|Gummies|Concentrate|Capsule))/i);
+              if (brandMatch) brand = brandMatch[1].trim();
+              else if (nextLine.length < 30 && nextLine.match(/^[A-Z]/)) brand = nextLine.split(/\s+/)[0];
+            }
+          }
+          break;
+        }
+      }
+    }
+
+    if (!skuCode) continue;
     if (seen[skuCode]) continue;
     seen[skuCode] = true;
+
+    // Clean up brand - remove strain type prefix that sometimes appears
+    brand = brand.replace(/^(?:Sativa|Indica|Hybrid|CBD)\s+(?:flower|vape|edible|pre-roll|tincture|topical|concentrate)\s*/i, '').trim();
+    // Remove "OFF\n\n" prefix from sale items
+    brand = brand.replace(/^OFF\s*/i, '').trim();
 
     var strainMatch = block.match(/\b(Sativa|Indica|Hybrid)\b/i);
     var strain = strainMatch ? strainMatch[1].toLowerCase() : null;
@@ -40,7 +80,9 @@ function parseProductsFromText(text, category) {
     var cbdMatch = block.match(/CBD\s*(\d+\.?\d*)%?/);
     var cbd = cbdMatch ? parseFloat(cbdMatch[1]) : null;
 
+    // Parse prices - formats: "$55/1g", "$25/3.5g", "$60", "$45.00"
     var priceWeightPairs = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/gi) || [];
+    var plainPrices = block.match(/\$(\d+\.?\d*)/g) || [];
 
     var salePrice = null;
     var originalPrice = null;
@@ -59,9 +101,23 @@ function parseProductsFromText(text, category) {
     } else if (priceWeightPairs.length === 1) {
       var m = priceWeightPairs[0].match(/\$(\d+\.?\d*)\/(.+)/);
       if (m) { salePrice = parseFloat(m[1]); weight = m[2].trim(); }
+    } else if (plainPrices.length >= 2) {
+      var pp1 = parseFloat(plainPrices[0].replace('$', ''));
+      var pp2 = parseFloat(plainPrices[1].replace('$', ''));
+      if (pp1 < pp2) { salePrice = pp1; originalPrice = pp2; }
+      else { salePrice = pp1; }
+    } else if (plainPrices.length === 1) {
+      salePrice = parseFloat(plainPrices[0].replace('$', ''));
     }
 
-    if (!salePrice) continue;
+    if (!salePrice || salePrice <= 0 || salePrice > 600) continue;
+
+    // Extract weight from name if not from price
+    if (!weight) {
+      var wMatch = rawName.match(/\((\d+\.?\d*\s*g)\)/i) || rawName.match(/\b(\d+\.?\d*)\s*g\b/i) ||
+                   rawName.match(/\b(\d+)\s*mg\b/i) || block.match(/\b(\d+\.?\d*)\s*(?:g|mg)\b/i);
+      if (wMatch) weight = wMatch[1] || wMatch[0];
+    }
 
     var discountMatch = block.match(/(\d+)%\s*OFF/i);
     var discount = discountMatch ? discountMatch[1] + '% Off' : null;
@@ -139,13 +195,14 @@ export async function scrapeFineFettle(dispensary) {
         try {
           page = await context.newPage();
           await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-          await page.waitForTimeout(5000);
+          await page.waitForTimeout(6000);
 
-          for (var scroll = 0; scroll < 15; scroll++) {
+          // Scroll to load all products
+          for (var scroll = 0; scroll < 20; scroll++) {
             await page.evaluate(function() { window.scrollBy(0, 800); });
-            await page.waitForTimeout(150);
+            await page.waitForTimeout(200);
           }
-          await page.waitForTimeout(1000);
+          await page.waitForTimeout(1500);
 
           var text = await page.evaluate(function() {
             var main = document.querySelector('main');
@@ -153,6 +210,8 @@ export async function scrapeFineFettle(dispensary) {
           });
 
           var products = parseProductsFromText(text, cat);
+          console.log('  [finefettle] ' + store.type + '/' + cat + ': ' + products.length + ' products');
+
           for (var p = 0; p < products.length; p++) {
             var key = products[p].external_id;
             if (!allProducts.has(key)) allProducts.set(key, products[p]);
@@ -161,6 +220,7 @@ export async function scrapeFineFettle(dispensary) {
           await page.close();
         } catch (err) {
           errors.push(store.type + '/' + cat + ': ' + err.message);
+          console.warn('  [finefettle] ' + store.type + '/' + cat + ' error: ' + err.message);
           try { if (page) await page.close(); } catch(e) {}
         }
       }
