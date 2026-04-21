@@ -77,13 +77,30 @@ async function fetchAllProducts(p, dispensaryId, pricingType) {
   }, { dispensaryId, hash: HASH, pricingType });
 }
 
-function normalizeDutchieProduct(raw) {
+function normalizeDutchieProduct(raw, menuType) {
   var recPrice = raw.recPrices?.[0] ?? raw.Prices?.[0] ?? null;
   var medPrice = raw.medicalPrices?.[0] ?? null;
   var recSpecial = raw.recSpecialPrices?.[0] ?? null;
   var medSpecial = raw.medicalSpecialPrices?.[0] ?? null;
   var hasRecSpecial = recSpecial != null && recSpecial > 0;
   var hasMedSpecial = medSpecial != null && medSpecial > 0;
+
+  // Use correct pricing based on menu type
+  var price, originalPrice;
+  if (menuType === 'med') {
+    price = hasMedSpecial ? medSpecial : (medPrice || recPrice);
+    originalPrice = hasMedSpecial ? medPrice : null;
+  } else {
+    price = hasRecSpecial ? recSpecial : recPrice;
+    originalPrice = hasRecSpecial ? recPrice : null;
+  }
+
+  // Build deal description from specials data
+  var dealDesc = raw.special?.name || raw.specialData?.[0]?.name || null;
+  if (!dealDesc && originalPrice && originalPrice > price) {
+    var pctOff = Math.round((1 - price / originalPrice) * 100);
+    dealDesc = pctOff + '% Off';
+  }
 
   var normalized = normalizeProduct({
     external_id: raw.id || raw._id,
@@ -92,13 +109,13 @@ function normalizeDutchieProduct(raw) {
     category: raw.type || '',
     subcategory: raw.subcategory || null,
     strain_type: raw.strainType || null,
-    price: hasRecSpecial ? recSpecial : recPrice,
-    original_price: hasRecSpecial ? recPrice : null,
+    price: price,
+    original_price: originalPrice,
     weight_label: raw.Options?.[0] || null,
     thc_pct: raw.THCContent?.range?.[0] ?? null,
     cbd_pct: raw.CBDContent?.range?.[0] ?? null,
     in_stock: raw.Status === 'Active',
-    deal_description: raw.special?.name || raw.specialData?.[0]?.name || null,
+    deal_description: dealDesc,
     image_url: raw.Image || null,
     product_url: null,
   });
@@ -181,7 +198,7 @@ export async function scrapeDutchie(dispensary) {
     // Normalize and filter
     var normalized = [];
     for (var raw of allProducts.values()) {
-      var prod = normalizeDutchieProduct(raw);
+      var prod = normalizeDutchieProduct(raw, menuType);
       var cat = (prod.category || '').toLowerCase();
       if (cat === 'accessories' || cat === 'apparel') continue;
       if (validateProduct(prod).length > 0) continue;
