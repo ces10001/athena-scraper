@@ -1,0 +1,62 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 14g Apes In Space (I) TC 24.28% 00879",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 14g Apes In Space (I) TC 24.28% 00879 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Mule Fuel Bubble Hash Infused Shorties 41621",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Mule Fuel Bubble Hash Infused Shorties 41621 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spearmint Lucky Spritz 0061",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Spearmint Lucky Spritz 0061 $27.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower -Suga T's 0102",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower -Suga T's 0102 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - SBC 0109",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower - SBC 0109 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - Next level 0108",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower - Next level 0108 $58.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RYTHM 3.5G B SCOUT (I) 01324",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - RYTHM 3.5G B SCOUT (I) 01324"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bachelor Party 1g BHO Vape T811 H 00927",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Bachelor Party 1g BHO Vape T811 H 00927"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy Infused Lil' Ricky's T44.20% H 00916",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy Infused Lil' Ricky's T44.20% H 00916"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy 1g Big Ray T27.46% H 00906",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy 1g Big Ray T27.46% H 00906"
+  }
+]

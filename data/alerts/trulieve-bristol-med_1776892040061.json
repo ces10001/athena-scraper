@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rainbow Parade Infused Gems (THC:CBD:CBG) 20pk - 00482",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - Rainbow Parade Infused Gems (THC:CBD:CBG) 20pk - 00482 $27.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Miami Stardust Small Flower 25.85 % (S) 7g - 26873",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Miami Stardust Small Flower 25.85 % (S) 7g - 26873"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger Flower - 01389",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger Flower - 01389"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Theraplant Gangsta Grillz Infused Shorties 35.5 % (I) 1.6g 4 Pack - 01695",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Theraplant Gangsta Grillz Infused Shorties 35.5 % (I) 1.6g 4 Pack - 01695"
+  }
+]

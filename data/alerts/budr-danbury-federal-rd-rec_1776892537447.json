@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Comffy Fritterz Flower H 3.5g 29.46%",
+    "brand": "00203Comffy",
+    "message": "New: 00203Comffy - Comffy Fritterz Flower H 3.5g 29.46% $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|",
+    "brand": "Jai Alai 00198Comffy",
+    "message": "New: Jai Alai 00198Comffy - Comffy|Flower 3.5g| $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 0.5g 7pk|",
+    "brand": "Starstruck 00127Comffy7 Pack",
+    "message": "New: Starstruck 00127Comffy7 Pack - Comffy|PreRoll 0.5g 7pk| $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Vape 510 1g|",
+    "brand": "Cherry Bomb 00207ComffyVape",
+    "message": "New: Cherry Bomb 00207ComffyVape - Comffy|Vape 510 1g| $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy Golden Hour Flower 3.5g 21.29%",
+    "brand": "00192Comffy",
+    "message": "New: 00192Comffy - Comffy Golden Hour Flower 3.5g 21.29% $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 7g Small Flower Afternoon Delight #",
+    "brand": "4 (H) 01373RYTHM",
+    "message": "Gone: 4 (H) 01373RYTHM - Rythm 7g Small Flower Afternoon Delight #"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Whole Flower 7g Back Porch (H) 01660 TC 32.920%",
+    "brand": "FIND",
+    "message": "Gone: FIND - FIND. Whole Flower 7g Back Porch (H) 01660 TC 32.920%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "COAST Cranberry Pom 5:5:5 CBD:CBN:",
+    "brand": "backIndicaCOAST Cranberry Pom 5:5:5 CBD:CBN:THC 89.2mg I Gummies 00311 20pkCoast Cannabis Co™",
+    "message": "Gone: backIndicaCOAST Cranberry Pom 5:5:5 CBD:CBN:THC 89.2mg I Gummies 00311 20pkCoast Cannabis Co™ - COAST Cranberry Pom 5:5:5 CBD:CBN:"
+  }
+]

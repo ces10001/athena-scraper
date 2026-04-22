@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Comffy Fritterz Flower H 3.5g 29.46%",
+    "brand": "00203Comffy",
+    "message": "New: 00203Comffy - Comffy Fritterz Flower H 3.5g 29.46% $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 0.5g 7pk|",
+    "brand": "Couch Surfer 00145Comffy7 Pack",
+    "message": "New: Couch Surfer 00145Comffy7 Pack - Comffy|PreRoll 0.5g 7pk| $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|",
+    "brand": "Jai Alai 00198Comffy",
+    "message": "New: Jai Alai 00198Comffy - Comffy|Flower 3.5g| $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 1g|Couch Surfer 00163ComffyPRE-ROLLS (EACH)",
+    "brand": null,
+    "message": "New: null - Comffy|PreRoll 1g|Couch Surfer 00163ComffyPRE-ROLLS (EACH) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy Golden Hour Flower 3.5g 21.29%",
+    "brand": "00192Comffy",
+    "message": "New: 00192Comffy - Comffy Golden Hour Flower 3.5g 21.29% $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749%",
+    "brand": "FIND",
+    "message": "FIND FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749%: $70.00 > $40.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)",
+    "brand": "IndicaRythm 14g B Scout (I) 01348RYTHM",
+    "message": "Gone: IndicaRythm 14g B Scout (I) 01348RYTHM - Rythm 14g B Scout (I) 01348RYTHMMixed Buds(14G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice Vape 41730TheraplantVape Cartridge(.5G)",
+    "brand": "HybridCarbon Juice Vape 41730TheraplantVape",
+    "message": "Gone: HybridCarbon Juice Vape 41730TheraplantVape - Carbon Juice Vape 41730TheraplantVape Cartridge(.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g GMO (I) 01344RYTHMFLOWER (3.5G)",
+    "brand": "IndicaRythm 3.5g GMO (I) 01344RYTHM",
+    "message": "Gone: IndicaRythm 3.5g GMO (I) 01344RYTHM - Rythm 3.5g GMO (I) 01344RYTHMFLOWER (3.5G)"
+  }
+]

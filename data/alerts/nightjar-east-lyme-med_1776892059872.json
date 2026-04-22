@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Disposable | Airo X | Sunset Z x G33 1g | 00293",
+    "brand": "Airo",
+    "message": "Gone: Airo - Disposable | Airo X | Sunset Z x G33 1g | 00293"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Disposable | Maui Wowie 0.5g | 0090",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Disposable | Maui Wowie 0.5g | 0090"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | JAMS Sour Watermelon Lime | Fast Acting Jellies | 01401",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Gummies | JAMS Sour Watermelon Lime | Fast Acting Jellies | 01401"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Vape Cart | Select Elite | Sundae Slumber .5g | 01350",
+    "brand": "Select",
+    "message": "Gone: Select - Vape Cart | Select Elite | Sundae Slumber .5g | 01350"
+  }
+]

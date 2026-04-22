@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Ground 7g Blueberry Hashplant 00069",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Ground 7g Blueberry Hashplant 00069 $45.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg AIO Pen White Durban x Night Owl Haze (S) 01224",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 300mg AIO Pen White Durban x Night Owl Haze (S) 01224"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark Chocolate RSO 100mg [10pk]",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Dark Chocolate RSO 100mg [10pk]"
+  }
+]

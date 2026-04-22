@@ -1,0 +1,116 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Z Cke 1g LT Bar T863 I 00825",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Z Cke 1g LT Bar T863 I 00825 $44.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Afgooey Whole Flower 3.5g (I) 00437",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis Afgooey Whole Flower 3.5g (I) 00437 $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436",
+    "brand": "Wana",
+    "message": "New: Wana - Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Cap Junk 1g Pre Roll (H) 00434",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis Cap Junk 1g Pre Roll (H) 00434 $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Happy Confection-Catching Citrus Dreams-(I)-00397",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - The Happy Confection-Catching Citrus Dreams-(I)-00397 $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Splits Joocy Fruit x Cherry Chiller 2g Dual Chamber (I) 41800",
+    "brand": "Splits",
+    "message": "New: Splits - Splits Joocy Fruit x Cherry Chiller 2g Dual Chamber (I) 41800 $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Splits Cloud Ckies x Blue Burger 2g Dual Chamber (I) 41798",
+    "brand": "Splits",
+    "message": "New: Splits - Splits Cloud Ckies x Blue Burger 2g Dual Chamber (I) 41798 $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO 1g Big Ray T30.52% I 00914",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - GMO 1g Big Ray T30.52% I 00914 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG4 LOTO Flower T24.66% I 00934",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - GG4 LOTO Flower T24.66% I 00934 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00408",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Watermelon Lemonade Cannabis-Infused Gummies 00408 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata 0.5g 5pk Pre Rolls (H) 00506",
+    "brand": "BRIX",
+    "message": "New: BRIX - C-Stata 0.5g 5pk Pre Rolls (H) 00506 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Sour Green Apple (S) T99.8mg - C0170000035",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Sour Green Apple (S) T99.8mg - C0170000035 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Fritter Flower T23.93% H 00912",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Apple Fritter Flower T23.93% H 00912 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464",
+    "brand": "Amigos",
+    "message": "New: Amigos - Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469",
+    "brand": "Amigos",
+    "message": "New: Amigos - Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469 $70.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine Pre-Rolls T26.69% I 00888",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Orange Sunshine Pre-Rolls T26.69% I 00888"
+  }
+]

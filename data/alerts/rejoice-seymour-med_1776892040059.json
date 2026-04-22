@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Theraplant Permanent Patty Vape 1g (H) - 41735",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Theraplant Permanent Patty Vape 1g (H) - 41735 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Theraplant Panckes Vape 1g (S) - 41755",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Theraplant Panckes Vape 1g (S) - 41755 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Theraplant Hash Planet Vape 1g (I) - 41566",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Theraplant Hash Planet Vape 1g (I) - 41566 $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker 1g Vape (I) 00284",
+    "brand": "Brix",
+    "message": "Brix Permanent Marker 1g Vape (I) 00284: $52.00 > $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Miss Grass Gelato Rntz Bubble Hash Infused Doob - Quiet Times 1g (I) - 41781",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Miss Grass Gelato Rntz Bubble Hash Infused Doob - Quiet Times 1g (I) - 41781 $23.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Junk 1g Vape (H) 00498",
+    "brand": "Brix",
+    "message": "Brix Chem Junk 1g Vape (H) 00498: $48.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue NDZ 1g Vape (H) 00426",
+    "brand": "Brix",
+    "message": "Brix Blue NDZ 1g Vape (H) 00426: $48.00 > $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Cliq Elite Pod .5g Purple Urkel (I) - 00757",
+    "brand": "Select",
+    "message": "Gone: Select - Select Cliq Elite Pod .5g Purple Urkel (I) - 00757"
+  }
+]

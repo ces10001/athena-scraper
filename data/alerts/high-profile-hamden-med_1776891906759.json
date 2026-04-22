@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Mint | Milk Chocolate | 2:1 THC:CBN Chocolate Bar | 100mg | C0080000225",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Midnight Mint | Milk Chocolate | 2:1 THC:CBN Chocolate Bar | 100mg | C0080000225"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Starblast | Vape Cart | 1g (C0170000026)",
+    "brand": "Loud",
+    "message": "Gone: Loud - Starblast | Vape Cart | 1g (C0170000026)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orchard Peach | THC:CBD Sour Gummies | 100mg (10pk) | C0060000361",
+    "brand": "Camino",
+    "message": "Gone: Camino - Orchard Peach | THC:CBD Sour Gummies | 100mg (10pk) | C0060000361"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff | Vape Cart | 1g (C0170000025)",
+    "brand": "Loud",
+    "message": "Gone: Loud - Mango Puff | Vape Cart | 1g (C0170000025)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb | Pre-Pack Smalls | 14g | 26813",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Cherry Sherb | Pre-Pack Smalls | 14g | 26813"
+  }
+]
