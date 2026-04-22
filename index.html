@@ -153,6 +153,40 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .btn-detail{padding:4px 10px;border-radius:5px;font-size:9px;font-weight:600;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx2);font-family:var(--m);transition:all .15s;text-transform:uppercase;letter-spacing:.5px}
 .btn-detail:hover{border-color:var(--cy);color:var(--cy);background:rgba(232,96,10,.04)}
 
+/* ═══ PRICING ALERTS SPLIT VIEW ═══ */
+.alert-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+@media(max-width:800px){.alert-split{grid-template-columns:1fr}}
+.alert-col{border-radius:10px;padding:14px 16px;max-height:600px;overflow-y:auto}
+.alert-col.drops{background:rgba(212,32,48,.04);border:1px solid rgba(212,32,48,.15)}
+.alert-col.increases{background:rgba(26,143,63,.04);border:1px solid rgba(26,143,63,.15)}
+.alert-col-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;position:sticky;top:-14px;padding:14px 0 8px;z-index:1}
+.alert-col.drops .alert-col-hdr{background:rgba(212,32,48,.04)}
+.alert-col.increases .alert-col-hdr{background:rgba(26,143,63,.04)}
+.alert-col-title{font-family:var(--m);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px}
+.alert-col.drops .alert-col-title{color:var(--rd)}
+.alert-col.increases .alert-col-title{color:var(--gn)}
+.alert-col-count{font-family:var(--m);font-size:11px;padding:3px 8px;border-radius:4px;font-weight:600}
+.alert-col.drops .alert-col-count{background:rgba(212,32,48,.1);color:var(--rd)}
+.alert-col.increases .alert-col-count{background:rgba(26,143,63,.1);color:var(--gn)}
+.alert-item{padding:8px 10px;border-bottom:1px solid rgba(0,0,0,.06);display:flex;flex-direction:column;gap:3px}
+.alert-item:last-child{border-bottom:none}
+.alert-item-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.alert-item-name{font-size:12px;font-weight:600;color:var(--tx);flex:1;line-height:1.3}
+.alert-item-pct{font-family:var(--m);font-size:11px;font-weight:700;padding:2px 6px;border-radius:4px;white-space:nowrap}
+.alert-col.drops .alert-item-pct{background:rgba(212,32,48,.1);color:var(--rd)}
+.alert-col.increases .alert-item-pct{background:rgba(26,143,63,.1);color:var(--gn)}
+.alert-item-bottom{display:flex;align-items:center;gap:6px;font-family:var(--m);font-size:11px}
+.alert-item-disp{color:var(--tx3);font-size:10px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.alert-price-flow{display:flex;align-items:center;gap:4px}
+.alert-price-old{color:var(--tx3);text-decoration:line-through}
+.alert-price-arrow{color:var(--tx3);font-size:9px}
+.alert-col.drops .alert-price-new{color:var(--rd);font-weight:700}
+.alert-col.increases .alert-price-new{color:var(--gn);font-weight:700}
+.alert-cats{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:12px}
+.alert-cat{padding:6px 14px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;background:transparent;color:var(--tx2);border:1px solid transparent;transition:all .15s}
+.alert-cat:hover{color:var(--tx);background:var(--sf)}.alert-cat.on{background:var(--cydim);color:var(--cy);border-color:rgba(232,96,10,.2)}
+.alert-empty{text-align:center;padding:30px 16px;color:var(--tx3);font-size:12px}
+
 </style>
 </head>
 <body><script>if(!sessionStorage.getItem('athena_auth')){window.location.href='login.html'}</script><div id="root"></div>
@@ -465,41 +499,133 @@ function Tbl({data,q,sel,cat,comp,setComp}){
 }
 
 /* ═══════════════════════════════════════
-   PRICING ALERTS TAB (reworked)
+   PRICING ALERTS TAB — Split View
+   Left (red): Price drops   Right (green): Price increases
    ═══════════════════════════════════════ */
 function AlertsTab({data,favsVer,toggleFav}){
-  const prods=data.products||[];const disps=getDisps(prods);const affC=disps.filter(isAff);
-  const mapRef=useRef(null);const mapInst=useRef(null);const mkrsRef=useRef([]);const circARef=useRef(null);
-  const[aCenter,setACenter]=useState(null);const[aRadius,setARadius]=useState(15);const[aLabel,setALabel]=useState("Click map to filter by area");
-  const[inArea,setInArea]=useState(null);
-  useEffect(()=>{if(!mapRef.current||mapInst.current)return;const m=L.map(mapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setACenter([e.latlng.lat,e.latlng.lng]);setALabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mapInst.current=m},[]);
-  useEffect(()=>{const m=mapInst.current;if(!m||!aCenter)return;if(circARef.current)m.removeLayer(circARef.current);var rM=aRadius*1609.34;circARef.current=L.circle(aCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
-    var inside=new Set();var cll=L.latLng(aCenter[0],aCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setInArea(inside.size>0?inside:null)},[aRadius,aCenter]);
-  useEffect(()=>{var m=mapInst.current;if(!m||!data)return;mkrsRef.current.forEach(mk=>m.removeLayer(mk));mkrsRef.current=[];var dsp=data.dispensaries||{};
-    Object.entries(dsp).forEach(([name,info])=>{var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isA=isAff(name);var sz=isA?12:6;var col=isA?"#e8600a":"#2563eb";
-      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?12:4)+'px '+col+';border:1px solid rgba(255,255,255,'+(isA?.3:.08)+')"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
-      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setACenter([lat,lon]);setALabel(cleanD(name))});mkrsRef.current.push(mk)})},[data]);
-
-  const analysis=useMemo(()=>disps.filter(d=>!isAff(d)).map(cd=>{let cheaper=0,same=0,higher=0,total=0,details=[];prods.forEach(p=>{const yp=getYP(p,affC);const cp=p.dispensaries?.[cd];if(!yp||!cp)return;total++;const diff=Math.round((cp-yp)/yp*100);if(cp<yp){cheaper++;details.push({name:p.name,brand:p.brand,yours:yp,theirs:cp,diff})}else if(cp>yp){higher++;details.push({name:p.name,brand:p.brand,yours:yp,theirs:cp,diff})}else same++});return total>0?{name:cd,cheaper,same,higher,total,pct:Math.round(cheaper/total*100),details:details.sort((a,b)=>a.diff-b.diff)}:null}).filter(Boolean).sort((a,b)=>b.pct-a.pct),[prods,affC,disps]);
-
-  const totalCheaper=analysis.reduce((s,a)=>s+a.cheaper,0);
-  const totalHigher=analysis.reduce((s,a)=>s+a.higher,0);
-  const totalSame=analysis.reduce((s,a)=>s+a.same,0);
-
-  const doExport=()=>{const rows=[["Competitor","Product","Brand","Your Price","Their Price","Difference","% Diff","Who's Cheaper"]];analysis.forEach(a=>{a.details.forEach(d=>{rows.push([cleanD(a.name),d.name,d.brand,"$"+d.yours.toFixed(2),"$"+d.theirs.toFixed(2),"$"+(d.theirs-d.yours).toFixed(2),d.diff+"%",d.diff<0?"THEM":"YOU"])})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Pricing Report");ws["!cols"]=[{wch:30},{wch:40},{wch:20},{wch:12},{wch:12},{wch:12},{wch:10},{wch:14}];XLSX.writeFile(wb,"athena_pricing_report.xlsx")};
-  const filteredAnalysis=inArea?analysis.filter(a=>inArea.has(a.name)):analysis;
-
-  return<><div className="pnl"><div className="pnl-t">Filter by area</div><div className="pnl-d">Click the map to filter competitors by location.</div>
-    <div className="map-w" ref={mapRef}></div>
-    <div className="radius-ctrl"><label>{aCenter?"Radius from "+aLabel+":":aLabel}</label><input type="range" min="1" max="60" value={aRadius} onChange={e=>setARadius(+e.target.value)}/><div className="rv">{aRadius} mi</div>
-      {aCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setACenter(null);setInArea(null);if(circARef.current&&mapInst.current){mapInst.current.removeLayer(circARef.current);circARef.current=null}setALabel("Click map to filter by area")}}>Clear</button>}</div></div>
-
-  <div className="stats"><div className="st"><div className="st-l">They Beat You</div><div className="st-v rd">{totalCheaper}</div></div><div className="st"><div className="st-l">Same Price</div><div className="st-v">{totalSame}</div></div><div className="st"><div className="st-l">You Beat Them</div><div className="st-v gn">{totalHigher}</div></div></div>
-
-  <div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Competitive pricing threat{inArea?" ("+filteredAnalysis.length+" in area)":""}</span><button className="btn pri" onClick={doExport}>Export Report</button></div>
-    <div className="pnl-d">How often each competitor undercuts your prices.</div>
-    <div className="tw"><div className="ts"><table><thead><tr><th>Dispensary</th><th>Compared</th><th style={{color:'var(--rd)'}}>They're Cheaper</th><th>Same</th><th style={{color:'var(--gn)'}}>You're Cheaper</th><th>Threat</th></tr></thead>
-      <tbody>{filteredAnalysis.map((a,i)=><tr key={i}><td className="pn">{cleanD(a.name)}</td><td className="dm">{a.total}</td><td style={{color:'var(--rd)',fontFamily:'var(--m)',fontWeight:600,background:'rgba(212,32,48,.05)'}}>{a.cheaper}</td><td className="dm">{a.same}</td><td style={{color:'var(--gn)',fontFamily:'var(--m)',fontWeight:600,background:'rgba(26,143,63,.05)'}}>{a.higher}</td><td><span className={"badge "+(a.pct>=50?"rd":a.pct>=25?"am":"gn")}>{a.pct}%</span></td></tr>)}</tbody></table></div></div></div></>;
+  var[alertCat,setAlertCat]=useState("All");
+  var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
+  
+  // Categories from deals
+  var alertCats=useMemo(function(){var s=new Set();deals.forEach(function(d){s.add(d.category||"Other")});return["All",...[...s].sort()]},[deals]);
+  
+  // Split deals into drops and increases
+  // Deals where discounted < original = price drops (dispensary lowered price)
+  // Deals where discounted > original = price increases (would be unusual in deals, but handle it)
+  var drops=useMemo(function(){
+    var filtered=alertCat==="All"?deals:deals.filter(function(d){return d.category===alertCat});
+    return filtered.filter(function(d){return d.discounted<d.original}).sort(function(a,b){return a.pct_off-b.pct_off}).reverse()
+  },[deals,alertCat]);
+  
+  // For price increases, we use products where current price > original (rare in deals, but possible)
+  // Also look for any products in the data that have promos showing higher prices
+  var increases=useMemo(function(){
+    var prods=data.products||[];
+    var items=[];
+    prods.forEach(function(p){
+      if(alertCat!=="All"&&p.category!==alertCat)return;
+      Object.entries(p.dispensaries||{}).forEach(function(e){
+        var disp=e[0],price=e[1];
+        var promo=p.promos&&p.promos[disp];
+        if(promo&&promo>price){
+          // promo field shows original higher price = this product had a price increase from promo to current
+          items.push({product:p.name,brand:p.brand,dispensary:disp,category:p.category,original:price,current:promo,pct:Math.round((promo-price)/price*100)});
+        }
+      });
+    });
+    return items.sort(function(a,b){return b.pct-a.pct})
+  },[data,alertCat]);
+  
+  var totalDrops=drops.length;
+  var totalIncreases=increases.length;
+  
+  var doExport=function(){
+    var rows=[["Type","Product","Brand","Dispensary","Category","Previous Price","New Price","% Change"]];
+    drops.forEach(function(d){rows.push(["DECREASE",d.product,d.brand,cleanD(d.dispensary),d.category,"$"+d.original.toFixed(2),"$"+d.discounted.toFixed(2),"-"+d.pct_off+"%"])});
+    increases.forEach(function(d){rows.push(["INCREASE",d.product,d.brand,cleanD(d.dispensary),d.category,"$"+d.original.toFixed(2),"$"+d.current.toFixed(2),"+"+d.pct+"%"])});
+    var ws=XLSX.utils.aoa_to_sheet(rows);var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Price Movements");
+    ws["!cols"]=[{wch:10},{wch:40},{wch:20},{wch:30},{wch:15},{wch:14},{wch:14},{wch:10}];
+    XLSX.writeFile(wb,"athena_price_movements.xlsx")
+  };
+  
+  return React.createElement(React.Fragment,null,
+    React.createElement("div",{className:"pnl"},
+      React.createElement("div",{className:"row",style:{justifyContent:'space-between',marginBottom:10}},
+        React.createElement("span",{className:"pnl-t",style:{margin:0}},"Price Movements"),
+        React.createElement("button",{className:"btn pri",onClick:doExport},"Export Report")
+      ),
+      React.createElement("div",{className:"pnl-d"},"Track price changes across all dispensaries. Price drops on the left, increases on the right."),
+      React.createElement("div",{className:"stats",style:{marginBottom:12}},
+        React.createElement("div",{className:"st"},
+          React.createElement("div",{className:"st-l"},"Price Drops"),
+          React.createElement("div",{className:"st-v rd"},totalDrops.toLocaleString())
+        ),
+        React.createElement("div",{className:"st"},
+          React.createElement("div",{className:"st-l"},"Price Increases"),
+          React.createElement("div",{className:"st-v gn"},totalIncreases.toLocaleString())
+        ),
+        React.createElement("div",{className:"st"},
+          React.createElement("div",{className:"st-l"},"Net Movement"),
+          React.createElement("div",{className:"st-v "+(totalDrops>totalIncreases?"rd":"gn")},totalDrops>totalIncreases?"↓ More drops":"↑ More increases")
+        )
+      ),
+      // Category filter
+      React.createElement("div",{className:"alert-cats"},alertCats.map(function(c){
+        return React.createElement("div",{key:c,className:"alert-cat "+(alertCat===c?"on":""),onClick:function(){setAlertCat(c)}},c)
+      })),
+      // Split view
+      React.createElement("div",{className:"alert-split"},
+        // LEFT — Price Drops (red)
+        React.createElement("div",{className:"alert-col drops"},
+          React.createElement("div",{className:"alert-col-hdr"},
+            React.createElement("span",{className:"alert-col-title"},"▼ Price Drops"),
+            React.createElement("span",{className:"alert-col-count"},totalDrops.toLocaleString())
+          ),
+          drops.length===0?React.createElement("div",{className:"alert-empty"},"No price drops",alertCat!=="All"?" in "+alertCat:""):
+          drops.slice(0,200).map(function(d,i){
+            return React.createElement("div",{key:i,className:"alert-item"},
+              React.createElement("div",{className:"alert-item-top"},
+                React.createElement("span",{className:"alert-item-name"},d.product),
+                React.createElement("span",{className:"alert-item-pct"},"-"+d.pct_off+"%")
+              ),
+              React.createElement("div",{className:"alert-item-bottom"},
+                React.createElement("span",{className:"alert-item-disp"},cleanD(d.dispensary)),
+                React.createElement("div",{className:"alert-price-flow"},
+                  React.createElement("span",{className:"alert-price-old"},"$"+d.original.toFixed(2)),
+                  React.createElement("span",{className:"alert-price-arrow"},"→"),
+                  React.createElement("span",{className:"alert-price-new"},"$"+d.discounted.toFixed(2))
+                )
+              )
+            )
+          })
+        ),
+        // RIGHT — Price Increases (green)
+        React.createElement("div",{className:"alert-col increases"},
+          React.createElement("div",{className:"alert-col-hdr"},
+            React.createElement("span",{className:"alert-col-title"},"▲ Price Increases"),
+            React.createElement("span",{className:"alert-col-count"},totalIncreases.toLocaleString())
+          ),
+          increases.length===0?React.createElement("div",{className:"alert-empty"},React.createElement("div",{style:{marginBottom:8}},"Price increase tracking activates after multiple scrape runs."),React.createElement("div",{style:{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)',letterSpacing:'.5px'}},"ATHENA compares each scrape to detect upward price movements across all dispensaries.")):
+          increases.slice(0,200).map(function(d,i){
+            return React.createElement("div",{key:i,className:"alert-item"},
+              React.createElement("div",{className:"alert-item-top"},
+                React.createElement("span",{className:"alert-item-name"},d.product),
+                React.createElement("span",{className:"alert-item-pct"},"+"+d.pct+"%")
+              ),
+              React.createElement("div",{className:"alert-item-bottom"},
+                React.createElement("span",{className:"alert-item-disp"},cleanD(d.dispensary)),
+                React.createElement("div",{className:"alert-price-flow"},
+                  React.createElement("span",{className:"alert-price-old"},"$"+d.original.toFixed(2)),
+                  React.createElement("span",{className:"alert-price-arrow"},"→"),
+                  React.createElement("span",{className:"alert-price-new"},"$"+d.current.toFixed(2))
+                )
+              )
+            )
+          })
+        )
+      )
+    )
+  );
 }
 
 /* ═══════════════════════════════════════
