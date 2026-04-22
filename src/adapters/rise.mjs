@@ -197,8 +197,14 @@ export async function scrapeRise(dispensary) {
       var catUrl = baseUrl + '/?refinementList%5Broot_types%5D%5B%5D=' + cat.slug;
 
       try {
-        await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(6000);
+        // Force clean navigation by going to blank first (prevents React router interference)
+        if (c > 0) {
+          await page.goto('about:blank', { timeout: 5000 });
+          await page.waitForTimeout(500);
+        }
+        
+        await page.goto(catUrl, { waitUntil: 'networkidle', timeout: 45000 });
+        await page.waitForTimeout(4000);
 
         // Check product count
         var totalForCat = await page.evaluate(function() {
@@ -206,7 +212,10 @@ export async function scrapeRise(dispensary) {
           return m ? parseInt(m[1]) : 0;
         });
 
-        if (totalForCat === 0) continue;
+        if (totalForCat === 0) {
+          console.log('  [rise] ' + cat.slug + ': 0 products (skipped)');
+          continue;
+        }
 
         console.log('  [rise] ' + cat.slug + ': ' + totalForCat + ' products');
 
