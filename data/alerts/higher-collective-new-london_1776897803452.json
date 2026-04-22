@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie Spark -  All Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie Spark -  All Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Cookies Spark - Quiet Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chem Cookies Spark - Quiet Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Apple Tart"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Z Cake LT",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Z Cake LT"
+  }
+]

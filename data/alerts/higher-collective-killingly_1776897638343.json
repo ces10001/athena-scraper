@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Fresh Kicks",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Fresh Kicks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Gary"
+  }
+]

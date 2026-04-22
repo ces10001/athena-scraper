@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Dank Sinatra",
+    "brand": "SoundView",
+    "message": "New: SoundView - Dank Sinatra $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Jayna's Sunshine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Purple Milk"
+  }
+]

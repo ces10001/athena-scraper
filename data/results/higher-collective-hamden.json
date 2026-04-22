@@ -60,26 +60,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-283630",
-    "name": "Clementine",
-    "brand": "Loud",
-    "category": "vaporizers",
-    "subcategory": null,
-    "strain_type": "sativa",
-    "price_cents": 5000,
-    "original_price_cents": null,
-    "weight_label": "1g",
-    "weight_grams": 1,
-    "unit_price_per_gram": 5000,
-    "thc_pct": 88.2037,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-283653",
     "name": "Mango Puff",
     "brand": "Loud",
