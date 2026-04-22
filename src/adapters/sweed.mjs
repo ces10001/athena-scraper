@@ -288,46 +288,61 @@ async function scrapeWithPlaywright(menuUrl, domain, allProducts, errors) {
     if (!hydration) hydration = await tryExtract(menuUrl.replace(/\/?$/, '') + '/menu?isIframe=true');
 
     // ═══ IFRAME STRATEGY (Zen Leaf pattern) ═══
-    // Some sites embed Sweed in an iframe called 'sweed-iframe-display'
-    // The parent page has no __sw_qc but the iframe does
+    // Zen Leaf embeds Sweed in an iframe called 'sweed-iframe-display'
+    // The iframe only exists on the /menu subpage, and needs time to hydrate
     if (!hydration) {
       console.log('  [sweed] Trying iframe frame extraction...');
-      // Navigate to the base menu URL and wait for iframe to load
-      await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(8000);
       
-      // Look for the sweed iframe by name or by URL pattern
-      var sweedFrame = page.frame('sweed-iframe-display');
-      if (!sweedFrame) {
-        var frames = page.frames();
-        for (var fi = 0; fi < frames.length; fi++) {
-          var fUrl = frames[fi].url() || '';
-          if (fUrl.includes('isIframe=true') || fUrl.includes('sweed')) {
-            sweedFrame = frames[fi];
-            break;
-          }
-        }
-      }
+      // Try both the base URL and /menu URL for finding the iframe
+      var iframePages = [
+        menuUrl.replace(/\/?$/, '') + '/menu',
+        menuUrl,
+      ];
       
-      if (sweedFrame) {
-        console.log('  [sweed] Found sweed iframe, extracting hydration...');
-        await page.waitForTimeout(3000); // Extra wait for iframe content
+      for (var ip = 0; ip < iframePages.length && !hydration; ip++) {
         try {
-          hydration = await sweedFrame.evaluate(function() {
-            try {
-              var raw = window.__sw_qc;
-              if (!raw) return null;
-              var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
-              var queries = parsed.queries || [];
-              for (var i = 0; i < queries.length; i++) {
-                var d = queries[i] && queries[i].state && queries[i].state.data;
-                if (d && d.list && d.total !== undefined) return { list: d.list, total: d.total, pageSize: d.pageSize };
+          await page.goto(iframePages[ip], { waitUntil: 'domcontentloaded', timeout: 30000 });
+          await page.waitForTimeout(5000);
+          
+          // Poll for the iframe and its hydration data (up to 20 seconds)
+          for (var poll = 0; poll < 6 && !hydration; poll++) {
+            var sweedFrame = page.frame('sweed-iframe-display');
+            if (!sweedFrame) {
+              var frames = page.frames();
+              for (var fi = 0; fi < frames.length; fi++) {
+                var fUrl = frames[fi].url() || '';
+                if (fUrl.includes('isIframe=true') || fUrl.includes('sweed')) {
+                  sweedFrame = frames[fi];
+                  break;
+                }
               }
-            } catch(e) {}
-            return null;
-          });
-        } catch (frameErr) {
-          console.warn('  [sweed] Iframe extraction failed: ' + frameErr.message);
+            }
+            
+            if (sweedFrame) {
+              if (poll === 0) console.log('  [sweed] Found sweed iframe, waiting for hydration...');
+              try {
+                hydration = await sweedFrame.evaluate(function() {
+                  try {
+                    var raw = window.__sw_qc;
+                    if (!raw) return null;
+                    var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
+                    var queries = parsed.queries || [];
+                    for (var i = 0; i < queries.length; i++) {
+                      var d = queries[i] && queries[i].state && queries[i].state.data;
+                      if (d && d.list && d.total !== undefined) return { list: d.list, total: d.total, pageSize: d.pageSize };
+                    }
+                  } catch(e) {}
+                  return null;
+                });
+              } catch (frameErr) {}
+            }
+            
+            if (!hydration) await page.waitForTimeout(3000);
+          }
+          
+          if (hydration) console.log('  [sweed] ✓ Iframe hydration found after ' + ((poll + 1) * 3) + 's');
+        } catch (iframeErr) {
+          console.warn('  [sweed] Iframe page ' + iframePages[ip] + ' failed: ' + iframeErr.message);
         }
       }
     }
