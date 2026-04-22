@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328",
+    "brand": "Happy Confections",
+    "message": "New: Happy Confections - The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328 $17.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%  (WARNING- HIGH THC)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%  (WARNING- HIGH THC)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 1g Single Floral Frost (H) 01651 TC 33.671%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 1g Single Floral Frost (H) 01651 TC 33.671%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Jokerz 1g Pre-Roll I 26885",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Jokerz 1g Pre-Roll I 26885"
+  }
+]

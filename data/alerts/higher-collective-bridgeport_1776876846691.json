@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Pop",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Chem Pop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks THCa Infused",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks THCa Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Tsunami",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Animal Tsunami"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Headz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Air Headz"
+  }
+]

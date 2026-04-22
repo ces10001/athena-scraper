@@ -1,0 +1,866 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Purple Urkle 0.5g Vape (C0070000226)",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Purple Urkle 0.5g Vape (C0070000226): $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Musk #1 1g LT Vape T823 H 00859",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Musk #1 1g LT Vape T823 H 00859: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hasher Slasher Vape 41336",
+    "brand": "Theraplant",
+    "message": "Theraplant Hasher Slasher Vape 41336: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen Live Rosin Pod 1g Red Gary T804 H 26953",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen Live Rosin Pod 1g Red Gary T804 H 26953: $90.00 > $72.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461: $68.00 > $54.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Strut AIO 2g Sour Bubble T1705 I 26534",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Strut AIO 2g Sour Bubble T1705 I 26534: $115.00 > $92.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine 1g LT Vape T822 I 00835",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine 1g LT Vape T822 I 00835: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Scrub Trooper 1g All in One Vape (H) 00480",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Scrub Trooper 1g All in One Vape (H) 00480: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Candy Jack 0.5g Vape T407 S 00897",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Candy Jack 0.5g Vape T407 S 00897: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000024",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Golden Tangie (S) C0170000024: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Sour Diesel Live Resin-(S)-510-Cart-1g-00455",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Sour Diesel Live Resin-(S)-510-Cart-1g-00455: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Gush Mintz 1g All in One Vape (I) 00214",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Gush Mintz 1g All in One Vape (I) 00214: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Orange Cookiez (I) C0170000028",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Orange Cookiez (I) C0170000028: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Clementine (S) C0170000029",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Clementine (S) C0170000029: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-H0rchata Live Resin-(H)-Bar-1g-00476",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-H0rchata Live Resin-(H)-Bar-1g-00476: $68.00 > $54.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks - Gush Mintz Live Rosin AIO 1g T826 I 26662",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks - Gush Mintz Live Rosin AIO 1g T826 I 26662: $99.00 > $79.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amigos-Mimosa Live Resin-(S)-Disposable-1g-00442",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Mimosa Live Resin-(S)-Disposable-1g-00442: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Blue NDZ 1g Vape (H) 00426",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Blue NDZ 1g Vape (H) 00426: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Gush Mintz 1g Vape (I) 00427",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Gush Mintz 1g Vape (I) 00427: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy 1g LT Bar T833 H 00866",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy 1g LT Bar T833 H 00866: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Garlic Icing 1g LT Vape T865 I 00843",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Garlic Icing 1g LT Vape T865 I 00843: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Marker MT 41281",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Marker MT 41281: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Inferno MT 41563",
+    "brand": "Theraplant",
+    "message": "Theraplant Purple Inferno MT 41563: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Sour Z (H) C0170000030",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Sour Z (H) C0170000030: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|Vape 510 1g|Strawberry Cough 00210",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|Vape 510 1g|Strawberry Cough 00210: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Starblast (H) C0170000026",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Starblast (H) C0170000026: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Citrus Punch Live Resin Disposable Vape (1G) T90.23% (S) 00229",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Citrus Punch Live Resin Disposable Vape (1G) T90.23% (S) 00229: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream 0.5g LT Vape T413 I 00867",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream 0.5g LT Vape T413 I 00867: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "TRIPLE X 0.5G LT VAPE T400 I 00878",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow TRIPLE X 0.5G LT VAPE T400 I 00878: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Washed Up 1g Vape (H) 00282",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Washed Up 1g Vape (H) 00282: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker 0.5g LT Vape T429 I 00821",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Permanent Marker 0.5g LT Vape T429 I 00821: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Jet Fuel x Vel Croz (H) 01408",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Jet Fuel x Vel Croz (H) 01408: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Taffy Twist x Bubba F (I) 01291",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Taffy Twist x Bubba F (I) 01291: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00451",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00451: $68.00 > $54.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pineapple Expression .5g Rechargeable 0072",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Pineapple Expression .5g Rechargeable 0072: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-MAC Live Resin-(H)-510-Cart-1g-00459",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-MAC Live Resin-(H)-510-Cart-1g-00459: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Breath 1g LT Bar T817 S 00807",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Gas Breath 1g LT Bar T817 S 00807: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen AIO 1g Super Jack T842 S 26718",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen AIO 1g Super Jack T842 S 26718: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen AIO 1g Sour Z T863 H 26677",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen AIO 1g Sour Z T863 H 26677: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen Live Resin Pod 1g Applescotti T672 I 26944",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen Live Resin Pod 1g Applescotti T672 I 26944: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zelato BX 1g LT Vape T852 I 00822",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Zelato BX 1g LT Vape T852 I 00822: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem-band 1g Pure Vape T860 H 26624",
+    "brand": "CTPharma",
+    "message": "CTPharma Chem-band 1g Pure Vape T860 H 26624: $69.00 > $55.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Mango Puff (I) C0170000025",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Mango Puff (I) C0170000025: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Vape Animal Face x Purple Tyde (I) 01391",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Vape Animal Face x Purple Tyde (I) 01391: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Regina Gorgeous (H) 01416",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Regina Gorgeous (H) 01416: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ko'Zeto 0.5g LT Vape T425 H 00773",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ko'Zeto 0.5g LT Vape T425 H 00773: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "COMFFY|VAPE 1G|LA KUSH CAKE 00151",
+    "brand": "Comffy",
+    "message": "Comffy COMFFY|VAPE 1G|LA KUSH CAKE 00151: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "COMFFY|VAPE 1G|PURPLE URKEL 00150",
+    "brand": "Comffy",
+    "message": "Comffy COMFFY|VAPE 1G|PURPLE URKEL 00150: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen B Scout x LA Kush CKE (I) 01396",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen B Scout x LA Kush CKE (I) 01396: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dieselato BHO Live Resin Vape T351 H 26126",
+    "brand": "CTPharma",
+    "message": "CTPharma Dieselato BHO Live Resin Vape T351 H 26126: $57.00 > $45.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Cap Junk 1g Vape (H) 00453: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower by Edie Parker-Grape Escape-Indica Rechargeable Vape Pen-0.5g-00422",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Flower by Edie Parker-Grape Escape-Indica Rechargeable Vape Pen-0.5g-00422: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdog's Chem Junk 1g Vape (H) 00498",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Chem Junk 1g Vape (H) 00498: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Star Killer x CDLC 0.5g BHO Vape T414 I 00850",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Star Killer x CDLC 0.5g BHO Vape T414 I 00850: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape Afternoon Delight (H) 01347: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Scout Breath - CTP Disposable T279 I 26585",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Scout Breath - CTP Disposable T279 I 26585: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape B Scout (I) 01217",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape B Scout (I) 01217: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape Cheddar Cheeze (I) 01312",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape Cheddar Cheeze (I) 01312: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Purple Tyde x Bubba F (H) 01183",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Purple Tyde x Bubba F (H) 01183: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen FumeZ x Grease Monkey (H) 01188",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen FumeZ x Grease Monkey (H) 01188: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Afternoon Delight (H) 01195",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Afternoon Delight (H) 01195: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Trop Cherry Honey Banana Rosin Voca Pro 41614",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Trop Cherry Honey Banana Rosin Voca Pro 41614: $58.00 > $46.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Trop Cherry Honey Banana Rosin Cart 41615",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Trop Cherry Honey Banana Rosin Cart 41615: $52.00 > $41.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Banapple Burger Rosin Cart 41617",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Banapple Burger Rosin Cart 41617: $52.00 > $41.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Widow .5g Rechargeable 0098",
+    "brand": "Lucky Break",
+    "message": "Lucky Break White Widow .5g Rechargeable 0098: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cruiser Vape 41224",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cruiser Vape 41224: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen AIO 1g Spacedawg T838 I 26558",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen AIO 1g Spacedawg T838 I 26558: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Essence Hyphen AIO 1g Juice OG T857 H 26720",
+    "brand": "The Essence Hyphen",
+    "message": "The Essence Hyphen The Essence Hyphen AIO 1g Juice OG T857 H 26720: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Star Killer OG 1g LT Vape T817 I 00814",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Star Killer OG 1g LT Vape T817 I 00814: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Splits Lemon HDZ x Garlic Ckies 2g Dual Chamber (I) 41802",
+    "brand": "Splits Innovations",
+    "message": "Splits Innovations Splits Lemon HDZ x Garlic Ckies 2g Dual Chamber (I) 41802: $107.00 > $85.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Peaches n' Cream Live Resin Disposable Vape (1g) T92.899% H 00222",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Peaches n' Cream Live Resin Disposable Vape (1g) T92.899% H 00222: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Snow Drift BHO Live Resin Vape T392 S 26680",
+    "brand": "CTPharma",
+    "message": "CTPharma Snow Drift BHO Live Resin Vape T392 S 26680: $57.00 > $45.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Ultra Nana Disposable T261 H 26402",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Ultra Nana Disposable T261 H 26402: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy OGKB Stomper Disposable T262 H 26317",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy OGKB Stomper Disposable T262 H 26317: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Hyphen AIO 2g Tahoe OG T1749 H 26784",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Hyphen AIO 2g Tahoe OG T1749 H 26784: $119.00 > $95.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Chem-band Disposable T261 H 26376",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Chem-band Disposable T261 H 26376: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 1g LEAF Pen Animal Face (I) 01424",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 1g LEAF Pen Animal Face (I) 01424: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Permanent Marker (H) 01327",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 1g LEAF Live Sauce Pen Permanent Marker (H) 01327: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape Purple Tyde (I) 01211",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape Purple Tyde (I) 01211: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape Dulce De Uva (I) 01339",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape Dulce De Uva (I) 01339: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Vape Chkn n WflZ (S) 01338",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Vape Chkn n WflZ (S) 01338: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Live Resin G41(I) 1g Vape (C0070000412)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin G41(I) 1g Vape (C0070000412): $44.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Live Resin Dragon Fire (S) Disposable 1g Vape (C0070000382)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin Dragon Fire (S) Disposable 1g Vape (C0070000382): $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Liquid Diamonds Crystal Palace (I) 1g Vape (C0070000355)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Liquid Diamonds Crystal Palace (I) 1g Vape (C0070000355): $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Distillate Six Shooter Swirl (H) 1g Vape (C0070000233)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Distillate Six Shooter Swirl (H) 1g Vape (C0070000233): $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Distillate Bronco Fruity Blast (H) 1g Vape (C0070000232)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Distillate Bronco Fruity Blast (H) 1g Vape (C0070000232): $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rainbow Haze 1g AiroX Liquid Diamonds Disposable",
+    "brand": "Airo",
+    "message": "Airo Rainbow Haze 1g AiroX Liquid Diamonds Disposable: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Milk 1g All in One Vape (I) 00534",
+    "brand": "Brix",
+    "message": "Brix Purple Milk 1g All in One Vape (I) 00534: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Panama Red .5g Rechargeable 0099",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Panama Red .5g Rechargeable 0099: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks - Tropical Haze Live Rosin AIO 1g T787 H 26344",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks - Tropical Haze Live Rosin AIO 1g T787 H 26344: $99.00 > $79.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks - Original Glue Live Rosin AIO 1g T782 I 26709",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks - Original Glue Live Rosin AIO 1g T782 I 26709: $99.00 > $79.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "OGKB Stomper Pure Vape T423 H 26593",
+    "brand": "CTPharma",
+    "message": "CTPharma OGKB Stomper Pure Vape T423 H 26593: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mac Stomper 0.5g LT Vape T400 I 00910",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Mac Stomper 0.5g LT Vape T400 I 00910: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Loud Cannabis Clementine (S) C0170000031",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Clementine (S) C0170000031: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Motorbreath Live Resin-(I)-510-Cart-1g-00457",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Motorbreath Live Resin-(I)-510-Cart-1g-00457: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Garlotti Live Resin-(I)-Bar-1g-00462",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Garlotti Live Resin-(I)-Bar-1g-00462: $68.00 > $54.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-GMO Live Resin-(I)-510-Cart-1g-00380",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-GMO Live Resin-(I)-510-Cart-1g-00380: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Durban Poison Live Resin-(S)-510-Cart-00458",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Durban Poison Live Resin-(S)-510-Cart-00458: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Skunk Live Rosin Vape T396 S 26592",
+    "brand": "CTPharma",
+    "message": "CTPharma Lemon Skunk Live Rosin Vape T396 S 26592: $62.00 > $49.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke 0.5g BHO Slim Bar T433 I 00786",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ice Cream Cke 0.5g BHO Slim Bar T433 I 00786: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hasher Slasher MT 41339",
+    "brand": "Theraplant",
+    "message": "Theraplant Hasher Slasher MT 41339: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Marker Vape 41280",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Marker Vape 41280: $44.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Marker Vape 41279",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Marker Vape 41279: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Marker MT 41282",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Marker MT 41282: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Breath Vape 41299",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath Vape 41299: $44.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Breath Vape 41298",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath Vape 41298: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Breath MT 41301",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath MT 41301: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Breath MT 41300",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath MT 41300: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ghst Face Vape 41332",
+    "brand": "Theraplant",
+    "message": "Theraplant Ghst Face Vape 41332: $74.00 > $59.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Full Tank Pure Vape T407 H 26383",
+    "brand": "CTPharma",
+    "message": "CTPharma Full Tank Pure Vape T407 H 26383: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower by Edie Parker-Green Queen-Sativa Rechargeable Vape Pen-0.5g-00413",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Flower by Edie Parker-Green Queen-Sativa Rechargeable Vape Pen-0.5g-00413: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower by Edie Parker-Grape Escape-Indica Vape Cartridge-1g-00426",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Flower by Edie Parker-Grape Escape-Indica Vape Cartridge-1g-00426: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "E85 Live Rosin Vape T406 S 26789",
+    "brand": "CTPharma",
+    "message": "CTPharma E85 Live Rosin Vape T406 S 26789: $62.00 > $49.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|Vape 510 1g|Cherry Bomb 00207",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|Vape 510 1g|Cherry Bomb 00207: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|Vape 510 1g|Blue Dream 00209",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|Vape 510 1g|Blue Dream 00209: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cold Bubba Kush 1g Pure Vape T816 H 26787",
+    "brand": "CTPharma",
+    "message": "CTPharma Cold Bubba Kush 1g Pure Vape T816 H 26787: $69.00 > $55.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis INKD UP 1g All in One Vape (I) 00479",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis INKD UP 1g All in One Vape (I) 00479: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Bananaconda 1g Vape (H) 00497",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Bananaconda 1g Vape (H) 00497: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blueberry Dream .5g Rechargeable 0064",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Blueberry Dream .5g Rechargeable 0064: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Sherb Live Resin AIO 1g T696 H 26572",
+    "brand": "CTPharma",
+    "message": "CTPharma Blue Sherb Live Resin AIO 1g T696 H 26572: $79.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Marker 1g All in One Vape (I) 00532",
+    "brand": "Brix",
+    "message": "Brix Blue Marker 1g All in One Vape (I) 00532: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Ice 0.5g BHO Slim Bar T406 I 00662",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Black Ice 0.5g BHO Slim Bar T406 I 00662: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Purple Urkle D-0.5g Vape (C0070000230)",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Purple Urkle D-0.5g Vape (C0070000230): $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00440",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00440: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amigos-Papi Purple Live Resin-(I)-Disposable-1g-00417",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Papi Purple Live Resin-(I)-Disposable-1g-00417: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amigos-Mystic Mintz Live Resin-(H)-Disposable-1g-00390",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Mystic Mintz Live Resin-(H)-Disposable-1g-00390: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Airo X Karma's Diesel 1g Vape (C0070000386)",
+    "brand": "Airo",
+    "message": "Airo Airo X Karma's Diesel 1g Vape (C0070000386): $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Airo Ready to Go Dutch Dragon 1g Vape (C0070000292)",
+    "brand": "Airo",
+    "message": "Airo Airo Ready to Go Dutch Dragon 1g Vape (C0070000292): $75.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Airo Pod Blue Legend Sherb 0.5g Vape (C0070000385)",
+    "brand": "Airo",
+    "message": "Airo Airo Pod Blue Legend Sherb 0.5g Vape (C0070000385): $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Acapulco Gold .5g Rechargeable 0097",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Acapulco Gold .5g Rechargeable 0097: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AURA|Vape AIO 1g|Tahoe OG 00216",
+    "brand": "Aura",
+    "message": "Aura AURA|Vape AIO 1g|Tahoe OG 00216: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AURA|Vape AIO 1g|Sour Diesel 00213",
+    "brand": "Aura",
+    "message": "Aura AURA|Vape AIO 1g|Sour Diesel 00213: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AURA|Vape AIO 1g|Kush Mints 00125",
+    "brand": "Aura",
+    "message": "Aura AURA|Vape AIO 1g|Kush Mints 00125: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Headcracker x Bubba F (I) 01413",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Headcracker x Bubba F (I) 01413: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 300mg Pen Fantasy Melonz x OMG (H) 01289",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 300mg Pen Fantasy Melonz x OMG (H) 01289: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Vape Taffy Twist x Dulce De Uva (I) 01296",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Vape Taffy Twist x Dulce De Uva (I) 01296: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Vape B Scout x LA Kush CKE (I) 01212",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Vape B Scout x LA Kush CKE (I) 01212: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "707 Headband 0.5g LT Bar T431 I 00774",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow 707 Headband 0.5g LT Bar T431 I 00774: $48.00 > $38.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zangria 0.5g LT Vape T411 I 00741",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Zangria 0.5g LT Vape T411 I 00741"
+  }
+]

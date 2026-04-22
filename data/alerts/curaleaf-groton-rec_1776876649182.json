@@ -1,0 +1,74 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Peach Bellini",
+    "brand": "Wana",
+    "message": "Wana Peach Bellini: $34.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Connecticut Sunrise",
+    "brand": "Wana",
+    "message": "Wana Connecticut Sunrise: $36.00 > $25.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Island Punch",
+    "brand": "Wana",
+    "message": "Wana Island Punch: $36.00 > $25.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Limoncello",
+    "brand": "Wana",
+    "message": "Wana Limoncello: $36.00 > $25.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Margarita",
+    "brand": "Wana",
+    "message": "Wana Strawberry Margarita: $34.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomegranate Blueberry Acai",
+    "brand": "Wana",
+    "message": "Wana Pomegranate Blueberry Acai: $34.00 > $23.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Six String Sizzle",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Six String Sizzle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Gone: Select - Mango Puff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pineapple Sunrise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Jelly Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies & Cream White Chocolate",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Cookies & Cream White Chocolate"
+  }
+]

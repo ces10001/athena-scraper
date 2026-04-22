@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00241",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView BlueZZZberry 5:1 CBN | 20pk | 00241 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | SoundView Blood Orange | 20pk | 00246",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gummies | SoundView Blood Orange | 20pk | 00246 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00244",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Wild Berries 1:1 CBD Dark Chocolate Bar | 00244 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240",
+    "brand": "SoundView",
+    "message": "New: SoundView - Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240 $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Grandpappy's Chillemon 7g | 41644",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Flower | Grandpappy's Chillemon 7g | 41644"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | JAMS Sour Green Apple | Fast Acting Jellies | 01157",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Gummies | JAMS Sour Green Apple | Fast Acting Jellies | 01157"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00364",
+    "brand": "Camino",
+    "message": "Gone: Camino - Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00364"
+  }
+]

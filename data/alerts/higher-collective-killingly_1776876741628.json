@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Midnight Mint 2:1 CBN",
+    "brand": "SoundView",
+    "message": "New: SoundView - Midnight Mint 2:1 CBN $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookies & Cream White",
+    "brand": "SoundView",
+    "message": "New: SoundView - Cookies & Cream White $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookie Crumble Milk",
+    "brand": "SoundView",
+    "message": "New: SoundView - Cookie Crumble Milk $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butter Pretzel Milk",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peanut Butter Pretzel Milk $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Endgame Punchline",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Endgame Punchline"
+  }
+]
