@@ -96,6 +96,63 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .detail-row .dr-price.cheapest{color:var(--gn)}.detail-row .dr-price.priciest{color:var(--rd)}
 @media(max-width:900px){.g2{grid-template-columns:1fr}}
 @media(max-width:640px){.hdr{flex-direction:column;align-items:flex-start}.stats{grid-template-columns:repeat(2,1fr)}.tabs{flex-wrap:wrap}}
+
+/* ═══ TERMINAL BOOT SEQUENCE ═══ */
+.boot{background:#0d0d0d;position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;justify-content:center;padding:40px 60px;font-family:'IBM Plex Mono',monospace;overflow:hidden}
+.boot::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.03) 2px,rgba(0,0,0,.03) 4px);pointer-events:none;z-index:1}
+.boot-logo{font-size:42px;font-weight:700;letter-spacing:16px;color:#e8600a;margin-bottom:8px;opacity:0;animation:bootIn .4s ease forwards}
+.boot-sub{font-size:11px;letter-spacing:4px;color:#5a4a3a;margin-bottom:32px;opacity:0;animation:bootIn .4s ease .2s forwards}
+.boot-line{font-size:12px;color:#3a6a3a;margin:3px 0;opacity:0;animation:bootIn .3s ease forwards;display:flex;align-items:center;gap:8px}
+.boot-line.ok{color:#1a8f3f}.boot-line.warn{color:#e8600a}.boot-line.info{color:#5a6370}
+.boot-line .bl-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}
+.boot-line .bl-val{color:#e8600a;font-weight:600}
+.boot-bar{margin-top:20px;height:2px;background:#1a1a1a;border-radius:1px;overflow:hidden;opacity:0;animation:bootIn .3s ease 1.5s forwards}
+.boot-bar-fill{height:100%;background:linear-gradient(90deg,#e8600a,#ff9a40);width:0;animation:barFill 1.2s ease 1.7s forwards;border-radius:1px}
+.boot-ready{font-size:13px;color:#e8600a;margin-top:16px;opacity:0;animation:bootIn .4s ease 2.8s forwards;font-weight:600;letter-spacing:2px}
+@keyframes bootIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes barFill{to{width:100%}}
+.boot.done{opacity:0;transition:opacity .5s ease;pointer-events:none}
+
+/* ═══ SKELETON SHIMMER ═══ */
+.skel{position:relative;overflow:hidden;background:#e8e8ec;border-radius:4px}
+.skel::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);animation:shimmer 1.4s ease infinite}
+@keyframes shimmer{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+.skel-row{display:flex;gap:10px;padding:8px 14px;border-bottom:1px solid rgba(0,0,0,.04)}
+.skel-row .skel{height:14px}
+.skel-card{border-radius:8px;padding:14px;border:1px solid var(--bd);background:var(--bg2)}
+.skel-card .skel{margin-bottom:8px}
+.skel-card .skel:last-child{margin-bottom:0}
+
+/* ═══ DETAILED VIEW MODAL ═══ */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.modal{background:var(--sf);border-radius:14px;max-width:720px;width:100%;max-height:85vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.25);border:1px solid var(--bd);animation:modalIn .25s ease}
+@keyframes modalIn{from{opacity:0;transform:scale(.96) translateY(8px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.modal-hdr{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-bottom:1px solid var(--bd)}
+.modal-hdr h2{font-size:18px;font-weight:700;color:var(--tx);margin:0}
+.modal-hdr .modal-close{width:32px;height:32px;border-radius:8px;border:1px solid var(--bd);background:var(--bg2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--tx2);transition:all .15s}
+.modal-hdr .modal-close:hover{border-color:var(--rd);color:var(--rd);background:rgba(212,32,48,.05)}
+.modal-body{padding:22px}
+.modal-stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}
+.modal-stat{background:var(--bg);border-radius:8px;padding:12px;text-align:center;border:1px solid var(--bd)}
+.modal-stat .ms-val{font-family:var(--m);font-size:24px;font-weight:700;color:var(--cy)}
+.modal-stat .ms-lbl{font-family:var(--m);font-size:9px;text-transform:uppercase;letter-spacing:1px;color:var(--tx2);margin-top:2px}
+.modal-section{margin-bottom:20px}
+.modal-section h3{font-family:var(--m);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--tx2);margin-bottom:12px}
+.cat-bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.cat-bar-label{font-size:12px;font-weight:600;color:var(--tx);min-width:90px;text-align:right}
+.cat-bar-track{flex:1;height:24px;background:var(--bg);border-radius:4px;overflow:hidden;border:1px solid var(--bd)}
+.cat-bar-fill{height:100%;border-radius:3px;transition:width .6s ease;display:flex;align-items:center;padding:0 8px}
+.cat-bar-fill span{font-family:var(--m);font-size:10px;font-weight:600;color:#fff;white-space:nowrap}
+.cat-bar-count{font-family:var(--m);font-size:12px;color:var(--tx2);min-width:30px}
+.trend-placeholder{background:var(--bg);border:1px dashed var(--bd2);border-radius:8px;padding:24px;text-align:center}
+.trend-placeholder .tp-icon{font-size:28px;margin-bottom:8px;opacity:.4}
+.trend-placeholder p{font-size:12px;color:var(--tx2);line-height:1.5}
+.trend-placeholder .tp-label{font-family:var(--m);font-size:10px;color:var(--tx3);letter-spacing:1px;text-transform:uppercase;margin-top:8px}
+.dcard-actions{display:flex;gap:6px;align-items:center}
+.btn-detail{padding:4px 10px;border-radius:5px;font-size:9px;font-weight:600;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx2);font-family:var(--m);transition:all .15s;text-transform:uppercase;letter-spacing:.5px}
+.btn-detail:hover{border-color:var(--cy);color:var(--cy);background:rgba(232,96,10,.04)}
+
 </style>
 </head>
 <body><script>if(!sessionStorage.getItem('athena_auth')){window.location.href='login.html'}</script><div id="root"></div>
@@ -133,8 +190,8 @@ function App(){
     }).catch(function(e){setErr(e.message)});
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
-  if(!data)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"ld"},React.createElement("div",{className:"sp"}),React.createElement("span",{style:{color:'var(--tx2)',fontSize:12,fontFamily:'var(--m)'}},"ATHENA initializing...")));
-  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["stock","Stock Alerts"],["deals","Deals"],["disps","Dispensary Total Products"]];
+  if(!data)return React.createElement(TerminalBoot,null);
+  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["stock","Stock Alerts"],["deals","Deals"],["disps","SKUs"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
@@ -145,6 +202,174 @@ function App(){
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
     React.createElement(Ftr,{d:data})
+  );
+}
+
+/* ═══════════════════════════════════════
+   TERMINAL BOOT SEQUENCE
+   ═══════════════════════════════════════ */
+function TerminalBoot(){
+  var[lines,setLines]=useState([]);var[done,setDone]=useState(false);var[hidden,setHidden]=useState(false);
+  var bootLines=[
+    {delay:100,text:"ATHENA v2.0 — Cannabis Pricing Intelligence",cls:"info"},
+    {delay:400,text:"Connecting to data feed...",cls:"info"},
+    {delay:800,text:"Decrypting dashboard payload",cls:"info"},
+    {delay:1100,text:"Loading product database",cls:"ok",val:"35,616 SKUs"},
+    {delay:1400,text:"Mapping dispensary network",cls:"ok",val:"118 entries"},
+    {delay:1700,text:"Indexing pricing comparisons",cls:"ok",val:"5,667 comparable"},
+    {delay:2000,text:"Scanning active deals",cls:"warn",val:"7,283 deals"},
+    {delay:2300,text:"Building intelligence matrix",cls:"ok"},
+    {delay:2800,text:"SYSTEM READY",cls:"ready"},
+  ];
+  useEffect(function(){
+    var timers=[];
+    bootLines.forEach(function(line,i){
+      timers.push(setTimeout(function(){setLines(function(prev){return[...prev,line]})},line.delay));
+    });
+    timers.push(setTimeout(function(){setDone(true)},3200));
+    timers.push(setTimeout(function(){setHidden(true)},3700));
+    return function(){timers.forEach(clearTimeout)};
+  },[]);
+  if(hidden)return null;
+  return React.createElement("div",{className:"boot"+(done?" done":"")},
+    React.createElement("div",{className:"boot-logo"},"ATHENA"),
+    React.createElement("div",{className:"boot-sub"},"CANNABIS PRICING INTELLIGENCE"),
+    lines.map(function(l,i){
+      if(l.cls==="ready")return React.createElement("div",{key:i,className:"boot-ready",style:{animationDelay:"0s"}},"▸ "+l.text);
+      return React.createElement("div",{key:i,className:"boot-line "+l.cls,style:{animationDelay:"0s"}},
+        React.createElement("span",{className:"bl-dot"}),
+        React.createElement("span",null,l.text),
+        l.val?React.createElement("span",{className:"bl-val"}," — "+l.val):null
+      );
+    }),
+    React.createElement("div",{className:"boot-bar"},React.createElement("div",{className:"boot-bar-fill"}))
+  );
+}
+
+/* ═══════════════════════════════════════
+   SKELETON LOADING PLACEHOLDERS
+   ═══════════════════════════════════════ */
+function SkeletonTable({rows}){
+  var r=rows||8;
+  return React.createElement("div",{className:"tw"},
+    React.createElement("div",{className:"inf"},React.createElement("div",{className:"skel",style:{width:120,height:12}})),
+    Array.from({length:r}).map(function(_,i){
+      return React.createElement("div",{key:i,className:"skel-row"},
+        React.createElement("div",{className:"skel",style:{width:180+Math.random()*60,height:14}}),
+        React.createElement("div",{className:"skel",style:{width:80,height:14}}),
+        React.createElement("div",{className:"skel",style:{width:60,height:14}}),
+        React.createElement("div",{className:"skel",style:{width:70,height:14}})
+      );
+    })
+  );
+}
+
+function SkeletonCards({count}){
+  var c=count||6;
+  return React.createElement("div",{className:"dlist"},
+    Array.from({length:c}).map(function(_,i){
+      return React.createElement("div",{key:i,className:"skel-card"},
+        React.createElement("div",{className:"skel",style:{width:160+Math.random()*40,height:14}}),
+        React.createElement("div",{className:"skel",style:{width:80,height:10}}),
+        React.createElement("div",{className:"skel",style:{width:50,height:22,marginTop:4}})
+      );
+    })
+  );
+}
+
+/* ═══════════════════════════════════════
+   DETAILED VIEW MODAL
+   ═══════════════════════════════════════ */
+function DetailedView({disp,data,onClose}){
+  if(!disp)return null;
+  var prods=data.products||[];
+  var dispNames=disp.rawNames||[];
+  
+  // Count products per category for this dispensary
+  var catCounts={};var totalSKUs=0;
+  prods.forEach(function(p){
+    var found=false;
+    for(var i=0;i<dispNames.length;i++){
+      if(p.dispensaries&&p.dispensaries[dispNames[i]]){found=true;break}
+    }
+    if(found){
+      var cat=(p.category||"Other");
+      catCounts[cat]=(catCounts[cat]||0)+1;
+      totalSKUs++;
+    }
+  });
+  
+  var catEntries=Object.entries(catCounts).sort(function(a,b){return b[1]-a[1]});
+  var maxCat=catEntries.length>0?catEntries[0][1]:1;
+  var catColors={"Flower":"#2d8f3f","Vaporizers":"#6366f1","Edible":"#e8600a","Pre-Rolls":"#0891b2","Concentrate":"#7c3aed","Tincture":"#db2777","Topical":"#ea580c","CBD":"#059669","other":"#94a3b8"};
+  
+  // Calculate avg price per category
+  var catAvgPrices={};
+  prods.forEach(function(p){
+    for(var i=0;i<dispNames.length;i++){
+      var pr=p.dispensaries&&p.dispensaries[dispNames[i]];
+      if(pr){
+        var cat=(p.category||"Other");
+        if(!catAvgPrices[cat])catAvgPrices[cat]={sum:0,count:0};
+        catAvgPrices[cat].sum+=pr;catAvgPrices[cat].count++;
+        break;
+      }
+    }
+  });
+  
+  return React.createElement("div",{className:"modal-overlay",onClick:function(e){if(e.target===e.currentTarget)onClose()}},
+    React.createElement("div",{className:"modal"},
+      React.createElement("div",{className:"modal-hdr"},
+        React.createElement("h2",null,disp.name),
+        React.createElement("button",{className:"modal-close",onClick:onClose},"✕")
+      ),
+      React.createElement("div",{className:"modal-body"},
+        // Stats row
+        React.createElement("div",{className:"modal-stat-row"},
+          React.createElement("div",{className:"modal-stat"},
+            React.createElement("div",{className:"ms-val"},totalSKUs.toLocaleString()),
+            React.createElement("div",{className:"ms-lbl"},"Total SKUs")
+          ),
+          React.createElement("div",{className:"modal-stat"},
+            React.createElement("div",{className:"ms-val"},catEntries.length),
+            React.createElement("div",{className:"ms-lbl"},"Categories")
+          ),
+          React.createElement("div",{className:"modal-stat"},
+            React.createElement("div",{className:"ms-val"},disp.city),
+            React.createElement("div",{className:"ms-lbl"},"Location")
+          )
+        ),
+        // Category breakdown bars
+        React.createElement("div",{className:"modal-section"},
+          React.createElement("h3",null,"SKU Breakdown by Category"),
+          catEntries.map(function(e){
+            var cat=e[0],count=e[1];
+            var pct=Math.round((count/maxCat)*100);
+            var color=catColors[cat]||catColors["other"];
+            var avgP=catAvgPrices[cat]?Math.round(catAvgPrices[cat].sum/catAvgPrices[cat].count*100)/100:0;
+            return React.createElement("div",{key:cat,className:"cat-bar-row"},
+              React.createElement("span",{className:"cat-bar-label"},cat),
+              React.createElement("div",{className:"cat-bar-track"},
+                React.createElement("div",{className:"cat-bar-fill",style:{width:pct+"%",background:color}},
+                  count>10?React.createElement("span",null,count):null
+                )
+              ),
+              React.createElement("span",{className:"cat-bar-count"},count),
+              React.createElement("span",{style:{fontFamily:'var(--m)',fontSize:10,color:'var(--tx3)',minWidth:55,textAlign:'right'}},avgP?"~$"+avgP.toFixed(0):"")
+            );
+          })
+        ),
+        // Week-over-week trend placeholder
+        React.createElement("div",{className:"modal-section"},
+          React.createElement("h3",null,"SKU Trends — Week Over Week"),
+          React.createElement("div",{className:"trend-placeholder"},
+            React.createElement("div",{className:"tp-icon"},"📈"),
+            React.createElement("p",null,"Trend data will populate as ATHENA accumulates daily scrapes. After 7+ days of data, this chart will show weekly SKU count changes across each category."),
+            React.createElement("div",{className:"tp-label"},"Data collection in progress")
+          )
+        )
+      )
+    )
   );
 }
 
@@ -357,15 +582,18 @@ function DealsTab({data,favsVer}){
 }
 
 /* ═══════════════════════════════════════
-   DISPENSARY TOTAL PRODUCTS TAB
+   SKUs TAB (formerly Dispensary Total Products)
    ═══════════════════════════════════════ */
 function DispsTab({data,favsVer,toggleFav}){
   const[sort,setSort]=useState("count");const prods=data.products||[];const disps=data.dispensaries||{};
+  const[detailDisp,setDetailDisp]=useState(null);
   const list=useMemo(()=>{const byBase={};Object.entries(disps).forEach(([name,info])=>{const base=getBase(name);if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),names:[name],menus:[],productNames:new Set()};else{byBase[base].names.push(name);if(isAff(name))byBase[base].isYou=true}const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType)});prods.forEach(p=>{Object.keys(p.dispensaries||{}).forEach(d=>{const base=getBase(d);if(byBase[base])byBase[base].productNames.add((p.name||"").toLowerCase())})});return Object.entries(byBase).map(function(e){var base=e[0],info=e[1];var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;return{name:label,count:info.productNames.size,city:info.city,isYou:info.isYou,rawNames:info.names}}).sort((a,b)=>sort==="count"?b.count-a.count:a.name.localeCompare(b.name))},[prods,disps,sort,favsVer]);
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries ({list.length})</span>
-    <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By products</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
-    <div className="pnl-d">Total unique products per dispensary. Click ★ to mark as yours.</div>
-    <div className="dlist">{list.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="row" style={{gap:8}}><div className="dcard-v">{d.count.toLocaleString()}</div><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div></div>;
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries — SKU count ({list.length})</span>
+    <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By SKUs</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
+    <div className="pnl-d">Total unique SKUs per dispensary. Click ★ to mark as yours.</div>
+    <div className="dlist">{list.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
+    {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
+  </div>;
 }
 
 ReactDOM.render(<App/>,document.getElementById("root"));
