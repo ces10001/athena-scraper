@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Grape Escape | Vape Cart | 1g | C0060000426",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Grape Escape | Vape Cart | 1g | C0060000426 $70.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango | RSO Gummies | 100mg (10pk) | 26683",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Mango | RSO Gummies | 100mg (10pk) | 26683"
+  }
+]

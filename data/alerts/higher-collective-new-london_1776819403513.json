@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Live Resin Pink Lemonade",
+    "brand": "SoundView",
+    "message": "New: SoundView - Live Resin Pink Lemonade $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Biscotti Pie Spark -  All Times",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Biscotti Pie Spark -  All Times $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Lobster BHO",
+    "brand": "Affinity",
+    "message": "New: Affinity - Blue Lobster BHO $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk",
+    "brand": "Affinity",
+    "message": "New: Affinity - Lemon Skunk $24.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "M.O.B.",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - M.O.B."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sugar Plum",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Sugar Plum"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Purple Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints"
+  }
+]

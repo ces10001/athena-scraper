@@ -1,0 +1,452 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple 22 (I) Flower",
+    "brand": "Rythm",
+    "message": "Rythm Black Maple 22 (I) Flower: $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face (H) Flower: $45.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Afternoon Delight #4 (H) Flower",
+    "brand": "Rythm",
+    "message": "Rythm Afternoon Delight #4 (H) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jealousy (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "Lil Budz Jealousy (H) Smalls: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel (H) Flower",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel (H) Flower: $48.00 > $42.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jungle Cake (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "Lil Budz Jungle Cake (H) Smalls: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Muffin Grease (H) Flower",
+    "brand": "Find",
+    "message": "Find Muffin Grease (H) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Animal Face (I) Flower",
+    "brand": "Rythm",
+    "message": "Rythm Animal Face (I) Flower: $50.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns (H) Flower: $140.00 > $123.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti (S) Flower: $45.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Bundle\n\nHybrid flower\n\nGrassroots Jayna's Sunshine (H) Flower: $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CIG (S) Flower",
+    "brand": "Springtime",
+    "message": "Springtime CIG (S) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mr. E Pupil (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Mr. E Pupil (S) Flower: $140.00 > $123.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz (I) Smalls",
+    "brand": "Lil Budz",
+    "message": "Gone: Lil Budz - Gush Mintz (I) Smalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91 (S) Smalls",
+    "brand": "Lil Budz",
+    "message": "Gone: Lil Budz - Chem 91 (S) Smalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - PB Bites (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pinyatti (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger (I) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll (I) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Roll (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonbeam Latto (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Moonbeam Latto (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nIndica flower\n\nGrassroots - Astro GMO (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Titan Express (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise (S) Flower",
+    "brand": "Bundle\n\nSativa flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nSativa flower\n\nGrassroots - Pineapple Sunrise (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tartz (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Apple Tartz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "True OG (I) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - True OG (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Pomme Jelly (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - PB Bites (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gas Face (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bananaconda (H) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Bananaconda (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Govmint Oasis (H) Flower",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Govmint Oasis (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "American Pi (H) Flower",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - American Pi (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Suga T's (H) Flower",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Suga T's (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Singapore Sling (S) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Singapore Sling (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rose Gold RTZ (H) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Rose Gold RTZ (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Hippie Crasher (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Hot Guava (H) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - White Hot Guava (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Chkn n WflZ (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nIndica flower\n\nGrassroots - Zesty Garlic Kookyz (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Paw Paw (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Michigan Cherry (H) Flower",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Michigan Cherry (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Drip (S) Flower",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Lemon Drip (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bad Decisions (H) Flower",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Bad Decisions (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Caps (I) Flower",
+    "brand": "Bundle\n\nIndica flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nIndica flower\n\nGrassroots - White Caps (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BNC-S-20 (H) Flower",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - BNC-S-20 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Gush Mintz (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - GMO (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Breath (H) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Atomic Breath (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry PRFT (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Raspberry PRFT (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F (I) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Bubba F (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Cheddar Cheeze (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SBC (H) Flower",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - SBC (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Slapz (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Paw Paw (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glue Fondue (S) Flower",
+    "brand": "OZ\n\nSativa flower\n\nRythm",
+    "message": "Gone: OZ\n\nSativa flower\n\nRythm - Glue Fondue (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Gas Lit (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Floral Frost (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slingria (S) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Slingria (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Critical Crumb (H) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Critical Crumb (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Orange Z (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - 10G's (H) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BLB (H) Flower",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - BLB (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Chkn n WflZ (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw (H) Ground Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Paw Paw (H) Ground Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Silver Dollar (I) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Silver Dollar (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Problem Child (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Problem Child (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Martian Mints (I) Flower",
+    "brand": "Find",
+    "message": "Gone: Find - Martian Mints (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jayna's Sunshine (H) Ground Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Jayna's Sunshine (H) Ground Flower"
+  }
+]

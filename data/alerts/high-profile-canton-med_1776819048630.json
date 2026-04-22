@@ -1,0 +1,176 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Mikado Mintz | Pre-Pack Smalls | 7g | C0200000004",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mikado Mintz | Pre-Pack Smalls | 7g | C0200000004: $56.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonlight Dream | Live Resin Bar | 1g | C0060000403",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Moonlight Dream | Live Resin Bar | 1g | C0060000403: $56.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Seattle Sour Kush | Pre-Pack Smalls | 14g | 26614",
+    "brand": "Savvy",
+    "message": "Savvy Seattle Sour Kush | Pre-Pack Smalls | 14g | 26614: $99.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Boomer OG | Pre-packed | 3.5g (00046)",
+    "brand": "Comffy",
+    "message": "Comffy Boomer OG | Pre-packed | 3.5g (00046): $36.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sunday Smoothie | Pre-Pack | 7g | 01060",
+    "brand": "Find.",
+    "message": "Find. Sunday Smoothie | Pre-Pack | 7g | 01060: $49.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG | Elite Disposable Briq | 2g | 01098",
+    "brand": "Select",
+    "message": "Select Tahoe OG | Elite Disposable Briq | 2g | 01098: $96.00 > $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sun Grown Six String Sizzle | 5pk Pre-roll | 2.5g (C0070000369)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Sun Grown Six String Sizzle | 5pk Pre-roll | 2.5g (C0070000369) $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Space Gello | Pre-Pack | 3.5g (41369)",
+    "brand": "all:hours",
+    "message": "all:hours Space Gello | Pre-Pack | 3.5g (41369): $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Delphi Diesel | 5pk Pre-Rolls | 0.4g each | 01527",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Delphi Diesel | 5pk Pre-Rolls | 0.4g each | 01527: $30.60 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MAC Stomper | Pre-Pack | 3.5g | 00316",
+    "brand": "Brix",
+    "message": "Brix MAC Stomper | Pre-Pack | 3.5g | 00316: $31.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slip | Single Pre-roll | 1g | 01039",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip | Single Pre-roll | 1g | 01039: $11.20 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "HYB GMO | 5pk Pre-rolls | 0.4g each | 26711",
+    "brand": "CTPharma",
+    "message": "CTPharma HYB GMO | 5pk Pre-rolls | 0.4g each | 26711: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Burger | Pre-Pack | 3.5g (41213)",
+    "brand": "all:hours",
+    "message": "all:hours Hash Burger | Pre-Pack | 3.5g (41213): $31.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash | Pre-Pack | 3.5g | 01067",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Hickory Hash | Pre-Pack | 3.5g | 01067: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pey Cough | 3:2 4pk Infused Pre-rolls | 0.4g each | 41063",
+    "brand": "Theraplant",
+    "message": "Theraplant Pey Cough | 3:2 4pk Infused Pre-rolls | 0.4g each | 41063: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lato | 4pk THC:CBD Infused Pre-rolls | 0.4g each | 41085",
+    "brand": "Theraplant",
+    "message": "Theraplant Lato | 4pk THC:CBD Infused Pre-rolls | 0.4g each | 41085: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sultry Cinnamon | 2:1:1 CBD:THC:CBG Gummies | 100mg (20pk) | C0060000174",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ Sultry Cinnamon | 2:1:1 CBD:THC:CBG Gummies | 100mg (20pk) | C0060000174: $19.20 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sun Grown Grape Gas | Single Pre-roll | 1g | C0070000240",
+    "brand": "Rodeo",
+    "message": "Rodeo Sun Grown Grape Gas | Single Pre-roll | 1g | C0070000240: $9.80 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Grassroots x Dark Heart Collection Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Orange Lime | X Bites | 100mg (10pk) | 00842",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime | X Bites | 100mg (10pk) | 00842: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti | Pre-Pack Smalls | 14g | 26795",
+    "brand": "Savvy",
+    "message": "Savvy Pinyatti | Pre-Pack Smalls | 14g | 26795: $99.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Z | Pre-Pack | 14g | 01000",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Orange Z | Pre-Pack | 14g | 01000: $88.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mikado Mintz | Pre-Pack | 3.5g | C0200000002",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mikado Mintz | Pre-Pack | 3.5g | C0200000002: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "INKD UP | Vape Cart | 1g | 00281",
+    "brand": "Brix",
+    "message": "Brix INKD UP | Vape Cart | 1g | 00281: $54.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dosi-Punch | Pre-Pack Smalls | 14g | 26638",
+    "brand": "Savvy",
+    "message": "Savvy Dosi-Punch | Pre-Pack Smalls | 14g | 26638: $99.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem-Band | Single Pre-roll | 1g | 26152",
+    "brand": "Savvy",
+    "message": "Savvy Chem-Band | Single Pre-roll | 1g | 26152: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon Fiber  | Cart | 0.5g | 4961",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon Fiber  | Cart | 0.5g | 4961: $36.00 > $40.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01118",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01118"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Modified Haze Flower H 26406",
+    "brand": "CTPharma",
+    "message": "CTPharma Modified Haze Flower H 26406: $24.50 > $31.85"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Guap RSO Tangie Crush 50mg",
+    "brand": "Savvy",
+    "message": "Savvy Guap RSO Tangie Crush 50mg: $7.00 > $6.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945: $7.00 > $6.30"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky Spritz 0060: $25.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky Spritz 0058: $25.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958: $7.00 > $6.30"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky Spritz 0046: $25.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0076",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime Lucky Elixir 0076: $25.50 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch Lucky Elixir 0075: $25.50 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0077",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade Lucky Elixir 0077: $25.50 > $27.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "On The Rocks - A1 Haze Live Rosin AIO 1g T812 H 26290",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - On The Rocks - A1 Haze Live Rosin AIO 1g T812 H 26290"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01216",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01216"
+  }
+]

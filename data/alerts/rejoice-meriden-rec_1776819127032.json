@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Awssom Pre-Pack 3.5g Banana Kush Cake (BKC) 00055",
+    "brand": "Awssom",
+    "message": "New: Awssom - Awssom Pre-Pack 3.5g Banana Kush Cake (BKC) 00055 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Citrus Punch Live Resin Disposable Vape (1G)  (S) 00229",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Citrus Punch Live Resin Disposable Vape (1G)  (S) 00229 $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake 41640",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake 41640"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Blood Orange Gummies (S) - 00224",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Blood Orange Gummies (S) - 00224"
+  }
+]

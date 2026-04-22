@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sun Grown Six String Sizzle | 5pk Pre-roll | 2.5g (C0070000369)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Sun Grown Six String Sizzle | 5pk Pre-roll | 2.5g (C0070000369) $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Thai Nevilles Haze | Infused Pre-roll | 0.7g | (00785)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01118",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Green Apple | Fast-Acting Jellies | 100mg (20pk) | 01118"
+  }
+]
