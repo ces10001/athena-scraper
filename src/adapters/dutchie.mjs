@@ -4,28 +4,37 @@ import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 const HASH = '98b4aaef79a84ae804b64d550f98dd64d7ba0aa6d836eb6b5d4b2ae815c95e32';
 
 let browser = null;
-let page = null;
+let context = null;
+let launching = null;
 
 async function ensureBrowser() {
-  if (!browser) {
+  if (browser) return context;
+  if (launching) return await launching;
+  launching = (async function() {
     console.log('  [dutchie] Launching Chrome...');
     browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext({
+    context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
-    page = await context.newPage();
-    await page.goto('https://dutchie.com/dispensary/high-profile-canton', { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(2000);
-    try {
-      const yesBtn = page.getByRole('button', { name: 'Yes' });
-      await yesBtn.click({ timeout: 5000 });
-      console.log('  [dutchie] Age gate passed');
-      await page.waitForTimeout(2000);
-    } catch {
-      console.log('  [dutchie] No age gate found');
-    }
+    return context;
+  })();
+  return await launching;
+}
+
+async function createPage() {
+  var ctx = await ensureBrowser();
+  var p = await ctx.newPage();
+  await p.goto('https://dutchie.com/dispensary/high-profile-canton', { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await p.waitForTimeout(2000);
+  try {
+    var yesBtn = p.getByRole('button', { name: 'Yes' });
+    await yesBtn.click({ timeout: 5000 });
+    console.log('  [dutchie] Age gate passed');
+    await p.waitForTimeout(2000);
+  } catch {
+    console.log('  [dutchie] No age gate found');
   }
-  return page;
+  return p;
 }
 
 async function fetchAllProducts(p, dispensaryId, pricingType) {
@@ -142,14 +151,18 @@ export async function scrapeDutchie(dispensary) {
     console.error('  [dutchie] No dispensary_id for ' + dispensary.name);
     return { products: [], errors: ['No dispensary_id'] };
   }
-  try {
-    var p = await ensureBrowser();
-    await p.waitForTimeout(1500);
+  
+  var p = null;
+  var retries = 0;
+  var maxRetries = 2;
+  
+  while (retries <= maxRetries) {
+    try {
+      p = await createPage();
 
-    // Determine which menu to scrape: if menu_type is set, scrape only that; otherwise both (legacy)
-    var menuType = dispensary.menu_type;
-    var allProducts = new Map();
-    var catCounts = {};
+      var menuType = dispensary.menu_type;
+      var allProducts = new Map();
+      var catCounts = {};
 
     if (menuType === 'rec' || !menuType) {
       // Scrape rec menu
@@ -209,18 +222,30 @@ export async function scrapeDutchie(dispensary) {
     var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
     console.log('  [dutchie] Categories: ' + catInfo);
     console.log('  [dutchie] Done: ' + normalized.length + ' valid products');
+    try { await p.close(); } catch(e) {}
     return { products: normalized, errors: [] };
   } catch (err) {
+    try { if (p) await p.close(); } catch(e) {}
+    
+    // Retry on "Execution context was destroyed" errors
+    if (err.message && err.message.includes('Execution context was destroyed') && retries < maxRetries) {
+      retries++;
+      console.warn('  [dutchie] Context destroyed, retrying (' + retries + '/' + maxRetries + ')...');
+      continue;
+    }
+    
     console.error('  [dutchie] FAILED: ' + err.message);
     return { products: [], errors: [err.message] };
   }
+  } // end while
 }
 
 export async function cleanup() {
   if (browser) {
     await browser.close().catch(function() {});
     browser = null;
-    page = null;
+    context = null;
+    launching = null;
     console.log('  [dutchie] Browser closed');
   }
 }
