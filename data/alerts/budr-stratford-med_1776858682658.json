@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series Briq 2 2g Mango Puff (I) 01552SelectBRIQ Flavor Series Disp",
+    "brand": "IndicaSelect Flavor Series Briq 2 2g Mango Puff (I) 01552SelectBRIQ Flavor Series",
+    "message": "IndicaSelect Flavor Series Briq 2 2g Mango Puff (I) 01552SelectBRIQ Flavor Series Select Flavor Series Briq 2 2g Mango Puff (I) 01552SelectBRIQ Flavor Series Disp: $113.00 > $114.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy Whole Flower 3.5g (H) 00512Brix CannabisFlower(3.5G)",
+    "brand": "HybridJealousy Whole Flower 3.5g (H) 00512Brix Cannabis",
+    "message": "Gone: HybridJealousy Whole Flower 3.5g (H) 00512Brix Cannabis - Jealousy Whole Flower 3.5g (H) 00512Brix CannabisFlower(3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Animal Face (I) 01329RYTHMMixed Buds(28G)",
+    "brand": "Only 2 leftIndicaRythm 28g Animal Face (I) 01329RYTHM",
+    "message": "Gone: Only 2 leftIndicaRythm 28g Animal Face (I) 01329RYTHM - Rythm 28g Animal Face (I) 01329RYTHMMixed Buds(28G)"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2 1g Cherry Pi (S) 01636",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2 1g Cherry Pi (S) 01636: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2 2g Moonburst (H) 01642",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2 2g Moonburst (H) 01642: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge 1g NYC Diesel (H) 01511",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge 1g NYC Diesel (H) 01511: $64.00 > $51.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO Lucky Dugout 3g 0071",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Black Cherry GMO Lucky Dugout 3g 0071: $28.80 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) 01407 TC 32.40%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) 01407 TC 32.40%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Atomic Breath (H) 01079 TC 29.647%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Atomic Breath (H) 01079 TC 29.647%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g Sour Z (S) 01523",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g Sour Z (S) 01523: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g Casino Floor (I) 01508",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g Casino Floor (I) 01508: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge 1g Old School OG (H) 01386",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge 1g Old School OG (H) 01386: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00376",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00376: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Banana Cream Cayk (H) 01568",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Banana Cream Cayk (H) 01568: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2 2g Joocy Froot (H) 01607",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2 2g Joocy Froot (H) 01607: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g NYC Diesel (H) 01276",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g NYC Diesel (H) 01276: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01427 TC 28.810%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01427 TC 28.810%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Apple Tartz (H) 01534 TC 39.118%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Apple Tartz (H) 01534 TC 39.118%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00342",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00342: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01598 TC 34.697%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01598 TC 34.697%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01253 TC 37.83%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01253 TC 37.83%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Wild Berry Cannabis-Infused Gummies 00217",
+    "brand": "Camino",
+    "message": "Camino Camino Wild Berry Cannabis-Infused Gummies 00217: $32.00 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vienna10001",
+    "brand": "Cookies",
+    "message": "Cookies Vienna10001: $36.80 > $46.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge .5g Dosido (I) 01479",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Dosido (I) 01479: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Preroll 1g Single Foreign Kush Mints (I) 01495 TC 39.05%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Dark Heart Collection Preroll 1g Single Foreign Kush Mints (I) 01495 TC 39.05%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE GOODS - WHOLE FLOWER - BLUE RAZ10001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - BLUE RAZ10001: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0057",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch Lucky Elixir 0057: $22.40 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Jayna's Sunshine (H) 01094 TC 29.65%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Jayna's Sunshine (H) 01094 TC 29.65%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Ground Flower 3.5g Ched R Cheez (I) 01298 TC 34.183%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Ground Flower 3.5g Ched R Cheez (I) 01298 TC 34.183%: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Ground Flower 3.5g Apple Tartz (H) 01420 TC 34.18%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower 3.5g Apple Tartz (H) 01420 TC 34.18%: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Muffin Grease (H) 01474 TC 30.40%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Muffin Grease (H) 01474 TC 30.40%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "COOKIES - WHOLE FLOWER - BLUEBERRY BANANA 90001",
+    "brand": "Cookies",
+    "message": "Cookies COOKIES - WHOLE FLOWER - BLUEBERRY BANANA 90001: $38.40 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Paw Paw (H) 01189 TC",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Preroll 5 Pack 2g Paw Paw (H) 01189 TC: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Mango Puff (I) 01501",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Mango Puff (I) 01501: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Moonburst (H) 01485",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Moonburst (H) 01485: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2.0 1g Casino Floor (I) 01505: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2.0 1g Banana Cream Cayk (H) 01484",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2.0 1g Banana Cream Cayk (H) 01484: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2 1g Sour Z (S) 01565",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2 1g Sour Z (S) 01565: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Sofa Sonata (I) 01629",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Sofa Sonata (I) 01629: $66.00 > $52.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blueberry Dream .5g Rechargeable 0064",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Blueberry Dream .5g Rechargeable 0064: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Maui Wowie .5g Rechargeable 0084",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Maui Wowie .5g Rechargeable 0084: $30.40 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge 1g Old School Blue (H) 01300",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge 1g Old School Blue (H) 01300: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00343",
+    "brand": "Camino",
+    "message": "Camino Camino Watermelon Lemonade Cannabis-Infused Gummies 00343: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge 1g Garlotti (S) 01316",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge 1g Garlotti (S) 01316: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365: $32.00 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies- Whole Flower- C. Rollz60001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- C. Rollz60001: $38.40 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g Atomic Breath (H) 01269 TC 32.22%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Atomic Breath (H) 01269 TC 32.22%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf  Whole Flower 3.5g Pineapple Sunrise (S) 01340 TC 30.21%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf  Whole Flower 3.5g Pineapple Sunrise (S) 01340 TC 30.21%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g White Caps (I) 01471 TC 36.776%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g White Caps (I) 01471 TC 36.776%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0056",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime Lucky Elixir 0056: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0077",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade Lucky Elixir 0077: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0076",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime Lucky Elixir 0076: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0093",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade Lucky Elixir 0093: $22.40 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Floral Frost (H) 01651 TC 33.671%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Floral Frost (H) 01651 TC 33.671%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies- Whole Flower- Ridgeline Lantz80001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- Ridgeline Lantz80001: $36.80 > $46.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FAST ACTING LUCKY HOT HONEY 0089",
+    "brand": "Lucky Break",
+    "message": "Lucky Break FAST ACTING LUCKY HOT HONEY 0089: $18.80 > $23.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Moonbeam Latto (H) 01363 TC 24.417%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Moonbeam Latto (H) 01363 TC 24.417%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 .5g Blue Dream (H) 01503",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 .5g Blue Dream (H) 01503: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 .5g Sundae Slumber (I) 01519",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 .5g Sundae Slumber (I) 01519: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite All In One .3g Blue Dream (H) 01308",
+    "brand": "Select",
+    "message": "Select Select Elite All In One .3g Blue Dream (H) 01308: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Gummies-00361",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Gummies-00361: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Mango with CBD 5:5 Cannabis-Infused Gummies 00227",
+    "brand": "Camino",
+    "message": "Camino Camino Mango with CBD 5:5 Cannabis-Infused Gummies 00227: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00378",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00378: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Blackberry Dream with CBN &amp; CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Blackberry Dream with CBN &amp; CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448: $34.00 > $27.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pineapple Expression .5g Rechargeable 0072",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Pineapple Expression .5g Rechargeable 0072: $30.40 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00327",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero Cannabis-Infused Gummies 00327: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select X Bites Raspberry Orange Lime 00842",
+    "brand": "Select",
+    "message": "Select Select X Bites Raspberry Orange Lime 00842: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Preroll 1g Single Tropical Heatwave (H) 01400 TC 28.87%",
+    "brand": "Find.",
+    "message": "Find. FIND. Preroll 1g Single Tropical Heatwave (H) 01400 TC 28.87%: $14.00 > $11.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky Spritz 0046: $22.00 > $27.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky Spritz 0058: $22.00 > $27.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zero Proof Squeeze Dash of Cherry (H) 01599",
+    "brand": "Select",
+    "message": "Select Zero Proof Squeeze Dash of Cherry (H) 01599: $38.00 > $30.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Widow .5g Rechargeable 0098",
+    "brand": "Lucky Break",
+    "message": "Lucky Break White Widow .5g Rechargeable 0098: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Goods- Whole Flower- Garlic Krusher90010",
+    "brand": "The Goods",
+    "message": "The Goods The Goods- Whole Flower- Garlic Krusher90010: $33.60 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE GOODS - WHOLE FLOWER - THAT BADU50001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - THAT BADU50001: $36.80 > $46.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE GOODS - WHOLE FLOWER - LONDON POUNDCAKE20001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - LONDON POUNDCAKE20001: $36.80 > $46.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE GOODS - WHOLE FLOWER - HALLOWEED40001",
+    "brand": "The Goods",
+    "message": "The Goods THE GOODS - WHOLE FLOWER - HALLOWEED40001: $33.60 > $42.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select X Bites Strawberry 01572",
+    "brand": "Select",
+    "message": "Select Select X Bites Strawberry 01572: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select X Bites Orange Matter 01382",
+    "brand": "Select",
+    "message": "Select Select X Bites Orange Matter 01382: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2.0 2g Couch Kush (H) 01536",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2.0 2g Couch Kush (H) 01536: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2 2g Sour Z (S) 01573",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2 2g Sour Z (S) 01573: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2 2g Casino Floor (I) 01560",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2 2g Casino Floor (I) 01560: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series Briq 2 1g Blue Dream (H) 01611",
+    "brand": "Briq",
+    "message": "Briq Select Legacy Series Briq 2 1g Blue Dream (H) 01611: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g GMO (H) 01647",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g GMO (H) 01647: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g Durban Poison (S) 01582",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g Durban Poison (S) 01582: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g Blue Dream (H) 01491",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g Blue Dream (H) 01491: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 .5g Sour Z (S) 01553",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 .5g Sour Z (S) 01553: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2.0 1g Sundae Slumber (I) 01500",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2.0 1g Sundae Slumber (I) 01500: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series Briq 2 2g Mango Puff (I) 01552",
+    "brand": "Briq",
+    "message": "Briq Select Flavor Series Briq 2 2g Mango Puff (I) 01552: $125.00 > $100.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Joocy Froot (H) 01585",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Joocy Froot (H) 01585: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01632",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Golden Tangie (S) 01632: $66.00 > $52.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 .5g Sofa Sonata (I) 01556",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 .5g Sofa Sonata (I) 01556: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge .5g Mango Puff (I) 01472",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Mango Puff (I) 01472: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge .5g Durban Poison (S) 01293",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Durban Poison (S) 01293: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Tahoe OG (I) 01255",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g Tahoe OG (I) 01255: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Purple Urkel (I) 01336",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g Purple Urkel (I) 01336: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Moonburst (H) 01273",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g Moonburst (H) 01273: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Garlotti (S) 01283",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g Garlotti (S) 01283: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g GMO (H) 01335",
+    "brand": "Briq",
+    "message": "Briq Select Elite Briq All In One Disposable Vape 2g GMO (H) 01335: $120.00 > $96.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite All In One .3g Tahoe OG (I) 01319",
+    "brand": "Select",
+    "message": "Select Select Elite All In One .3g Tahoe OG (I) 01319: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite All In One .3g Old School OG (H) 01327",
+    "brand": "Select",
+    "message": "Select Select Elite All In One .3g Old School OG (H) 01327: $35.00 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky Spritz 0043",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky Spritz 0043: $22.00 > $27.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panama Red .5g Rechargeable 0099",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Panama Red .5g Rechargeable 0099: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Live Resin Rainbow Beltz .3g Rechargeable 0068",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Live Resin Rainbow Beltz .3g Rechargeable 0068: $24.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01455",
+    "brand": "JAMS",
+    "message": "JAMS Jams Remix Fast Acting Ratio Jellies Blackberry (I) 01455: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01480",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01480: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01180",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01180: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01146",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01146: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Green Apple (H) 01077",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Fast Acting Jellies Sour Green Apple (H) 01077: $32.00 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ice Cream Cke Lucky Dugout 3g 0065",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Ice Cream Cke Lucky Dugout 3g 0065: $28.80 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Jayna's Sunshine (H) 01619 TC 34.269%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Jayna's Sunshine (H) 01619 TC 34.269%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Astro GMO (I) 01583 TC 27.606%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Astro GMO (I) 01583 TC 27.606%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Apple Tartz (H) 01623 TC 36.500%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Apple Tartz (H) 01623 TC 36.500%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 14g Lunar Diesel (H) 01540 TC 26.566%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 14g Lunar Diesel (H) 01540 TC 26.566%: $110.00 > $88.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Ched R Cheez (I) 01441 TC 37.14%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Ched R Cheez (I) 01441 TC 37.14%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Astro GMO (I) 01433 TC 30.461%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Astro GMO (I) 01433 TC 30.461%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Ground Flower 3.5g Citradelic Haze (S) 01631 TC 31.016%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower 3.5g Citradelic Haze (S) 01631 TC 31.016%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Zesty Garlic Kookyz (I) 01135 TC 25.107%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Whole Flower 3.5g Zesty Garlic Kookyz (I) 01135 TC 25.107%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01494 TC 34.987%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01494 TC 34.987%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Preroll 1g Single Zesty Garlic Kookyz (I) 01129 TC 30.806%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Preroll 1g Single Zesty Garlic Kookyz (I) 01129 TC 30.806%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Honey 0087: $23.20 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Honey 0062",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Honey 0062: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Agave 0086",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Agave 0086: $12.80 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Modified Goat (I) 01487 TC 33.72%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Modified Goat (I) 01487 TC 33.72%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Half Moonana (H) 01177 TC 28.89%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Half Moonana (H) 01177 TC 28.89%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Berry Medley (S) 01122 TC 26.071%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Berry Medley (S) 01122 TC 26.071%: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Preroll 1g Single Modified Goat (I) 01538 TC 31.704%",
+    "brand": "Find.",
+    "message": "Find. FIND. Preroll 1g Single Modified Goat (I) 01538 TC 31.704%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775%",
+    "brand": "Find.",
+    "message": "Find. FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775%: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) 01126 TC 32.94%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g White Hot Guava (H) 01126 TC 32.94%: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g Nuclear Mfns (H) 01044 TC 26.275%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Nuclear Mfns (H) 01044 TC 26.275%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g Grower's Mix (I) 01053 TC 26.434%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g Grower's Mix (I) 01053 TC 26.434%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 28g Indica Princess (I) 00964 TC 24.846%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 28g Indica Princess (I) 00964 TC 24.846%: $240.00 > $192.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 14g True OG (I) 00996 TC 27.015%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 14g True OG (I) 00996 TC 27.015%: $110.00 > $88.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Astro GMO (I) 01174 TC 30.575%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Preroll 5 Pack 2g Astro GMO (I) 01174 TC 30.575%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies- Whole Flower- Pakman 00012",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- Pakman 00012: $36.80 > $46.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies- Pomgranate ShakeSmalls20007",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Pomgranate ShakeSmalls20007: $49.60 > $62.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies- G. Payton20 Smalls 70014",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- G. Payton20 Smalls 70014: $49.60 > $62.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cookies CRollzSmalls60001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies CRollzSmalls60001: $49.60 > $62.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Acapulco Gold .5g Rechargeable 0050",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Acapulco Gold .5g Rechargeable 0050: $35.20 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry Cannabis-Infused Gummies 00439: $34.00 > $27.20"
+  }
+]
