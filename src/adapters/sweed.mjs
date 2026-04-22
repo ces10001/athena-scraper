@@ -287,6 +287,51 @@ async function scrapeWithPlaywright(menuUrl, domain, allProducts, errors) {
     if (!hydration) hydration = await tryExtract(menuUrl.replace(/\/?$/, '') + '/menu');
     if (!hydration) hydration = await tryExtract(menuUrl.replace(/\/?$/, '') + '/menu?isIframe=true');
 
+    // ═══ IFRAME STRATEGY (Zen Leaf pattern) ═══
+    // Some sites embed Sweed in an iframe called 'sweed-iframe-display'
+    // The parent page has no __sw_qc but the iframe does
+    if (!hydration) {
+      console.log('  [sweed] Trying iframe frame extraction...');
+      // Navigate to the base menu URL and wait for iframe to load
+      await page.goto(menuUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      await page.waitForTimeout(8000);
+      
+      // Look for the sweed iframe by name or by URL pattern
+      var sweedFrame = page.frame('sweed-iframe-display');
+      if (!sweedFrame) {
+        var frames = page.frames();
+        for (var fi = 0; fi < frames.length; fi++) {
+          var fUrl = frames[fi].url() || '';
+          if (fUrl.includes('isIframe=true') || fUrl.includes('sweed')) {
+            sweedFrame = frames[fi];
+            break;
+          }
+        }
+      }
+      
+      if (sweedFrame) {
+        console.log('  [sweed] Found sweed iframe, extracting hydration...');
+        await page.waitForTimeout(3000); // Extra wait for iframe content
+        try {
+          hydration = await sweedFrame.evaluate(function() {
+            try {
+              var raw = window.__sw_qc;
+              if (!raw) return null;
+              var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
+              var queries = parsed.queries || [];
+              for (var i = 0; i < queries.length; i++) {
+                var d = queries[i] && queries[i].state && queries[i].state.data;
+                if (d && d.list && d.total !== undefined) return { list: d.list, total: d.total, pageSize: d.pageSize };
+              }
+            } catch(e) {}
+            return null;
+          });
+        } catch (frameErr) {
+          console.warn('  [sweed] Iframe extraction failed: ' + frameErr.message);
+        }
+      }
+    }
+
     if (hydration && hydration.list && hydration.list.length > 0) {
       console.log('  [sweed] ✓ Playwright hydration! ' + hydration.list.length + '/' + hydration.total);
       for (var h = 0; h < hydration.list.length; h++) {
