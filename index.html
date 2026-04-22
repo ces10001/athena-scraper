@@ -703,10 +703,10 @@ function GapsTab({data,favsVer,toggleFav}){
       {baseNames.map(([base,firstDisp])=><option key={base} value={firstDisp}>{base}</option>)}
     </select>
     {!homeBase?<div className="empty"><h3>Pick your home dispensary above</h3><p style={{fontSize:12}}>Product gaps will show products sold by competitors that you don't carry.</p></div>:
-    <>{React.createElement("div",{className:"pnl-t",style:{marginTop:6}},"Filter by area"),React.createElement("div",{className:"pnl-d"},"Click map to filter product gaps by nearby competitors."),
-    <div className="map-w" ref={mapRef}></div>,
+    <><div className="pnl-t" style={{marginTop:6}}>Filter by area</div><div className="pnl-d">Click map to filter product gaps by nearby competitors.</div>
+    <div className="map-w" ref={mapRef}></div>
     <div className="radius-ctrl"><label>{gCenter?"Radius from "+gLabel+":":gLabel}</label><input type="range" min="1" max="60" value={gRadius} onChange={e=>setGRadius(+e.target.value)}/><div className="rv">{gRadius} mi</div>
-      {gCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setGCenter(null);setInArea(null);if(circRef.current&&mapInst.current){mapInst.current.removeLayer(circRef.current);circRef.current=null}setGLabel("Click map to filter by area")}}>Clear</button>}</div>,
+      {gCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setGCenter(null);setInArea(null);if(circRef.current&&mapInst.current){mapInst.current.removeLayer(circRef.current);circRef.current=null}setGLabel("Click map to filter by area")}}>Clear</button>}</div>
     <div style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products you don't carry)</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
     <div className="pnl-d">Products sold by competitors that are not on {cleanD(homeBase)}'s menu.</div>
     <div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
