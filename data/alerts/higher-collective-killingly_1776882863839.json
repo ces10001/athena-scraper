@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "G'night Grape 2:1",
+    "brand": "SoundView",
+    "message": "New: SoundView - G'night Grape 2:1 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mellow Mango 1:1:1 THC:CBD:CBN",
+    "brand": "SoundView",
+    "message": "New: SoundView - Mellow Mango 1:1:1 THC:CBD:CBN $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach RSO",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peach RSO $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Live Resin Berry Burst",
+    "brand": "SoundView",
+    "message": "New: SoundView - Live Resin Berry Burst $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Down with the Dankness Live Resin",
+    "brand": "SoundView",
+    "message": "New: SoundView - Down with the Dankness Live Resin $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blood Orange",
+    "brand": "SoundView",
+    "message": "New: SoundView - Blood Orange $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Live Resin Watermelon 1:1:1 THC:CBD:CBG",
+    "brand": "SoundView",
+    "message": "New: SoundView - Live Resin Watermelon 1:1:1 THC:CBD:CBG $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miss Strawberry Spark - Fast Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Miss Strawberry Spark - Fast Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Live Resin Wedding Cake",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Live Resin Wedding Cake"
+  }
+]

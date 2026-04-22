@@ -1,0 +1,26 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Yeet 3.5g 0008",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Yeet 3.5g 0008: $44.00 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Muel Fuel 3.5g 0022",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Muel Fuel 3.5g 0022: $48.00 > $46.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon 1g PR 41724",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon 1g PR 41724"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon Infused Shorties 41456",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon Infused Shorties 41456"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "CLF Humboldt Sour Diesel Whole Flower 19.66% (",
+    "brand": "S) 01085 14gCuraleaf",
+    "message": "New: S) 01085 14gCuraleaf - CLF Humboldt Sour Diesel Whole Flower 19.66% ( $86.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND. Whole Flower 3.5g PB Bites (S) 01693 TC 30.304%",
+    "brand": "FIND",
+    "message": "New: FIND - FIND. Whole Flower 3.5g PB Bites (S) 01693 TC 30.304% $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 1g|",
+    "brand": "Couch Surfer 00163Comffy",
+    "message": "New: Couch Surfer 00163Comffy - Comffy|PreRoll 1g| $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01632SelectFlavor Series Cartridge",
+    "brand": "SativaSelect Flavor Series 510 1g Golden Tangie (S) 01632SelectFlavor Series",
+    "message": "New: SativaSelect Flavor Series 510 1g Golden Tangie (S) 01632SelectFlavor Series - Select Flavor Series 510 1g Golden Tangie (S) 01632SelectFlavor Series Cartridge $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 0.5g 7pk|",
+    "brand": "Couch Surfer 00145Comffy7 Pack",
+    "message": "New: Couch Surfer 00145Comffy7 Pack - Comffy|PreRoll 0.5g 7pk| $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy Fritterz Flower H 3.5g 29.46%",
+    "brand": "00203Comffy",
+    "message": "New: 00203Comffy - Comffy Fritterz Flower H 3.5g 29.46% $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Happy Confection-Rainbow Parade S 20ct 00482The Happy Confection™Gummies(EAC",
+    "brand": "HybridThe Happy Confection-Rainbow Parade S 20ct 00482The Happy Confection™",
+    "message": "New: HybridThe Happy Confection-Rainbow Parade S 20ct 00482The Happy Confection™ - The Happy Confection-Rainbow Parade S 20ct 00482The Happy Confection™Gummies(EAC $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack Mini Dogs(.3",
+    "brand": "SativaDogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack",
+    "message": "New: SativaDogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack - Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack Mini Dogs(.3 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy Golden Hour Flower 3.5g 21.29%",
+    "brand": "00192Comffy",
+    "message": "New: 00192Comffy - Comffy Golden Hour Flower 3.5g 21.29% $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|",
+    "brand": "Jai Alai 00198Comffy",
+    "message": "New: Jai Alai 00198Comffy - Comffy|Flower 3.5g| $22.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin Ca",
+    "brand": "Cash backIndicaLighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin",
+    "message": "Gone: Cash backIndicaLighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin - Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin Ca"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice Vape 41731TheraplantVape Cartridge(1G)",
+    "brand": "Only 1 leftHybridCarbon Juice Vape 41731TheraplantVape",
+    "message": "Gone: Only 1 leftHybridCarbon Juice Vape 41731TheraplantVape - Carbon Juice Vape 41731TheraplantVape Cartridge(1G)"
+  }
+]

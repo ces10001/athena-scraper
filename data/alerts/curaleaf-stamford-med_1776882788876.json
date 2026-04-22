@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk $12.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dank Sinatra",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Dank Sinatra"
+  }
+]

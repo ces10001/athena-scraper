@@ -1,0 +1,98 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "New: roll\n\nTheraplant - Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy (S) Infused Shorties 10pk (4g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "New: roll\n\nTheraplant - Strawberry Cndy (S) Infused Shorties 10pk (4g) $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "New: roll\n\nTheraplant - Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (S) Infused Shorties 4pk (1.6g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "New: roll\n\nTheraplant - Colorado Flo (S) Infused Shorties 4pk (1.6g) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Diesel Bites (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nFind",
+    "message": "New: roll\n\nFind - Diesel Bites (S) 1g Pre-Roll 1pk (1g) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bruce Bamer (H) Live Resin Disposable Vape (1g)",
+    "brand": "Hybrid vape\n\nAmigos",
+    "message": "New: Hybrid vape\n\nAmigos - Bruce Bamer (H) Live Resin Disposable Vape (1g) $47.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake (I) Infused Pre-Roll 4pk (1.6g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Wedding Cake (I) Infused Pre-Roll 4pk (1.6g): $35.00 > $31.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Cndy (S) Fatboy Infused Pre-Roll 1pk (2g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Strawberry Cndy (S) Fatboy Infused Pre-Roll 1pk (2g): $35.00 > $31.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "ForeverBerry (S) Fatboy Infused Pre-Roll 1pk (2g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant ForeverBerry (S) Fatboy Infused Pre-Roll 1pk (2g): $35.00 > $31.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Solid State (H) Infused Shorties 4pk (1.6g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Solid State (H) Infused Shorties 4pk (1.6g): $35.00 > $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow B. (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nRodeo Cannabis",
+    "message": "New: roll\n\nRodeo Cannabis - Rainbow B. (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jungle Cake (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis Jungle Cake (H) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer L. (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nRodeo Cannabis",
+    "message": "New: roll\n\nRodeo Cannabis - Summer L. (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citradelic Haze (S) Ground Flower",
+    "brand": "Bundle\n\nSativa flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nSativa flower\n\nGrassroots - Citradelic Haze (S) Ground Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bruce Bamer (H) Live Resin Disposable Vape (1g)",
+    "brand": "Hybrid vape\n\nAmigos",
+    "message": "Gone: Hybrid vape\n\nAmigos - Bruce Bamer (H) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Summer L. (S) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "roll\n\nRodeo Cannabis",
+    "message": "Gone: roll\n\nRodeo Cannabis - Summer L. (S) 0.5g Pre-Rolls 5pk (2.5g)"
+  }
+]

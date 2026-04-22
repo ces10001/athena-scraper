@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Purple Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints Bubble Hash Infused",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints Bubble Hash Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds"
+  }
+]

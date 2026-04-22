@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "AFFINITY CBD ROLL-ON C202 MED 00682",
+    "brand": "Affinity",
+    "message": "New: Affinity - AFFINITY CBD ROLL-ON C202 MED 00682 $12.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Durban Z (S) 01407",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 300mg Pen Durban Z (S) 01407"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Banana Whole Flower T31.26 (19309)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Blueberry Banana Whole Flower T31.26 (19309) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Banana PR T24.14 (19509)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Blueberry Banana PR T24.14 (19509) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Rntz Whole Flower T22.96 (19345)",
+    "brand": "The Goods",
+    "message": "New: The Goods - Tropical Rntz Whole Flower T22.96 (19345) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Rntz PR T18.64 (19545)",
+    "brand": "The Goods",
+    "message": "New: The Goods - Tropical Rntz PR T18.64 (19545) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn (I) CT Rainbows PR T20.7 1pk (00016)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn (I) CT Rainbows PR T20.7 1pk (00016) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hollywood Whole Flower T29.98 (19304)",
+    "brand": "Cookies",
+    "message": "New: Cookies - Hollywood Whole Flower T29.98 (19304) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hi Life Flower T25.73 (00043)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Hi Life Flower T25.73 (00043) $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C. Rollz PR T24.79 (19516)",
+    "brand": "Cookies",
+    "message": "New: Cookies - C. Rollz PR T24.79 (19516) $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Fun Size Budz T24.37 (00055)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Blue Dream Fun Size Budz T24.37 (00055) $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream Flower T24.51 (00053)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Blue Dream Flower T24.51 (00053) $42.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Colorado Flo (Aniva) Flower T23.85 (41595)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Colorado Flo (Aniva) Flower T23.85 (41595)"
+  }
+]
