@@ -61,7 +61,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .badge.gn{background:rgba(26,143,63,.1);color:var(--gn)}.badge.rd{background:rgba(212,32,48,.1);color:var(--rd)}
 .badge.am{background:rgba(232,96,10,.1);color:var(--am)}.badge.cy{background:rgba(232,96,10,.08);color:var(--cy)}
 .dlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
-.dcard{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dcard{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 1px 3px rgba(0,0,0,.06);gap:8px}
 .dcard.you{border-color:rgba(232,96,10,.3);background:rgba(232,96,10,.04)}
 .dcard-n{font-size:12px;font-weight:500;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dcard-c{font-size:10px;color:var(--tx2);margin-top:2px}.dcard-v{font-family:var(--m);font-size:18px;font-weight:600;color:var(--cy)}
@@ -149,9 +149,9 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .trend-placeholder .tp-icon{font-size:28px;margin-bottom:8px;opacity:.4}
 .trend-placeholder p{font-size:12px;color:var(--tx2);line-height:1.5}
 .trend-placeholder .tp-label{font-family:var(--m);font-size:10px;color:var(--tx3);letter-spacing:1px;text-transform:uppercase;margin-top:8px}
-.dcard-actions{display:flex;gap:6px;align-items:center}
-.btn-detail{padding:4px 10px;border-radius:5px;font-size:9px;font-weight:600;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx2);font-family:var(--m);transition:all .15s;text-transform:uppercase;letter-spacing:.5px}
-.btn-detail:hover{border-color:var(--cy);color:var(--cy);background:rgba(232,96,10,.04)}
+.dcard-actions{display:flex;gap:6px;align-items:center;flex-shrink:0}
+.btn-detail{padding:5px 10px;border-radius:5px;font-size:9px;font-weight:700;cursor:pointer;border:none;background:var(--cy);color:#000;font-family:var(--m);transition:all .15s;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+.btn-detail:hover{background:var(--cy2);color:#fff}
 
 /* ═══ PRICING ALERTS SPLIT VIEW ═══ */
 .alert-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
@@ -504,21 +504,40 @@ function Tbl({data,q,sel,cat,comp,setComp}){
    ═══════════════════════════════════════ */
 function AlertsTab({data,favsVer,toggleFav}){
   var[alertCat,setAlertCat]=useState("All");
+  var[alertDisp,setAlertDisp]=useState("");
   var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
+  
+  // All dispensary names from deals
+  var alertDispNames=useMemo(function(){var s=new Set();deals.forEach(function(d){s.add(d.dispensary)});return[...s].sort()},[deals]);
   
   // Categories from deals
   var alertCats=useMemo(function(){var s=new Set();deals.forEach(function(d){s.add(d.category||"Other")});return["All",...[...s].sort()]},[deals]);
   
-  // Split deals into drops and increases
-  // Deals where discounted < original = price drops (dispensary lowered price)
-  // Deals where discounted > original = price increases (would be unusual in deals, but handle it)
-  var drops=useMemo(function(){
-    var filtered=alertCat==="All"?deals:deals.filter(function(d){return d.category===alertCat});
-    return filtered.filter(function(d){return d.discounted<d.original}).sort(function(a,b){return a.pct_off-b.pct_off}).reverse()
-  },[deals,alertCat]);
+  // Map state
+  var aMapRef=useRef(null);var aMapInst=useRef(null);var aMkrsRef=useRef([]);var aCircRef=useRef(null);
+  var[aCenter,setACenter]=useState(null);var[aRadius,setARadius]=useState(15);var[aLabel,setALabel]=useState("Click map to filter by area");var[aInArea,setAInArea]=useState(null);
   
-  // For price increases, we use products where current price > original (rare in deals, but possible)
-  // Also look for any products in the data that have promos showing higher prices
+  useEffect(function(){if(!aMapRef.current||aMapInst.current)return;var m=L.map(aMapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',function(e){setACenter([e.latlng.lat,e.latlng.lng]);setALabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});aMapInst.current=m},[]);
+  useEffect(function(){var m=aMapInst.current;if(!m||!aCenter)return;if(aCircRef.current)m.removeLayer(aCircRef.current);var rM=aRadius*1609.34;aCircRef.current=L.circle(aCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
+    var inside=new Set();var cll=L.latLng(aCenter[0],aCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setAInArea(inside.size>0?inside:null)},[aRadius,aCenter]);
+  useEffect(function(){var m=aMapInst.current;if(!m||!data)return;aMkrsRef.current.forEach(function(mk){m.removeLayer(mk)});aMkrsRef.current=[];var dsp=data.dispensaries||{};
+    Object.entries(dsp).forEach(function(entry){var name=entry[0],info=entry[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isA=isAff(name);var sz=isA?12:6;var col=isA?"#e8600a":"#2563eb";
+      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?12:4)+'px '+col+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
+      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',function(){setACenter([lat,lon]);setALabel(cleanD(name))});aMkrsRef.current.push(mk)})},[data]);
+  
+  // Filter by dispensary dropdown + map area
+  var filteredDeals=useMemo(function(){
+    var d=deals;
+    if(alertDisp)d=d.filter(function(x){return x.dispensary===alertDisp});
+    if(aInArea)d=d.filter(function(x){return aInArea.has(x.dispensary)});
+    return d;
+  },[deals,alertDisp,aInArea]);
+  
+  var drops=useMemo(function(){
+    var filtered=alertCat==="All"?filteredDeals:filteredDeals.filter(function(d){return d.category===alertCat});
+    return filtered.filter(function(d){return d.discounted<d.original}).sort(function(a,b){return a.pct_off-b.pct_off}).reverse()
+  },[filteredDeals,alertCat]);
+  
   var increases=useMemo(function(){
     var prods=data.products||[];
     var items=[];
@@ -526,15 +545,16 @@ function AlertsTab({data,favsVer,toggleFav}){
       if(alertCat!=="All"&&p.category!==alertCat)return;
       Object.entries(p.dispensaries||{}).forEach(function(e){
         var disp=e[0],price=e[1];
+        if(alertDisp&&disp!==alertDisp)return;
+        if(aInArea&&!aInArea.has(disp))return;
         var promo=p.promos&&p.promos[disp];
         if(promo&&promo>price){
-          // promo field shows original higher price = this product had a price increase from promo to current
           items.push({product:p.name,brand:p.brand,dispensary:disp,category:p.category,original:price,current:promo,pct:Math.round((promo-price)/price*100)});
         }
       });
     });
     return items.sort(function(a,b){return b.pct-a.pct})
-  },[data,alertCat]);
+  },[data,alertCat,alertDisp,aInArea]);
   
   var totalDrops=drops.length;
   var totalIncreases=increases.length;
@@ -549,12 +569,29 @@ function AlertsTab({data,favsVer,toggleFav}){
   };
   
   return React.createElement(React.Fragment,null,
+    // Map panel
+    React.createElement("div",{className:"pnl",style:{marginBottom:12}},
+      React.createElement("div",{className:"pnl-t"},"Filter by area"),
+      React.createElement("div",{className:"pnl-d"},"Click the map to filter price movements by location."),
+      React.createElement("div",{className:"map-w",ref:aMapRef}),
+      React.createElement("div",{className:"radius-ctrl"},
+        React.createElement("label",null,aCenter?"Radius from "+aLabel+":":aLabel),
+        React.createElement("input",{type:"range",min:1,max:60,value:aRadius,onChange:function(e){setARadius(+e.target.value)}}),
+        React.createElement("div",{className:"rv"},aRadius+" mi"),
+        aCenter?React.createElement("button",{className:"btn",style:{fontSize:8,padding:'3px 8px'},onClick:function(){setACenter(null);setAInArea(null);if(aCircRef.current&&aMapInst.current){aMapInst.current.removeLayer(aCircRef.current);aCircRef.current=null}setALabel("Click map to filter by area")}},"Clear"):null
+      )
+    ),
     React.createElement("div",{className:"pnl"},
       React.createElement("div",{className:"row",style:{justifyContent:'space-between',marginBottom:10}},
         React.createElement("span",{className:"pnl-t",style:{margin:0}},"Price Movements"),
         React.createElement("button",{className:"btn pri",onClick:doExport},"Export Report")
       ),
-      React.createElement("div",{className:"pnl-d"},"Track price changes across all dispensaries. Price drops on the left, increases on the right."),
+      React.createElement("div",{className:"pnl-d"},"Track price changes across all dispensaries. Filter by dispensary, area, or category."),
+      // Dispensary dropdown
+      React.createElement("select",{style:{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none',marginBottom:12},value:alertDisp,onChange:function(e){setAlertDisp(e.target.value)}},
+        React.createElement("option",{value:""},"All dispensaries ("+alertDispNames.length+")"),
+        alertDispNames.map(function(d){return React.createElement("option",{key:d,value:d},cleanD(d))})
+      ),
       React.createElement("div",{className:"stats",style:{marginBottom:12}},
         React.createElement("div",{className:"st"},
           React.createElement("div",{className:"st-l"},"Price Drops"),
@@ -634,7 +671,12 @@ function AlertsTab({data,favsVer,toggleFav}){
 function normName(n){var s=(n||"").toLowerCase();s=s.replace(/\([^)]*\)/g,"");s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz)\b/gi,"");s=s.replace(/\b\d+\s*pk\b/gi,"");s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");s=s.replace(/\d+\.?\d*\s*%/g,"");s=s.replace(/\b\d+\.?\d*\b/g,"");s=s.replace(/\b(whole|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use)\b/gi,"");s=s.replace(/\b[a-z]\b/g,"");s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl)\b/gi,"");s=s.replace(/[-_|/]+/g," ");s=s.replace(/\s+/g," ").trim();var words=s.split(" ").filter(function(w){return w.length>1});words.sort();return words.join(" ")}
 
 function GapsTab({data,favsVer,toggleFav}){
-  const prods=data.products||[];const disps=getDisps(prods);const affC=disps.filter(isAff);const[gapChain,setGapChain]=useState("");
+  const prods=data.products||[];const allDisps=getDisps(prods);
+  // Home base selector — defaults to starred dispensaries, or empty
+  const starredDisps=allDisps.filter(isAff);
+  const[homeBase,setHomeBase]=useState(starredDisps.length>0?starredDisps[0]:"");
+  const homeDisps=useMemo(()=>{if(!homeBase)return[];var base=getBase(homeBase);return allDisps.filter(d=>getBase(d)===base)},[homeBase,allDisps]);
+  const[gapChain,setGapChain]=useState("");
   const mapRef=useRef(null);const mapInst=useRef(null);const mkrsRef=useRef([]);const circRef=useRef(null);
   const[gCenter,setGCenter]=useState(null);const[gRadius,setGRadius]=useState(15);const[gLabel,setGLabel]=useState("Click map to filter by area");const[inArea,setInArea]=useState(null);
 
@@ -642,24 +684,35 @@ function GapsTab({data,favsVer,toggleFav}){
   useEffect(()=>{const m=mapInst.current;if(!m||!gCenter)return;if(circRef.current)m.removeLayer(circRef.current);var rM=gRadius*1609.34;circRef.current=L.circle(gCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
     var inside=new Set();var cll=L.latLng(gCenter[0],gCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setInArea(inside.size>0?inside:null)},[gRadius,gCenter]);
   useEffect(()=>{var m=mapInst.current;if(!m||!data)return;mkrsRef.current.forEach(mk=>m.removeLayer(mk));mkrsRef.current=[];var dsp=data.dispensaries||{};
-    Object.entries(dsp).forEach(([name,info])=>{var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isA=isAff(name);var sz=isA?12:6;var col=isA?"#e8600a":"#2563eb";
-      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?12:4)+'px '+col+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
-      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setGCenter([lat,lon]);setGLabel(cleanD(name))});mkrsRef.current.push(mk)})},[data]);
+    Object.entries(dsp).forEach(([name,info])=>{var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isHome=homeDisps.includes(name);var sz=isHome?12:6;var col=isHome?"#e8600a":"#2563eb";
+      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isHome?12:4)+'px '+col+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
+      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setGCenter([lat,lon]);setGLabel(cleanD(name))});mkrsRef.current.push(mk)})},[data,homeDisps]);
 
-  const gaps=useMemo(()=>{const affProducts=new Set();prods.forEach(p=>{affC.forEach(a=>{if(p.dispensaries&&p.dispensaries[a])affProducts.add(normName(p.name))})});const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(affProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(isAff(d))return;if(inArea&&!inArea.has(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,affC,inArea]);
+  const gaps=useMemo(()=>{if(homeDisps.length===0)return[];const homeProducts=new Set();prods.forEach(p=>{homeDisps.forEach(a=>{if(p.dispensaries&&p.dispensaries[a])homeProducts.add(normName(p.name))})});const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(homeProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(homeDisps.includes(d))return;if(inArea&&!inArea.has(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,homeDisps,inArea]);
   const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);const[openLocs,setOpenLocs]=useState(new Set());
   const doExport=()=>{const rows=[["Chain","Dispensary","Product","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
 
-  return<div className="pnl"><div className="pnl-t">Filter by area</div><div className="pnl-d">Click map to filter product gaps by nearby competitors.</div>
-    <div className="map-w" ref={mapRef}></div>
+  // Build unique base names for the dropdown
+  const baseNames=useMemo(()=>{const bases=new Map();allDisps.forEach(d=>{const b=getBase(d);if(!bases.has(b))bases.set(b,d)});return[...bases.entries()].sort((a,b)=>a[0].localeCompare(b[0]))},[allDisps]);
+
+  return<div className="pnl">
+    <div className="pnl-t">Select your home dispensary</div>
+    <div className="pnl-d" style={{marginBottom:8}}>Choose your dispensary to compare product gaps against competitors.</div>
+    <select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none',marginBottom:14}} value={homeBase} onChange={e=>setHomeBase(e.target.value)}>
+      <option value="">— Select your dispensary —</option>
+      {baseNames.map(([base,firstDisp])=><option key={base} value={firstDisp}>{base}</option>)}
+    </select>
+    {!homeBase?<div className="empty"><h3>Pick your home dispensary above</h3><p style={{fontSize:12}}>Product gaps will show products sold by competitors that you don't carry.</p></div>:
+    <>{React.createElement("div",{className:"pnl-t",style:{marginTop:6}},"Filter by area"),React.createElement("div",{className:"pnl-d"},"Click map to filter product gaps by nearby competitors."),
+    <div className="map-w" ref={mapRef}></div>,
     <div className="radius-ctrl"><label>{gCenter?"Radius from "+gLabel+":":gLabel}</label><input type="range" min="1" max="60" value={gRadius} onChange={e=>setGRadius(+e.target.value)}/><div className="rv">{gRadius} mi</div>
-      {gCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setGCenter(null);setInArea(null);if(circRef.current&&mapInst.current){mapInst.current.removeLayer(circRef.current);circRef.current=null}setGLabel("Click map to filter by area")}}>Clear</button>}</div>
+      {gCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setGCenter(null);setInArea(null);if(circRef.current&&mapInst.current){mapInst.current.removeLayer(circRef.current);circRef.current=null}setGLabel("Click map to filter by area")}}>Clear</button>}</div>,
     <div style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products you don't carry)</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
-    <div className="pnl-d">Products sold by competitors that are not on any Affinity menu.</div>
+    <div className="pnl-d">Products sold by competitors that are not on {cleanD(homeBase)}'s menu.</div>
     <div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
     {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} gaps)</div>
       {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</div></div>;
+          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</div></>}</div>;
 }
 
 /* ═══════════════════════════════════════
@@ -712,12 +765,14 @@ function DealsTab({data,favsVer}){
    ═══════════════════════════════════════ */
 function DispsTab({data,favsVer,toggleFav}){
   const[sort,setSort]=useState("count");const prods=data.products||[];const disps=data.dispensaries||{};
-  const[detailDisp,setDetailDisp]=useState(null);
+  const[detailDisp,setDetailDisp]=useState(null);const[dq,setDq]=useState("");
   const list=useMemo(()=>{const byBase={};Object.entries(disps).forEach(([name,info])=>{const base=getBase(name);if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),names:[name],menus:[],productNames:new Set()};else{byBase[base].names.push(name);if(isAff(name))byBase[base].isYou=true}const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType)});prods.forEach(p=>{Object.keys(p.dispensaries||{}).forEach(d=>{const base=getBase(d);if(byBase[base])byBase[base].productNames.add((p.name||"").toLowerCase())})});return Object.entries(byBase).map(function(e){var base=e[0],info=e[1];var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;return{name:label,count:info.productNames.size,city:info.city,isYou:info.isYou,rawNames:info.names}}).sort((a,b)=>sort==="count"?b.count-a.count:a.name.localeCompare(b.name))},[prods,disps,sort,favsVer]);
+  const filtered=useMemo(()=>{if(!dq.trim())return list;var s=dq.toLowerCase();return list.filter(d=>d.name.toLowerCase().includes(s)||d.city.toLowerCase().includes(s))},[list,dq]);
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries — SKU count ({list.length})</span>
     <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By SKUs</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
-    <div className="pnl-d">Total unique SKUs per dispensary. Click ★ to mark as yours.</div>
-    <div className="dlist">{list.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
+    <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search dispensaries..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
+    <div className="pnl-d" style={{marginBottom:8}}>Total unique SKUs per dispensary. Click ★ to mark as yours. {dq.trim()&&filtered.length<list.length?<span style={{color:'var(--cy)'}}>Showing {filtered.length} of {list.length}</span>:null}</div>
+    <div className="dlist">{filtered.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1,minWidth:0}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
   </div>;
 }
