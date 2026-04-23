@@ -830,12 +830,16 @@ function normName(n){
   // Remove THC/CBD values
   s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");
   s=s.replace(/\d+\.?\d*\s*%/g,"");
-  // Remove NDC/SKU codes (5+ digit numbers) but keep short numbers that might be strain names
+  // Remove NDC/SKU codes (5+ digit numbers)
   s=s.replace(/\b\d{5,}\b/g,"");
   // Remove common product type words
   s=s.replace(/\b(whole|small|ground|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use|disposable|infused|shorties|fatboy|blunt|budz|lil)\b/gi,"");
+  // Remove concentrate/extract terms
+  s=s.replace(/\b(bho|rso|rosin|live resin|resin|badder|sugar|sauce|shatter|diamonds|diamond|wax|hash|bubble|crumble|budder|oil|distillate|syringe|applicator)\b/gi,"");
+  // Remove product format terms
+  s=s.replace(/\b(bar|chocolate|gummies|gummy|mints|chews|lozenges|seltzer|soda|beverage|drink|drops|spray|cream|balm|lotion|patch|salve)\b/gi,"");
   // Remove brand names that appear in product names
-  s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl|affinity|affinity grow|brix|rythm|select|savvy|good green|dogwalkers|encore|camino|wana|zone|shaka|awssom|find|springtime|soundview)\b/gi,"");
+  s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl|affinity|affinity grow|brix|rythm|select|savvy|good green|dogwalkers|encore|camino|wana|zone|shaka|awwsom|awssom|find|springtime|soundview|comffy|amigos|lighthouse|rodeo|miss grass|let.s burn|nova|crisp)\b/gi,"");
   // Remove single characters and pipe separators
   s=s.replace(/\b[a-z]\b/g,"");
   s=s.replace(/[-_|/]+/g," ");
