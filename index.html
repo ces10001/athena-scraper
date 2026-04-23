@@ -231,7 +231,22 @@ function isAff(n){return _favs.has(n)}
 function saveFavs(){sessionStorage.setItem('athena_favs',JSON.stringify([..._favs]))}
 function cleanD(n){return(n||"").replace(/Dispensary\s*-?\s*/g,"").replace(/ - /g," ")}
 function getBase(n){return(n||"").replace(/\s*\((?:Med|Rec)\)\s*$/,"").replace(/Dispensary\s*-?\s*/g,"").replace(/ - /g," ").trim()}
-function getChain(n){var b=getBase(n);var m=b.match(/^(\S+(?:\s+\S+)?)/);return m?m[1]:"Other"}
+function getChain(n){
+  // Extract brand/chain from dispensary name
+  // Most names follow "Brand - Location" or "Brand Location" pattern
+  var b=getBase(n);
+  // If the base name has a clear brand-location separator pattern
+  var dashParts=n.split(/\s*-\s*/);
+  if(dashParts.length>=2){
+    var brand=dashParts[0].trim();
+    // Handle "Fine Fettle", "Higher Collective", "Zen Leaf" etc.
+    return brand;
+  }
+  // Fallback: known chains
+  var known=["Affinity","Curaleaf","BUDR","Zen Leaf","Fine Fettle","Higher Collective","High Profile","Shangri-La","SweetSpot","Crisp Cannabis","INSA","Trulieve","Rise","Rejoice","Nightjar","Nova Farms","The Liv","Rodeo Cannabis","Still River Wellness","Octane","The Harvest Corner","Lit New Haven","Awwsom","Venu Flower Collective"];
+  for(var i=0;i<known.length;i++){if(b.toLowerCase().startsWith(known[i].toLowerCase()))return known[i]}
+  return b;
+}
 const DM={"Affinity NH (Dutchie Rec)":"Affinity Dispensary - New Haven (Rec)","Affinity NH (Dutchie Med)":"Affinity Dispensary - New Haven (Med)"};
 function mergeD(n){return DM[n]||n.replace("(Dutchie Rec)","(Rec)").replace("(Dutchie Med)","(Med)")}
 function getDisps(p){var s=new Set();p.forEach(function(x){Object.keys(x.dispensaries||{}).forEach(function(d){s.add(d)})});return Array.from(s).sort(function(a,b){if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)})}
@@ -358,15 +373,18 @@ function DetailedView({disp,data,onClose}){
   });
   var hasHome=homeDisps.length>0;
   
-  // Build category stats for a set of dispensary names
+  // Build category stats for a set of dispensary names (deduplicated by product name)
   function buildStats(names){
-    var catCounts={};var catPrices={};var total=0;
+    var catCounts={};var catPrices={};var total=0;var seenNames=new Set();
     prods.forEach(function(p){
       var found=false;var pr=null;
       for(var i=0;i<names.length;i++){
         if(p.dispensaries&&p.dispensaries[names[i]]){found=true;pr=p.dispensaries[names[i]];break}
       }
       if(found){
+        var pKey=(p.name||"").toLowerCase();
+        if(seenNames.has(pKey))return;
+        seenNames.add(pKey);
         var cat=(p.category||"Other");
         if(cat.toLowerCase()==="gift cards")return;
         catCounts[cat]=(catCounts[cat]||0)+1;total++;
@@ -930,15 +948,95 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
    SKUs TAB (formerly Dispensary Total Products)
    ═══════════════════════════════════════ */
 function DispsTab({data,favsVer,toggleFav}){
-  const[sort,setSort]=useState("count");const prods=data.products||[];const disps=data.dispensaries||{};
+  const prods=data.products||[];const disps=data.dispensaries||{};
   const[detailDisp,setDetailDisp]=useState(null);const[dq,setDq]=useState("");
-  const list=useMemo(()=>{const byBase={};Object.entries(disps).forEach(([name,info])=>{const base=getBase(name);if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),names:[name],menus:[],productNames:new Set()};else{byBase[base].names.push(name);if(isAff(name))byBase[base].isYou=true}const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType)});prods.forEach(p=>{Object.keys(p.dispensaries||{}).forEach(d=>{const base=getBase(d);if(byBase[base])byBase[base].productNames.add((p.name||"").toLowerCase())})});return Object.entries(byBase).map(function(e){var base=e[0],info=e[1];var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;return{name:label,count:info.productNames.size,city:info.city,isYou:info.isYou,rawNames:info.names}}).sort((a,b)=>sort==="count"?b.count-a.count:a.name.localeCompare(b.name))},[prods,disps,sort,favsVer]);
-  const filtered=useMemo(()=>{if(!dq.trim())return list;var s=dq.toLowerCase();return list.filter(d=>d.name.toLowerCase().includes(s)||d.city.toLowerCase().includes(s))},[list,dq]);
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries — SKU count ({list.length})</span>
-    <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By SKUs</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
-    <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search dispensaries..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
-    <div className="pnl-d" style={{marginBottom:8}}>How many unique products each dispensary carries. Use the search bar to find a store. Click the orange "Detailed View" button to see a category breakdown with average prices. Click ★ to mark a dispensary as yours. {dq.trim()&&filtered.length<list.length?<span style={{color:'var(--cy)'}}>Showing {filtered.length} of {list.length}</span>:null}</div>
-    <div className="dlist">{filtered.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1,minWidth:0}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
+  const[openChains,setOpenChains]=useState(new Set());
+  
+  // Build per-store data
+  const storeList=useMemo(()=>{
+    const byBase={};
+    Object.entries(disps).forEach(([name,info])=>{
+      const base=getBase(name);
+      if(!byBase[base])byBase[base]={city:info.city,isYou:isAff(name),names:[name],menus:[],productNames:new Set()};
+      else{byBase[base].names.push(name);if(isAff(name))byBase[base].isYou=true}
+      const menuType=(name.match(/\(([^)]+)\)$/)||[])[1];
+      if(menuType&&!byBase[base].menus.includes(menuType))byBase[base].menus.push(menuType);
+    });
+    prods.forEach(p=>{if((p.category||"").toLowerCase()==="gift cards")return;Object.keys(p.dispensaries||{}).forEach(d=>{const base=getBase(d);if(byBase[base])byBase[base].productNames.add((p.name||"").toLowerCase())})});
+    return Object.entries(byBase).map(function(e){
+      var base=e[0],info=e[1];
+      var label=info.menus.length>1?base+" ("+info.menus.join("/")+")":info.menus.length===1?base+" ("+info.menus[0]+")":base;
+      return{name:label,base:base,count:info.productNames.size,city:info.city,isYou:info.isYou,rawNames:info.names,chain:getChain(info.names[0])}
+    });
+  },[prods,disps,favsVer]);
+  
+  // Group by chain
+  const chains=useMemo(()=>{
+    var byChain={};
+    storeList.forEach(function(s){
+      var ch=s.chain;
+      if(!byChain[ch])byChain[ch]={chain:ch,stores:[],totalSKUs:0,isYou:false};
+      byChain[ch].stores.push(s);
+      byChain[ch].totalSKUs+=s.count;
+      if(s.isYou)byChain[ch].isYou=true;
+    });
+    // Sort stores within chain by count desc
+    Object.values(byChain).forEach(function(c){c.stores.sort(function(a,b){return b.count-a.count})});
+    var arr=Object.values(byChain);
+    // Your chains first, then by total SKUs
+    arr.sort(function(a,b){
+      if(a.isYou&&!b.isYou)return-1;if(!a.isYou&&b.isYou)return 1;
+      return b.totalSKUs-a.totalSKUs;
+    });
+    return arr;
+  },[storeList]);
+  
+  // Filter by search
+  const filtered=useMemo(()=>{
+    if(!dq.trim())return chains;
+    var s=dq.toLowerCase();
+    return chains.filter(function(c){
+      return c.chain.toLowerCase().includes(s)||c.stores.some(function(st){return st.name.toLowerCase().includes(s)||st.city.toLowerCase().includes(s)});
+    });
+  },[chains,dq]);
+  
+  var totalStores=storeList.length;
+  var toggleChain=function(ch){setOpenChains(function(p){var n=new Set(p);n.has(ch)?n.delete(ch):n.add(ch);return n})};
+  
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}>
+    <span className="pnl-t" style={{margin:0}}>All Dispensaries — {totalStores} stores across {chains.length} brands</span>
+    <div className="row"><button className="btn" onClick={function(){setOpenChains(new Set(chains.map(function(c){return c.chain})))}}>Expand All</button><button className="btn" onClick={function(){setOpenChains(new Set())}}>Collapse</button></div></div>
+    <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search by brand, store, or city..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
+    <div className="pnl-d" style={{marginBottom:12}}>Click a brand to expand and see individual locations. Click "Detailed View" to see category breakdown and compare with your starred dispensary. Click ★ to mark as yours.</div>
+    
+    {filtered.map(function(c){
+      var isOpen=openChains.has(c.chain);
+      return<div key={c.chain} style={{marginBottom:4}}>
+        <div onClick={function(){toggleChain(c.chain)}} style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'10px 14px',background:c.isYou?'rgba(232,96,10,.06)':'var(--bg2)',border:'1px solid '+(c.isYou?'rgba(232,96,10,.2)':'var(--bd)'),borderRadius:isOpen?'8px 8px 0 0':'8px',cursor:'pointer',transition:'all .15s'}}>
+          <div style={{display:'flex',alignItems:'center',gap:10}}>
+            <span style={{color:'var(--tx3)',fontSize:10,transform:isOpen?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span>
+            <span style={{fontFamily:'var(--m)',fontSize:13,fontWeight:700,color:c.isYou?'var(--cy2)':'var(--tx)'}}>{c.isYou?"★ ":""}{c.chain}</span>
+            <span style={{fontSize:11,color:'var(--tx3)'}}>{c.stores.length} location{c.stores.length!==1?"s":""}</span>
+          </div>
+          <span style={{fontFamily:'var(--m)',fontSize:14,fontWeight:700,color:'var(--tx)'}}>{c.totalSKUs.toLocaleString()} <span style={{fontSize:10,fontWeight:400,color:'var(--tx3)'}}>SKUs</span></span>
+        </div>
+        {isOpen&&<div style={{border:'1px solid var(--bd)',borderTop:'none',borderRadius:'0 0 8px 8px',overflow:'hidden'}}>
+          {c.stores.map(function(d){
+            return<div key={d.name} style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'8px 14px 8px 34px',borderBottom:'1px solid rgba(0,0,0,.04)',background:d.isYou?'rgba(232,96,10,.03)':'transparent'}}>
+              <div style={{flex:1,minWidth:0}}>
+                <div style={{fontSize:13,fontWeight:500,color:'var(--tx)',overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}} title={d.name}>{d.name}</div>
+                <div style={{fontSize:10,color:'var(--tx3)'}}>{d.city}</div>
+              </div>
+              <div className="dcard-actions">
+                <div className="dcard-v">{d.count.toLocaleString()}</div>
+                <button className="btn-detail" onClick={function(e){e.stopPropagation();setDetailDisp(d)}}>Detailed View</button>
+                <span onClick={function(e){e.stopPropagation();d.rawNames.forEach(function(n){toggleFav(n)})}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span>
+              </div>
+            </div>
+          })}
+        </div>}
+      </div>
+    })}
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
   </div>;
 }
