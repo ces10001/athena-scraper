@@ -257,7 +257,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(TerminalBoot,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["help","How To Use"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
@@ -267,7 +267,6 @@ function App(){
     tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
-    tab==="help"&&React.createElement(HelpTab,null),
     React.createElement(Ftr,{d:data})
   );
 }
@@ -484,7 +483,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
   return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Total SKUs",(data.products||[]).length,"","Unique products across all dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
     <div className="glow"/>
     <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
-    <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Find any product across all dispensaries.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
+    <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
     {q.trim()&&selectedProduct&&<ProductDetail product={selectedProduct}/>}
     {q.trim()&&searchResults.length>1&&<div className="pnl" style={{padding:'8px 12px',marginBottom:10}}><div style={{fontSize:11,color:'var(--tx2)',marginBottom:6}}>Click to view details:</div>{searchResults.map((p,i)=><div key={i} onClick={()=>setSelectedProduct(p)} style={{padding:'6px 10px',cursor:'pointer',borderBottom:'1px solid rgba(0,0,0,.06)',fontSize:13,fontWeight:selectedProduct===p?600:400,color:selectedProduct===p?'var(--cy)':'var(--tx)',background:selectedProduct===p?'rgba(232,96,10,.04)':'transparent'}}>{p.brand} - {p.name} <span style={{color:'var(--tx3)',fontSize:11}}>({Object.keys(p.dispensaries||{}).length} stores)</span></div>)}</div>}
     <CatTabs data={data} cat={cat} setCat={setCat}/>
@@ -542,7 +541,7 @@ function DispPanel({data,sel,setSel,toggleFav}){
   
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
       <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD))}>All</button><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
-    <div className="pnl-d">Select dispensaries to compare. Click ★ to mark as your dispensary.</div>
+    <div className="pnl-d">Click a dispensary name to select it. Use the MED/REC buttons to toggle menus. Click ★ to mark as yours — starred stores show in orange across all tabs.</div>
     <div className="dsel">{grouped.map(g=>{
       const anyOn=g.entries.some(d=>sel.has(d));
       const you=g.isYou;
@@ -583,7 +582,7 @@ function Tbl({data,q,sel,cat,comp,setComp}){
   const prods=data.products||[];const cols=useMemo(()=>[...sel].sort((a,b)=>{if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)}),[sel]);const affC=cols.filter(isAff);
   const rows=useMemo(()=>{let it=prods;if(cat!=="All")it=it.filter(p=>p.category===cat);if(q.trim()){const s=q.toLowerCase();it=it.filter(p=>(p.name||"").toLowerCase().includes(s)||(p.brand||"").toLowerCase().includes(s))}return it.filter(p=>{const n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;return comp?n>=2:n>=1})},[prods,q,sel,cat,comp]);
   const doExport=()=>{const hdr=["Product","Brand","Category",...cols.map(cleanD)];const d=rows.map(p=>[p.name,p.brand,p.category,...cols.map(c=>p.dispensaries?.[c]||"")]);const ws=XLSX.utils.aoa_to_sheet([hdr,...d]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"ATHENA");XLSX.writeFile(wb,"athena_export.xlsx")};
-  return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only</label><button className="btn pri" onClick={doExport}>Export Excel</button></div></div>
+  return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only (at 2+ stores)</label><button className="btn pri" onClick={doExport}>Export Excel</button></div></div>
     {!rows.length?<div className="empty"><h3>No matches</h3></div>:<div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Cat</th>{cols.map(d=><th key={d} className={isAff(d)?"yc":""}>{isAff(d)?"★ ":""}{cleanD(d)}</th>)}</tr></thead>
       <tbody>{rows.slice(0,500).map((p,i)=>{const yp=getYP(p,affC);return<tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td>
         {cols.map(d=>{const pr=p.dispensaries?.[d];if(!pr)return<td key={d} className="pr"></td>;const pm=p.promos?.[d];let c="pr";const y=isAff(d);if(y)c+=" yp";else if(yp&&pr>yp)c+=" hi";else if(yp&&pr<yp)c+=" lo";let df=null;if(!y&&yp&&yp>0){const pct=Math.round((pr-yp)/yp*100);if(pct>0)df=<span className="df up">+{pct}%</span>;else if(pct<0)df=<span className="df dn">{pct}%</span>}return<td key={d} className={c}>${pr.toFixed(2)}{pm?<span style={{fontSize:9,color:'var(--am)',marginLeft:3}}>(promo ${pm.toFixed(2)})</span>:null}{df}</td>})}</tr>})}</tbody></table></div>}</div>;
@@ -685,7 +684,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
         <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
         <button className="btn pri" onClick={doExport}>Export Excel</button>
       </div>
-      <div className="pnl-d">{sel.size>0?"Showing highest and lowest prices across "+sel.size+" selected dispensaries.":"Showing prices across all dispensaries. Select specific ones above to compare."}</div>
+      <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. Deal prices shown separately when a promotion makes a product cheaper.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
       {analysis.map(function(s){return<div key={s.section} className="hl-section">
         <div className="hl-section-title">{s.section}</div>
         <div className="hl-grid">{s.buckets.map(function(b){return<div key={b.label} className="hl-card">
@@ -784,7 +783,7 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
         <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
         <button className="btn pri" onClick={doExport}>Export Report</button>
       </div>
-      <div className="pnl-d">Track price changes across {sel.size>0?"selected":"all"} dispensaries. Price drops on the left, increases on the right.</div>
+      <div className="pnl-d">{sel.size>0?"Showing price changes at "+sel.size+" selected dispensaries.":"Select dispensaries above to filter, or view all price changes."} Red column shows products that dropped in price. Green column shows increases. Use the category tabs below to filter by product type. Each entry shows the old price, new price, and percentage change.</div>
       <div className="stats" style={{marginBottom:12}}>
         <div className="st"><div className="st-l">Price Drops</div><div className="st-v rd">{totalDrops.toLocaleString()}</div></div>
         <div className="st"><div className="st-l">Price Increases</div><div className="st-v gn">{totalIncreases.toLocaleString()}</div></div>
@@ -852,8 +851,8 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
 
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
     <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
-    <div className="pnl-d">{affC.length>0?"Products sold by selected competitors that are not on any of your starred menus. Star ★ your dispensaries first, then select competitors to compare.":"Select dispensaries above to find product gaps between them."}</div>
-    {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ on your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
+    <div className="pnl-d">{affC.length>0?"Step 1: Your starred ★ dispensaries are your home base. Step 2: Select competitors in the panel above. Below shows every product they carry that you don't — grouped by chain. Click any chain to expand and see specific products, brands, and prices.":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
+    {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
     <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
     {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} gaps)</div>
       {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
@@ -906,6 +905,7 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
     {/* Store-Wide Promotions */}
     <div className="pnl" style={{marginTop:12}}>
       <div className="pnl-t">Store-Wide Promotions</div>
+      <div className="pnl-d">Banner deals and promotions each dispensary is running — like bulk discounts, brand sales, and BOGO offers. Select dispensaries above to filter.</div>
       {filteredPromos.length>0?
         <div className="deal-grid">{filteredPromos.map(function(p,i){return<div key={i} className="deal-promo">
           <div className="deal-promo-title">{p.title}</div>
@@ -913,8 +913,8 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
           <div style={{marginTop:6,fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>{cleanD(p.dispensary)}{p.conditions?" · "+p.conditions:""}</div>
         </div>})}</div>
       :<div className="deal-promo">
-        <div className="deal-promo-title">Coming Soon</div>
-        <div className="deal-promo-desc">Store-wide promotions like "20% off Curaleaf brand" or "Buy 4 eighths, get 30% off" will appear here once deal scraping is activated. These are the banner deals you see on each dispensary's Specials page — not individual product discounts.</div>
+        <div className="deal-promo-title">No Promotions Yet</div>
+        <div className="deal-promo-desc">Store-wide promotions like "20% off all Brix Products" or "Buy 4 eighths, get 20% off" will appear here after the next scrape run. These are the banner deals from each dispensary's Specials page.</div>
       </div>}
     </div>
     
@@ -938,7 +938,7 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
         <div className="st"><div className="st-l">Best Deal</div><div className="st-v gn">{bestDeal?bestDeal.pct_off+"%":"—"}</div></div>
       </div>
       
-      <div className="pnl-d">{sel.size>0?"Showing deals at "+dispsWithDeals.size+" selected dispensaries. ":"Showing all deals. Select dispensaries above to filter. "}Sort by biggest discount, most money saved, or lowest sale price.</div>
+      <div className="pnl-d">{sel.size>0?"Showing "+filtered.length+" discounted products at "+dispsWithDeals.size+" selected dispensaries.":"Showing all discounted products. Select dispensaries above to narrow down."} Use the sort buttons to find the biggest percentage off, the most dollar savings, or the lowest sale price. Search for a specific product or brand below.</div>
       
       {filtered.length===0?<div className="empty"><h3>No deals found</h3><p style={{fontSize:12}}>{sel.size>0?"No active deals at selected dispensaries.":"No active deals in the current data."}</p></div>:
       <div className="deal-grid">{filtered.slice(0,200).map(function(d,i){
@@ -970,38 +970,9 @@ function DispsTab({data,favsVer,toggleFav}){
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>All dispensaries — SKU count ({list.length})</span>
     <div className="row"><button className={"btn "+(sort==="count"?"pri":"")} onClick={()=>setSort("count")}>By SKUs</button><button className={"btn "+(sort==="name"?"pri":"")} onClick={()=>setSort("name")}>By name</button></div></div>
     <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search dispensaries..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
-    <div className="pnl-d" style={{marginBottom:8}}>Total unique SKUs per dispensary. Click ★ to mark as yours. {dq.trim()&&filtered.length<list.length?<span style={{color:'var(--cy)'}}>Showing {filtered.length} of {list.length}</span>:null}</div>
+    <div className="pnl-d" style={{marginBottom:8}}>How many unique products each dispensary carries. Use the search bar to find a store. Click the orange "Detailed View" button to see a category breakdown with average prices. Click ★ to mark a dispensary as yours. {dq.trim()&&filtered.length<list.length?<span style={{color:'var(--cy)'}}>Showing {filtered.length} of {list.length}</span>:null}</div>
     <div className="dlist">{filtered.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1,minWidth:0}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
-  </div>;
-}
-
-/* ═══════════════════════════════════════
-   HOW TO USE TAB
-   ═══════════════════════════════════════ */
-function HelpTab(){
-  var sections=[
-    {title:"Getting Started",icon:"🏠",text:"Start by clicking the ★ star next to your dispensary in any tab's dispensary panel. This marks it as yours and highlights it across the entire dashboard. Your starred dispensaries appear in orange on the map and get priority in all comparisons."},
-    {title:"Compare Prices",icon:"💰",text:"Side-by-side price comparison across dispensaries. Use the map to find nearby competitors, then select them in the panel on the right. The table shows every product with prices at each selected dispensary. Your prices appear in orange. Green means you're cheaper, red means they're cheaper. Use the category tabs to filter by product type and the search bar to find specific items. Toggle 'Comparable only' to show just products carried by 2+ selected stores."},
-    {title:"Highs / Lows",icon:"📊",text:"See the highest and lowest prices for specific product sizes across all dispensaries (or just selected ones). Broken down by category: Flower (3.5g, 7g, 14g, 28g), Vapes (0.3g, 0.5g, 1g), Pre-Rolls (single, 3pk, 5pk, 7pk, 10pk+), Edibles (10pk, 20pk), Concentrates, and Tinctures. Each card shows the cheapest and most expensive listing with the full product name and dispensary. Deal prices shown in parentheses when available. Use the Export button to download everything to Excel."},
-    {title:"Pricing Alerts",icon:"🔔",text:"Track price changes across dispensaries. The split view shows price drops (red, left side) and price increases (green, right side) with the old price, arrow, and new price plus percentage change. Select specific dispensaries in the panel above to filter. Use category tabs (Flower, Vaporizers, etc.) to narrow down. Export to Excel for records."},
-    {title:"Product Gaps",icon:"🔍",text:"Find products that competitors carry but you don't. Star ★ your dispensaries first — those are your 'home base.' Then select competitors in the panel. The gap list shows every product sold by selected competitors that doesn't appear on any of your starred menus. Grouped by chain with expandable location details. Great for identifying what to add to your menu."},
-    {title:"Deals",icon:"🏷️",text:"Two sections: Store-Wide Promotions shows banner deals like '20% off all Curaleaf' or 'Buy 4 eighths get 30% off' (coming soon with deal scraping). Products On Sale shows every individual product currently discounted — sort by biggest percentage off, most money saved, or lowest sale price. Each deal card shows the dispensary, product name, brand, sale price vs original, and savings. Use the map and panel to filter by dispensary. Search for specific products or brands."},
-    {title:"SKUs",icon:"📦",text:"Quick overview of how many unique products each dispensary carries. Search to find a specific store. Click 'Detailed View' (orange button) to see a breakdown by category with average prices. Click ★ to mark dispensaries as yours."},
-    {title:"Map & Dispensary Panel",icon:"🗺️",text:"The map and dispensary panel appear on Compare Prices, Highs/Lows, Pricing Alerts, and Product Gaps tabs. Click the map to set a center point and use the radius slider to filter dispensaries by distance. In the panel, each dispensary shows MED and REC buttons — click to toggle medical or recreational menus independently. Your selections carry across tabs."},
-    {title:"Exporting Data",icon:"📥",text:"Every tab has an Export button that downloads the current view as an Excel spreadsheet. The export respects your current filters — if you've selected specific dispensaries or categories, only that filtered data exports."},
-  ];
-  return<div className="pnl">
-    <div className="pnl-t">How to use ATHENA</div>
-    <div className="pnl-d" style={{marginBottom:16}}>A quick guide to each section of the dashboard.</div>
-    {sections.map(function(s){return<div key={s.title} style={{marginBottom:16,padding:'14px 16px',background:'var(--bg)',borderRadius:8,border:'1px solid var(--bd)'}}>
-      <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:8}}>
-        <span style={{fontSize:20}}>{s.icon}</span>
-        <span style={{fontFamily:'var(--m)',fontSize:14,fontWeight:700,color:'var(--cy2)',textTransform:'uppercase',letterSpacing:'1px'}}>{s.title}</span>
-      </div>
-      <div style={{fontSize:13,color:'var(--tx)',lineHeight:1.6}}>{s.text}</div>
-    </div>})}
-    <div style={{textAlign:'center',padding:'16px 0',fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>ATHENA scrapes data 3× daily. All prices reflect the most recent scrape.</div>
   </div>;
 }
 
