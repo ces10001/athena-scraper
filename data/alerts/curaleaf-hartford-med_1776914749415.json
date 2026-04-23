@@ -1,0 +1,68 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Peach Bellini",
+    "brand": "Wana",
+    "message": "Wana Peach Bellini: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Island Punch",
+    "brand": "Wana",
+    "message": "Wana Island Punch: $24.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blueberry",
+    "brand": "Wana",
+    "message": "Wana Blueberry: $23.10 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Berry",
+    "brand": "Wana",
+    "message": "Wana Dream Berry: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Limoncello",
+    "brand": "Wana",
+    "message": "Wana Limoncello: $24.50 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Lime",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Cherry Lime $18.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomegranate Blueberry Acai",
+    "brand": "Wana",
+    "message": "Wana Pomegranate Blueberry Acai: $22.40 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Connecticut Sunrise",
+    "brand": "Wana",
+    "message": "Wana Connecticut Sunrise: $24.50 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Specimen X $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemon",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Blueberry Lemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Lime",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Cherry Lime"
+  }
+]
