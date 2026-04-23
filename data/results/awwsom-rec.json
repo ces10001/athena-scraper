@@ -3382,5 +3382,29 @@
     "med_original_price_cents": null,
     "medical_only": false,
     "rec_only": false
+  },
+  {
+    "external_id": "69e955ae34b55eb2ce5ae623",
+    "name": "Loud Cannabis Orange Cookiez (I) 00039 1g Vape Cartridge",
+    "brand": "Loud Cannabis",
+    "category": "vaporizers",
+    "subcategory": "cartridges",
+    "strain_type": "indica",
+    "price_cents": 4500,
+    "original_price_cents": null,
+    "weight_label": "1g",
+    "weight_grams": 1,
+    "unit_price_per_gram": 4500,
+    "thc_pct": 87.44,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": false,
+    "deal_description": null,
+    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/2d87d4287a5b8a00d51c871ab931195d",
+    "product_url": null,
+    "med_price_cents": 4500,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   }
 ]

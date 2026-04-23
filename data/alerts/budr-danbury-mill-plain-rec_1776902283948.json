@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Rose Gold RTZ (H) 01365Advanced Grow Labs (AGL)Pre Rolls 5 Pack",
+    "brand": null,
+    "message": "New: null - AGL 5 Pack Minis Rose Gold RTZ (H) 01365Advanced Grow Labs (AGL)Pre Rolls 5 Pack $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Labs (AGL)Pre Roll(EACH)",
+    "brand": "Only 2 leftHybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Labs (AGL)",
+    "message": "Gone: Only 2 leftHybridAGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Labs (AGL) - AGL 1g Pre Roll Bananaconda (H) 01404Advanced Grow Labs (AGL)Pre Roll(EACH)"
+  }
+]

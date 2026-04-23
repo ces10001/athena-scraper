@@ -1880,26 +1880,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-277322",
-    "name": "Cheese",
-    "brand": "Affinity",
-    "category": "pre-rolls",
-    "subcategory": null,
-    "strain_type": "indica",
-    "price_cents": 1120,
-    "original_price_cents": 1600,
-    "weight_label": "1g",
-    "weight_grams": 1,
-    "unit_price_per_gram": 1120,
-    "thc_pct": 24.3844,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "30% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-384301",
     "name": "White Widow",
     "brand": "Lucky Break",

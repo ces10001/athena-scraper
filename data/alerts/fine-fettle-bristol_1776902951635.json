@@ -1,0 +1,392 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "New: Bundle\n\nHybrid flower\n\nGrassroots - Paw Paw (H) Flower $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Carbon FBR (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Carbon FBR (H) 1g Pre-Roll 1pk (1g): $25.00 > $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nEarly Birds",
+    "message": "New: roll\n\nEarly Birds - Specimen X (H) 0.4g Pre-Rolls 5pk (2g) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Sofa Sonata (I) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "New: Select Flavor Series - Select Sofa Sonata (I) Flavor Series Vape Cartridge $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "New: Select - GASolotti (S) BRIQ Legacy Series Disposable Vape (1g) $66.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Catching Citrus Dreams (I) Gummies (4.88mg THC 5.19mg CBD 2.03mg CBN 20pk)",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Catching Citrus Dreams (I) Gummies (4.88mg THC 5.19mg CBD 2.03mg CBN 20pk): $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)",
+    "brand": "Cash back\n\nIndica edible\n\nSoundView",
+    "message": "Cash back\n\nIndica edible\n\nSoundView Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk): $34.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sweet Berry Burst (I) Gummies (9.36mg 10pk)",
+    "brand": "back\n\nIndica edible\n\nEncore",
+    "message": "back\n\nIndica edible\n\nEncore Sweet Berry Burst (I) Gummies (9.36mg 10pk): $29.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Coast Cannabis Co. Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk): $28.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Milk (I) RSO Chocolate (9.4mg 10pk)",
+    "brand": "back\n\nIndica edible\n\nEncore",
+    "message": "back\n\nIndica edible\n\nEncore Milk (I) RSO Chocolate (9.4mg 10pk): $34.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk)",
+    "brand": "Cash back\n\nIndica edible\n\nSoundView",
+    "message": "Cash back\n\nIndica edible\n\nSoundView G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk): $34.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)",
+    "brand": "back\n\nIndica edible\n\nCoast Cannabis Co.",
+    "message": "back\n\nIndica edible\n\nCoast Cannabis Co. Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk): $28.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape (I) RSO Gummies (9.5mg 10pk)",
+    "brand": "back\n\nIndica edible\n\nEncore",
+    "message": "back\n\nIndica edible\n\nEncore Grape (I) RSO Gummies (9.5mg 10pk): $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Dreamy (I) Gummies (4.79mg THC 4.98mg CBN 20pk)",
+    "brand": "Cash back\n\nIndica edible\n\nSoundView",
+    "message": "Cash back\n\nIndica edible\n\nSoundView Berry Dreamy (I) Gummies (4.79mg THC 4.98mg CBN 20pk): $34.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)",
+    "brand": "Cash back\n\nHybrid edible\n\nSoundView",
+    "message": "Cash back\n\nHybrid edible\n\nSoundView Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk): $34.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry (H) Fast Acting Gummies (4.68mg 20pk)",
+    "brand": "Cash back\n\nHybrid edible\n\nSoundView",
+    "message": "Cash back\n\nHybrid edible\n\nSoundView Black Cherry (H) Fast Acting Gummies (4.68mg 20pk): $34.00 > $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limoncello (H) Fast Acting Gummies (4.62mg 20pk)",
+    "brand": "Wana Quick",
+    "message": "Gone: Wana Quick - Limoncello (H) Fast Acting Gummies (4.62mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.95mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.95mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry (H) Gummies (9.72mg 10pk)",
+    "brand": "back\n\nHybrid edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nHybrid edible\n\nSponsored\n\nEncore - Pineapple Raspberry (H) Gummies (9.72mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)",
+    "brand": "back\n\nIndica edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nIndica edible\n\nSponsored\n\nEncore - Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (I) RSO Chocolate (9.38mg 10pk)",
+    "brand": "back\n\nIndica edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nIndica edible\n\nSponsored\n\nEncore - Dark (I) RSO Chocolate (9.38mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry (S) Gummies (9.1mg 10pk)",
+    "brand": "back\n\nSativa edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nSativa edible\n\nSponsored\n\nEncore - Sweet Strawberry (S) Gummies (9.1mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (S) RSO Chocolate (9.76mg 10pk)",
+    "brand": "back\n\nSativa edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nSativa edible\n\nSponsored\n\nEncore - Dark (S) RSO Chocolate (9.76mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wintergreen (H) Mints (2.38mg 40pk)",
+    "brand": "Cash back\n\nHybrid edible\n\nSoundView",
+    "message": "Gone: Cash back\n\nHybrid edible\n\nSoundView - Wintergreen (H) Mints (2.38mg 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)",
+    "brand": "back\n\nHybrid edible\n\nSponsored\n\nEncore",
+    "message": "Gone: back\n\nHybrid edible\n\nSponsored\n\nEncore - Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Green Apple (H) Fast Acting Jellies (4.8mg 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Green Apple (H) Fast Acting Jellies (4.8mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)",
+    "brand": "back\n\nIndica edible\n\nCoast Cannabis Co.",
+    "message": "Gone: back\n\nIndica edible\n\nCoast Cannabis Co. - Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Lemonade (H) Gummies (4.27mg 20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Mango Lemonade (H) Gummies (4.27mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fruit Punch (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Fruit Punch (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies & Cream (H) White Chocolate (4.64mg 20pk)",
+    "brand": "Cash back\n\nHybrid edible\n\nSoundView",
+    "message": "Gone: Cash back\n\nHybrid edible\n\nSoundView - Cookies & Cream (H) White Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peppermint (H) Lucky Spritz (10g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Peppermint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Orange Lime (H) X Bites (4.85mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Raspberry Orange Lime (H) X Bites (4.85mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Dark (H) Fast Acting Chocolate (4.75mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Agave (H) (2.47oz)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Fast Acting Agave (H) (2.47oz)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)",
+    "brand": "Cash back\n\nIndica edible\n\nSoundView",
+    "message": "Gone: Cash back\n\nIndica edible\n\nSoundView - Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Honey (H) (5.47oz)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Fast Acting Honey (H) (5.47oz)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lime (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Watermelon Lime (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) RSO Gummies (4.78mg 20pk)",
+    "brand": "Cash back\n\nIndica edible\n\nSoundView",
+    "message": "Gone: Cash back\n\nIndica edible\n\nSoundView - Peach (I) RSO Gummies (4.78mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)",
+    "brand": "back\n\nIndica edible\n\nCoast Cannabis Co.",
+    "message": "Gone: back\n\nIndica edible\n\nCoast Cannabis Co. - Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Spearmint (H) Lucky Spritz (10g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Spearmint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Milk (H) Fast Acting Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero (S) Gummies (4.64mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero (S) Gummies (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comfort Tablets (2.39mg THC 2.5mg CBD 2.4mg CBN 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Comfort Tablets (2.39mg THC 2.5mg CBD 2.4mg CBN 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savoti (S) Capsules (7.7mg 10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Savoti (S) Capsules (7.7mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ascend Tablets (2.4mg THC 2.56mg CBG 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Ascend Tablets (2.4mg THC 2.56mg CBG 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pagoti (H) Capsules (7.4mg 10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pagoti (H) Capsules (7.4mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon (H) Classic Bites (25.18mg 10pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Lemon (H) Classic Bites (25.18mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry (H) Classic Bites (26.37mg 10pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Raspberry (H) Classic Bites (26.37mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Relief Tablets (2.38mg THC 10.21mg CBD 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Relief Tablets (2.38mg THC 10.21mg CBD 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)",
+    "brand": "Edible\n\nTheraplant",
+    "message": "Gone: Edible\n\nTheraplant - Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Boosted Berry (S) Gummies (24.08mg THC 1.14mg CBG 20pk)",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Boosted Berry (S) Gummies (24.08mg THC 1.14mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon (H) Classic Bites (31.02mg 10pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Watermelon (H) Classic Bites (31.02mg 10pk)"
+  }
+]

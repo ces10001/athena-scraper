@@ -1,0 +1,686 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "GOOD GREEN PARADISE SNACKS (I) 01285",
+    "brand": "Good Green",
+    "message": "Good Green GOOD GREEN PARADISE SNACKS (I) 01285: $68.85 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Alien OG Flower MED T36.42% H 00921",
+    "brand": "Affinity",
+    "message": "Affinity Alien OG Flower MED T36.42% H 00921: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Vel Croz (H) 01384",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Vel Croz (H) 01384: $137.70 > $162.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face 41592",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face 41592: $107.10 > $126.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Mule Fuel 41791",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Mule Fuel 41791: $116.45 > $137.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Small Flower B Scout (I) 01241",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Small Flower B Scout (I) 01241: $50.15 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zone Pre-Pack H4G-S-9 00097",
+    "brand": "Zone",
+    "message": "Zone Zone Pre-Pack H4G-S-9 00097: $45.90 > $54.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Nimbus Snacks over:timers 41367",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Nimbus Snacks over:timers 41367: $55.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GG4 Whole Flower (H) 00510",
+    "brand": "BRIX",
+    "message": "BRIX GG4 Whole Flower (H) 00510: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "AGL Select Grind Paradise Snacks (I) 01317",
+    "brand": "RYTHM",
+    "message": "RYTHM AGL Select Grind Paradise Snacks (I) 01317: $22.95 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Comffy Flower Freestyle 00189",
+    "brand": "Comffy",
+    "message": "Comffy Comffy Flower Freestyle 00189: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Banana Acai Mints over:timers 41626",
+    "brand": "Theraplant",
+    "message": "Theraplant all:hours Banana Acai Mints over:timers 41626: $55.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Glitter Bomb Flower I 27011",
+    "brand": "CTPharma",
+    "message": "CTPharma Glitter Bomb Flower I 27011: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls Jokerz I 26805",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls Jokerz I 26805: $119.85 > $141.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "AGL Select Grind Go Gr Tz (H) 01057",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL Select Grind Go Gr Tz (H) 01057: $53.55 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CAPY FLOWER MINIS T32.04% H 00824",
+    "brand": "Affinity",
+    "message": "Affinity CAPY FLOWER MINIS T32.04% H 00824: $32.30 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti 41684",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti 41684: $21.25 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm B Scout (I) 01206",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm B Scout (I) 01206: $29.75 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Air Hdz part:timers 41265",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Air Hdz part:timers 41265: $37.40 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Good Green Slapz (H) 01343",
+    "brand": "Good Green",
+    "message": "Good Green Good Green Slapz (H) 01343: $68.85 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Comffy Flower Golden Hour 00169",
+    "brand": "Comffy",
+    "message": "Comffy Comffy Flower Golden Hour 00169: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hippie Crasher Flower T30.27% I 00936",
+    "brand": "Affinity",
+    "message": "Affinity Hippie Crasher Flower T30.27% I 00936: $36.55 > $43.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower Slingria (S) 01196 TC 29.06%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower Slingria (S) 01196 TC 29.06%: $53.55 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "AGL Select Grind Animal Face (I) 01341",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL Select Grind Animal Face (I) 01341: $68.85 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Afgooey Whole Flower (I) 00437",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Afgooey Whole Flower (I) 00437: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sunshine Daydream Flower T29.89% I 00810",
+    "brand": "Affinity",
+    "message": "Affinity Sunshine Daydream Flower T29.89% I 00810: $34.85 > $41.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "AGL Select Grind Glue Fondue (S) 01319",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL Select Grind Glue Fondue (S) 01319: $68.85 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life Fun Size Budz 0033",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life Fun Size Budz 0033: $49.30 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Pave Flower H 27001",
+    "brand": "CTPharma",
+    "message": "CTPharma Strawberry Pave Flower H 27001: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls B52 Bomber S 26492",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls B52 Bomber S 26492: $50.15 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk Lil&#39; Budz (I) 00401",
+    "brand": "Lil' Budz",
+    "message": "Lil' Budz Purple Milk Lil&#39; Budz (I) 00401: $48.45 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Venom Breath 063",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Venom Breath 063: $44.20 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Comffy Flower Golden Hour 00123",
+    "brand": "Comffy",
+    "message": "Comffy Comffy Flower Golden Hour 00123: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours 10G's part:timers 41360",
+    "brand": "all:hours",
+    "message": "all:hours all:hours 10G's part:timers 41360: $35.70 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Springtime Pre-Pack SZO 00073",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Pack SZO 00073: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower Foreign Kush Mints (I) 01494 TC 34.987%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Dark Heart Collection Whole Flower Foreign Kush Mints (I) 01494 TC 34.987%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Trop Cherry Honey Bananas 41392",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Trop Cherry Honey Bananas 41392: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Blue Dream 0042",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Blue Dream 0042: $36.55 > $43.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Yeet 0020",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Yeet 0020: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Permanent Marker Whole Flower (I) 00392",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Permanent Marker Whole Flower (I) 00392: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Red Gary Flower H 26800",
+    "brand": "CTPharma",
+    "message": "CTPharma Red Gary Flower H 26800: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Ground Flower Jayna&#39;s Sunshine (H) 01454 TC 28.434%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower Jayna&#39;s Sunshine (H) 01454 TC 28.434%: $22.95 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Seattle Sour Kush Flower S 27000",
+    "brand": "CTPharma",
+    "message": "CTPharma Seattle Sour Kush Flower S 27000: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Heir Heads Flower H 26778",
+    "brand": "CTPharma",
+    "message": "CTPharma Heir Heads Flower H 26778: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Certz 41536",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz 41536: $21.25 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Space Gello part:timers 41370",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello part:timers 41370: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Space Gello over:timers 41371",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello over:timers 41371: $55.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Nimbus Snacks 41365",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Nimbus Snacks 41365: $32.30 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Mule Fuel part:timers 41623",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Mule Fuel part:timers 41623: $35.70 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Hash Burger part:timers 41351",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger part:timers 41351: $35.70 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Hash Burger 41790",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger 41790: $116.45 > $137.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Banana Acai Mints part:timers 41198",
+    "brand": "Theraplant",
+    "message": "Theraplant all:hours Banana Acai Mints part:timers 41198: $35.70 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours 10G's over:timers 41361",
+    "brand": "all:hours",
+    "message": "all:hours all:hours 10G's over:timers 41361: $55.25 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zuava Flower H 26761",
+    "brand": "CTPharma",
+    "message": "CTPharma Zuava Flower H 26761: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Charger 41765",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Charger 41765: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Star Killer OG Flower Minis T29.91% I 00828",
+    "brand": "Affinity",
+    "message": "Affinity Star Killer OG Flower Minis T29.91% I 00828: $32.30 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Fire OG Flower H 26391",
+    "brand": "CTPharma",
+    "message": "CTPharma Sour Fire OG Flower H 26391: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solo Burger Flower T24.33% H 00685",
+    "brand": "Affinity",
+    "message": "Affinity Solo Burger Flower T24.33% H 00685: $29.75 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Soap Lil' Budz (S) 00492",
+    "brand": "Lil' Budz",
+    "message": "Lil' Budz Soap Lil' Budz (S) 00492: $34.85 > $41.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls Stomper Kush I 26847",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls Stomper Kush I 26847: $50.15 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls Lemon Cherry Sherb H 26728",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls Lemon Cherry Sherb H 26728: $119.85 > $141.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls Dosi-Punch I 26638",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls Dosi-Punch I 26638: $83.30 > $98.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy GRND Pinyatti S 26889",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Pinyatti S 26889: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy GRND Jokerz I 26996",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Jokerz I 26996: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy GRND Heir Heads H 26892",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Heir Heads H 26892: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy GRND E85 S 26997",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND E85 S 26997: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy GRND Blue Andeze I 26994",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Blue Andeze I 26994: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Mixed Buds OMG (H) 00916",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Mixed Buds OMG (H) 00916: $99.45 > $117.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Mixed Buds Jack Herer (S) 00860",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Mixed Buds Jack Herer (S) 00860: $99.45 > $117.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Lemon Drip (S) 01243",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Lemon Drip (S) 01243: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Do Not Trip (H) 01284",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Do Not Trip (H) 01284: $91.80 > $108.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Black Maple 22 (I) 01092",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Black Maple 22 (I) 01092: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm Afternoon Delight #4 (H) 01374",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm Afternoon Delight #4 (H) 01374: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk Whole Flower (I) 00347",
+    "brand": "BRIX",
+    "message": "BRIX Purple Milk Whole Flower (I) 00347: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Oklahoma Coma Flower Minis T21.27% I 00874",
+    "brand": "Affinity",
+    "message": "Affinity Oklahoma Coma Flower Minis T21.27% I 00874: $24.65 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Modified Haze Flower H 26406",
+    "brand": "CTPharma",
+    "message": "CTPharma Modified Haze Flower H 26406: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mint Diesel Flower H 26674",
+    "brand": "CTPharma",
+    "message": "CTPharma Mint Diesel Flower H 26674: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Miami Stardust Flower S 26675",
+    "brand": "CTPharma",
+    "message": "CTPharma Miami Stardust Flower S 26675: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MF-107 Flower T27.83% S 00837",
+    "brand": "Affinity",
+    "message": "Affinity MF-107 Flower T27.83% S 00837: $34.85 > $41.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "M.O.B. Flower Minis T22.88% I 00880",
+    "brand": "Affinity",
+    "message": "Affinity M.O.B. Flower Minis T22.88% I 00880: $24.65 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lil' Budz C-Stata (H) 00302",
+    "brand": "Lil' Budz",
+    "message": "Lil' Budz Lil' Budz C-Stata (H) 00302: $50.15 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lil' Budz B Yo (I) 00372",
+    "brand": "Lil' Budz",
+    "message": "Lil' Budz Lil' Budz B Yo (I) 00372: $45.90 > $54.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life 0043",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 0043: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn CT Rainbows 0012",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Rainbows 0012: $29.75 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883",
+    "brand": "Affinity",
+    "message": "Affinity Lemon Skunk Flower T27.43% S 00883: $34.85 > $41.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Kush Scout Flower S 26414",
+    "brand": "CTPharma",
+    "message": "CTPharma Kush Scout Flower S 26414: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ICE CREAM CKE LUCKY DUGOUT 0051",
+    "brand": "Lucky Break Cannabis",
+    "message": "Lucky Break Cannabis ICE CREAM CKE LUCKY DUGOUT 0051: $34.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G 41158",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G 41158: $49.30 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Whole Flower Apple Tartz (H) 01532 TC 35.208%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Apple Tartz (H) 01532 TC 35.208%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Ground Flower Pineapple Sunrise (S) 01467 TC 21.074%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower Pineapple Sunrise (S) 01467 TC 21.074%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower Zesty Garlic Kookyz (I) 01135 TC 25.107%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Grassroots Dark Heart Collection Whole Flower Zesty Garlic Kookyz (I) 01135 TC 25.107%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower Triple Stack (I) 01458 TC 33.265%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Dark Heart Collection Whole Flower Triple Stack (I) 01458 TC 33.265%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon 41659",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon 41659: $107.10 > $126.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon 41644",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon 41644: $36.55 > $43.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Good Green Slapz (H) 01313",
+    "brand": "Good Green",
+    "message": "Good Green Good Green Slapz (H) 01313: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Good Green Rose Gold RTZ (H) 01367",
+    "brand": "Good Green",
+    "message": "Good Green Good Green Rose Gold RTZ (H) 01367: $122.40 > $144.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Good Green Rose Gold RTZ (H) 01364",
+    "brand": "Good Green",
+    "message": "Good Green Good Green Rose Gold RTZ (H) 01364: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GOOD GREEN BUBBA F (I) 01379",
+    "brand": "Good Green",
+    "message": "Good Green GOOD GREEN BUBBA F (I) 01379: $122.40 > $144.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fleetwood Pie Flower I 26433",
+    "brand": "CTPharma",
+    "message": "CTPharma Fleetwood Pie Flower I 26433: $38.25 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FIND. Whole Flower Forest Reserve (H) 01592 TC 36.111%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf FIND. Whole Flower Forest Reserve (H) 01592 TC 36.111%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dark Heart Collection Whole Flower Delphi Diesel (S) 01107 TC 26.099%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Dark Heart Collection Whole Flower Delphi Diesel (S) 01107 TC 26.099%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower White Hot Guava (H) 00959 TC 28.411%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower White Hot Guava (H) 00959 TC 28.411%: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Curaleaf Whole Flower Raspberry PRFT (S) 00995 TC 21.98%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower Raspberry PRFT (S) 00995 TC 21.98%: $131.75 > $155.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Comffy Flower Type A 00117",
+    "brand": "Comffy",
+    "message": "Comffy Comffy Flower Type A 00117: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Colorado Flo (Aniva) 41711",
+    "brand": "Theraplant",
+    "message": "Theraplant Colorado Flo (Aniva) 41711: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity",
+    "message": "Affinity Coconut Milk Flower T29.49% I 00794: $36.55 > $43.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR 41719",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR 41719: $107.10 > $126.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Capy Flower T31.02% H 00905",
+    "brand": "Affinity",
+    "message": "Affinity Capy Flower T31.02% H 00905: $36.55 > $43.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Whole Flower Mac Stomper (S) 00316",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Whole Flower Mac Stomper (S) 00316: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Whole Flower B Yo (I) 00367",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Whole Flower B Yo (I) 00367: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Soap Whole Flower (S) 00485",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Soap Whole Flower (S) 00485: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Gush Mintz Whole Flower (I) 00394",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Gush Mintz Whole Flower (I) 00394: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Maple Flower T30.10% I 00856",
+    "brand": "Affinity",
+    "message": "Affinity Black Maple Flower T30.10% I 00856: $34.85 > $41.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Pi 41663",
+    "brand": "Theraplant",
+    "message": "Theraplant Berry Pi 41663: $21.25 > $25.00"
+  }
+]

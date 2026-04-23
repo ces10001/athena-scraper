@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Smalls 7g Blue Gas I 26866",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls 7g Blue Gas I 26866: $59.00 > $59.25"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Strut AIO 2g Golden Tangie T1716 S 26935",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Strut AIO 2g Golden Tangie T1716 S 26935"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Pineapple Express Live Resin-(S)-Disposable-1g-00466",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Amigos-Pineapple Express Live Resin-(S)-Disposable-1g-00466"
+  }
+]
