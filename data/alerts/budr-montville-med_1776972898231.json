@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g RNTZ (H) 01244RYTHMFLOWER (3.5G)",
+    "brand": "HybridRythm 3.5g RNTZ (H) 01244RYTHM",
+    "message": "New: HybridRythm 3.5g RNTZ (H) 01244RYTHM - Rythm 3.5g RNTZ (H) 01244RYTHMFLOWER (3.5G) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461Lighthouse - CTLive Resin Dis",
+    "brand": "Cash backIndicaLighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461Lighthouse - CTLive Resin",
+    "message": "New: Cash backIndicaLighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461Lighthouse - CTLive Resin - Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461Lighthouse - CTLive Resin Dis $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945SavvyMacro Dosed Gummy(EACH)53mg",
+    "brand": "backCBDSavvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945SavvyMacro Dosed",
+    "message": "New: backCBDSavvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945SavvyMacro Dosed - Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945SavvyMacro Dosed Gummy(EACH)53mg $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)",
+    "brand": "HybridRythm 28g Vel Croz (H) 01384RYTHM",
+    "message": "New: HybridRythm 28g Vel Croz (H) 01384RYTHM - Rythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G) $164.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Live Resin Watermelon 1:1:1 Gummies T98.6mg C102.4mg C99.8mg H 00227So",
+    "brand": "Cash backCBDSoundView Live Resin Watermelon 1:1:1 Gummies T98.6mg C102.4mg C99.8mg H 00227SoundView",
+    "message": "New: Cash backCBDSoundView Live Resin Watermelon 1:1:1 Gummies T98.6mg C102.4mg C99.8mg H 00227SoundView - SoundView Live Resin Watermelon 1:1:1 Gummies T98.6mg C102.4mg C99.8mg H 00227So $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Mellow Mango 1:1:1 Gummies T99.6mg C102mg C99.8mg I 00243SoundViewGumm",
+    "brand": "Cash backIndicaSoundView Mellow Mango 1:1:1 Gummies T99.6mg C102mg C99.8mg I 00243SoundView",
+    "message": "New: Cash backIndicaSoundView Mellow Mango 1:1:1 Gummies T99.6mg C102mg C99.8mg I 00243SoundView - SoundView Mellow Mango 1:1:1 Gummies T99.6mg C102mg C99.8mg I 00243SoundViewGumm $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Wild Berries 1:1 CBD Dark Chocolate Bar T92mg C99.6mg H 00244SoundView",
+    "brand": null,
+    "message": "New: null - SoundView Wild Berries 1:1 CBD Dark Chocolate Bar T92mg C99.6mg H 00244SoundView $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin Ca",
+    "brand": "Cash backIndicaLighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin",
+    "message": "New: Cash backIndicaLighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin - Lighthouse-Garlotti Live Resin-(I)-510-Cart-1g-00491Lighthouse - CTLive Resin Ca $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Berry Dreamy 1:1 CBN Gummies T95.8mg C99.6mg I 00234SoundViewGummies(E",
+    "brand": "Only 1 leftCash backIndicaSoundView Berry Dreamy 1:1 CBN Gummies T95.8mg C99.6mg I 00234SoundView",
+    "message": "New: Only 1 leftCash backIndicaSoundView Berry Dreamy 1:1 CBN Gummies T95.8mg C99.6mg I 00234SoundView - SoundView Berry Dreamy 1:1 CBN Gummies T95.8mg C99.6mg I 00234SoundViewGummies(E $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Good Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround Flower(28G)",
+    "brand": "IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround",
+    "message": "Gone: IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround - Good Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround Flower(28G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Lemon Fresh (S) 01196RYTHMFLOWER (3.5G)",
+    "brand": "SativaRythm 3.5g Lemon Fresh (S) 01196RYTHM",
+    "message": "Gone: SativaRythm 3.5g Lemon Fresh (S) 01196RYTHM - Rythm 3.5g Lemon Fresh (S) 01196RYTHMFLOWER (3.5G)"
+  }
+]

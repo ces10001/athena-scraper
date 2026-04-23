@@ -1,0 +1,569 @@
+[
+  {
+    "title": "Member Discount",
+    "description": "",
+    "type": "sale",
+    "dispensary": "The Harvest Corner (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "30% Off Specials",
+    "description": "",
+    "type": "sale",
+    "dispensary": "The Harvest Corner (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "The Rack | SAVE 40%",
+    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
+    "type": "sale",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
+    "description": "Limited Time Only - while supplies last. No Stacking!",
+    "type": "sale",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BINGO BANGO | $27 FLOWER",
+    "description": "Limited time only - while supplies last. No Stacking.",
+    "type": "sale",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Thirsty Thursday | SAVE 20%",
+    "description": "Take 20% off All Infused Beverages - Thursdays only. While Supplies last, limited time only. Discounts do not stack.",
+    "type": "sale",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "30% Off All Brix Products",
+    "description": "All Brix products are 30% off when you shop 4/16-4/23! While supplies last. Discounts do not stack!",
+    "type": "sale",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "type": "bogo",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "type": "bogo",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "The Rack | SAVE 40%",
+    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
+    "type": "sale",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BINGO BANGO | $27 FLOWER",
+    "description": "Limited time only - while supplies last. No Stacking.",
+    "type": "sale",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
+    "description": "Limited Time Only - While Supplies Last. No Stacking!",
+    "type": "sale",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Thirsty Thursday | SAVE 20%",
+    "description": "Take 20% off All Infused Beverages - Thursdays only. While Supplies last, limited time only. Discounts do not stack.",
+    "type": "sale",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "30% Off All Brix Products",
+    "description": "All Brix products are 30% off when you shop 4/16-4/23! While supplies last. Discounts do not stack!",
+    "type": "sale",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "type": "bogo",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "type": "bogo",
+    "dispensary": "Affinity - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Gummies | 60% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "New Prices!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Manchester (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "New Prices!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Newington (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Gummies | 60% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Gummies | 60% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Gummies | 60% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "New Prices!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Gummies | 60% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Waterbury (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "New Prices!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - West Hartford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "type": "bundle",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Viva Gummies - 30% off",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "30% off all Hemp Products!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "40% off Accessories!",
+    "description": "",
+    "type": "product",
+    "dispensary": "Fine Fettle - Willimantic (Med)",
+    "platform": "finefettle"
+  }
+]

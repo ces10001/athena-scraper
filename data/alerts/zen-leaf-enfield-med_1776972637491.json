@@ -1,0 +1,14 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Savvy",
+    "message": "Savvy Tahoe OG: $89.60 > $98.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Peach",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Strawberry Peach"
+  }
+]

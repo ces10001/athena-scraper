@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Hashburger 3.5g 0054",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Hashburger 3.5g 0054 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Blue Dream 7g Fun Size Budz 0055",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Blue Dream 7g Fun Size Budz 0055 $64.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Sour Diesel Live Resin-1g-510-Cart-00493",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Lighthouse-Sour Diesel Live Resin-1g-510-Cart-00493"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218"
+  }
+]

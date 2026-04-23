@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints $47.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel $152.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "New: all:hours - Space Gello $56.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  }
+]

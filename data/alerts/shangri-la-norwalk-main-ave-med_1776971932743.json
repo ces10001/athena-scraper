@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart MT 41559",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart MT 41559 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin MT 41136",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin MT 41136 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz MT 41736",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz MT 41736 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Kush Live Resin .5g Rechargeable 0103",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Watermelon Kush Live Resin .5g Rechargeable 0103 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff MT 41749",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff MT 41749 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Afternoon Delight #4 (H) 01438",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g Afternoon Delight #4 (H) 01438 $180.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Animal Scout #10 (I) 01432",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 14g Animal Scout #10 (I) 01432 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty MT 41733",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty MT 41733 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Maui Wowie .5g Rechargeable 0090",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Maui Wowie .5g Rechargeable 0090 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Cookies Lucky Dugout 3g 0102",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Durban Cookies Lucky Dugout 3g 0102 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin 14g 41721",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin 14g 41721 $95.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "Chew",
+    "message": "Gone: Chew - Chew RSO Rainbow Rush Gummies S 00922"
+  }
+]

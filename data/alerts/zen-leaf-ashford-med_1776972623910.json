@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Savvy",
+    "message": "Savvy Tahoe OG: $89.60 > $98.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomegranate Punch",
+    "brand": "Encore",
+    "message": "New: Encore - Pomegranate Punch $24.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lotion 1:1",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Lotion 1:1"
+  }
+]

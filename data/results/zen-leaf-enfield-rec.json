@@ -2300,26 +2300,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-488903",
-    "name": "Sour Strawberry Peach",
-    "brand": "Encore",
-    "category": "edible",
-    "subcategory": null,
-    "strain_type": "indica",
-    "price_cents": 2425,
-    "original_price_cents": 3250,
-    "weight_label": "10mg",
-    "weight_grams": 0.01,
-    "unit_price_per_gram": 242500,
-    "thc_pct": 100,
-    "cbd_pct": 200,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "25% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-488901",
     "name": "Sour Mandarin 1:1",
     "brand": "Encore",

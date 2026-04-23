@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g Afternoon Delight #",
+    "brand": "4 (H) 01438RYTHM",
+    "message": "New: 4 (H) 01438RYTHM - Rythm 28g Afternoon Delight # $164.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 14g Animal Scout #",
+    "brand": "10 (I) 01432RYTHM",
+    "message": "New: 10 (I) 01432RYTHM - Rythm 14g Animal Scout # $109.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 28g Rose Gold RTZ (H) 01367Good GreenMixed Buds(28G)",
+    "brand": "HybridGood Green 28g Rose Gold RTZ (H) 01367Good Green",
+    "message": "New: HybridGood Green 28g Rose Gold RTZ (H) 01367Good Green - Good Green 28g Rose Gold RTZ (H) 01367Good GreenMixed Buds(28G) $146.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%",
+    "brand": "GrassrootsGround",
+    "message": "Gone: GrassrootsGround - Grassroots Ground Flower 3.5g Floral Frost (H) 01654 TC 35.510%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LB Atomic Apple Lucky Chews 310.8mg H 00067 6pkLucky BreakLucky Chews(EACH)310.8",
+    "brand": null,
+    "message": "Gone: null - LB Atomic Apple Lucky Chews 310.8mg H 00067 6pkLucky BreakLucky Chews(EACH)310.8"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Whole Flower 3.5g White Caps (I) 01594 TC 31.44%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Whole Flower 3.5g White Caps (I) 01594 TC 31.44%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solid State 2g Fatboy 41763TheraplantInfused Pre Roll(EACH)",
+    "brand": "HybridSolid State 2g Fatboy 41763TheraplantInfused",
+    "message": "Gone: HybridSolid State 2g Fatboy 41763TheraplantInfused - Solid State 2g Fatboy 41763TheraplantInfused Pre Roll(EACH)"
+  }
+]

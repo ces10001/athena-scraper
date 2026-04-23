@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave Shorties H 27047CTPharma5 Pack Pre Roll(.4g / 2g per pack)",
+    "brand": "Only 1 leftHybridStrawberry Pave Shorties H 27047CTPharma5 Pack",
+    "message": "New: Only 1 leftHybridStrawberry Pave Shorties H 27047CTPharma5 Pack - Strawberry Pave Shorties H 27047CTPharma5 Pack Pre Roll(.4g / 2g per pack) $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Do Not Trip (H) 01443RYTHMCartridge(.5G)",
+    "brand": "HybridRythm 0.5g Vape Do Not Trip (H) 01443RYTHM",
+    "message": "New: HybridRythm 0.5g Vape Do Not Trip (H) 01443RYTHM - Rythm 0.5g Vape Do Not Trip (H) 01443RYTHMCartridge(.5G) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack Mini Dogs(.3",
+    "brand": "SativaDogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack",
+    "message": "New: SativaDogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack - Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417Dogwalkers5 Pack Mini Dogs(.3 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 28g Select Grind Glue Fondue (S) 01319Advanced Grow Labs (AGL)Select Grind(2",
+    "brand": "SativaAGL 28g Select Grind Glue Fondue (S) 01319Advanced Grow Labs (AGL)",
+    "message": "New: SativaAGL 28g Select Grind Glue Fondue (S) 01319Advanced Grow Labs (AGL) - AGL 28g Select Grind Glue Fondue (S) 01319Advanced Grow Labs (AGL)Select Grind(2 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround Flower(28G)",
+    "brand": "IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround",
+    "message": "New: IndicaGood Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround - Good Green Ground Flower 28g Mystic Mint (I) 01402Good GreenGround Flower(28G) $110.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Blue Andeze 1g Pre-Roll I 26991SavvyPre Roll(EACH)",
+    "brand": "backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy",
+    "message": "New: backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991Savvy - Savvy Blue Andeze 1g Pre-Roll I 26991SavvyPre Roll(EACH) $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Legacy Spark - Fast Times 0.4g 41786Miss GrassPre Roll(EACH)",
+    "brand": "SativaDurban Legacy Spark - Fast Times 0.4g 41786Miss Grass",
+    "message": "Gone: SativaDurban Legacy Spark - Fast Times 0.4g 41786Miss Grass - Durban Legacy Spark - Fast Times 0.4g 41786Miss GrassPre Roll(EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Grow Labs (AGL)Distillate Di",
+    "brand": "Only 3 leftHybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Grow Labs (AGL)Distillate",
+    "message": "Gone: Only 3 leftHybridAGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Grow Labs (AGL)Distillate - AGL 300mg Pen Jet Fuel x Vel Croz (H) 01408Advanced Grow Labs (AGL)Distillate Di"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472Lighthouse - CTLive Resin",
+    "brand": "Cash backHybridLighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472Lighthouse - CTLive Resin",
+    "message": "Gone: Cash backHybridLighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472Lighthouse - CTLive Resin - Lighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472Lighthouse - CTLive Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Hdz Vape 41737TheraplantVape Cartridge(1G)",
+    "brand": "IndicaAir Hdz Vape 41737TheraplantVape",
+    "message": "Gone: IndicaAir Hdz Vape 41737TheraplantVape - Air Hdz Vape 41737TheraplantVape Cartridge(1G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice MT 41729TheraplantMini Tank Disposable(EACH)",
+    "brand": "Only 2 leftHybridCarbon Juice MT 41729TheraplantMini Tank",
+    "message": "Gone: Only 2 leftHybridCarbon Juice MT 41729TheraplantMini Tank - Carbon Juice MT 41729TheraplantMini Tank Disposable(EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439CaminoGummies(EACH)92.2m",
+    "brand": "backIndicaCamino Midnight Blueberry Cannabis-Infused Gummies 00439Camino",
+    "message": "Gone: backIndicaCamino Midnight Blueberry Cannabis-Infused Gummies 00439Camino - Camino Midnight Blueberry Cannabis-Infused Gummies 00439CaminoGummies(EACH)92.2m"
+  }
+]

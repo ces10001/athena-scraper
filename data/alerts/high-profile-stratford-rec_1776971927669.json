@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sheriff's Reserve | Liquid Diamonds Disposable Vape | 1g | C0070000450",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Sheriff's Reserve | Liquid Diamonds Disposable Vape | 1g | C0070000450 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motor Breath | Live Resin Cart | 1g | C0070000449",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Motor Breath | Live Resin Cart | 1g | C0070000449 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Crystal Palace | Liquid Diamonds Disposable Vape | 1g | C0070000413",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Crystal Palace | Liquid Diamonds Disposable Vape | 1g | C0070000413 $65.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sun Grown Summer L. | Pre-Pack | 3.5g | C0070000318",
+    "brand": "Rodeo",
+    "message": "Gone: Rodeo - Sun Grown Summer L. | Pre-Pack | 3.5g | C0070000318"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sherbet | Live Resin Disposable | 1g | C0060000414",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Orange Sherbet | Live Resin Disposable | 1g | C0060000414"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango | Sativa Gummies | 100mg (20pk) | C0060000263",
+    "brand": "Wana",
+    "message": "Gone: Wana - Mango | Sativa Gummies | 100mg (20pk) | C0060000263"
+  }
+]

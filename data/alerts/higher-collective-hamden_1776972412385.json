@@ -1,0 +1,128 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Dawg",
+    "brand": "Chemdog",
+    "message": "Gone: Chemdog - Chem Dawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry",
+    "brand": "Canyon Water",
+    "message": "Gone: Canyon Water - Raspberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg THCa",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg THCa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Urkel",
+    "brand": "comffy",
+    "message": "Gone: comffy - Purple Urkel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hash Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Z",
+    "brand": "AGL",
+    "message": "Gone: AGL - Durban Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Rush",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Raspberry Rush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Hashplant",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Blueberry Hashplant"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chillaxing Cherry Limeade",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Chillaxing Cherry Limeade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Lime 5:1 CBD:THC",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Raspberry Lime 5:1 CBD:THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Hippie Crasher"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sugar Free Pomegranate",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Sugar Free Pomegranate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White THCa",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White THCa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Buff",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Super Buff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Black Maple"
+  }
+]

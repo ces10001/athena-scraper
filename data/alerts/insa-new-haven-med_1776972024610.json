@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Shorties 41764",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Shorties 41764 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State 2g Fatboy 41763",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State 2g Fatboy 41763 $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-CT Kush Cake Live Resin-(I)-Disposable-1g-00418",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Amigos-CT Kush Cake Live Resin-(I)-Disposable-1g-00418"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solo Burger Flower T27.58% I 00907",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Solo Burger Flower T27.58% I 00907"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake 1g PR 41705",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake 1g PR 41705"
+  }
+]

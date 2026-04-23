@@ -1,0 +1,122 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "New: Find. - Silver Dollar $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "New: Find. - Bulbz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Problem Child $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bad Decisions",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Bad Decisions $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gasolina",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gasolina $68.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "New: Select - Orange Kooykz $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $7.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $7.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $41.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Melon Crash",
+    "brand": "Savvy",
+    "message": "New: Savvy - Melon Crash $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peachy Punch",
+    "brand": "Savvy",
+    "message": "New: Savvy - Peachy Punch $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solo Burger",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Solo Burger $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Ice Cream Cake $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tap Out",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Tap Out $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Purple Milk $48.00"
+  }
+]

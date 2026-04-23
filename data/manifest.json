@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T17:57:55.368Z",
+  "lastUpdated": "2026-04-23T20:06:26.577Z",
   "dispensaries": [
     "affinity-bridgeport-med",
     "affinity-bridgeport-rec",
@@ -46,14 +46,32 @@
     "curaleaf-stamford-med",
     "curaleaf-stamford-rec",
     "curaleaf-stamford",
+    "fine-fettle-bristol-med",
+    "fine-fettle-bristol-rec",
     "fine-fettle-bristol",
+    "fine-fettle-manchester-med",
+    "fine-fettle-manchester-rec",
     "fine-fettle-manchester",
+    "fine-fettle-newington-med",
+    "fine-fettle-newington-rec",
     "fine-fettle-newington",
+    "fine-fettle-norwalk-med",
+    "fine-fettle-norwalk-rec",
     "fine-fettle-norwalk",
+    "fine-fettle-old-saybrook-med",
+    "fine-fettle-old-saybrook-rec",
     "fine-fettle-old-saybrook",
+    "fine-fettle-stamford-med",
+    "fine-fettle-stamford-rec",
     "fine-fettle-stamford",
+    "fine-fettle-waterbury-med",
+    "fine-fettle-waterbury-rec",
     "fine-fettle-waterbury",
+    "fine-fettle-west-hartford-med",
+    "fine-fettle-west-hartford-rec",
     "fine-fettle-west-hartford",
+    "fine-fettle-willimantic-med",
+    "fine-fettle-willimantic-rec",
     "fine-fettle-willimantic",
     "high-profile-canton-med",
     "high-profile-canton-rec",
@@ -160,8 +178,8 @@
     "zen-leaf-waterbury-rec"
   ],
   "stats": {
-    "total": 37746,
-    "scraped": 117,
-    "alerts": 2719
+    "total": 36302,
+    "scraped": 126,
+    "alerts": 2253
   }
 }
