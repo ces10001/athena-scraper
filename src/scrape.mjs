@@ -6,6 +6,7 @@ import { scrapeFineFettle } from './adapters/finefettle.mjs';
 import { scrapeJane } from './adapters/jane.mjs';
 import { scrapeBUDRCannabis } from './adapters/budrcannabis.mjs';
 import { scrapeRise } from './adapters/rise.mjs';
+import { scrapeAllDeals } from './scrape-deals.mjs';
 import { validateProduct } from './lib/normalizer.mjs';
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync, readdirSync } from 'fs';
@@ -172,6 +173,14 @@ async function main() {
   console.log('========================================\n');
 
   if (!opts.dryRun) {
+    // Scrape store-wide deals
+    try {
+      var storePromos = await scrapeAllDeals();
+      await writeFile(DATA_DIR + '/store_promos.json', JSON.stringify(storePromos, null, 2));
+    } catch (dealErr) {
+      console.warn('  Deal scraping failed: ' + dealErr.message);
+    }
+
     var resultFiles = readdirSync(RESULTS_DIR).filter(function(f) { return f.endsWith('.json'); });
     var manifest = {
       lastUpdated: new Date().toISOString(),
