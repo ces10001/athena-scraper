@@ -287,6 +287,9 @@ async function scrapeWithPlaywright(menuUrl, domain, allProducts, errors) {
     if (!hydration) hydration = await tryExtract(menuUrl.replace(/\/?$/, '') + '/menu');
     if (!hydration) hydration = await tryExtract(menuUrl.replace(/\/?$/, '') + '/menu?isIframe=true');
 
+    var iframeSource = false; // Track if hydration came from iframe
+    var paginationFrame = null; // Reference to the iframe frame for pagination
+
     // ═══ IFRAME STRATEGY (Zen Leaf pattern) ═══
     // Zen Leaf embeds Sweed in an iframe called 'sweed-iframe-display'
     // The iframe only exists on the /menu subpage, and needs time to hydrate
@@ -334,6 +337,10 @@ async function scrapeWithPlaywright(menuUrl, domain, allProducts, errors) {
                   } catch(e) {}
                   return null;
                 });
+                if (hydration) {
+                  iframeSource = true;
+                  paginationFrame = sweedFrame;
+                }
               } catch (frameErr) {}
             }
             
@@ -360,38 +367,95 @@ async function scrapeWithPlaywright(menuUrl, domain, allProducts, errors) {
 
       var totalPages = Math.ceil(hydration.total / (hydration.pageSize || 24));
       if (totalPages > 1) {
-        var currentUrl = page.url();
-        var baseUrl = currentUrl.split('?')[0];
-        var existingParams = currentUrl.includes('?') ? currentUrl.split('?')[1].replace(/[&?]?page=\d+/, '') : '';
-        var joiner = existingParams ? baseUrl + '?' + existingParams + '&' : baseUrl + '?';
-
-        for (var pg = 2; pg <= totalPages; pg++) {
-          try {
-            await page.goto(joiner + 'page=' + pg, { waitUntil: 'domcontentloaded', timeout: 30000 });
-            await page.waitForTimeout(3000);
-            var pgH = await page.evaluate(function() {
-              try {
-                var raw = window.__sw_qc;
-                if (!raw) return null;
-                var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
-                for (var i = 0; i < parsed.queries.length; i++) {
-                  var d = parsed.queries[i]?.state?.data;
-                  if (d && d.list) return { list: d.list };
-                }
-              } catch(e) {}
-              return null;
-            });
-            if (pgH && pgH.list) {
-              for (var ph = 0; ph < pgH.list.length; ph++) {
-                var pgProd = normalizeHydrationProduct(pgH.list[ph]);
-                if (pgProd && pgProd.price > 0) {
-                  var pgCat = (pgProd.category || '').toLowerCase();
-                  if (pgCat === 'accessories' || pgCat === 'apparel') continue;
-                  allProducts.set(pgProd.external_id, pgProd);
+        if (iframeSource && paginationFrame) {
+          // ═══ IFRAME PAGINATION ═══
+          // Navigate within the iframe by changing its location
+          console.log('  [sweed] Paginating ' + totalPages + ' pages inside iframe...');
+          var iframeSrc = await paginationFrame.evaluate(function() { return window.location.href; });
+          var iframeBase = iframeSrc.split('?')[0];
+          var iframeParams = iframeSrc.includes('?') ? iframeSrc.split('?')[1].replace(/[&?]?page=\d+/, '') : '';
+          var iframeJoiner = iframeParams ? iframeBase + '?' + iframeParams + '&' : iframeBase + '?';
+          
+          for (var pg = 2; pg <= totalPages; pg++) {
+            try {
+              await paginationFrame.evaluate(function(url) { window.location.href = url; }, iframeJoiner + 'page=' + pg);
+              await page.waitForTimeout(4000);
+              
+              // Re-find the iframe frame (it may have changed after navigation)
+              var reFrame = page.frame('sweed-iframe-display');
+              if (!reFrame) {
+                var rFrames = page.frames();
+                for (var rfi = 0; rfi < rFrames.length; rfi++) {
+                  if ((rFrames[rfi].url() || '').includes('isIframe=true')) { reFrame = rFrames[rfi]; break; }
                 }
               }
+              if (!reFrame) { console.warn('  [sweed] Lost iframe at page ' + pg); break; }
+              
+              var pgH = await reFrame.evaluate(function() {
+                try {
+                  var raw = window.__sw_qc;
+                  if (!raw) return null;
+                  var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
+                  for (var i = 0; i < parsed.queries.length; i++) {
+                    var d = parsed.queries[i]?.state?.data;
+                    if (d && d.list) return { list: d.list };
+                  }
+                } catch(e) {}
+                return null;
+              });
+              if (pgH && pgH.list) {
+                for (var ph = 0; ph < pgH.list.length; ph++) {
+                  var pgProd = normalizeHydrationProduct(pgH.list[ph]);
+                  if (pgProd && pgProd.price > 0) {
+                    var pgCat = (pgProd.category || '').toLowerCase();
+                    if (pgCat === 'accessories' || pgCat === 'apparel') continue;
+                    allProducts.set(pgProd.external_id, pgProd);
+                  }
+                }
+              }
+              if (pg % 5 === 0 || pg === totalPages) {
+                console.log('  [sweed] iframe page ' + pg + '/' + totalPages + ': ' + allProducts.size + ' total');
+              }
+              paginationFrame = reFrame;
+            } catch (pgErr) {
+              console.warn('  [sweed] Iframe page ' + pg + ' failed: ' + pgErr.message);
             }
-          } catch (pgErr) {}
+          }
+        } else {
+          // ═══ DIRECT PAGE PAGINATION ═══
+          var currentUrl = page.url();
+          var baseUrl = currentUrl.split('?')[0];
+          var existingParams = currentUrl.includes('?') ? currentUrl.split('?')[1].replace(/[&?]?page=\d+/, '') : '';
+          var joiner = existingParams ? baseUrl + '?' + existingParams + '&' : baseUrl + '?';
+
+          for (var pg = 2; pg <= totalPages; pg++) {
+            try {
+              await page.goto(joiner + 'page=' + pg, { waitUntil: 'domcontentloaded', timeout: 30000 });
+              await page.waitForTimeout(3000);
+              var pgH = await page.evaluate(function() {
+                try {
+                  var raw = window.__sw_qc;
+                  if (!raw) return null;
+                  var parsed = typeof raw === 'string' ? JSON.parse(raw) : raw;
+                  for (var i = 0; i < parsed.queries.length; i++) {
+                    var d = parsed.queries[i]?.state?.data;
+                    if (d && d.list) return { list: d.list };
+                  }
+                } catch(e) {}
+                return null;
+              });
+              if (pgH && pgH.list) {
+                for (var ph = 0; ph < pgH.list.length; ph++) {
+                  var pgProd = normalizeHydrationProduct(pgH.list[ph]);
+                  if (pgProd && pgProd.price > 0) {
+                    var pgCat = (pgProd.category || '').toLowerCase();
+                    if (pgCat === 'accessories' || pgCat === 'apparel') continue;
+                    allProducts.set(pgProd.external_id, pgProd);
+                  }
+                }
+              }
+            } catch (pgErr) {}
+          }
         }
       }
       console.log('  [sweed] ' + domain + ' Playwright: ' + allProducts.size + ' products');
