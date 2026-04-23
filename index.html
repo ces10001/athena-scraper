@@ -169,6 +169,22 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .hl-empty{font-size:11px;color:var(--tx3);text-align:center;padding:12px 8px}
 .hl-count{font-family:var(--m);font-size:10px;color:var(--tx3);margin-left:6px}
 
+/* ═══ DEALS TAB ═══ */
+.deal-promo{background:linear-gradient(135deg,rgba(232,96,10,.06),rgba(232,96,10,.02));border:1px solid rgba(232,96,10,.15);border-radius:10px;padding:16px;margin-bottom:12px}
+.deal-promo-title{font-family:var(--m);font-size:14px;font-weight:700;color:var(--cy2);margin-bottom:4px}
+.deal-promo-desc{font-size:12px;color:var(--tx2);line-height:1.5}
+.deal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;margin-top:12px}
+.deal-card{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.deal-card-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.deal-card-disp{font-family:var(--m);font-size:11px;font-weight:600;color:var(--tx2);text-transform:uppercase;letter-spacing:.5px}
+.deal-card-badge{font-family:var(--m);font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;background:rgba(26,143,63,.1);color:var(--gn)}
+.deal-card-product{font-size:13px;font-weight:600;color:var(--tx);margin-bottom:4px;line-height:1.3}
+.deal-card-brand{font-size:10px;color:var(--tx3);margin-bottom:6px}
+.deal-card-prices{display:flex;align-items:center;gap:8px}
+.deal-card-sale{font-family:var(--m);font-size:16px;font-weight:700;color:var(--gn)}
+.deal-card-orig{font-family:var(--m);font-size:12px;color:var(--tx3);text-decoration:line-through}
+.deal-card-save{font-size:10px;color:var(--gn);font-weight:600}
+
 /* ═══ PRICING ALERTS SPLIT VIEW ═══ */
 .alert-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
 @media(max-width:800px){.alert-split{grid-template-columns:1fr}}
@@ -249,7 +265,7 @@ function App(){
     tab==="highlow"&&React.createElement(HighLowTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="alerts"&&React.createElement(AlertsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
-    tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer}),
+    tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
     tab==="help"&&React.createElement(HelpTab,null),
     React.createElement(Ftr,{d:data})
@@ -847,27 +863,100 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
 /* ═══════════════════════════════════════
    DEALS TAB (overarching deals)
    ═══════════════════════════════════════ */
-function DealsTab({data,favsVer}){
-  const deals=(data.deals||[]).filter(d=>(d.category||"").toLowerCase()!=="accessories");
-  const[dq,setDq]=useState("");
-  const filtered=useMemo(()=>{if(!dq.trim())return deals;const s=dq.toLowerCase();return deals.filter(x=>(x.product||"").toLowerCase().includes(s)||(x.dispensary||"").toLowerCase().includes(s)||(x.brand||"").toLowerCase().includes(s))},[deals,dq]);
-
-  // Group by dispensary, show summary stats
-  const grouped=useMemo(()=>{const byDisp={};filtered.forEach(d=>{if(!byDisp[d.dispensary])byDisp[d.dispensary]={deals:[],totalSavings:0,bestPct:0};byDisp[d.dispensary].deals.push(d);if(d.pct_off>byDisp[d.dispensary].bestPct)byDisp[d.dispensary].bestPct=d.pct_off;byDisp[d.dispensary].totalSavings+=(d.original-d.discounted)});return Object.entries(byDisp).sort((a,b)=>b[1].deals.length-a[1].deals.length)},[filtered]);
-
-  const[openD,setOpenD]=useState(new Set());
-
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Active deals ({filtered.length.toLocaleString()})</span><div className="row"><button className="btn" onClick={()=>setOpenD(new Set(grouped.map(g=>g[0])))}>Expand all</button><button className="btn" onClick={()=>setOpenD(new Set())}>Collapse</button></div></div>
-    <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search deals..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
-    <div className="pnl-d">Current promotions grouped by dispensary. Click to expand product details.</div>
-    {grouped.map(([disp,info])=>{const isO=openD.has(disp);return<div key={disp} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}>
-      <div onClick={()=>setOpenD(p=>{const n=new Set(p);n.has(disp)?n.delete(disp):n.add(disp);return n})} className="dsel-item" style={{padding:'10px 12px'}}>
-        <div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name" style={{color:isAff(disp)?'var(--cy2)':'var(--tx)'}}>{cleanD(disp)}</span></div>
-        <div className="row"><span className="badge gn">up to {info.bestPct}% off</span><span className="dsel-count" style={{marginLeft:8}}>{info.deals.length} deals</span></div>
+function DealsTab({data,favsVer,toggleFav,sel,setSel}){
+  var[radius,setRadius]=useState(10);
+  var[dq,setDq]=useState("");
+  var[sortBy,setSortBy]=useState("pct");
+  var storePromos=data.store_promos||[];
+  var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
+  
+  // Filter by selected dispensaries
+  var filtered=useMemo(function(){
+    var d=deals;
+    if(sel.size>0)d=d.filter(function(x){return sel.has(x.dispensary)});
+    if(dq.trim()){var s=dq.toLowerCase();d=d.filter(function(x){return(x.product||"").toLowerCase().includes(s)||(x.dispensary||"").toLowerCase().includes(s)||(x.brand||"").toLowerCase().includes(s)||(x.category||"").toLowerCase().includes(s)})}
+    if(sortBy==="pct")d=[...d].sort(function(a,b){return b.pct_off-a.pct_off});
+    else if(sortBy==="save")d=[...d].sort(function(a,b){return(b.original-b.discounted)-(a.original-a.discounted)});
+    else d=[...d].sort(function(a,b){return a.discounted-b.discounted});
+    return d;
+  },[deals,sel,dq,sortBy]);
+  
+  // Filter store promos by selected dispensaries
+  var filteredPromos=useMemo(function(){
+    if(!storePromos.length)return[];
+    if(sel.size===0)return storePromos;
+    return storePromos.filter(function(p){return sel.has(p.dispensary)});
+  },[storePromos,sel]);
+  
+  // Summary stats
+  var totalSavings=filtered.reduce(function(s,d){return s+(d.original-d.discounted)},0);
+  var bestDeal=filtered.length>0?filtered.reduce(function(best,d){return d.pct_off>best.pct_off?d:best},filtered[0]):null;
+  var dispsWithDeals=new Set();filtered.forEach(function(d){dispsWithDeals.add(d.dispensary)});
+  
+  var doExport=function(){
+    var rows=[["Dispensary","Product","Brand","Category","Sale Price","Original","% Off","Savings"]];
+    filtered.forEach(function(d){rows.push([cleanD(d.dispensary),d.product,d.brand,d.category,"$"+d.discounted.toFixed(2),"$"+d.original.toFixed(2),d.pct_off+"%","$"+(d.original-d.discounted).toFixed(2)])});
+    var ws=XLSX.utils.aoa_to_sheet(rows);var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Deals");
+    ws["!cols"]=[{wch:25},{wch:40},{wch:20},{wch:12},{wch:12},{wch:12},{wch:8},{wch:10}];
+    XLSX.writeFile(wb,"athena_deals.xlsx");
+  };
+  
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+  
+    {/* Store-Wide Promotions */}
+    <div className="pnl" style={{marginTop:12}}>
+      <div className="pnl-t">Store-Wide Promotions</div>
+      {filteredPromos.length>0?
+        <div className="deal-grid">{filteredPromos.map(function(p,i){return<div key={i} className="deal-promo">
+          <div className="deal-promo-title">{p.title}</div>
+          <div className="deal-promo-desc">{p.description}</div>
+          <div style={{marginTop:6,fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>{cleanD(p.dispensary)}{p.conditions?" · "+p.conditions:""}</div>
+        </div>})}</div>
+      :<div className="deal-promo">
+        <div className="deal-promo-title">Coming Soon</div>
+        <div className="deal-promo-desc">Store-wide promotions like "20% off Curaleaf brand" or "Buy 4 eighths, get 30% off" will appear here once deal scraping is activated. These are the banner deals you see on each dispensary's Specials page — not individual product discounts.</div>
+      </div>}
+    </div>
+    
+    {/* Product-Level Deals */}
+    <div className="pnl" style={{marginTop:12}}>
+      <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
+        <span className="pnl-t" style={{margin:0}}>Products On Sale ({filtered.length.toLocaleString()})</span>
+        <div className="row">
+          <button className={"btn "+(sortBy==="pct"?"pri":"")} onClick={function(){setSortBy("pct")}}>Biggest %</button>
+          <button className={"btn "+(sortBy==="save"?"pri":"")} onClick={function(){setSortBy("save")}}>Most Saved</button>
+          <button className={"btn "+(sortBy==="price"?"pri":"")} onClick={function(){setSortBy("price")}}>Lowest Price</button>
+          <button className="btn pri" onClick={doExport}>Export</button>
+        </div>
       </div>
-      {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Sale Price</th><th>Original</th><th>Savings</th></tr></thead>
-        <tbody>{info.deals.slice(0,50).map((d,i)=><tr key={i}><td className="pn">{d.product}</td><td className="dm">{d.brand}</td><td style={{color:'var(--gn)',fontFamily:'var(--m)',fontWeight:600}}>${d.discounted.toFixed(2)}</td><td style={{color:'var(--tx3)',fontFamily:'var(--m)',textDecoration:'line-through'}}>${d.original.toFixed(2)}</td><td><span className="badge gn">{d.pct_off}%</span></td></tr>)}</tbody></table></div>}
-    </div>})}</div>;
+      <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search products, brands, dispensaries..." value={dq} onChange={function(e){setDq(e.target.value)}}/></div>
+      
+      <div className="stats" style={{marginBottom:12}}>
+        <div className="st"><div className="st-l">Deals Found</div><div className="st-v">{filtered.length.toLocaleString()}</div></div>
+        <div className="st"><div className="st-l">Dispensaries</div><div className="st-v">{dispsWithDeals.size}</div></div>
+        <div className="st"><div className="st-l">Total Savings</div><div className="st-v gn">{"$"+totalSavings.toFixed(0)}</div></div>
+        <div className="st"><div className="st-l">Best Deal</div><div className="st-v gn">{bestDeal?bestDeal.pct_off+"%":"—"}</div></div>
+      </div>
+      
+      <div className="pnl-d">{sel.size>0?"Showing deals at "+dispsWithDeals.size+" selected dispensaries. ":"Showing all deals. Select dispensaries above to filter. "}Sort by biggest discount, most money saved, or lowest sale price.</div>
+      
+      {filtered.length===0?<div className="empty"><h3>No deals found</h3><p style={{fontSize:12}}>{sel.size>0?"No active deals at selected dispensaries.":"No active deals in the current data."}</p></div>:
+      <div className="deal-grid">{filtered.slice(0,200).map(function(d,i){
+        return<div key={i} className="deal-card">
+          <div className="deal-card-hdr">
+            <div className="deal-card-disp">{cleanD(d.dispensary)}</div>
+            <div className="deal-card-badge">{d.pct_off}% OFF</div>
+          </div>
+          <div className="deal-card-product">{d.product}</div>
+          <div className="deal-card-brand">{d.brand} · {d.category}</div>
+          <div className="deal-card-prices">
+            <span className="deal-card-sale">{"$"+d.discounted.toFixed(2)}</span>
+            <span className="deal-card-orig">{"$"+d.original.toFixed(2)}</span>
+            <span className="deal-card-save">Save {"$"+(d.original-d.discounted).toFixed(2)}</span>
+          </div>
+        </div>
+      })}</div>}
+    </div></>;
 }
 
 /* ═══════════════════════════════════════
@@ -897,7 +986,7 @@ function HelpTab(){
     {title:"Highs / Lows",icon:"📊",text:"See the highest and lowest prices for specific product sizes across all dispensaries (or just selected ones). Broken down by category: Flower (3.5g, 7g, 14g, 28g), Vapes (0.3g, 0.5g, 1g), Pre-Rolls (single, 3pk, 5pk, 7pk, 10pk+), Edibles (10pk, 20pk), Concentrates, and Tinctures. Each card shows the cheapest and most expensive listing with the full product name and dispensary. Deal prices shown in parentheses when available. Use the Export button to download everything to Excel."},
     {title:"Pricing Alerts",icon:"🔔",text:"Track price changes across dispensaries. The split view shows price drops (red, left side) and price increases (green, right side) with the old price, arrow, and new price plus percentage change. Select specific dispensaries in the panel above to filter. Use category tabs (Flower, Vaporizers, etc.) to narrow down. Export to Excel for records."},
     {title:"Product Gaps",icon:"🔍",text:"Find products that competitors carry but you don't. Star ★ your dispensaries first — those are your 'home base.' Then select competitors in the panel. The gap list shows every product sold by selected competitors that doesn't appear on any of your starred menus. Grouped by chain with expandable location details. Great for identifying what to add to your menu."},
-    {title:"Deals",icon:"🏷️",text:"Browse all active promotions grouped by dispensary. Shows the original price, sale price, and percentage off. Use the search bar to find specific products or brands on sale. Click any dispensary to expand and see all their current deals."},
+    {title:"Deals",icon:"🏷️",text:"Two sections: Store-Wide Promotions shows banner deals like '20% off all Curaleaf' or 'Buy 4 eighths get 30% off' (coming soon with deal scraping). Products On Sale shows every individual product currently discounted — sort by biggest percentage off, most money saved, or lowest sale price. Each deal card shows the dispensary, product name, brand, sale price vs original, and savings. Use the map and panel to filter by dispensary. Search for specific products or brands."},
     {title:"SKUs",icon:"📦",text:"Quick overview of how many unique products each dispensary carries. Search to find a specific store. Click 'Detailed View' (orange button) to see a breakdown by category with average prices. Click ★ to mark dispensaries as yours."},
     {title:"Map & Dispensary Panel",icon:"🗺️",text:"The map and dispensary panel appear on Compare Prices, Highs/Lows, Pricing Alerts, and Product Gaps tabs. Click the map to set a center point and use the radius slider to filter dispensaries by distance. In the panel, each dispensary shows MED and REC buttons — click to toggle medical or recreational menus independently. Your selections carry across tabs."},
     {title:"Exporting Data",icon:"📥",text:"Every tab has an Export button that downloads the current view as an Excel spreadsheet. The export respects your current filters — if you've selected specific dispensaries or categories, only that filtered data exports."},
