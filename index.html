@@ -155,10 +155,10 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 
 /* ═══ HIGHS/LOWS TAB ═══ */
 .hl-section{margin-bottom:16px}
-.hl-section-title{font-family:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--tx2);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--bd)}
+.hl-section-title{font-family:var(--m);font-size:14px;text-transform:uppercase;letter-spacing:1.5px;color:var(--tx);font-weight:700;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--cy)}
 .hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .hl-card{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-.hl-card-title{font-family:var(--m);font-size:11px;font-weight:600;color:var(--tx);margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.hl-card-title{font-family:var(--m);font-size:12px;font-weight:700;color:var(--tx);margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
 .hl-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.05)}
 .hl-row:last-child{border-bottom:none}
 .hl-label{font-size:11px;color:var(--tx2);font-family:var(--m);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
@@ -241,7 +241,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(TerminalBoot,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["help","How To Use"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
@@ -251,6 +251,7 @@ function App(){
     tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
+    tab==="help"&&React.createElement(HelpTab,null),
     React.createElement(Ftr,{d:data})
   );
 }
@@ -493,6 +494,19 @@ function DispPanel({data,sel,setSel,toggleFav}){
   const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
   
+  // Deduplicated counts per base group (count unique product names across med+rec)
+  const groupCounts=useMemo(()=>{
+    const byBase=new Map();
+    allD.forEach(d=>{const b=getBase(d);if(!byBase.has(b))byBase.set(b,[]);byBase.get(b).push(d)});
+    const gc={};
+    byBase.forEach((entries,base)=>{
+      const names=new Set();
+      prods.forEach(p=>{entries.forEach(d=>{if(p.dispensaries&&p.dispensaries[d])names.add((p.name||"").toLowerCase())})});
+      gc[base]=names.size;
+    });
+    return gc;
+  },[prods,allD]);
+  
   // Group dispensaries by base name, detect med/rec variants
   const grouped=useMemo(()=>{
     const byBase=new Map();
@@ -520,7 +534,7 @@ function DispPanel({data,sel,setSel,toggleFav}){
       const medD=g.entries.find(d=>/\(Med\)/i.test(d));
       const recD=g.entries.find(d=>/\(Rec\)/i.test(d));
       const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));
-      const totalCount=g.entries.reduce((s,d)=>s+(counts[d]||0),0);
+      const totalCount=groupCounts[g.base]||0;
       
       return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
         <div className="dsel-left" onClick={()=>{if(!hasBoth){togGroup(g)}else{togGroup(g)}}} style={{flex:1,cursor:'pointer'}}>
@@ -584,11 +598,8 @@ var HL_BUCKETS = [
     { label: "Pre-Roll 10pk+", cat: "pre-rolls", match: function(w){ return /\b(?:10|14|20)\s*(?:pk|pack|ct)\b/i.test(w) } },
   ]},
   { section: "Edibles", buckets: [
-    { label: "Edibles 5pk", cat: "edible", match: function(w){ return /\b5\s*(?:pk|pack|ct|pc)\b/i.test(w) } },
     { label: "Edibles 10pk", cat: "edible", match: function(w){ return /\b10\s*(?:pk|pack|ct|pc|p)\b/i.test(w) } },
     { label: "Edibles 20pk", cat: "edible", match: function(w){ return /\b20\s*(?:pk|pack|ct|pc|p)\b/i.test(w) } },
-    { label: "Edibles ~100mg", cat: "edible", match: function(w){ return /\b(?:9[0-9]|10[0-5])\s*mg/i.test(w) } },
-    { label: "Edibles ~200mg+", cat: "edible", match: function(w){ return /\b(?:2[0-9]{2}|[3-9]\d{2}|1\d{3})\s*mg/i.test(w) && !/\b(?:9[0-9]|10[0-5])\s*mg/i.test(w) } },
   ]},
   { section: "Concentrates", buckets: [
     { label: "0.5g Concentrate", cat: "concentrate", match: function(w){ return /\b0?\.5\s*g/i.test(w) } },
@@ -605,6 +616,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
 
   var analysis=useMemo(function(){
     var results=[];
+    var dealsMap={};(data.deals||[]).forEach(function(d){var k=d.product+"|"+d.dispensary;if(!dealsMap[k]||d.discounted<dealsMap[k])dealsMap[k]=d.discounted});
     HL_BUCKETS.forEach(function(section){
       var sectionResults={section:section.section,buckets:[]};
       section.buckets.forEach(function(bucket){
@@ -617,21 +629,28 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
           Object.entries(p.dispensaries||{}).forEach(function(e){
             var disp=e[0],price=e[1];
             if(sel.size>0&&!sel.has(disp))return;
-            matches.push({name:p.name,brand:p.brand,disp:disp,price:price});
+            var dealPrice=dealsMap[p.name+"|"+disp]||null;
+            matches.push({name:p.name,brand:p.brand,disp:disp,price:price,dealPrice:dealPrice});
           });
         });
-        if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,low:null,high:null});return}
+        if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,low:null,high:null,dealLow:null,dealHigh:null});return}
         matches.sort(function(a,b){return a.price-b.price});
-        var low=matches[0];
-        var high=matches[matches.length-1];
-        // Get unique products count
+        var low=matches[0];var high=matches[matches.length-1];
+        // Find lowest/highest after deals
+        var withDeals=matches.filter(function(m){return m.dealPrice&&m.dealPrice<m.price});
+        var dealLow=withDeals.length>0?withDeals.sort(function(a,b){return a.dealPrice-b.dealPrice})[0]:null;
+        var dealHigh=withDeals.length>0?withDeals.sort(function(a,b){return b.dealPrice-a.dealPrice})[0]:null;
         var uniq=new Set();matches.forEach(function(m){uniq.add(m.name)});
-        sectionResults.buckets.push({label:bucket.label,count:uniq.size,totalListings:matches.length,low:{price:low.price,name:low.name,brand:low.brand,disp:low.disp},high:{price:high.price,name:high.name,brand:high.brand,disp:high.disp}});
+        sectionResults.buckets.push({label:bucket.label,count:uniq.size,totalListings:matches.length,
+          low:{price:low.price,name:low.name,brand:low.brand,disp:low.disp},
+          high:{price:high.price,name:high.name,brand:high.brand,disp:high.disp},
+          dealLow:dealLow?{price:dealLow.dealPrice,name:dealLow.name,disp:dealLow.disp}:null,
+          dealHigh:dealHigh?{price:dealHigh.dealPrice,name:dealHigh.name,disp:dealHigh.disp}:null});
       });
       results.push(sectionResults);
     });
     return results;
-  },[prods,sel]);
+  },[prods,sel,data]);
 
   var doExport=function(){
     var rows=[["Section","Size","Products","Lowest Price","Lowest Product","Lowest Dispensary","Highest Price","Highest Product","Highest Dispensary"]];
@@ -659,7 +678,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             <div className="hl-row">
               <div className="hl-label">Lowest</div>
               <div className="hl-val">
-                <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}</div>
+                <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}{b.dealLow?<span style={{fontSize:10,color:'var(--gn)',fontWeight:400}}>{" ($"+b.dealLow.price.toFixed(2)+" w/ deal)"}</span>:null}</div>
                 <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.low.name}>{b.low.name}</div>
                 <div className="hl-disp">{cleanD(b.low.disp)}</div>
               </div>
@@ -667,7 +686,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             <div className="hl-row">
               <div className="hl-label">Highest</div>
               <div className="hl-val">
-                <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}</div>
+                <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}{b.dealHigh?<span style={{fontSize:10,color:'var(--rd)',fontWeight:400}}>{" ($"+b.dealHigh.price.toFixed(2)+" w/ deal)"}</span>:null}</div>
                 <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.high.name}>{b.high.name}</div>
                 <div className="hl-disp">{cleanD(b.high.disp)}</div>
               </div>
@@ -857,6 +876,35 @@ function DispsTab({data,favsVer,toggleFav}){
     <div className="pnl-d" style={{marginBottom:8}}>Total unique SKUs per dispensary. Click ★ to mark as yours. {dq.trim()&&filtered.length<list.length?<span style={{color:'var(--cy)'}}>Showing {filtered.length} of {list.length}</span>:null}</div>
     <div className="dlist">{filtered.map(d=><div key={d.name} className={"dcard "+(d.isYou?"you":"")}><div style={{flex:1,minWidth:0}}><div className="dcard-n" title={d.name}>{d.name}</div><div className="dcard-c">{d.city}</div></div><div className="dcard-actions"><div className="dcard-v">{d.count.toLocaleString()}</div><button className="btn-detail" onClick={()=>setDetailDisp(d)}>Detailed View</button><span onClick={()=>{d.rawNames.forEach(n=>toggleFav(n))}} style={{cursor:'pointer',fontSize:18,color:d.isYou?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={d.isYou?'Remove from mine':'Mark as mine'}>{d.isYou?'★':'☆'}</span></div></div>)}</div>
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
+  </div>;
+}
+
+/* ═══════════════════════════════════════
+   HOW TO USE TAB
+   ═══════════════════════════════════════ */
+function HelpTab(){
+  var sections=[
+    {title:"Getting Started",icon:"🏠",text:"Start by clicking the ★ star next to your dispensary in any tab's dispensary panel. This marks it as yours and highlights it across the entire dashboard. Your starred dispensaries appear in orange on the map and get priority in all comparisons."},
+    {title:"Compare Prices",icon:"💰",text:"Side-by-side price comparison across dispensaries. Use the map to find nearby competitors, then select them in the panel on the right. The table shows every product with prices at each selected dispensary. Your prices appear in orange. Green means you're cheaper, red means they're cheaper. Use the category tabs to filter by product type and the search bar to find specific items. Toggle 'Comparable only' to show just products carried by 2+ selected stores."},
+    {title:"Highs / Lows",icon:"📊",text:"See the highest and lowest prices for specific product sizes across all dispensaries (or just selected ones). Broken down by category: Flower (3.5g, 7g, 14g, 28g), Vapes (0.3g, 0.5g, 1g), Pre-Rolls (single, 3pk, 5pk, 7pk, 10pk+), Edibles (10pk, 20pk), Concentrates, and Tinctures. Each card shows the cheapest and most expensive listing with the full product name and dispensary. Deal prices shown in parentheses when available. Use the Export button to download everything to Excel."},
+    {title:"Pricing Alerts",icon:"🔔",text:"Track price changes across dispensaries. The split view shows price drops (red, left side) and price increases (green, right side) with the old price, arrow, and new price plus percentage change. Select specific dispensaries in the panel above to filter. Use category tabs (Flower, Vaporizers, etc.) to narrow down. Export to Excel for records."},
+    {title:"Product Gaps",icon:"🔍",text:"Find products that competitors carry but you don't. Star ★ your dispensaries first — those are your 'home base.' Then select competitors in the panel. The gap list shows every product sold by selected competitors that doesn't appear on any of your starred menus. Grouped by chain with expandable location details. Great for identifying what to add to your menu."},
+    {title:"Deals",icon:"🏷️",text:"Browse all active promotions grouped by dispensary. Shows the original price, sale price, and percentage off. Use the search bar to find specific products or brands on sale. Click any dispensary to expand and see all their current deals."},
+    {title:"SKUs",icon:"📦",text:"Quick overview of how many unique products each dispensary carries. Search to find a specific store. Click 'Detailed View' (orange button) to see a breakdown by category with average prices. Click ★ to mark dispensaries as yours."},
+    {title:"Map & Dispensary Panel",icon:"🗺️",text:"The map and dispensary panel appear on Compare Prices, Highs/Lows, Pricing Alerts, and Product Gaps tabs. Click the map to set a center point and use the radius slider to filter dispensaries by distance. In the panel, each dispensary shows MED and REC buttons — click to toggle medical or recreational menus independently. Your selections carry across tabs."},
+    {title:"Exporting Data",icon:"📥",text:"Every tab has an Export button that downloads the current view as an Excel spreadsheet. The export respects your current filters — if you've selected specific dispensaries or categories, only that filtered data exports."},
+  ];
+  return<div className="pnl">
+    <div className="pnl-t">How to use ATHENA</div>
+    <div className="pnl-d" style={{marginBottom:16}}>A quick guide to each section of the dashboard.</div>
+    {sections.map(function(s){return<div key={s.title} style={{marginBottom:16,padding:'14px 16px',background:'var(--bg)',borderRadius:8,border:'1px solid var(--bd)'}}>
+      <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:8}}>
+        <span style={{fontSize:20}}>{s.icon}</span>
+        <span style={{fontFamily:'var(--m)',fontSize:14,fontWeight:700,color:'var(--cy2)',textTransform:'uppercase',letterSpacing:'1px'}}>{s.title}</span>
+      </div>
+      <div style={{fontSize:13,color:'var(--tx)',lineHeight:1.6}}>{s.text}</div>
+    </div>})}
+    <div style={{textAlign:'center',padding:'16px 0',fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>ATHENA scrapes data 3× daily. All prices reflect the most recent scrape.</div>
   </div>;
 }
 
