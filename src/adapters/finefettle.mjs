@@ -1,15 +1,15 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
-var CATEGORIES = ['flower', 'pre-rolls', 'vape-pens', 'concentrates', 'edibles', 'drinks', 'wellness'];
+var CATEGORIES = ['flower', 'pre-roll', 'vape', 'extract', 'edible', 'tincture', 'topical'];
 
 var CAT_MAP = {
   'flower': 'flower',
-  'pre-rolls': 'pre-rolls',
-  'vape-pens': 'vaporizers',
-  'concentrates': 'concentrate',
-  'edibles': 'edible',
-  'drinks': 'edible',
-  'wellness': 'tincture',
+  'pre-roll': 'pre-rolls',
+  'vape': 'vaporizers',
+  'extract': 'concentrate',
+  'edible': 'edible',
+  'tincture': 'tincture',
+  'topical': 'topical',
 };
 
 function parseProductsFromText(text, category) {
@@ -21,15 +21,31 @@ function parseProductsFromText(text, category) {
     var block = blocks[i].trim();
     if (block.length < 20) continue;
 
-    var nameMatch = block.match(/([A-Za-z][A-Za-z\s.:'!&]+?)\s*-\s*([^\n$]+?)\s*(C\d{7,})/);
-    if (!nameMatch) continue;
-
-    var brand = nameMatch[1].trim();
-    var rawName = nameMatch[2].trim();
-    var skuCode = nameMatch[3];
-
+    // Match SKU code (C followed by 7+ digits)
+    var skuMatch = block.match(/(C\d{7,})/);
+    if (!skuMatch) continue;
+    var skuCode = skuMatch[1];
     if (seen[skuCode]) continue;
     seen[skuCode] = true;
+
+    // Extract product name line — everything before the SKU on the same logical line
+    // Format can be: "Brand - Product Name SKU" or "Brand Product Name SKU"
+    var nameLineMatch = block.match(/([A-Za-z][^\n]*?)\s+(C\d{7,})/);
+    if (!nameLineMatch) continue;
+    var nameLine = nameLineMatch[1].trim();
+
+    var brand = '';
+    var rawName = '';
+    if (nameLine.includes(' - ')) {
+      var parts = nameLine.split(' - ');
+      brand = parts[0].trim();
+      rawName = parts.slice(1).join(' - ').trim();
+    } else {
+      // No dash — first word is brand, rest is name
+      var words = nameLine.split(/\s+/);
+      brand = words[0];
+      rawName = words.slice(1).join(' ');
+    }
 
     var strainMatch = block.match(/\b(Sativa|Indica|Hybrid)\b/i);
     var strain = strainMatch ? strainMatch[1].toLowerCase() : null;
@@ -40,8 +56,8 @@ function parseProductsFromText(text, category) {
     var cbdMatch = block.match(/CBD\s*(\d+\.?\d*)%?/);
     var cbd = cbdMatch ? parseFloat(cbdMatch[1]) : null;
 
-    var priceWeightPairs = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/gi) || [];
-
+    // Try price/weight format first: $XX/weight
+    var priceWeightPairs = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz|pk))/gi) || [];
     var salePrice = null;
     var originalPrice = null;
     var weight = null;
@@ -61,7 +77,25 @@ function parseProductsFromText(text, category) {
       if (m) { salePrice = parseFloat(m[1]); weight = m[2].trim(); }
     }
 
-    if (!salePrice) continue;
+    // Fallback: bare price format $XX (no weight)
+    if (!salePrice) {
+      var barePrices = block.match(/\$(\d+\.?\d*)/g) || [];
+      if (barePrices.length >= 2) {
+        var bp1 = parseFloat(barePrices[0].replace('$', ''));
+        var bp2 = parseFloat(barePrices[1].replace('$', ''));
+        if (bp1 < bp2) { salePrice = bp1; originalPrice = bp2; }
+        else { salePrice = bp1; }
+      } else if (barePrices.length === 1) {
+        salePrice = parseFloat(barePrices[0].replace('$', ''));
+      }
+      // Try to extract weight from name or block
+      var wMatch = (rawName + ' ' + block).match(/(\d+\.?\d*\s*(?:g|mg|ml|oz))\b/i);
+      if (wMatch) weight = wMatch[1].trim();
+      var pkMatch = (rawName + ' ' + block).match(/(\d+)\s*pk\b/i);
+      if (!weight && pkMatch) weight = pkMatch[1] + 'pk';
+    }
+
+    if (!salePrice || salePrice < 1) continue;
 
     var discountMatch = block.match(/(\d+)%\s*OFF/i);
     var discount = discountMatch ? discountMatch[1] + '% Off' : null;
