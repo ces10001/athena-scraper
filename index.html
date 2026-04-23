@@ -966,8 +966,41 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
     {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
     <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
     {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} gaps)</div>
-      {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th style={{minWidth:60}}>NDC</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,100).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td style={{fontFamily:'var(--m)',fontSize:10,color:'var(--tx2)'}}>{p.ndc||"—"}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</>}</div></>;
+      {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);
+        // Group items by brand then category
+        var byBrand={};
+        info.items.forEach(function(p){
+          var b=p.brand||"Unknown";
+          if(!byBrand[b])byBrand[b]={};
+          var c=p.category||"Other";
+          if(!byBrand[b][c])byBrand[b][c]=[];
+          byBrand[b][c].push(p);
+        });
+        var brandEntries=Object.entries(byBrand).sort(function(a,b){
+          var aCount=Object.values(a[1]).reduce(function(s,arr){return s+arr.length},0);
+          var bCount=Object.values(b[1]).reduce(function(s,arr){return s+arr.length},0);
+          return bCount-aCount;
+        });
+        return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
+          {isO&&<div style={{padding:'4px 12px 8px 28px'}}>
+            {brandEntries.map(function(be){
+              var brand=be[0],cats=be[1];
+              var brandTotal=Object.values(cats).reduce(function(s,arr){return s+arr.length},0);
+              var catEntries=Object.entries(cats).sort(function(a,b){return a[0].localeCompare(b[0])});
+              return<div key={brand} style={{marginBottom:14}}>
+                <div style={{fontFamily:'var(--m)',fontSize:12,fontWeight:700,color:'var(--cy2)',textTransform:'uppercase',letterSpacing:'.5px',marginBottom:6,paddingBottom:4,borderBottom:'2px solid rgba(232,96,10,.2)'}}>{brand} <span style={{fontWeight:400,fontSize:10,color:'var(--tx3)'}}>({brandTotal} products)</span></div>
+                {catEntries.map(function(ce){
+                  var cat=ce[0],items=ce[1];
+                  return<div key={cat} style={{marginBottom:8}}>
+                    <div style={{fontFamily:'var(--m)',fontSize:10,fontWeight:600,color:'var(--tx2)',textTransform:'uppercase',letterSpacing:'.5px',marginBottom:4,paddingLeft:4}}>{cat} ({items.length})</div>
+                    <table style={{fontSize:12,marginBottom:4}}><tbody>{items.map(function(p,i){
+                      return<tr key={i}><td className="pn">{p.name}</td><td style={{fontFamily:'var(--m)',fontSize:10,color:'var(--tx2)',minWidth:55}}>{p.ndc||"—"}</td><td className="pr">${p.price.toFixed(2)}</td></tr>
+                    })}</tbody></table>
+                  </div>
+                })}
+              </div>
+            })}
+          </div>}</div>})}</div>)}</>}</div></>;
 }
 
 /* ═══════════════════════════════════════
