@@ -225,14 +225,13 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(TerminalBoot,null);
-  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["stock","Stock Alerts"],["deals","Deals"],["disps","SKUs"]];
+  var tabs=[["intel","Intel"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius,favsVer:favsVer,toggleFav:toggleFav}),
-    tab==="alerts"&&React.createElement(AlertsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
-    tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
-    tab==="stock"&&React.createElement(StockTab,{data:data,favsVer:favsVer}),
+    tab==="alerts"&&React.createElement(AlertsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
+    tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
     React.createElement(Ftr,{d:data})
@@ -448,7 +447,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
   var[selectedProduct,setSelectedProduct]=useState(null);
   useEffect(()=>{if(searchResults.length===1)setSelectedProduct(searchResults[0]);else if(q.trim()&&searchResults.length>0)setSelectedProduct(searchResults[0]);else setSelectedProduct(null)},[searchResults]);
 
-  return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Comparable",data.stats?.comparable||0,"","Products at 2+ dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
+  return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Total SKUs",(data.products||[]).length,"","Unique products across all dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
     <div className="glow"/>
     <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
     <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Find any product across all dispensaries.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
@@ -502,36 +501,18 @@ function Tbl({data,q,sel,cat,comp,setComp}){
    PRICING ALERTS TAB — Split View
    Left (red): Price drops   Right (green): Price increases
    ═══════════════════════════════════════ */
-function AlertsTab({data,favsVer,toggleFav}){
+function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
   var[alertCat,setAlertCat]=useState("All");
-  var[alertDisp,setAlertDisp]=useState("");
+  var[radius,setRadius]=useState(10);
   var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
   
-  // All dispensary names from deals
-  var alertDispNames=useMemo(function(){var s=new Set();deals.forEach(function(d){s.add(d.dispensary)});return[...s].sort()},[deals]);
-  
-  // Categories from deals
   var alertCats=useMemo(function(){var s=new Set();deals.forEach(function(d){s.add(d.category||"Other")});return["All",...[...s].sort()]},[deals]);
   
-  // Map state
-  var aMapRef=useRef(null);var aMapInst=useRef(null);var aMkrsRef=useRef([]);var aCircRef=useRef(null);
-  var[aCenter,setACenter]=useState(null);var[aRadius,setARadius]=useState(15);var[aLabel,setALabel]=useState("Click map to filter by area");var[aInArea,setAInArea]=useState(null);
-  
-  useEffect(function(){if(!aMapRef.current||aMapInst.current)return;var m=L.map(aMapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',function(e){setACenter([e.latlng.lat,e.latlng.lng]);setALabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});aMapInst.current=m},[]);
-  useEffect(function(){var m=aMapInst.current;if(!m||!aCenter)return;if(aCircRef.current)m.removeLayer(aCircRef.current);var rM=aRadius*1609.34;aCircRef.current=L.circle(aCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
-    var inside=new Set();var cll=L.latLng(aCenter[0],aCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setAInArea(inside.size>0?inside:null)},[aRadius,aCenter]);
-  useEffect(function(){var m=aMapInst.current;if(!m||!data)return;aMkrsRef.current.forEach(function(mk){m.removeLayer(mk)});aMkrsRef.current=[];var dsp=data.dispensaries||{};
-    Object.entries(dsp).forEach(function(entry){var name=entry[0],info=entry[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isA=isAff(name);var sz=isA?12:6;var col=isA?"#e8600a":"#2563eb";
-      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isA?12:4)+'px '+col+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
-      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',function(){setACenter([lat,lon]);setALabel(cleanD(name))});aMkrsRef.current.push(mk)})},[data]);
-  
-  // Filter by dispensary dropdown + map area
+  // Filter deals by selected dispensaries
   var filteredDeals=useMemo(function(){
-    var d=deals;
-    if(alertDisp)d=d.filter(function(x){return x.dispensary===alertDisp});
-    if(aInArea)d=d.filter(function(x){return aInArea.has(x.dispensary)});
-    return d;
-  },[deals,alertDisp,aInArea]);
+    if(sel.size===0)return deals;
+    return deals.filter(function(x){return sel.has(x.dispensary)});
+  },[deals,sel]);
   
   var drops=useMemo(function(){
     var filtered=alertCat==="All"?filteredDeals:filteredDeals.filter(function(d){return d.category===alertCat});
@@ -545,8 +526,7 @@ function AlertsTab({data,favsVer,toggleFav}){
       if(alertCat!=="All"&&p.category!==alertCat)return;
       Object.entries(p.dispensaries||{}).forEach(function(e){
         var disp=e[0],price=e[1];
-        if(alertDisp&&disp!==alertDisp)return;
-        if(aInArea&&!aInArea.has(disp))return;
+        if(sel.size>0&&!sel.has(disp))return;
         var promo=p.promos&&p.promos[disp];
         if(promo&&promo>price){
           items.push({product:p.name,brand:p.brand,dispensary:disp,category:p.category,original:price,current:promo,pct:Math.round((promo-price)/price*100)});
@@ -554,7 +534,7 @@ function AlertsTab({data,favsVer,toggleFav}){
       });
     });
     return items.sort(function(a,b){return b.pct-a.pct})
-  },[data,alertCat,alertDisp,aInArea]);
+  },[data,alertCat,sel]);
   
   var totalDrops=drops.length;
   var totalIncreases=increases.length;
@@ -568,101 +548,32 @@ function AlertsTab({data,favsVer,toggleFav}){
     XLSX.writeFile(wb,"athena_price_movements.xlsx")
   };
   
-  return React.createElement(React.Fragment,null,
-    // Map panel
-    React.createElement("div",{className:"pnl",style:{marginBottom:12}},
-      React.createElement("div",{className:"pnl-t"},"Filter by area"),
-      React.createElement("div",{className:"pnl-d"},"Click the map to filter price movements by location."),
-      React.createElement("div",{className:"map-w",ref:aMapRef}),
-      React.createElement("div",{className:"radius-ctrl"},
-        React.createElement("label",null,aCenter?"Radius from "+aLabel+":":aLabel),
-        React.createElement("input",{type:"range",min:1,max:60,value:aRadius,onChange:function(e){setARadius(+e.target.value)}}),
-        React.createElement("div",{className:"rv"},aRadius+" mi"),
-        aCenter?React.createElement("button",{className:"btn",style:{fontSize:8,padding:'3px 8px'},onClick:function(){setACenter(null);setAInArea(null);if(aCircRef.current&&aMapInst.current){aMapInst.current.removeLayer(aCircRef.current);aCircRef.current=null}setALabel("Click map to filter by area")}},"Clear"):null
-      )
-    ),
-    React.createElement("div",{className:"pnl"},
-      React.createElement("div",{className:"row",style:{justifyContent:'space-between',marginBottom:10}},
-        React.createElement("span",{className:"pnl-t",style:{margin:0}},"Price Movements"),
-        React.createElement("button",{className:"btn pri",onClick:doExport},"Export Report")
-      ),
-      React.createElement("div",{className:"pnl-d"},"Track price changes across all dispensaries. Filter by dispensary, area, or category."),
-      // Dispensary dropdown
-      React.createElement("select",{style:{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none',marginBottom:12},value:alertDisp,onChange:function(e){setAlertDisp(e.target.value)}},
-        React.createElement("option",{value:""},"All dispensaries ("+alertDispNames.length+")"),
-        alertDispNames.map(function(d){return React.createElement("option",{key:d,value:d},cleanD(d))})
-      ),
-      React.createElement("div",{className:"stats",style:{marginBottom:12}},
-        React.createElement("div",{className:"st"},
-          React.createElement("div",{className:"st-l"},"Price Drops"),
-          React.createElement("div",{className:"st-v rd"},totalDrops.toLocaleString())
-        ),
-        React.createElement("div",{className:"st"},
-          React.createElement("div",{className:"st-l"},"Price Increases"),
-          React.createElement("div",{className:"st-v gn"},totalIncreases.toLocaleString())
-        ),
-        React.createElement("div",{className:"st"},
-          React.createElement("div",{className:"st-l"},"Net Movement"),
-          React.createElement("div",{className:"st-v "+(totalDrops>totalIncreases?"rd":"gn")},totalDrops>totalIncreases?"↓ More drops":"↑ More increases")
-        )
-      ),
-      // Category filter
-      React.createElement("div",{className:"alert-cats"},alertCats.map(function(c){
-        return React.createElement("div",{key:c,className:"alert-cat "+(alertCat===c?"on":""),onClick:function(){setAlertCat(c)}},c)
-      })),
-      // Split view
-      React.createElement("div",{className:"alert-split"},
-        // LEFT — Price Drops (red)
-        React.createElement("div",{className:"alert-col drops"},
-          React.createElement("div",{className:"alert-col-hdr"},
-            React.createElement("span",{className:"alert-col-title"},"▼ Price Drops"),
-            React.createElement("span",{className:"alert-col-count"},totalDrops.toLocaleString())
-          ),
-          drops.length===0?React.createElement("div",{className:"alert-empty"},"No price drops",alertCat!=="All"?" in "+alertCat:""):
-          drops.slice(0,200).map(function(d,i){
-            return React.createElement("div",{key:i,className:"alert-item"},
-              React.createElement("div",{className:"alert-item-top"},
-                React.createElement("span",{className:"alert-item-name"},d.product),
-                React.createElement("span",{className:"alert-item-pct"},"-"+d.pct_off+"%")
-              ),
-              React.createElement("div",{className:"alert-item-bottom"},
-                React.createElement("span",{className:"alert-item-disp"},cleanD(d.dispensary)),
-                React.createElement("div",{className:"alert-price-flow"},
-                  React.createElement("span",{className:"alert-price-old"},"$"+d.original.toFixed(2)),
-                  React.createElement("span",{className:"alert-price-arrow"},"→"),
-                  React.createElement("span",{className:"alert-price-new"},"$"+d.discounted.toFixed(2))
-                )
-              )
-            )
-          })
-        ),
-        // RIGHT — Price Increases (green)
-        React.createElement("div",{className:"alert-col increases"},
-          React.createElement("div",{className:"alert-col-hdr"},
-            React.createElement("span",{className:"alert-col-title"},"▲ Price Increases"),
-            React.createElement("span",{className:"alert-col-count"},totalIncreases.toLocaleString())
-          ),
-          increases.length===0?React.createElement("div",{className:"alert-empty"},React.createElement("div",{style:{marginBottom:8}},"Price increase tracking activates after multiple scrape runs."),React.createElement("div",{style:{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)',letterSpacing:'.5px'}},"ATHENA compares each scrape to detect upward price movements across all dispensaries.")):
-          increases.slice(0,200).map(function(d,i){
-            return React.createElement("div",{key:i,className:"alert-item"},
-              React.createElement("div",{className:"alert-item-top"},
-                React.createElement("span",{className:"alert-item-name"},d.product),
-                React.createElement("span",{className:"alert-item-pct"},"+"+d.pct+"%")
-              ),
-              React.createElement("div",{className:"alert-item-bottom"},
-                React.createElement("span",{className:"alert-item-disp"},cleanD(d.dispensary)),
-                React.createElement("div",{className:"alert-price-flow"},
-                  React.createElement("span",{className:"alert-price-old"},"$"+d.original.toFixed(2)),
-                  React.createElement("span",{className:"alert-price-arrow"},"→"),
-                  React.createElement("span",{className:"alert-price-new"},"$"+d.current.toFixed(2))
-                )
-              )
-            )
-          })
-        )
-      )
-    )
-  );
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+    <div className="pnl" style={{marginTop:12}}>
+      <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
+        <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
+        <button className="btn pri" onClick={doExport}>Export Report</button>
+      </div>
+      <div className="pnl-d">Track price changes across {sel.size>0?"selected":"all"} dispensaries. Price drops on the left, increases on the right.</div>
+      <div className="stats" style={{marginBottom:12}}>
+        <div className="st"><div className="st-l">Price Drops</div><div className="st-v rd">{totalDrops.toLocaleString()}</div></div>
+        <div className="st"><div className="st-l">Price Increases</div><div className="st-v gn">{totalIncreases.toLocaleString()}</div></div>
+        <div className="st"><div className="st-l">Net Movement</div><div className={"st-v "+(totalDrops>totalIncreases?"rd":"gn")}>{totalDrops>totalIncreases?"↓ More drops":"↑ More increases"}</div></div>
+      </div>
+      <div className="alert-cats">{alertCats.map(function(c){return<div key={c} className={"alert-cat "+(alertCat===c?"on":"")} onClick={function(){setAlertCat(c)}}>{c}</div>})}</div>
+      <div className="alert-split">
+        <div className="alert-col drops">
+          <div className="alert-col-hdr"><span className="alert-col-title">▼ Price Drops</span><span className="alert-col-count">{totalDrops.toLocaleString()}</span></div>
+          {drops.length===0?<div className="alert-empty">No price drops{alertCat!=="All"?" in "+alertCat:""}{sel.size===0?". Select dispensaries above to filter.":""}</div>:
+          drops.slice(0,200).map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"-"+d.pct_off+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.discounted.toFixed(2)}</span></div></div></div>})}
+        </div>
+        <div className="alert-col increases">
+          <div className="alert-col-hdr"><span className="alert-col-title">▲ Price Increases</span><span className="alert-col-count">{totalIncreases.toLocaleString()}</span></div>
+          {increases.length===0?<div className="alert-empty"><div style={{marginBottom:8}}>Price increase tracking activates after multiple scrape runs.</div><div style={{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)',letterSpacing:'.5px'}}>ATHENA compares each scrape to detect upward price movements.</div></div>:
+          increases.slice(0,200).map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"+"+d.pct+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.current.toFixed(2)}</span></div></div></div>})}
+        </div>
+      </div>
+    </div></>;
 }
 
 /* ═══════════════════════════════════════
@@ -670,68 +581,31 @@ function AlertsTab({data,favsVer,toggleFav}){
    ═══════════════════════════════════════ */
 function normName(n){var s=(n||"").toLowerCase();s=s.replace(/\([^)]*\)/g,"");s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz)\b/gi,"");s=s.replace(/\b\d+\s*pk\b/gi,"");s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");s=s.replace(/\d+\.?\d*\s*%/g,"");s=s.replace(/\b\d+\.?\d*\b/g,"");s=s.replace(/\b(whole|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use)\b/gi,"");s=s.replace(/\b[a-z]\b/g,"");s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl)\b/gi,"");s=s.replace(/[-_|/]+/g," ");s=s.replace(/\s+/g," ").trim();var words=s.split(" ").filter(function(w){return w.length>1});words.sort();return words.join(" ")}
 
-function GapsTab({data,favsVer,toggleFav}){
-  const prods=data.products||[];const allDisps=getDisps(prods);
-  // Home base selector — defaults to starred dispensaries, or empty
-  const starredDisps=allDisps.filter(isAff);
-  const[homeBase,setHomeBase]=useState(starredDisps.length>0?starredDisps[0]:"");
-  const homeDisps=useMemo(()=>{if(!homeBase)return[];var base=getBase(homeBase);return allDisps.filter(d=>getBase(d)===base)},[homeBase,allDisps]);
-  const[gapChain,setGapChain]=useState("");
-  const mapRef=useRef(null);const mapInst=useRef(null);const mkrsRef=useRef([]);const circRef=useRef(null);
-  const[gCenter,setGCenter]=useState(null);const[gRadius,setGRadius]=useState(15);const[gLabel,setGLabel]=useState("Click map to filter by area");const[inArea,setInArea]=useState(null);
+function GapsTab({data,favsVer,toggleFav,sel,setSel}){
+  const prods=data.products||[];const allDisps=getDisps(prods);const affC=allDisps.filter(isAff);
+  const[gapChain,setGapChain]=useState("");const[openLocs,setOpenLocs]=useState(new Set());
+  const[radius,setRadius]=useState(10);
 
-  useEffect(()=>{if(!mapRef.current||mapInst.current)return;const m=L.map(mapRef.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setGCenter([e.latlng.lat,e.latlng.lng]);setGLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mapInst.current=m},[]);
-  useEffect(()=>{const m=mapInst.current;if(!m||!gCenter)return;if(circRef.current)m.removeLayer(circRef.current);var rM=gRadius*1609.34;circRef.current=L.circle(gCenter,{radius:rM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
-    var inside=new Set();var cll=L.latLng(gCenter[0],gCenter[1]);var dsp=data.dispensaries||{};Object.entries(dsp).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=rM)inside.add(dn)});setInArea(inside.size>0?inside:null)},[gRadius,gCenter]);
-  useEffect(()=>{var m=mapInst.current;if(!m||!data)return;mkrsRef.current.forEach(mk=>m.removeLayer(mk));mkrsRef.current=[];var dsp=data.dispensaries||{};
-    Object.entries(dsp).forEach(([name,info])=>{var c=COORDS[info.city];if(!c)return;var h=hashStr(name);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;var isHome=homeDisps.includes(name);var sz=isHome?12:6;var col=isHome?"#e8600a":"#2563eb";
-      var icon=L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isHome?12:4)+'px '+col+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
-      var mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setGCenter([lat,lon]);setGLabel(cleanD(name))});mkrsRef.current.push(mk)})},[data,homeDisps]);
-
-  const gaps=useMemo(()=>{if(homeDisps.length===0)return[];const homeProducts=new Set();prods.forEach(p=>{homeDisps.forEach(a=>{if(p.dispensaries&&p.dispensaries[a])homeProducts.add(normName(p.name))})});const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(homeProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(homeDisps.includes(d))return;if(inArea&&!inArea.has(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,homeDisps,inArea]);
-  const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);const[openLocs,setOpenLocs]=useState(new Set());
+  const gaps=useMemo(()=>{if(affC.length===0&&sel.size===0)return[];
+    // "Home" = starred dispensaries. "Competitors" = selected non-starred dispensaries
+    var homeD=affC.length>0?affC:[...sel].slice(0,2);
+    var compD=[...sel].filter(d=>!homeD.includes(d));
+    if(compD.length===0)compD=allDisps.filter(d=>!homeD.includes(d));
+    const homeProducts=new Set();prods.forEach(p=>{homeD.forEach(a=>{if(p.dispensaries&&p.dispensaries[a])homeProducts.add(normName(p.name))})});
+    const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(homeProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(homeD.includes(d))return;if(sel.size>0&&!sel.has(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});
+    const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});
+    return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,affC,sel]);
+  const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
   const doExport=()=>{const rows=[["Chain","Dispensary","Product","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
 
-  // Build unique base names for the dropdown
-  const baseNames=useMemo(()=>{const bases=new Map();allDisps.forEach(d=>{const b=getBase(d);if(!bases.has(b))bases.set(b,d)});return[...bases.entries()].sort((a,b)=>a[0].localeCompare(b[0]))},[allDisps]);
-
-  return<div className="pnl">
-    <div className="pnl-t">Select your home dispensary</div>
-    <div className="pnl-d" style={{marginBottom:8}}>Choose your dispensary to compare product gaps against competitors.</div>
-    <select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none',marginBottom:14}} value={homeBase} onChange={e=>setHomeBase(e.target.value)}>
-      <option value="">— Select your dispensary —</option>
-      {baseNames.map(([base,firstDisp])=><option key={base} value={firstDisp}>{base}</option>)}
-    </select>
-    {!homeBase?<div className="empty"><h3>Pick your home dispensary above</h3><p style={{fontSize:12}}>Product gaps will show products sold by competitors that you don't carry.</p></div>:
-    <><div className="pnl-t" style={{marginTop:6}}>Filter by area</div><div className="pnl-d">Click map to filter product gaps by nearby competitors.</div>
-    <div className="map-w" ref={mapRef}></div>
-    <div className="radius-ctrl"><label>{gCenter?"Radius from "+gLabel+":":gLabel}</label><input type="range" min="1" max="60" value={gRadius} onChange={e=>setGRadius(+e.target.value)}/><div className="rv">{gRadius} mi</div>
-      {gCenter&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setGCenter(null);setInArea(null);if(circRef.current&&mapInst.current){mapInst.current.removeLayer(circRef.current);circRef.current=null}setGLabel("Click map to filter by area")}}>Clear</button>}</div>
-    <div style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products you don't carry)</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
-    <div className="pnl-d">Products sold by competitors that are not on {cleanD(homeBase)}'s menu.</div>
-    <div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+    <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
+    <div className="pnl-d">{affC.length>0?"Products sold by selected competitors that are not on any of your starred menus. Star ★ your dispensaries first, then select competitors to compare.":"Select dispensaries above to find product gaps between them."}</div>
+    {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ on your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
+    <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
     {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} gaps)</div>
       {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</div></>}</div>;
-}
-
-/* ═══════════════════════════════════════
-   STOCK ALERTS TAB
-   ═══════════════════════════════════════ */
-function StockTab({data,favsVer}){
-  const alerts=data.stock_alerts||[];const[filter,setFilter]=useState("all");
-  const filtered=useMemo(()=>filter==="all"?alerts:alerts.filter(a=>a.alert===filter),[alerts,filter]);
-  const yourA=filtered.filter(a=>isAff(a.dispensary)).length;const compA=filtered.length-yourA;
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}><span className="pnl-t" style={{margin:0}}>Stock alerts ({filtered.length})</span>
-    <div className="row"><button className={"btn "+(filter==="all"?"pri":"")} onClick={()=>setFilter("all")}>All</button><button className={"btn "+(filter==="critical"?"pri":"")} onClick={()=>setFilter("critical")}>Critical</button><button className={"btn "+(filter==="warning"?"pri":"")} onClick={()=>setFilter("warning")}>Warning</button></div></div>
-    <div className="pnl-d">Products running low or predicted to sell out soon. Competitor stockouts = your opportunity.</div>
-    <div className="stats" style={{marginBottom:12}}><div className="st"><div className="st-l">Your alerts</div><div className="st-v rd">{yourA}</div></div><div className="st"><div className="st-l">Competitor alerts</div><div className="st-v am">{compA}</div></div><div className="st"><div className="st-l">Competitor stockouts</div><div className="st-v gn">{alerts.filter(a=>!isAff(a.dispensary)&&a.alert==="critical").length}</div></div></div>
-    {!filtered.length?<div className="empty"><h3>No stock alerts</h3><p style={{fontSize:12}}>Stock data becomes available after multiple scrape runs to detect inventory changes.</p></div>:
-    <div className="tw"><div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Dispensary</th><th>Stock</th><th>Days to OOS</th><th>Alert</th></tr></thead>
-      <tbody>{filtered.slice(0,300).map((a,i)=><tr key={i}><td className="pn">{a.name}</td><td className="dm">{a.brand}</td><td className="dm" style={{color:isAff(a.dispensary)?'var(--cy)':'var(--tx2)'}}>{cleanD(a.dispensary)}</td>
-        <td className="pr" style={{color:a.stock_qty!==null&&a.stock_qty<=5?'var(--rd)':a.stock_qty!==null&&a.stock_qty<=15?'var(--am)':'var(--tx2)'}}>{a.stock_qty!==null?a.stock_qty:""}</td>
-        <td className="pr" style={{color:a.days_until_out!==null&&a.days_until_out<=3?'var(--rd)':'var(--tx2)'}}>{a.days_until_out!==null?a.days_until_out+" days":""}</td>
-        <td><span className={"badge "+(a.alert==="critical"?"rd":"am")}>{a.alert}</span></td></tr>)}</tbody></table></div></div>}</div>;
+          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</>}</div></>;
 }
 
 /* ═══════════════════════════════════════
