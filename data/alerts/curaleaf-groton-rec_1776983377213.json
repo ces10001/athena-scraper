@@ -1,0 +1,266 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Skunk $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CIG",
+    "brand": "Springtime",
+    "message": "New: Springtime - CIG $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $123.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave $58.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Mandarin",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Mandarin $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indica Milk Chocolate",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Indica Milk Chocolate $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "all:hours Mule Fuel: $27.00 > $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cookies & Cream White Chocolate",
+    "brand": "SoundView",
+    "message": "New: SoundView - Cookies & Cream White Chocolate $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti",
+    "brand": "Select",
+    "message": "New: Select - GASolotti $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $29.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy $57.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $26.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Gone: Select - Dosido"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Inkowgnito Mode",
+    "brand": "Brix",
+    "message": "Gone: Brix - Inkowgnito Mode"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Gone: Select - Joocy Froot"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Acapulco Gold",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Acapulco Gold"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange",
+    "brand": "Zero Proof",
+    "message": "Gone: Zero Proof - Dash of Orange"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zesty Garlic Cookies",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Zesty Garlic Cookies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pink Certz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonbeam Latto",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Moonbeam Latto"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Gone: Find. - PB Bites"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Titan Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pineapple Sunrise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pumpkin Spice",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Pumpkin Spice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citradelic Haze",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Citradelic Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coasting Cherry Punch",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Coasting Cherry Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Colorado Flo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Apple Tartz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Brains"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "Gone: Select - Forbidden Fruit"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Gone: Select - Durban Poison"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry Marker"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Specimen X",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Specimen X"
+  }
+]

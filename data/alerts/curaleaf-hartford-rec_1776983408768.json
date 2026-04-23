@@ -1,0 +1,158 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Strawberry Lemonade $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice $50.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sweet Strawberry $21.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Animal Face $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey $51.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Green Queen $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Lime",
+    "brand": "SoundView",
+    "message": "New: SoundView - Lemon Lime $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FumeZ x Grease Monkey",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - FumeZ x Grease Monkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Pomegranate",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Raspberry Pomegranate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afgooey",
+    "brand": "Brix",
+    "message": "Gone: Brix - Afgooey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Peanut Butter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Currant",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Currant"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Greener Apple",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Greener Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Urkle",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Purple Urkle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry",
+    "brand": "Fizz",
+    "message": "Gone: Fizz - Black Cherry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple x Bubba F",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Black Maple x Bubba F"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Yellow Haze OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - High Noon Crystal"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Diesel",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sour Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slapz",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Slapz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - High Noon Crystal"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding"
+  }
+]

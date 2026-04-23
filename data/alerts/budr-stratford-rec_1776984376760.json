@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - Michigan Cherry 0098Earl BakerFlower(3.5G)",
+    "brand": "HybridEarl Baker - Whole Flower - Michigan Cherry 0098Earl Baker",
+    "message": "New: HybridEarl Baker - Whole Flower - Michigan Cherry 0098Earl Baker - Earl Baker - Whole Flower - Michigan Cherry 0098Earl BakerFlower(3.5G) $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Do Not Trip (H) 01443RYTHMCartridge(.5G)",
+    "brand": "HybridRythm 0.5g Vape Do Not Trip (H) 01443RYTHM",
+    "message": "New: HybridRythm 0.5g Vape Do Not Trip (H) 01443RYTHM - Rythm 0.5g Vape Do Not Trip (H) 01443RYTHMCartridge(.5G) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate Disposable(EA",
+    "brand": "SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate",
+    "message": "New: SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate - AGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate Disposable(EA $16.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush 1g Pure Vape T850 S 26881CTPharmaCartridge(1G)",
+    "brand": "SativaSeattle Sour Kush 1g Pure Vape T850 S 26881CTPharma",
+    "message": "Gone: SativaSeattle Sour Kush 1g Pure Vape T850 S 26881CTPharma - Seattle Sour Kush 1g Pure Vape T850 S 26881CTPharmaCartridge(1G)"
+  }
+]

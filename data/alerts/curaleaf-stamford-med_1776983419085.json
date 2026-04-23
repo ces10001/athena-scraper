@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - White Caps $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Heatwave $55.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Nuclear Mfns $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "New: Select - GMO $16.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pomme Jelly $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Gush Mintz $67.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Black Cherry $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "New: Savvy - Applescotti $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - GMO $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot $87.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Floral Frost"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinapple Sunrise",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pinapple Sunrise"
+  }
+]

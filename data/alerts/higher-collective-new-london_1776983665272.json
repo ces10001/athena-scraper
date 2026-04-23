@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Tear Gas",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Tear Gas"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Cookies - Quiet Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chem Cookies - Quiet Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gas Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sugar Free Pomegranate",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Sugar Free Pomegranate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Lobster BHO",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Blue Lobster BHO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Guava Live Resin",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Pink Guava Live Resin"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Miss Grass Chemdawg - All Times 2g-5pk Mini Pre-Rolls (H) - 41782",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Miss Grass Chemdawg - All Times 2g-5pk Mini Pre-Rolls (H) - 41782 $33.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Loud Cannabis Golden Tangie (S) 1g Vape Cartridge - 00038",
+    "brand": "Loud",
+    "message": "Gone: Loud - Loud Cannabis Golden Tangie (S) 1g Vape Cartridge - 00038"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Awssom Pre-Ground 7g Hi-Fi 4G #9 (S) - 00070",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Awssom Pre-Ground 7g Hi-Fi 4G #9 (S) - 00070"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple MT 41746",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple MT 41746"
+  }
+]
