@@ -537,7 +537,7 @@ function DispPanel({data,sel,setSel,toggleFav}){
       const totalCount=groupCounts[g.base]||0;
       
       return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
-        <div className="dsel-left" onClick={()=>{if(!hasBoth){togGroup(g)}else{togGroup(g)}}} style={{flex:1,cursor:'pointer'}}>
+        <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
           <div className="dsel-dot"/><span className="dsel-name">{g.base}</span>
         </div>
         <div className="row" style={{gap:4}}>
@@ -547,10 +547,10 @@ function DispPanel({data,sel,setSel,toggleFav}){
             <button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
               background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>
           </>:null}
-          {!hasBoth&&g.hasMed?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-            background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>:null}
-          {!hasBoth&&g.hasRec?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-            background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>:null}
+          {!hasBoth&&g.hasMed&&medD?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+            background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED ONLY</button>:null}
+          {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+            background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
           <span className="dsel-count">{totalCount.toLocaleString()}</span>
           <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
         </div>
@@ -678,15 +678,23 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             <div className="hl-row">
               <div className="hl-label">Lowest</div>
               <div className="hl-val">
-                <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}{b.dealLow?<span style={{fontSize:10,color:'var(--gn)',fontWeight:400}}>{" ($"+b.dealLow.price.toFixed(2)+" w/ deal)"}</span>:null}</div>
+                <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}</div>
                 <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.low.name}>{b.low.name}</div>
                 <div className="hl-disp">{cleanD(b.low.disp)}</div>
               </div>
             </div>
+            {b.dealLow&&b.dealLow.price<b.low.price?<div className="hl-row">
+              <div className="hl-label" style={{fontSize:9}}>Lowest w/ Deal</div>
+              <div className="hl-val">
+                <div className="hl-price lo" style={{fontSize:13}}>{"$"+b.dealLow.price.toFixed(2)}</div>
+                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.dealLow.name}>{b.dealLow.name}</div>
+                <div className="hl-disp">{cleanD(b.dealLow.disp)}</div>
+              </div>
+            </div>:null}
             <div className="hl-row">
               <div className="hl-label">Highest</div>
               <div className="hl-val">
-                <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}{b.dealHigh?<span style={{fontSize:10,color:'var(--rd)',fontWeight:400}}>{" ($"+b.dealHigh.price.toFixed(2)+" w/ deal)"}</span>:null}</div>
+                <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}</div>
                 <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.high.name}>{b.high.name}</div>
                 <div className="hl-disp">{cleanD(b.high.disp)}</div>
               </div>
