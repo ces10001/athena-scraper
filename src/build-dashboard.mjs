@@ -138,14 +138,32 @@ const DISP_INFO = {
   'zen-leaf-newington-med': { name: 'Zen Leaf - Newington (Med)', city: 'Newington' },
   // ═══ FINE FETTLE ═══
   'fine-fettle-bristol': { name: 'Fine Fettle - Bristol', city: 'Bristol' },
+  'fine-fettle-bristol-rec': { name: 'Fine Fettle - Bristol (Rec)', city: 'Bristol' },
+  'fine-fettle-bristol-med': { name: 'Fine Fettle - Bristol (Med)', city: 'Bristol' },
   'fine-fettle-manchester': { name: 'Fine Fettle - Manchester', city: 'Manchester' },
+  'fine-fettle-manchester-rec': { name: 'Fine Fettle - Manchester (Rec)', city: 'Manchester' },
+  'fine-fettle-manchester-med': { name: 'Fine Fettle - Manchester (Med)', city: 'Manchester' },
   'fine-fettle-newington': { name: 'Fine Fettle - Newington', city: 'Newington' },
+  'fine-fettle-newington-rec': { name: 'Fine Fettle - Newington (Rec)', city: 'Newington' },
+  'fine-fettle-newington-med': { name: 'Fine Fettle - Newington (Med)', city: 'Newington' },
   'fine-fettle-norwalk': { name: 'Fine Fettle - Norwalk', city: 'Norwalk' },
+  'fine-fettle-norwalk-rec': { name: 'Fine Fettle - Norwalk (Rec)', city: 'Norwalk' },
+  'fine-fettle-norwalk-med': { name: 'Fine Fettle - Norwalk (Med)', city: 'Norwalk' },
   'fine-fettle-old-saybrook': { name: 'Fine Fettle - Old Saybrook', city: 'Old Saybrook' },
+  'fine-fettle-old-saybrook-rec': { name: 'Fine Fettle - Old Saybrook (Rec)', city: 'Old Saybrook' },
+  'fine-fettle-old-saybrook-med': { name: 'Fine Fettle - Old Saybrook (Med)', city: 'Old Saybrook' },
   'fine-fettle-stamford': { name: 'Fine Fettle - Stamford', city: 'Stamford' },
+  'fine-fettle-stamford-rec': { name: 'Fine Fettle - Stamford (Rec)', city: 'Stamford' },
+  'fine-fettle-stamford-med': { name: 'Fine Fettle - Stamford (Med)', city: 'Stamford' },
   'fine-fettle-waterbury': { name: 'Fine Fettle - Waterbury', city: 'Waterbury' },
+  'fine-fettle-waterbury-rec': { name: 'Fine Fettle - Waterbury (Rec)', city: 'Waterbury' },
+  'fine-fettle-waterbury-med': { name: 'Fine Fettle - Waterbury (Med)', city: 'Waterbury' },
   'fine-fettle-west-hartford': { name: 'Fine Fettle - West Hartford', city: 'West Hartford' },
+  'fine-fettle-west-hartford-rec': { name: 'Fine Fettle - West Hartford (Rec)', city: 'West Hartford' },
+  'fine-fettle-west-hartford-med': { name: 'Fine Fettle - West Hartford (Med)', city: 'West Hartford' },
   'fine-fettle-willimantic': { name: 'Fine Fettle - Willimantic', city: 'Willimantic' },
+  'fine-fettle-willimantic-rec': { name: 'Fine Fettle - Willimantic (Rec)', city: 'Willimantic' },
+  'fine-fettle-willimantic-med': { name: 'Fine Fettle - Willimantic (Med)', city: 'Willimantic' },
   // ═══ BUDR CANNABIS (original + rec/med split) ═══
   'budr-danbury-mill-plain': { name: 'BUDR - Danbury (Mill Plain)', city: 'Danbury' },
   'budr-danbury-mill-plain-rec': { name: 'BUDR - Danbury (Mill Plain) (Rec)', city: 'Danbury' },
@@ -548,9 +566,19 @@ async function main() {
     products: products,
     dispensaries: allDisps,
     deals: deals,
+    store_promos: [],
     velocity: [],
     stock_alerts: [],
   };
+
+  // Load store-wide promotions if available
+  try {
+    var promosRaw = await readFile('./data/store_promos.json', 'utf-8');
+    output.store_promos = JSON.parse(promosRaw);
+    console.log('  Store promos: ' + output.store_promos.length);
+  } catch(e) {
+    // No promos file yet — that's fine
+  }
 
   await writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2));
   console.log('\nWritten to ' + OUTPUT_FILE);
