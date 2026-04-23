@@ -597,6 +597,8 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
             background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED ONLY</button>:null}
           {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
             background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
+          {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+            background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
           <span className="dsel-count">{totalCount.toLocaleString()}</span>
           <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
         </div>
@@ -858,11 +860,37 @@ function normName(n){
   s=s.replace(/\b(bar|chocolate|gummies|gummy|mints|chews|lozenges|seltzer|soda|beverage|drink|drops|spray|cream|balm|lotion|patch|salve)\b/gi,"");
   // Remove brand names that appear in product names
   s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl|affinity|affinity grow|brix|rythm|select|savvy|good green|dogwalkers|encore|camino|wana|zone|shaka|awwsom|awssom|find|springtime|soundview|comffy|amigos|lighthouse|rodeo|miss grass|let.s burn|nova|crisp)\b/gi,"");
-  // Remove single characters and pipe separators
-  s=s.replace(/\b[a-z]\b/g,"");
+  // Remove single characters ONLY if they are standalone strain indicators (H, S, I) not part of a name
+  // Keep single chars that appear between other words (like "P" in "Gary P")
+  s=s.replace(/\s+[hsi]\s+/gi," ").replace(/^[hsi]\s+/gi,"").replace(/\s+[hsi]$/gi,"");
   s=s.replace(/[-_|/]+/g," ");
   s=s.replace(/\s+/g," ").trim();
+  var words=s.split(" ").filter(function(w){return w.length>0});
+  words.sort();
+  return words.join(" ");
+}
+
+// coreName: extracts just the core strain/product name (first 2-3 meaningful words)
+// Used for fuzzy gap matching when normName doesn't find an exact match
+function coreName(n){
+  var s=(n||"").toLowerCase();
+  s=s.replace(/\([^)]*\)/g,"");
+  // Strip everything that's clearly not the strain name
+  s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz|pk|pack|ct)\b/gi,"");
+  s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");
+  s=s.replace(/\d+\.?\d*\s*%/g,"");
+  s=s.replace(/\b\d{4,}\b/g,"");
+  // Strip brands
+  s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl|affinity|affinity grow|brix|rythm|select|savvy|good green|dogwalkers|encore|camino|wana|zone|shaka|awwsom|awssom|find|springtime|soundview|comffy|amigos|lighthouse|rodeo|miss grass|let.s burn|nova|crisp|earl baker|coast|jams|loud|borealis)\b/gi,"");
+  // Strip product types
+  s=s.replace(/\b(whole|small|ground|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|disposable|infused|shorties|fatboy|blunt|budz|lil|bho|rso|rosin|live|resin|badder|sugar|sauce|shatter|diamonds|diamond|wax|hash|bubble|crumble|budder|oil|distillate|syringe|bar|chocolate|mints|chews|seltzer|soda|beverage|drops|spray|cream|balm|lotion)\b/gi,"");
+  // Strip strain indicators
+  s=s.replace(/\s+[hsi]\s+/gi," ").replace(/^[hsi]\s+/gi,"").replace(/\s+[hsi]$/gi,"");
+  s=s.replace(/[-_|/]+/g," ");
+  s=s.replace(/\s+/g," ").trim();
+  // Take first 3 meaningful words as core identity
   var words=s.split(" ").filter(function(w){return w.length>1});
+  if(words.length>3)words=words.slice(0,3);
   words.sort();
   return words.join(" ");
 }
@@ -873,25 +901,96 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
   const[radius,setRadius]=useState(10);
 
   const gaps=useMemo(()=>{if(affC.length===0&&sel.size===0)return[];
-    // "Home" = starred dispensaries. "Competitors" = selected non-starred dispensaries
+    
+    // Home = only your starred dispensaries
     var homeD=affC.length>0?affC:[...sel].slice(0,2);
-    var compD=[...sel].filter(d=>!homeD.includes(d));
-    if(compD.length===0)compD=allDisps.filter(d=>!homeD.includes(d));
-    const homeProducts=new Set();prods.forEach(p=>{homeD.forEach(a=>{if(p.dispensaries&&p.dispensaries[a])homeProducts.add(normName(p.name))})});
-    const byComp={};prods.forEach(p=>{const pnorm=normName(p.name);if(homeProducts.has(pnorm))return;if((p.category||"").toLowerCase()==="accessories")return;Object.keys(p.dispensaries||{}).forEach(d=>{if(homeD.includes(d))return;if(sel.size>0&&!sel.has(d))return;if(!byComp[d])byComp[d]=[];byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d]})})});
-    const byChain={};Object.entries(byComp).forEach(([dn,items])=>{const chain=getChain(dn);if(!byChain[chain])byChain[chain]={locations:{},total:0};byChain[chain].locations[dn]={count:items.length,items:items.sort((a,b)=>a.category.localeCompare(b.category))};byChain[chain].total+=items.length});
-    return Object.entries(byChain).sort((a,b)=>b[1].total-a[1].total).map(([chain,info])=>({chain,total:info.total,locations:Object.entries(info.locations).sort((a,b)=>b[1].count-a[1].count)}))},[prods,affC,sel]);
+    
+    var compD=[...sel].filter(function(d){return!homeD.includes(d)});
+    if(compD.length===0)compD=allDisps.filter(function(d){return!homeD.includes(d)});
+    
+    // Build home product index with MULTIPLE matching strategies
+    var homeExact=new Set(); // exact normName matches
+    var homeWords=new Set(); // individual significant words for fuzzy matching
+    var homeSubstrings=[]; // full normalized names for substring matching
+    
+    prods.forEach(function(p){
+      homeD.forEach(function(a){
+        if(p.dispensaries&&p.dispensaries[a]){
+          var nn=normName(p.name);
+          homeExact.add(nn);
+          homeSubstrings.push(nn);
+          // Also add a "core name" — just the strain name without all the extras
+          var core=coreName(p.name);
+          if(core.length>2)homeExact.add(core);
+        }
+      });
+    });
+    
+    // Check if a competitor product matches any home product
+    function isMatch(compName){
+      var nn=normName(compName);
+      var cn=coreName(compName);
+      
+      // Strategy 1: Exact normName match
+      if(homeExact.has(nn))return true;
+      
+      // Strategy 2: Core name match (most important words only)
+      if(cn.length>2&&homeExact.has(cn))return true;
+      
+      // Strategy 3: Substring match — if competitor's norm is fully contained in any home norm (or vice versa)
+      if(nn.length>3){
+        for(var i=0;i<homeSubstrings.length;i++){
+          var h=homeSubstrings[i];
+          if(h.length>3&&(h.includes(nn)||nn.includes(h)))return true;
+        }
+      }
+      
+      return false;
+    }
+    
+    var byComp={};
+    prods.forEach(function(p){
+      if(isMatch(p.name))return;
+      if((p.category||"").toLowerCase()==="accessories")return;
+      if((p.category||"").toLowerCase()==="gift cards")return;
+      Object.keys(p.dispensaries||{}).forEach(function(d){
+        if(homeD.includes(d))return;
+        if(sel.size>0&&!sel.has(d))return;
+        if(!byComp[d])byComp[d]=[];
+        // Extract NDC from product name
+        var ndcMatch=(p.name||"").match(/\b(\d{5})\b/)||
+                     (p.name||"").match(/\b(C\d{7,})\b/)||
+                     (p.name||"").match(/\b(\d{4,6})\b/);
+        var ndc=ndcMatch?ndcMatch[1]:"";
+        byComp[d].push({name:p.name,brand:p.brand,category:p.category,price:p.dispensaries[d],ndc:ndc});
+      });
+    });
+    
+    var byChain={};
+    Object.entries(byComp).forEach(function(e){
+      var dn=e[0],items=e[1];
+      var chain=getChain(dn);
+      if(!byChain[chain])byChain[chain]={locations:{},total:0};
+      byChain[chain].locations[dn]={count:items.length,items:items.sort(function(a,b){return a.category.localeCompare(b.category)})};
+      byChain[chain].total+=items.length;
+    });
+    
+    return Object.entries(byChain).sort(function(a,b){return b[1].total-a[1].total}).map(function(e){
+      return{chain:e[0],total:e[1].total,locations:Object.entries(e[1].locations).sort(function(a,b){return b[1].count-a[1].count})};
+    });
+  },[prods,affC,sel,favsVer]);
+  
   const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
-  const doExport=()=>{const rows=[["Chain","Dispensary","Product","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
+  const doExport=()=>{const rows=[["Chain","Dispensary","Product","NDC","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.ndc||"",p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:10},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
 
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
-    <div className="pnl-d">{affC.length>0?"Step 1: Your starred ★ dispensaries are your home base. Step 2: Select competitors in the panel above. Below shows every product they carry that you don't — grouped by chain. Click any chain to expand and see specific products, brands, and prices.":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
+    <div className="pnl-d">{affC.length>0?"Your starred ★ dispensaries are your home base. Select competitors above to see what they carry that you don't. Products are matched across different naming formats (e.g. 'Tap Out BHO' matches 'Tap Out').":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
     {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
     <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
     {shown.map(g=><div key={g.chain} style={{marginBottom:16}}><div className="dsel-grp">{g.chain} ({g.total} gaps)</div>
       {g.locations.map(([dn,info])=>{const isO=openLocs.has(dn);return<div key={dn} style={{borderBottom:'1px solid rgba(0,0,0,.06)'}}><div onClick={()=>setOpenLocs(p=>{const n=new Set(p);n.has(dn)?n.delete(dn):n.add(dn);return n})} className="dsel-item" style={{padding:'8px 12px'}}><div className="dsel-left"><span style={{color:'var(--tx3)',fontSize:10,transform:isO?'rotate(90deg)':'rotate(0)',display:'inline-block',transition:'transform .2s'}}>►</span><span className="dsel-name">{cleanD(dn)}</span></div><span className="dsel-count">{info.count} gaps</span></div>
-          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,80).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</>}</div></>;
+          {isO&&<div style={{padding:'4px 12px 8px 28px'}}><table style={{fontSize:12}}><thead><tr><th>Product</th><th style={{minWidth:60}}>NDC</th><th>Brand</th><th>Category</th><th>Price</th></tr></thead><tbody>{info.items.slice(0,100).map((p,i)=><tr key={i}><td className="pn">{p.name}</td><td style={{fontFamily:'var(--m)',fontSize:10,color:'var(--tx2)'}}>{p.ndc||"—"}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td><td className="pr">${p.price.toFixed(2)}</td></tr>)}</tbody></table></div>}</div>})}</div>)}</>}</div></>;
 }
 
 /* ═══════════════════════════════════════
