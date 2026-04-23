@@ -1,0 +1,518 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis 1g Cart Golden Tangie (S) 00038",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis 1g Cart Golden Tangie (S) 00038: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis 1g Cart Mango Puff (I) 00036",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis 1g Cart Mango Puff (I) 00036: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis 1g Cart Clementine (S) 00037",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis 1g Cart Clementine (S) 00037: $36.00 > $45.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Fast-Acting Strawberry Kiwi (H) 00218",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Fast-Acting Strawberry Kiwi (H) 00218: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis 1g Cart Orange Cookiez (I) 00039",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis 1g Cart Orange Cookiez (I) 00039: $33.60 > $42.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - G'Night Grape 2:1 CBN (I) 00236",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - G'Night Grape 2:1 CBN (I) 00236: $28.00 > $23.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g NYC Diesel (H) 01036",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g NYC Diesel (H) 01036: $23.20 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Coasting Cherry Punch (H) 00370",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Coasting Cherry Punch (H) 00370: $27.00 > $22.95"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker 1g Green Queen Cartridge (S) 00420",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker 1g Green Queen Cartridge (S) 00420: $46.40 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos AIO 1g Pineapple Express Live Resin (S) 00441",
+    "brand": "Amigos",
+    "message": "Amigos Amigos AIO 1g Pineapple Express Live Resin (S) 00441: $46.40 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos AIO 1g Bruce Bamer Live Resin (H) 00444",
+    "brand": "Amigos",
+    "message": "Amigos Amigos AIO 1g Bruce Bamer Live Resin (H) 00444: $46.40 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Cookie Crumble Milk Chocolate (H) 00206",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Cookie Crumble Milk Chocolate (H) 00206: $28.00 > $23.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "On The Rocks AIO 1g Original Glue Live Rosin (I) 26709",
+    "brand": "CTPharma",
+    "message": "CTPharma On The Rocks AIO 1g Original Glue Live Rosin (I) 26709: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g Cart Grandaddy Purple Live Resin (I) 00456",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g Cart Grandaddy Purple Live Resin (I) 00456: $42.40 > $53.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Wild Berries 1:1 CBD Dark Chocolate (H) 00209",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Wild Berries 1:1 CBD Dark Chocolate (H) 00209: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "On The Rocks AIO 1g A1 Haze Live Rosin (H) 26290",
+    "brand": "CTPharma",
+    "message": "CTPharma On The Rocks AIO 1g A1 Haze Live Rosin (H) 26290: $44.80 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid GalaxEats Pink Lemonade (S) 00033",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid GalaxEats Pink Lemonade (S) 00033: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid GalaxEats Piña Colada - 00032",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid GalaxEats Piña Colada - 00032: $20.00 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Pharma .5g Cart Mendo Wedding Pure Vape (I) 26783",
+    "brand": "CTPharma",
+    "message": "CTPharma CT Pharma .5g Cart Mendo Wedding Pure Vape (I) 26783: $30.40 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Catching Citrus Dreams (I) 00397",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Catching Citrus Dreams (I) 00397: $27.00 > $22.95"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker AIO .5g Green Queen (S) 00413",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker AIO .5g Green Queen (S) 00413: $28.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Margarita RSO 00215",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Margarita RSO 00215: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Classic - Dream Berry (I) - 00435",
+    "brand": "Wana",
+    "message": "Wana Wana - Classic - Dream Berry (I) - 00435: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - Island Punch (I) 00374",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - Island Punch (I) 00374: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Classic - Passionfruit Pineapple 1:1:1 00437",
+    "brand": "Wana",
+    "message": "Wana Wana - Classic - Passionfruit Pineapple 1:1:1 00437: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - Limoncello (H) 00429",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - Limoncello (H) 00429: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - BlueZZZberry 5:1 CBN (I) 00230",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - BlueZZZberry 5:1 CBN (I) 00230: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Milk Chocolate RSO 100mg [10pk]",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Milk Chocolate RSO 100mg [10pk]: $27.00 > $22.95"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915",
+    "brand": "Select",
+    "message": "Select Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Cliq Elite Pod .5g Purple Urkel (I) 00957",
+    "brand": "Select",
+    "message": "Select Select Cliq Elite Pod .5g Purple Urkel (I) 00957: $30.40 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Watermelon Spritz 00404",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Watermelon Spritz 00404: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g Garlotti (S) 01314",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g Garlotti (S) 01314: $23.20 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid GalaxEats Sugar Free Pomegranate (S) 00027",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid GalaxEats Sugar Free Pomegranate (S) 00027: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Creative Clementine THCV (S) 00452",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Creative Clementine THCV (S) 00452: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana-Classic-Blueberry-(I)-20ct",
+    "brand": "Wana",
+    "message": "Wana Wana-Classic-Blueberry-(I)-20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - Peach Bellini (S) 00436",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - Peach Bellini (S) 00436: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - Dream Berry (I) 00419",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - Dream Berry (I) 00419: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - Connecticut Sunrise (S) 00416",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - Connecticut Sunrise (S) 00416: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Quick - 1:1 CBD Strawberry Margarita 00430",
+    "brand": "Wana",
+    "message": "Wana Wana - Quick - 1:1 CBD Strawberry Margarita 00430: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Classic - Mango (S) 00263",
+    "brand": "Wana",
+    "message": "Wana Wana - Classic - Mango (S) 00263: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Classic - Exotic Yuzu 2:1 CBD:THC 00266",
+    "brand": "Wana",
+    "message": "Wana Wana - Classic - Exotic Yuzu 2:1 CBD:THC 00266: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana - Classic - 5:1 Pomegranate Blueberry Acai 00434",
+    "brand": "Wana",
+    "message": "Wana Wana - Classic - 5:1 Pomegranate Blueberry Acai 00434: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant 1g Cart Hash Breath 41298",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant 1g Cart Hash Breath 41298: $48.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection -Crushin' It Cran-Raspberry - 00245",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection -Crushin' It Cran-Raspberry - 00245: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Sultry Cinnamon - 00174",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Sultry Cinnamon - 00174: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Rainbow Parade - 00173",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Rainbow Parade - 00173: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Watermelon 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Watermelon 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Strawberry Kiwi 12 oz THC :  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Strawberry Kiwi 12 oz THC :  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Mango 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Mango 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Lemon Lime 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Lemon Lime 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Soundview AIO 1g Down with the Dankness Live Resin (I) 00245",
+    "brand": "SoundView",
+    "message": "SoundView Soundview AIO 1g Down with the Dankness Live Resin (I) 00245: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView AIO 1g Raspberry Lemonade Live Resin Vape (S) 00228",
+    "brand": "SoundView",
+    "message": "SoundView SoundView AIO 1g Raspberry Lemonade Live Resin Vape (S) 00228: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView AIO 1g Gasolina Live Resin Vape (S) 00200",
+    "brand": "SoundView",
+    "message": "SoundView SoundView AIO 1g Gasolina Live Resin Vape (S) 00200: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView AIO 1g Citrus Punch Live Resin Vape (S) 00229",
+    "brand": "SoundView",
+    "message": "SoundView SoundView AIO 1g Citrus Punch Live Resin Vape (S) 00229: $48.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Peach RSO (I) 00237",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Peach RSO (I) 00237: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Mellow Mango 1:1:1 THC:CBD:CBN (I) 00231",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Mellow Mango 1:1:1 THC:CBD:CBN (I) 00231: $28.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Live Resin Pink Lemonade (S) 00221",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Live Resin Pink Lemonade (S) 00221: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Blood Orange (S) 00224",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Blood Orange (S) 00224: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Toasted S'mores Milk Chocolate (H) 00220",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Toasted S'mores Milk Chocolate (H) 00220: $28.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Peanut Butter Pretzel Milk Chocolate (I) 00213",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Peanut Butter Pretzel Milk Chocolate (I) 00213: $28.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Midnight Mint 2:1 CBN Milk Chocolate (I) 00225",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Midnight Mint 2:1 CBN Milk Chocolate (I) 00225: $28.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Bar - Cookies & Cream White Chocolate (H) 00217",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Bar - Cookies & Cream White Chocolate (H) 00217: $28.00 > $23.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite AIO .3g Dosido (I) 01410",
+    "brand": "Select",
+    "message": "Select Select Elite AIO .3g Dosido (I) 01410: $23.20 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Milk Chocolate RSO 100mg [10pk]",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Milk Chocolate RSO 100mg [10pk]: $27.00 > $22.95"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g Cart MAC Live Resin (H) 00459",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g Cart MAC Live Resin (H) 00459: $42.40 > $53.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g Cart Durban Poison Live Resin (S) 00458",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g Cart Durban Poison Live Resin (S) 00458: $42.40 > $53.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g AIO Laughing Buddha Live Resin (S) Bar 00451",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g AIO Laughing Buddha Live Resin (S) Bar 00451: $45.60 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g AIO H0rchata Live Resin (H) Bar 00450",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g AIO H0rchata Live Resin (H) Bar 00450: $45.60 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse 1g AIO Garlotti Live Resin (I) Bar 00462",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse 1g AIO Garlotti Live Resin (I) Bar 00462: $45.60 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker AIO .5g Left on Red (H) 00411",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker AIO .5g Left on Red (H) 00411: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker AIO .5g Grape Escape (I) 00422",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker AIO .5g Grape Escape (I) 00422: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker 1g Left on Red Cartridge (H) 00412",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker 1g Left on Red Cartridge (H) 00412: $46.40 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker 1g Grape Escape Cartridge (I) 00426",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Edie Parker 1g Grape Escape Cartridge (I) 00426: $46.40 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Wild Berry 00396",
+    "brand": "Camino",
+    "message": "Camino Camino Wild Berry 00396: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Watermelon Lemonade 00408",
+    "brand": "Camino",
+    "message": "Camino Camino Watermelon Lemonade 00408: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Tropical Burst 00415",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Tropical Burst 00415: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Strawberry Sunset 00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Strawberry Sunset 00365: $27.00 > $22.95"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Orchard Peach CBD 1:1 00361",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Orchard Peach CBD 1:1 00361: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Pineapple Habanero 00421",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero 00421: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Midnight Blueberry 00364",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry 00364: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Mango 00227",
+    "brand": "Camino",
+    "message": "Camino Camino Mango 00227: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Freshly Squeezed 00465",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed 00465: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Pharma .5g Cart Snow Drift Live Resin (S) 26680",
+    "brand": "CTPharma",
+    "message": "CTPharma CT Pharma .5g Cart Snow Drift Live Resin (S) 26680: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Pharma .5g Cart Dieselato Live Resin (H) 26126",
+    "brand": "CTPharma",
+    "message": "CTPharma CT Pharma .5g Cart Dieselato Live Resin (H) 26126: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos AIO 1g Zlushie Live Resin (I) 00446",
+    "brand": "Amigos",
+    "message": "Amigos Amigos AIO 1g Zlushie Live Resin (I) 00446: $46.40 > $58.00"
+  }
+]

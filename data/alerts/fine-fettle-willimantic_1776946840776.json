@@ -1,0 +1,80 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "BNC-S-20 (H) Flower",
+    "brand": "Shaka",
+    "message": "Shaka BNC-S-20 (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Critical Crumb (H) Flower",
+    "brand": "Find",
+    "message": "Find Critical Crumb (H) Flower: $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream (I) Flower: $39.00 > $34.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BLB (H) Flower",
+    "brand": "Shaka",
+    "message": "Shaka BLB (H) Flower: $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "Good Green Chkn n WflZ (S) Flower: $160.00 > $140.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sweet Berry Burst (I) Gummies (9.36mg 10pk)",
+    "brand": "back\n\nIndica edible\n\nEncore",
+    "message": "back\n\nIndica edible\n\nEncore Sweet Berry Burst (I) Gummies (9.36mg 10pk): $29.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)",
+    "brand": "Sponsored\n\nWana",
+    "message": "Sponsored\n\nWana Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk): $36.00 > $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lunar Diesel (H) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Lunar Diesel (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Bundle\n\nSativa flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nSativa flower\n\nGrassroots - Titan Express (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Dark (H) Fast Acting Chocolate (4.75mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peppermint (H) Lucky Spritz (10g)",
+    "brand": "Hybrid edible\n\nLucky Break",
+    "message": "Gone: Hybrid edible\n\nLucky Break - Peppermint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  }
+]

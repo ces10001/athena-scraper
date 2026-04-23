@@ -1,0 +1,350 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000018 - 1g Vape Cartridge",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Golden Tangie (S) C0170000018 - 1g Vape Cartridge: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Tahoe OG (I) 01267",
+    "brand": "Select",
+    "message": "Select Select Elite Briq All In One Disposable Vape 2g Tahoe OG (I) 01267: $72.00 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Mango Puff (I) C0170000021 - 1g Vape Cartridge",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Mango Puff (I) C0170000021 - 1g Vape Cartridge: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Clementine (S) C0170000019 - 1g Vape Cartridge",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Clementine (S) C0170000019 - 1g Vape Cartridge: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse-Garlotti-Live Resin-1g-Bar",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Garlotti-Live Resin-1g-Bar: $48.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Pink Lemonade T96mg - C0170000017",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid Galaxeats Gummies Pink Lemonade T96mg - C0170000017: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gummies - Live Resin Pink Lemonade 00139",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gummies - Live Resin Pink Lemonade 00139: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Sour Z (H) C0170000022 - 1g Vape Cartridge",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Sour Z (H) C0170000022 - 1g Vape Cartridge: $36.00 > $45.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Sultry Cinnamon - 00174",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Sultry Cinnamon - 00174: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Gummies 20ct Sunset Citron (medium dose)",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Gummies 20ct Sunset Citron (medium dose): $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Pomegranate Blueberry Acai 5:1 CBD/THC 00360",
+    "brand": "Wana",
+    "message": "Wana Wana Pomegranate Blueberry Acai 5:1 CBD/THC 00360: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Cartridge .5g Durban Poison (S) 01293",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Durban Poison (S) 01293: $28.80 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mango Lemonade Gummies (H) 00428",
+    "brand": "BRIX",
+    "message": "BRIX Mango Lemonade Gummies (H) 00428: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Sour Tangahhhrine THC CBD Gummies 01215",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Sour Tangahhhrine THC CBD Gummies 01215: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Watermelon Smash THC Gummies 01014",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Watermelon Smash THC Gummies 01014: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Summer Peach THC Gummies 01016",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Summer Peach THC Gummies 01016: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Strahhhberry THC CBD Gummies 01054",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Strahhhberry THC CBD Gummies 01054: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Snoozzzeberry THC CBN Gummies 01136",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Snoozzzeberry THC CBN Gummies 01136: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Greener Apple Fast Acting THC Gummies 01004",
+    "brand": "Incredibles",
+    "message": "Incredibles inc.edibles 20 Pack Greener Apple Fast Acting THC Gummies 01004: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana-Quick-Island Punch-(I)-20ct",
+    "brand": "Wana",
+    "message": "Wana Wana-Quick-Island Punch-(I)-20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana-Quick-Dream Berry-(I)-20ct",
+    "brand": "Wana",
+    "message": "Wana Wana-Quick-Dream Berry-(I)-20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana-Classic-Mango-(S)-20ct",
+    "brand": "Wana",
+    "message": "Wana Wana-Classic-Mango-(S)-20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick-Limoncello-20ct",
+    "brand": "Wana",
+    "message": "Wana Wana Quick-Limoncello-20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick- Sativa Connecticut Sunrise Fast-Acting Gummies--20ct",
+    "brand": "Wana",
+    "message": "Wana Wana Quick- Sativa Connecticut Sunrise Fast-Acting Gummies--20ct: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection - Rainbow Parade - 00173",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection - Rainbow Parade - 00173: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Strawberry Kiwi 12 oz THC :  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Strawberry Kiwi 12 oz THC :  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Lemon Lime 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Lemon Lime 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG: $6.00 > $5.10"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Soundview Extractors Reserve High Terp Disposable Vape (500mg) Durban Poison",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Extractors Reserve High Terp Disposable Vape (500mg) Durban Poison: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Soundview Extractors Reserve High Terp Disposable Vape (500mg) Blue Dream",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Extractors Reserve High Terp Disposable Vape (500mg) Blue Dream: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Soundview Extractor's Reserve: Berry Burst 1g AIO (S)",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Extractor's Reserve: Berry Burst 1g AIO (S): $56.00 > $70.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Chocolate 20ct Midnight Mint (2:1) (CBN:THC)",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Chocolate 20ct Midnight Mint (2:1) (CBN:THC): $35.00 > $29.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Chocolate 20ct Cookies & Cream",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Chocolate 20ct Cookies & Cream: $28.00 > $23.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Chocolate 20ct Cookie Crumble",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Chocolate 20ct Cookie Crumble: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Berry Dreamy Gummies 1:1 CBN 20ct (I)",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Berry Dreamy Gummies 1:1 CBN 20ct (I): $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Apple Cider Gummies 20ct (H)",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Apple Cider Gummies 20ct (H): $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Live Resin Watermelon 1:1:1 Gummies 00136",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Live Resin Watermelon 1:1:1 Gummies 00136: $30.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView G'Night Grape 2:1 CBN Gummies 00141",
+    "brand": "SoundView",
+    "message": "SoundView SoundView G'Night Grape 2:1 CBN Gummies 00141: $30.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Extractor's Reserve: Purple Urkle 1g AIO (I)",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Extractor's Reserve: Purple Urkle 1g AIO (I): $56.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Cartridge .5g Purple Urkel (I) 01294",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Purple Urkel (I) 01294: $28.80 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Elite Cartridge .5g Joocy Froot (H) 01475",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g Joocy Froot (H) 01475: $28.80 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rodeo Distillate Saddle Up Desperado (S) 1g Vape 00267",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Distillate Saddle Up Desperado (S) 1g Vape 00267: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rodeo Distillate Messa Mist (H) 1g Vape 00269",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Distillate Messa Mist (H) 1g Vape 00269: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Lemon Pound Cake (I) C0170000020 - 1g Vape Cartridge",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Lemon Pound Cake (I) C0170000020 - 1g Vape Cartridge: $36.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse-Double Diesel-(S)-Bar-1g",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Double Diesel-(S)-Bar-1g: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse- Grandaddy Purple Live Resin-1g",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse- Grandaddy Purple Live Resin-1g: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse- Durban Poison Live Resin-1g-Disposable",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse- Durban Poison Live Resin-1g-Disposable: $48.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew Strawberry Balance 1:1 CBD/THC Gummies 7ct MED",
+    "brand": "Chew",
+    "message": "Chew Chew Strawberry Balance 1:1 CBD/THC Gummies 7ct MED: $14.00 > $11.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew Sour Grape Gummies 7ct",
+    "brand": "Chew",
+    "message": "Chew Chew Sour Grape Gummies 7ct: $12.00 > $10.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew Blueberry Snap Gummies 7ct MED",
+    "brand": "Chew",
+    "message": "Chew Chew Blueberry Snap Gummies 7ct MED: $12.00 > $10.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008: $20.00 > $17.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss T91.4mg - C0120000008",
+    "brand": "Asteroid Galaxeats",
+    "message": "Asteroid Galaxeats Asteroid Galaxeats Gummies Blueberry Bliss T91.4mg - C0120000008: $20.00 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos-Mystic Mintz Live Resin-(H)-Disposable-1g",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Mystic Mintz Live Resin-(H)-Disposable-1g: $50.40 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos-CT Kush Cake Live Resin-(I)-Disposable-1g",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-CT Kush Cake Live Resin-(I)-Disposable-1g: $50.40 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos AIO 1g OG Kush Live Resin (I) 00295",
+    "brand": "Amigos",
+    "message": "Amigos Amigos AIO 1g OG Kush Live Resin (I) 00295: $50.40 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity Super Lemon Haze 0.5g BHO Slim Bar",
+    "brand": "Affinity",
+    "message": "Affinity Affinity Super Lemon Haze 0.5g BHO Slim Bar: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Affinity Sherbanger 22 0.5g BHO Slim Bar",
+    "brand": "Affinity",
+    "message": "Affinity Affinity Sherbanger 22 0.5g BHO Slim Bar: $44.00 > $55.00"
+  }
+]
