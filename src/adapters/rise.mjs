@@ -200,11 +200,17 @@ export async function scrapeRise(dispensary) {
         // Force clean navigation by going to blank first (prevents React router interference)
         if (c > 0) {
           await page.goto('about:blank', { timeout: 5000 });
-          await page.waitForTimeout(500);
+          await page.waitForTimeout(1000);
         }
         
-        await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(6000);
+        await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        await page.waitForTimeout(8000);
+
+        // Dismiss cookie/age gate if present
+        try {
+          var ageBtn = await page.$('button:has-text("Yes"), button:has-text("I agree"), button:has-text("Accept")');
+          if (ageBtn) { await ageBtn.click(); await page.waitForTimeout(2000); }
+        } catch(e) {}
 
         // Check product count
         var totalForCat = await page.evaluate(function() {
@@ -219,12 +225,35 @@ export async function scrapeRise(dispensary) {
 
         console.log('  [rise] ' + cat.slug + ': ' + totalForCat + ' products');
 
-        // Scroll to render all visible products
-        for (var s = 0; s < 20; s++) {
+        // Click "Show More" / "Load More" until all products load
+        var maxClicks = 20;
+        for (var sm = 0; sm < maxClicks; sm++) {
+          // Scroll to bottom first
+          await page.evaluate(function() { window.scrollTo(0, document.body.scrollHeight); });
+          await page.waitForTimeout(1000);
+          
+          // Look for load more button
+          var showMore = await page.$('button:has-text("Show More"), button:has-text("Load More"), button:has-text("SHOW MORE"), button:has-text("LOAD MORE"), [class*="show-more"], [class*="load-more"], [data-testid*="load-more"]');
+          if (!showMore) {
+            // Also try generic "more" links/buttons near bottom
+            showMore = await page.$('div[class*="pagination"] button, a:has-text("More"), button:has-text("more products")');
+          }
+          if (showMore) {
+            try {
+              await showMore.click();
+              await page.waitForTimeout(2000);
+            } catch(e) { break; }
+          } else {
+            break;
+          }
+        }
+
+        // Final scroll to render everything
+        for (var s = 0; s < 30; s++) {
           await page.evaluate(function() { window.scrollBy(0, 600); });
           await page.waitForTimeout(200);
         }
-        await page.waitForTimeout(1500);
+        await page.waitForTimeout(2000);
 
         var text = await page.evaluate(function() { return document.body.innerText || ''; });
         var catProducts = parseRiseBlocks(text, cat.category);
