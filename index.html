@@ -10,7 +10,6 @@
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--f);background:var(--bg);color:var(--tx);min-height:100vh}
@@ -614,8 +613,7 @@ function CatTabs({data,cat,setCat}){
 function Tbl({data,q,sel,cat,comp,setComp}){
   const prods=data.products||[];const cols=useMemo(()=>[...sel].sort((a,b)=>{if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)}),[sel]);const affC=cols.filter(isAff);
   const rows=useMemo(()=>{let it=prods.filter(p=>(p.category||"").toLowerCase()!=="gift cards");if(cat!=="All")it=it.filter(p=>p.category===cat);if(q.trim()){const s=q.toLowerCase();it=it.filter(p=>(p.name||"").toLowerCase().includes(s)||(p.brand||"").toLowerCase().includes(s))}return it.filter(p=>{const n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;return comp?n>=2:n>=1})},[prods,q,sel,cat,comp]);
-  const doExport=()=>{const hdr=["Product","Brand","Category",...cols.map(cleanD)];const d=rows.map(p=>[p.name,p.brand,p.category,...cols.map(c=>p.dispensaries?.[c]||"")]);const ws=XLSX.utils.aoa_to_sheet([hdr,...d]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"ATHENA");XLSX.writeFile(wb,"athena_export.xlsx")};
-  return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only (at 2+ stores)</label><button className="btn pri" onClick={doExport}>Export Excel</button></div></div>
+  return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only (at 2+ stores)</label></div></div>
     {!rows.length?<div className="empty"><h3>No matches</h3></div>:<div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Cat</th>{cols.map(d=><th key={d} className={isAff(d)?"yc":""}>{isAff(d)?"★ ":""}{cleanD(d)}</th>)}</tr></thead>
       <tbody>{rows.slice(0,500).map((p,i)=>{const yp=getYP(p,affC);return<tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td>
         {cols.map(d=>{const pr=p.dispensaries?.[d];if(!pr)return<td key={d} className="pr"></td>;const pm=p.promos?.[d];let c="pr";const y=isAff(d);if(y)c+=" yp";else if(yp&&pr>yp)c+=" hi";else if(yp&&pr<yp)c+=" lo";let df=null;if(!y&&yp&&yp>0){const pct=Math.round((pr-yp)/yp*100);if(pct>0)df=<span className="df up">+{pct}%</span>;else if(pct<0)df=<span className="df dn">{pct}%</span>}return<td key={d} className={c}>${pr.toFixed(2)}{pm?<span style={{fontSize:9,color:'var(--am)',marginLeft:3}}>(promo ${pm.toFixed(2)})</span>:null}{df}</td>})}</tr>})}</tbody></table></div>}</div>;
@@ -700,22 +698,11 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
     return results;
   },[prods,sel,data]);
 
-  var doExport=function(){
-    var rows=[["Section","Size","Products","Lowest Price","Lowest Product","Lowest Dispensary","Highest Price","Highest Product","Highest Dispensary"]];
-    analysis.forEach(function(s){s.buckets.forEach(function(b){
-      if(b.count===0){rows.push([s.section,b.label,0,"","","","","",""]);return}
-      rows.push([s.section,b.label,b.count,"$"+b.low.price.toFixed(2),b.low.name,cleanD(b.low.disp),"$"+b.high.price.toFixed(2),b.high.name,cleanD(b.high.disp)]);
-    })});
-    var ws=XLSX.utils.aoa_to_sheet(rows);var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Highs Lows");
-    ws["!cols"]=[{wch:12},{wch:18},{wch:8},{wch:12},{wch:35},{wch:25},{wch:12},{wch:35},{wch:25}];
-    XLSX.writeFile(wb,"athena_highs_lows.xlsx");
-  };
-
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
         <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
-        <button className="btn pri" onClick={doExport}>Export Excel</button>
+        
       </div>
       <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. Deal prices shown separately when a promotion makes a product cheaper.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
       {analysis.map(function(s){return<div key={s.section} className="hl-section">
@@ -801,20 +788,11 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
   var totalDrops=drops.length;
   var totalIncreases=increases.length;
   
-  var doExport=function(){
-    var rows=[["Type","Product","Brand","Dispensary","Category","Previous Price","New Price","% Change"]];
-    drops.forEach(function(d){rows.push(["DECREASE",d.product,d.brand,cleanD(d.dispensary),d.category,"$"+d.original.toFixed(2),"$"+d.discounted.toFixed(2),"-"+d.pct_off+"%"])});
-    increases.forEach(function(d){rows.push(["INCREASE",d.product,d.brand,cleanD(d.dispensary),d.category,"$"+d.original.toFixed(2),"$"+d.current.toFixed(2),"+"+d.pct+"%"])});
-    var ws=XLSX.utils.aoa_to_sheet(rows);var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Price Movements");
-    ws["!cols"]=[{wch:10},{wch:40},{wch:20},{wch:30},{wch:15},{wch:14},{wch:14},{wch:10}];
-    XLSX.writeFile(wb,"athena_price_movements.xlsx")
-  };
-  
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
         <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
-        <button className="btn pri" onClick={doExport}>Export Report</button>
+        
       </div>
       <div className="pnl-d">{sel.size>0?"Showing price changes at "+sel.size+" selected dispensaries.":"Select dispensaries above to filter, or view all price changes."} Red column shows products that dropped in price. Green column shows increases. Use the category tabs below to filter by product type. Each entry shows the old price, new price, and percentage change.</div>
       <div className="stats" style={{marginBottom:12}}>
@@ -981,10 +959,9 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
   },[prods,affC,sel,favsVer]);
   
   const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
-  const doExport=()=>{const rows=[["Chain","Dispensary","Product","NDC","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.ndc||"",p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:10},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
 
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
-    <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
+    <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span></div>
     <div className="pnl-d">{affC.length>0?"Your starred ★ dispensaries are your home base. Select competitors above to see what they carry that you don't. Products are matched across different naming formats (e.g. 'Tap Out BHO' matches 'Tap Out').":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
     {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
     <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
