@@ -156,7 +156,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 /* ═══ HIGHS/LOWS TAB ═══ */
 .hl-section{margin-bottom:16px}
 .hl-section-title{font-family:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--tx2);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--bd)}
-.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .hl-card{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
 .hl-card-title{font-family:var(--m);font-size:11px;font-weight:600;color:var(--tx);margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
 .hl-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.05)}
@@ -165,7 +165,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .hl-val{display:flex;flex-direction:column;align-items:flex-end}
 .hl-price{font-family:var(--m);font-size:14px;font-weight:700}
 .hl-price.lo{color:var(--gn)}.hl-price.hi{color:var(--rd)}
-.hl-disp{font-size:9px;color:var(--tx3);max-width:140px;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hl-disp{font-size:9px;color:var(--tx3);max-width:180px;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .hl-empty{font-size:11px;color:var(--tx3);text-align:center;padding:12px 8px}
 .hl-count{font-family:var(--m);font-size:10px;color:var(--tx3);margin-left:6px}
 
@@ -492,11 +492,56 @@ function MapPanel({data,sel,setSel,radius,setRadius}){
 function DispPanel({data,sel,setSel,toggleFav}){
   const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
-  const tog=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
+  
+  // Group dispensaries by base name, detect med/rec variants
+  const grouped=useMemo(()=>{
+    const byBase=new Map();
+    allD.forEach(d=>{
+      const base=getBase(d);
+      if(!byBase.has(base))byBase.set(base,{base:base,entries:[],hasMed:false,hasRec:false,isYou:false});
+      const g=byBase.get(base);g.entries.push(d);
+      if(isAff(d))g.isYou=true;
+      if(/\(Med\)/i.test(d))g.hasMed=true;
+      else if(/\(Rec\)/i.test(d))g.hasRec=true;
+    });
+    return[...byBase.values()].sort((a,b)=>a.base.localeCompare(b.base));
+  },[allD]);
+  
+  const togEntry=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
+  const togGroup=useCallback(g=>{setSel(p=>{const n=new Set(p);const allOn=g.entries.every(d=>n.has(d));g.entries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
+  
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
       <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD))}>All</button><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
     <div className="pnl-d">Select dispensaries to compare. Click ★ to mark as your dispensary.</div>
-    <div className="dsel">{allD.map(d=>{const on=sel.has(d);const you=isAff(d);return<div key={d} className={"dsel-item"+(on?" on":"")+(you?" you":"")}><div className="dsel-left" onClick={()=>tog(d)} style={{flex:1,cursor:'pointer'}}><div className="dsel-dot"/><span className="dsel-name">{cleanD(d)}</span></div><div className="row" style={{gap:6}}><span className="dsel-count">{(counts[d]||0).toLocaleString()}</span><span onClick={e=>{e.stopPropagation();toggleFav(d)}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span></div></div>})}</div></div>;
+    <div className="dsel">{grouped.map(g=>{
+      const anyOn=g.entries.some(d=>sel.has(d));
+      const you=g.isYou;
+      const hasBoth=g.hasMed&&g.hasRec;
+      const medD=g.entries.find(d=>/\(Med\)/i.test(d));
+      const recD=g.entries.find(d=>/\(Rec\)/i.test(d));
+      const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));
+      const totalCount=g.entries.reduce((s,d)=>s+(counts[d]||0),0);
+      
+      return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
+        <div className="dsel-left" onClick={()=>{if(!hasBoth){togGroup(g)}else{togGroup(g)}}} style={{flex:1,cursor:'pointer'}}>
+          <div className="dsel-dot"/><span className="dsel-name">{g.base}</span>
+        </div>
+        <div className="row" style={{gap:4}}>
+          {hasBoth?<>
+            <button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+              background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>
+            <button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+              background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>
+          </>:null}
+          {!hasBoth&&g.hasMed?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+            background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>:null}
+          {!hasBoth&&g.hasRec?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
+            background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>:null}
+          <span className="dsel-count">{totalCount.toLocaleString()}</span>
+          <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
+        </div>
+      </div>
+    })}</div></div>;
 }
 
 function CatTabs({data,cat,setCat}){
@@ -615,14 +660,16 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
               <div className="hl-label">Lowest</div>
               <div className="hl-val">
                 <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}</div>
-                <div className="hl-disp" title={b.low.name}>{b.low.brand?b.low.brand+" — ":""}{cleanD(b.low.disp)}</div>
+                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.low.name}>{b.low.name}</div>
+                <div className="hl-disp">{cleanD(b.low.disp)}</div>
               </div>
             </div>
             <div className="hl-row">
               <div className="hl-label">Highest</div>
               <div className="hl-val">
                 <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}</div>
-                <div className="hl-disp" title={b.high.name}>{b.high.brand?b.high.brand+" — ":""}{cleanD(b.high.disp)}</div>
+                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.high.name}>{b.high.name}</div>
+                <div className="hl-disp">{cleanD(b.high.disp)}</div>
               </div>
             </div>
             <div className="hl-row" style={{borderBottom:'none'}}>
@@ -719,7 +766,29 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
 /* ═══════════════════════════════════════
    PRODUCT GAPS TAB (with map)
    ═══════════════════════════════════════ */
-function normName(n){var s=(n||"").toLowerCase();s=s.replace(/\([^)]*\)/g,"");s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz)\b/gi,"");s=s.replace(/\b\d+\s*pk\b/gi,"");s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");s=s.replace(/\d+\.?\d*\s*%/g,"");s=s.replace(/\b\d+\.?\d*\b/g,"");s=s.replace(/\b(whole|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use)\b/gi,"");s=s.replace(/\b[a-z]\b/g,"");s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl)\b/gi,"");s=s.replace(/[-_|/]+/g," ");s=s.replace(/\s+/g," ").trim();var words=s.split(" ").filter(function(w){return w.length>1});words.sort();return words.join(" ")}
+function normName(n){
+  var s=(n||"").toLowerCase();
+  // Remove parenthetical info like (H), (S), (I), (3.5g)
+  s=s.replace(/\([^)]*\)/g,"");
+  // Remove weight/size labels
+  s=s.replace(/\b\d+\.?\d*\s*(?:g|mg|ml|oz|pk|pack|ct)\b/gi,"");
+  // Remove THC/CBD values
+  s=s.replace(/\b[tchdTCHD]+\s*\d+\.?\d*\s*%?/g,"");
+  s=s.replace(/\d+\.?\d*\s*%/g,"");
+  // Remove NDC/SKU codes (5+ digit numbers) but keep short numbers that might be strain names
+  s=s.replace(/\b\d{5,}\b/g,"");
+  // Remove common product type words
+  s=s.replace(/\b(whole|small|ground|flower|premium|reserve|mini|minis|pre|pack|prepack|cartridge|cart|vape|roll|rolls|concentrate|gummy|gummies|edible|tincture|topical|capsule|capsules|tablet|tablets|med|rec|adult|use|disposable|infused|shorties|fatboy|blunt|budz|lil)\b/gi,"");
+  // Remove brand names that appear in product names
+  s=s.replace(/\b(ctpharma|theraplant|curaleaf|advanced grow labs|agl|affinity|affinity grow|brix|rythm|select|savvy|good green|dogwalkers|encore|camino|wana|zone|shaka|awssom|find|springtime|soundview)\b/gi,"");
+  // Remove single characters and pipe separators
+  s=s.replace(/\b[a-z]\b/g,"");
+  s=s.replace(/[-_|/]+/g," ");
+  s=s.replace(/\s+/g," ").trim();
+  var words=s.split(" ").filter(function(w){return w.length>1});
+  words.sort();
+  return words.join(" ");
+}
 
 function GapsTab({data,favsVer,toggleFav,sel,setSel}){
   const prods=data.products||[];const allDisps=getDisps(prods);const affC=allDisps.filter(isAff);
