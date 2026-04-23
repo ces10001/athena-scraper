@@ -1,0 +1,416 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $144.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel $144.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air HDZ",
+    "brand": "all:hours",
+    "message": "New: all:hours - Air HDZ $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Moonbeam Latto $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "New: Find. - PB Bites $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Titan Express $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Sunrise",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pineapple Sunrise $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "all:hours Mule Fuel: $43.00 > $25.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $37.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $114.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $37.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding $26.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $64.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $114.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker $26.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Brains $26.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Specimen X $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citrus Glow",
+    "brand": "Find.",
+    "message": "New: Find. - Citrus Glow $110.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Drizzle",
+    "brand": "Find.",
+    "message": "New: Find. - Tropical Drizzle $110.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tri Berry",
+    "brand": "Find.",
+    "message": "New: Find. - Tri Berry $19.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Martian Mints",
+    "brand": "Find.",
+    "message": "New: Find. - Martian Mints $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mrs. Brightside",
+    "brand": "Find.",
+    "message": "New: Find. - Mrs. Brightside $46.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Gone: Find. - Critical Crumb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Durban",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Durban"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Lemon Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CIG",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - CIG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Nuclear Mfns"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tropical Heatwave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sour Mandarin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Gone: Select - Durban Poison"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Indica Milk Chocolate",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Indica Milk Chocolate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies & Cream White Chocolate",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Cookies & Cream White Chocolate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinyatti",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pinyatti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Full Tank",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Full Tank"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lunar Diesel",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Lunar Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Purple Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Moonbeam Latto"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jungle Cake",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Jungle Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreverberry",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Foreverberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Hdz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Air Hdz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Floral Frost"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mega Lemon Goop",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Mega Lemon Goop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGBK Stomper",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - OGBK Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Lobster",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Blue Lobster"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Soap",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - The Soap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hazy Fields",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Hazy Fields"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Cherry Tart",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Sour Cherry Tart"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blood Orange Cardamom",
+    "brand": "Cann",
+    "message": "Gone: Cann - Blood Orange Cardamom"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Spritz",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Spritz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz x Vel Croz",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Fantasy Melonz x Vel Croz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Astro GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mixed Berry",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mixed Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Gone: Find. - Bulbz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bad Decisions",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Bad Decisions"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gasolina",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Gasolina"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Melon Crash",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Melon Crash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peachy Punch",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Peachy Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solo Burger",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Solo Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cake",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Ice Cream Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tap Out",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Tap Out"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Purple Milk"
+  }
+]

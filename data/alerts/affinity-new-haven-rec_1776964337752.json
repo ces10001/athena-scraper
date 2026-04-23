@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "MUZE Seltzer - Black Cherry 12oz",
+    "brand": "Accessories",
+    "message": "New: Accessories - MUZE Seltzer - Black Cherry 12oz $4.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MUZE Seltzer - Raspberry Lime 12oz",
+    "brand": "Accessories",
+    "message": "New: Accessories - MUZE Seltzer - Raspberry Lime 12oz $4.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MUZE Seltzer - Peach 12oz",
+    "brand": "Accessories",
+    "message": "New: Accessories - MUZE Seltzer - Peach 12oz $4.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Mule Fuel 1oz 41791 (H) (28g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - all:hours Mule Fuel 1oz 41791 (H) (28g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Blueberry Snap Gummies I 00893 (20pk)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Chew RSO Blueberry Snap Gummies I 00893 (20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "'Fused by Brix Wild Berry Lemonade Gummies (I) 00421 (20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - 'Fused by Brix Wild Berry Lemonade Gummies (I) 00421 (20pk)"
+  }
+]

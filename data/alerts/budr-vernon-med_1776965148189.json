@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT MT 41739TheraplantMini Tank Disposable(EACH)",
+    "brand": "IndicaBanana SPLT MT 41739TheraplantMini Tank",
+    "message": "New: IndicaBanana SPLT MT 41739TheraplantMini Tank - Banana SPLT MT 41739TheraplantMini Tank Disposable(EACH) $58.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469Amigos - CTLive Resin Dispo",
+    "brand": "Only 2 leftHybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469Amigos - CTLive Resin",
+    "message": "Gone: Only 2 leftHybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469Amigos - CTLive Resin - Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469Amigos - CTLive Resin Dispo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Goods - Whole Flower - Tropical Kush 30001The GoodsFlower(3.5G)",
+    "brand": "HybridThe Goods - Whole Flower - Tropical Kush 30001The Goods",
+    "message": "Gone: HybridThe Goods - Whole Flower - Tropical Kush 30001The Goods - The Goods - Whole Flower - Tropical Kush 30001The GoodsFlower(3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana SPLT MТ",
+    "brand": "41739TheraplantMini Tank",
+    "message": "Gone: 41739TheraplantMini Tank - Banana SPLT MТ"
+  }
+]

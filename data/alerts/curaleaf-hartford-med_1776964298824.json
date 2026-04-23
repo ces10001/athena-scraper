@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Yellow Haze OG $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - High Noon Crystal $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "New: Select - Raspberry Orange Lime $17.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Red Gary $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Heir Heads $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - High Noon Crystal $42.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Strawberry Pave $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Wedding $56.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FumeZ x Grease Monkey",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - FumeZ x Grease Monkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sweet Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Green Queen"
+  }
+]

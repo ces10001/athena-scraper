@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy PR Minis 41708",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy PR Minis 41708 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake Infused Shorties 41677",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake Infused Shorties 41677 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake 1g PR 41705",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake 1g PR 41705 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused Shorties 41764",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused Shorties 41764 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke 1g PR 41543",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke 1g PR 41543 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon 1g PR 41724",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon 1g PR 41724 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO PR Party Pack 41375",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO PR Party Pack 41375 $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Sweet Berry Burst Gummies T93.6mg I 26898",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Sweet Berry Burst Gummies T93.6mg I 26898"
+  }
+]

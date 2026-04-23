@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tri Berry",
+    "brand": "Find.",
+    "message": "Find. Tri Berry: $20.00 > $19.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "Gone: Select - Golden Tangie"
+  }
+]

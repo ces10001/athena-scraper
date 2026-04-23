@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow Drift",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Snow Drift"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Diesel Train",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Diesel Train"
+  }
+]

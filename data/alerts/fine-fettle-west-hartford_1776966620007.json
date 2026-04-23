@@ -1,0 +1,884 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR (H) Flower: $70.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti (S) Flower",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti (S) Flower: $70.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cheddar Cheeze (I) Flower",
+    "brand": "Sponsored\n\nRythm",
+    "message": "Sponsored\n\nRythm Cheddar Cheeze (I) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Animal Scout #10 (I) Flower",
+    "brand": "Sponsored\n\nRythm",
+    "message": "Sponsored\n\nRythm Animal Scout #10 (I) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Kandi Jam (S) Flower",
+    "brand": "Find",
+    "message": "Find Kandi Jam (S) Flower: $44.00 > $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n WflZ (S) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's (H) part:timers Flower $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BLB (H) Flower",
+    "brand": "Shaka",
+    "message": "Shaka BLB (H) Flower: $28.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger (I) part:timers Flower",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger (I) part:timers Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave (H) Flower",
+    "brand": "Find",
+    "message": "Find Tropical Heatwave (H) Flower: $79.00 > $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz (I) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz (I) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Super Buff (H) Smalls $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "New: Bundle\n\nHybrid flower\n\nGrassroots - Apple Tartz (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Ground Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "New: Bundle\n\nHybrid flower\n\nGrassroots - Paw Paw (H) Ground Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Soap (S) Flower",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Soap (S) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine (H) Ground Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "New: Bundle\n\nHybrid flower\n\nGrassroots - Jayna's Sunshine (H) Ground Flower $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Jealousy (H) Smalls $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Bundle\n\nSativa flower\n\nGrassroots",
+    "message": "New: Bundle\n\nSativa flower\n\nGrassroots - Titan Express (S) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tri Berry (I) Flower",
+    "brand": "Find",
+    "message": "New: Find - Tri Berry (I) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silver Dollar (I) Flower",
+    "brand": "Find",
+    "message": "New: Find - Silver Dollar (I) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Gush Mintz (I) Smalls $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Problem Child (H) Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "New: Bundle\n\nHybrid flower\n\nGrassroots - Problem Child (H) Flower $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Colorado Flo (S) Infused Shorties 4pk (1.6g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "roll\n\nTheraplant Colorado Flo (S) Infused Shorties 4pk (1.6g): $31.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon Juice (H) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon Juice (H) Mini Tank Disposable (0.5g): $35.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Gangsta Grillz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Gangsta Grillz (I) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart (H) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Carbon Juice (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Carbon Juice (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Gangsta Grillz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Gangsta Grillz (I) Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds (S) Mini Tank Disposable (1g): $63.00 > $72.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Dream Clouds (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Dream Clouds (S) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Grand Pappy's Chillemon (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Grand Pappy's Chillemon (S) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banana SPLT (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Banana SPLT (I) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Green G (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Green G (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banapple Medellin (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Banapple Medellin (H) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dieselato (H) Live Resin Disposable Vape (1g)",
+    "brand": "products\n\nHybrid vape\n\nSponsored\n\nCTPharma",
+    "message": "products\n\nHybrid vape\n\nSponsored\n\nCTPharma Dieselato (H) Live Resin Disposable Vape (1g): $52.00 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CTPharma Hazy Girl (H) Vape Cartridge",
+    "brand": "CTPharma",
+    "message": "CTPharma CTPharma Hazy Girl (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CTPharma GG Skunk (H) Vape Cartridge",
+    "brand": "CTPharma",
+    "message": "CTPharma CTPharma GG Skunk (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonburst (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Moonburst (H) Elite All In One (0.3g): $21.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Gorgeous (H) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "AGL Regina Gorgeous (H) Disposable Vape (0.3g): $14.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jet Fuel x Vel Croz (H) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "AGL Jet Fuel x Vel Croz (H) Disposable Vape (0.3g): $14.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Couch Kush (H) Legacy Series Vape Cartridge",
+    "brand": "Select Legacy Series",
+    "message": "Select Legacy Series Select Couch Kush (H) Legacy Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Moonburst (H) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Moonburst (H) Flavor Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bruce Bamer (H) Live Resin Disposable Vape (1g)",
+    "brand": "Hybrid vape\n\nAmigos",
+    "message": "Hybrid vape\n\nAmigos Bruce Bamer (H) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select GMO (H) Legacy Series Vape Cartridge",
+    "brand": "Select Legacy Series",
+    "message": "Select Legacy Series Select GMO (H) Legacy Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Banana Cream Cayk (H) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Banana Cream Cayk (H) Flavor Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "B Scout x LA Kush CKE (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "AGL B Scout x LA Kush CKE (I) Disposable Vape (0.3g): $14.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "OG Kush (I) Live Resin Disposable Vape (1g)",
+    "brand": "Indica vape\n\nAmigos",
+    "message": "Indica vape\n\nAmigos OG Kush (I) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CT Kush Cake (I) Live Resin Disposable Vape (1g)",
+    "brand": "Indica vape\n\nAmigos",
+    "message": "Indica vape\n\nAmigos CT Kush Cake (I) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Sundae Slumber (I) Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Sundae Slumber (I) Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lady in Red (I) Live Resin Disposable Vape (1g)",
+    "brand": "Indica vape\n\nAmigos",
+    "message": "Indica vape\n\nAmigos Lady in Red (I) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Papi Purple (I) Live Resin Disposable Vape (1g)",
+    "brand": "Indica vape\n\nAmigos",
+    "message": "Indica vape\n\nAmigos Papi Purple (I) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grape Escape (I) Petal Puffer Disposable (0.5g)",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Grape Escape (I) Petal Puffer Disposable (0.5g): $35.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Headcracker x Bubba F (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "AGL Headcracker x Bubba F (I) Disposable Vape (0.3g): $14.00 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sundae Slumber (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Sundae Slumber (I) Elite All In One (0.3g): $21.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Casino Floor (I) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select Casino Floor (I) BRIQ Legacy Series Disposable Vape (1g): $58.00 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Apple Tart (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Apple Tart (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Moonburst (H) Elite Vape Cartridge",
+    "brand": "Select Elite",
+    "message": "Select Elite Select Moonburst (H) Elite Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Joocy Froot (H) Elite Vape Cartridge",
+    "brand": "Select Elite",
+    "message": "Select Elite Select Joocy Froot (H) Elite Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Tahoe OG (I) Elite All In One (0.3g): $25.00 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Golden Tangie (S) Flavor Series Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Trop Cherry Honey Banana (H) Live Rosin Vape Cartridge (0.5g)",
+    "brand": "all:hours",
+    "message": "all:hours Trop Cherry Honey Banana (H) Live Rosin Vape Cartridge (0.5g): $41.00 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g): $97.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Left on Red (H) Disposable Vape (0.5g)",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Left on Red (H) Disposable Vape (0.5g): $35.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Golden Tangie (S) Flavor Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Super Buff (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Super Buff (S) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Panckes (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Panckes (S) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Permanent Patty (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Permanent Patty (H) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz (I) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty (H) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes (S) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Mango Puff (I) Flavor Series Vape Cartridge",
+    "brand": "Select Flavor Series",
+    "message": "Select Flavor Series Select Mango Puff (I) Flavor Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream (H) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select Blue Dream (H) BRIQ Legacy Series Disposable Vape (1g): $58.00 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Joocy Froot (H) Elite All In One (0.3g): $21.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Jack (S) Hyphen Battery and Pod Bundle (1g)",
+    "brand": "back\n\nSativa vape\n\nThe Essence",
+    "message": "back\n\nSativa vape\n\nThe Essence Super Jack (S) Hyphen Battery and Pod Bundle (1g): $65.00 > $74.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peaches n' Cream (H) Live Resin Disposable Vape (1g)",
+    "brand": "SoundView",
+    "message": "SoundView Peaches n' Cream (H) Live Resin Disposable Vape (1g): $63.00 > $72.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Edie Parker Green Queen (S) Vape Cartridge",
+    "brand": null,
+    "message": "null Edie Parker Green Queen (S) Vape Cartridge: $61.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dosido (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Dosido (I) Elite All In One (0.3g): $21.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Z (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select Sour Z (S) BRIQ Legacy Series Disposable Vape (1g): $58.00 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G (H) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G (H) Mini Tank Disposable (0.5g): $39.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Sour Z (S) Legacy Series Vape Cartridge",
+    "brand": "Select Legacy Series",
+    "message": "Select Legacy Series Select Sour Z (S) Legacy Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Z (S) BRIQ Legacy Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select Sour Z (S) BRIQ Legacy Series Disposable Vape (2g): $97.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Durban Poison (S) Legacy Series Vape Cartridge",
+    "brand": "Select Legacy Series",
+    "message": "Select Legacy Series Select Durban Poison (S) Legacy Series Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff (S) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select NYC Diesel (H) Elite Vape Cartridge",
+    "brand": "Select Elite",
+    "message": "Select Elite Select NYC Diesel (H) Elite Vape Cartridge: $49.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Air Hdz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Air Hdz (I) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Theraplant Hash Planet (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Theraplant Theraplant Hash Planet (I) Vape Cartridge: $53.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Garlotti (S) BRIQ Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select Garlotti (S) BRIQ Disposable Vape (2g): $97.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Air Hdz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Air Hdz (I) Mini Tank Disposable (1g): $57.00 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO (H) BRIQ Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select GMO (H) BRIQ Disposable Vape (2g): $96.00 > $110.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Planet (I) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Planet (I) Mini Tank Disposable (0.5g): $39.00 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Guava (S) Live Resin Disposable Vape (1g)",
+    "brand": "Sativa vape\n\nAmigos",
+    "message": "Sativa vape\n\nAmigos Pink Guava (S) Live Resin Disposable Vape (1g): $41.25 > $47.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GASolotti (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select GASolotti (S) BRIQ Legacy Series Disposable Vape (1g): $58.00 > $66.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select GASolotti (S) Legacy Series Vape Cartridge",
+    "brand": "Select Legacy Series",
+    "message": "Select Legacy Series Select GASolotti (S) Legacy Series Vape Cartridge: $26.00 > $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BRIX Cannabis Gush Mintz (I) Vape Cartridge",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - BRIX Cannabis Gush Mintz (I) Vape Cartridge $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BRIX Cannabis Bananaconda (H) Vape Cartridge",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - BRIX Cannabis Bananaconda (H) Vape Cartridge $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Marker (I) AIO Disposable Vape (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Blue Marker (I) AIO Disposable Vape (1g) $55.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "Craic Milk (H) Fast Acting Chocolate (4.64mg 20pk): $28.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "Craic Dark (H) Fast Acting Chocolate (4.75mg 20pk): $28.00 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Sponsored\n\nWana",
+    "message": "New: Sponsored\n\nWana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)",
+    "brand": "back\n\nHybrid edible\n\nEncore",
+    "message": "New: back\n\nHybrid edible\n\nEncore - Sour Black Cherry (H) RSO Gummies (9.88mg 10pk) $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nSponsored\n\nCTPharma",
+    "message": "roll\n\nSponsored\n\nCTPharma Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g): $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g): $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Diesel Bites (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nFind",
+    "message": "roll\n\nFind Diesel Bites (S) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Singapore Sling (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Singapore Sling (S) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Homebody (I) 0.5g Pre-Roll 7pk (3.5g): $36.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Umami OG (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Umami OG (I) 0.5g Pre-Roll 7pk (3.5g): $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Homebody (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Homebody (I) 1g Pre-Roll 1pk (1g): $11.00 > $10.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Couch Surfer (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Couch Surfer (I) 0.5g Pre-Roll 7pk (3.5g): $36.00 > $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave (H) THCA Infused Shorties 5pk (2g)",
+    "brand": "roll\n\nSponsored\n\nCTPharma",
+    "message": "New: roll\n\nSponsored\n\nCTPharma - Strawberry Pave (H) THCA Infused Shorties 5pk (2g) $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Starstruck (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Starstruck (I) 0.5g Pre-Roll 7pk (3.5g): $36.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fritterz (H) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "roll\n\nComffy",
+    "message": "roll\n\nComffy Fritterz (H) 0.5g Pre-Roll 7pk (3.5g): $40.00 > $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nSponsored\n\nCTPharma",
+    "message": "New: roll\n\nSponsored\n\nCTPharma - Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g) $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "C-Stata (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis C-Stata (H) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mega Lemon Goop (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nEarly Birds",
+    "message": "roll\n\nEarly Birds Mega Lemon Goop (H) 0.4g Pre-Rolls 5pk (2g): $36.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ched R Cheez (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Ched R Cheez (I) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rainbow B. (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nRodeo Cannabis",
+    "message": "roll\n\nRodeo Cannabis Rainbow B. (H) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger (I) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "roll\n\nLet's Burn",
+    "message": "roll\n\nLet's Burn Hash Burger (I) 0.5g Pre-Rolls 5pk (2.5g): $39.00 > $34.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem 91 (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis Chem 91 (S) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Floral Frost (H) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Triple Stack (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Triple Stack (I) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdawg (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Chemdawg (H) 0.4g Pre-Rolls 5pk (2g): $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Sunset Kush (I) BH Infused Pre-Roll 1pk (1g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banana Acai Mints (S) Rosin Roll Shorties 4pk (1.6g)",
+    "brand": "roll\n\nall:hours",
+    "message": "roll\n\nall:hours Banana Acai Mints (S) Rosin Roll Shorties 4pk (1.6g): $42.00 > $37.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gush Mintz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis Gush Mintz (I) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Space Gello (H) BH Infused Shorties 4pk (1.6g)",
+    "brand": "roll\n\nall:hours",
+    "message": "roll\n\nall:hours Space Gello (H) BH Infused Shorties 4pk (1.6g): $39.00 > $34.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hi Life (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nLet's Burn",
+    "message": "roll\n\nLet's Burn Hi Life (S) 1g Pre-Roll 1pk (1g): $14.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy (H) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "roll\n\nAffinity Grow",
+    "message": "roll\n\nAffinity Grow Capy (H) 0.7g Pre-Rolls 3pk (2.1g): $32.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Batter (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Berry Batter (I) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Legacy (S) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Durban Legacy (S) BH Infused Pre-Roll 1pk (1g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "roll\n\nAffinity Grow",
+    "message": "roll\n\nAffinity Grow Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g): $28.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Atomic Breath (H) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Chemdawg (H) BH Infused Pre-Roll 1pk (1g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g): $25.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "roll\n\nBRIX Cannabis",
+    "message": "roll\n\nBRIX Cannabis C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g): $27.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CHJ (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "roll\n\nSpringtime",
+    "message": "roll\n\nSpringtime CHJ (I) 1g Pre-Roll 1pk (1g): $10.00 > $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nTheraplant",
+    "message": "New: roll\n\nTheraplant - Gas Face (H) 0.4g Pre-Rolls 5pk (2g) $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nGrassroots",
+    "message": "roll\n\nGrassroots Astro GMO (I) 0.4g Pre-Rolls 5pk (2g): $24.00 > $21.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Ckies (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nMiss Grass",
+    "message": "roll\n\nMiss Grass Chem Ckies (I) 0.4g Pre-Rolls 5pk (2g): $30.00 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "roll\n\nAffinity Grow",
+    "message": "roll\n\nAffinity Grow Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g): $32.00 > $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "LA Kush CKE (I) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "roll\n\nAGL",
+    "message": "New: roll\n\nAGL - LA Kush CKE (I) 0.5g Pre-Rolls 5pk (2.5g) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "roll\n\nEarly Birds",
+    "message": "New: roll\n\nEarly Birds - Specimen X (H) 0.4g Pre-Rolls 5pk (2g) $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tartz (H) Ground Flower",
+    "brand": "Bundle\n\nHybrid flower\n\nGrassroots",
+    "message": "Gone: Bundle\n\nHybrid flower\n\nGrassroots - Apple Tartz (H) Ground Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Regina Gorgeous (H) Flower",
+    "brand": "Hybrid flower\n\nGood Green",
+    "message": "Gone: Hybrid flower\n\nGood Green - Regina Gorgeous (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Z (S) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "Gone: AGL - Durban Z (S) Disposable Vape (0.3g)"
+  }
+]
