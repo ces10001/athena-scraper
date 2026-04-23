@@ -203,8 +203,8 @@ export async function scrapeRise(dispensary) {
           await page.waitForTimeout(500);
         }
         
-        await page.goto(catUrl, { waitUntil: 'networkidle', timeout: 45000 });
-        await page.waitForTimeout(4000);
+        await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(6000);
 
         // Check product count
         var totalForCat = await page.evaluate(function() {
