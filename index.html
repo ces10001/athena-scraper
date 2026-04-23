@@ -351,89 +351,102 @@ function DetailedView({disp,data,onClose}){
   var prods=data.products||[];
   var dispNames=disp.rawNames||[];
   
-  // Count products per category for this dispensary
-  var catCounts={};var totalSKUs=0;
-  prods.forEach(function(p){
-    var found=false;
-    for(var i=0;i<dispNames.length;i++){
-      if(p.dispensaries&&p.dispensaries[dispNames[i]]){found=true;break}
-    }
-    if(found){
-      var cat=(p.category||"Other");
-      catCounts[cat]=(catCounts[cat]||0)+1;
-      totalSKUs++;
-    }
+  // Find starred (home) dispensaries for comparison
+  var homeDisps=[];var homeBase=null;
+  Object.keys(data.dispensaries||{}).forEach(function(name){
+    if(isAff(name)){homeDisps.push(name);if(!homeBase)homeBase=getBase(name)}
   });
+  var hasHome=homeDisps.length>0;
   
-  var catEntries=Object.entries(catCounts).sort(function(a,b){return b[1]-a[1]});
-  var maxCat=catEntries.length>0?catEntries[0][1]:1;
+  // Build category stats for a set of dispensary names
+  function buildStats(names){
+    var catCounts={};var catPrices={};var total=0;
+    prods.forEach(function(p){
+      var found=false;var pr=null;
+      for(var i=0;i<names.length;i++){
+        if(p.dispensaries&&p.dispensaries[names[i]]){found=true;pr=p.dispensaries[names[i]];break}
+      }
+      if(found){
+        var cat=(p.category||"Other");
+        if(cat.toLowerCase()==="gift cards")return;
+        catCounts[cat]=(catCounts[cat]||0)+1;total++;
+        if(!catPrices[cat])catPrices[cat]={sum:0,count:0};
+        if(pr){catPrices[cat].sum+=pr;catPrices[cat].count++}
+      }
+    });
+    return{catCounts:catCounts,catPrices:catPrices,total:total};
+  }
+  
+  var target=buildStats(dispNames);
+  var home=hasHome?buildStats(homeDisps):null;
+  
+  // Merge all categories from both
+  var allCats=new Set([...Object.keys(target.catCounts),...(home?Object.keys(home.catCounts):[])]);
+  var catEntries=[...allCats].sort(function(a,b){return(target.catCounts[b]||0)-(target.catCounts[a]||0)});
+  var maxCat=Math.max(...catEntries.map(function(c){return Math.max(target.catCounts[c]||0,home?(home.catCounts[c]||0):0)}),1);
   var catColors={"Flower":"#2d8f3f","Vaporizers":"#6366f1","Edible":"#e8600a","Pre-Rolls":"#0891b2","Concentrate":"#7c3aed","Tincture":"#db2777","Topical":"#ea580c","CBD":"#059669","other":"#94a3b8"};
   
-  // Calculate avg price per category
-  var catAvgPrices={};
-  prods.forEach(function(p){
-    for(var i=0;i<dispNames.length;i++){
-      var pr=p.dispensaries&&p.dispensaries[dispNames[i]];
-      if(pr){
-        var cat=(p.category||"Other");
-        if(!catAvgPrices[cat])catAvgPrices[cat]={sum:0,count:0};
-        catAvgPrices[cat].sum+=pr;catAvgPrices[cat].count++;
-        break;
-      }
-    }
-  });
-  
   return React.createElement("div",{className:"modal-overlay",onClick:function(e){if(e.target===e.currentTarget)onClose()}},
-    React.createElement("div",{className:"modal"},
+    React.createElement("div",{className:"modal",style:{maxWidth:hasHome?700:500}},
       React.createElement("div",{className:"modal-hdr"},
-        React.createElement("h2",null,disp.name),
+        React.createElement("h2",null,hasHome?"SKU Comparison":"SKU Breakdown — "+disp.name),
         React.createElement("button",{className:"modal-close",onClick:onClose},"✕")
       ),
       React.createElement("div",{className:"modal-body"},
-        // Stats row
-        React.createElement("div",{className:"modal-stat-row"},
-          React.createElement("div",{className:"modal-stat"},
-            React.createElement("div",{className:"ms-val"},totalSKUs.toLocaleString()),
-            React.createElement("div",{className:"ms-lbl"},"Total SKUs")
+        // Header row with both names
+        hasHome?React.createElement("div",{style:{display:'flex',gap:20,marginBottom:16}},
+          React.createElement("div",{style:{flex:1,padding:'10px 14px',background:'rgba(232,96,10,.06)',borderRadius:8,border:'1px solid rgba(232,96,10,.2)'}},
+            React.createElement("div",{style:{fontFamily:'var(--m)',fontSize:11,color:'var(--cy2)',fontWeight:700,textTransform:'uppercase',letterSpacing:'.5px',marginBottom:4}},"★ "+homeBase),
+            React.createElement("div",{style:{fontFamily:'var(--m)',fontSize:22,fontWeight:700,color:'var(--tx)'}},home.total.toLocaleString()),
+            React.createElement("div",{style:{fontSize:10,color:'var(--tx3)'}},"Total SKUs")
           ),
-          React.createElement("div",{className:"modal-stat"},
-            React.createElement("div",{className:"ms-val"},catEntries.length),
-            React.createElement("div",{className:"ms-lbl"},"Categories")
-          ),
-          React.createElement("div",{className:"modal-stat"},
-            React.createElement("div",{className:"ms-val"},disp.city),
-            React.createElement("div",{className:"ms-lbl"},"Location")
+          React.createElement("div",{style:{flex:1,padding:'10px 14px',background:'var(--bg)',borderRadius:8,border:'1px solid var(--bd)'}},
+            React.createElement("div",{style:{fontFamily:'var(--m)',fontSize:11,color:'var(--tx2)',fontWeight:700,textTransform:'uppercase',letterSpacing:'.5px',marginBottom:4}},disp.name),
+            React.createElement("div",{style:{fontFamily:'var(--m)',fontSize:22,fontWeight:700,color:'var(--tx)'}},target.total.toLocaleString()),
+            React.createElement("div",{style:{fontSize:10,color:'var(--tx3)'}},"Total SKUs")
           )
+        ):React.createElement("div",{className:"modal-stat-row"},
+          React.createElement("div",{className:"modal-stat"},React.createElement("div",{className:"ms-val"},target.total.toLocaleString()),React.createElement("div",{className:"ms-lbl"},"Total SKUs")),
+          React.createElement("div",{className:"modal-stat"},React.createElement("div",{className:"ms-val"},catEntries.length),React.createElement("div",{className:"ms-lbl"},"Categories")),
+          React.createElement("div",{className:"modal-stat"},React.createElement("div",{className:"ms-val"},disp.city),React.createElement("div",{className:"ms-lbl"},"Location"))
         ),
-        // Category breakdown bars
+        // Category bars comparison
         React.createElement("div",{className:"modal-section"},
-          React.createElement("h3",null,"SKU Breakdown by Category"),
-          catEntries.map(function(e){
-            var cat=e[0],count=e[1];
-            var pct=Math.round((count/maxCat)*100);
-            var color=catColors[cat]||catColors["other"];
-            var avgP=catAvgPrices[cat]?Math.round(catAvgPrices[cat].sum/catAvgPrices[cat].count*100)/100:0;
-            return React.createElement("div",{key:cat,className:"cat-bar-row"},
-              React.createElement("span",{className:"cat-bar-label"},cat),
-              React.createElement("div",{className:"cat-bar-track"},
-                React.createElement("div",{className:"cat-bar-fill",style:{width:pct+"%",background:color}},
-                  count>10?React.createElement("span",null,count):null
-                )
+          React.createElement("h3",null,"Category Breakdown"),
+          hasHome?React.createElement("div",{style:{display:'flex',gap:16,marginBottom:8,fontSize:10,color:'var(--tx3)'}},
+            React.createElement("span",null,"■ "+homeBase+" (orange)"),
+            React.createElement("span",null,"■ "+disp.name+" (gray)")
+          ):null,
+          catEntries.map(function(cat){
+            var tCount=target.catCounts[cat]||0;
+            var hCount=home?(home.catCounts[cat]||0):0;
+            var tPct=Math.round((tCount/maxCat)*100);
+            var hPct=home?Math.round((hCount/maxCat)*100):0;
+            var tAvg=target.catPrices[cat]?Math.round(target.catPrices[cat].sum/target.catPrices[cat].count):0;
+            var hAvg=home&&home.catPrices[cat]?Math.round(home.catPrices[cat].sum/home.catPrices[cat].count):0;
+            return React.createElement("div",{key:cat,style:{marginBottom:hasHome?10:6}},
+              React.createElement("div",{style:{display:'flex',justifyContent:'space-between',marginBottom:2}},
+                React.createElement("span",{className:"cat-bar-label"},cat),
+                hasHome?React.createElement("span",{style:{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)'}},
+                  hCount+" vs "+tCount+(tAvg?" · ~$"+hAvg+" vs ~$"+tAvg:"")
+                ):React.createElement("span",{style:{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)'}},tCount+(tAvg?" · ~$"+tAvg:""))
               ),
-              React.createElement("span",{className:"cat-bar-count"},count),
-              React.createElement("span",{style:{fontFamily:'var(--m)',fontSize:10,color:'var(--tx3)',minWidth:55,textAlign:'right'}},avgP?"~$"+avgP.toFixed(0):"")
+              hasHome?React.createElement("div",{style:{display:'flex',flexDirection:'column',gap:2}},
+                React.createElement("div",{className:"cat-bar-track"},
+                  React.createElement("div",{className:"cat-bar-fill",style:{width:hPct+"%",background:'var(--cy)',opacity:.8}},hCount>10?React.createElement("span",null,hCount):null)
+                ),
+                React.createElement("div",{className:"cat-bar-track"},
+                  React.createElement("div",{className:"cat-bar-fill",style:{width:tPct+"%",background:'#94a3b8'}},tCount>10?React.createElement("span",null,tCount):null)
+                )
+              ):React.createElement("div",{className:"cat-bar-track"},
+                React.createElement("div",{className:"cat-bar-fill",style:{width:tPct+"%",background:catColors[cat]||catColors["other"]}},tCount>10?React.createElement("span",null,tCount):null)
+              )
             );
           })
         ),
-        // Week-over-week trend placeholder
-        React.createElement("div",{className:"modal-section"},
-          React.createElement("h3",null,"SKU Trends — Week Over Week"),
-          React.createElement("div",{className:"trend-placeholder"},
-            React.createElement("div",{className:"tp-icon"},"📈"),
-            React.createElement("p",null,"Trend data will populate as ATHENA accumulates daily scrapes. After 7+ days of data, this chart will show weekly SKU count changes across each category."),
-            React.createElement("div",{className:"tp-label"},"Data collection in progress")
-          )
-        )
+        !hasHome?React.createElement("div",{style:{padding:'12px 16px',background:'rgba(232,96,10,.04)',borderRadius:8,border:'1px solid rgba(232,96,10,.1)',fontSize:12,color:'var(--tx2)',marginTop:12}},
+          "★ Star your dispensary to see a side-by-side comparison here."
+        ):null
       )
     )
   );
@@ -482,7 +495,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
 
   return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Total SKUs",(data.products||[]).length,"","Unique products across all dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
     <div className="glow"/>
-    <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+    <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
     {q.trim()&&selectedProduct&&<ProductDetail product={selectedProduct}/>}
     {q.trim()&&searchResults.length>1&&<div className="pnl" style={{padding:'8px 12px',marginBottom:10}}><div style={{fontSize:11,color:'var(--tx2)',marginBottom:6}}>Click to view details:</div>{searchResults.map((p,i)=><div key={i} onClick={()=>setSelectedProduct(p)} style={{padding:'6px 10px',cursor:'pointer',borderBottom:'1px solid rgba(0,0,0,.06)',fontSize:13,fontWeight:selectedProduct===p?600:400,color:selectedProduct===p?'var(--cy)':'var(--tx)',background:selectedProduct===p?'rgba(232,96,10,.04)':'transparent'}}>{p.brand} - {p.name} <span style={{color:'var(--tx3)',fontSize:11}}>({Object.keys(p.dispensaries||{}).length} stores)</span></div>)}</div>}
@@ -505,7 +518,7 @@ function MapPanel({data,sel,setSel,radius,setRadius}){
       {center&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setCenter(null);if(circRef.current&&mRef.current){mRef.current.removeLayer(circRef.current);circRef.current=null}setCLabel("Click map or dispensary to set center")}}>Clear</button>}</div></div>;
 }
 
-function DispPanel({data,sel,setSel,toggleFav}){
+function DispPanel({data,sel,setSel,toggleFav,favsVer}){
   const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
   
@@ -534,7 +547,7 @@ function DispPanel({data,sel,setSel,toggleFav}){
       else if(/\(Rec\)/i.test(d))g.hasRec=true;
     });
     return[...byBase.values()].sort((a,b)=>a.base.localeCompare(b.base));
-  },[allD]);
+  },[allD,favsVer]);
   
   const togEntry=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
   const togGroup=useCallback(g=>{setSel(p=>{const n=new Set(p);const allOn=g.entries.every(d=>n.has(d));g.entries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
@@ -574,13 +587,13 @@ function DispPanel({data,sel,setSel,toggleFav}){
 }
 
 function CatTabs({data,cat,setCat}){
-  const cats=useMemo(()=>{const s=new Set();(data.products||[]).forEach(p=>s.add(p.category||"Other"));return["All",...[...s].sort()]},[data]);
+  const cats=useMemo(()=>{const s=new Set();(data.products||[]).forEach(p=>{var c=p.category||"Other";if(c.toLowerCase()!=="gift cards")s.add(c)});return["All",...[...s].sort()]},[data]);
   return<div className="cats">{cats.map(c=><div key={c} className={"ct "+(cat===c?"on":"")} onClick={()=>setCat(c)}>{c}</div>)}</div>;
 }
 
 function Tbl({data,q,sel,cat,comp,setComp}){
   const prods=data.products||[];const cols=useMemo(()=>[...sel].sort((a,b)=>{if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)}),[sel]);const affC=cols.filter(isAff);
-  const rows=useMemo(()=>{let it=prods;if(cat!=="All")it=it.filter(p=>p.category===cat);if(q.trim()){const s=q.toLowerCase();it=it.filter(p=>(p.name||"").toLowerCase().includes(s)||(p.brand||"").toLowerCase().includes(s))}return it.filter(p=>{const n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;return comp?n>=2:n>=1})},[prods,q,sel,cat,comp]);
+  const rows=useMemo(()=>{let it=prods.filter(p=>(p.category||"").toLowerCase()!=="gift cards");if(cat!=="All")it=it.filter(p=>p.category===cat);if(q.trim()){const s=q.toLowerCase();it=it.filter(p=>(p.name||"").toLowerCase().includes(s)||(p.brand||"").toLowerCase().includes(s))}return it.filter(p=>{const n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;return comp?n>=2:n>=1})},[prods,q,sel,cat,comp]);
   const doExport=()=>{const hdr=["Product","Brand","Category",...cols.map(cleanD)];const d=rows.map(p=>[p.name,p.brand,p.category,...cols.map(c=>p.dispensaries?.[c]||"")]);const ws=XLSX.utils.aoa_to_sheet([hdr,...d]);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"ATHENA");XLSX.writeFile(wb,"athena_export.xlsx")};
   return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only (at 2+ stores)</label><button className="btn pri" onClick={doExport}>Export Excel</button></div></div>
     {!rows.length?<div className="empty"><h3>No matches</h3></div>:<div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Cat</th>{cols.map(d=><th key={d} className={isAff(d)?"yc":""}>{isAff(d)?"★ ":""}{cleanD(d)}</th>)}</tr></thead>
@@ -678,7 +691,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
     XLSX.writeFile(wb,"athena_highs_lows.xlsx");
   };
 
-  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
         <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
@@ -777,7 +790,7 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
     XLSX.writeFile(wb,"athena_price_movements.xlsx")
   };
   
-  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
         <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
@@ -849,7 +862,7 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
   const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
   const doExport=()=>{const rows=[["Chain","Dispensary","Product","Brand","Category","Their Price"]];shown.forEach(g=>{g.locations.forEach(([dn,info])=>{info.items.forEach(p=>{rows.push([g.chain,cleanD(dn),p.name,p.brand,p.category,"$"+p.price.toFixed(2)])})})});const ws=XLSX.utils.aoa_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Product Gaps");ws["!cols"]=[{wch:20},{wch:30},{wch:40},{wch:20},{wch:15},{wch:12}];XLSX.writeFile(wb,"athena_product_gaps.xlsx")};
 
-  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span><button className="btn pri" onClick={doExport}>Export Excel</button></div>
     <div className="pnl-d">{affC.length>0?"Step 1: Your starred ★ dispensaries are your home base. Step 2: Select competitors in the panel above. Below shows every product they carry that you don't — grouped by chain. Click any chain to expand and see specific products, brands, and prices.":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
     {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
@@ -864,98 +877,48 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
    ═══════════════════════════════════════ */
 function DealsTab({data,favsVer,toggleFav,sel,setSel}){
   var[radius,setRadius]=useState(10);
-  var[dq,setDq]=useState("");
-  var[sortBy,setSortBy]=useState("pct");
   var storePromos=data.store_promos||[];
-  var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
   
   // Filter by selected dispensaries
-  var filtered=useMemo(function(){
-    var d=deals;
-    if(sel.size>0)d=d.filter(function(x){return sel.has(x.dispensary)});
-    if(dq.trim()){var s=dq.toLowerCase();d=d.filter(function(x){return(x.product||"").toLowerCase().includes(s)||(x.dispensary||"").toLowerCase().includes(s)||(x.brand||"").toLowerCase().includes(s)||(x.category||"").toLowerCase().includes(s)})}
-    if(sortBy==="pct")d=[...d].sort(function(a,b){return b.pct_off-a.pct_off});
-    else if(sortBy==="save")d=[...d].sort(function(a,b){return(b.original-b.discounted)-(a.original-a.discounted)});
-    else d=[...d].sort(function(a,b){return a.discounted-b.discounted});
-    return d;
-  },[deals,sel,dq,sortBy]);
-  
-  // Filter store promos by selected dispensaries
   var filteredPromos=useMemo(function(){
     if(!storePromos.length)return[];
     if(sel.size===0)return storePromos;
     return storePromos.filter(function(p){return sel.has(p.dispensary)});
   },[storePromos,sel]);
   
-  // Summary stats
-  var totalSavings=filtered.reduce(function(s,d){return s+(d.original-d.discounted)},0);
-  var bestDeal=filtered.length>0?filtered.reduce(function(best,d){return d.pct_off>best.pct_off?d:best},filtered[0]):null;
-  var dispsWithDeals=new Set();filtered.forEach(function(d){dispsWithDeals.add(d.dispensary)});
+  // Group promos by base dispensary name for cleaner display
+  var grouped=useMemo(function(){
+    var byDisp={};
+    filteredPromos.forEach(function(p){
+      var base=getBase(p.dispensary);
+      if(!byDisp[base])byDisp[base]={name:base,deals:[],isYou:isAff(p.dispensary)};
+      byDisp[base].deals.push(p);
+    });
+    return Object.values(byDisp).sort(function(a,b){
+      if(a.isYou&&!b.isYou)return-1;if(!a.isYou&&b.isYou)return 1;
+      return a.name.localeCompare(b.name);
+    });
+  },[filteredPromos,favsVer]);
   
-  var doExport=function(){
-    var rows=[["Dispensary","Product","Brand","Category","Sale Price","Original","% Off","Savings"]];
-    filtered.forEach(function(d){rows.push([cleanD(d.dispensary),d.product,d.brand,d.category,"$"+d.discounted.toFixed(2),"$"+d.original.toFixed(2),d.pct_off+"%","$"+(d.original-d.discounted).toFixed(2)])});
-    var ws=XLSX.utils.aoa_to_sheet(rows);var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,"Deals");
-    ws["!cols"]=[{wch:25},{wch:40},{wch:20},{wch:12},{wch:12},{wch:12},{wch:8},{wch:10}];
-    XLSX.writeFile(wb,"athena_deals.xlsx");
-  };
+  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
   
-  return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav}/></div>
-  
-    {/* Store-Wide Promotions */}
-    <div className="pnl" style={{marginTop:12}}>
-      <div className="pnl-t">Store-Wide Promotions</div>
-      <div className="pnl-d">Banner deals and promotions each dispensary is running — like bulk discounts, brand sales, and BOGO offers. Select dispensaries above to filter.</div>
-      {filteredPromos.length>0?
-        <div className="deal-grid">{filteredPromos.map(function(p,i){return<div key={i} className="deal-promo">
-          <div className="deal-promo-title">{p.title}</div>
-          <div className="deal-promo-desc">{p.description}</div>
-          <div style={{marginTop:6,fontSize:11,color:'var(--tx3)',fontFamily:'var(--m)'}}>{cleanD(p.dispensary)}{p.conditions?" · "+p.conditions:""}</div>
-        </div>})}</div>
-      :<div className="deal-promo">
-        <div className="deal-promo-title">No Promotions Yet</div>
-        <div className="deal-promo-desc">Store-wide promotions like "20% off all Brix Products" or "Buy 4 eighths, get 20% off" will appear here after the next scrape run. These are the banner deals from each dispensary's Specials page.</div>
-      </div>}
-    </div>
-    
-    {/* Product-Level Deals */}
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-        <span className="pnl-t" style={{margin:0}}>Products On Sale ({filtered.length.toLocaleString()})</span>
-        <div className="row">
-          <button className={"btn "+(sortBy==="pct"?"pri":"")} onClick={function(){setSortBy("pct")}}>Biggest %</button>
-          <button className={"btn "+(sortBy==="save"?"pri":"")} onClick={function(){setSortBy("save")}}>Most Saved</button>
-          <button className={"btn "+(sortBy==="price"?"pri":"")} onClick={function(){setSortBy("price")}}>Lowest Price</button>
-          <button className="btn pri" onClick={doExport}>Export</button>
-        </div>
+        <span className="pnl-t" style={{margin:0}}>Store-Wide Promotions ({filteredPromos.length})</span>
       </div>
-      <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search products, brands, dispensaries..." value={dq} onChange={function(e){setDq(e.target.value)}}/></div>
-      
-      <div className="stats" style={{marginBottom:12}}>
-        <div className="st"><div className="st-l">Deals Found</div><div className="st-v">{filtered.length.toLocaleString()}</div></div>
-        <div className="st"><div className="st-l">Dispensaries</div><div className="st-v">{dispsWithDeals.size}</div></div>
-        <div className="st"><div className="st-l">Total Savings</div><div className="st-v gn">{"$"+totalSavings.toFixed(0)}</div></div>
-        <div className="st"><div className="st-l">Best Deal</div><div className="st-v gn">{bestDeal?bestDeal.pct_off+"%":"—"}</div></div>
-      </div>
-      
-      <div className="pnl-d">{sel.size>0?"Showing "+filtered.length+" discounted products at "+dispsWithDeals.size+" selected dispensaries.":"Showing all discounted products. Select dispensaries above to narrow down."} Use the sort buttons to find the biggest percentage off, the most dollar savings, or the lowest sale price. Search for a specific product or brand below.</div>
-      
-      {filtered.length===0?<div className="empty"><h3>No deals found</h3><p style={{fontSize:12}}>{sel.size>0?"No active deals at selected dispensaries.":"No active deals in the current data."}</p></div>:
-      <div className="deal-grid">{filtered.slice(0,200).map(function(d,i){
-        return<div key={i} className="deal-card">
-          <div className="deal-card-hdr">
-            <div className="deal-card-disp">{cleanD(d.dispensary)}</div>
-            <div className="deal-card-badge">{d.pct_off}% OFF</div>
-          </div>
-          <div className="deal-card-product">{d.product}</div>
-          <div className="deal-card-brand">{d.brand} · {d.category}</div>
-          <div className="deal-card-prices">
-            <span className="deal-card-sale">{"$"+d.discounted.toFixed(2)}</span>
-            <span className="deal-card-orig">{"$"+d.original.toFixed(2)}</span>
-            <span className="deal-card-save">Save {"$"+(d.original-d.discounted).toFixed(2)}</span>
-          </div>
-        </div>
-      })}</div>}
+      <div className="pnl-d">Banner deals and promotions each dispensary is running — like bulk discounts, brand sales, and BOGO offers. Select dispensaries above to filter.</div>
+      {grouped.length>0?
+        grouped.map(function(g){return<div key={g.name} style={{marginBottom:16}}>
+          <div style={{fontFamily:'var(--m)',fontSize:12,fontWeight:700,color:g.isYou?'var(--cy2)':'var(--tx)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:8,paddingBottom:4,borderBottom:'1px solid var(--bd)'}}>{g.isYou?"★ ":""}{g.name}</div>
+          <div className="deal-grid">{g.deals.map(function(p,i){return<div key={i} className="deal-promo">
+            <div className="deal-promo-title">{p.title}</div>
+            {p.description?<div className="deal-promo-desc">{p.description}</div>:null}
+          </div>})}</div>
+        </div>})
+      :<div className="deal-promo">
+        <div className="deal-promo-title">No Promotions Found</div>
+        <div className="deal-promo-desc">{sel.size>0?"No promotions at selected dispensaries. Try selecting more stores above.":"Store-wide promotions like \"20% off all Brix\" or \"Buy 4 eighths, get 20% off\" will appear here. Select dispensaries above to filter."}</div>
+      </div>}
     </div></>;
 }
 
