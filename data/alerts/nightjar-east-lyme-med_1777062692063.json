@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Regina Gorgeous x Jet Fuel 1g | 01376",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Regina Gorgeous x Jet Fuel 1g | 01376 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Lemon Drip x Sour D 1g | 01395",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Lemon Drip x Sour D 1g | 01395 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Fantasy Melonz x Vel Croz 1g | 01393",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Fantasy Melonz x Vel Croz 1g | 01393 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Do Not Trip 0.5g | 01443",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Vape Cart | Do Not Trip 0.5g | 01443 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vape Cart | Animal Face x Purple Tyde 1g | 01391",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Vape Cart | Animal Face x Purple Tyde 1g | 01391 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | JAMS Sour Watermelon Lime | Fast Acting Jellies | 01405",
+    "brand": "JAMS",
+    "message": "New: JAMS - Gummies | JAMS Sour Watermelon Lime | Fast Acting Jellies | 01405 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | RYTHM | Grape Bubble G 3.5g | 01198",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Flower | RYTHM | Grape Bubble G 3.5g | 01198 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flower | Good Green | Bubba F 3.5g | 01377",
+    "brand": "Good Green",
+    "message": "New: Good Green - Flower | Good Green | Bubba F 3.5g | 01377 $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Pack | Jokerz THCA Infused Shorties 5pk | 27005",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Pre-Roll Pack | Jokerz THCA Infused Shorties 5pk | 27005"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Pack | Slapz 5 Pack Minis | 01372",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Pre-Roll Pack | Slapz 5 Pack Minis | 01372"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Pack | Nimbus Snacks THCA Infused Shorties 5pk | 26965",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Pre-Roll Pack | Nimbus Snacks THCA Infused Shorties 5pk | 26965"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Cherry 10:5 (CBD:THC) | 20pk | 00343",
+    "brand": "COAST Cannabis Co.",
+    "message": "Gone: COAST Cannabis Co. - Gummies | Cherry 10:5 (CBD:THC) | 20pk | 00343"
+  }
+]

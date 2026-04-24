@@ -1,0 +1,92 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Tangerine Peach Gummies H 00915",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Tangerine Peach Gummies H 00915: $31.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Coconut Milk Flower T29.49% I 00794: $48.00 > $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Tangie Crush S 26972",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Guap RSO Tangie Crush S 26972 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy Flower Minis T31.92% H 00873",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy Flower Minis T31.92% H 00873"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Loud Cannabis Orange Cookiez (I) C0170000039",
+    "brand": "Loud",
+    "message": "Gone: Loud - Loud Cannabis Orange Cookiez (I) C0170000039"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Lighthouse-Blue Dream Live Resin-(H)-510-Cart-1g-00472"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|Flower 3.5g|Couch Surfer 00195",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|Flower 3.5g|Couch Surfer 00195"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple Flower T30.10% I 00856",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple Flower T30.10% I 00856"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000038",
+    "brand": "Loud",
+    "message": "Gone: Loud - Loud Cannabis Golden Tangie (S) C0170000038"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g Zuava H 26948"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cke 2g Fatboy 41528",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Ice Cream Cke 2g Fatboy 41528"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Legacy Series Briq 2 1g Sour Z (S) 01565",
+    "brand": "Select",
+    "message": "Gone: Select - Select Legacy Series Briq 2 1g Sour Z (S) 01565"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Cherry BMB (S) 01396",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Briq All In One Disposable Vape 2g Cherry BMB (S) 01396"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Tangie Crush S 26852",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Tangie Crush S 26852"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Preroll 1g Single Slingria (S) 01544 TC 25.949%",
+    "brand": "Find.",
+    "message": "Gone: Find. - FIND. Preroll 1g Single Slingria (S) 01544 TC 25.949%"
+  }
+]

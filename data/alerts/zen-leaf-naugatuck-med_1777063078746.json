@@ -1,0 +1,152 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Scout Breath $25.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Applescotti $25.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Wedding $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosi-Punch",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dosi-Punch $43.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Haze $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosilato",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dosilato $43.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Cooler",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Cooler $56.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava",
+    "brand": "Savvy",
+    "message": "New: Savvy - Zuava $9.82"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peachy Punch 1:1 RSO CBD:THC",
+    "brand": "Savvy",
+    "message": "New: Savvy - Peachy Punch 1:1 RSO CBD:THC $9.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweet Berry Burst",
+    "brand": "Encore",
+    "message": "New: Encore - Sweet Berry Burst $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango RSO",
+    "brand": "Encore",
+    "message": "New: Encore - Mango RSO $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango RSO",
+    "brand": "Encore",
+    "message": "New: Encore - Mango RSO $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore",
+    "message": "New: Encore - Sweet Strawberry $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Banana Cream OG $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Sour Z $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "New: Select - Garlotti $49.72"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bubba F $72.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel $38.67"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "E85",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - E85"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Pop",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Pop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Punch",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pomegranate Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Watermelon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg Spark",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg Spark"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Fantasy Melonz"
+  }
+]

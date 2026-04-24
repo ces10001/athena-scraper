@@ -1,0 +1,374 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "5:1",
+    "brand": "Wana",
+    "message": "New: Wana - 5:1 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1:1:1 CBG/",
+    "brand": "Wana",
+    "message": "New: Wana - 1:1:1 CBG/ $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk",
+    "brand": null,
+    "message": "New: null - WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CANN Lemon Lavender Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - CANN Lemon Lavender Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Roads Tropical Daze Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - Roads Tropical Daze Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Roads Berry Good Vibes Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - Roads Berry Good Vibes Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CANN Blood Orange Cardamom Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - CANN Blood Orange Cardamom Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Roads Razz Lime Rush Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - Roads Razz Lime Rush Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CANN Grapefruit Rosemary Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - CANN Grapefruit Rosemary Hemp-Derived Beverage (3mg $3.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GP20 1g BHO Live Resin Badder - MED T66.52% H C0020025878 - 1.0gCTPharmaLive Res",
+    "brand": null,
+    "message": "New: null - GP20 1g BHO Live Resin Badder - MED T66.52% H C0020025878 - 1.0gCTPharmaLive Res $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jane Gold rewardsView allView all20% backRodeo Cannabis•BundleBuy one Rodeo Pre-",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all20% backRodeo Cannabis•BundleBuy one Rodeo Pre-: $59.00 > $75.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR High Octane 2g AIO Vape 41675BudrAIO $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Roll 2g AIO Vape 41674BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR Roll 2g AIO Vape 41674BudrAIO $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Berry Bonbon 2g AIO Vape 41673BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR Berry Bonbon 2g AIO Vape 41673BudrAIO $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g B Scout (I) 01363",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g B Scout (I) 01363 $164.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g Small Flower Swamp Water Fumez (H) 01380RYTHMSmalls",
+    "brand": "Rythm",
+    "message": "New: Rythm - 7g Small Flower Swamp Water Fumez (H) 01380RYTHMSmalls $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Infused Party Pack 41776Theraplant10 Pack",
+    "brand": null,
+    "message": "New: null - Modified Donkey Infused Party Pack 41776Theraplant10 Pack $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Vape Regina Gorgeous x Jet Fuel (H) 01376Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "New: AGL - 1g Vape Regina Gorgeous x Jet Fuel (H) 01376Advanced Grow Labs (AGL)Distillate $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Afternoon Delight (H) 01347 $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Classic Bites Raspberry 00949CuraleafGummies(EACH)272.7mg 10pk",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Classic Bites Raspberry 00949CuraleafGummies(EACH)272.7mg 10pk $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Big Dog B Scout (I) 01356DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 1g Big Dog B Scout (I) 01356DogwalkersBig Dog $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Popular5% backHybridSavvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "New: Savvy - Popular5% backHybridSavvy Smalls 7g Zuava H 26948 $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSativaSavvy Smalls 14g Super Lemon G S 26930",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backSativaSavvy Smalls 14g Super Lemon G S 26930 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 14g Bananaconda (H) 01397",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 14g Bananaconda (H) 01397 $91.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 32%GrassrootsD",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 32%GrassrootsD $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "14g Select Grind Lemon Drip (S) 01199Advanced Grow Labs (AGL)Select Grind",
+    "brand": "AGL",
+    "message": "New: AGL - 14g Select Grind Lemon Drip (S) 01199Advanced Grow Labs (AGL)Select Grind $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ground Flower 28g B Scout (I) 01401Good GreenGround",
+    "brand": "Good Green",
+    "message": "New: Good Green - Ground Flower 28g B Scout (I) 01401Good GreenGround $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Big Dog Afternoon Delight #4 (H) 01382DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 1g Big Dog Afternoon Delight #4 (H) 01382DogwalkersBig Dog $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 14g Glue Fondue (S) 01179",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 14g Glue Fondue (S) 01179 $91.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Soap Whole Flower 3.5g (S) 00431",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Brix Cannabis Soap Whole Flower 3.5g (S) 00431 $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "Gone: null - @import\"https://fonts.googleapis.com/css2?family=Source+Sans"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaAmigos-Zlushie Live Resin-(I)-Disposable-1g-00446Amigo",
+    "brand": null,
+    "message": "Gone: null - IndicaAmigos-Zlushie Live Resin-(I)-Disposable-1g-00446Amigo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6",
+    "brand": null,
+    "message": "Gone: null - HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) 12 o",
+    "brand": null,
+    "message": "Gone: null - New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) 12 o"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Berry Good Vibes Hemp-Derived Beverage (3mg THC) 1",
+    "brand": null,
+    "message": "Gone: null - New Roads Berry Good Vibes Hemp-Derived Beverage (3mg THC) 1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCANN Blood Orange Cardamom Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "Gone: null - HybridCANN Blood Orange Cardamom Hemp-Derived Beverage (3mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC) 12",
+    "brand": null,
+    "message": "Gone: null - New Roads Razz Lime Rush Hemp-Derived Beverage (3mg THC) 12"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3mg TH",
+    "brand": null,
+    "message": "Gone: null - HybridCANN Grapefruit Rosemary Hemp-Derived Beverage (3mg TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridGP20 1g BHO Live Resin Badder - MED T66.52% H C0020025",
+    "brand": null,
+    "message": "Gone: null - HybridGP20 1g BHO Live Resin Badder - MED T66.52% H C0020025"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vap",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)THC 91.03",
+    "brand": null,
+    "message": "Gone: null - IndicaBUDR Roll 2g AIO Vape 41674BudrAIO Vape(EACH)THC 91.03"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)THC 36.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28G)THC 36."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridModified Donkey Infused Party Pack 41776Theraplant10 P",
+    "brand": null,
+    "message": "Gone: null - HybridModified Donkey Infused Party Pack 41776Theraplant10 P"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376Advanc",
+    "brand": null,
+    "message": "Gone: null - HybridAGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376Advanc"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMCartri",
+    "brand": null,
+    "message": "Gone: null - HybridRythm 0.5g Vape Afternoon Delight (H) 01347RYTHMCartri"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftHybridCuraleaf Classic Bites Raspberry 00949Cural",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftHybridCuraleaf Classic Bites Raspberry 00949Cural"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaDogwalkers 1g Big Dog B Scout (I) 01356DogwalkersBig D",
+    "brand": null,
+    "message": "Gone: null - IndicaDogwalkers 1g Big Dog B Scout (I) 01356DogwalkersBig D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PopularHybridRythm 7g Small Flower Swamp Water Fumez (H) 013",
+    "brand": null,
+    "message": "Gone: null - PopularHybridRythm 7g Small Flower Swamp Water Fumez (H) 013"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaRythm 28g B Scout (I) 01363RYTHMMixed Buds(28"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridGood Green 14g Bananaconda (H) 01397Good GreenMixed Bu",
+    "brand": null,
+    "message": "Gone: null - HybridGood Green 14g Bananaconda (H) 01397Good GreenMixed Bu"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaGood Green Ground Flower 28g B Scout (I) 01401Good Gre",
+    "brand": null,
+    "message": "Gone: null - IndicaGood Green Ground Flower 28g B Scout (I) 01401Good Gre"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backHybridSavvy Smalls 7g Zuava H 26948SavvyFLOWER (7G)TH",
+    "brand": null,
+    "message": "Gone: null - 5% backHybridSavvy Smalls 7g Zuava H 26948SavvyFLOWER (7G)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaAGL 14g Select Grind Lemon Drip (S) 01199Advanced Grow",
+    "brand": null,
+    "message": "Gone: null - SativaAGL 14g Select Grind Lemon Drip (S) 01199Advanced Grow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSponsoredSativaGood Green 14g Glue Fondue (S) 011",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSponsoredSativaGood Green 14g Glue Fondue (S) 011"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaThe Happy Confection MED - Sunset Citron (I)",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaThe Happy Confection MED - Sunset Citron (I)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A",
+    "brand": null,
+    "message": "Gone: null - HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG",
+    "brand": null,
+    "message": "Gone: null - SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG"
+  }
+]

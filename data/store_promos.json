@@ -1,5 +1,41 @@
 [
   {
+    "title": "Buy 3 Units Of Flower = 30% OFF EACH!",
+    "description": "Buy 3 Units of Flower and Receive 30% Off Each!",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "AFFINITY 20% OFF!",
+    "description": "All Affinity Grow & Chew Products are 20% OFF!",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 2 Units Of Flower = 20% OFF EACH!",
+    "description": "Buy 2 Units of Flower and Receive 20% Off Each!",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 3 Units Of Vapes = 30% OFF EACH!",
+    "description": "Buy 3 Units of Any Type Of Vape and Receive 30% Off Each! (LOUD CANNABIS IS EXCLUDED)",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 2 Units Of Vapes = 20% OFF EACH!",
+    "description": "Buy 2 Units of Any Type Of Vape and Receive 20% Off Each! (LOUD CANNABIS IS EXCLUDED)",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Loud Cannabis!",
+    "description": "ANY 3 1g Vape Carts For $100",
+    "dispensary": "Lit New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "Member Discount",
     "description": "",
     "dispensary": "The Harvest Corner (Rec)",
@@ -456,6 +492,12 @@
     "platform": "sweed"
   },
   {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
@@ -463,18 +505,6 @@
   },
   {
     "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
@@ -528,13 +558,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -624,13 +654,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
@@ -666,13 +696,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Lucky Break Products | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
@@ -714,7 +744,7 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
@@ -726,7 +756,7 @@
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
@@ -750,13 +780,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "New Prices!",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "New Prices!",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"

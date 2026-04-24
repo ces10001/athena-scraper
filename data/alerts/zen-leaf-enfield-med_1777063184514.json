@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Black Thai",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Black Thai $37.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trophy Dawg",
+    "brand": "Savvy",
+    "message": "New: Savvy - Trophy Dawg $135.00"
+  }
+]

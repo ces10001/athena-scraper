@@ -1,0 +1,212 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "BUDR Roll 2g AIO Vape 41674BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR Roll 2g AIO Vape 41674BudrAIO $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR High Octane 2g AIO Vape 41675BudrAIO $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "New: AGL - 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "300mg Pen Creamsicle Sunset (H) 01406Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "New: AGL - 300mg Pen Creamsicle Sunset (H) 01406Advanced Grow Labs (AGL)Distillate $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5 Pack Minis Living Legend (S) 01163Advanced Grow Labs (AGL)Pre Rolls 5 Pack(.5g",
+    "brand": "AGL",
+    "message": "New: AGL - 5 Pack Minis Living Legend (S) 01163Advanced Grow Labs (AGL)Pre Rolls 5 Pack(.5g $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy Spark - Fast Times 0.4g 41786",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Durban Legacy Spark - Fast Times 0.4g 41786 $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Dulce De Uva (I) 01339",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Dulce De Uva (I) 01339 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g LEAF Live Sauce Pen White Truffle (I) 01369RYTHMLive Sauce Disposable Vape Pe",
+    "brand": "Rythm",
+    "message": "New: Rythm - 1g LEAF Live Sauce Pen White Truffle (I) 01369RYTHMLive Sauce Disposable Vape Pe $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backIndicaEncore Sweet Berry Burst Gummies T93.6mg I 26898Encore EdiblesGumm",
+    "brand": null,
+    "message": "New: null - 15% backIndicaEncore Sweet Berry Burst Gummies T93.6mg I 26898Encore EdiblesGumm $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PopularHybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dog",
+    "brand": null,
+    "message": "New: null - PopularHybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dog $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "1g Big Dog Lemon Drip (S) 01294DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 1g Big Dog Lemon Drip (S) 01294DogwalkersBig Dog $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g Select Grind Grape Bubble G (H) 01202Advanced Grow Labs (AGL)Select Grind",
+    "brand": "AGL",
+    "message": "New: AGL - 7g Select Grind Grape Bubble G (H) 01202Advanced Grow Labs (AGL)Select Grind $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|Jai Alai 00198",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy|Flower 3.5g|Jai Alai 00198 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs ( $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5 Pack Minis B Scout (I) 01316Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-rolls, 1.7",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - 5 Pack Minis B Scout (I) 01316Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-rolls, 1.7 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg Spark - All Times 0.4g 41785",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg Spark - All Times 0.4g 41785 $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Skunk Flower T27.43% S 00883 $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "Gone: null - @import\"https://fonts.googleapis.com/css2?family=Source+Sans"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaBUDR Roll 2g AIO Vape 41674BudrAIO",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaBUDR Roll 2g AIO Vape 41674BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH",
+    "brand": null,
+    "message": "Gone: null - HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG",
+    "brand": null,
+    "message": "Gone: null - SativaAGL 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 leftHybridAGL 300mg Pen Creamsicle Sunset (H) 01406Ad",
+    "brand": null,
+    "message": "Gone: null - Only 3 leftHybridAGL 300mg Pen Creamsicle Sunset (H) 01406Ad"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSativaAGL 5 Pack Minis Living Legend (S) 01163Adv",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSativaAGL 5 Pack Minis Living Legend (S) 01163Adv"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridFIND. Whole Flower 7g Back Porch (H) 01660 TC 32.920%F",
+    "brand": null,
+    "message": "Gone: null - HybridFIND. Whole Flower 7g Back Porch (H) 01660 TC 32.920%F"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 leftSativaDurban Legacy Spark - Fast Times 0.4g 41786",
+    "brand": null,
+    "message": "Gone: null - Only 1 leftSativaDurban Legacy Spark - Fast Times 0.4g 41786"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(.",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 0.5g Vape Dulce De Uva (I) 01339RYTHMCartridge(."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RY",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 1g LEAF Live Sauce Pen White Truffle (I) 01369RY"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dog",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridDogwalkers 5 Pack Minis Vel Croz (H) 01386Dog"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridAGL 7g Select Grind Grape Bubble G (H) 01202A",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridAGL 7g Select Grind Grape Bubble G (H) 01202A"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 leftSativaDogwalkers 1g Big Dog Lemon Drip (S) 01294D",
+    "brand": null,
+    "message": "Gone: null - Only 1 leftSativaDogwalkers 1g Big Dog Lemon Drip (S) 01294D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)THC 24.",
+    "brand": null,
+    "message": "Gone: null - HybridBanapple Medellin 7g 41518TheraplantFLOWER (7G)THC 24."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - SativaRythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredSativaComffy|Flower 3.5g|Jai Alai 00198",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - SponsoredSativaComffy|Flower 3.5g|Jai Alai 00198"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSponsoredSativaAGL 300mg Pen Durban Z (S) 01407Ad",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSponsoredSativaAGL 300mg Pen Durban Z (S) 01407Ad"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaAGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs (A",
+    "brand": null,
+    "message": "Gone: null - IndicaAGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs (A"
+  }
+]

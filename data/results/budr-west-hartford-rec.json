@@ -1,27 +1,7 @@
 [
   {
-    "external_id": "budrcannabis-Only1leftBudrProduct",
-    "name": "Only 1 left🧈Budr Products🧈View allView allIndicaBUDR Roll",
-    "brand": null,
-    "category": "vaporizers",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 9900,
-    "original_price_cents": null,
-    "weight_label": "2g",
-    "weight_grams": 2,
-    "unit_price_per_gram": 4950,
-    "thc_pct": 91.03,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": null,
-    "product_url": null
-  },
-  {
-    "external_id": "budrcannabis-HybridBUDRHighOctane",
-    "name": "HybridBUDR High Octane 2g AIO Vape 41675BudrAIO Vape(EACH)TH",
+    "external_id": "budrcannabis-BUDRHighOctane2gAIOV",
+    "name": "BUDR High Octane 2g AIO Vape 41675BudrAIO",
     "brand": null,
     "category": "vaporizers",
     "subcategory": null,
@@ -40,8 +20,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaBUDRBerryBonbo",
-    "name": "SativaBUDR Berry Bonbon 2g AIO Vape 41673BudrAIO Vape(EACH)T",
+    "external_id": "budrcannabis-BUDRBerryBonbon2gAIO",
+    "name": "BUDR Berry Bonbon 2g AIO Vape 41673BudrAIO",
     "brand": null,
     "category": "vaporizers",
     "subcategory": null,
@@ -60,8 +40,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridBUDRSweetTooth",
-    "name": "HybridBUDR Sweet Tooth 2g AIO Vape 41672BudrAIO Vape(EACH)TH",
+    "external_id": "budrcannabis-BUDRSweetTooth2gAIOV",
+    "name": "BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO",
     "brand": null,
     "category": "vaporizers",
     "subcategory": null,
@@ -81,8 +61,8 @@
   },
   {
     "external_id": "budrcannabis-01631",
-    "name": "🧈 Freshly Churned 🧈View allView allSativaGrassroots Ground",
-    "brand": null,
+    "name": "🧈 Freshly Churned 🧈View allView allSativaGrassroots Ground Flower 3.5g Citrade",
+    "brand": "Grassroots",
     "category": "flower",
     "subcategory": null,
     "strain_type": null,
@@ -100,9 +80,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridDogwalkers5Pac",
-    "name": "HybridDogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dog",
-    "brand": null,
+    "external_id": "budrcannabis-5PackMinisSwampWater",
+    "name": "5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-",
+    "brand": "Dogwalkers",
     "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,
@@ -121,8 +101,8 @@
   },
   {
     "external_id": "budrcannabis-5backSativaSavvyNimb",
-    "name": "5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009SavvyPre",
-    "brand": null,
+    "name": "5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
     "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,
@@ -141,8 +121,8 @@
   },
   {
     "external_id": "budrcannabis-5backHybridSavvyLemo",
-    "name": "5% backHybridSavvy Lemon Cherry Sherb 1g Pre-Roll H 26886Sav",
-    "brand": null,
+    "name": "5% backHybridSavvy Lemon Cherry Sherb 1g Pre-Roll H 26886",
+    "brand": "Savvy",
     "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,
@@ -160,9 +140,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridAGL1gVapeFanta",
-    "name": "HybridAGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advance",
-    "brand": null,
+    "external_id": "budrcannabis-1gVapeFantasyMelonzx",
+    "name": "1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
     "category": "vaporizers",
     "subcategory": null,
     "strain_type": null,
@@ -180,9 +160,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridBlueSherb1gPur",
-    "name": "HybridBlue Sherb 1g Pure Vape T884 H 27017CTPharmaCartridge(",
-    "brand": null,
+    "external_id": "budrcannabis-BlueSherb1gPureVapeT",
+    "name": "Blue Sherb 1g Pure Vape T884 H 27017",
+    "brand": "CTPharma",
     "category": "vaporizers",
     "subcategory": null,
     "strain_type": null,
@@ -200,9 +180,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-IndicaSelectFlavorSe",
-    "name": "IndicaSelect Flavor Series 510 1g Sofa Sonata (I) 01629Selec",
-    "brand": null,
+    "external_id": "budrcannabis-FlavorSeries5101gSof",
+    "name": "Flavor Series 510 1g Sofa Sonata (I) 01629SelectFlavor Series",
+    "brand": "Select",
     "category": "vaporizers",
     "subcategory": null,
     "strain_type": null,
@@ -220,8 +200,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaStrawberryCndy",
-    "name": "SativaStrawberry Cndy 2g Fatboy 41775TheraplantInfused Pre R",
+    "external_id": "budrcannabis-StrawberryCndy2gFatb",
+    "name": "Strawberry Cndy 2g Fatboy 41775TheraplantInfused",
     "brand": null,
     "category": "pre-rolls",
     "subcategory": null,
@@ -240,8 +220,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridEARLyBirdsInfi",
-    "name": "HybridEARLy Birds | Infinity Grapes 023Earl Baker5 Pack Pre",
+    "external_id": "budrcannabis-EARLyBirdsInfinityGr",
+    "name": "EARLy Birds | Infinity Grapes 023Earl Baker5 Pack",
     "brand": null,
     "category": "pre-rolls",
     "subcategory": null,
@@ -260,9 +240,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridBrixCannabisJu",
-    "name": "HybridBrix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484B",
-    "brand": null,
+    "external_id": "budrcannabis-BrixCannabisJungleCa",
+    "name": "Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484",
+    "brand": "Brix Cannabis",
     "category": "flower",
     "subcategory": null,
     "strain_type": null,
@@ -280,9 +260,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaRythm7gSmallFl",
-    "name": "SativaRythm 7g Small Flower Gazzurple (S) 01389RYTHMSmalls(7",
-    "brand": null,
+    "external_id": "budrcannabis-7gSmallFlowerGazzurp",
+    "name": "7g Small Flower Gazzurple (S) 01389RYTHMSmalls",
+    "brand": "Rythm",
     "category": "flower",
     "subcategory": null,
     "strain_type": null,
@@ -300,9 +280,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaSelectFlavorSe",
-    "name": "SativaSelect Flavor Series Briq 2 1g Cherry Pi (S) 01636Sele",
-    "brand": null,
+    "external_id": "budrcannabis-FlavorSeriesBriq21gC",
+    "name": "Flavor Series Briq 2 1g Cherry Pi (S) 01636SelectBRIQ Flavor Series",
+    "brand": "Select",
     "category": "vaporizers",
     "subcategory": null,
     "strain_type": null,
@@ -320,8 +300,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-Only2leftSativaChem9",
-    "name": "Only 2 leftSativaChem 91 0.5g 5pk Pre Rolls (S) 00507Brix Ca",
+    "external_id": "budrcannabis-Chem9105g5pkPreRolls",
+    "name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per",
     "brand": null,
     "category": "pre-rolls",
     "subcategory": null,
@@ -340,8 +320,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaEARLyBirdsMega",
-    "name": "SativaEARLy Birds | Mega Lemon Goop 022Earl Baker5 Pack Pre",
+    "external_id": "budrcannabis-EARLyBirdsMegaLemonG",
+    "name": "EARLy Birds | Mega Lemon Goop 022Earl Baker5 Pack",
     "brand": null,
     "category": "pre-rolls",
     "subcategory": null,
@@ -360,8 +340,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-IndicaBlueAndezeShor",
-    "name": "IndicaBlue Andeze Shorties I 26957CTPharma5 Pack Pre Roll(.4",
+    "external_id": "budrcannabis-BlueAndezeShortiesI2",
+    "name": "Blue Andeze Shorties I 26957CTPharma5 Pack",
     "brand": null,
     "category": "pre-rolls",
     "subcategory": null,
@@ -381,8 +361,8 @@
   },
   {
     "external_id": "budrcannabis-01645",
-    "name": "IndicaGrassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC",
-    "brand": null,
+    "name": "Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%GrassrootsShorties 5 Pack Pre",
+    "brand": "Grassroots",
     "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,

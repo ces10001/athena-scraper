@@ -1,0 +1,158 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|Golden Hour 00192",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy|Flower 3.5g|Golden Hour 00192 $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Only 1 left Sponsored 20% OFF 1/4 OZ Indica Rythm 7g Small Flower B Scout (I)",
+    "brand": null,
+    "message": "New: null - Only 1 left Sponsored 20% OFF 1/4 OZ Indica Rythm 7g Small Flower B Scout (I) $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347 RYTHM Cartridge (.5G)",
+    "brand": null,
+    "message": "New: null - Rythm 0.5g Vape Afternoon Delight (H) 01347 RYTHM Cartridge (.5G) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Kush Tang Disposable T257 S 26995",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Kush Tang Disposable T257 S 26995 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Animal Face (I) 01425",
+    "brand": "Dogwalkers\nWarning - High THC - 5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 33.56%\n\n$28.00",
+    "message": "New: Dogwalkers\nWarning - High THC - 5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 33.56%\n\n$28.00 - Dogwalkers 5 Pack Minis Animal Face (I) 01425 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417",
+    "brand": "Dogwalkers\n5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 25.06%\n\n$30.00",
+    "message": "New: Dogwalkers\n5 Pack Mini Dogs\n\n(.35g x 5 pre-rolls, 1.75g total / 1.75g per pack)\n\nTHC 25.06%\n\n$30.00 - Dogwalkers 5 Pack Minis Cherry Maui Wowie (S) 01417 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk 1g Pre Roll (H) 00558",
+    "brand": "Brix Cannabis\nWarning - High THC -",
+    "message": "New: Brix Cannabis\nWarning - High THC - - Cap Junk 1g Pre Roll (H) 00558 $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 7g Blue Gas I 26866",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 7g Blue Gas I 26866 $52.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436",
+    "brand": "Wana\nQuick",
+    "message": "Gone: Wana\nQuick - Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Optimals Quick Dream Berry Gummies 00419",
+    "brand": "Wana\nOptimal",
+    "message": "Gone: Wana\nOptimal - Wana Optimals Quick Dream Berry Gummies 00419"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00437",
+    "brand": "Wana\nClassic",
+    "message": "Gone: Wana\nClassic - Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00437"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CBD Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266",
+    "brand": "Wana\nClassic",
+    "message": "Gone: Wana\nClassic - CBD Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Indica Island Punch Fast-Acting Gummies 00479",
+    "brand": "Wana\nQuick",
+    "message": "Gone: Wana\nQuick - Wana Quick Indica Island Punch Fast-Acting Gummies 00479"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Sativa Connecticut Sunrise Fast-Acting Gummies 00478",
+    "brand": "Wana\nQuick",
+    "message": "Gone: Wana\nQuick - Wana Quick Sativa Connecticut Sunrise Fast-Acting Gummies 00478"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00430",
+    "brand": "Wana\n\n7\n\nQuick",
+    "message": "Gone: Wana\n\n7\n\nQuick - Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00430"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 5:1 CBD/THC Gummies Pomegranate Blueberry Acai 00434",
+    "brand": "Wana\nClassic",
+    "message": "Gone: Wana\nClassic - Wana 5:1 CBD/THC Gummies Pomegranate Blueberry Acai 00434"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00454",
+    "brand": "Wana\nQuick",
+    "message": "Gone: Wana\nQuick - Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00454"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Popular 20% OFF Hybrid Blue Sherb 1g Pure Vape T884 H 27017 CTPharma Cartridge",
+    "brand": null,
+    "message": "Gone: null - Popular 20% OFF Hybrid Blue Sherb 1g Pure Vape T884 H 27017 CTPharma Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g Red Gary H 26895",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g Red Gary H 26895"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Creamsicle Sunset (H) 01406",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 300mg Pen Creamsicle Sunset (H) 01406"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Cheddar Cheeze (I) 01409",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 300mg Pen Cheddar Cheeze (I) 01409"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sponsored 20% OFF 1/4 OZ Indica Rythm 7g Small Flower GMO (I) 01349 RYTHM Warn",
+    "brand": null,
+    "message": "Gone: null - Sponsored 20% OFF 1/4 OZ Indica Rythm 7g Small Flower GMO (I) 01349 RYTHM Warn"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Bubba F (I) 01387",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 1g Pre Roll Bubba F (I) 01387"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 1g Vape Regina Gorgeous x Jet Fuel (H) 01376"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|Flower 7g|Fritterz 00222",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|Flower 7g|Fritterz 00222"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Headcracker x Bubba F (I) 01413",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "Gone: Advanced Grow Labs (AGL) - AGL 300mg Pen Headcracker x Bubba F (I) 01413"
+  }
+]

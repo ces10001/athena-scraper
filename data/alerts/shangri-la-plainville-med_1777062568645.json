@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467",
+    "brand": "Brix",
+    "message": "New: Brix - Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake Whole Flower 3.5g (H) 00536",
+    "brand": "Brix",
+    "message": "New: Brix - Jungle Cake Whole Flower 3.5g (H) 00536 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D 1g Pre Roll (H) 00552",
+    "brand": "Brix",
+    "message": "New: Brix - Chem D 1g Pre Roll (H) 00552 $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Jungle Cake 1g Pre Roll (H) 00462",
+    "brand": "Brix",
+    "message": "New: Brix - Brix Cannabis Jungle Cake 1g Pre Roll (H) 00462 $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Inkowgnito Mode 1g Vape (I) 00452",
+    "brand": "Brix",
+    "message": "New: Brix - Brix Cannabis Inkowgnito Mode 1g Vape (I) 00452 $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39%",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Curaleaf Whole Flower 3.5g Singapore Sling (S) 01330 TC 33.39%"
+  }
+]

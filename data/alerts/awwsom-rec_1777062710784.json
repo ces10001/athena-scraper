@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush 00015",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid Galaxeats Gummies Raspberry Rush 00015 $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cke 0.5g BHO Slim Bar I 00786",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Ice Cream Cke 0.5g BHO Slim Bar I 00786"
+  }
+]

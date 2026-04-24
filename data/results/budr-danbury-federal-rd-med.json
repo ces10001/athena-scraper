@@ -1,25 +1,5 @@
 [
   {
-    "external_id": "budrcannabis-52802",
-    "name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
-    "brand": null,
-    "category": "pre-rolls",
-    "subcategory": null,
-    "strain_type": null,
-    "price_cents": 3200,
-    "original_price_cents": null,
-    "weight_label": null,
-    "weight_grams": null,
-    "unit_price_per_gram": null,
-    "thc_pct": 20,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "budrcannabis-00280",
     "name": "Vape PodsView allView allSativaRC Airo Pod Rainbow Haze Vape 86.66% S 00280 0.5g",
     "brand": null,
@@ -41,7 +21,7 @@
   },
   {
     "external_id": "budrcannabis-00278",
-    "name": "HybridRC Airo Pod G41 Vape 83.38% 00278 H 0.5gAiro BrandsAir",
+    "name": "RC Airo Pod G41 Vape 83.38% 00278 H 0.5gAiro BrandsAiroPod Live Resin Series",
     "brand": null,
     "category": "vaporizers",
     "subcategory": null,
@@ -60,9 +40,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-SativaSelectCliqElit",
-    "name": "SativaSelect Cliq Elite Pod .5g Durban Poison (S) 00944Selec",
-    "brand": null,
+    "external_id": "budrcannabis-CliqElitePod5gDurban",
+    "name": "Cliq Elite Pod .5g Durban Poison (S) 00944SelectElite Pod",
+    "brand": "Select",
     "category": "other",
     "subcategory": null,
     "strain_type": null,
@@ -81,7 +61,7 @@
   },
   {
     "external_id": "budrcannabis-00286",
-    "name": "SativaRC Airo Pod Dutch Dragon 83.91% S 00286 .5gAiro Brands",
+    "name": "RC Airo Pod Dutch Dragon 83.91% S 00286 .5gAiro BrandsAiroPod Live Resin Series",
     "brand": null,
     "category": "concentrate",
     "subcategory": null,
@@ -101,7 +81,7 @@
   },
   {
     "external_id": "budrcannabis-00813",
-    "name": "HybridSEL Cliq Pod NYC Diesel 85.68% H 00813 0.5gSelectCliq",
+    "name": "SEL Cliq Pod NYC Diesel 85.68% H 00813 0.5gSelectCliq Pod",
     "brand": null,
     "category": "other",
     "subcategory": null,
@@ -121,7 +101,7 @@
   },
   {
     "external_id": "budrcannabis-00757",
-    "name": "IndicaSEL Cliq Pod Purple Urkle 87.01% I 00757 0.5gSelectCli",
+    "name": "SEL Cliq Pod Purple Urkle 87.01% I 00757 0.5gSelectCliq Pod",
     "brand": null,
     "category": "other",
     "subcategory": null,
@@ -141,7 +121,7 @@
   },
   {
     "external_id": "budrcannabis-JaneGoldrewardsViewa",
-    "name": "Jane Gold rewardsView allView all15% back((inc)edibles•Bundl",
+    "name": "Jane Gold rewardsView allView all15% back((inc)edibles•BundleBuy 3+ (inc)edibles",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -161,7 +141,7 @@
   },
   {
     "external_id": "budrcannabis-BudrWhiteGrapePearHe",
-    "name": "Budr White Grape Pear Hemp-Derived Seltzer 3mg THC 3mg CBG 1",
+    "name": "Budr White Grape Pear Hemp-Derived Seltzer 3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -181,7 +161,7 @@
   },
   {
     "external_id": "budrcannabis-BudrBlackCurrantHemp",
-    "name": "Budr Black Currant Hemp-Derived Seltzer 3mg THC 3mg CBG 12oz",
+    "name": "Budr Black Currant Hemp-Derived Seltzer 3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -201,7 +181,7 @@
   },
   {
     "external_id": "budrcannabis-CBDBudrLimeMintElder",
-    "name": "CBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC 3",
+    "name": "CBDBudr Lime Mint Elderflower Hemp-Derived Seltzer 3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -220,9 +200,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-Fizz3mgOrangeSoda12o",
-    "name": "Fizz 3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
-    "brand": null,
+    "external_id": "budrcannabis-3mgOrangeSoda12ozFiz",
+    "name": "3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
     "category": "other",
     "subcategory": null,
     "strain_type": null,
@@ -240,8 +220,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridSVStrawberryKi",
-    "name": "HybridSV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69",
+    "external_id": "budrcannabis-SVStrawberryKiwiSelt",
+    "name": "SV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -260,8 +240,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridSVBloodOrangeS",
-    "name": "HybridSV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg",
+    "external_id": "budrcannabis-SVBloodOrangeSeltzer",
+    "name": "SV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -280,8 +260,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-NewRoadsTropicalDaze",
-    "name": "New Roads Tropical Daze Hemp-Derived Beverage (3mg THC) 12 o",
+    "external_id": "budrcannabis-RoadsTropicalDazeHem",
+    "name": "Roads Tropical Daze Hemp-Derived Beverage (3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -300,9 +280,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-Fizz3mgDietCola12ozF",
-    "name": "Fizz 3mg Diet Cola 12ozFizzSocial Soda(EACH)3mg 12oz",
-    "brand": null,
+    "external_id": "budrcannabis-3mgDietCola12ozFizzS",
+    "name": "3mg Diet Cola 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
     "category": "other",
     "subcategory": null,
     "strain_type": null,
@@ -320,9 +300,9 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-FizzBlackCherrySoda1",
-    "name": "Fizz Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
-    "brand": null,
+    "external_id": "budrcannabis-BlackCherrySoda12ozF",
+    "name": "Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
     "category": "other",
     "subcategory": null,
     "strain_type": null,
@@ -341,7 +321,7 @@
   },
   {
     "external_id": "budrcannabis-FloatHouse3mgNonAlco",
-    "name": "Float House 3mg (Non-Alcoholic) IPA Hemp-Derived Beverage (3",
+    "name": "Float House 3mg (Non-Alcoholic) IPA Hemp-Derived Beverage (3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -360,8 +340,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridSVLemonLime12o",
-    "name": "HybridSV Lemon Lime 12 oz THC Seltzer (3mg THC 3mg CBD 3mg C",
+    "external_id": "budrcannabis-SVLemonLime12oz6",
+    "name": "SV Lemon Lime 12 oz",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -380,8 +360,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridSVWatermelonSe",
-    "name": "HybridSV Watermelon Seltzer Hemp-Derived Beverage (2.60mg TH",
+    "external_id": "budrcannabis-SVWatermelonSeltzerH",
+    "name": "SV Watermelon Seltzer Hemp-Derived Beverage (2.60mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -401,7 +381,7 @@
   },
   {
     "external_id": "budrcannabis-FiveIslands3mgHalfHa",
-    "name": "Five Islands 3mg Half & Half 12ozFive IslandsSeltzer(EACH)2m",
+    "name": "Five Islands 3mg Half & Half 12ozFive IslandsSeltzer(EACH)2mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,
@@ -420,8 +400,8 @@
     "product_url": null
   },
   {
-    "external_id": "budrcannabis-HybridCANNLemonLaven",
-    "name": "HybridCANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6",
+    "external_id": "budrcannabis-CANNLemonLavenderHem",
+    "name": "CANN Lemon Lavender Hemp-Derived Beverage (3mg",
     "brand": null,
     "category": "edible",
     "subcategory": null,

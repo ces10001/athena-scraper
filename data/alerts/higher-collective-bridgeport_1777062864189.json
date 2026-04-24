@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Carbon Fiber",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Fiber $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Jokerz $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Loud",
+    "message": "Gone: Loud - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Peanut Butter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Syringe | Outta My Head MED | 00852",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Syringe | Outta My Head MED | 00852 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll | Bubba F 01387",
+    "brand": "AGL",
+    "message": "New: AGL - Pre-Roll | Bubba F 01387 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Living Legend 5 Pack Minis | 01163",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Pre-Roll Pack | Living Legend 5 Pack Minis | 01163 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Dogwalkers | Swamp Water Fumez | 5pk | 01405",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll Pack | Dogwalkers | Swamp Water Fumez | 5pk | 01405 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Dogwalkers | Cherry Maui Wowie | 5pk | 01417",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll Pack | Dogwalkers | Cherry Maui Wowie | 5pk | 01417 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pre-Roll Pack | Dogwalkers | Animal Face 5pk | High THC | 01425",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Pre-Roll Pack | Dogwalkers | Animal Face 5pk | High THC | 01425 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Inc.edibles | Greener Apple Fast Acting | 20pk | 01192",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Gummies | Inc.edibles | Greener Apple Fast Acting | 20pk | 01192 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ground Flower | Go Gr Tz Select Grind 01057",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Ground Flower | Go Gr Tz Select Grind 01057 $65.00"
+  }
+]

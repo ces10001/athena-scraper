@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Peanut Budda Buddha THC Chocolate Bar T94 (01439) 20pc",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Peanut Budda Buddha THC Chocolate Bar T94 (01439) 20pc $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jack's Delight Rythm Flower T25.60 (01444)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Jack's Delight Rythm Flower T25.60 (01444) $115.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Headcracker x Bubba F Pen T252 (01413)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Headcracker x Bubba F Pen T252 (01413) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Dark Chocolate RSO T93.8 (26869) 10pk",
+    "brand": "Encore",
+    "message": "New: Encore - Encore Dark Chocolate RSO T93.8 (26869) 10pk $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afternoon Delight #4 Rythm Flower T37.98 (01427)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Afternoon Delight #4 Rythm Flower T37.98 (01427) $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afternoon Delight #4 Rythm Flower T34.84 (01438)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Afternoon Delight #4 Rythm Flower T34.84 (01438) $180.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark Chocolate RSO T99 (26830) 10pc",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Dark Chocolate RSO T99 (26830) 10pc"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry Gummies T96.4 (26831) 10pk",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Pineapple Raspberry Gummies T96.4 (26831) 10pk"
+  }
+]

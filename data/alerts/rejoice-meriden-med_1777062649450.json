@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Blockberry (BLB) 00075",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Blockberry (BLB) 00075 $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g Georgia Pie (GGP) 00083",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g Georgia Pie (GGP) 00083 $20.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Nimbus Snacks Hash Nugs 41759",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Nimbus Snacks Hash Nugs 41759 $40.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Air Hdz Hash Nugs 41761",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Air Hdz Hash Nugs 41761 $40.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours 10G's Hash Nugs 41760",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours 10G's Hash Nugs 41760 $40.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Z Cke 1g LT Bar (I) - 00825",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Z Cke 1g LT Bar (I) - 00825"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake 41640",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake 41640"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 7g Purple OG (POG) (H) - 00102",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 7g Purple OG (POG) (H) - 00102"
+  }
+]

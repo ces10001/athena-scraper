@@ -1,0 +1,374 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69mg",
+    "brand": null,
+    "message": "New: null - SV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg",
+    "brand": null,
+    "message": "New: null - SV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Watermelon Seltzer Hemp-Derived Beverage (2.60mg",
+    "brand": null,
+    "message": "New: null - SV Watermelon Seltzer Hemp-Derived Beverage (2.60mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
+    "message": "New: Fizz - 3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
+    "message": "New: Fizz - Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Lime 3mg Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": "Fizz",
+    "message": "New: Fizz - Lemon Lime 3mg Soda 12ozFizzSocial Soda(EACH)3mg 12oz $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Lemon Lime Seltzer Hemp-Derived Beverage (2.97mg",
+    "brand": null,
+    "message": "New: null - SV Lemon Lime Seltzer Hemp-Derived Beverage (2.97mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Mango Seltzer Hemp-Derived Beverage (2.52mg",
+    "brand": null,
+    "message": "New: null - SV Mango Seltzer Hemp-Derived Beverage (2.52mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Roads Berry Good Vibes Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "New: null - Roads Berry Good Vibes Hemp-Derived Beverage (3mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Popular5% backSativaSavvy Smalls 14g Super Lemon G S 26930",
+    "brand": "Savvy",
+    "message": "New: Savvy - Popular5% backSativaSavvy Smalls 14g Super Lemon G S 26930 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sponsored5% backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sponsored5% backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991 $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy Lil' Budz 7g (H) 00522Lil' BudzSmalls",
+    "brand": null,
+    "message": "New: null - Jealousy Lil' Budz 7g (H) 00522Lil' BudzSmalls $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g B Scout (I) 01362",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g B Scout (I) 01362 $164.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g Small Flower B Scout (I) 01240RYTHMSmalls",
+    "brand": "Rythm",
+    "message": "New: Rythm - 7g Small Flower B Scout (I) 01240RYTHMSmalls $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backHybridCTP Savvy Canna-Tsu Smalls",
+    "brand": null,
+    "message": "New: null - 5% backHybridCTP Savvy Canna-Tsu Smalls $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "14g Select Grind Lemon Drip (S) 01199Advanced Grow Labs (AGL)Select Grind",
+    "brand": "AGL",
+    "message": "New: AGL - 14g Select Grind Lemon Drip (S) 01199Advanced Grow Labs (AGL)Select Grind $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Flower 3.5g|Jai Alai 00198",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy|Flower 3.5g|Jai Alai 00198 $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Comffy Fritterz Flower H 3.5g 29.46% 00203",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy Fritterz Flower H 3.5g 29.46% 00203 $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backHybridSavvy Strut AIO 2g Pinnacle T1714 H 26883SavvyStrut All-In-One",
+    "brand": null,
+    "message": "New: null - 5% backHybridSavvy Strut AIO 2g Pinnacle T1714 H 26883SavvyStrut All-In-One $104.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin 7g 41194",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin 7g 41194 $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backHybridCamino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 004",
+    "brand": null,
+    "message": "New: null - 15% backHybridCamino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 004 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CLF Humboldt Sour Diesel Whole Flower 19.66% (S) 01085 14g",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - CLF Humboldt Sour Diesel Whole Flower 19.66% (S) 01085 14g $86.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Afternoon Delight (H) 01347 $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel 41241all:hoursPremium",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel 41241all:hoursPremium $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "@import\"https://fonts.googleapis.com/css2?family=Source+Sans",
+    "brand": null,
+    "message": "Gone: null - @import\"https://fonts.googleapis.com/css2?family=Source+Sans"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBlack Cherry GMO PR Party Pack 41375Theraplant20 Pack",
+    "brand": null,
+    "message": "Gone: null - HybridBlack Cherry GMO PR Party Pack 41375Theraplant20 Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaHash Wedding Infused Party Pack 41777Theraplant10 Pack",
+    "brand": null,
+    "message": "Gone: null - IndicaHash Wedding Infused Party Pack 41777Theraplant10 Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridModified Donkey Infused Party Pack 41776Theraplant10 P",
+    "brand": null,
+    "message": "Gone: null - HybridModified Donkey Infused Party Pack 41776Theraplant10 P"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaHash Wedding 2g Fatboy 41774TheraplantInfused",
+    "brand": null,
+    "message": "Gone: null - IndicaHash Wedding 2g Fatboy 41774TheraplantInfused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridPermanent Patty MT 41732TheraplantMini Tank",
+    "brand": null,
+    "message": "Gone: null - HybridPermanent Patty MT 41732TheraplantMini Tank"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftHybridApple Tart MT 41559TheraplantMini Tank Disp",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftHybridApple Tart MT 41559TheraplantMini Tank Disp"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridLow Strength Pagoti Capsule 41574TheraplantCapsules(EA",
+    "brand": null,
+    "message": "Gone: null - HybridLow Strength Pagoti Capsule 41574TheraplantCapsules(EA"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaJelly Roll Party Pack 41706Theraplant20 Pack Pre Roll(",
+    "brand": null,
+    "message": "Gone: null - IndicaJelly Roll Party Pack 41706Theraplant20 Pack Pre Roll("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaForeverberry Infused Shorties 41680Theraplant4 Pack In",
+    "brand": null,
+    "message": "Gone: null - SativaForeverberry Infused Shorties 41680Theraplant4 Pack In"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 leftIndicaWedding Cake Infused Shorties 41677Therapla",
+    "brand": null,
+    "message": "Gone: null - Only 1 leftIndicaWedding Cake Infused Shorties 41677Therapla"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaColorado Flo (Aniva) 2g Fatboy 41697TheraplantInfused",
+    "brand": null,
+    "message": "Gone: null - SativaColorado Flo (Aniva) 2g Fatboy 41697TheraplantInfused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridCarbon Juice MT 41729TheraplantMini Tank Disposable(EA",
+    "brand": null,
+    "message": "Gone: null - HybridCarbon Juice MT 41729TheraplantMini Tank Disposable(EA"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaGrand Pappy's Chillemon MT 41568TheraplantMini Tank Di",
+    "brand": null,
+    "message": "Gone: null - SativaGrand Pappy's Chillemon MT 41568TheraplantMini Tank Di"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaForeverberry 1g Infused Blunt 41679TheraplantInfused B",
+    "brand": null,
+    "message": "Gone: null - SativaForeverberry 1g Infused Blunt 41679TheraplantInfused B"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Holiday Bundle Deal!View allView allHybridCTP Canna-Tsu",
+    "brand": null,
+    "message": "Gone: null - Holiday Bundle Deal!View allView allHybridCTP Canna-Tsu"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridSV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69",
+    "brand": null,
+    "message": "Gone: null - HybridSV Strawberry Kiwi Seltzer Hemp-Derived Beverage (2.69"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridSV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg",
+    "brand": null,
+    "message": "Gone: null - HybridSV Blood Orange Seltzer Hemp-Derived Beverage (2.76mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridSV Watermelon Seltzer Hemp-Derived Beverage (2.60mg TH",
+    "brand": null,
+    "message": "Gone: null - HybridSV Watermelon Seltzer Hemp-Derived Beverage (2.60mg TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fizz 3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": null,
+    "message": "Gone: null - Fizz 3mg Orange Soda 12ozFizzSocial Soda(EACH)3mg 12oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fizz Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": null,
+    "message": "Gone: null - Fizz Black Cherry Soda 12ozFizzSocial Soda(EACH)3mg 12oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fizz Lemon Lime 3mg Soda 12ozFizzSocial Soda(EACH)3mg 12oz",
+    "brand": null,
+    "message": "Gone: null - Fizz Lemon Lime 3mg Soda 12ozFizzSocial Soda(EACH)3mg 12oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridSV Lemon Lime Seltzer Hemp-Derived Beverage (2.97mg TH",
+    "brand": null,
+    "message": "Gone: null - HybridSV Lemon Lime Seltzer Hemp-Derived Beverage (2.97mg TH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridSV Mango Seltzer Hemp-Derived Beverage (2.52mg THC: 3.",
+    "brand": null,
+    "message": "Gone: null - HybridSV Mango Seltzer Hemp-Derived Beverage (2.52mg THC: 3."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PopularIndicaRythm 28g B Scout (I) 01362",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - PopularIndicaRythm 28g B Scout (I) 01362"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridRythm 28g Afternoon Delight #4 (H) 01383",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - SponsoredHybridRythm 28g Afternoon Delight #4 (H) 01383"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredHybridComffy Fritterz Flower H 3.5g 29.46% 00203Co",
+    "brand": null,
+    "message": "Gone: null - SponsoredHybridComffy Fritterz Flower H 3.5g 29.46% 00203Co"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridBanapple Medellin 7g 41194TheraplantFlower(7G)THC 25.5",
+    "brand": null,
+    "message": "Gone: null - HybridBanapple Medellin 7g 41194TheraplantFlower(7G)THC 25.5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SativaComffy|Flower 3.5g|Jai Alai 00198ComffyFlower(3.5G)THC",
+    "brand": null,
+    "message": "Gone: null - SativaComffy|Flower 3.5g|Jai Alai 00198ComffyFlower(3.5G)THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 3.5g B Scout (I) 01324RYTHMFlower(3.5G)THC 34.25",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 3.5g B Scout (I) 01324RYTHMFlower(3.5G)THC 34.25"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 leftSponsoredHybridJealousy Lil' Budz 7g (H) 00522Lil",
+    "brand": null,
+    "message": "Gone: null - Only 2 leftSponsoredHybridJealousy Lil' Budz 7g (H) 00522Lil"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "IndicaRythm 7g Small Flower B Scout (I) 01240RYTHMSmalls",
+    "brand": null,
+    "message": "Gone: null - IndicaRythm 7g Small Flower B Scout (I) 01240RYTHMSmalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)THC 35",
+    "brand": null,
+    "message": "Gone: null - HybridRythm 28g Vel Croz (H) 01384RYTHMMixed Buds(28G)THC 35"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredCash backSativaLighthouse-Laughing Buddha Live Resi",
+    "brand": null,
+    "message": "Gone: null - SponsoredCash backSativaLighthouse-Laughing Buddha Live Resi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SponsoredIndicaAGL 1g Vape Animal Face x Purple Tyde (I) 013",
+    "brand": null,
+    "message": "Gone: null - SponsoredIndicaAGL 1g Vape Animal Face x Purple Tyde (I) 013"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A",
+    "brand": null,
+    "message": "Gone: null - HybridAmigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00469A"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hybridall:hours Mule Fuel 41241all:hoursPremium",
+    "brand": null,
+    "message": "Gone: null - Hybridall:hours Mule Fuel 41241all:hoursPremium"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HybridTP all:hours 10G's part:timers 25.41% H 01360 3.5gall:",
+    "brand": null,
+    "message": "Gone: null - HybridTP all:hours 10G's part:timers 25.41% H 01360 3.5gall:"
+  }
+]

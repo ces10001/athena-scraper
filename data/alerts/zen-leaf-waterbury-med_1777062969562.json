@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Seattle Sour Kush $43.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Harmony",
+    "brand": "Avexia",
+    "message": "New: Avexia - Harmony $21.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lazy Sunday",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lazy Sunday"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Apricot Apple",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Sour Apricot Apple"
+  }
+]
