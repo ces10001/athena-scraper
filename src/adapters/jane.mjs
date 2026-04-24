@@ -171,86 +171,83 @@ export async function scrapeJane(dispensary) {
     var allProducts = new Map();
     var errors = [];
 
-    var CATS = ['flower', 'pre-rolls', 'vape', 'edibles', 'concentrates', 'tinctures', 'topicals'];
-    var CAT_PARAM = {
-      'flower': 'flower',
-      'pre-rolls': 'pre-roll',
-      'vape': 'vape',
-      'edibles': 'edible',
-      'concentrates': 'concentrate',
-      'tinctures': 'tincture',
-      'topicals': 'topical',
-    };
-
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
-      var storeStartTime = Date.now();
+      var url = 'https://www.iheartjane.com/stores/' + store.id + '/menu';
 
-      for (var c = 0; c < CATS.length; c++) {
-        var cat = CATS[c];
-        var catParam = CAT_PARAM[cat] || cat;
-        var url = 'https://www.iheartjane.com/embed/stores/' + store.id + '/menu?refinementList%5Broot_types%5D%5B0%5D=' + catParam;
+      var page = null;
+      try {
+        page = await context.newPage();
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(5000);
 
-        var page = null;
+        // Dismiss age gate — try multiple button texts
         try {
-          page = await context.newPage();
-          await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
-          await page.waitForTimeout(5000);
-
-          // Dismiss age gate
-          try {
-            var ageBtn = page.locator('button:has-text("I\'m over 21")').first();
-            if (await ageBtn.isVisible({ timeout: 3000 })) {
+          var ageBtns = ['I\'m over 21', 'Yes', 'I Agree', 'Enter', 'Confirm'];
+          for (var ab = 0; ab < ageBtns.length; ab++) {
+            var ageBtn = page.locator('button:has-text("' + ageBtns[ab] + '")').first();
+            if (await ageBtn.isVisible({ timeout: 2000 })) {
               await ageBtn.click();
-              await page.waitForTimeout(2000);
+              console.log('  [jane] Age gate passed: ' + ageBtns[ab]);
+              await page.waitForTimeout(3000);
+              break;
             }
-          } catch(e) {}
-
-          // Click "View more" repeatedly to load all products
-          for (var vm = 0; vm < 15; vm++) {
-            try {
-              var viewMore = page.locator('button:has-text("View more")').first();
-              if (await viewMore.isVisible({ timeout: 2000 })) {
-                await viewMore.scrollIntoViewIfNeeded();
-                await viewMore.click();
-                await page.waitForTimeout(2000);
-              } else {
-                break;
-              }
-            } catch(e) { break; }
           }
+        } catch(e) {}
 
-          // Final scroll to ensure everything rendered
-          for (var scroll = 0; scroll < 10; scroll++) {
-            await page.evaluate(function() { window.scrollBy(0, 800); });
-            await page.waitForTimeout(150);
-          }
-          await page.waitForTimeout(1000);
-
-          var text = await page.evaluate(function() {
-            return document.body?.innerText || '';
+        // Click "View more" repeatedly to load ALL products
+        var lastCount = 0;
+        var stableRounds = 0;
+        for (var vm = 0; vm < 30; vm++) {
+          // Count current products
+          var currentCount = await page.evaluate(function() {
+            return (document.body.innerText.match(/Add to bag/g) || []).length;
           });
-
-          var products = parseJaneProducts(text);
-          for (var p = 0; p < products.length; p++) {
-            var key = products[p].external_id;
-            if (!allProducts.has(key)) allProducts.set(key, products[p]);
+          
+          if (currentCount === lastCount) {
+            stableRounds++;
+            if (stableRounds >= 3) break;
+          } else {
+            stableRounds = 0;
+            if (vm % 5 === 0 && vm > 0) console.log('  [jane] Loaded ' + currentCount + ' products...');
           }
+          lastCount = currentCount;
 
-          await page.close();
-        } catch (err) {
-          if (!err.message.includes('404')) errors.push(store.id + '/' + cat + ': ' + err.message);
-          try { if (page) await page.close(); } catch(e) {}
+          try {
+            var viewMore = page.locator('button:has-text("View more")').first();
+            if (await viewMore.isVisible({ timeout: 2000 })) {
+              await viewMore.scrollIntoViewIfNeeded();
+              await viewMore.click();
+              await page.waitForTimeout(2000);
+            } else {
+              break;
+            }
+          } catch(e) { break; }
         }
 
-        // Safety: if a single store takes more than 3 minutes, skip remaining categories
-        if (Date.now() - storeStartTime > 180000) {
-          console.warn('  [jane] Store ' + store.id + ' timeout after 3min, skipping remaining categories');
-          break;
+        // Final scroll
+        for (var scroll = 0; scroll < 15; scroll++) {
+          await page.evaluate(function() { window.scrollBy(0, 1000); });
+          await page.waitForTimeout(200);
         }
+        await page.waitForTimeout(1000);
+
+        var text = await page.evaluate(function() {
+          return document.body?.innerText || '';
+        });
+
+        var products = parseJaneProducts(text);
+        for (var p = 0; p < products.length; p++) {
+          var key = products[p].external_id;
+          if (!allProducts.has(key)) allProducts.set(key, products[p]);
+        }
+
+        console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
+        await page.close();
+      } catch (err) {
+        errors.push(store.id + ': ' + err.message);
+        try { if (page) await page.close(); } catch(e) {}
       }
-
-      console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
     }
 
     await context.close();
