@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Modified Haze $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosilato",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dosilato $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dieselato",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dieselato $24.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Sherb $53.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg $53.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Yellow Haze OG $53.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Modified Haze $53.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Andeze $25.70"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "Savvy",
+    "message": "New: Savvy - Durban Stardawg $52.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OGKB Stomper",
+    "brand": "Savvy",
+    "message": "New: Savvy - OGKB Stomper $33.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Bubble",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Bubble $104.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG",
+    "brand": "Savvy",
+    "message": "New: Savvy - Yellow Haze OG $33.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "E85",
+    "brand": "Savvy",
+    "message": "New: Savvy - E85 $47.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff",
+    "brand": "Savvy",
+    "message": "New: Savvy - Mango Puff $104.50"
+  }
+]

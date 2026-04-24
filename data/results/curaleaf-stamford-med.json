@@ -160,26 +160,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-125544",
-    "name": "Sour Z",
-    "brand": "Select",
-    "category": "vaporizers",
-    "subcategory": null,
-    "strain_type": "sativa",
-    "price_cents": 2950,
-    "original_price_cents": 6500,
-    "weight_label": "1g",
-    "weight_grams": 1,
-    "unit_price_per_gram": 2950,
-    "thc_pct": 89.6,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "55% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-124609",
     "name": "Paw Paw",
     "brand": "Grassroots",

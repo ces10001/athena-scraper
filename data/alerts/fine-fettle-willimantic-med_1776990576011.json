@@ -1,0 +1,158 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Gelato Rntz (I) 0.4g Pre-Roll 1pk (0.4g)",
+    "brand": "Miss Grass",
+    "message": "Miss Grass Gelato Rntz (I) 0.4g Pre-Roll 1pk (0.4g): $4.00 > $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - 10G's (H) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Tangerine (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Atomic Tangerine (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scout Breath (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Scout Breath (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg (H) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OMG (H) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - OMG (H) 0.35g Pre-Rolls 5pk (1.75g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tartz (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Apple Tartz (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Push OG (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Push OG (I) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hi Life (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hi Life (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - 10G's (H) big:timer Rosin Roll (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks (S) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Nimbus Snacks (S) big:timer Rosin Roll (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger (I) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger (I) big:timer Rosin Roll (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreign Kush Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Foreign Kush Mints (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Specimen X (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Early Birds",
+    "message": "Gone: Early Birds - Specimen X (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Colorado Flo (S) Infused Shorties 4pk (1.6g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Colorado Flo (S) Infused Shorties 4pk (1.6g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Cndy (S) Infused Shorties 10pk (4g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Strawberry Cndy (S) Infused Shorties 10pk (4g)"
+  }
+]

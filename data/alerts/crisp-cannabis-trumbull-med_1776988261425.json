@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SV Blood Orange 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Blood Orange 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solid State 1g Infused Blunt 41762",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Solid State 1g Infused Blunt 41762"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "INC.EDIBLES 20 PACK GREENER APPLE FAST ACTING THC GUMMIES 01192",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - INC.EDIBLES 20 PACK GREENER APPLE FAST ACTING THC GUMMIES 01192"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Nuclear Mfns (H) 01187",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Curaleaf Preroll 5 Pack 2g Nuclear Mfns (H) 01187"
+  }
+]
