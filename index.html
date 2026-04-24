@@ -1327,8 +1327,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* EXECUTIVE SUMMARY */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Executive Summary</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Executive Summary</div>
           <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
             {[
               [report.hName,report.homeTot+" SKUs","#e8600a"],
@@ -1343,8 +1343,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* SKU BREAKDOWN */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>SKU Breakdown by Category</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>SKU Breakdown by Category</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:14}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'8px 10px',fontWeight:600}}>Category</th>
@@ -1373,8 +1373,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* PRICE WINS BY CATEGORY */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Wins by Category</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Price Wins by Category</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:14}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'8px 10px'}}>Category</th>
@@ -1392,8 +1392,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* BIGGEST PRICE ADVANTAGES (YOU'RE CHEAPER) */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Your Biggest Price Advantages (Top 15)</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Your Biggest Price Advantages (Top 15)</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
@@ -1410,8 +1410,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* BIGGEST PRICE DISADVANTAGES */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Competitor's Price Advantages (Top 15)</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Competitor's Price Advantages (Top 15)</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
@@ -1428,8 +1428,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* PRICE EXTREMES BY CATEGORY + WEIGHT */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes by Category &amp; Size</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Price Extremes by Category &amp; Size</div>
           {report.catWeightBuckets&&Object.entries(report.catWeightBuckets).sort(function(a,b){
             var order=["Flower","Pre-Rolls","Vaporizers","Edible","Concentrate","Tincture","Topical"];
             var ai=order.indexOf(a[0]),bi=order.indexOf(b[0]);
@@ -1437,8 +1437,8 @@ function ReportTab({data,favsVer}){
           }).map(function(catEntry){
             var catName=catEntry[0],weights=catEntry[1];
             var totalInCat=Object.values(weights).reduce(function(s,arr){return s+arr.length},0);
-            return<div key={catName} style={{marginBottom:20}}>
-              <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10}}>{catName} ({totalInCat} comparable)</div>
+            return<div key={catName} style={{marginBottom:20,pageBreakInside:'avoid'}}>
+              <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10,pageBreakAfter:'avoid'}}>{catName} ({totalInCat} comparable)</div>
               {Object.entries(weights).filter(function(e){return e[1].length>0}).sort(function(a,b){
                 var wOrder=["0.5g","1g","3.5g","7g","14g","28g","other"];
                 return wOrder.indexOf(a[0])-wOrder.indexOf(b[0]);
@@ -1451,7 +1451,7 @@ function ReportTab({data,favsVer}){
                   if(!compHighW||m.compPrice>compHighW.compPrice)compHighW=m;
                   if(!compLowW||m.compPrice<compLowW.compPrice)compLowW=m;
                 });
-                return<div key={wLabel} style={{marginBottom:10,marginLeft:12}}>
+                return<div key={wLabel} style={{marginBottom:10,marginLeft:12,pageBreakInside:'avoid'}}>
                   <div style={{fontWeight:600,fontSize:13,color:'#666',marginBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({items.length})</div>
                   <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
                     <thead><tr style={{borderBottom:'1px solid #ddd'}}>
@@ -1485,8 +1485,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* PRODUCT GAPS */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Product Gaps</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Product Gaps</div>
           <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
             <div style={{flex:1,minWidth:250}}>
               <div style={{fontWeight:600,fontSize:14,color:'#d42030',marginBottom:6}}>They Carry, You Don't ({report.compOnly.length} products)</div>
@@ -1516,8 +1516,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* DEALS */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Active Store-Wide Promotions</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Active Store-Wide Promotions</div>
           <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
             {[[report.hName,report.homeDeals,"#e8600a"],[report.cName,report.compDeals,"#555"]].map(function(s){return<div key={s[0]} style={{flex:1,minWidth:250}}>
               <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]} ({s[1].length} deals)</div>
@@ -1531,8 +1531,8 @@ function ReportTab({data,favsVer}){
         </div>
 
         {/* PRICE MOVEMENTS */}
-        <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Current Discounted Products</div>
+        <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Current Discounted Products</div>
           <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
             {[[report.hName,report.homeMoves,"#e8600a"],[report.cName,report.compMoves,"#555"]].map(function(s){
               var moves=s[1]||[];
