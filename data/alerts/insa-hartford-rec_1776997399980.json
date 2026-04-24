@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Blue Andeze 1g Pre-Roll I 26991",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Blue Andeze 1g Pre-Roll I 26991 $7.84"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Banapple Burger Rosin Voca Pro 41616",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - all:hours Banapple Burger Rosin Voca Pro 41616"
+  }
+]

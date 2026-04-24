@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958 $9.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "EARLy Birds | Infinity Grapes 023",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - EARLy Birds | Infinity Grapes 023"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Hdz Vape 41737",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Air Hdz Vape 41737"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Brains 1g Infused PR 41691",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Brains 1g Infused PR 41691"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Blue NDZ 1g Vape (H) 00426",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix Cannabis Blue NDZ 1g Vape (H) 00426"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave Shorties H 27047",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave Shorties H 27047"
+  }
+]

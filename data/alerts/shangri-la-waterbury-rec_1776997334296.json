@@ -1,0 +1,128 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0049",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch Lucky Elixir 0049: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zero Proof Squeeze Dash of Orange (H) 01564",
+    "brand": "Select",
+    "message": "Select Zero Proof Squeeze Dash of Orange (H) 01564: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SV Strawberry Kiwi THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Strawberry Kiwi THC Seltzer: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Canyon Water - Western Lemonade Prickly Pear - D9 3mg",
+    "brand": "Canyon Water",
+    "message": "Canyon Water Infused Bev - Canyon Water - Western Lemonade Prickly Pear - D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Corgi - Punch- D9 3mg",
+    "brand": "Corgi",
+    "message": "Corgi Infused Bev - Corgi - Punch- D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "infused Bev - Canyon Water - Western Lemonade Raspberry - D9 3mg",
+    "brand": "Canyon Water",
+    "message": "Canyon Water infused Bev - Canyon Water - Western Lemonade Raspberry - D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Nimbus Snacks Hash Nugs 41631",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Nimbus Snacks Hash Nugs 41631: $53.60 > $67.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours 10G's Hash Nugs 41760",
+    "brand": "all:hours",
+    "message": "all:hours all:hours 10G's Hash Nugs 41760: $53.60 > $67.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zero Proof Squeeze Dash of Cherry (H) 01599",
+    "brand": "Select",
+    "message": "Select Zero Proof Squeeze Dash of Cherry (H) 01599: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky Spritz 0046: $22.00 > $27.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SV Lemon Lime THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Lemon Lime THC Seltzer: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky Spritz 0031",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky Spritz 0031: $22.00 > $27.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky Spritz 0032",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky Spritz 0032: $22.00 > $27.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Watermelon Punch - Punch- D9 3mg",
+    "brand": "Corgi",
+    "message": "Corgi Infused Bev - Watermelon Punch - Punch- D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Corgi - Lemonade- D9 3mg",
+    "brand": "Corgi",
+    "message": "Corgi Infused Bev - Corgi - Lemonade- D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Canyon Water - Western Lemonade Classic - D9 3mg",
+    "brand": "Canyon Water",
+    "message": "Canyon Water Infused Bev - Canyon Water - Western Lemonade Classic - D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Infused Bev - Canyon Water - Iced Tea - D9 3mg",
+    "brand": "Canyon Water",
+    "message": "Canyon Water Infused Bev - Canyon Water - Iced Tea - D9 3mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0047",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime Lucky Elixir 0047: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0055",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade Lucky Elixir 0055: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blueberry Pomegranate Sparkling Water CBD:CBN 25:5mg",
+    "brand": "Wyld",
+    "message": "Wyld Blueberry Pomegranate Sparkling Water CBD:CBN 25:5mg: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blood Orange Sparkling Water",
+    "brand": "Wyld",
+    "message": "Wyld Blood Orange Sparkling Water: $4.80 > $6.00"
+  }
+]

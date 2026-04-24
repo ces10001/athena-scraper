@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "INKD UP",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis INKD UP: $60.00 > $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kronic 47",
+    "brand": "Affinity",
+    "message": "New: Affinity - Kronic 47 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Oklahoma Coma",
+    "brand": "Affinity",
+    "message": "New: Affinity - Oklahoma Coma $15.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Rainbows: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mikado Mintz",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mikado Mintz: $14.00 > $11.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Dreamy 1:1 CBN",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Berry Dreamy 1:1 CBN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Orange Sunshine"
+  }
+]

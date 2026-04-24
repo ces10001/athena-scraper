@@ -1,0 +1,182 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Afgooey",
+    "brand": "Brix",
+    "message": "New: Brix - Afgooey $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - Peanut Butter $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Currant",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Black Currant $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Greener Apple",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Greener Apple $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Urkle",
+    "brand": "SoundView",
+    "message": "New: SoundView - Purple Urkle $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry",
+    "brand": "Fizz",
+    "message": "New: Fizz - Black Cherry $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple x Bubba F",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Black Maple x Bubba F $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Yellow Haze OG $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - High Noon Crystal $41.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Diesel",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Sour Diesel $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz",
+    "brand": "Good Green",
+    "message": "New: Good Green - Slapz $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow Parade",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Rainbow Parade $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "New: Select - Cherry Pi $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Heir Heads $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - High Noon Crystal $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Strawberry Pave $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Wedding $59.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti 95"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sweet Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Alien OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zesty Garlic Cookies",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Zesty Garlic Cookies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Gone: Select - Mango Puff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Green Queen"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunny Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunny Stomper"
+  }
+]

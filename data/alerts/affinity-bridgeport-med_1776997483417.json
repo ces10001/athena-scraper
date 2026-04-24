@@ -1,0 +1,134 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Blue NDZ 1g Vape (H) 00426 (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Brix Cannabis Blue NDZ 1g Vape (H) 00426 (1g): $38.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Inkowgnito Mode 1g Vape (I) 00452 (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Brix Cannabis Inkowgnito Mode 1g Vape (I) 00452 (1g): $38.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lil' Budz Soap (S) 00374 (7g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Lil' Budz Soap (S) 00374 (7g): $38.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lil' Budz C-Stata (H) 00356 (7g)(AU)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Lil' Budz C-Stata (H) 00356 (7g)(AU): $38.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Bananaconda 1g Vape (H) 00497 (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Brix Cannabis Bananaconda 1g Vape (H) 00497 (1g): $38.50 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "'Fused by Brix Wild Berry Lemonade Gummies (I) 00421 (20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis 'Fused by Brix Wild Berry Lemonade Gummies (I) 00421 (20pk): $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fused by Brix Mango Lemonade Gummies (H) 00428 (20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Fused by Brix Mango Lemonade Gummies (H) 00428 (20pk): $18.90 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Orange Soda  (12oz)",
+    "brand": "Accessories",
+    "message": "Accessories Fizz 3mg Orange Soda  (12oz): $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Black Cherry Soda (12oz)",
+    "brand": "Accessories",
+    "message": "Accessories Fizz 3mg Black Cherry Soda (12oz): $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Seltzer - Mango 12oz",
+    "brand": "Accessories",
+    "message": "Accessories SoundView Seltzer - Mango 12oz: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Lemon Lime Soda",
+    "brand": "Accessories",
+    "message": "Accessories Fizz 3mg Lemon Lime Soda: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MUZE Seltzer - Pure 12oz",
+    "brand": "Accessories",
+    "message": "Accessories MUZE Seltzer - Pure 12oz: $4.00 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MUZE Seltzer - Raspberry Lime 12oz",
+    "brand": "Accessories",
+    "message": "Accessories MUZE Seltzer - Raspberry Lime 12oz: $4.00 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MUZE Seltzer - Peach 12oz",
+    "brand": "Accessories",
+    "message": "Accessories MUZE Seltzer - Peach 12oz: $4.00 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Seltzer - Watermelon 12oz",
+    "brand": "Accessories",
+    "message": "Accessories SoundView Seltzer - Watermelon 12oz: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Seltzer - Strawberry Kiwi 12oz",
+    "brand": "Accessories",
+    "message": "Accessories SoundView Seltzer - Strawberry Kiwi 12oz: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Seltzer - Lemon Lime 12oz",
+    "brand": "Accessories",
+    "message": "Accessories SoundView Seltzer - Lemon Lime 12oz: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Seltzer - Blood Orange 12oz",
+    "brand": "Accessories",
+    "message": "Accessories SoundView Seltzer - Blood Orange 12oz: $4.80 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "MUZE Seltzer - Black Cherry 12oz",
+    "brand": "Accessories",
+    "message": "Accessories MUZE Seltzer - Black Cherry 12oz: $4.00 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Diet Cola Soda  (12oz)",
+    "brand": "Accessories",
+    "message": "Accessories Fizz 3mg Diet Cola Soda  (12oz): $4.80 > $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00482 (3.5g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00482 (3.5g) $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite All In One .3g Joocy Froot (H) 01317 (H)(0.3g Disp)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Select Elite All In One .3g Joocy Froot (H) 01317 (H)(0.3g Disp)"
+  }
+]

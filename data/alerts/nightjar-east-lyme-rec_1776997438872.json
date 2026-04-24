@@ -1,0 +1,152 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Cherry 10:5 (CBD:THC) | 20pk | 00343",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Cherry 10:5 (CBD:THC) | 20pk | 00343: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower | Rythm | Lemon Drip 3.5g | 01243",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | Rythm | Lemon Drip 3.5g | 01243: $50.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Disposable | Grand Pappy's Chillemon MT 1g | 41568",
+    "brand": "Theraplant",
+    "message": "Theraplant Disposable | Grand Pappy's Chillemon MT 1g | 41568: $57.60 > $72.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wildberry | 20pk | 00377",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Wildberry | 20pk | 00377: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower | Good Green | Chkn n WflZ 3.5g | 01277",
+    "brand": "Good Green",
+    "message": "Good Green Flower | Good Green | Chkn n WflZ 3.5g | 01277: $35.00 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre Roll | Hash Wedding 2g Fatboy | Infused | 41774",
+    "brand": "Theraplant",
+    "message": "Theraplant Pre Roll | Hash Wedding 2g Fatboy | Infused | 41774: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre Roll | Carbon FBR 1g | 41727",
+    "brand": "Theraplant",
+    "message": "Theraplant Pre Roll | Carbon FBR 1g | 41727: $9.60 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower | Rythm | Creamsicle Sunset 14g | 01146",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | Rythm | Creamsicle Sunset 14g | 01146: $98.00 > $78.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Disposable | Durban Z 0.3g | 01407",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | Durban Z 0.3g | 01407: $22.00 > $17.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre Roll | Wedding Cake 1g | 41705",
+    "brand": "Theraplant",
+    "message": "Theraplant Pre Roll | Wedding Cake 1g | 41705: $9.60 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Green G 7g | 41158",
+    "brand": "Theraplant",
+    "message": "Theraplant Flower | Green G 7g | 41158: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre Roll | Grand Pappy's Chillemon 1g | 41724",
+    "brand": "Theraplant",
+    "message": "Theraplant Pre Roll | Grand Pappy's Chillemon 1g | 41724: $9.60 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Disposable | Creamsicle Sunset 0.3g | 01406",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | Creamsicle Sunset 0.3g | 01406: $22.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Disposable | B Scout x LA Kush CKE 0.3g | 01396",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | B Scout x LA Kush CKE 0.3g | 01396: $22.00 > $17.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre Roll | Canna Miranda Infused 1g | 41689",
+    "brand": "Theraplant",
+    "message": "Theraplant Pre Roll | Canna Miranda Infused 1g | 41689: $16.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower | Rythm | Creamsicle Sunset 3.5g | 01115",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | Rythm | Creamsicle Sunset 3.5g | 01115: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Flower | Good Green | Fantasy Melonz 3.5g | 01337",
+    "brand": "Good Green",
+    "message": "Good Green Flower | Good Green | Fantasy Melonz 3.5g | 01337: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pre-Roll Pack | Slapz 5 Pack Minis | 01372",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Pre-Roll Pack | Slapz 5 Pack Minis | 01372: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pre-Roll Pack | Living Legend 5 Pack Minis | 01163",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Pre-Roll Pack | Living Legend 5 Pack Minis | 01163: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Peach 20:1 (CBD:THC) | 20pk | 00376",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Peach 20:1 (CBD:THC) | 20pk | 00376: $33.00 > $26.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Pinyatti 7g | 41685",
+    "brand": "Theraplant",
+    "message": "Theraplant Flower | Pinyatti 7g | 41685: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Gas Face 7g | 41588",
+    "brand": "Theraplant",
+    "message": "Theraplant Flower | Gas Face 7g | 41588: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Disposable | Green G MT 1g | 41176",
+    "brand": "Theraplant",
+    "message": "Theraplant Disposable | Green G MT 1g | 41176: $59.20 > $74.00"
+  }
+]

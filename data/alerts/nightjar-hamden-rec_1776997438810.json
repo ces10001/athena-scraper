@@ -1,0 +1,194 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Lemon Delight 00868",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Lemon Delight 00868: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Capy 'Lil Ricky's 3pk | High THC | 00913: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Lemon Skunk 00883",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Lemon Skunk 00883: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Alien OG Infused Lil' Ricky's 3pk | 00891: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Gummies | Grape Currant 1:1 THC:CBN RSO | 20pk | 00879: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Orange Sunshine Lil' Ricky's 3pk | 00890: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll | Dirty Taxi Big Ray | 00882",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll | Dirty Taxi Big Ray | 00882: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll | Chem Ox Big Ray | 00862",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll | Chem Ox Big Ray | 00862: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll | GMO Big Ray | High THC | 00914",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll | GMO Big Ray | High THC | 00914: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll | Capy Big Ray | 00906",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll | Capy Big Ray | 00906: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | The Soap #2 Lil' Ricky's 3pk | 00919: $12.80 > $16.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Sunshine Daydream 3pk | 00836",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Sunshine Daydream 3pk | 00836: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Starkiller OG Infused Lil' Ricky's 3pk | 00904: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Capy | 3pk | High THC | 00896",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Pre-Roll Pack | Capy | 3pk | High THC | 00896: $25.60 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Quick | Island Punch | 20ct | 00374",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Quick | Island Punch | 20ct | 00374: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Quick Strawberry Margarita | 20ct | 00460",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Quick Strawberry Margarita | 20ct | 00460: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Quick Peach Bellini | 20ct | 00436",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Quick Peach Bellini | 20ct | 00436: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Quick Limoncello | 20ct | 00429",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Quick Limoncello | 20ct | 00429: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Quick Connecticut Sunrise | 20ct | 00478: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Pomegranate Blueberry Acai 5:1 CBD:THC | 20ct | 00434: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Exotic Yuzu 2:1 CBD:THC | 20ct | 00366: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Classic | Blueberry | 20ct | 00251",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Classic | Blueberry | 20ct | 00251: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Classic Mango | 20ct | 00263",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Classic Mango | 20ct | 00263: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Wana Classic Dream Berry | 20ct | 00435",
+    "brand": "Wana",
+    "message": "Wana Gummies | Wana Classic Dream Berry | 20ct | 00435: $34.00 > $27.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gummies | Tangerine Peach RSO | 20pk | 00915",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Gummies | Tangerine Peach RSO | 20pk | 00915: $24.80 > $31.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419",
+    "brand": "Wana",
+    "message": "Wana Gummies | Quick | Dreamberry | Low Dose | 20ct | 00419: $34.00 > $27.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Solo Burger 00907",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Solo Burger 00907: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Medellin 00823",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Medellin 00823: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | MF-107 00837",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | MF-107 00837: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Capy High THC | 00795",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Capy High THC | 00795: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Black Maple High THC | 00856",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Flower | Black Maple High THC | 00856: $38.40 > $48.00"
+  }
+]
