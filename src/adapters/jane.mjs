@@ -17,9 +17,11 @@ function parseJaneProducts(text) {
     var cbdMatch = block.match(/CBD\s*(\d+\.?\d*)%?/);
 
     var priceWeightMatch = block.match(/\$(\d+\.?\d*)\/(\d+\.?\d*\s*(?:g|mg|ml|oz))/i);
+    var allPrices = block.match(/\$(\d+\.?\d*)/g) || [];
     var plainPrice = block.match(/\$(\d+\.?\d*)/);
 
     var price = null;
+    var originalPrice = null;
     var weight = null;
 
     if (priceWeightMatch) {
@@ -27,6 +29,16 @@ function parseJaneProducts(text) {
       weight = priceWeightMatch[2].trim();
     } else if (plainPrice) {
       price = parseFloat(plainPrice[1]);
+    }
+    
+    // If there are two prices and a deal indicator, first is original, second is sale
+    if (allPrices.length >= 2 && block.match(/\d+%\s*OFF/i)) {
+      var p1 = parseFloat(allPrices[0].replace('$',''));
+      var p2 = parseFloat(allPrices[1].replace('$',''));
+      if (p2 < p1) {
+        originalPrice = p1;
+        price = p2;
+      }
     }
 
     if (!price || price <= 0) continue;
@@ -67,6 +79,11 @@ function parseJaneProducts(text) {
       name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '').trim();
     }
 
+    // Clean up Jane-specific prefixes
+    name = name.replace(/^Sponsored\s*/i, '');
+    name = name.replace(/^\d+%\s*(?:back|OFF)\s*/i, '');
+    name = name.replace(/^\d+%\s*OFF\s*\d*\/?(?:\d*\s*OZ)?\s*/i, '');
+    name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '');
     name = name.replace(/\s+/g, ' ').trim();
     if (name.length > 80) name = name.substring(0, 80).trim();
 
@@ -178,12 +195,35 @@ export async function scrapeJane(dispensary) {
         try {
           page = await context.newPage();
           await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
-          await page.waitForTimeout(8000);
+          await page.waitForTimeout(5000);
 
-          // Scroll to load all products
-          for (var scroll = 0; scroll < 20; scroll++) {
+          // Dismiss age gate
+          try {
+            var ageBtn = page.locator('button:has-text("I\'m over 21")').first();
+            if (await ageBtn.isVisible({ timeout: 3000 })) {
+              await ageBtn.click();
+              await page.waitForTimeout(2000);
+            }
+          } catch(e) {}
+
+          // Click "View more" repeatedly to load all products
+          for (var vm = 0; vm < 15; vm++) {
+            try {
+              var viewMore = page.locator('button:has-text("View more")').first();
+              if (await viewMore.isVisible({ timeout: 2000 })) {
+                await viewMore.scrollIntoViewIfNeeded();
+                await viewMore.click();
+                await page.waitForTimeout(2000);
+              } else {
+                break;
+              }
+            } catch(e) { break; }
+          }
+
+          // Final scroll to ensure everything rendered
+          for (var scroll = 0; scroll < 10; scroll++) {
             await page.evaluate(function() { window.scrollBy(0, 800); });
-            await page.waitForTimeout(200);
+            await page.waitForTimeout(150);
           }
           await page.waitForTimeout(1000);
 
