@@ -484,13 +484,18 @@ async function main() {
       var candBrand = normalizeBrand(candGroup[0].brand);
       var candCat = candGroup[0]._cat;
       var candWeight = candGroup[0]._weight;
-      if (candBrand !== baseBrand || candCat !== baseCat) continue;
+      // Brand must match, OR one side has empty/unknown brand
+      var brandMatch = (candBrand === baseBrand) || 
+                       (candBrand === '' || baseBrand === '' || candBrand === 'unknown' || baseBrand === 'unknown');
+      if (!brandMatch || candCat !== baseCat) continue;
       var weightMatch = (candWeight === baseWeight) ||
                         (candWeight === 'unknown' || baseWeight === 'unknown');
       if (!weightMatch) continue;
       var candTokens = extractStrainTokens(candGroup[0].name, candGroup[0].brand);
       var sim = tokenSimilarity(baseTokens, candTokens);
-      if (sim >= 0.6) {
+      // Require higher similarity when one brand is empty (to avoid false merges)
+      var threshold = (candBrand === baseBrand) ? 0.6 : 0.75;
+      if (sim >= threshold) {
         mergedGroup = mergedGroup.concat(candGroup);
         used.add(j);
       }
