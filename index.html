@@ -1262,16 +1262,19 @@ function ReportTab({data,favsVer}){
       // 7. Biggest price differences
       var diffs=matching.map(function(m){return{name:m.name,brand:m.brand,cat:m.cat,homePrice:m.homePrice,compPrice:m.compPrice,diff:m.homePrice-m.compPrice,pct:Math.round((m.homePrice-m.compPrice)/m.compPrice*100)}}).sort(function(a,b){return a.diff-b.diff});
       
-      // 8. Price extremes by weight
-      var weightBuckets={"3.5g":[],"7g":[],"14g":[],"28g":[],"1g":[],"0.5g":[],"other":[]};
+      // 8. Price extremes by category then weight
+      var catWeightBuckets={};
       matching.forEach(function(m){
+        var cat=m.cat||"Other";
+        if(!catWeightBuckets[cat])catWeightBuckets[cat]={};
         var w=m.name.match(/(\d+\.?\d*)\s*g\b/i);
         var wKey="other";
         if(w){var wv=parseFloat(w[1]);if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
-        weightBuckets[wKey].push(m);
+        if(!catWeightBuckets[cat][wKey])catWeightBuckets[cat][wKey]=[];
+        catWeightBuckets[cat][wKey].push(m);
       });
       
-      setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeMoves:homeMoves,compMoves:compMoves,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,weightBuckets:weightBuckets,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
+      setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeMoves:homeMoves,compMoves:compMoves,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,catWeightBuckets:catWeightBuckets,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
       setGenerating(false);
     },100);
   }
@@ -1418,45 +1421,59 @@ function ReportTab({data,favsVer}){
           </table>
         </div>
 
-        {/* PRICE EXTREMES BY WEIGHT */}
+        {/* PRICE EXTREMES BY CATEGORY + WEIGHT */}
         <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes by Size</div>
-          {report.weightBuckets&&Object.entries(report.weightBuckets).filter(function(e){return e[1].length>0}).map(function(e){
-            var wLabel=e[0],items=e[1];
-            var homeHighW=null,homeLowW=null,compHighW=null,compLowW=null;
-            items.forEach(function(m){
-              if(!homeHighW||m.homePrice>homeHighW.homePrice)homeHighW=m;
-              if(!homeLowW||m.homePrice<homeLowW.homePrice)homeLowW=m;
-              if(!compHighW||m.compPrice>compHighW.compPrice)compHighW=m;
-              if(!compLowW||m.compPrice<compLowW.compPrice)compLowW=m;
-            });
-            return<div key={wLabel} style={{marginBottom:16}}>
-              <div style={{fontWeight:700,fontSize:15,color:'#333',marginBottom:8,borderBottom:'1px solid #eee',paddingBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({items.length} products)</div>
-              <table style={{width:'100%',borderCollapse:'collapse',fontSize:13,marginBottom:4}}>
-                <thead><tr style={{borderBottom:'1px solid #ddd'}}>
-                  <th style={{textAlign:'left',padding:'5px 8px',width:'15%'}}></th>
-                  <th style={{textAlign:'left',padding:'5px 8px',color:'#e8600a'}}>{report.hName}</th>
-                  <th style={{textAlign:'center',padding:'5px 8px',color:'#e8600a'}}>Price</th>
-                  <th style={{textAlign:'left',padding:'5px 8px'}}>{report.cName}</th>
-                  <th style={{textAlign:'center',padding:'5px 8px'}}>Price</th>
-                </tr></thead>
-                <tbody>
-                  <tr style={{borderBottom:'1px solid #f0f0f0'}}>
-                    <td style={{padding:'5px 8px',fontWeight:600,color:'#d42030',fontSize:11}}>HIGHEST</td>
-                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeHighW?homeHighW.name:"—"}</td>
-                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?"$"+homeHighW.homePrice.toFixed(2):"—"}</td>
-                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compHighW?compHighW.name:"—"}</td>
-                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?"$"+compHighW.compPrice.toFixed(2):"—"}</td>
-                  </tr>
-                  <tr style={{borderBottom:'1px solid #f0f0f0'}}>
-                    <td style={{padding:'5px 8px',fontWeight:600,color:'#1a8f3f',fontSize:11}}>LOWEST</td>
-                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeLowW?homeLowW.name:"—"}</td>
-                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?"$"+homeLowW.homePrice.toFixed(2):"—"}</td>
-                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compLowW?compLowW.name:"—"}</td>
-                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?"$"+compLowW.compPrice.toFixed(2):"—"}</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes by Category &amp; Size</div>
+          {report.catWeightBuckets&&Object.entries(report.catWeightBuckets).sort(function(a,b){
+            var order=["Flower","Pre-Rolls","Vaporizers","Edible","Concentrate","Tincture","Topical"];
+            var ai=order.indexOf(a[0]),bi=order.indexOf(b[0]);
+            return(ai<0?99:ai)-(bi<0?99:bi);
+          }).map(function(catEntry){
+            var catName=catEntry[0],weights=catEntry[1];
+            var totalInCat=Object.values(weights).reduce(function(s,arr){return s+arr.length},0);
+            return<div key={catName} style={{marginBottom:20}}>
+              <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10}}>{catName} ({totalInCat} comparable)</div>
+              {Object.entries(weights).filter(function(e){return e[1].length>0}).sort(function(a,b){
+                var wOrder=["0.5g","1g","3.5g","7g","14g","28g","other"];
+                return wOrder.indexOf(a[0])-wOrder.indexOf(b[0]);
+              }).map(function(wEntry){
+                var wLabel=wEntry[0],items=wEntry[1];
+                var homeHighW=null,homeLowW=null,compHighW=null,compLowW=null;
+                items.forEach(function(m){
+                  if(!homeHighW||m.homePrice>homeHighW.homePrice)homeHighW=m;
+                  if(!homeLowW||m.homePrice<homeLowW.homePrice)homeLowW=m;
+                  if(!compHighW||m.compPrice>compHighW.compPrice)compHighW=m;
+                  if(!compLowW||m.compPrice<compLowW.compPrice)compLowW=m;
+                });
+                return<div key={wLabel} style={{marginBottom:10,marginLeft:12}}>
+                  <div style={{fontWeight:600,fontSize:13,color:'#666',marginBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({items.length})</div>
+                  <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
+                    <thead><tr style={{borderBottom:'1px solid #ddd'}}>
+                      <th style={{textAlign:'left',padding:'4px 8px',width:'12%'}}></th>
+                      <th style={{textAlign:'left',padding:'4px 8px',color:'#e8600a'}}>{report.hName}</th>
+                      <th style={{textAlign:'center',padding:'4px 8px',color:'#e8600a',width:'10%'}}>Price</th>
+                      <th style={{textAlign:'left',padding:'4px 8px'}}>{report.cName}</th>
+                      <th style={{textAlign:'center',padding:'4px 8px',width:'10%'}}>Price</th>
+                    </tr></thead>
+                    <tbody>
+                      <tr style={{borderBottom:'1px solid #f0f0f0'}}>
+                        <td style={{padding:'4px 8px',fontWeight:600,color:'#d42030',fontSize:11}}>HIGHEST</td>
+                        <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeHighW?homeHighW.name:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?"$"+homeHighW.homePrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compHighW?compHighW.name:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?"$"+compHighW.compPrice.toFixed(2):"—"}</td>
+                      </tr>
+                      <tr style={{borderBottom:'1px solid #f0f0f0'}}>
+                        <td style={{padding:'4px 8px',fontWeight:600,color:'#1a8f3f',fontSize:11}}>LOWEST</td>
+                        <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeLowW?homeLowW.name:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?"$"+homeLowW.homePrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compLowW?compLowW.name:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?"$"+compLowW.compPrice.toFixed(2):"—"}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              })}
             </div>
           })}
         </div>
