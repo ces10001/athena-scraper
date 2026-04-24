@@ -516,7 +516,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
     <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
     {q.trim()&&selectedProduct&&<ProductDetail product={selectedProduct}/>}
     {q.trim()&&searchResults.length>1&&<div className="pnl" style={{padding:'8px 12px',marginBottom:10}}><div style={{fontSize:11,color:'var(--tx2)',marginBottom:6}}>Click to view details:</div>{searchResults.map((p,i)=><div key={i} onClick={()=>setSelectedProduct(p)} style={{padding:'6px 10px',cursor:'pointer',borderBottom:'1px solid rgba(0,0,0,.06)',fontSize:13,fontWeight:selectedProduct===p?600:400,color:selectedProduct===p?'var(--cy)':'var(--tx)',background:selectedProduct===p?'rgba(232,96,10,.04)':'transparent'}}>{p.brand} - {p.name} <span style={{color:'var(--tx3)',fontSize:11}}>({Object.keys(p.dispensaries||{}).length} stores)</span></div>)}</div>}
-    <CatTabs data={data} cat={cat} setCat={setCat}/>
+    <CatTabs data={data} cat={cat} setCat={setCat} sel={sel} comp={comp}/>
     <Tbl data={data} q={q} sel={sel} cat={cat} comp={comp} setComp={setComp}/></>;
 }
 
@@ -605,18 +605,44 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
     })}</div></div>;
 }
 
-function CatTabs({data,cat,setCat}){
+function CatTabs({data,cat,setCat,sel,comp}){
+  const catCounts=useMemo(()=>{
+    var counts={};var prods=data.products||[];
+    prods.forEach(p=>{
+      var c=p.category||"Other";
+      if(c.toLowerCase()==="gift cards")return;
+      var n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;
+      if(comp?n>=2:n>=1){counts[c]=(counts[c]||0)+1;counts["All"]=(counts["All"]||0)+1}
+    });
+    return counts;
+  },[data,sel,comp]);
   const cats=useMemo(()=>{const s=new Set();(data.products||[]).forEach(p=>{var c=p.category||"Other";if(c.toLowerCase()!=="gift cards")s.add(c)});return["All",...[...s].sort()]},[data]);
-  return<div className="cats">{cats.map(c=><div key={c} className={"ct "+(cat===c?"on":"")} onClick={()=>setCat(c)}>{c}</div>)}</div>;
+  return<div className="cats">{cats.map(c=><div key={c} className={"ct "+(cat===c?"on":"")} onClick={()=>setCat(c)}>{c}{catCounts[c]?" ("+catCounts[c]+")":""}</div>)}</div>;
 }
 
 function Tbl({data,q,sel,cat,comp,setComp}){
   const prods=data.products||[];const cols=useMemo(()=>[...sel].sort((a,b)=>{if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)}),[sel]);const affC=cols.filter(isAff);
   const rows=useMemo(()=>{let it=prods.filter(p=>(p.category||"").toLowerCase()!=="gift cards");if(cat!=="All")it=it.filter(p=>p.category===cat);if(q.trim()){const s=q.toLowerCase();it=it.filter(p=>(p.name||"").toLowerCase().includes(s)||(p.brand||"").toLowerCase().includes(s))}return it.filter(p=>{const n=Object.keys(p.dispensaries||{}).filter(x=>sel.has(x)).length;return comp?n>=2:n>=1})},[prods,q,sel,cat,comp]);
+  
+  // Get menu type (Med/Rec) from dispensary name
+  function getMenuType(d){if(/\(Med\)/i.test(d))return"med";if(/\(Rec\)/i.test(d))return"rec";return"any"}
+  // Get YOUR price matching the same menu type as the competitor column
+  function getYPForCol(p,compDisp){
+    var compType=getMenuType(compDisp);
+    // First try to find a starred dispensary with matching menu type
+    for(var i=0;i<affC.length;i++){
+      var affType=getMenuType(affC[i]);
+      if((compType==="any"||affType==="any"||compType===affType)&&p.dispensaries&&p.dispensaries[affC[i]])return p.dispensaries[affC[i]];
+    }
+    // Fallback: any starred price
+    for(var i=0;i<affC.length;i++){if(p.dispensaries&&p.dispensaries[affC[i]])return p.dispensaries[affC[i]]}
+    return null;
+  }
+  
   return<div className="tw"><div className="inf"><span>{rows.length.toLocaleString()} product{rows.length!==1?"s":""}</span><div className="row" style={{gap:10}}><label style={{fontSize:10,color:'var(--tx2)',cursor:'pointer',display:'flex',alignItems:'center',gap:4}}><input type="checkbox" checked={comp} onChange={e=>setComp(e.target.checked)}/>Comparable only (at 2+ stores)</label></div></div>
     {!rows.length?<div className="empty"><h3>No matches</h3></div>:<div className="ts"><table><thead><tr><th style={{minWidth:160}}>Product</th><th>Brand</th><th>Cat</th>{cols.map(d=><th key={d} className={isAff(d)?"yc":""}>{isAff(d)?"★ ":""}{cleanD(d)}</th>)}</tr></thead>
-      <tbody>{rows.slice(0,500).map((p,i)=>{const yp=getYP(p,affC);return<tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td>
-        {cols.map(d=>{const pr=p.dispensaries?.[d];if(!pr)return<td key={d} className="pr"></td>;const pm=p.promos?.[d];let c="pr";const y=isAff(d);if(y)c+=" yp";else if(yp&&pr>yp)c+=" hi";else if(yp&&pr<yp)c+=" lo";let df=null;if(!y&&yp&&yp>0){const pct=Math.round((pr-yp)/yp*100);if(pct>0)df=<span className="df up">+{pct}%</span>;else if(pct<0)df=<span className="df dn">{pct}%</span>}return<td key={d} className={c}>${pr.toFixed(2)}{pm?<span style={{fontSize:9,color:'var(--am)',marginLeft:3}}>(promo ${pm.toFixed(2)})</span>:null}{df}</td>})}</tr>})}</tbody></table></div>}</div>;
+      <tbody>{rows.slice(0,500).map((p,i)=>{return<tr key={i}><td className="pn">{p.name}</td><td className="dm">{p.brand}</td><td className="dm">{p.category}</td>
+        {cols.map(d=>{const pr=p.dispensaries?.[d];if(!pr)return<td key={d} className="pr"></td>;const pm=p.promos?.[d];let c="pr";const y=isAff(d);const yp=y?null:getYPForCol(p,d);if(y)c+=" yp";else if(yp&&pr>yp)c+=" hi";else if(yp&&pr<yp)c+=" lo";let df=null;if(!y&&yp&&yp>0){const pct=Math.round((pr-yp)/yp*100);if(pct>0)df=<span className="df up">+{pct}%</span>;else if(pct<0)df=<span className="df dn">{pct}%</span>}return<td key={d} className={c}>${pr.toFixed(2)}{pm?<span style={{fontSize:9,color:'var(--am)',marginLeft:3}}>(promo ${pm.toFixed(2)})</span>:null}{df}</td>})}</tr>})}</tbody></table></div>}</div>;
 }
 
 /* ═══════════════════════════════════════
