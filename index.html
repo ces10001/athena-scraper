@@ -1281,8 +1281,14 @@ function ReportTab({data,favsVer}){
 
   function exportPDF(){
     var el=document.getElementById('athena-report');if(!el)return;
-    var opt={margin:[10,10,10,10],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.98},html2canvas:{scale:2,useCORS:true},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'}};
-    html2pdf().set(opt).from(el).save();
+    // Temporarily constrain width for PDF
+    el.style.maxWidth='680px';el.style.padding='20px';el.style.fontSize='12px';
+    var tables=el.querySelectorAll('table');tables.forEach(function(t){t.style.fontSize='11px'});
+    var opt={margin:[12,12,12,12],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,width:680},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'}};
+    html2pdf().set(opt).from(el).save().then(function(){
+      el.style.maxWidth='';el.style.padding='32px';el.style.fontSize='';
+      tables.forEach(function(t){t.style.fontSize=''});
+    });
   }
 
   var allCats=Object.keys(report?report.cats:{}).sort();
@@ -1312,7 +1318,7 @@ function ReportTab({data,favsVer}){
 
     {report&&<>
       <div style={{textAlign:'right',marginBottom:12}}><button className="btn pri" style={{padding:'10px 24px',fontSize:14}} onClick={exportPDF}>Export PDF</button></div>
-      <div id="athena-report" style={{background:'#fff',color:'#1a1a1a',padding:32,borderRadius:8,fontFamily:"'Outfit',sans-serif",lineHeight:1.6}}>
+      <div id="athena-report" style={{background:'#fff',color:'#1a1a1a',padding:32,borderRadius:8,fontFamily:"'Outfit',sans-serif",lineHeight:1.6,maxWidth:900,overflow:'hidden'}}>
         {/* HEADER */}
         <div style={{borderBottom:'3px solid #e8600a',paddingBottom:16,marginBottom:24}}>
           <div style={{fontSize:28,fontWeight:700,color:'#e8600a',letterSpacing:2}}>ATHENA</div>
