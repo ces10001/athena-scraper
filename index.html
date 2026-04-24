@@ -1203,7 +1203,7 @@ function ReportTab({data,favsVer}){
     if(!homeDisp||!compDisp||homeDisp===compDisp)return;
     setGenerating(true);
     setTimeout(function(){
-      var prods=data.products||[];var deals=data.store_promos||[];var alerts=data.alerts||[];
+      var prods=data.products||[];var deals=data.store_promos||[];var priceMoves=data.deals||[];
       var hName=cleanD(homeDisp),cName=cleanD(compDisp);
       
       // 1. Matching products
@@ -1236,13 +1236,21 @@ function ReportTab({data,favsVer}){
         if(!compLow||m.compPrice<compLow.compPrice)compLow=m;
       });
       
-      // 4. Price alerts for each
-      var homeAlerts=alerts.filter(function(a){return a.dispensary===homeDisp});
-      var compAlerts=alerts.filter(function(a){return a.dispensary===compDisp});
+      // 4. Price movements (product-level price drops/deals)
+      var homeMoves=priceMoves.filter(function(a){return a.dispensary===homeDisp});
+      var compMoves=priceMoves.filter(function(a){return a.dispensary===compDisp});
       
-      // 5. Deals
-      var homeDeals=deals.filter(function(d){var dn=d.dispensary.replace(/\s*\((?:Med|Rec)\)/,"");return homeDisp.includes(dn)||dn.includes(cleanD(homeDisp).split(" ")[0])});
-      var compDeals=deals.filter(function(d){var dn=d.dispensary.replace(/\s*\((?:Med|Rec)\)/,"");return compDisp.includes(dn)||dn.includes(cleanD(compDisp).split(" ")[0])});
+      // 5. Deals — match by chain name (strip location/med/rec)
+      var homeChain=cleanD(homeDisp).replace(/\s*\((?:Med|Rec)\)/i,"").replace(/\s*-\s*.*/,"").trim();
+      var compChain=cleanD(compDisp).replace(/\s*\((?:Med|Rec)\)/i,"").replace(/\s*-\s*.*/,"").trim();
+      var homeDeals=deals.filter(function(d){
+        var dn=(d.dispensary||"").replace(/\s*\((?:Med|Rec)\)/i,"").trim();
+        return dn.toLowerCase().includes(homeChain.toLowerCase())||homeChain.toLowerCase().includes(dn.split(" - ")[0].toLowerCase().trim());
+      });
+      var compDeals=deals.filter(function(d){
+        var dn=(d.dispensary||"").replace(/\s*\((?:Med|Rec)\)/i,"").trim();
+        return dn.toLowerCase().includes(compChain.toLowerCase())||compChain.toLowerCase().includes(dn.split(" - ")[0].toLowerCase().trim());
+      });
       
       // 6. SKU counts
       var homeSKUs={},compSKUs={},homeTot=0,compTot=0;
@@ -1254,7 +1262,16 @@ function ReportTab({data,favsVer}){
       // 7. Biggest price differences
       var diffs=matching.map(function(m){return{name:m.name,brand:m.brand,cat:m.cat,homePrice:m.homePrice,compPrice:m.compPrice,diff:m.homePrice-m.compPrice,pct:Math.round((m.homePrice-m.compPrice)/m.compPrice*100)}}).sort(function(a,b){return a.diff-b.diff});
       
-      setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeAlerts:homeAlerts,compAlerts:compAlerts,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
+      // 8. Price extremes by weight
+      var weightBuckets={"3.5g":[],"7g":[],"14g":[],"28g":[],"1g":[],"0.5g":[],"other":[]};
+      matching.forEach(function(m){
+        var w=m.name.match(/(\d+\.?\d*)\s*g\b/i);
+        var wKey="other";
+        if(w){var wv=parseFloat(w[1]);if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
+        weightBuckets[wKey].push(m);
+      });
+      
+      setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeMoves:homeMoves,compMoves:compMoves,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,weightBuckets:weightBuckets,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
       setGenerating(false);
     },100);
   }
@@ -1371,14 +1388,14 @@ function ReportTab({data,favsVer}){
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
-              <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Savings</th>
+              <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff<0}).slice(0,15).map(function(d,i){return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff<0}).slice(0,15).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:600}}>${d.homePrice.toFixed(2)}</td>
               <td style={{padding:'6px 8px',textAlign:'center'}}>${d.compPrice.toFixed(2)}</td>
-              <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:700}}>{d.pct}%</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:700}}>+{compPct}%</td>
             </tr>})}</tbody>
           </table>
         </div>
@@ -1391,34 +1408,57 @@ function ReportTab({data,favsVer}){
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
               <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).slice(0,15).map(function(d,i){return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).slice(0,15).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:600}}>${d.homePrice.toFixed(2)}</td>
               <td style={{padding:'6px 8px',textAlign:'center'}}>${d.compPrice.toFixed(2)}</td>
-              <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:700}}>+{d.pct}%</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:700}}>{compPct}%</td>
             </tr>})}</tbody>
           </table>
         </div>
 
-        {/* HIGHS & LOWS */}
+        {/* PRICE EXTREMES BY WEIGHT */}
         <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes (Comparable Products)</div>
-          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
-            {[[report.hName,"#e8600a",report.homeHigh,report.homeLow],[report.cName,"#555",report.compHigh,report.compLow]].map(function(s){return<div key={s[0]} style={{flex:1,minWidth:250}}>
-              <div style={{fontWeight:700,color:s[1],fontSize:15,marginBottom:8}}>{s[0]}</div>
-              {s[2]&&<div style={{background:'#f8f8f8',borderRadius:6,padding:10,marginBottom:8}}>
-                <div style={{fontSize:11,color:'#888',fontWeight:600}}>HIGHEST PRICE</div>
-                <div style={{fontSize:14,fontWeight:600,marginTop:2}}>{s[2].name}</div>
-                <div style={{fontSize:18,fontWeight:700,color:'#d42030',marginTop:2}}>${s[0]===report.hName?s[2].homePrice.toFixed(2):s[2].compPrice.toFixed(2)}</div>
-              </div>}
-              {s[3]&&<div style={{background:'#f8f8f8',borderRadius:6,padding:10}}>
-                <div style={{fontSize:11,color:'#888',fontWeight:600}}>LOWEST PRICE</div>
-                <div style={{fontSize:14,fontWeight:600,marginTop:2}}>{s[3].name}</div>
-                <div style={{fontSize:18,fontWeight:700,color:'#1a8f3f',marginTop:2}}>${s[0]===report.hName?s[3].homePrice.toFixed(2):s[3].compPrice.toFixed(2)}</div>
-              </div>}
-            </div>})}
-          </div>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes by Size</div>
+          {report.weightBuckets&&Object.entries(report.weightBuckets).filter(function(e){return e[1].length>0}).map(function(e){
+            var wLabel=e[0],items=e[1];
+            var homeHighW=null,homeLowW=null,compHighW=null,compLowW=null;
+            items.forEach(function(m){
+              if(!homeHighW||m.homePrice>homeHighW.homePrice)homeHighW=m;
+              if(!homeLowW||m.homePrice<homeLowW.homePrice)homeLowW=m;
+              if(!compHighW||m.compPrice>compHighW.compPrice)compHighW=m;
+              if(!compLowW||m.compPrice<compLowW.compPrice)compLowW=m;
+            });
+            return<div key={wLabel} style={{marginBottom:16}}>
+              <div style={{fontWeight:700,fontSize:15,color:'#333',marginBottom:8,borderBottom:'1px solid #eee',paddingBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({items.length} products)</div>
+              <table style={{width:'100%',borderCollapse:'collapse',fontSize:13,marginBottom:4}}>
+                <thead><tr style={{borderBottom:'1px solid #ddd'}}>
+                  <th style={{textAlign:'left',padding:'5px 8px',width:'15%'}}></th>
+                  <th style={{textAlign:'left',padding:'5px 8px',color:'#e8600a'}}>{report.hName}</th>
+                  <th style={{textAlign:'center',padding:'5px 8px',color:'#e8600a'}}>Price</th>
+                  <th style={{textAlign:'left',padding:'5px 8px'}}>{report.cName}</th>
+                  <th style={{textAlign:'center',padding:'5px 8px'}}>Price</th>
+                </tr></thead>
+                <tbody>
+                  <tr style={{borderBottom:'1px solid #f0f0f0'}}>
+                    <td style={{padding:'5px 8px',fontWeight:600,color:'#d42030',fontSize:11}}>HIGHEST</td>
+                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeHighW?homeHighW.name:"—"}</td>
+                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?"$"+homeHighW.homePrice.toFixed(2):"—"}</td>
+                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compHighW?compHighW.name:"—"}</td>
+                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?"$"+compHighW.compPrice.toFixed(2):"—"}</td>
+                  </tr>
+                  <tr style={{borderBottom:'1px solid #f0f0f0'}}>
+                    <td style={{padding:'5px 8px',fontWeight:600,color:'#1a8f3f',fontSize:11}}>LOWEST</td>
+                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeLowW?homeLowW.name:"—"}</td>
+                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?"$"+homeLowW.homePrice.toFixed(2):"—"}</td>
+                    <td style={{padding:'5px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compLowW?compLowW.name:"—"}</td>
+                    <td style={{padding:'5px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?"$"+compLowW.compPrice.toFixed(2):"—"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          })}
         </div>
 
         {/* PRODUCT GAPS */}
@@ -1467,20 +1507,25 @@ function ReportTab({data,favsVer}){
           </div>
         </div>
 
-        {/* PRICE ALERTS */}
+        {/* PRICE MOVEMENTS */}
         <div style={{marginBottom:28}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Recent Price Movements</div>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Current Discounted Products</div>
           <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
-            {[[report.hName,report.homeAlerts,"#e8600a"],[report.cName,report.compAlerts,"#555"]].map(function(s){
-              var drops=s[1].filter(function(a){return a.type==='price_drop'});
-              var increases=s[1].filter(function(a){return a.type==='price_increase'});
+            {[[report.hName,report.homeMoves,"#e8600a"],[report.cName,report.compMoves,"#555"]].map(function(s){
+              var moves=s[1]||[];
+              var sorted=moves.slice().sort(function(a,b){return(b.pct_off||0)-(a.pct_off||0)});
               return<div key={s[0]} style={{flex:1,minWidth:250}}>
-                <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]}</div>
-                <div style={{fontSize:13,color:'#1a8f3f',marginBottom:4}}>↓ {drops.length} price drops</div>
-                <div style={{fontSize:13,color:'#d42030',marginBottom:8}}>↑ {increases.length} price increases</div>
-                {drops.slice(0,5).map(function(a,i){return<div key={i} style={{fontSize:12,padding:'3px 0',borderBottom:'1px solid #f0f0f0'}}>
-                  <span style={{color:'#1a8f3f'}}>↓</span> {a.product} — ${a.original?.toFixed(2)||"?"} → ${a.discounted?.toFixed(2)||a.current?.toFixed(2)||"?"}
-                </div>})}
+                <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]} ({moves.length} discounted)</div>
+                {moves.length===0?<div style={{color:'#888',fontSize:13}}>No active product discounts.</div>:
+                <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
+                  <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Was</th><th style={{padding:'4px 6px'}}>Now</th><th style={{padding:'4px 6px'}}>Off</th></tr></thead>
+                  <tbody>{sorted.slice(0,15).map(function(m,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                    <td style={{padding:'4px 6px',maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{m.product||m.name}</td>
+                    <td style={{padding:'4px 6px',textAlign:'center',textDecoration:'line-through',color:'#888'}}>${(m.original||0).toFixed(2)}</td>
+                    <td style={{padding:'4px 6px',textAlign:'center',fontWeight:600,color:'#1a8f3f'}}>${(m.discounted||0).toFixed(2)}</td>
+                    <td style={{padding:'4px 6px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{m.pct_off||0}%</td>
+                  </tr>})}{moves.length>15&&<tr><td colSpan="4" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {moves.length-15} more</td></tr>}</tbody>
+                </table>}
               </div>
             })}
           </div>
