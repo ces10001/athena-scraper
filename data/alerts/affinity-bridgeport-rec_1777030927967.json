@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy GRND 7g Blue Andeze I 26994 (7g) (Grind)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Savvy GRND 7g Blue Andeze I 26994 (7g) (Grind) $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy Lil' Ricky's T30.03% H 00889 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy Lil' Ricky's T30.03% H 00889 (3pk)"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding: $48.80 > $61.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Roll: $47.00 > $37.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G: $41.60 > $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Indica Milk Chocolate",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Indica Milk Chocolate $22.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $7.20 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $7.20 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Unflavored",
+    "brand": "Theraplant",
+    "message": "Theraplant Unflavored: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $54.40 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake: $7.20 > $9.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Strawberry Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Grape"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue NDZ",
+    "brand": "Brix",
+    "message": "Gone: Brix - Blue NDZ"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Sunrise",
+    "brand": "Brix",
+    "message": "Gone: Brix - Mystic Sunrise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "Brix",
+    "message": "Gone: Brix - Glitter Bomb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Peach"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Sherbet",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Watermelon Sherbet"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Express",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Pineapple Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Confidential Cherries",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Confidential Cherries"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OMG",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - OMG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "Gone: Select - Banana Cream Cayk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Peaceful Paradise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Banana Cream OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Pomme Jelly"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citrus Punch",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Citrus Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Freshly Squeezed",
+    "brand": "Camino",
+    "message": "Gone: Camino - Freshly Squeezed"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cheddar Cheeze",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Cheddar Cheeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Do Not Trip",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Do Not Trip"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Trop Cherry",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Trop Cherry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Burger",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banapple Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "Gone: Find. - Silver Dollar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Gone: Find. - Bulbz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Nuclear Mfns"
+  }
+]

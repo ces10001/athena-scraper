@@ -1,0 +1,506 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Purple Urkle D-0.5g Vape (C0070000230)",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Purple Urkle D-0.5g Vape (C0070000230): $31.20 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Purple Urkle 0.5g Vape (C0070000226)",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Purple Urkle 0.5g Vape (C0070000226): $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Clementine (S) C0170000029",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Clementine (S) C0170000029: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Marker 1g All in One Vape (I) 00532",
+    "brand": "Brix",
+    "message": "Brix Blue Marker 1g All in One Vape (I) 00532: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Sour Z (H) C0170000030",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Sour Z (H) C0170000030: $32.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zone Pre-Pack 14g CIG 00090",
+    "brand": "Zone",
+    "message": "Zone Zone Pre-Pack 14g CIG 00090: $90.00 > $72.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023: $16.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Pack 3.5g H4G-S-9 00079",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Pack 3.5g H4G-S-9 00079: $46.00 > $36.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032: $16.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467: $30.40 > $38.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zone Pre-Pack 7g H4G-S-9 00097",
+    "brand": "Zone",
+    "message": "Zone Zone Pre-Pack 7g H4G-S-9 00097: $60.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Orange Cookiez (I) C0170000028",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Orange Cookiez (I) C0170000028: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis INKD UP 1g All in One Vape (I) 00479",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis INKD UP 1g All in One Vape (I) 00479: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade T96mg - C0170000017",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Pink Lemonade T96mg - C0170000017: $16.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Clementine (S) C0170000031",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Clementine (S) C0170000031: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009: $16.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Afgooey Whole Flower 3.5g (I) 00437",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Afgooey Whole Flower 3.5g (I) 00437: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem D Lil' Budz 7g (H) 00471",
+    "brand": "Brix",
+    "message": "Brix Chem D Lil' Budz 7g (H) 00471: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Gush Mintz 1g Vape (I) 00427",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Gush Mintz 1g Vape (I) 00427: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Starblast (H) C0170000026",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Starblast (H) C0170000026: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "C-Stata Lil' Budz 7g (H) 00472",
+    "brand": "Brix",
+    "message": "Brix C-Stata Lil' Budz 7g (H) 00472: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk Lil' Budz 7g (I) 00489",
+    "brand": "Brix",
+    "message": "Brix Purple Milk Lil' Budz 7g (I) 00489: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "C-Stata 1g Pre Roll (H) 00542",
+    "brand": "Brix",
+    "message": "Brix C-Stata 1g Pre Roll (H) 00542: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Blueberry Whole Flower 3.5g (I) 00433",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Blueberry Whole Flower 3.5g (I) 00433: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis C-Stata Whole Flower 3.5g (H) 00465",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis C-Stata Whole Flower 3.5g (H) 00465: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Bananaconda 1g Vape (H) 00497",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Bananaconda 1g Vape (H) 00497: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chemdog's Chem Junk 1g Vape (H) 00498",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Chem Junk 1g Vape (H) 00498: $40.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Pack 3.5g BBH 00014",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Pack 3.5g BBH 00014: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1.0g JFO 00066",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1.0g JFO 00066: $10.00 > $8.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000024",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Golden Tangie (S) C0170000024: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk 1g All in One Vape (I) 00534",
+    "brand": "Brix",
+    "message": "Brix Purple Milk 1g All in One Vape (I) 00534: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008: $16.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Mac Stomper 1g Pre Roll (S) 00406",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Mac Stomper 1g Pre Roll (S) 00406: $8.80 > $11.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "THE GOODS - WHOLE FLOWER - BLUE RAZ10001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - BLUE RAZ10001: $40.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Purple Milk 1g Pre Roll (I) 00504",
+    "brand": "Brix",
+    "message": "Brix Purple Milk 1g Pre Roll (I) 00504: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Whole Flower Permanent Marker (I) 00317",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Whole Flower Permanent Marker (I) 00317: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis B Yo 0.5g 2 Pack Pre Rolls (I) 00361",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis B Yo 0.5g 2 Pack Pre Rolls (I) 00361: $8.80 > $11.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "COOKIES - WHOLE FLOWER - BLUEBERRY BANANA 90001",
+    "brand": "Cookies",
+    "message": "Cookies COOKIES - WHOLE FLOWER - BLUEBERRY BANANA 90001: $48.00 > $38.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Loud Cannabis Mango Puff (I) C0170000025",
+    "brand": "Loud",
+    "message": "Loud Loud Cannabis Mango Puff (I) C0170000025: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Blueberry 1g Pre Roll (I) 00501",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Blueberry 1g Pre Roll (I) 00501: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014: $16.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1.0g CHJ 00068",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1.0g CHJ 00068: $10.00 > $8.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "'Fused by Brix Wild Berry Lemonade Gummies (I) 00421",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Wild Berry Lemonade Gummies (I) 00421: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "'Fused by Brix Peach Lemonade Gummies (S) 00422",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Peach Lemonade Gummies (S) 00422: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gush Mintz Lil' Budz 7g (I) 00475",
+    "brand": "Brix",
+    "message": "Brix Gush Mintz Lil' Budz 7g (I) 00475: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bananaconda Lil' Budz 7g (H) 00494",
+    "brand": "Brix",
+    "message": "Brix Bananaconda Lil' Budz 7g (H) 00494: $44.80 > $56.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Marker Lil' Budz 7g (I) 00398",
+    "brand": "Brix",
+    "message": "Brix Permanent Marker Lil' Budz 7g (I) 00398: $44.80 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Vienna10001",
+    "brand": "Cookies",
+    "message": "Cookies Vienna10001: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies- Whole Flower- Ridgeline Lantz80001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- Ridgeline Lantz80001: $46.00 > $36.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016: $16.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Cap Junk 1g Pre Roll (H) 00434",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Cap Junk 1g Pre Roll (H) 00434: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Gush Mintz 1g Pre Roll (I) 00458",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Gush Mintz 1g Pre Roll (I) 00458: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Whole Flower B Yo (I) 00367",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Whole Flower B Yo (I) 00367: $28.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Pack 3.5g SZO 00073",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Pack 3.5g SZO 00073: $36.00 > $28.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Jungle Cake 1g Pre Roll (H) 00462",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Jungle Cake 1g Pre Roll (H) 00462: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Afgooey 1g Pre Roll (I) 00503",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Afgooey 1g Pre Roll (I) 00503: $10.40 > $13.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1.0g GAT 00086",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1.0g GAT 00086: $10.00 > $8.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "'Fused by Brix Mango Lemonade Gummies (H) 00428",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Mango Lemonade Gummies (H) 00428: $22.40 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Roll 1.0g GCG 00037",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Roll 1.0g GCG 00037: $10.00 > $8.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Glove Mintz 1g Pre Roll (I) 00337",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Glove Mintz 1g Pre Roll (I) 00337: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chemdog's Permanent Funk 1g Pre Roll (I) 00414",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Permanent Funk 1g Pre Roll (I) 00414: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Fresh Kicks 1g Pre Roll (S) 00411",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Fresh Kicks 1g Pre Roll (S) 00411: $10.40 > $13.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Banana Acai Mints part:timers 4956",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Banana Acai Mints part:timers 4956: $36.40 > $33.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Goods- Whole Flower- Garlic Krusher90010",
+    "brand": "The Goods",
+    "message": "The Goods The Goods- Whole Flower- Garlic Krusher90010: $42.00 > $33.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "THE GOODS - WHOLE FLOWER - THAT BADU50001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - THAT BADU50001: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "THE GOODS - WHOLE FLOWER - LONDON POUNDCAKE20001",
+    "brand": "Cookies",
+    "message": "Cookies THE GOODS - WHOLE FLOWER - LONDON POUNDCAKE20001: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "THE GOODS - WHOLE FLOWER - HALLOWEED40001",
+    "brand": "The Goods",
+    "message": "The Goods THE GOODS - WHOLE FLOWER - HALLOWEED40001: $42.00 > $33.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Pack 3.5g BNC-S-20 00087",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Pack 3.5g BNC-S-20 00087: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SHAKA PRE-PACK 7G DSL 00007",
+    "brand": "Awssom",
+    "message": "Awssom SHAKA PRE-PACK 7G DSL 00007: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SHAKA PRE-PACK 3.5G DSL 00013",
+    "brand": "Shaka",
+    "message": "Shaka SHAKA PRE-PACK 3.5G DSL 00013: $44.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies- Whole Flower- Pakman 00012",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- Pakman 00012: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies- Whole Flower- C. Rollz60001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Whole Flower- C. Rollz60001: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies- Pomgranate ShakeSmalls20007",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- Pomgranate ShakeSmalls20007: $62.00 > $49.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies- G. Payton20 Smalls 70014",
+    "brand": "Cookies",
+    "message": "Cookies Cookies- G. Payton20 Smalls 70014: $62.00 > $49.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cookies CRollzSmalls60001",
+    "brand": "Cookies",
+    "message": "Cookies Cookies CRollzSmalls60001: $62.00 > $49.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Whole Flower Soap (S) 00369",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Whole Flower Soap (S) 00369: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Space Batter 1g Pre Roll (H) 00407",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Space Batter 1g Pre Roll (H) 00407: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Permanent Marker 1g Pre Roll (I) 00408",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Permanent Marker 1g Pre Roll (I) 00408: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Gush Mintz Whole Flower 3.5g (I) 00394",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Gush Mintz Whole Flower 3.5g (I) 00394: $30.40 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Cap Junk 1g Vape (H) 00453: $44.00 > $55.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Roll 1.0g GGP 00046",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Roll 1.0g GGP 00046: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Pack 3.5g DLC 00060",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Pack 3.5g DLC 00060: $40.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487",
+    "brand": "Brix",
+    "message": "Brix Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487: $25.60 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem D Whole Flower 3.5g (H) 00514",
+    "brand": "Brix",
+    "message": "Brix Chem D Whole Flower 3.5g (H) 00514: $30.40 > $38.00"
+  }
+]

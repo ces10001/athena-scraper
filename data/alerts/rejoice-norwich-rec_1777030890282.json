@@ -1,0 +1,176 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01146",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01146: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid GalaxEats Gummies Pina Colada 00032",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Pina Colada 00032: $17.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rodeo RSO Scorpion Bowl Gummies (H) - 00375",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo RSO Scorpion Bowl Gummies (H) - 00375: $25.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection-Catching Citrus Dreams-(I)-20ct",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection-Catching Citrus Dreams-(I)-20ct: $25.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection-Creative Clementine THCv (S) -00452",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection-Creative Clementine THCv (S) -00452: $25.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Sugar Free Pomegranate (H) - 00014",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sugar Free Pomegranate (H) - 00014: $17.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade - 00033",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Pink Lemonade - 00033: $17.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection Medium Dose Infused Gems Rainbow Parade (H) - 00328",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Medium Dose Infused Gems Rainbow Parade (H) - 00328: $25.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection Crushin' It Cran-Raspberry Medium Dose 20ct (S) - 00245",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Crushin' It Cran-Raspberry Medium Dose 20ct (S) - 00245: $25.50 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Wild Berries 1:1 CBD Dark Chocolate Bar (H) 00114",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Wild Berries 1:1 CBD Dark Chocolate Bar (H) 00114: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Watermelon 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Watermelon 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can: $5.10 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Sugar Plum Gummies (H) - 00181",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Sugar Plum Gummies (H) - 00181: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Strawberry Kiwi 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Strawberry Kiwi 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can: $5.10 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Raspberry Lime 5:1 CBD Gummies 00172",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Raspberry Lime 5:1 CBD Gummies 00172: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Mellow Mango 1:1:1 (THC:CBD:CBN) Gummies (I) - 00203",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mellow Mango 1:1:1 (THC:CBD:CBN) Gummies (I) - 00203: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Margarita RSO Gummies (S) - 00215",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Margarita RSO Gummies (S) - 00215: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Mango 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mango 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can: $5.10 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Live Resin Pink Lemonade Gummies (S) - 00199",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Live Resin Pink Lemonade Gummies (S) - 00199: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Lemon Lime 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Lemon Lime 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can: $5.10 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies (H) - 00180",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Strawberry Kiwi Gummies (H) - 00180: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies (H) - 00175",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Black Cherry Gummies (H) - 00175: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies -00241",
+    "brand": "SoundView",
+    "message": "SoundView SoundView BlueZZZberry 5:1 CBN Gummies -00241: $30.60 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Blood Orange 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Blood Orange 12 oz THC Seltzer (3mg THC 3mg CBD 3mg CBG) - Single Can: $5.10 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView 20pk Berry Dreamy 1:1 CBN Gummies (I) 00118",
+    "brand": "SoundView",
+    "message": "SoundView SoundView 20pk Berry Dreamy 1:1 CBN Gummies (I) 00118: $28.90 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rodeo Live Resin Strawberry Margarita (S) Gummies 00372",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin Strawberry Margarita (S) Gummies 00372: $22.10 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01480",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01480: $27.20 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Craic-Dark Chocolate-20ct - 00162",
+    "brand": "Craic",
+    "message": "Craic Craic-Dark Chocolate-20ct - 00162: $17.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Craic 20pk Milk Chocolate (H) - 00165",
+    "brand": "Craic",
+    "message": "Craic Craic 20pk Milk Chocolate (H) - 00165: $17.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss - C0170000009",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Blueberry Bliss - C0170000009: $17.00 > $20.00"
+  }
+]

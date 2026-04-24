@@ -1,0 +1,176 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Roll: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $120.00 > $150.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $68.00 > $85.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $39.20 > $49.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $63.00 > $50.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $37.00 > $29.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $63.00 > $50.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $33.00 > $26.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Snoozzzeberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Grape"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue NDZ",
+    "brand": "Brix",
+    "message": "Gone: Brix - Blue NDZ"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Gone: Select - Old School Blue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pink Certz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Lemonade",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Raspberry Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Silver Grapefruit",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Super Silver Grapefruit"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Modified Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Gone: Select - GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Urkel",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Purple Urkel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Green G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Next Level",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Next Level"
+  }
+]

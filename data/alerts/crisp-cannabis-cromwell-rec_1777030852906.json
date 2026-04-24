@@ -1,0 +1,410 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Mule Fuel 1g Pre-roll 0045",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Mule Fuel 1g Pre-roll 0045: $11.70 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "LET'S BURN GRAPE GAS 3.5G FUN SIZE BUDZ 0051",
+    "brand": "Let's Burn",
+    "message": "Let's Burn LET'S BURN GRAPE GAS 3.5G FUN SIZE BUDZ 0051: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn CT Kush Cake 3.5g 0038 (WARNING-HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Kush Cake 3.5g 0038 (WARNING-HIGH THC): $43.20 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Grape Gas 7g Fun Size Budz 0052",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Grape Gas 7g Fun Size Budz 0052: $61.20 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life 7g Fun Size Budz 0033",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 7g Fun Size Budz 0033: $57.60 > $64.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life 1g Pre-roll 0031",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 1g Pre-roll 0031: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464",
+    "brand": "Amigos",
+    "message": "Amigos Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464: $52.65 > $58.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse-Sour Diesel Live Resin-1g-510-Cart-00493",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Lighthouse-Sour Diesel Live Resin-1g-510-Cart-00493: $51.30 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EARLy Birds | Trophy Case 024",
+    "brand": "Earl Baker",
+    "message": "Earl Baker EARLy Birds | Trophy Case 024: $32.40 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Dantes Fire 0110",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Dantes Fire 0110: $52.20 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465: $30.60 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jungle Cake 1g Pre Roll (H) 00505",
+    "brand": "BRIX",
+    "message": "BRIX Jungle Cake 1g Pre Roll (H) 00505: $8.55 > $9.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Yeet 3.5g 0020",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Yeet 3.5g 0020: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Watermelon Sherbet Live Resin Disposable Vape (1g) T90.749% H 00214",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Watermelon Sherbet Live Resin Disposable Vape (1g) T90.749% H 00214: $64.80 > $72.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "LET' BURN TROP CHERRY 7G FUN SIZE BUDZ 0049",
+    "brand": "Let's Burn",
+    "message": "Let's Burn LET' BURN TROP CHERRY 7G FUN SIZE BUDZ 0049: $52.20 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Pi 41663",
+    "brand": "Theraplant",
+    "message": "Theraplant Berry Pi 41663: $21.15 > $23.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Mule Fuel 3.5g 0034 (WARNING-HIGH THC): $43.20 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn CT Rainbows 3.5g 0012",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Rainbows 3.5g 0012: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Foreverberry 1g Infused Blunt 41679",
+    "brand": "Theraplant",
+    "message": "Theraplant Foreverberry 1g Infused Blunt 41679: $18.00 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Cap Junk 1g Vape (H) 00453: $44.10 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Blue Dream 1g Pre-roll 0047",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Blue Dream 1g Pre-roll 0047: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Shaka Pre-Pack 3.5g GAT 00074",
+    "brand": "Awssom",
+    "message": "Awssom Shaka Pre-Pack 3.5g GAT 00074: $27.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Michigan Cherry 0098",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Michigan Cherry 0098: $39.60 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "inc.edibles 20 Pack Summer Peach THC Gummies 01087",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Summer Peach THC Gummies 01087: $17.10 > $19.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272: $17.10 > $19.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz 1g Infused Blunt 41694",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz 1g Infused Blunt 41694: $17.10 > $19.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Raspberry Lemonade Live Resin Disposable Vape (1g) T90.810 (S) 00228",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Raspberry Lemonade Live Resin Disposable Vape (1g) T90.810 (S) 00228: $64.80 > $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Blue Andeze 1g Pre-Roll I 26991",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Blue Andeze 1g Pre-Roll I 26991 $8.93"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life 3.5g 0043",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 3.5g 0043: $39.60 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry Cannabis-Infused Gummies 00439: $30.60 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365: $28.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Frozen Bag 0099",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Frozen Bag 0099: $52.20 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477",
+    "brand": "Camino",
+    "message": "Camino Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477: $51.30 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Coast Cannabis CO. Peach 20:1 Infused Gummies (CBD:THC) Microdosed (C0070000344)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Peach 20:1 Infused Gummies (CBD:THC) Microdosed (C0070000344): $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Comffy|Vape 510 1g|Cherry Bomb 00207",
+    "brand": "comffy",
+    "message": "comffy Comffy|Vape 510 1g|Cherry Bomb 00207: $48.60 > $54.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Trop Cherry 3.5g 0044",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Trop Cherry 3.5g 0044: $39.60 > $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chemdog's Chem Junk 1g Vape (H) 00498",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Chem Junk 1g Vape (H) 00498: $44.10 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "lucky break",
+    "message": "lucky break Spearmint Lucky Spritz 0046: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "all:hours Space Gello part:timers 41370",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello part:timers 41370: $42.30 > $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Nimbus Snacks 1g Pre-Roll S 27009 $8.93"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453: $30.60 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ice Cream Cke Lucky Dugout 3g 0065",
+    "brand": "lucky break",
+    "message": "lucky break Ice Cream Cke Lucky Dugout 3g 0065: $29.48 > $32.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00421",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero Cannabis-Infused Gummies 00421: $28.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - SBC 0109",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - SBC 0109: $31.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Agave 0086",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Lucky Agave 0086: $13.05 > $14.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Shaka Pre-Pack 3.5g GRA 00072",
+    "brand": "Awssom",
+    "message": "Awssom Shaka Pre-Pack 3.5g GRA 00072: $22.50 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SV Strawberry Kiwi 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Strawberry Kiwi 12 oz THC Seltzer: $5.40 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Fruit Punch Lucky Elixir 0075: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "FAST ACTING LUCKY HOT HONEY 0089",
+    "brand": "lucky break",
+    "message": "lucky break FAST ACTING LUCKY HOT HONEY 0089: $19.35 > $21.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219",
+    "brand": "Happy Confections",
+    "message": "Happy Confections The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219: $15.30 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246",
+    "brand": "Happy Confections",
+    "message": "Happy Confections THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246: $15.30 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face 1g Infused PR 41619",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face 1g Infused PR 41619: $15.30 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SV Mango 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Mango 12 oz THC Seltzer: $5.40 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328",
+    "brand": "Happy Confections",
+    "message": "Happy Confections The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328: $15.30 > $17.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Wintergreen Hybrid Mints T95.2mg H 00196",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Wintergreen Hybrid Mints T95.2mg H 00196: $32.40 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208: $32.40 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "lucky break",
+    "message": "lucky break Peppermint Lucky Spritz 0060: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn Hi Life 1g Pre-roll 0050",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 1g Pre-roll 0050: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "lucky break",
+    "message": "lucky break Lemon Lucky Spritz 0058: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Lemon Lime Soda",
+    "brand": "Fizz",
+    "message": "Fizz Fizz 3mg Lemon Lime Soda: $4.50 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Diet Cola",
+    "brand": "Fizz",
+    "message": "Fizz Fizz 3mg Diet Cola: $4.50 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fizz 3mg Black Cherry Soda",
+    "brand": "Fizz",
+    "message": "Fizz Fizz 3mg Black Cherry Soda: $4.50 > $5.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0076",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Watermelon Lime Lucky Elixir 0076: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Lucky Honey 0087: $23.85 > $26.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0077",
+    "brand": "lucky break",
+    "message": "lucky break Fast Acting Blueberry Lemonade Lucky Elixir 0077: $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Coast Cannabis CO. Cranberry Pom 5:5:5 Infused Gummies (CBN:CBD:THC) (C0070000311)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Cranberry Pom 5:5:5 Infused Gummies (CBN:CBD:THC) (C0070000311): $24.30 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415: $30.60 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448: $30.60 > $34.00"
+  }
+]

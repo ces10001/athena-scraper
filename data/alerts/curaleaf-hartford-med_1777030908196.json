@@ -1,0 +1,284 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti: $20.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding: $61.00 > $48.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $37.60 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Brains: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Icee Hot",
+    "brand": "Theraplant",
+    "message": "Theraplant Icee Hot: $45.60 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hasher Slasher",
+    "brand": "Theraplant",
+    "message": "Theraplant Hasher Slasher: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Canna Miranda",
+    "brand": "Theraplant",
+    "message": "Theraplant Canna Miranda: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Theraplant Enchanted Apple: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "ForeverBerry",
+    "brand": "Theraplant",
+    "message": "Theraplant ForeverBerry: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dos Pasteles",
+    "brand": "Theraplant",
+    "message": "Theraplant Dos Pasteles: $22.40 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Theraplant Enchanted Apple: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry Marker: $16.80 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath: $41.60 > $52.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GG Skunk",
+    "brand": "CTPharma",
+    "message": "CTPharma GG Skunk: $65.00 > $48.75"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kooykz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Toasted S'mores",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Toasted S'mores"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Afternoon Delight"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Surfer",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Couch Surfer"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hickory Hash",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Hickory Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Grape"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cap Junk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Cap Junk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Urkel",
+    "brand": "Select",
+    "message": "Gone: Select - Purple Urkel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Peanut Butter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Currant",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Currant"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - True OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Lucky",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Lemon Lucky"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Jealousy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosilato",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dosilato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackout Cherries",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Blackout Cherries"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Cherry",
+    "brand": "Zero Proof",
+    "message": "Gone: Zero Proof - Dash of Cherry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Relief",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Relief"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Gone: Select - Old School Blue"
+  }
+]

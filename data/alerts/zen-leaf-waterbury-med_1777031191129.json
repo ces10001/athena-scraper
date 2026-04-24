@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sour Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary"
+  }
+]

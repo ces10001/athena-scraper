@@ -1,0 +1,212 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $39.20 > $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "New: Find. - Critical Crumb $11.70"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $120.00 > $150.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $68.00 > $85.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "TGI Purple",
+    "brand": "Theraplant",
+    "message": "Theraplant TGI Purple: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti: $20.80 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz: $20.80 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $23.20 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $50.40 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $8.00 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $29.60 > $37.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $8.00 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $57.60 > $72.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake: $8.00 > $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coconut Milk",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Coconut Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SZO",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - SZO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "Gone: Select - Sofa Sonata"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "Gone: Select - Sofa Sonata"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream CKE",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Ice Cream CKE"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OG Kush",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - OG Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - White Caps"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Berry Batter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dieselato",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dieselato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mega Lemon Goop",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Mega Lemon Goop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solo Burger",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Solo Burger"
+  }
+]

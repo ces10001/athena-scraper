@@ -1,0 +1,218 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $21.00 > $16.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "New: Find. - Critical Crumb $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake: $33.00 > $26.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State: $16.80 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fever Dream",
+    "brand": "Theraplant",
+    "message": "Theraplant Fever Dream: $45.60 > $57.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $48.00 > $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk $22.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Brix",
+    "message": "New: Brix - Permanent Marker $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $52.00 > $41.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Theraplant Enchanted Apple: $31.00 > $24.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $64.80 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $21.60 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Unflavored",
+    "brand": "Theraplant",
+    "message": "Theraplant Unflavored: $10.40 > $13.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $7.20 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $7.20 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Theraplant Panckes: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $54.40 > $68.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake: $7.20 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry Marker: $16.80 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $24.80 > $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coconut Milk",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Coconut Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - White Caps"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lemonade",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Lemonade"
+  }
+]

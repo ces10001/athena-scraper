@@ -1,0 +1,218 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 7g Nimbus Snacks S 26992",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 7g Nimbus Snacks S 26992 $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Flower 28g Gush Mintz I 27007",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Flower 28g Gush Mintz I 27007 $114.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy\nMacro Dosed",
+    "message": "New: Savvy\nMacro Dosed - Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Strut AIO 2g Alien OG T1619 H 26776",
+    "brand": "Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 80.96%\n\n$103.00\n\n$82.40",
+    "message": "New: Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 80.96%\n\n$103.00\n\n$82.40 - Savvy Strut AIO 2g Alien OG T1619 H 26776 $103.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Flower 14g Sour Fire OG H 27012",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Flower 14g Sour Fire OG H 27012 $77.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Lemon Skunk Disposable T264 S 27026",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Lemon Skunk Disposable T264 S 27026 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 14g Mendo Wedding I 26916",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 14g Mendo Wedding I 26916 $77.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Flower 7g Glitter Bomb I 27039",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Flower 7g Glitter Bomb I 27039 $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Guap RSO Tangie Crush S 27041",
+    "brand": "Savvy\nMacro Dosed",
+    "message": "New: Savvy\nMacro Dosed - Savvy Guap RSO Tangie Crush S 27041 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Smalls 7g Stomper Kush I 26847",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Smalls 7g Stomper Kush I 26847 $46.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Strut AIO 2g Afghani Pink T1613 I 26736",
+    "brand": "Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 80.64%\n\n$103.00\n\n$82.40",
+    "message": "New: Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 80.64%\n\n$103.00\n\n$82.40 - Savvy Strut AIO 2g Afghani Pink T1613 I 26736 $103.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Strut AIO 2g Mango Puff T1755 I 26819",
+    "brand": "Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 84.74% CBD 1.64%\n\n$103.00\n\n$82.40",
+    "message": "New: Savvy\nStrut All-In-One\n\n(EACH)\n\nTHC 84.74% CBD 1.64%\n\n$103.00\n\n$82.40 - Savvy Strut AIO 2g Mango Puff T1755 I 26819 $103.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Yellow Haze OG Disposable T260 S 27028",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Yellow Haze OG Disposable T260 S 27028 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Kush Tang Disposable T257 S 26995",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Kush Tang Disposable T257 S 26995 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Lemon Glue Disposable T257 I 26740",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Lemon Glue Disposable T257 I 26740 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Blue Andeze 1g Pre-Roll I 26772",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Blue Andeze 1g Pre-Roll I 26772 $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Afternoon Delight #4 (H) 01427",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Afternoon Delight #4 (H) 01427"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Animal Scout #10 (I) 01432",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Animal Scout #10 (I) 01432"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Black Maple 22 (I) 01332",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Black Maple 22 (I) 01332"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RYTHM 14G CREAMSICLE SUNSET (H) 01146",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - RYTHM 14G CREAMSICLE SUNSET (H) 01146"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Do Not Trip (H) 01284",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Do Not Trip (H) 01284"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Jack's Delight (S) 01444",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Jack's Delight (S) 01444"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Afternoon Delight #4 (H) 01438",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g Afternoon Delight #4 (H) 01438"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Creamsicle Sunset (H) 01287",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g Creamsicle Sunset (H) 01287"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Gazzurple (S) 01390",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g Gazzurple (S) 01390"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Lemon Drip (S) 01334",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g Lemon Drip (S) 01334"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Afternoon Delight #4 (H) 01374",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Afternoon Delight #4 (H) 01374"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Black Maple 22 (I) 01306",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Black Maple 22 (I) 01306"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Cheddar Cheeze (I) 01273",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Cheddar Cheeze (I) 01273"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Creamsicle Sunset (H) 01115",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Creamsicle Sunset (H) 01115"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Do Not Trip (H) 01268",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Do Not Trip (H) 01268"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Dulce De Uva (I) 01162",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Dulce De Uva (I) 01162"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Grape Bubble G (H) 01198",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Grape Bubble G (H) 01198"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Jet Fuel (H) 01063",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Jet Fuel (H) 01063"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Lemon Drip (S) 01322",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Lemon Drip (S) 01322"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RYTHM 3.5G LEMON FRESH (S) 01196",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - RYTHM 3.5G LEMON FRESH (S) 01196"
+  }
+]

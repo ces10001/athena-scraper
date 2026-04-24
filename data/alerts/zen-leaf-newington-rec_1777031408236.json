@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Original Glue",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Original Glue"
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Black Cherry $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pinyatti",
+    "brand": "Theraplant",
+    "message": "Theraplant Pinyatti: $20.80 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Green G",
+    "brand": "Theraplant",
+    "message": "Theraplant Green G: $44.00 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Foreverberry",
+    "brand": "Theraplant",
+    "message": "Theraplant Foreverberry: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $39.20 > $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zen Magic",
+    "brand": "Uncle Arnie's",
+    "message": "New: Uncle Arnie's - Zen Magic $6.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff: $150.00 > $120.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Breath: $63.00 > $50.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $120.00 > $150.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $68.00 > $85.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $39.20 > $49.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $68.00 > $85.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $120.00 > $150.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $68.00 > $85.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State: $17.60 > $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Midnight O",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Midnight O $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paradise Snacks",
+    "brand": "Good Green",
+    "message": "New: Good Green - Paradise Snacks $67.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "New: Select - NYC Diesel $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gasolina",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gasolina $72.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Hickory Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Kiwi",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Strawberry Kiwi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry",
+    "brand": "Select",
+    "message": "Gone: Select - Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti 95"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Margarita",
+    "brand": "Wana",
+    "message": "Gone: Wana - Strawberry Margarita"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Forbidden Fruit",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Forbidden Fruit"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Bubble",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Bubble"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Indica Princess",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Indica Princess"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Govmint Oasis",
+    "brand": "Brix",
+    "message": "Gone: Brix - Govmint Oasis"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peanut Butter",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Peanut Butter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Lime",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Cherry Lime"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Apple Pucker",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Sour Apple Pucker"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scrub Trooper",
+    "brand": "Brix",
+    "message": "Gone: Brix - Scrub Trooper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limeade",
+    "brand": "Layup",
+    "message": "Gone: Layup - Limeade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosi-Punch",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dosi-Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB MFN",
+    "brand": "Find.",
+    "message": "Gone: Find. - PB MFN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangie Crush",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tangie Crush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Old School OG",
+    "brand": "Select",
+    "message": "Gone: Select - Old School OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bruce Bamer",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Bruce Bamer"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cap Junk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Cap Junk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Green Queen"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "H0rchata",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - H0rchata"
+  }
+]
