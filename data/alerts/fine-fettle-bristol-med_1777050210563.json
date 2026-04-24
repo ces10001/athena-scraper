@@ -1,0 +1,242 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Jet Fuel (H) Flower",
+    "brand": "Rythm",
+    "message": "New: Rythm - Jet Fuel (H) Flower $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creamsicle Sunset (H) Flower",
+    "brand": "Rythm",
+    "message": "New: Rythm - Creamsicle Sunset (H) Flower $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Roll (I) 0.4g Pre-Rolls 20pk (8g) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Do Not Trip (H) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Do Not Trip (H) 0.35g Pre-Rolls 5pk (1.75g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Jungle Cake (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Lemon Drip (S) 1g Pre-Roll 1pk (1g) $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - PB Bites (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - Bulbz (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout (I) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - B Scout (I) 0.35g Pre-Rolls 5pk (1.75g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz (I) THCA Infused Shorties 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Jokerz (I) THCA Infused Shorties 5pk (2g) $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice (H) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tart (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Apple Tart (H) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT (I) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT (I) Mini Tank Disposable (0.5g) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes (S) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz (I) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz (I) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G (H) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G (H) Mini Tank Disposable (0.5g) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz (I) Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dream Clouds (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Dream Clouds (S) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice (H) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda (H) Live Rosin Vape Cartridge",
+    "brand": "Rythm",
+    "message": "New: Rythm - Bananaconda (H) Live Rosin Vape Cartridge $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze (I) Vape Cartridge",
+    "brand": "Rythm",
+    "message": "New: Rythm - Cheddar Cheeze (I) Vape Cartridge $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG Skunk (H) Vape Cartridge",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GG Skunk (H) Vape Cartridge $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green Queen (S) Petal Puffer Disposable (0.5g)",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Green Queen (S) Petal Puffer Disposable (0.5g) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Left on Red (H) Disposable Vape (0.5g)",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Left on Red (H) Disposable Vape (0.5g) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Outta My Head (H) Syringe (1g)",
+    "brand": "AGL",
+    "message": "New: AGL - Outta My Head (H) Syringe (1g) $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citradelic Haze (S) Ground Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Citradelic Haze (S) Ground Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Caps (I) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - White Caps (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk (I) Smalls",
+    "brand": "Lil Budz",
+    "message": "Gone: Lil Budz - Purple Milk (I) Smalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LA Kush CKE (I) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "AGL",
+    "message": "Gone: AGL - LA Kush CKE (I) 0.5g Pre-Rolls 5pk (2.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Pop (H) 0.5g Pre-Rolls 2pk (1g)",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Chem Pop (H) 0.5g Pre-Rolls 2pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cannabis Cap Junk (H) Vape Cartridge",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Cannabis Cap Junk (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cannabis Bananaconda (H) Vape Cartridge",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Cannabis Bananaconda (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Smash (H) Gummies (4.94mg 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Watermelon Smash (H) Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lime (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Watermelon Lime (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Matter (H) X Bites (4.68mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Matter (H) X Bites (4.68mg 20pk)"
+  }
+]

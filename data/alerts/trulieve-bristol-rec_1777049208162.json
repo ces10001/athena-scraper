@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Stankonya Flower - 00081",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Stankonya Flower - 00081 $43.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Air Hdz  Bubble Hash Infused Shorties 34.63 % (I) 1.6g 4 Pack - 01647",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Air Hdz  Bubble Hash Infused Shorties 34.63 % (I) 1.6g 4 Pack - 01647 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BlueZZZberry 5:1 CBN  Gummies 20pk - 00230",
+    "brand": "SoundView",
+    "message": "New: SoundView - BlueZZZberry 5:1 CBN  Gummies 20pk - 00230 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Motor Breath Live Resin Vape 83.9 % (I) 1g - 00449",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Rodeo Motor Breath Live Resin Vape 83.9 % (I) 1g - 00449 $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo G41 Live Resin Disposable 84.78 % (I) 1g - 00395 (Copy)",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "New: Rodeo Cannabis Co. - Rodeo G41 Live Resin Disposable 84.78 % (I) 1g - 00395 (Copy) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal Liquid Diamonds Cartridge - 00446",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "New: Rodeo Cannabis Co. - High Noon Crystal Liquid Diamonds Cartridge - 00446 $60.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CTPharma Scout Breath Shorties 20.77 % (I) 2g 5 Pack - 26643",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CTPharma Scout Breath Shorties 20.77 % (I) 2g 5 Pack - 26643"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "NYC Diesel Elite Cliq Pod - 00813",
+    "brand": "Select",
+    "message": "Gone: Select - NYC Diesel Elite Cliq Pod - 00813"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lucky Break Cannabis Fast Acting Lucky Hot Honey 79.3 mg (H) - 00089",
+    "brand": "Lucky Break Cannabis",
+    "message": "Gone: Lucky Break Cannabis - Lucky Break Cannabis Fast Acting Lucky Hot Honey 79.3 mg (H) - 00089"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry Dream Sours Gummies (1:1:1 THC:CBD:CBN) 10pk - 00395",
+    "brand": "Camino",
+    "message": "Gone: Camino - Blackberry Dream Sours Gummies (1:1:1 THC:CBD:CBN) 10pk - 00395"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Happy Confection Creative Clementine THCV Gummies 91.2 mg THCV 102.4mg (S) 20 Pack - 00452",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - The Happy Confection Creative Clementine THCV Gummies 91.2 mg THCV 102.4mg (S) 20 Pack - 00452"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro Confections PB  Cups 49 mg (H) 10 Pack - 00053",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Astro Confections PB  Cups 49 mg (H) 10 Pack - 00053"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Sours Watermelon Spritz Infused Gummies 92.6 mg (S) 10 Pack (20 Servings) - 00404",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Sours Watermelon Spritz Infused Gummies 92.6 mg (S) 10 Pack (20 Servings) - 00404"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CTPharma Nimbus Snacks Live Rosin Vape 77.93 % (S) .5g - 26832",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CTPharma Nimbus Snacks Live Rosin Vape 77.93 % (S) .5g - 26832"
+  }
+]

@@ -40,26 +40,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-124574",
-    "name": "Triple Stack",
-    "brand": "Grassroots",
-    "category": "flower",
-    "subcategory": null,
-    "strain_type": "indica",
-    "price_cents": 2500,
-    "original_price_cents": 5000,
-    "weight_label": "3.5g",
-    "weight_grams": 3.5,
-    "unit_price_per_gram": 714,
-    "thc_pct": 28.4707,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "50% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-124859",
     "name": "Mule Fuel",
     "brand": "Let's Burn",

@@ -1,0 +1,146 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lemon Delight Flower T28.38% S 00868",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Delight Flower T28.38% S 00868 $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RYTHM 14G ANIMAL FACE (I) 01275",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - RYTHM 14G ANIMAL FACE (I) 01275 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Pillow Mints (I) 01535 TC 41.066%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Pillow Mints (I) 01535 TC 41.066% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g Atomic Breath (H) 01269 TC 32.22%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g Atomic Breath (H) 01269 TC 32.22% $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Animal Face (I) 00908",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 3.5g Animal Face (I) 00908 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - Iccee Blizzard 0094",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower - Iccee Blizzard 0094 $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g Nuclear Mfns (H) 01044 TC 26.275%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g Nuclear Mfns (H) 01044 TC 26.275% $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz Flower I 26712",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Gush Mintz Flower I 26712 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 3.5g  Bubba F (I) 01168",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 3.5g  Bubba F (I) 01168 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g Ched R Cheez (I) 01239 TC 34.98%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g Ched R Cheez (I) 01239 TC 34.98% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Paw Paw (H) 01402 TC 34.272%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Paw Paw (H) 01402 TC 34.272% $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Fast Acting Fruit Punch Lucky Elixir 0075 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND. Whole Flower 7g PB Bites (S) 01207 TC 28.173%",
+    "brand": "Find.",
+    "message": "New: Find. - FIND. Whole Flower 7g PB Bites (S) 01207 TC 28.173% $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Spearmint Lucky Spritz 0046 $27.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RYTHM 14G B SCOUT (I) 01348",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - RYTHM 14G B SCOUT (I) 01348 $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GOOD GREEN 14G PARADISE SNACKS (I) 01285",
+    "brand": "Good Green",
+    "message": "New: Good Green - GOOD GREEN 14G PARADISE SNACKS (I) 01285 $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Permanent Marker Whole Flower 3.5g (I) 00392",
+    "brand": "BRIX",
+    "message": "New: BRIX - Brix Cannabis Permanent Marker Whole Flower 3.5g (I) 00392 $38.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake 1g PR 41705",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake 1g PR 41705"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy GRND 7g Diesel Train S 26887",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy GRND 7g Diesel Train S 26887"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Sour Strawberry Peach Gummies T98.6mg C193.4mg 26803",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Sour Strawberry Peach Gummies T98.6mg C193.4mg 26803"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Flavor Series 510 .5g Sundae Slumber (I) 01519",
+    "brand": "Select",
+    "message": "Gone: Select - Select Flavor Series 510 .5g Sundae Slumber (I) 01519"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Buff Cherry",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Super Buff Cherry"
+  }
+]

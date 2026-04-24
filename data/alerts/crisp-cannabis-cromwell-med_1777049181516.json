@@ -1,0 +1,266 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959 TC 28.411%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959 TC 28.411% $36.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge 1g Old School Blue (H) 01300",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge 1g Old School Blue (H) 01300 $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Moonburst (H) 01616",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Select Flavor Series 510 1g Moonburst (H) 01616 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972% $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904 $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series Briq 2 1g Mango Puff (I) 01570",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series Briq 2 1g Mango Puff (I) 01570 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748% $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01533",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01533 $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01530",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01530 $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 14g Humboldt Sour Diesel (S) 01085 TC 22.56%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 14g Humboldt Sour Diesel (S) 01085 TC 22.56% $89.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01405",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01405 $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Fast Acting Jellies Sour Green Apple (H) 01157",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - JAMS Fast Acting Jellies Sour Green Apple (H) 01157 $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Blood Orange 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Blood Orange 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Watermelon 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Watermelon 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Lemon Lime 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "New: SoundView - SV Lemon Lime 12 oz THC Seltzer $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Hashburger 3.5g 0054",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Hashburger 3.5g 0054 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Blue Dream 3.5g 0053",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Blue Dream 3.5g 0053 $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Toasted S'mores Milk Chocolate Bar T99.8mg H 00240",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Toasted S'mores Milk Chocolate Bar T99.8mg H 00240 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Raspberry Lime 5:1 CBD Gummies T99.8mg C512mg H 00233",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Raspberry Lime 5:1 CBD Gummies T99.8mg C512mg H 00233 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Peach RSO Gummies T95.6mg I 00237",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Peach RSO Gummies T95.6mg I 00237 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Down with the Dankness Live Resin Disposable Vape (1G) T90.058% (I) 00245",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Down with the Dankness Live Resin Disposable Vape (1G) T90.058% (I) 00245 $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Cookies & Cream White Chocolate Bar T92.4mg H 00242",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Cookies & Cream White Chocolate Bar T92.4mg H 00242 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Cookie Crumble Milk Chocolate Bar T97.4mg H 00235",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Cookie Crumble Milk Chocolate Bar T97.4mg H 00235 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Blood Orange Sativa Gummies T99.2mg S 00246",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Blood Orange Sativa Gummies T99.2mg S 00246 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Berry Burst Live Resin Disposable Vape (1g) T90.178% (S) 00250",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Berry Burst Live Resin Disposable Vape (1g) T90.178% (S) 00250 $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series Briq 2.0 1g Banana Cream Cayk (H) 01484",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series Briq 2.0 1g Banana Cream Cayk (H) 01484 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series Briq 2 2g Cherry Pi (S) 01609",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series Briq 2 2g Cherry Pi (S) 01609 $114.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series Briq 2 1g Golden Tangie (S) 01666",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series Briq 2 1g Golden Tangie (S) 01666 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01588",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Golden Tangie (S) 01588 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge .5g LA Kush C (H) 01388",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge .5g LA Kush C (H) 01388 $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208 $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Atomic Breath (H) 01385 TC 31.07%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Atomic Breath (H) 01385 TC 31.07% $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Apple Tartz (H) 01623 TC 36.500%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Apple Tartz (H) 01623 TC 36.500% $45.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01702 TC 28.276%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01702 TC 28.276% $27.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND. WHOLE FLOWER 3.5G HALF MOONANA (H) 01584 TC 22.299%",
+    "brand": "Find",
+    "message": "New: Find - FIND. WHOLE FLOWER 3.5G HALF MOONANA (H) 01584 TC 22.299% $27.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 36.417% (WARNING- HIGH THC)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 36.417% (WARNING- HIGH THC) $45.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreverberry 1g Infused Blunt 41679",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Foreverberry 1g Infused Blunt 41679"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush Flower S 27000",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush Flower S 27000"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Blue Andeze 1g Pre-Roll I 26991",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Blue Andeze 1g Pre-Roll I 26991"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Nimbus Snacks 1g Pre-Roll S 27009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Tangie Crush S 27041",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Tangie Crush S 27041"
+  }
+]

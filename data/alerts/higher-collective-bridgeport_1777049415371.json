@@ -1,0 +1,62 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey Infused",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey Infused $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Dreamy 1:1 CBN",
+    "brand": "SoundView",
+    "message": "New: SoundView - Berry Dreamy 1:1 CBN $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie Spark -  All Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie Spark -  All Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kronic 47",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Kronic 47"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Marker BHO",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Permanent Marker BHO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gorilla Glue #4 Live Terp",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Gorilla Glue #4 Live Terp"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Haze Berry",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Haze Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Fiber",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Fiber"
+  }
+]

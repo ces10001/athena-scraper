@@ -456,12 +456,6 @@
     "platform": "sweed"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Rec)",
-    "platform": "finefettle"
-  },
-  {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
@@ -469,6 +463,12 @@
   },
   {
     "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
@@ -504,13 +504,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Lucky Break Products | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -528,7 +528,7 @@
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -540,13 +540,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "title": "Lucky Break Products | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -624,6 +624,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
@@ -631,12 +637,6 @@
   },
   {
     "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
@@ -750,13 +750,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "New Prices!",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "New Prices!",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
@@ -798,6 +798,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "Amigos Vapes | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
@@ -805,12 +811,6 @@
   },
   {
     "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Willimantic (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
@@ -943,6 +943,12 @@
   },
   {
     "title": "3/$85 Everyday Tier 100mg Edibles",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 30% Off Featured Items",
     "description": "",
     "dispensary": "High Profile - Hamden",
     "platform": "custom"

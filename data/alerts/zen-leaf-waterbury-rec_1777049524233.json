@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow Drift",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Snow Drift"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  }
+]

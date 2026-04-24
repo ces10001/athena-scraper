@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Slapz (I) TC 25.021% 00852 (5pk)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Preroll 5 Pack 2g Slapz (I) TC 25.021% 00852 (5pk) $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy 1g LT Bar T833 H 00866 (1g Disp)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy 1g LT Bar T833 H 00866 (1g Disp)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon 1g PR 41724 (S) (1pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon 1g PR 41724 (S) (1pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Preroll 5 Pack 2g Slapz (I) 00751 (5pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Curaleaf Preroll 5 Pack 2g Slapz (I) 00751 (5pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength Indoti Capsule 41575 (I)(10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Low Strength Indoti Capsule 41575 (I)(10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Happy Confection MED - Sunset Citron (I) - 00373 (20pk)",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - The Happy Confection MED - Sunset Citron (I) - 00373 (20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite All In One .3g Old School OG (H) 01327(H)(0.3gDisp)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Select Elite All In One .3g Old School OG (H) 01327(H)(0.3gDisp)"
+  }
+]

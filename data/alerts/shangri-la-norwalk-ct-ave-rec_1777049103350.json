@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge 1g LA Kush C (H) 01360",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge 1g LA Kush C (H) 01360 $64.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix Cannabis Purple Milk Whole Flower 3.5g (I) 00467"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Caddy Rainbow Flower T29.82% I 00923",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Caddy Rainbow Flower T29.82% I 00923"
+  }
+]

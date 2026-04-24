@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g Devi #11 (D11) (S) - 00091",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g Devi #11 (D11) (S) - 00091 $26.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State 2g Fatboy 41763",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State 2g Fatboy 41763 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk 1g Pre Roll (I) 00504",
+    "brand": "Brix",
+    "message": "New: Brix - Purple Milk 1g Pre Roll (I) 00504 $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding 2g Fatboy 41774",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding 2g Fatboy 41774 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Theraplant Canna Miranda 1g Infused PR (H) - 41689",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Theraplant Canna Miranda 1g Infused PR (H) - 41689 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "all:hours Nimbus Snacks Rosin Roll Shorties 41417",
+    "brand": "all:hours",
+    "message": "New: all:hours - all:hours Nimbus Snacks Rosin Roll Shorties 41417 $28.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TGI Purple Vape 41095",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - TGI Purple Vape 41095 $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face 1g Infused PR 41619",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face 1g Infused PR 41619 $13.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Shaka Pre-Pack 3.5g Blockberry (BLB) 00075",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - Shaka Pre-Pack 3.5g Blockberry (BLB) 00075"
+  }
+]

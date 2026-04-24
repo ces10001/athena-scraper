@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - G'Night Grape"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - B Scout"
+  }
+]
