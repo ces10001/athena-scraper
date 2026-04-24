@@ -129,10 +129,10 @@ export const CT_DISPENSARIES = [
   { name: "Fine Fettle - Willimantic (Med)", city: "Willimantic", platform: "finefettle", store_ids: { med: "793" }, menu_type: "med" },
 
   // ═══ RISE (2 stores, rec + med URLs) ═══
-  { name: "Rise - Branford (Rec)", city: "Branford", platform: "rise", rise_url: "https://risecannabis.com/dispensaries/connecticut/branford/4970/recreational-menu/" },
-  { name: "Rise - Branford (Med)", city: "Branford", platform: "rise", rise_url: "https://risecannabis.com/dispensaries/connecticut/branford/1501/medical-menu/" },
-  { name: "Rise - Orange (Rec)", city: "Orange", platform: "rise", rise_url: "https://risecannabis.com/dispensaries/connecticut/orange/5653/recreational-menu/" },
-  { name: "Rise - Orange (Med)", city: "Orange", platform: "rise", rise_url: "https://risecannabis.com/dispensaries/connecticut/orange/2817/medical-menu/" },
+  { name: "Rise - Branford (Rec)", city: "Branford", platform: "jane", jane_stores: [{ id: 4970, slug: "rise-dispensaries-branford-adult-use" }] },
+  { name: "Rise - Branford (Med)", city: "Branford", platform: "jane", jane_stores: [{ id: 1501, slug: "rise-dispensaries-branford-medical" }] },
+  { name: "Rise - Orange (Rec)", city: "Orange", platform: "jane", jane_stores: [{ id: 5653, slug: "rise-dispensaries-orange-adult-use" }] },
+  { name: "Rise - Orange (Med)", city: "Orange", platform: "jane", jane_stores: [{ id: 2817, slug: "rise-dispensaries-orange-medical" }] },
 
   // ═══ JANE — VENU FLOWER COLLECTIVE (1) ═══
   { name: "Venu Flower Collective", city: "Middletown", platform: "jane", jane_stores: [
