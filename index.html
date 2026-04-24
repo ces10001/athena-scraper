@@ -271,7 +271,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(TerminalBoot,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["battle","Battle Map"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
@@ -281,7 +281,6 @@ function App(){
     tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
-    tab==="battle"&&React.createElement(BattleMap,{data:data,favsVer:favsVer}),
     React.createElement(Ftr,{d:data})
   );
 }
@@ -1175,178 +1174,6 @@ function DispsTab({data,favsVer,toggleFav}){
     })}
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
   </div>;
-}
-
-/* ═══════════════════════════════════════
-   BATTLE MAP TAB
-   ═══════════════════════════════════════ */
-var CITIES_GEO={"Bridgeport":[41.1865,-73.1952],"New Haven":[41.3083,-72.9279],"Stamford":[41.0534,-73.5387],"Hartford":[41.7658,-72.6734],"Norwalk":[41.1177,-73.4082],"Waterbury":[41.5582,-73.0515],"Danbury":[41.3948,-73.4540],"Manchester":[41.7759,-72.5215],"Bristol":[41.6718,-72.9493],"Meriden":[41.5382,-72.8070],"Branford":[41.2795,-72.8151],"Orange":[41.2784,-73.0257],"Hamden":[41.3959,-72.8968],"East Lyme":[41.3537,-72.2279],"Newington":[41.6979,-72.7240],"Putnam":[41.9150,-71.9090],"Rocky Hill":[41.6643,-72.6401],"Canton":[41.8409,-72.8979],"Stratford":[41.1845,-73.1332],"Groton":[41.3501,-72.0776],"West Hartford":[41.7620,-72.7420],"Plainville":[41.6743,-72.8582],"Cromwell":[41.5951,-72.6454],"East Hartford":[41.7637,-72.6184],"Trumbull":[41.2429,-73.2007],"New Britain":[41.6612,-72.7795],"Vernon":[41.8364,-72.4591],"Montville":[41.4637,-72.1510],"Tolland":[41.8715,-72.3686],"Seymour":[41.3968,-73.0846],"Norwich":[41.5243,-72.0759],"Killingly":[41.8383,-71.8732],"Torrington":[41.8006,-73.1212],"New London":[41.3557,-72.0995],"Naugatuck":[41.4890,-73.0507],"Ashford":[41.8732,-72.1263],"Enfield":[41.9762,-72.5918],"Old Saybrook":[41.2936,-72.3762],"Willimantic":[41.7107,-72.2084]};
-var CT_B={minLat:40.93,maxLat:42.12,minLng:-73.76,maxLng:-71.75};
-function geoProj(lat,lng,w,h){var p=25;return[p+((lng-CT_B.minLng)/(CT_B.maxLng-CT_B.minLng))*(w-p*2),p+((CT_B.maxLat-lat)/(CT_B.maxLat-CT_B.minLat))*(h-p*2)]}
-function ctBorder(w,h){var b=[[-73.7278,42.0490],[-73.4300,42.0500],[-73.2329,42.0449],[-72.8173,42.0365],[-72.4669,42.0338],[-72.0871,42.0277],[-71.7996,42.0081],[-71.7942,41.8409],[-71.7942,41.6411],[-71.7889,41.5147],[-71.7996,41.4162],[-72.0550,41.2607],[-72.1647,41.1899],[-72.3784,41.2000],[-72.5250,41.2500],[-72.7610,41.2530],[-72.9087,41.2828],[-73.0205,41.2060],[-73.1072,41.1589],[-73.1715,41.1589],[-73.2432,41.1428],[-73.3700,41.1030],[-73.4449,41.0847],[-73.5281,41.0623],[-73.5842,41.0055],[-73.5787,40.9982],[-73.6426,40.9839],[-73.6557,41.0157],[-73.6579,41.0546],[-73.6605,41.1028],[-73.7278,41.1008],[-73.7278,42.0490]];return"M"+b.map(function(c){var p=geoProj(c[1],c[0],w,h);return p[0].toFixed(1)+","+p[1].toFixed(1)}).join("L")+"Z"}
-
-function BattleWarrior(props){
-  var x=props.x,y=props.y,s=props.s||5.5,isYou=props.isYou,d=props.d||0;
-  var c=isYou?"#e8600a":"#6b6b80",h=isYou?"#ff8c00":"#8888a0";
-  return React.createElement("g",{style:{animation:"bwb "+(1.2+Math.random()*0.8)+"s ease-in-out "+d+"s infinite"}},
-    React.createElement("ellipse",{cx:x,cy:y,rx:s*0.3,ry:s*0.18,fill:c,opacity:"0.6"}),
-    React.createElement("rect",{x:x-s*0.16,y:y-s*0.45,width:s*0.32,height:s*0.38,rx:"1",fill:c}),
-    React.createElement("circle",{cx:x,cy:y-s*0.52,r:s*0.14,fill:h}),
-    React.createElement("line",{x1:x,y1:y-s*0.72,x2:x,y2:y-s*0.62,stroke:isYou?"#ffd":"#bbb",strokeWidth:"1",strokeLinecap:"round"}),
-    React.createElement("line",{x1:x+s*0.25,y1:y-s*0.65,x2:x+s*0.25,y2:y-s*0.02,stroke:isYou?"#ffd":"#999",strokeWidth:"0.6"}),
-    React.createElement("polygon",{points:(x+s*0.2)+","+(y-s*0.65)+" "+(x+s*0.3)+","+(y-s*0.65)+" "+(x+s*0.25)+","+(y-s*0.82),fill:isYou?"#ff4444":"#777"})
-  );
-}
-
-function BattleMap(props){
-  var data=props.data,favsVer=props.favsVer;
-  var hov=useState(null),hovered=hov[0],setHovered=hov[1];
-  var W=840,H=540;
-
-  var garrisons=useMemo(function(){
-    if(!data||!data.products)return[];
-    var prods=data.products||[],disps=data.dispensaries||[],deals=data.deals||[];
-    var dc={};Object.keys(disps).forEach(function(d){dc[d]=0});
-    prods.forEach(function(p){Object.keys(p.dispensaries||{}).forEach(function(d){dc[d]=(dc[d]||0)+1})});
-    var dlc={};deals.forEach(function(d){dlc[d.dispensary]=(dlc[d.dispensary]||0)+1});
-    var byCity={};
-    Object.entries(disps).forEach(function(e){
-      var name=e[0],info=e[1],city=info.city;
-      if(!city||!CITIES_GEO[city])return;
-      if(!byCity[city])byCity[city]={chains:{},skus:0,deals:0,isYou:false};
-      var chain=name.replace(/\s*\((?:Med|Rec)\)\s*$/,"").replace(/ - .*/,"").trim();
-      if(!byCity[city].chains[chain])byCity[city].chains[chain]={skus:0,deals:0,isYou:false};
-      var cnt=dc[name]||0,dl=dlc[name]||0;
-      byCity[city].chains[chain].skus+=cnt;byCity[city].chains[chain].deals+=dl;
-      byCity[city].skus+=cnt;byCity[city].deals+=dl;
-      if(isAff(name)){byCity[city].isYou=true;byCity[city].chains[chain].isYou=true}
-    });
-    return Object.entries(byCity).map(function(e){
-      var city=e[0],info=e[1];var geo=CITIES_GEO[city];var pos=geoProj(geo[0],geo[1],W,H);
-      var power=Math.round(info.skus*0.6+info.deals*10);
-      var wc=Math.max(1,Math.min(10,Math.round(info.skus/250)));
-      var chains=Object.entries(info.chains).map(function(ce){return{name:ce[0],skus:ce[1].skus,deals:ce[1].deals,isYou:ce[1].isYou,power:Math.round(ce[1].skus*0.6+ce[1].deals*10)}}).sort(function(a,b){return b.power-a.power});
-      return{city:city,pos:pos,skus:info.skus,deals:info.deals,isYou:info.isYou,power:power,wc:wc,chains:chains};
-    }).sort(function(a,b){return b.power-a.power});
-  },[data,favsVer]);
-
-  var siege=useMemo(function(){
-    var yours=garrisons.filter(function(g){return g.isYou}),comps=garrisons.filter(function(g){return!g.isYou});
-    var ar=[],mr=[];
-    comps.forEach(function(comp){yours.forEach(function(y){
-      var d=Math.sqrt(Math.pow(comp.pos[0]-y.pos[0],2)+Math.pow(comp.pos[1]-y.pos[1],2));
-      if(d>230)return;
-      if(comp.power>y.power*1.15)ar.push({from:comp.pos,to:y.pos});
-      if(y.power>comp.power*1.1)mr.push({from:y.pos,to:comp.pos});
-    })});
-    return{arrows:ar.slice(0,10),marches:mr.slice(0,8)};
-  },[garrisons]);
-
-  var ranks=useMemo(function(){return garrisons.slice(0,18)},[garrisons]);
-
-  return React.createElement("div",{style:{background:"linear-gradient(145deg,#1a1a1f 0%,#222228 50%,#1a1a1f 100%)",borderRadius:12,overflow:"hidden",fontFamily:"'Courier New',monospace",border:"1px solid rgba(232,96,10,0.12)"}},
-    React.createElement("style",null,"@keyframes bwb{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}@keyframes bfi{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}"),
-    // Header
-    React.createElement("div",{style:{padding:"12px 18px",borderBottom:"1px solid rgba(232,96,10,0.12)",display:"flex",justifyContent:"space-between",alignItems:"center",background:"rgba(232,96,10,0.02)"}},
-      React.createElement("div",null,
-        React.createElement("div",{style:{fontSize:9,color:"#e8600a",letterSpacing:4,fontWeight:700}},"⚔️ ATHENA INTELLIGENCE"),
-        React.createElement("div",{style:{fontSize:15,color:"#ddd",fontWeight:700,letterSpacing:2,marginTop:1}},"BATTLE FOR CONNECTICUT")
-      ),
-      React.createElement("div",{style:{display:"flex",gap:16}},
-        [["GARRISONS",garrisons.length,"#e8600a"],["THREATS",siege.arrows.length,"#ff4444"],["ADVANCES",siege.marches.length,"#4ade80"]].map(function(a){return React.createElement("div",{key:a[0],style:{textAlign:"center"}},React.createElement("div",{style:{fontSize:7,color:"#666",letterSpacing:1}},a[0]),React.createElement("div",{style:{fontSize:16,color:a[2],fontWeight:700}},a[1]))})
-      )
-    ),
-    // Body
-    React.createElement("div",{style:{display:"flex"}},
-      // Map
-      React.createElement("div",{style:{flex:1}},
-        React.createElement("svg",{viewBox:"0 0 "+W+" "+H,style:{width:"100%",height:"auto",display:"block"}},
-          React.createElement("defs",null,
-            React.createElement("radialGradient",{id:"byg"},React.createElement("stop",{offset:"0%",stopColor:"#e8600a",stopOpacity:"0.22"}),React.createElement("stop",{offset:"100%",stopColor:"#e8600a",stopOpacity:"0"})),
-            React.createElement("radialGradient",{id:"bcg"},React.createElement("stop",{offset:"0%",stopColor:"#555",stopOpacity:"0.1"}),React.createElement("stop",{offset:"100%",stopColor:"#555",stopOpacity:"0"})),
-            React.createElement("filter",{id:"bgf"},React.createElement("feGaussianBlur",{stdDeviation:"1.5"}))
-          ),
-          // CT outline
-          React.createElement("path",{d:ctBorder(W,H),fill:"rgba(45,45,55,0.5)",stroke:"rgba(232,96,10,0.2)",strokeWidth:"1.5",strokeLinejoin:"round"}),
-          React.createElement("path",{d:ctBorder(W,H),fill:"none",stroke:"rgba(232,96,10,0.05)",strokeWidth:"5",filter:"url(#bgf)"}),
-          // Glows
-          garrisons.map(function(g){return React.createElement("circle",{key:"gl"+g.city,cx:g.pos[0],cy:g.pos[1],r:14+g.wc*2.2,fill:g.isYou?"url(#byg)":"url(#bcg)"})}),
-          // Arrows
-          siege.arrows.map(function(a,i){return React.createElement("g",{key:"ar"+i},
-            React.createElement("line",{x1:a.from[0],y1:a.from[1],x2:a.to[0],y2:a.to[1],stroke:"rgba(255,50,50,0.06)",strokeWidth:"1",strokeDasharray:"4,5"}),
-            React.createElement("g",null,
-              React.createElement("animateMotion",{dur:(1.8+Math.random()*0.8)+"s",begin:(i*0.35)+"s",repeatCount:"indefinite",path:"M"+a.from[0]+","+a.from[1]+" L"+a.to[0]+","+a.to[1],rotate:"auto"}),
-              React.createElement("line",{x1:"-7",y1:"0",x2:"3",y2:"0",stroke:"#ff4444",strokeWidth:"1.3"}),
-              React.createElement("polygon",{points:"3,-2 7,0 3,2",fill:"#ff4444"}),
-              React.createElement("circle",{cx:"-2",cy:"0",r:"2.5",fill:"#ff6600",opacity:"0.35"},React.createElement("animate",{attributeName:"r",values:"1.5;4;1.5",dur:"0.3s",repeatCount:"indefinite"}))
-            )
-          )}),
-          // Marches
-          siege.marches.map(function(m,i){return React.createElement("g",{key:"mr"+i},
-            React.createElement("line",{x1:m.from[0],y1:m.from[1],x2:m.to[0],y2:m.to[1],stroke:"rgba(232,96,10,0.1)",strokeWidth:"1",strokeDasharray:"3,5"}),
-            [0,0.5,1].map(function(d,j){return React.createElement("circle",{key:j,r:"2",fill:"#e8600a",opacity:"0.65"},
-              React.createElement("animateMotion",{dur:"2.2s",begin:(i*0.3+d)+"s",repeatCount:"indefinite",path:"M"+m.from[0]+","+m.from[1]+" L"+m.to[0]+","+m.to[1]}),
-              React.createElement("animate",{attributeName:"r",values:"1.5;3.5;1.5",dur:"0.8s",repeatCount:"indefinite"})
-            )})
-          )}),
-          // Warriors
-          garrisons.map(function(g){
-            var ws=[];var cols=Math.min(g.wc,4);
-            for(var i=0;i<g.wc;i++){var r=Math.floor(i/cols),c=i%cols;
-              ws.push(React.createElement(BattleWarrior,{key:"w"+g.city+i,x:g.pos[0]-(cols*4)+c*8+(r%2?4:0),y:g.pos[1]-r*6-1,s:5.5,isYou:g.isYou,d:i*0.08}));
-            }
-            var rows=Math.ceil(g.wc/cols);
-            return React.createElement("g",{key:"g"+g.city,onMouseEnter:function(){setHovered(g.city)},onMouseLeave:function(){setHovered(null)},style:{cursor:"pointer"}},
-              ws,
-              React.createElement("text",{x:g.pos[0],y:g.pos[1]+7+rows*2.5,textAnchor:"middle",fill:g.isYou?"#e8600a":"#555",fontSize:"5.8",fontWeight:"700",letterSpacing:"0.2"},g.city.toUpperCase()),
-              React.createElement("rect",{x:g.pos[0]-12,y:g.pos[1]+9+rows*2.5,width:"24",height:"9",rx:"2",fill:g.isYou?"#e8600a":"rgba(70,70,80,0.85)",stroke:g.isYou?"#ff8c00":"#444",strokeWidth:"0.3"}),
-              React.createElement("text",{x:g.pos[0],y:g.pos[1]+16+rows*2.5,textAnchor:"middle",fill:"#fff",fontSize:"5.8",fontWeight:"700"},g.power)
-            );
-          }),
-          // Hover tooltip
-          hovered&&(function(){
-            var g=garrisons.find(function(x){return x.city===hovered});if(!g)return null;
-            var tx=Math.max(75,Math.min(g.pos[0],W-75)),ty=Math.max(5,g.pos[1]-60-Math.min(g.chains.length,5)*12);
-            var bh=25+Math.min(g.chains.length,5)*12;
-            return React.createElement("g",{style:{animation:"bfi 0.12s ease-out"}},
-              React.createElement("rect",{x:tx-72,y:ty,width:"144",height:bh,rx:"4",fill:"rgba(18,18,22,0.96)",stroke:g.isYou?"#e8600a":"#444",strokeWidth:"0.8"}),
-              React.createElement("text",{x:tx,y:ty+11,textAnchor:"middle",fill:g.isYou?"#e8600a":"#eee",fontSize:"8",fontWeight:"700"},(g.isYou?"★ ":"")+g.city),
-              React.createElement("text",{x:tx,y:ty+20,textAnchor:"middle",fill:"#777",fontSize:"6.5"},g.skus.toLocaleString()+" SKUs · "+g.deals+" deals · ⚡"+g.power),
-              g.chains.slice(0,5).map(function(c,i){return React.createElement("text",{key:i,x:tx-62,y:ty+32+i*12,fill:c.isYou?"#e8600a":"#999",fontSize:"6.5"},(c.isYou?"★ ":"  ")+c.name.substring(0,20)+" — "+c.skus)})
-            );
-          })()
-        ),
-        // Legend
-        React.createElement("div",{style:{padding:"6px 10px",fontSize:7,color:"#777",display:"flex",gap:12,background:"rgba(20,20,25,0.6)",borderTop:"1px solid rgba(232,96,10,0.08)"}},
-          React.createElement("span",{style:{color:"#e8600a",fontWeight:700,letterSpacing:1.5}},"LEGEND"),
-          React.createElement("span",null,React.createElement("span",{style:{color:"#e8600a"}},"■")," Your Forces"),
-          React.createElement("span",null,React.createElement("span",{style:{color:"#6b6b80"}},"■")," Competitor"),
-          React.createElement("span",null,React.createElement("span",{style:{color:"#ff4444"}},"→")," Incoming Threat"),
-          React.createElement("span",null,React.createElement("span",{style:{color:"#e8600a"}},"●→")," Your Advance")
-        )
-      ),
-      // Sidebar
-      React.createElement("div",{style:{width:185,borderLeft:"1px solid rgba(232,96,10,0.08)",padding:"8px 10px",background:"rgba(12,12,16,0.4)",overflowY:"auto",maxHeight:520}},
-        React.createElement("div",{style:{fontSize:7,color:"#e8600a",letterSpacing:2,fontWeight:700,marginBottom:6,paddingBottom:4,borderBottom:"1px solid rgba(232,96,10,0.12)"}},"⚡ POWER RANKINGS"),
-        ranks.map(function(g,i){return React.createElement("div",{key:g.city,style:{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"3px 4px",borderRadius:3,marginBottom:1,background:g.isYou?"rgba(232,96,10,0.07)":"transparent",borderLeft:g.isYou?"2px solid #e8600a":"2px solid transparent"}},
-          React.createElement("div",{style:{display:"flex",alignItems:"center",gap:4}},
-            React.createElement("span",{style:{fontSize:7,color:i<3?"#e8600a":"#444",fontWeight:700,width:12}},i+1+"."),
-            React.createElement("div",null,
-              React.createElement("div",{style:{fontSize:7.5,color:g.isYou?"#e8600a":"#aaa",fontWeight:g.isYou?700:400}},(g.isYou?"★ ":"")+g.city),
-              React.createElement("div",{style:{fontSize:6,color:"#444"}},g.skus.toLocaleString()+" SKUs")
-            )
-          ),
-          React.createElement("div",{style:{fontSize:8,color:g.isYou?"#e8600a":"#777",fontWeight:700}},g.power)
-        )}),
-        React.createElement("div",{style:{marginTop:10,fontSize:7,color:"#e8600a",letterSpacing:2,fontWeight:700,paddingTop:6,borderTop:"1px solid rgba(232,96,10,0.1)",marginBottom:4}},"⚔️ STATUS"),
-        React.createElement("div",{style:{fontSize:7.5,color:"#888",lineHeight:1.7}},
-          siege.arrows.length>0?React.createElement("div",null,React.createElement("span",{style:{color:"#ff4444"}},"🔥 "+siege.arrows.length+" threats")," incoming"):React.createElement("div",{style:{color:"#4ade80"}},"✓ No threats"),
-          siege.marches.length>0?React.createElement("div",null,React.createElement("span",{style:{color:"#e8600a"}},"⚔️ "+siege.marches.length+" advances")," active"):null
-        ),
-        React.createElement("div",{style:{marginTop:8,fontSize:6,color:"#333",lineHeight:1.4,borderTop:"1px solid rgba(232,96,10,0.06)",paddingTop:6}},"Power = SKUs × 0.6 + Deals × 10. Star your dispensaries to see threats and advances.")
-      )
-    )
-  );
 }
 
 ReactDOM.render(<App/>,document.getElementById("root"));
