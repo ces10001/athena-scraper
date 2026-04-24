@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Garlic Icing"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chimera #2",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Chimera #2"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry 5:1 CBN",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry 5:1 CBN"
+  }
+]

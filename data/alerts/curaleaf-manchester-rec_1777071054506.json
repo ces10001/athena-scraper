@@ -1,0 +1,26 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $11.70 > $11.05"
+  }
+]

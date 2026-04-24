@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Funk",
+    "brand": "Chemdog",
+    "message": "Gone: Chemdog - Permanent Funk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Toasted S'mores Milk Chocolate",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Toasted S'mores Milk Chocolate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sunshine Daydream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91",
+    "brand": "Chemdog",
+    "message": "Gone: Chemdog - Chem 91"
+  }
+]

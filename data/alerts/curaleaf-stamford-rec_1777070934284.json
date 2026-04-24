@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "Select Orange Matter: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $45.50 > $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Magenta Dream",
+    "brand": "Savvy",
+    "message": "New: Savvy - Magenta Dream $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer OG",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer OG $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bad Decisions",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Bad Decisions $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gasolina",
+    "brand": "SoundView",
+    "message": "New: SoundView - Gasolina $72.00"
+  }
+]

@@ -384,30 +384,6 @@
     "rec_only": false
   },
   {
-    "external_id": "69d5266402a5b0bc5fb04cb9",
-    "name": "Good Green Slapz (H) 01343",
-    "brand": "Good Green",
-    "category": "flower",
-    "subcategory": "whole-flower",
-    "strain_type": "hybrid",
-    "price_cents": 8100,
-    "original_price_cents": null,
-    "weight_label": "14g",
-    "weight_grams": 14,
-    "unit_price_per_gram": 579,
-    "thc_pct": 25.85,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/12b6164298919377e757e08160a1afa0",
-    "product_url": null,
-    "med_price_cents": 8100,
-    "med_original_price_cents": null,
-    "medical_only": false,
-    "rec_only": false
-  },
-  {
     "external_id": "69bc7eb1db677d4e03a6767e",
     "name": "The Happy Confection-Coasting Cherry Punch (H)-00370",
     "brand": "The Happy Confection™️",
@@ -4176,7 +4152,7 @@
     "rec_only": false
   },
   {
-    "external_id": "69ab1308d19c6728df817e6b",
+    "external_id": "69b2d627e49e6ad3b08e120e",
     "name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
     "brand": "Wana",
     "category": "edible",

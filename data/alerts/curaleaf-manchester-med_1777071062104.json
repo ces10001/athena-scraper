@@ -1,0 +1,32 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $19.50 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $46.80 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $19.50 > $20.00"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675",
+    "brand": "Budr",
+    "message": "New: Budr - BUDR High Octane 2g AIO Vape 41675 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Berry Bonbon 2g AIO Vape 41673",
+    "brand": "Budr",
+    "message": "New: Budr - BUDR Berry Bonbon 2g AIO Vape 41673 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Sweet Tooth 2g AIO Vape 41672",
+    "brand": "Budr",
+    "message": "New: Budr - BUDR Sweet Tooth 2g AIO Vape 41672 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Ground Flower 3.5g Citradelic Haze (S) 01631 TC 31.016%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Ground Flower 3.5g Citradelic Haze (S) 01631 TC 31.016% $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.3",
+    "brand": null,
+    "message": "New: null - Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.3 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Nimbus Snacks 1g Pre-Roll S 27009 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillat",
+    "brand": null,
+    "message": "New: null - AGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillat $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Sherb 1g Pure Vape T884 H 27017",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Sherb 1g Pure Vape T884 H 27017 $59.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Sofa Sonata (I) 01629",
+    "brand": "SelectFlavor Series",
+    "message": "New: SelectFlavor Series - Select Flavor Series 510 1g Sofa Sonata (I) 01629 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy 2g Fatboy 41775",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy 2g Fatboy 41775 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EARLy Birds | Infinity Grapes 023Earl Baker5",
+    "brand": "Pack",
+    "message": "New: Pack - EARLy Birds | Infinity Grapes 023Earl Baker5 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484 $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Gazzurple (S) 01389",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Gazzurple (S) 01389 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series Briq 2 1g Cherry Pi (S) 01636",
+    "brand": "SelectBRIQ Flavor Series",
+    "message": "New: SelectBRIQ Flavor Series - Select Flavor Series Briq 2 1g Cherry Pi (S) 01636 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per",
+    "brand": null,
+    "message": "New: null - Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "EARLy Birds | Mega Lemon Goop 022Earl Baker5",
+    "brand": "Pack",
+    "message": "New: Pack - EARLy Birds | Mega Lemon Goop 022Earl Baker5 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze Shorties I 26957CTPharma5",
+    "brand": "Pack",
+    "message": "New: Pack - Blue Andeze Shorties I 26957CTPharma5 $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%GrassrootsShorties",
+    "brand": "Pack",
+    "message": "New: Pack - Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%GrassrootsShorties $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675BudrAIO",
+    "brand": null,
+    "message": "Gone: null - BUDR High Octane 2g AIO Vape 41675BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR Berry Bonbon 2g AIO Vape 41673BudrAIO",
+    "brand": null,
+    "message": "Gone: null - BUDR Berry Bonbon 2g AIO Vape 41673BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO",
+    "brand": null,
+    "message": "Gone: null - BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "🧈 Freshly Churned 🧈View allView allSativaGrassroots Ground Flower 3.5g Citrade",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - 🧈 Freshly Churned 🧈View allView allSativaGrassroots Ground Flower 3.5g Citrade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - 5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backHybridSavvy Lemon Cherry Sherb 1g Pre-Roll H 26886",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - 5% backHybridSavvy Lemon Cherry Sherb 1g Pre-Roll H 26886"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "Gone: AGL - 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb 1g Pure Vape T884 H 27017",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb 1g Pure Vape T884 H 27017"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flavor Series 510 1g Sofa Sonata (I) 01629SelectFlavor Series",
+    "brand": "Select",
+    "message": "Gone: Select - Flavor Series 510 1g Sofa Sonata (I) 01629SelectFlavor Series"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Cndy 2g Fatboy 41775TheraplantInfused",
+    "brand": null,
+    "message": "Gone: null - Strawberry Cndy 2g Fatboy 41775TheraplantInfused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "EARLy Birds | Infinity Grapes 023Earl Baker5 Pack",
+    "brand": null,
+    "message": "Gone: null - EARLy Birds | Infinity Grapes 023Earl Baker5 Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "7g Small Flower Gazzurple (S) 01389RYTHMSmalls",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - 7g Small Flower Gazzurple (S) 01389RYTHMSmalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flavor Series Briq 2 1g Cherry Pi (S) 01636SelectBRIQ Flavor Series",
+    "brand": "Select",
+    "message": "Gone: Select - Flavor Series Briq 2 1g Cherry Pi (S) 01636SelectBRIQ Flavor Series"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per",
+    "brand": null,
+    "message": "Gone: null - Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "EARLy Birds | Mega Lemon Goop 022Earl Baker5 Pack",
+    "brand": null,
+    "message": "Gone: null - EARLy Birds | Mega Lemon Goop 022Earl Baker5 Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze Shorties I 26957CTPharma5 Pack",
+    "brand": null,
+    "message": "Gone: null - Blue Andeze Shorties I 26957CTPharma5 Pack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%GrassrootsShorties 5 Pack Pre",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%GrassrootsShorties 5 Pack Pre"
+  }
+]

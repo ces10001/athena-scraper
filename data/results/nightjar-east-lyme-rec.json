@@ -2350,5 +2350,29 @@
     "med_original_price_cents": null,
     "medical_only": false,
     "rec_only": true
+  },
+  {
+    "external_id": "68307fab2d2292a3650828b1",
+    "name": "Beverage | Float House | IPA Hoppy THC Brew | Single",
+    "brand": "Float House",
+    "category": "edible",
+    "subcategory": "drinks",
+    "strain_type": null,
+    "price_cents": 599,
+    "original_price_cents": null,
+    "weight_label": "N/A",
+    "weight_grams": null,
+    "unit_price_per_gram": null,
+    "thc_pct": null,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": false,
+    "deal_description": null,
+    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/e6dfcdbac7e6a00e13d943b7a7cf2957",
+    "product_url": null,
+    "med_price_cents": 599,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": true
   }
 ]

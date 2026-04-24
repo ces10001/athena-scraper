@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "CIG (S) Flower",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - CIG (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary (H) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary (H) THCA Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Kiss (S) Live Resin Disposable Vape (1g)",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Cherry Kiss (S) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana SPLT (I) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banana SPLT (I) Mini Tank Disposable (0.5g)"
+  }
+]

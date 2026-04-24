@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "New: SoundView - G'Night Grape $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $20.80 > $18.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $19.50 > $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $19.50 > $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Apple",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Sour Apple"
+  }
+]
