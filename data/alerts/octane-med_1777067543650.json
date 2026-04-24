@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Good Green Living Legend | 3.5g Flower (S) | 01125",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Good Green Living Legend | 3.5g Flower (S) | 01125 $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry | 10:5 infused gummies (CBD:THC) 100mg (I) | 00113",
+    "brand": "COAST Cannabis Co.",
+    "message": "Gone: COAST Cannabis Co. - Cherry | 10:5 infused gummies (CBD:THC) 100mg (I) | 00113"
+  }
+]

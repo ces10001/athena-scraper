@@ -1,0 +1,476 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "Select Orange Matter: $19.50 > $17.87"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $39.00 > $42.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon Juice",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon Juice $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "JAMS Sour Watermelon Lime: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $8.45 > $9.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "Select Garlotti: $21.45 > $16.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Apple Tartz: $9.10 > $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Triple Stack $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Select Sundae Slumber: $21.45 > $16.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $20.00 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Muffin Grease",
+    "brand": "Find.",
+    "message": "Find. Muffin Grease: $39.00 > $46.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "Select Sour Z: $39.00 > $42.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Select Mango Puff: $39.00 > $42.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Mfns: $9.10 > $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Mint $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $8.45 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "Find. Glacial Garden: $8.45 > $9.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $21.45 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit",
+    "brand": "Find.",
+    "message": "Find. Gas Lit: $39.00 > $46.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $8.45 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Grassroots Atomic Breath: $18.20 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Orange Z $55.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Select Couch Kush: $39.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime: $19.50 > $17.87"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Grassroots Berry Batter: $18.20 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "New: Good Green - Bubba F $71.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $9.10 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "Find. Back Porch: $39.00 > $46.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $21.45 > $16.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $21.45 > $16.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Select Dosido: $21.45 > $16.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Foreign Kush Mints: $16.90 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $8.45 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple: $20.80 > $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Astro GMO: $9.10 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $18.20 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Paw Paw: $16.90 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slip",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip: $9.10 > $9.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $39.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "Find. Half Moonana: $20.00 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $8.45 > $9.75"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Yellow Haze OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sour Black Cherry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Gone: Find. - PB Bites"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Titan Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Moonbeam Latto"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - High Noon Crystal"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Lime",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Cherry Lime"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Apple",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Sour Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Gone: Select - Durban Poison"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Specimen X",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Specimen X"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citrus Glow",
+    "brand": "Find.",
+    "message": "Gone: Find. - Citrus Glow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Drizzle",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tropical Drizzle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mrs. Brightside",
+    "brand": "Find.",
+    "message": "Gone: Find. - Mrs. Brightside"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "Gone: Find. - Silver Dollar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Nuclear Mfns"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Problem Child"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Paw Paw"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kooykz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kooykz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - High Noon Crystal"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Glitter Bomb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Motor Breath",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Motor Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sheriff's Reserve",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Sheriff's Reserve"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Zuava"
+  }
+]

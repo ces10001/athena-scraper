@@ -1,0 +1,74 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Jane Gold rewardsView allView all15% back((inc)edibles•BundleBuy 3+ (inc)edibles",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all15% back((inc)edibles•BundleBuy 3+ (inc)edibles: $26.00 > $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSativaSavvy Strut AIO 2g Golden Tangie T1716 S 26935SavvyStrut All-In-One",
+    "brand": null,
+    "message": "New: null - 5% backSativaSavvy Strut AIO 2g Golden Tangie T1716 S 26935SavvyStrut All-In-One $104.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backIndicaSavvy Blue Andeze 1g Pre-Roll I 26991 $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin 7g 41518",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin 7g 41518 $41.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backSativaSavvy Kush Tang Disposable T257 S 26995",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backSativaSavvy Kush Tang Disposable T257 S 26995 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Do Not Trip (H) 01443",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Do Not Trip (H) 01443 $23.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO",
+    "brand": null,
+    "message": "Gone: null - BUDR Sweet Tooth 2g AIO Vape 41672BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Lemon Skunk Flower T27.43% S 00883"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "15% backIndicaCamino Wild Berry Cannabis-Infused Gummies 00396CaminoGummies(EACH",
+    "brand": null,
+    "message": "Gone: null - 15% backIndicaCamino Wild Berry Cannabis-Infused Gummies 00396CaminoGummies(EACH"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backHybridSavvy Zuava 1g Pre-Roll H 26973",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - 5% backHybridSavvy Zuava 1g Pre-Roll H 26973"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Caddy Rainbow Flower T29.82% I 00923",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Caddy Rainbow Flower T29.82% I 00923"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Good Green 14g Bubba F (1) 01144",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Good Green 14g Bubba F (1) 01144"
+  }
+]

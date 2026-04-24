@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Animal Face x Purple Tyde Vape Cart T821 (1-01391)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Animal Face x Purple Tyde Vape Cart T821 (1-01391) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Guap RSO Tangie Crush Gummies T44.7 10pk (2-27041)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Guap RSO Tangie Crush Gummies T44.7 10pk (2-27041) $12.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Guap RSO Tangie Crush Gummies T45.3 10pk (2-26972)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Guap RSO Tangie Crush Gummies T45.3 10pk (2-26972)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Sunrise Single Pre Roll T24.87 (3-01465)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pineapple Sunrise Single Pre Roll T24.87 (3-01465)"
+  }
+]

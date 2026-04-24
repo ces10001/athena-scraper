@@ -1,0 +1,362 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Mystic Sunrise (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Mystic Sunrise (S) 1g Pre-Roll 1pk (1g): $9.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g): $25.00 > $7.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's (H) part:timers Flower",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - 10G's (H) part:timers Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy (H) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy (H) 0.7g Pre-Rolls 3pk (2.1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CHJ (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - CHJ (I) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie (H) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg (H) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Swamp Water Fumez (H) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Swamp Water Fumez (H) 0.35g Pre-Rolls 5pk (1.75g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Brains (I) Infused Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Brains (I) Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Ckies (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chem Ckies (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave (H) THCA Infused Shorties 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave (H) THCA Infused Shorties 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst (H) Elite All In One (0.3g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limoncello (H) Fast Acting Gummies (4.93mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Limoncello (H) Fast Acting Gummies (4.93mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Passionfruit Pineapple (H) Gummies (4.49mg THC 4.73mg CBD 4.82mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Passionfruit Pineapple (H) Gummies (4.49mg THC 4.73mg CBD 4.82mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.95mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.95mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango (S) RSO Gummies (9.14mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Mango (S) RSO Gummies (9.14mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry (H) Gummies (9.64mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pineapple Raspberry (H) Gummies (9.64mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Orchard Peach (H) Gummies (9.66mg THC 10.3mg CBD 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Orchard Peach (H) Gummies (9.66mg THC 10.3mg CBD 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wild Berry (I) Gummies (4.84mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Wild Berry (I) Gummies (4.84mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape (I) RSO Gummies (9.48mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape (I) RSO Gummies (9.48mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry (S) Gummies (9.1mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Strawberry (S) Gummies (9.1mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon Spritz (S) Gummies (9.26mg 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Watermelon Spritz (S) Gummies (9.26mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Creative Clementine (S) Gummies (4.56mg THC 5.12mg THCV 20pk)",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Creative Clementine (S) Gummies (4.56mg THC 5.12mg THCV 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon Lime (I) Fast Acting Jellies (4.38mg 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Watermelon Lime (I) Fast Acting Jellies (4.38mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Milk (H) Fast Acting Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Sunset (I) Gummies (9.46mg 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Strawberry Sunset (I) Gummies (9.46mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Agave (H) (2.47oz)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Agave (H) (2.47oz)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero (S) Gummies (4.64mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero (S) Gummies (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Salted Caramel (H) Milk Chocolate Squares (5mg 10pk)",
+    "brand": "Astro Confections",
+    "message": "Gone: Astro Confections - Salted Caramel (H) Milk Chocolate Squares (5mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wintergreen (H) Mints (2.38mg 40pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Wintergreen (H) Mints (2.38mg 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Smash (H) Gummies (4.94mg 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Watermelon Smash (H) Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangerine (S) Gummies (4.82mg THC 4.9mg CBD 5.03mg CBG 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Tangerine (S) Gummies (4.82mg THC 4.9mg CBD 5.03mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry (I) Remix Fast Acting Ratio Jellies (4.8mg THC 4.8mg CBD 4.64mg CBN 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Blackberry (I) Remix Fast Acting Ratio Jellies (4.8mg THC 4.8mg CBD 4.64mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fruit Punch (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fruit Punch (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry (I) Gummies (4.53mg THC 23.84mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry (I) Gummies (4.53mg THC 23.84mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry (I) Gummies (4.44mg THC 10.4mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cherry (I) Gummies (4.44mg THC 10.4mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wildberry (I) Gummies (4.58mg 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Wildberry (I) Gummies (4.58mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry (H) X Bites (4.71mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Strawberry (H) X Bites (4.71mg 20pk)"
+  }
+]

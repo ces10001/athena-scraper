@@ -36,51 +36,39 @@
     "platform": "dutchie"
   },
   {
-    "title": "Member Discount",
-    "description": "",
-    "dispensary": "The Harvest Corner (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "30% Off Specials",
-    "description": "",
-    "dispensary": "The Harvest Corner (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "The Rack | SAVE 40%",
     "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
     "title": "DANK DEALS | 20% OFF SELECT ITEMS",
     "description": "Limited Time Only - while supplies last. No Stacking!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
     "title": "BINGO BANGO | $27 FLOWER",
     "description": "Limited time only - while supplies last. No Stacking.",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
     "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
     "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
     "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
     "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
     "title": "20% off Earl Baker products",
     "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
@@ -528,13 +516,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -606,6 +594,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
@@ -619,12 +613,6 @@
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"

@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO",
+    "brand": null,
+    "message": "New: null - SponsoredHybridBUDR High Octane 2g AIO Vape 41675BudrAIO $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Paw Paw (H) 01526 TC 33.901%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Paw Paw (H) 01526 TC 33.901% $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backIndicaSavvy Smalls 28g Stomper Kush I 26871",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backIndicaSavvy Smalls 28g Stomper Kush I 26871 $171.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SponsoredIndicaGood Green Ground Flower 28g B Scout (I) 01401Good GreenGround",
+    "brand": null,
+    "message": "New: null - SponsoredIndicaGood Green Ground Flower 28g B Scout (I) 01401Good GreenGround $100.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower - Trophy diesel 0101",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower - Trophy diesel 0101 $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backHybridSavvy Blue Sherb Disposable T257 H 26984",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backHybridSavvy Blue Sherb Disposable T257 H 26984 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backIndicaSavvy Strut AIO 2g Sour Bubble T1667 I 26843SavvyStrut All-In-One",
+    "brand": null,
+    "message": "New: null - 5% backIndicaSavvy Strut AIO 2g Sour Bubble T1667 I 26843SavvyStrut All-In-One $104.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "7g Small Flower Afternoon Delight #4 (H) 01373RYTHMSmalls",
+    "brand": "Rythm",
+    "message": "New: Rythm - 7g Small Flower Afternoon Delight #4 (H) 01373RYTHMSmalls $59.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5:1",
+    "brand": "Wana",
+    "message": "Gone: Wana - 5:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1:1:1 CBG/",
+    "brand": "Wana",
+    "message": "Gone: Wana - 1:1:1 CBG/"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk",
+    "brand": null,
+    "message": "Gone: null - WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "THC BEVERAGE SALE!View allView allFloat House 3mg (Non-Alcoholic) IPA Hemp-Deriv",
+    "brand": null,
+    "message": "Gone: null - THC BEVERAGE SALE!View allView allFloat House 3mg (Non-Alcoholic) IPA Hemp-Deriv"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675BudrAIO",
+    "brand": null,
+    "message": "Gone: null - BUDR High Octane 2g AIO Vape 41675BudrAIO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "7g Small Flower Swamp Water Fumez (H) 01380RYTHMSmalls",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - 7g Small Flower Swamp Water Fumez (H) 01380RYTHMSmalls"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - 1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ground Flower 28g B Scout (I) 01401Good GreenGround",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Ground Flower 28g B Scout (I) 01401Good GreenGround"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g Big Dog Afternoon Delight #4 (H) 01382DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - 1g Big Dog Afternoon Delight #4 (H) 01382DogwalkersBig Dog"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Soap Whole Flower 3.5g (S) 00431",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Brix Cannabis Soap Whole Flower 3.5g (S) 00431"
+  }
+]

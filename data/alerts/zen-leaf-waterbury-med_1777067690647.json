@@ -1,0 +1,1958 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "PharmaKush Tang",
+    "brand": "CT",
+    "message": "CT PharmaKush Tang: $43.60 > $10.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PharmaDosi-Punch",
+    "brand": "CT",
+    "message": "CT PharmaDosi-Punch: $43.60 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaScout Breath Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaScout Breath Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PharmaTropical Haze",
+    "brand": "CT",
+    "message": "CT PharmaTropical Haze: $43.60 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaHeir Heads Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaHeir Heads Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaDiesel Train Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaDiesel Train Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaApplescotti Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaApplescotti Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaGush Mintz Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaGush Mintz Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PharmaModified Haze",
+    "brand": "CT",
+    "message": "CT PharmaModified Haze: $43.60 > $10.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PharmaRed Gary Pre-Roll",
+    "brand": "CT",
+    "message": "CT PharmaRed Gary Pre-Roll: $25.70 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PharmaDosilato",
+    "brand": "CT",
+    "message": "CT PharmaDosilato: $43.60 > $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunny Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunny Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - E85"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Emerald Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Emerald Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mint Diesel",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mint Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tasty Jane",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Tasty Jane"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Modified Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Northern Ice",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Northern Ice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGKB Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - OGKB Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Diesel Train",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Diesel Train"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cold Bubba Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Cold Bubba Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Scout Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Lemon Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunny Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunny Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropsanto",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Tropsanto"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Full Tank",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Full Tank"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow Drift",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Snow Drift"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dieselato",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dieselato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GG Skunk",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - GG Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hazy Fields",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Hazy Fields"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Modified Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ultra Nana",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ultra Nana"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Yellow Haze OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green Diesel",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Green Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mint Diesel",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mint Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Strip",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunset Strip"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lotion 1:1",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Lotion 1:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow Drift",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Snow Drift"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Applescotti",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Applescotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - E85"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Glitter Bomb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGKB Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - OGKB Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangie Crush RSO",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tangie Crush RSO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Drip RSO",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Berry Drip RSO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "E85",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - E85"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peachy Punch 1:1 RSO CBD:THC",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Peachy Punch 1:1 RSO CBD:THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Mango Puff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO Skunk",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GMO Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Melon Crash 1:2 CBN:THC",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Melon Crash 1:2 CBN:THC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Magenta Dream",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Magenta Dream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Yellow Haze OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Haze Berry",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Haze Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Lemon G",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Super Lemon G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Pop",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Pop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Gas",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Gas"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinnacle",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pinnacle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Bubble",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Bubble"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Fire OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Haze Berry",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Haze Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosilato",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dosilato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Trophy Dawg",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Trophy Dawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lazy Sunday",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lazy Sunday"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "MAG Landrace",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - MAG Landrace"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Magenta Dream",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Magenta Dream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afghani Pink",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Afghani Pink"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Modified Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGKB Stomper",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - OGKB Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GG Skunk",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GG Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Alien OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinyatti",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pinyatti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Pop",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Red Pop"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Glue",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Glue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Applescotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Stomper Kush",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Stomper Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Stomper Kush",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Stomper Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO - CTP",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GMO - CTP"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Applescotti",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Applescotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinyatti",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pinyatti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kush Tang",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Kush Tang"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Glitter Bomb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry RSO",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry RSO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango RSO",
+    "brand": "Encore",
+    "message": "Gone: Encore - Mango RSO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Berry Burst",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Berry Burst"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Punch",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pomegranate Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape RSO",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape RSO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Watermelon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk Chocolate RSO Indica",
+    "brand": "Encore",
+    "message": "Gone: Encore - Milk Chocolate RSO Indica"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Mandarin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark Chocolate RSO Sativa",
+    "brand": "Encore",
+    "message": "Gone: Encore - Dark Chocolate RSO Sativa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk Chocolate RSO Sativa",
+    "brand": "Encore",
+    "message": "Gone: Encore - Milk Chocolate RSO Sativa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1:2 Sour Strawberry Peach",
+    "brand": "Encore",
+    "message": "Gone: Encore - 1:2 Sour Strawberry Peach"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pineapple Raspberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Banana Cream OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Juice OG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Juice OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SpaceDawg",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - SpaceDawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Jack",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Super Jack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Jack",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Super Jack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMOG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - GMOG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Sour Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Juice OG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Juice OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Banana Cream OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Z",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Sour Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SpaceDawg",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - SpaceDawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Applescotti",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Applescotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosilato",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Dosilato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "E85",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - E85"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Modified Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Haze",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Tropical Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "A1 Haze",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - A1 Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Mango",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Peach Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Original Glue",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Original Glue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miami Stardust",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Miami Stardust"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "On The Rocks",
+    "message": "Gone: On The Rocks - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ascend",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Ascend"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comfort",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Comfort"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Harmony",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Harmony"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Doughpamine",
+    "brand": "Brix",
+    "message": "Gone: Brix - Doughpamine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg Spark",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg Spark"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Goodnight Grape CBN 25:5",
+    "brand": "Coast Cannabis",
+    "message": "Gone: Coast Cannabis - Goodnight Grape CBN 25:5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fresh to Death",
+    "brand": "Brix",
+    "message": "Gone: Brix - Fresh to Death"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Summer L.",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Summer L."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Taffy Twist",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Taffy Twist"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry 5:1",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - BlueZZZberry 5:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miss Strawberry",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Miss Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight #4",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Afternoon Delight #4"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength Savoti",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Low Strength Savoti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem Ckies",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chem Ckies"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Hippie Crasher"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Blackberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow C. V3",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Snow C. V3"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Stankonya",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Stankonya"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Kush Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rainbow B.",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Rainbow B."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Black Maple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1:1 Low Strength",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - 1:1 Low Strength"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Burst 5:3 THC:THCv",
+    "brand": "Camino",
+    "message": "Gone: Camino - Tropical Burst 5:3 THC:THCv"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach 20:1",
+    "brand": "Coast Cannabis",
+    "message": "Gone: Coast Cannabis - Peach 20:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Lemonade",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Pink Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bruce Bamer",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Bruce Bamer"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Diesel",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Sour Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Durban",
+    "brand": "Select",
+    "message": "Gone: Select - Sour Durban"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afgooey",
+    "brand": "Brix",
+    "message": "Gone: Brix - Afgooey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreverberry",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Foreverberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Funk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Permanent Funk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Space Batter",
+    "brand": "Brix",
+    "message": "Gone: Brix - Space Batter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Green Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Unflavored 3:1",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Unflavored 3:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Z",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Orange Z"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Hot Guava",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - White Hot Guava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gas Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express",
+    "brand": "Dark Heart Collection",
+    "message": "Gone: Dark Heart Collection - Titan Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sunshine Daydream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kandi Jam",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Kandi Jam"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Bubba F"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight #4",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Afternoon Delight #4"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Do Not Trip",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Do Not Trip"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Purple Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Yo",
+    "brand": "Brix",
+    "message": "Gone: Brix - B Yo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry",
+    "brand": "Coast Cannabis",
+    "message": "Gone: Coast Cannabis - Cherry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - True OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength CBN 4:1",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Low Strength CBN 4:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies and Cream White",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Cookies and Cream White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookie Crumble Milk",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Cookie Crumble Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mellow Mango",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Mellow Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Mint 2:1",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Midnight Mint 2:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wild Berry Dark",
+    "brand": "Soundview",
+    "message": "Gone: Soundview - Wild Berry Dark"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Strawberry Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "Gone: Select - NYC Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Citron",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Sunset Citron"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Mintz",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Mystic Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Papi Purple",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Papi Purple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangerine 5:5:5",
+    "brand": "Coast Cannabis",
+    "message": "Gone: Coast Cannabis - Tangerine 5:5:5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yeet",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Yeet"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Space Gello"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bulbz",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Bulbz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape N Cream",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Grape N Cream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Moonbeam Latto"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "Gone: Select - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glue Fondue",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Glue Fondue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Regina Gorgeous",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Regina Gorgeous"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dulce De Uva",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Dulce De Uva"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata",
+    "brand": "Brix",
+    "message": "Gone: Brix - C-Stata"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple 22",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Black Maple 22"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple 22",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Black Maple 22"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Singapore Sling",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Singapore Sling"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tap Out",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Tap Out"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape Bubble G",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Grape Bubble G"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Rainbows"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lucky Honey Fast Acting",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Lucky Honey Fast Acting"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Blueberry Lemonade",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Blueberry Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Watermelon Lime",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Watermelon Lime"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Fruit Punch",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Fruit Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Fresh",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Lemon Fresh"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Go Gr Tz",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Go Gr Tz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Rainbows"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hi Life",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hi Life"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wild Berry",
+    "brand": "Camino",
+    "message": "Gone: Camino - Wild Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Blueberry 5:1 CBN",
+    "brand": "Camino",
+    "message": "Gone: Camino - Midnight Blueberry 5:1 CBN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lemonade",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Serenity 1:1 CBD",
+    "brand": "Camino",
+    "message": "Gone: Camino - Mango Serenity 1:1 CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Spritz",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Spritz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Sunset",
+    "brand": "Camino",
+    "message": "Gone: Camino - Strawberry Sunset"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orchard Peach 1:1 CBD",
+    "brand": "Camino",
+    "message": "Gone: Camino - Orchard Peach 1:1 CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RS1000",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - RS1000"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "American Pi",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - American Pi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mac N Jack",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Mac N Jack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Kush Bubble Hash",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Sunset Kush Bubble Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Push OG",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Push OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hi Life",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hi Life"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hi Life",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hi Life"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Dream",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Blue Dream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Jelly Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lady in Red",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Lady in Red"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mimosa",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Mimosa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Guava",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Pink Guava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zlushie",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Zlushie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Orange Sunshine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Orange Sunshine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Soap #2",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - The Soap #2"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Soap #2",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Soap #2"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonlight Dream",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Moonlight Dream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple 22",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Black Maple 22"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg Bubble Hash",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg Bubble Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Legacy Bubble Hash",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Durban Legacy Bubble Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Swamp Water Fumez",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Swamp Water Fumez"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gazzurple",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Gazzurple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gelato Rntz Bubble Hash",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Gelato Rntz Bubble Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Caddy Rainbow",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Caddy Rainbow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Karma's Diesel",
+    "brand": "Airo X",
+    "message": "Gone: Airo X - Karma's Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Z x G33",
+    "brand": "Airo X",
+    "message": "Gone: Airo X - Sunset Z x G33"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sub Zero",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Sub Zero"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Whiplash",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Whiplash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Mint",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Mystic Mint"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Swamp Water Fumez",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Swamp Water Fumez"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Drip x Sour D",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Lemon Drip x Sour D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RNTZ x Fantasy Melonz",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - RNTZ x Fantasy Melonz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GG4",
+    "brand": "Brix",
+    "message": "Gone: Brix - GG4"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Martian Mints",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Martian Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mrs. Brightside",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Mrs. Brightside"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Silver Dollar",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Silver Dollar"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Drizzle",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Tropical Drizzle"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Strawberry Cndy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grandy Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grandy Pappy's Chillemon"
+  }
+]

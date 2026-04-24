@@ -1,0 +1,104 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sponsored5% backHybridSavvy Zuava 1g Pre-Roll H 26973",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sponsored5% backHybridSavvy Zuava 1g Pre-Roll H 26973 $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backSativaEncore Sour Watermelon Gummies T95.8mg S 26875Encore EdiblesGummie",
+    "brand": null,
+    "message": "New: null - 15% backSativaEncore Sour Watermelon Gummies T95.8mg S 26875Encore EdiblesGummie $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "5% backHybridSavvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "New: Savvy - 5% backHybridSavvy Smalls 7g Zuava H 26948 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Andeze Shorties I 26957CTPharma5 Pack",
+    "brand": null,
+    "message": "New: null - Blue Andeze Shorties I 26957CTPharma5 Pack $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "15% backIndicaEncore Grape RSO Gummies T94.8mg I 26923Encore EdiblesGummies(EACH",
+    "brand": null,
+    "message": "New: null - 15% backIndicaEncore Grape RSO Gummies T94.8mg I 26923Encore EdiblesGummies(EACH $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jane Gold rewardsView allView all20% backRodeo Cannabis•BundleBuy one Rodeo Pre-",
+    "brand": null,
+    "message": "null Jane Gold rewardsView allView all20% backRodeo Cannabis•BundleBuy one Rodeo Pre-: $29.00 > $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Roll 2g AIO Vape 41674BudrAIO",
+    "brand": null,
+    "message": "New: null - BUDR Roll 2g AIO Vape 41674BudrAIO $99.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1:1:1 CBG/",
+    "brand": "Wana",
+    "message": "Gone: Wana - 1:1:1 CBG/"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk",
+    "brand": null,
+    "message": "Gone: null - WANA Mango Gummies 88mg S 00263 20 pkWanaClassic Gummies(EACH)88mg 20pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5:1",
+    "brand": "Wana",
+    "message": "Gone: Wana - 5:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "THC BEVERAGE SALE!View allView allNew Roads Berry Good Vibes Hemp-Derived Bevera",
+    "brand": null,
+    "message": "Gone: null - THC BEVERAGE SALE!View allView allNew Roads Berry Good Vibes Hemp-Derived Bevera"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5 Pack Minis B Scout (I) 01361Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-rolls, 1.7",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - 5 Pack Minis B Scout (I) 01361Dogwalkers5 Pack Mini Dogs(.35g x 5 pre-rolls, 1.7"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - 5% backSativaSavvy Nimbus Snacks 1g Pre-Roll S 27009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "Gone: AGL - 300mg Pen Durban Z (S) 01407Advanced Grow Labs (AGL)Distillate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "Gone: AGL - AGL 1g Pre Roll Bubba F (I) 01387Advanced Grow Labs ("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - 1g Big Dog Do Not Trip (H) 01330DogwalkersBig Dog"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1g Vape Lemon Drip x Sour D (S) 01395Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "Gone: AGL - 1g Vape Lemon Drip x Sour D (S) 01395Advanced Grow Labs (AGL)Distillate"
+  }
+]

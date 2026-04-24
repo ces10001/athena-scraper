@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL) $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strahhhberry (H) Gummies (4.3mg THC 4.8mg CBD 20pk)",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Strahhhberry (H) Gummies (4.3mg THC 4.8mg CBD 20pk) $18.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost (H) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Floral Frost (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Express (S) Live Resin Disposable Vape (1g)",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Pineapple Express (S) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Passionfruit Pineapple (H) Gummies (4.23mg THC 4.52mg CBD 4.64mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Passionfruit Pineapple (H) Gummies (4.23mg THC 4.52mg CBD 4.64mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limoncello (H) Fast Acting Gummies (4.93mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Limoncello (H) Fast Acting Gummies (4.93mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Fast Acting Gummies (1.9mg THC 9.88mg CBD 1.97mg CBN 1.99mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Fast Acting Gummies (1.9mg THC 9.88mg CBD 1.97mg CBN 1.99mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape (I) RSO Gummies (9.48mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape (I) RSO Gummies (9.48mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)"
+  }
+]

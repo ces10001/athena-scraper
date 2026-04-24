@@ -4032,7 +4032,7 @@
     "rec_only": false
   },
   {
-    "external_id": "69b2d627e49e6ad3b08e120e",
+    "external_id": "69ab1308d19c6728df817e6b",
     "name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
     "brand": "Wana",
     "category": "edible",
@@ -4680,7 +4680,7 @@
     "rec_only": false
   },
   {
-    "external_id": "69b1e2402403c49c70597b08",
+    "external_id": "699778d231acbd2f4e075585",
     "name": "Select Elite Cartridge Mango Puff (I) 01472",
     "brand": "Select",
     "category": "vaporizers",
@@ -6019,30 +6019,6 @@
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/171a5eaf4d79e5ad1b70e2db7279ae5a",
     "product_url": null,
     "med_price_cents": 5800,
-    "med_original_price_cents": null,
-    "medical_only": false,
-    "rec_only": false
-  },
-  {
-    "external_id": "698df14e5da32b2dc32c39b2",
-    "name": "Let's Burn Mikado Mintz Pre-Roll 0011",
-    "brand": "Let's Burn",
-    "category": "pre-rolls",
-    "subcategory": "singles",
-    "strain_type": "sativa",
-    "price_cents": 1400,
-    "original_price_cents": null,
-    "weight_label": "1g",
-    "weight_grams": 1,
-    "unit_price_per_gram": 1400,
-    "thc_pct": 23.44,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/ff3273b1d56a03c0a1154eccef20819e",
-    "product_url": null,
-    "med_price_cents": 1300,
     "med_original_price_cents": null,
     "medical_only": false,
     "rec_only": false

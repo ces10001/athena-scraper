@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SoundView Midnight Mint 2:1 CBN Milk Chocolate Bar 00225",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Midnight Mint 2:1 CBN Milk Chocolate Bar 00225 $27.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn CT Kush Cake 3.5g 0038",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn CT Kush Cake 3.5g 0038"
+  }
+]

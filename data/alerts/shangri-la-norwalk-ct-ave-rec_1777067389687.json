@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "TheGoods- Whole Flower- Tropical RNTZ50001",
+    "brand": "The Goods",
+    "message": "New: The Goods - TheGoods- Whole Flower- Tropical RNTZ50001 $30.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Lady in Red Live Resin-(I)-Disposable-1g-00443",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Amigos-Lady in Red Live Resin-(I)-Disposable-1g-00443"
+  }
+]

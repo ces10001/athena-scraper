@@ -1,0 +1,452 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tri Berry (I) Flower",
+    "brand": "Find",
+    "message": "New: Find - Tri Berry (I) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express (S) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Titan Express (S) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silver Dollar (I) Flower",
+    "brand": "Find",
+    "message": "New: Find - Silver Dollar (I) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face (H) Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face (H) Flower $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pomme Jelly (S) Flower $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG (I) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG (I) Flower $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "True OG (I) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - True OG (I) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kandi Jam (S) Flower",
+    "brand": "Find",
+    "message": "New: Find - Kandi Jam (S) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Lit (H) Flower",
+    "brand": "Find",
+    "message": "New: Find - Gas Lit (H) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites (S) Flower",
+    "brand": "Find",
+    "message": "New: Find - PB Bites (S) Flower $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Slapz (H) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forest Reserve (H) Flower",
+    "brand": "Find",
+    "message": "New: Find - Forest Reserve (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n WflZ (S) Flower $160.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chkn n WflZ (S) Flower",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chkn n WflZ (S) Flower $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BLB (H) Flower",
+    "brand": "Shaka",
+    "message": "New: Shaka - BLB (H) Flower $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) Flower",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Gush Mintz (I) Flower $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Z (S) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Orange Z (S) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apes In Space (I) Flower",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Apes In Space (I) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw (H) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lunar Diesel (H) Flower",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Lunar Diesel (H) Flower $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Chem D (H) Smalls $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creamsicle Sunset (H) Flower",
+    "brand": "Rythm",
+    "message": "New: Rythm - Creamsicle Sunset (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jet Fuel (H) Flower",
+    "brand": "Rythm",
+    "message": "New: Rythm - Jet Fuel (H) Flower $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Super Buff (H) Smalls $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream (H) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) Mini Tank Disposable (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limoncello (H) Fast Acting Gummies (4.62mg 20pk)",
+    "brand": "Wana Quick",
+    "message": "Gone: Wana Quick - Limoncello (H) Fast Acting Gummies (4.62mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.95mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.95mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (S) RSO Chocolate (9.76mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Dark (S) RSO Chocolate (9.76mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape (I) RSO Gummies (9.5mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape (I) RSO Gummies (9.5mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Agave (H) (2.47oz)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Agave (H) (2.47oz)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango (S) RSO Gummies (9.14mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Mango (S) RSO Gummies (9.14mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (I) RSO Chocolate (9.4mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Milk (I) RSO Chocolate (9.4mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry (S) Gummies (9.1mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Strawberry (S) Gummies (9.1mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Berry Burst (I) Gummies (9.36mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Berry Burst (I) Gummies (9.36mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Blueberry (I) Gummies (4.61mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Midnight Blueberry (I) Gummies (4.61mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Mandarin (I) RSO Gummies (9.54mg THC 10.66mg CBD 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry (H) Gummies (9.72mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pineapple Raspberry (H) Gummies (9.72mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry (H) X Bites (4.67mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Strawberry (H) X Bites (4.67mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero (S) Gummies (4.64mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero (S) Gummies (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fruit Punch (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fruit Punch (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Honey (H) (5.47oz)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Honey (H) (5.47oz)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Catching Citrus Dreams (I) Gummies (4.88mg THC 5.19mg CBD 2.03mg CBN 20pk)",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Catching Citrus Dreams (I) Gummies (4.88mg THC 5.19mg CBD 2.03mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Dreamy (I) Gummies (4.79mg THC 4.98mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Berry Dreamy (I) Gummies (4.79mg THC 4.98mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry (H) Fast Acting Gummies (4.68mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Black Cherry (H) Fast Acting Gummies (4.68mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Milk (H) Fast Acting Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Lemonade (H) Gummies (4.27mg 20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Mango Lemonade (H) Gummies (4.27mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Orange (H) Zero Proof Squeeze (2.45mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies & Cream (H) White Chocolate (4.64mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Cookies & Cream (H) White Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peppermint (H) Lucky Spritz (10g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Peppermint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) RSO Gummies (4.78mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Peach (I) RSO Gummies (4.78mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Spearmint (H) Lucky Spritz (10g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Spearmint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Matter (H) X Bites (4.92mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Matter (H) X Bites (4.92mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry (I) Gummies (4.53mg THC 23.84mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry (I) Gummies (4.53mg THC 23.84mg CBN 20pk)"
+  }
+]
