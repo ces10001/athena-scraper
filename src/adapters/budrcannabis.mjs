@@ -43,46 +43,68 @@ function parseJaneProducts(text) {
       120
     );
     name = block.substring(0, endIdx).trim();
-    name = name.replace(/^(Sativa|Indica|Hybrid)\s*/i, '').trim();
-
-    // Extract brand from name (pattern: "BrandProduct NameBrandCategory")
-    var brandMatch = name.match(/^(.+?)([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s*$/);
-    if (!brandMatch) {
-      // Try another pattern: look for repeated brand name
-      var nameText = block.substring(0, Math.min(block.indexOf('$') || 200, 200));
-      var words = nameText.split(/(?=[A-Z])/);
-      if (words.length > 2) {
-        name = nameText.substring(0, 60).trim();
-      }
-    }
-
-    name = name.replace(/\s+/g, ' ').trim();
     
-    // ─── BUDR shadow DOM cleanup: strip concatenated brand/category/weight text ───
+    // ─── BUDR shadow DOM cleanup ───
+    // Strip CSS/HTML garbage
+    if (name.match(/^@import|^<|^{|^font-|^\./) || name.length < 4) continue;
+    
+    // Strip UI text prefixes: "Sponsored", "Only N left", "New", "Sale", etc.
+    name = name.replace(/^(Sponsored|Only\s+\d+\s+left|New|Sale|Featured)\s*/gi, '');
+    
+    // Strip strain type prefix (may be concatenated without space)
+    name = name.replace(/^(Sativa|Indica|Hybrid)(?:\s*)/i, '');
+    
     // Strip trailing weight patterns: (3.5G), (14G), (EACH), (.5G), (1G), etc.
     name = name.replace(/\s*\(\s*\.?\d*\.?\d*\s*[Gg]\s*\)\s*$/i, '');
     name = name.replace(/\s*\(EACH\)\s*$/i, '');
     
-    // Strip trailing category labels that get concatenated from shadow DOM
-    name = name.replace(/\s*(FLOWER|Pre Roll|Pre-Roll|Cartridge|Vape|Gummies|Gummy|Edible|Infused Blunt|Mini Tank|Mixed Buds|Disposable|5 Pack Pre Rol|5 Pack Mini Dogs|Infused Pre-Roll|BRIQ Flavor Series Dispo|RSO Syringe|Live Resin|Tincture|Topical|Capsule|Spray|Beverage|Seltzer|Chocolate|Confection|Lozenges|Concentrate)\s*(\(.*\))?\s*$/i, '');
+    // Strip trailing category labels concatenated from shadow DOM
+    name = name.replace(/\s*(FLOWER|Pre Roll|Pre-Roll|Cartridge|Vape|Gummies|Gummy|Edible|Infused Blunt|Mini Tank|Mixed Buds|Disposable|5 Pack Pre Rol|5 Pack Mini Dogs|Infused Pre-Roll|BRIQ Flavor Series Dispo|RSO Syringe|Live Resin|Tincture|Topical|Capsule|Spray|Beverage|Seltzer|Chocolate|Confection|Lozenges|Concentrate|10 Pack)\s*(\(.*\))?\s*$/i, '');
     
-    // Strip trailing brand name duplicates — the shadow DOM appends brand twice
-    // Common CT brands to detect:
-    var brandNames = ['Theraplant','CTPharma','CTP','Curaleaf','Advanced Grow Labs','AGL','Affinity','Affinity Grow','BRIX','Brix Cannabis','RYTHM','Rythm','Select','Savvy','Good Green','Dogwalkers','Encore','Encore Edibles','Camino','Wana','Zone','Shaka','Awssom','FIND','Find','Springtime','SoundView','Comffy','Amigos','Lighthouse','Rodeo','Rodeo Cannabis','Rodeo Cannabis Co','Miss Grass','Earl Baker','COAST Cannabis','Coast','Let\'s Burn','Nova','Crisp','Lucky Break','Loud','Borealis Cannabis','JAMS','Grassroots','Dark Heart','inc.edibles','all:hours','Canyon Water','Fizz','Corgi','Flying Corgi'];
+    // Extract brand: detect known brands concatenated in the name
+    var brandNames = ['Theraplant','CTPharma','CTP','Curaleaf','Advanced Grow Labs','AGL','Affinity','Affinity Grow','BRIX','Brix Cannabis','RYTHM','Rythm','Select','Savvy','Good Green','Dogwalkers','Encore','Encore Edibles','Camino','Wana','Zone','Shaka','Awssom','FIND','Find','Springtime','SoundView','Comffy','Amigos','Lighthouse','Rodeo','Rodeo Cannabis','Rodeo Cannabis Co','Miss Grass','Earl Baker','COAST Cannabis Co','Coast','Let\'s Burn','Nova','Crisp','Lucky Break','Loud','Borealis Cannabis','JAMS','Grassroots','Dark Heart','inc.edibles','all:hours','Canyon Water','Fizz','Corgi','Flying Corgi'];
+    
+    // Try to extract brand from the END of name (concatenated without space)
     for (var bi = 0; bi < brandNames.length; bi++) {
       var bn = brandNames[bi];
-      // Check if brand name is concatenated at the end (no space before it)
       var bnIdx = name.lastIndexOf(bn);
-      if (bnIdx > 10 && bnIdx > name.length - bn.length - 3) {
+      if (bnIdx > 5 && bnIdx > name.length - bn.length - 5) {
         name = name.substring(0, bnIdx).trim();
         brand = bn;
         break;
       }
     }
     
-    // Clean up remaining artifacts
-    name = name.replace(/\s*\(\s*\)\s*$/, ''); // empty parens
-    name = name.replace(/\s+$/, '');
+    // If brand still empty, try to detect brand from the START of the name
+    if (!brand) {
+      for (var bi = 0; bi < brandNames.length; bi++) {
+        var bn = brandNames[bi];
+        if (name.startsWith(bn + ' ') || name.startsWith(bn + '-') || name.startsWith(bn + '|')) {
+          brand = bn;
+          name = name.substring(bn.length).replace(/^[\s\-|]+/, '').trim();
+          break;
+        }
+      }
+    }
+    
+    // Also try to detect brand where name starts with brand concatenated (no separator)
+    // e.g. "AmigosLive Resin..." → brand="Amigos", name="Live Resin..."
+    if (!brand) {
+      for (var bi = 0; bi < brandNames.length; bi++) {
+        var bn = brandNames[bi];
+        if (bn.length >= 4 && name.startsWith(bn) && name.length > bn.length + 3) {
+          var afterBrand = name.charAt(bn.length);
+          if (afterBrand === afterBrand.toUpperCase() && afterBrand.match(/[A-Z]/)) {
+            brand = bn;
+            name = name.substring(bn.length).trim();
+            break;
+          }
+        }
+      }
+    }
+    
+    name = name.replace(/\s*\(\s*\)\s*$/, '');
+    name = name.replace(/\s+/g, ' ').trim();
     
     if (name.length > 80) name = name.substring(0, 80).trim();
     if (name.length < 3) continue;
