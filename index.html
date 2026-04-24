@@ -10,6 +10,7 @@
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--f);background:var(--bg);color:var(--tx);min-height:100vh}
@@ -271,7 +272,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(TerminalBoot,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"]];
   return React.createElement("div",{className:"app"},
     React.createElement(Hdr,{d:data}),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
@@ -281,6 +282,7 @@ function App(){
     tab==="gaps"&&React.createElement(GapsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
+    tab==="report"&&React.createElement(ReportTab,{data:data,favsVer:favsVer}),
     React.createElement(Ftr,{d:data})
   );
 }
@@ -1183,6 +1185,314 @@ function DispsTab({data,favsVer,toggleFav}){
       </div>
     })}
     {detailDisp&&React.createElement(DetailedView,{disp:detailDisp,data:data,onClose:function(){setDetailDisp(null)}})}
+  </div>;
+}
+
+/* ═══════════════════════════════════════
+   REPORT TAB — Competitive Analysis PDF
+   ═══════════════════════════════════════ */
+function ReportTab({data,favsVer}){
+  var allDisps=getDisps(data.products||[]);
+  var affC=allDisps.filter(isAff);
+  var st=useState(affC[0]||""),homeDisp=st[0],setHome=st[1];
+  var st2=useState(""),compDisp=st2[0],setComp=st2[1];
+  var st3=useState(null),report=st3[0],setReport=st3[1];
+  var st4=useState(false),generating=st4[0],setGenerating=st4[1];
+
+  function generateReport(){
+    if(!homeDisp||!compDisp||homeDisp===compDisp)return;
+    setGenerating(true);
+    setTimeout(function(){
+      var prods=data.products||[];var deals=data.store_promos||[];var alerts=data.alerts||[];
+      var hName=cleanD(homeDisp),cName=cleanD(compDisp);
+      
+      // 1. Matching products
+      var matching=[];var homeOnly=[];var compOnly=[];
+      prods.forEach(function(p){
+        var hP=p.dispensaries&&p.dispensaries[homeDisp];
+        var cP=p.dispensaries&&p.dispensaries[compDisp];
+        var hPm=p.promos&&p.promos[homeDisp];
+        var cPm=p.promos&&p.promos[compDisp];
+        if(hP&&cP)matching.push({name:p.name,brand:p.brand,cat:p.category,homePrice:hP,compPrice:cP,homePromo:hPm&&hPm<hP?hPm:null,compPromo:cPm&&cPm<cP?cPm:null});
+        else if(hP&&!cP)homeOnly.push({name:p.name,brand:p.brand,cat:p.category,price:hP});
+        else if(!hP&&cP)compOnly.push({name:p.name,brand:p.brand,cat:p.category,price:cP});
+      });
+      
+      // 2. By category stats
+      var cats={};
+      matching.forEach(function(m){
+        if(!cats[m.cat])cats[m.cat]={count:0,homeTotal:0,compTotal:0,homeWins:0,compWins:0,ties:0,items:[]};
+        var c=cats[m.cat];c.count++;c.homeTotal+=m.homePrice;c.compTotal+=m.compPrice;
+        if(m.homePrice<m.compPrice)c.homeWins++;else if(m.compPrice<m.homePrice)c.compWins++;else c.ties++;
+        c.items.push(m);
+      });
+      
+      // 3. Highs/Lows per store
+      var homeHigh=null,homeLow=null,compHigh=null,compLow=null;
+      matching.forEach(function(m){
+        if(!homeHigh||m.homePrice>homeHigh.homePrice)homeHigh=m;
+        if(!homeLow||m.homePrice<homeLow.homePrice)homeLow=m;
+        if(!compHigh||m.compPrice>compHigh.compPrice)compHigh=m;
+        if(!compLow||m.compPrice<compLow.compPrice)compLow=m;
+      });
+      
+      // 4. Price alerts for each
+      var homeAlerts=alerts.filter(function(a){return a.dispensary===homeDisp});
+      var compAlerts=alerts.filter(function(a){return a.dispensary===compDisp});
+      
+      // 5. Deals
+      var homeDeals=deals.filter(function(d){var dn=d.dispensary.replace(/\s*\((?:Med|Rec)\)/,"");return homeDisp.includes(dn)||dn.includes(cleanD(homeDisp).split(" ")[0])});
+      var compDeals=deals.filter(function(d){var dn=d.dispensary.replace(/\s*\((?:Med|Rec)\)/,"");return compDisp.includes(dn)||dn.includes(cleanD(compDisp).split(" ")[0])});
+      
+      // 6. SKU counts
+      var homeSKUs={},compSKUs={},homeTot=0,compTot=0;
+      prods.forEach(function(p){
+        if(p.dispensaries&&p.dispensaries[homeDisp]){var c=p.category||"Other";homeSKUs[c]=(homeSKUs[c]||0)+1;homeTot++}
+        if(p.dispensaries&&p.dispensaries[compDisp]){var c=p.category||"Other";compSKUs[c]=(compSKUs[c]||0)+1;compTot++}
+      });
+      
+      // 7. Biggest price differences
+      var diffs=matching.map(function(m){return{name:m.name,brand:m.brand,cat:m.cat,homePrice:m.homePrice,compPrice:m.compPrice,diff:m.homePrice-m.compPrice,pct:Math.round((m.homePrice-m.compPrice)/m.compPrice*100)}}).sort(function(a,b){return a.diff-b.diff});
+      
+      setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeAlerts:homeAlerts,compAlerts:compAlerts,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
+      setGenerating(false);
+    },100);
+  }
+
+  function exportPDF(){
+    var el=document.getElementById('athena-report');if(!el)return;
+    var opt={margin:[10,10,10,10],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.98},html2canvas:{scale:2,useCORS:true},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'}};
+    html2pdf().set(opt).from(el).save();
+  }
+
+  var allCats=Object.keys(report?report.cats:{}).sort();
+
+  return<div style={{maxWidth:900,margin:'0 auto'}}>
+    <div className="pnl" style={{marginBottom:16}}>
+      <div className="pnl-t" style={{marginBottom:8}}>COMPETITIVE ANALYSIS REPORT</div>
+      <div className="pnl-d">Select two dispensaries to generate a comprehensive side-by-side competitive analysis. Export as a business-ready PDF.</div>
+      <div style={{display:'flex',gap:12,marginTop:12,flexWrap:'wrap',alignItems:'flex-end'}}>
+        <div style={{flex:1,minWidth:200}}>
+          <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>HOME DISPENSARY</label>
+          <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={homeDisp} onChange={function(e){setHome(e.target.value);setReport(null)}}>
+            <option value="">Select your store...</option>
+            {allDisps.map(function(d){return<option key={d} value={d}>{isAff(d)?"★ ":""}{cleanD(d)}</option>})}
+          </select>
+        </div>
+        <div style={{flex:1,minWidth:200}}>
+          <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>COMPETITOR</label>
+          <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={compDisp} onChange={function(e){setComp(e.target.value);setReport(null)}}>
+            <option value="">Select competitor...</option>
+            {allDisps.filter(function(d){return d!==homeDisp}).map(function(d){return<option key={d} value={d}>{cleanD(d)}</option>})}
+          </select>
+        </div>
+        <button className="btn pri" style={{padding:'10px 24px',fontSize:14}} onClick={generateReport} disabled={!homeDisp||!compDisp||homeDisp===compDisp||generating}>{generating?"Generating...":"Generate Report"}</button>
+      </div>
+    </div>
+
+    {report&&<>
+      <div style={{textAlign:'right',marginBottom:12}}><button className="btn pri" style={{padding:'10px 24px',fontSize:14}} onClick={exportPDF}>Export PDF</button></div>
+      <div id="athena-report" style={{background:'#fff',color:'#1a1a1a',padding:32,borderRadius:8,fontFamily:"'Outfit',sans-serif",lineHeight:1.6}}>
+        {/* HEADER */}
+        <div style={{borderBottom:'3px solid #e8600a',paddingBottom:16,marginBottom:24}}>
+          <div style={{fontSize:28,fontWeight:700,color:'#e8600a',letterSpacing:2}}>ATHENA</div>
+          <div style={{fontSize:22,fontWeight:700,marginTop:4}}>Competitive Analysis Report</div>
+          <div style={{fontSize:14,color:'#666',marginTop:8}}>{report.hName} vs {report.cName} — {report.date}</div>
+        </div>
+
+        {/* EXECUTIVE SUMMARY */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Executive Summary</div>
+          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
+            {[
+              [report.hName,report.homeTot+" SKUs","#e8600a"],
+              [report.cName,report.compTot+" SKUs","#555"],
+              ["Comparable Products",report.matching.length+" matches","#1a8f3f"],
+              ["Price Advantage",Object.values(report.cats).reduce(function(s,c){return s+c.homeWins},0)+" / "+report.matching.length+" cheaper","#e8600a"]
+            ].map(function(s,i){return<div key={i} style={{flex:1,minWidth:140,background:'#f8f8f8',borderRadius:8,padding:14,borderLeft:'4px solid '+s[2]}}>
+              <div style={{fontSize:11,fontWeight:600,color:'#888',textTransform:'uppercase',letterSpacing:1}}>{s[0]}</div>
+              <div style={{fontSize:20,fontWeight:700,color:'#1a1a1a',marginTop:4}}>{s[1]}</div>
+            </div>})}
+          </div>
+        </div>
+
+        {/* SKU BREAKDOWN */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>SKU Breakdown by Category</div>
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:14}}>
+            <thead><tr style={{borderBottom:'2px solid #ddd'}}>
+              <th style={{textAlign:'left',padding:'8px 10px',fontWeight:600}}>Category</th>
+              <th style={{textAlign:'center',padding:'8px 10px',fontWeight:600,color:'#e8600a'}}>{report.hName}</th>
+              <th style={{textAlign:'center',padding:'8px 10px',fontWeight:600}}>{report.cName}</th>
+              <th style={{textAlign:'center',padding:'8px 10px',fontWeight:600}}>Comparable</th>
+              <th style={{textAlign:'center',padding:'8px 10px',fontWeight:600,color:'#e8600a'}}>Avg {report.hName.split(" ")[0]}</th>
+              <th style={{textAlign:'center',padding:'8px 10px',fontWeight:600}}>Avg {report.cName.split(" ")[0]}</th>
+            </tr></thead>
+            <tbody>{Object.entries(report.cats).sort(function(a,b){return b[1].count-a[1].count}).map(function(e){var cat=e[0],c=e[1];return<tr key={cat} style={{borderBottom:'1px solid #eee'}}>
+              <td style={{padding:'8px 10px',fontWeight:500}}>{cat}</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>{report.homeSKUs[cat]||0}</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>{report.compSKUs[cat]||0}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',fontWeight:600}}>{c.count}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',color:'#e8600a',fontWeight:600}}>${(c.homeTotal/c.count).toFixed(2)}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',fontWeight:600}}>${(c.compTotal/c.count).toFixed(2)}</td>
+            </tr>})}<tr style={{borderTop:'2px solid #ddd',fontWeight:700}}>
+              <td style={{padding:'8px 10px'}}>TOTAL</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>{report.homeTot}</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>{report.compTot}</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>{report.matching.length}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',color:'#e8600a'}}>${report.matching.length>0?(report.matching.reduce(function(s,m){return s+m.homePrice},0)/report.matching.length).toFixed(2):"—"}</td>
+              <td style={{textAlign:'center',padding:'8px 10px'}}>${report.matching.length>0?(report.matching.reduce(function(s,m){return s+m.compPrice},0)/report.matching.length).toFixed(2):"—"}</td>
+            </tr></tbody>
+          </table>
+        </div>
+
+        {/* PRICE WINS BY CATEGORY */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Wins by Category</div>
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:14}}>
+            <thead><tr style={{borderBottom:'2px solid #ddd'}}>
+              <th style={{textAlign:'left',padding:'8px 10px'}}>Category</th>
+              <th style={{textAlign:'center',padding:'8px 10px',color:'#e8600a'}}>{report.hName} Cheaper</th>
+              <th style={{textAlign:'center',padding:'8px 10px'}}>Tied</th>
+              <th style={{textAlign:'center',padding:'8px 10px'}}>{report.cName} Cheaper</th>
+            </tr></thead>
+            <tbody>{Object.entries(report.cats).sort(function(a,b){return b[1].count-a[1].count}).map(function(e){var cat=e[0],c=e[1];return<tr key={cat} style={{borderBottom:'1px solid #eee'}}>
+              <td style={{padding:'8px 10px',fontWeight:500}}>{cat}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',color:'#1a8f3f',fontWeight:600}}>{c.homeWins}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',color:'#888'}}>{c.ties}</td>
+              <td style={{textAlign:'center',padding:'8px 10px',color:'#d42030',fontWeight:600}}>{c.compWins}</td>
+            </tr>})}</tbody>
+          </table>
+        </div>
+
+        {/* BIGGEST PRICE ADVANTAGES (YOU'RE CHEAPER) */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Your Biggest Price Advantages (Top 15)</div>
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
+            <thead><tr style={{borderBottom:'2px solid #ddd'}}>
+              <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
+              <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Savings</th>
+            </tr></thead>
+            <tbody>{report.diffs.filter(function(d){return d.diff<0}).slice(0,15).map(function(d,i){return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+              <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:600}}>${d.homePrice.toFixed(2)}</td>
+              <td style={{padding:'6px 8px',textAlign:'center'}}>${d.compPrice.toFixed(2)}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:700}}>{d.pct}%</td>
+            </tr>})}</tbody>
+          </table>
+        </div>
+
+        {/* BIGGEST PRICE DISADVANTAGES */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Competitor's Price Advantages (Top 15)</div>
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
+            <thead><tr style={{borderBottom:'2px solid #ddd'}}>
+              <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
+              <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
+            </tr></thead>
+            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).slice(0,15).map(function(d,i){return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+              <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:600}}>${d.homePrice.toFixed(2)}</td>
+              <td style={{padding:'6px 8px',textAlign:'center'}}>${d.compPrice.toFixed(2)}</td>
+              <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:700}}>+{d.pct}%</td>
+            </tr>})}</tbody>
+          </table>
+        </div>
+
+        {/* HIGHS & LOWS */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Price Extremes (Comparable Products)</div>
+          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
+            {[[report.hName,"#e8600a",report.homeHigh,report.homeLow],[report.cName,"#555",report.compHigh,report.compLow]].map(function(s){return<div key={s[0]} style={{flex:1,minWidth:250}}>
+              <div style={{fontWeight:700,color:s[1],fontSize:15,marginBottom:8}}>{s[0]}</div>
+              {s[2]&&<div style={{background:'#f8f8f8',borderRadius:6,padding:10,marginBottom:8}}>
+                <div style={{fontSize:11,color:'#888',fontWeight:600}}>HIGHEST PRICE</div>
+                <div style={{fontSize:14,fontWeight:600,marginTop:2}}>{s[2].name}</div>
+                <div style={{fontSize:18,fontWeight:700,color:'#d42030',marginTop:2}}>${s[0]===report.hName?s[2].homePrice.toFixed(2):s[2].compPrice.toFixed(2)}</div>
+              </div>}
+              {s[3]&&<div style={{background:'#f8f8f8',borderRadius:6,padding:10}}>
+                <div style={{fontSize:11,color:'#888',fontWeight:600}}>LOWEST PRICE</div>
+                <div style={{fontSize:14,fontWeight:600,marginTop:2}}>{s[3].name}</div>
+                <div style={{fontSize:18,fontWeight:700,color:'#1a8f3f',marginTop:2}}>${s[0]===report.hName?s[3].homePrice.toFixed(2):s[3].compPrice.toFixed(2)}</div>
+              </div>}
+            </div>})}
+          </div>
+        </div>
+
+        {/* PRODUCT GAPS */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Product Gaps</div>
+          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
+            <div style={{flex:1,minWidth:250}}>
+              <div style={{fontWeight:600,fontSize:14,color:'#d42030',marginBottom:6}}>They Carry, You Don't ({report.compOnly.length} products)</div>
+              {report.compOnly.length===0?<div style={{color:'#888',fontSize:13}}>No gaps — you carry everything they do.</div>:
+              <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
+                <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
+                <tbody>{report.compOnly.slice(0,20).map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                  <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
+                  <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
+                  <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
+                </tr>})}{report.compOnly.length>20&&<tr><td colSpan="3" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {report.compOnly.length-20} more</td></tr>}</tbody>
+              </table>}
+            </div>
+            <div style={{flex:1,minWidth:250}}>
+              <div style={{fontWeight:600,fontSize:14,color:'#1a8f3f',marginBottom:6}}>You Carry, They Don't ({report.homeOnly.length} products)</div>
+              {report.homeOnly.length===0?<div style={{color:'#888',fontSize:13}}>They carry everything you do.</div>:
+              <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
+                <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
+                <tbody>{report.homeOnly.slice(0,20).map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                  <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
+                  <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
+                  <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
+                </tr>})}{report.homeOnly.length>20&&<tr><td colSpan="3" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {report.homeOnly.length-20} more</td></tr>}</tbody>
+              </table>}
+            </div>
+          </div>
+        </div>
+
+        {/* DEALS */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Active Store-Wide Promotions</div>
+          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
+            {[[report.hName,report.homeDeals,"#e8600a"],[report.cName,report.compDeals,"#555"]].map(function(s){return<div key={s[0]} style={{flex:1,minWidth:250}}>
+              <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]} ({s[1].length} deals)</div>
+              {s[1].length===0?<div style={{color:'#888',fontSize:13}}>No active promotions.</div>:
+              <div>{s[1].slice(0,10).map(function(d,i){return<div key={i} style={{background:'#f8f8f8',borderRadius:6,padding:8,marginBottom:6,borderLeft:'3px solid '+s[2]}}>
+                <div style={{fontSize:13,fontWeight:600}}>{d.title}</div>
+                {d.description&&<div style={{fontSize:11,color:'#888',marginTop:2}}>{d.description}</div>}
+              </div>})}{s[1].length>10&&<div style={{color:'#888',fontSize:12,fontStyle:'italic'}}>...and {s[1].length-10} more</div>}</div>}
+            </div>})}
+          </div>
+        </div>
+
+        {/* PRICE ALERTS */}
+        <div style={{marginBottom:28}}>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12}}>Recent Price Movements</div>
+          <div style={{display:'flex',gap:16,flexWrap:'wrap'}}>
+            {[[report.hName,report.homeAlerts,"#e8600a"],[report.cName,report.compAlerts,"#555"]].map(function(s){
+              var drops=s[1].filter(function(a){return a.type==='price_drop'});
+              var increases=s[1].filter(function(a){return a.type==='price_increase'});
+              return<div key={s[0]} style={{flex:1,minWidth:250}}>
+                <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]}</div>
+                <div style={{fontSize:13,color:'#1a8f3f',marginBottom:4}}>↓ {drops.length} price drops</div>
+                <div style={{fontSize:13,color:'#d42030',marginBottom:8}}>↑ {increases.length} price increases</div>
+                {drops.slice(0,5).map(function(a,i){return<div key={i} style={{fontSize:12,padding:'3px 0',borderBottom:'1px solid #f0f0f0'}}>
+                  <span style={{color:'#1a8f3f'}}>↓</span> {a.product} — ${a.original?.toFixed(2)||"?"} → ${a.discounted?.toFixed(2)||a.current?.toFixed(2)||"?"}
+                </div>})}
+              </div>
+            })}
+          </div>
+        </div>
+
+        {/* FOOTER */}
+        <div style={{borderTop:'2px solid #e8600a',paddingTop:12,marginTop:24,fontSize:11,color:'#888',display:'flex',justifyContent:'space-between'}}>
+          <span>Generated by ATHENA Cannabis Pricing Intelligence</span>
+          <span>{report.date}</span>
+        </div>
+      </div>
+    </>}
   </div>;
 }
 
