@@ -1,0 +1,188 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "20% OFF 1/4 OZ Hybrid Rythm 7g Small Flower Afternoon Delight #4 (H) 01373 RYTH",
+    "brand": null,
+    "message": "New: null - 20% OFF 1/4 OZ Hybrid Rythm 7g Small Flower Afternoon Delight #4 (H) 01373 RYTH $52.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Vape RNTZ x Fantasy Melonz (H) 01394",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "New: Advanced Grow Labs (AGL) - AGL 1g Vape RNTZ x Fantasy Melonz (H) 01394 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Planet MT 41564",
+    "brand": "Theraplant\nMini Tank",
+    "message": "New: Theraplant\nMini Tank - Hash Planet MT 41564 $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "New: Amigos - CT\nLive Resin - Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445 $70.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Skip to Results Filters Skip to Results Skip to Main Content Products Dispensa",
+    "brand": null,
+    "message": "Gone: null - Skip to Results Filters Skip to Results Skip to Main Content Products Dispensa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OG Purp Hemp Wraps [2pk] Zig-Zag 5 Hemp Wraps (EACH)",
+    "brand": null,
+    "message": "Gone: null - OG Purp Hemp Wraps [2pk] Zig-Zag 5 Hemp Wraps (EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zig Zag Natural Hemp Wraps [2pk] Zig-Zag Hemp Wraps (EACH)",
+    "brand": null,
+    "message": "Gone: null - Zig Zag Natural Hemp Wraps [2pk] Zig-Zag Hemp Wraps (EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zig Zag Unbleached Cones [1 1/4] Zig-Zag Rolling Papers (EACH)",
+    "brand": null,
+    "message": "Gone: null - Zig Zag Unbleached Cones [1 1/4] Zig-Zag Rolling Papers (EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Dream Hemp Wraps [2pk] Zig-Zag Hemp Wraps (EACH)",
+    "brand": null,
+    "message": "Gone: null - Blue Dream Hemp Wraps [2pk] Zig-Zag Hemp Wraps (EACH)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Pomegranate Punch CBN:THC Gummies CBN47.4mg T92mg I 26879",
+    "brand": "Encore",
+    "message": "Gone: Encore - Encore Pomegranate Punch CBN:THC Gummies CBN47.4mg T92mg I 26879"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 left Sponsored 15% back Hybrid inc.edibles 20 Pack Watermelon Smash",
+    "brand": null,
+    "message": "Gone: null - Only 1 left Sponsored 15% back Hybrid inc.edibles 20 Pack Watermelon Smash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF 1/4 OZ Hybrid Rythm 7g Small Flower Swamp Water Fumez (H) 01380 RYTHM W",
+    "brand": null,
+    "message": "Gone: null - 20% OFF 1/4 OZ Hybrid Rythm 7g Small Flower Swamp Water Fumez (H) 01380 RYTHM W"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436",
+    "brand": "Wana\nQuick",
+    "message": "Gone: Wana\nQuick - Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Optimals Quick Dream Berry Gummies 00419",
+    "brand": "Wana\nOptimal",
+    "message": "Gone: Wana\nOptimal - Wana Optimals Quick Dream Berry Gummies 00419"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00437",
+    "brand": "Wana\nClassic",
+    "message": "Gone: Wana\nClassic - Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00437"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 3 left CBD Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266",
+    "brand": "Wana\nClassic",
+    "message": "Gone: Wana\nClassic - Only 3 left CBD Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Indica Mendo Wedding 1g Pure Vape T870 I 27025 CTPharma Cartridge (1G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Indica Mendo Wedding 1g Pure Vape T870 I 27025 CTPharma Cartridge (1G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Modified Haze 1g Pure Vape T853 H 26636 CTPharma 5 Cartridge",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Modified Haze 1g Pure Vape T853 H 26636 CTPharma 5 Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Sunny Stomper Live Resin AIO 1g T843 H 26808 CTPharma Live Resin",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Sunny Stomper Live Resin AIO 1g T843 H 26808 CTPharma Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 1 left 20% OFF Sativa Yellow Haze OG 1g Pure Vape T851 S 27023 CTPharma C",
+    "brand": null,
+    "message": "Gone: null - Only 1 left 20% OFF Sativa Yellow Haze OG 1g Pure Vape T851 S 27023 CTPharma C"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Red Gary Flower H 26800 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Red Gary Flower H 26800 CTPharma Flower (3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Durban Stardawg 1g Pure Vape T862 H 27024 CTPharma Cartridge (1",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Durban Stardawg 1g Pure Vape T862 H 27024 CTPharma Cartridge (1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Tropical Haze Pure Vape T408 H 26844 CTPharma Cartridge (.5G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Tropical Haze Pure Vape T408 H 26844 CTPharma Cartridge (.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Strawberry Pave Shorties H 27047 CTPharma 5 Pack Pre Roll (.4g",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Strawberry Pave Shorties H 27047 CTPharma 5 Pack Pre Roll (.4g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Zuava",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Red Gary",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Red Gary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Indica GMO - CTP Flower I 26444 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Indica GMO - CTP Flower I 26444 CTPharma Flower (3.5G)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Sativa Nimbus Snacks",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Sativa Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Heir Heads Shorties H 27049 CTPharma 5 Pack Pre Roll (.4g / 2g",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Heir Heads Shorties H 27049 CTPharma 5 Pack Pre Roll (.4g / 2g"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Durban Stardawg",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Durban Stardawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "20% OFF Hybrid Red Gary",
+    "brand": null,
+    "message": "Gone: null - 20% OFF Hybrid Red Gary"
+  }
+]

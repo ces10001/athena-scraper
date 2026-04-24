@@ -1,0 +1,428 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Grape $22.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $16.80 > $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Mango $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue NDZ",
+    "brand": "Brix",
+    "message": "New: Brix - Blue NDZ $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $48.00 > $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Sunrise",
+    "brand": "Brix",
+    "message": "New: Brix - Mystic Sunrise $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glitter Bomb",
+    "brand": "Brix",
+    "message": "New: Brix - Glitter Bomb $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Confidential Cherries",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Confidential Cherries $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BlueZZZberry",
+    "brand": "SoundView",
+    "message": "New: SoundView - BlueZZZberry $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Sherbet",
+    "brand": "SoundView",
+    "message": "New: SoundView - Watermelon Sherbet $69.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OMG",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - OMG $62.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Pineapple Express $19.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peach $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Foreverberry",
+    "brand": "Theraplant",
+    "message": "Theraplant Foreverberry: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Roll: $37.60 > $47.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Peaceful Paradise $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Banana Cream OG $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Pomme Jelly $97.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Citrus Punch",
+    "brand": "SoundView",
+    "message": "New: SoundView - Citrus Punch $71.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Freshly Squeezed",
+    "brand": "Camino",
+    "message": "New: Camino - Freshly Squeezed $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Cheddar Cheeze $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $22.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banana SPLT",
+    "brand": "Theraplant",
+    "message": "Theraplant Banana SPLT: $48.00 > $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Do Not Trip",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Do Not Trip $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trop Cherry",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Trop Cherry $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banapple Burger $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Theraplant Pink Certz: $37.60 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $64.80 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face: $37.60 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Canna Miranda",
+    "brand": "Theraplant",
+    "message": "Theraplant Canna Miranda: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "Theraplant Colorado Flo: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Theraplant Banapple Medellin: $37.60 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Theraplant Banapple Medellin: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO: $37.60 > $47.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $64.80 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon FBR: $114.40 > $143.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry Marker: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pagoti",
+    "brand": "Theraplant",
+    "message": "Theraplant Pagoti: $9.60 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Theraplant Apple Tart: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Theraplant Enchanted Apple: $24.80 > $31.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Brains: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Air Hdz",
+    "brand": "Theraplant",
+    "message": "Theraplant Air Hdz: $50.40 > $63.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Theraplant Banapple Medellin: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry Marker: $16.80 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hash Planet",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Planet: $28.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ultra Nana",
+    "brand": "CTPharma",
+    "message": "CTPharma Ultra Nana: $32.25 > $25.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon: $64.80 > $81.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Theraplant Modified Donkey: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $41.60 > $52.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Theraplant Dream Clouds: $24.80 > $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "New: Find. - Silver Dollar $46.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "New: Find. - Bulbz $9.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $48.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty: $24.80 > $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry Durban",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Blackberry Durban"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Gone: Select - Old School Blue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata",
+    "brand": "Brix",
+    "message": "Gone: Brix - C-Stata"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Tahoe OG"
+  }
+]

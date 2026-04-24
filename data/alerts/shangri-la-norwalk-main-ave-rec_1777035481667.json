@@ -1,0 +1,848 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Modified Donkey Infused Party Pack 41776",
+    "brand": "Theraplant",
+    "message": "Theraplant Modified Donkey Infused Party Pack 41776: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cndy Apple Firecracker 41401",
+    "brand": "Theraplant",
+    "message": "Theraplant Cndy Apple Firecracker 41401: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Trop Cherry Honey Bananas Rosin Roll Shorties 41506",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Trop Cherry Honey Bananas Rosin Roll Shorties 41506: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 5 Pack Minis Vel Croz (H) 01386",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 5 Pack Minis Vel Croz (H) 01386: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO 1g Big Ray T30.52% I 00914",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow GMO 1g Big Ray T30.52% I 00914: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower .5g x 2 Preroll - Cold Spell 020",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower .5g x 2 Preroll - Cold Spell 020: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zuava THCA Infused Shorties H 26905",
+    "brand": "CTPharma",
+    "message": "CTPharma Zuava THCA Infused Shorties H 26905: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Donkey 2g Fatboy 41773",
+    "brand": "Theraplant",
+    "message": "Theraplant Modified Donkey 2g Fatboy 41773: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|PreRoll 1g|Fritterz 00100",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|PreRoll 1g|Fritterz 00100: $12.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Hash Burger Rosin Roll Shorties 41545",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger Rosin Roll Shorties 41545: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheese 1g Big Ray T24.38% I 00849",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Cheese 1g Big Ray T24.38% I 00849: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Air Hdz Bubble Hash Infused Shorties 41647",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Air Hdz Bubble Hash Infused Shorties 41647: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Thai Neville's Haze Infused Pre-Roll T33.26% S 00785",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Thai Neville's Haze Infused Pre-Roll T33.26% S 00785: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Scout Breath - CTP THCA Infused Pre-Roll I 26884",
+    "brand": "CTPharma",
+    "message": "CTPharma Scout Breath - CTP THCA Infused Pre-Roll I 26884: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO Skunk THCA Infused Pre-Roll I 26480",
+    "brand": "CTPharma",
+    "message": "CTPharma GMO Skunk THCA Infused Pre-Roll I 26480: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog Animal Face (I) 01423",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog Animal Face (I) 01423: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|PreRoll 1g|Starstruck 00128",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|PreRoll 1g|Starstruck 00128: $11.00 > $8.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine Pre-Rolls T26.69% I 00888",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine Pre-Rolls T26.69% I 00888: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis GG4 1g Pre Roll (H) 00441",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis GG4 1g Pre Roll (H) 00441: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers Infused 1g Showdogs Animal Face (I) 01274",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers Infused 1g Showdogs Animal Face (I) 01274: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Rose Gold RTZ (H) 01370",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Rose Gold RTZ (H) 01370: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 5 Pack Minis Slapz (H) 01372",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 5 Pack Minis Slapz (H) 01372: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon Infused Shorties 41456",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon Infused Shorties 41456: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gangsta Grillz 2g Fatboy 41618",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz 2g Fatboy 41618: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry GMO 2g Fatboy 41678",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO 2g Fatboy 41678: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hippie Crasher Pre-Rolls T31.38% I 00928",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Hippie Crasher Pre-Rolls T31.38% I 00928: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Banana Acai Mints Rosin Roll Shorties 41696",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Banana Acai Mints Rosin Roll Shorties 41696: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Milk 1g Pre Roll (I) 00504",
+    "brand": "Brix",
+    "message": "Brix Purple Milk 1g Pre Roll (I) 00504: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Summer L. (S) 1g Infused Preroll (C0070000320)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Summer L. (S) 1g Infused Preroll (C0070000320): $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "EARLy Birds | Gouda Gas 017",
+    "brand": "Earl Baker",
+    "message": "Earl Baker EARLy Birds | Gouda Gas 017: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "EARLy Birds | Mega Lemon Goop 022",
+    "brand": "Earl Baker",
+    "message": "Earl Baker EARLy Birds | Mega Lemon Goop 022: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape N Cream Infused Lil' Ricky's T40.09% H 00817",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Grape N Cream Infused Lil' Ricky's T40.09% H 00817: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lato 1:1 Infused Shorties 41085",
+    "brand": "Theraplant",
+    "message": "Theraplant Lato 1:1 Infused Shorties 41085: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Hash Burger 1g PR 0017",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hash Burger 1g PR 0017: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dos Mendos THCA Infused Pre-Roll H 26554",
+    "brand": "CTPharma",
+    "message": "CTPharma Dos Mendos THCA Infused Pre-Roll H 26554: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jokerz THCA Infused Shorties I 27005",
+    "brand": "CTPharma",
+    "message": "CTPharma Jokerz THCA Infused Shorties I 27005: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Biscotti Pie Bubble Hash Infused Doob - All Times 1g 41606",
+    "brand": "Miss Grass",
+    "message": "Miss Grass Biscotti Pie Bubble Hash Infused Doob - All Times 1g 41606: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Chkn n WflZ (S) 01350",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Chkn n WflZ (S) 01350: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|PreRoll 1g|Couch Surfer 00146",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|PreRoll 1g|Couch Surfer 00146: $11.00 > $8.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Preroll 1g Single Foreign Kush Mints (I) 01495 TC 39.05%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Dark Heart Collection Preroll 1g Single Foreign Kush Mints (I) 01495 TC 39.05%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Ched R Cheez (I) 01441 TC 37.14%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Ched R Cheez (I) 01441 TC 37.14%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Hickory Hash (H) 01478 TC 33.396%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Hickory Hash (H) 01478 TC 33.396%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jelly Brains 1g Infused PR 41691",
+    "brand": "Theraplant",
+    "message": "Theraplant Jelly Brains 1g Infused PR 41691: $22.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 5 Pack Minis Bubba F (I) 01010",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 5 Pack Minis Bubba F (I) 01010: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Hash Burger (I) 01351",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Hash Burger (I) 01351: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mendo Wedding Shorties I 26580",
+    "brand": "CTPharma",
+    "message": "CTPharma Mendo Wedding Shorties I 26580: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Scout Breath - CTP Shorties I 26643",
+    "brand": "CTPharma",
+    "message": "CTPharma Scout Breath - CTP Shorties I 26643: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream Pre-Rolls T25.21% I 00836",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream Pre-Rolls T25.21% I 00836: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream 1g Big Ray T25.55% I 00808",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream 1g Big Ray T25.55% I 00808: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487",
+    "brand": "Brix",
+    "message": "Brix Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis B Yo 0.5g 2 Pack Pre Rolls (I) 00361",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis B Yo 0.5g 2 Pack Pre Rolls (I) 00361: $11.00 > $8.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GMO Skunk 1g Pre-Roll I 25990",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GMO Skunk 1g Pre-Roll I 25990: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog Lemon Drip (S) 01294",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog Lemon Drip (S) 01294: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog Do Not Trip (H) 01330",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog Do Not Trip (H) 01330: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower .5g x 2 Preroll - Chem Pop 021",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower .5g x 2 Preroll - Chem Pop 021: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Legacy Spark - Fast Times 0.4g 41786",
+    "brand": "Miss Grass",
+    "message": "Miss Grass Durban Legacy Spark - Fast Times 0.4g 41786: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Preroll 1g Single Zesty Garlic Kookyz (I) 01129 TC 30.806%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Preroll 1g Single Zesty Garlic Kookyz (I) 01129 TC 30.806%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Apple Tartz (H) 01534 TC 39.118%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Apple Tartz (H) 01534 TC 39.118%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog Afternoon Delight #4 (H) 01382",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog Afternoon Delight #4 (H) 01382: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Fantasy Melonz (H) 01159",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Fantasy Melonz (H) 01159: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Magenta Dream 1g Pre-Roll I 26697",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Magenta Dream 1g Pre-Roll I 26697: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Red Gary 1g Pre-Roll H 26726",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Red Gary 1g Pre-Roll H 26726: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Sunshine Lil' Ricky's T25.13% I 00890",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Orange Sunshine Lil' Ricky's T25.13% I 00890: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy 1g Big Ray T27.46% H 00906",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy 1g Big Ray T27.46% H 00906: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker 1g PR 41667",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Marker 1g PR 41667: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Mystic Mint (I) 01302",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Mystic Mint (I) 01302: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Bananaconda (H) 01404",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Bananaconda (H) 01404: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdawg Spark - All Times 0.4g 41785",
+    "brand": "Miss Grass",
+    "message": "Miss Grass Chemdawg Spark - All Times 0.4g 41785: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Space Gello PR Minis 41458",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello PR Minis 41458: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Space Gello Bubble Hash Infused Shorties 41572",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello Bubble Hash Infused Shorties 41572: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Nimbus Snacks Rosin Roll Shorties 41417",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Nimbus Snacks Rosin Roll Shorties 41417: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Mule Fuel Rosin Roll Shorties 41693",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Mule Fuel Rosin Roll Shorties 41693: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Hash Burger PR Minis 41165",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger PR Minis 41165: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Hash Burger 2g Rosin big:timer 41770",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger 2g Rosin big:timer 41770: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours 10G's 2g Rosin big:timer 41771",
+    "brand": "all:hours",
+    "message": "all:hours all:hours 10G's 2g Rosin big:timer 41771: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake Infused Shorties 41677",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake Infused Shorties 41677: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake 1g PR 41705",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake 1g PR 41705: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake 1g Infused Blunt 41676",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake 1g Infused Blunt 41676: $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tap Out Infused Lil' Ricky's T31.07% I 00845",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Tap Out Infused Lil' Ricky's T31.07% I 00845: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Superboo Infused Lil' Ricky's T35.20% H 00755",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Superboo Infused Lil' Ricky's T35.20% H 00755: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream Infused Lil&#39; Ricky&#39;s T37.02% I 00819",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream Infused Lil&#39; Ricky&#39;s T37.02% I 00819: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Cndy PR Minis 41708",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy PR Minis 41708: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Solid State Infused Shorties 41764",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State Infused Shorties 41764: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Solid State 1g Infused Blunt 41762",
+    "brand": "Theraplant",
+    "message": "Theraplant Solid State 1g Infused Blunt 41762: $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Ultra Nana 1g Pre-Roll H 26581",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Ultra Nana 1g Pre-Roll H 26581: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Dos Mendos 1g Pre-Roll H 26446",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Dos Mendos 1g Pre-Roll H 26446: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Rainbow B. (I) 1g Preroll (C0070000271)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Rainbow B. (I) 1g Preroll (C0070000271): $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Early Frost 0.3g 6 Pack Prerolls (C0070000352)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Early Frost 0.3g 6 Pack Prerolls (C0070000352): $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Early Frost (I) 1g Preroll (C0070000322)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Early Frost (I) 1g Preroll (C0070000322): $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Deadeye Drip (I) 0.5g 5 Pack Prerolls (C0070000354)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Deadeye Drip (I) 0.5g 5 Pack Prerolls (C0070000354): $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Patty 2g Fatboy 41434",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Patty 2g Fatboy 41434: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Permanent Marker PR Minis 41632",
+    "brand": "Theraplant",
+    "message": "Theraplant Permanent Marker PR Minis 41632: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Oklahoma Coma Infused Pre-Rolls T36.38% I 00851",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Oklahoma Coma Infused Pre-Rolls T36.38% I 00851: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "MODIFIED O 1G BIG RAY T27.61% H 00877",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow MODIFIED O 1G BIG RAY T27.61% H 00877: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Mule Fuel 5 x .5g Pre-roll Pack 0028",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Mule Fuel 5 x .5g Pre-roll Pack 0028: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Mule Fuel 1g Pre-roll 0026",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Mule Fuel 1g Pre-roll 0026: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Mikado Mintz 1g Pre-Roll 0011",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Mikado Mintz 1g Pre-Roll 0011: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Hashburger 5 x .5g Pre-roll Pack 0037",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hashburger 5 x .5g Pre-roll Pack 0037: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ko'Zeto Infused Pre-Rolls T38.11% H 00830",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ko'Zeto Infused Pre-Rolls T38.11% H 00830: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke Infused Shorties 41525",
+    "brand": "Theraplant",
+    "message": "Theraplant Ice Cream Cke Infused Shorties 41525: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke 1g PR 41543",
+    "brand": "Theraplant",
+    "message": "Theraplant Ice Cream Cke 1g PR 41543: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Wedding Infused Party Pack 41777",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding Infused Party Pack 41777: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Wedding 2g Fatboy 41774",
+    "brand": "Theraplant",
+    "message": "Theraplant Hash Wedding 2g Fatboy 41774: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01639 TC 34.144%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Apple Tartz (H) 01639 TC 34.144%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 1g Single Paw Paw (H) 01516 TC 30.258%: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape N Cream Infused 1g Big Ray T34.00% H 00834",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Grape N Cream Infused 1g Big Ray T34.00% H 00834: $27.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Granny Banany Infused Shorties 41549",
+    "brand": "Theraplant",
+    "message": "Theraplant Granny Banany Infused Shorties 41549: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Granny Apple 2g Fatboy 41416",
+    "brand": "Theraplant",
+    "message": "Theraplant Granny Apple 2g Fatboy 41416: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon 1g PR 41724",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon 1g PR 41724: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Face 1g Infused PR 41619",
+    "brand": "Theraplant",
+    "message": "Theraplant Gas Face 1g Infused PR 41619: $22.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gangsta Grillz 1g Infused Blunt 41694",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz 1g Infused Blunt 41694: $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "ForeverBerry 2g Fatboy 41681",
+    "brand": "Theraplant",
+    "message": "Theraplant ForeverBerry 2g Fatboy 41681: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Preroll 1g Single Modified Goat (I) 01538 TC 31.704%",
+    "brand": "Find.",
+    "message": "Find. FIND. Preroll 1g Single Modified Goat (I) 01538 TC 31.704%: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775%",
+    "brand": "Find.",
+    "message": "Find. FIND. Preroll 1g Single Bulbz (I) 01356 TC 25.775%: $14.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Stardawg THCA Infused Pre-Roll H 26846",
+    "brand": "CTPharma",
+    "message": "CTPharma Durban Stardawg THCA Infused Pre-Roll H 26846: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dosilato Shorties I 26665",
+    "brand": "CTPharma",
+    "message": "CTPharma Dosilato Shorties I 26665: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers Infused 5 Pack Minis Showdogs Animal Face (I) 01269",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers Infused 5 Pack Minis Showdogs Animal Face (I) 01269: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 5 Pack Minis B Scout (I) 01316",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 5 Pack Minis B Scout (I) 01316: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 5 Pack Minis Animal Scout #10 (I) 00942",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 5 Pack Minis Animal Scout #10 (I) 00942: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 5 Pack Minis Animal Face (I) 01354",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 5 Pack Minis Animal Face (I) 01354: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog Dulce De Uva (I) 01207",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog Dulce De Uva (I) 01207: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dogwalkers 1g Big Dog B Scout (I) 01356",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 1g Big Dog B Scout (I) 01356: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|PreRoll 0.5g 7pk|Starstruck 00127",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|PreRoll 0.5g 7pk|Starstruck 00127: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Colorado Flo (Aniva) Infused Shorties 41767",
+    "brand": "Theraplant",
+    "message": "Theraplant Colorado Flo (Aniva) Infused Shorties 41767: $39.00 > $31.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdog's Permanent Funk 1g Pre Roll (I) 00455",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Permanent Funk 1g Pre Roll (I) 00455: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdog's Gas Leak 1g Pre Roll (H) 00390",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Gas Leak 1g Pre Roll (H) 00390: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chemdog's Fresh to Death 1g Pre Roll (H) 00389",
+    "brand": "Brix",
+    "message": "Brix Chemdog's Fresh to Death 1g Pre Roll (H) 00389: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Pre-Roll T30.36% H 00896",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Pre-Roll T30.36% H 00896: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Lil' Ricky's T30.03% H 00889",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Lil' Ricky's T30.03% H 00889: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Infused Lil' Ricky's T40.62% H 00714",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Infused Lil' Ricky's T40.62% H 00714: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Canna Miranda 1g Infused PR 41689",
+    "brand": "Theraplant",
+    "message": "Theraplant Canna Miranda 1g Infused PR 41689: $22.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CHEM CKIES - QUIET TIMES 2G-5PK MINI PRE-ROLLS 41698",
+    "brand": "Miss Grass",
+    "message": "Miss Grass CHEM CKIES - QUIET TIMES 2G-5PK MINI PRE-ROLLS 41698: $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "C-Stata 1g Pre Roll (H) 00542",
+    "brand": "Brix",
+    "message": "Brix C-Stata 1g Pre Roll (H) 00542: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Doughpamine 1g Pre Roll (H) 00410",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Doughpamine 1g Pre Roll (H) 00410: $13.00 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blackberry Durban Bubble Hash Infused Doob - Fast Times 1g 41607",
+    "brand": "Miss Grass",
+    "message": "Miss Grass Blackberry Durban Bubble Hash Infused Doob - Fast Times 1g 41607: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry GMO PR Party Pack 41375",
+    "brand": "Theraplant",
+    "message": "Theraplant Black Cherry GMO PR Party Pack 41375: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Alien OG Infused Lil' Ricky's T40.04% H 00891",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Alien OG Infused Lil' Ricky's T40.04% H 00891: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Slapz (H) 01371",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Slapz (H) 01371: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "AGL 1g Pre Roll Paradise Snacks (I) 01314",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs AGL 1g Pre Roll Paradise Snacks (I) 01314: $10.00 > $8.00"
+  }
+]

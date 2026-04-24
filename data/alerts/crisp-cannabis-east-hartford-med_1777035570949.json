@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky Spritz 0046: $27.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky Spritz 0060: $27.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky Spritz 0058: $27.00 > $25.00"
+  }
+]

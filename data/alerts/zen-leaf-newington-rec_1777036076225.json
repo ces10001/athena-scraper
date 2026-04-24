@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg $50.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Original Glue",
+    "brand": "Savvy",
+    "message": "New: Savvy - Original Glue $87.60"
+  }
+]

@@ -1,443 +1,1376 @@
 [
   {
+    "title": "Member Discount",
+    "description": "",
+    "dispensary": "The Harvest Corner (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "30% Off Specials",
+    "description": "",
+    "dispensary": "The Harvest Corner (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "The Rack | SAVE 40%",
+    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
+    "description": "Limited Time Only - while supplies last. No Stacking!",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BINGO BANGO | $27 FLOWER",
+    "description": "Limited time only - while supplies last. No Stacking.",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "20% off Earl Baker products",
+    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "The Rack | SAVE 40%",
+    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BINGO BANGO | $27 FLOWER",
+    "description": "Limited time only - while supplies last. No Stacking.",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
+    "description": "Limited Time Only - While Supplies Last. No Stacking!",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
+    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "20% off Earl Baker products",
+    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Last Chance Up To 40% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
+    "description": "Till 06:15 PM May 31",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Rodeo Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Encore Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Good Green Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 25% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
+    "description": "Till 08:15 PM April 24",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $20 Find Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $25 Grassroots Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "$29.50 Select Elite 1g Vape Cartridges!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $20 3.5g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $70 14g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds: $140 28g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Buy 2 Amigos Vape Products for $110!",
+    "description": "Till 08:15 PM May 31",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 40% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
+    "description": "Till 06:15 PM May 31",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Rodeo Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Encore Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Good Green Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 25% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
+    "description": "Till 08:15 PM April 24",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $20 Find Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $25 Grassroots Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "$29.50 Select Elite 1g Vape Cartridges!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $20 3.5g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $40 7g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $70 14g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds: $140 28g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Buy 2 Amigos Vape Products for $110!",
+    "description": "Till 08:15 PM May 31",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 40% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
+    "description": "Till 06:15 PM May 31",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Rodeo Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Encore Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Good Green Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 25% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
+    "description": "Till 08:15 PM April 24",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $20 Find Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $25 Grassroots Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "$29.50 Select Elite 1g Vape Cartridges!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $20 3.5g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $70 14g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds: $140 28g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Buy 2 Amigos Vape Products for $110!",
+    "description": "Till 08:15 PM May 31",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 40% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
+    "description": "Till 06:15 PM May 31",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Rodeo Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Encore Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off Good Green Products!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Last Chance Up To 25% Off! While Supplies Last!",
+    "description": "Daily",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
+    "description": "Till 08:15 PM April 24",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $20 Find Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "EXTENDED! $25 Grassroots Eighths!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "$29.50 Select Elite 1g Vape Cartridges!",
+    "description": "Till 06:15 PM April 26",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $20 3.5g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $40 7g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds! $70 14g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Flower Finds: $140 28g Featured Flower All Day!",
+    "description": "Till 08:15 PM June 30",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Buy 2 Amigos Vape Products for $110!",
+    "description": "Till 08:15 PM May 31",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "Grassroots Eighths | BOGO 50% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
-    "dispensary": "Fine Fettle - Bristol (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Bristol (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Bristol (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Bristol (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "New Prices!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Manchester (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "New Prices!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Newington (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Select Coast Gummies | 60% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Norwalk (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Select Coast Gummies | 60% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Lucky Break Products | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
-    "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Select Coast Gummies | 60% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "New Prices!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Select Coast Gummies | 60% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Waterbury (Med)",
     "platform": "finefettle"
   },
   {
     "title": "New Prices!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - West Hartford (Med)",
     "platform": "finefettle"
   },
   {
     "title": "Grassroots Eighths | BOGO 50% Off",
     "description": "",
-    "type": "bundle",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Lucky Break Products | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Amigos Vapes | 25% Off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
   },
   {
     "title": "Viva Gummies - 30% off",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Willimantic (Med)",
     "platform": "finefettle"
   },
   {
     "title": "30% off all Hemp Products!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Willimantic (Med)",
     "platform": "finefettle"
   },
   {
     "title": "40% off Accessories!",
     "description": "",
-    "type": "product",
     "dispensary": "Fine Fettle - Willimantic (Med)",
     "platform": "finefettle"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 3.5g",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "2/$99 Everyday Tier 1g Vapes",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 1g Pre-rolls",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "3/$85 Everyday Tier 100mg Edibles",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 30% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 20% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 10% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-rolls, Pre-roll Packs & Infused Pre-rolls | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-roll Packs & Pre-rolls - Buy 2+, Get 10% Off 1",
+    "description": "",
+    "dispensary": "High Profile - Canton",
+    "platform": "custom"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 3.5g",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "2/$99 Everyday Tier 1g Vapes",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 1g Pre-rolls",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "3/$85 Everyday Tier 100mg Edibles",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 20% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 10% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-rolls, Pre-roll Packs & Infused Pre-rolls | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-roll Packs & Pre-rolls - Buy 2+, Get 10% Off 1",
+    "description": "",
+    "dispensary": "High Profile - Hamden",
+    "platform": "custom"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 3.5g",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "2/$99 Everyday Tier 1g Vapes",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "B2G1 for $0.01 Everyday Tier 1g Pre-rolls",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "3/$85 Everyday Tier 100mg Edibles",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 20% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Flash Sale | 10% Off Featured Items",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Flower | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-rolls, Pre-roll Packs & Infused Pre-rolls | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Vape Carts | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 4 or More, Get 15% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Edibles | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Accessories | $10 510 Cart Batteries",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "Pre-roll Packs & Pre-rolls - Buy 2+, Get 10% Off 1",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
+    "title": "CANNABIS RETAILER DEALS & DISCOUNTS",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "SENIOR DISCOUNT",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "DOES SHANGRI-LA NORWALK OFFER DEALS AND DISCOUNTS?",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "Loyalty Program",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "SENIOR DISCOUNT",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "DOES SHANGRI-LA SOUTH NORWALK OFFER DEALS AND DISCOUNTS?",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "Loyalty Program",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury",
+    "platform": "custom"
+  },
+  {
+    "title": "SENIOR DISCOUNT",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury",
+    "platform": "custom"
+  },
+  {
+    "title": "DOES SHANGRI-LA WATERBURY OFFER DEALS AND DISCOUNTS?",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury",
+    "platform": "custom"
+  },
+  {
+    "title": "Loyalty Program",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Plainville",
+    "platform": "custom"
+  },
+  {
+    "title": "SENIOR DISCOUNT",
+    "description": "",
+    "dispensary": "Shangri-La - Plainville",
+    "platform": "custom"
+  },
+  {
+    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
+    "description": "",
+    "dispensary": "Shangri-La - Plainville",
+    "platform": "custom"
+  },
+  {
+    "title": "DOES SHANGRI-LA PLAINVILLE OFFER DEALS AND DISCOUNTS?",
+    "description": "",
+    "dispensary": "Shangri-La - Plainville",
+    "platform": "custom"
+  },
+  {
+    "title": "Loyalty Program",
+    "description": "",
+    "dispensary": "Shangri-La - Plainville",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Edibles and Get 30% off Edible Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Units of Flower, Get 30% off Flower Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Vapes and Get 30% off Vape Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Edibles and Get 40% off Edible Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Units of Flower, Get 40% off Flower Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Vapes and Get 40% off Vape Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Prerolls and Get 30% off Preroll Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Multipack Prerolls and Get 30% off Multipack Preroll Purchase",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 20% Off!",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 30% Off!",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 40% Off!",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "30% Off CT Pharma Brands",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 60% Off!",
+    "description": "",
+    "dispensary": "INSA - New Haven",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Edibles and Get 30% off Edible Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Units of Flower, Get 30% off Flower Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Vapes and Get 30% off Vape Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Edibles and Get 40% off Edible Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Units of Flower, Get 40% off Flower Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 4 Vapes and Get 40% off Vape Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Prerolls and Get 30% off Preroll Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Buy 2 Multipack Prerolls and Get 30% off Multipack Preroll Purchase",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 20% Off!",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 30% Off!",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "30% Off CT Pharma Brands",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
+  },
+  {
+    "title": "Featured Items - 60% Off!",
+    "description": "",
+    "dispensary": "INSA - Hartford",
+    "platform": "custom"
   }
 ]
