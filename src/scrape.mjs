@@ -7,7 +7,7 @@ import { scrapeJane } from './adapters/jane.mjs';
 import { scrapeBUDRCannabis } from './adapters/budrcannabis.mjs';
 import { scrapeAllDeals } from './scrape-deals.mjs';
 import { validateProduct } from './lib/normalizer.mjs';
-import { writeFile, readFile, mkdir } from 'fs/promises';
+import { writeFile, readFile, mkdir, unlink } from 'fs/promises';
 import { existsSync, readdirSync } from 'fs';
 
 var ADAPTERS = { dutchie: scrapeDutchie, sweed: scrapeSweed, finefettle: scrapeFineFettle, jane: scrapeJane, budrcannabis: scrapeBUDRCannabis };
@@ -60,7 +60,23 @@ async function ensureDirs() {
 function slug(d) { return d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''); }
 async function loadPrev(d) { try { return JSON.parse(await readFile(RESULTS_DIR + '/' + slug(d) + '.json', 'utf-8')); } catch { return []; } }
 async function saveProd(d, products) { await writeFile(RESULTS_DIR + '/' + slug(d) + '.json', JSON.stringify(products, null, 2)); }
-async function saveAlerts(d, alerts) { if (alerts.length > 0) await writeFile(ALERTS_DIR + '/' + slug(d) + '_' + Date.now() + '.json', JSON.stringify(alerts, null, 2)); }
+async function saveAlerts(d, alerts) {
+  if (alerts.length > 0) {
+    await writeFile(ALERTS_DIR + '/' + slug(d) + '_' + Date.now() + '.json', JSON.stringify(alerts, null, 2));
+  }
+  // Cleanup: remove alert files older than 24 hours for this dispensary
+  try {
+    var prefix = slug(d) + '_';
+    var cutoff = Date.now() - (24 * 60 * 60 * 1000);
+    var files = readdirSync(ALERTS_DIR).filter(function(f) { return f.startsWith(prefix) && f.endsWith('.json'); });
+    for (var f of files) {
+      var ts = parseInt(f.replace(prefix, '').replace('.json', ''));
+      if (ts < cutoff) {
+        try { await unlink(ALERTS_DIR + '/' + f); } catch(e) {}
+      }
+    }
+  } catch(e) {}
+}
 
 async function main() {
   var opts = parseArgs();
