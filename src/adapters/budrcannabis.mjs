@@ -98,7 +98,57 @@ function parseJaneProducts(text) {
       }
     }
     name = name.replace(/\s+/g, ' ').trim();
-    name = name.replace(/^(?:Only \d+ left|Popular|\d+% (?:back|OFF!?)|SALE!|New|Cash back|.*?View all\s*)+/gi, '').trim();
+    name = name.replace(/^(?:Sponsored|Only \d+ left|Popular|\d+% (?:back|OFF!?)|SALE!|New|Cash back|Jane Gold.*?View all|Our Best.*?View all|.*?View all\s*)+/gi, '').trim();
+    
+    // ─── BUDR shadow DOM cleanup: strip concatenated brand/category/weight ───
+    // Strip trailing weight: (3.5G), (14G), (EACH), (.5G), etc.
+    name = name.replace(/\s*\(\s*\.?\d*\.?\d*\s*[Gg]\s*\)\s*$/i, '');
+    name = name.replace(/\s*\(EACH\)\s*$/i, '');
+    
+    // Strip trailing category labels concatenated from shadow DOM
+    name = name.replace(/\s*(FLOWER|Flower|Pre Roll|Pre-Roll|Cartridge|Vape|Gummies|Gummy|Edible|Infused Blunt|Mini Tank|Mixed Buds|Disposable|AIO|5 Pack Pre Rol|5 Pack Mini Dogs|Infused Pre-Roll|BRIQ Flavor Series Dispo|RSO Syringe|Live Resin|Tincture|Topical|Capsule|Spray|Beverage|Seltzer|Chocolate|Confection|Lozenges|Concentrate|10 Pack|Elite Pod|Strut All-In-One|Macro Dosed Gummy|Purple Cones|Pink Cones|Tea Leaf Cones|Pink Rolling|Rose Wraps|King Size Cones|Hemp Wraps)\s*(\(.*\))?\s*$/i, '');
+    
+    // Strip trailing brand name duplicates
+    var ctBrands = ['Theraplant','CTPharma','CTP','Curaleaf','Advanced Grow Labs','AGL','Affinity','Affinity Grow','BRIX','Brix Cannabis','RYTHM','Rythm','Select','Savvy','Good Green','Dogwalkers','Encore','Encore Edibles','Camino','Wana','Zone','Shaka','Awssom','FIND','Find','Springtime','SoundView','Comffy','Amigos','Lighthouse','Rodeo','Rodeo Cannabis','Rodeo Cannabis Co','Miss Grass','Earl Baker','COAST Cannabis Co','Coast','Let\'s Burn','Nova','Crisp','Lucky Break','Loud','Borealis Cannabis','JAMS','Grassroots','Dark Heart','inc.edibles','all:hours','Canyon Water','Fizz','Corgi','Flying Corgi','Airo Brands','Blazy Susan','Budr'];
+    for (var bi = 0; bi < ctBrands.length; bi++) {
+      var bn = ctBrands[bi];
+      var bnIdx = name.lastIndexOf(bn);
+      if (bnIdx > 5 && bnIdx > name.length - bn.length - 5) {
+        name = name.substring(0, bnIdx).trim();
+        if (!brand) brand = bn;
+        break;
+      }
+    }
+    // Also try brand at the START if brand is still empty
+    if (!brand) {
+      for (var bi = 0; bi < ctBrands.length; bi++) {
+        var bn = ctBrands[bi];
+        if (name.startsWith(bn + ' ') || name.startsWith(bn + '|')) {
+          brand = bn;
+          // Don't strip brand from start - it's part of the product name format
+          break;
+        }
+      }
+    }
+    
+    name = name.replace(/\s*\(\s*\)\s*$/, '').trim();
+    
+    // ─── Fix category using detected keywords ───
+    if (category === 'other' || !category) {
+      var nameLower = name.toLowerCase();
+      var blockLower = block.toLowerCase();
+      if (blockLower.includes('mixed buds') || blockLower.includes('whole flower') || blockLower.includes('smalls') || blockLower.includes('pre-pack') || (nameLower.match(/\b(?:flower|3\.5g|7g|14g|28g|1oz)\b/) && !nameLower.includes('vape') && !nameLower.includes('cart'))) category = 'flower';
+      else if (blockLower.includes('elite pod') || blockLower.includes('aio') || blockLower.includes('all-in-one') || blockLower.includes('cartridge') || blockLower.includes('vape') || blockLower.includes('disposable') || blockLower.includes('distillate') || blockLower.includes('mini tank') || blockLower.includes('briq') || blockLower.includes('airoPod')) category = 'vaporizers';
+      else if (blockLower.includes('gummies') || blockLower.includes('gummy') || blockLower.includes('chocolate') || blockLower.includes('confection') || blockLower.includes('seltzer') || blockLower.includes('beverage') || blockLower.includes('lozenge') || blockLower.includes('rso') || blockLower.includes('edible')) category = 'edible';
+      else if (blockLower.includes('pre roll') || blockLower.includes('pre-roll') || blockLower.includes('preroll') || blockLower.includes('infused blunt') || blockLower.includes('mini dogs') || blockLower.includes('big dog') || blockLower.includes('big ray')) category = 'pre-rolls';
+      else if (blockLower.includes('badder') || blockLower.includes('rosin') || blockLower.includes('live resin') || blockLower.includes('wax') || blockLower.includes('shatter') || blockLower.includes('concentrate')) category = 'concentrate';
+      else if (blockLower.includes('tincture') || blockLower.includes('oil') || blockLower.includes('dropper')) category = 'tincture';
+      else if (blockLower.includes('topical') || blockLower.includes('balm') || blockLower.includes('cream') || blockLower.includes('transdermal') || blockLower.includes('roll-on')) category = 'topical';
+    }
+    
+    // Filter out non-cannabis products (accessories, papers, etc.)
+    if (name.match(/Blazy Susan|Zig.?Zag|Hemp Wraps|Rolling Papers?|Cones \d+pk|Accessories|Grinder/i)) continue;
+    
     if (name.length > 80) name = name.substring(0, 80).trim();
     if (name.length < 2) continue;
 
