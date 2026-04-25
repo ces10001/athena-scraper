@@ -579,8 +579,15 @@ async function main() {
   // Load store-wide promotions if available
   try {
     var promosRaw = await readFile('./data/store_promos.json', 'utf-8');
-    output.store_promos = JSON.parse(promosRaw);
-    console.log('  Store promos: ' + output.store_promos.length);
+    var promosAll = JSON.parse(promosRaw);
+    // Filter out generic/useless deals
+    output.store_promos = promosAll.filter(function(p) {
+      var t = (p.title || '').trim();
+      if (t.length < 5) return false;
+      if (/^(Loyalty Program|rewards program|Sign Up|Newsletter)$/i.test(t)) return false;
+      return true;
+    });
+    console.log('  Store promos: ' + output.store_promos.length + ' (filtered from ' + promosAll.length + ')');
   } catch(e) {
     // No promos file yet — that's fine
   }

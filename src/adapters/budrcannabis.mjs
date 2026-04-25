@@ -109,7 +109,7 @@ function parseJaneProducts(text) {
     name = name.replace(/\s*(FLOWER|Flower|Pre Roll|Pre-Roll|Cartridge|Vape|Gummies|Gummy|Edible|Infused Blunt|Mini Tank|Mixed Buds|Disposable|AIO|5 Pack Pre Rol|5 Pack Mini Dogs|Infused Pre-Roll|BRIQ Flavor Series Dispo|RSO Syringe|Live Resin|Tincture|Topical|Capsule|Spray|Beverage|Seltzer|Chocolate|Confection|Lozenges|Concentrate|10 Pack|Elite Pod|Strut All-In-One|Macro Dosed Gummy|Purple Cones|Pink Cones|Tea Leaf Cones|Pink Rolling|Rose Wraps|King Size Cones|Hemp Wraps)\s*(\(.*\))?\s*$/i, '');
     
     // Strip trailing brand name duplicates
-    var ctBrands = ['Theraplant','CTPharma','CTP','Curaleaf','Advanced Grow Labs','AGL','Affinity','Affinity Grow','BRIX','Brix Cannabis','RYTHM','Rythm','Select','Savvy','Good Green','Dogwalkers','Encore','Encore Edibles','Camino','Wana','Zone','Shaka','Awssom','FIND','Find','Springtime','SoundView','Comffy','Amigos','Lighthouse','Rodeo','Rodeo Cannabis','Rodeo Cannabis Co','Miss Grass','Earl Baker','COAST Cannabis Co','Coast','Let\'s Burn','Nova','Crisp','Lucky Break','Loud','Borealis Cannabis','JAMS','Grassroots','Dark Heart','inc.edibles','all:hours','Canyon Water','Fizz','Corgi','Flying Corgi','Airo Brands','Blazy Susan','Budr'];
+    var ctBrands = ['Theraplant','CTPharma','CTP','Curaleaf','Advanced Grow Labs','AGL','Affinity','Affinity Grow','BRIX','Brix Cannabis','RYTHM','Rythm','Select','SelectLegacy Series','Savvy','Good Green','Dogwalkers','Encore','Encore Edibles','Camino','Wana','Zone','Shaka','Awssom','FIND','Find','Springtime','SoundView','Comffy','Amigos','Lighthouse','Rodeo','Rodeo Cannabis','Rodeo Cannabis Co','Miss Grass','Earl Baker','COAST Cannabis Co','Coast','Let\'s Burn','Nova','Crisp','Lucky Break','Loud','Borealis Cannabis','JAMS','Grassroots','Dark Heart','inc.edibles','all:hours','Canyon Water','Fizz','Corgi','Flying Corgi','Airo Brands','Airo','Blazy Susan','Budr','The Happy Confection','On The Rocks','Edie Parker','Asteroid','Asteroid Galaxeats','Loki','Hi5','Five Islands','Chemdog','Cookies','Craic','Float House','Hyphen','\'Fused','Fused','ozBudrHemp'];
     for (var bi = 0; bi < ctBrands.length; bi++) {
       var bn = ctBrands[bi];
       var bnIdx = name.lastIndexOf(bn);
@@ -125,7 +125,17 @@ function parseJaneProducts(text) {
         var bn = ctBrands[bi];
         if (name.startsWith(bn + ' ') || name.startsWith(bn + '|')) {
           brand = bn;
-          // Don't strip brand from start - it's part of the product name format
+          break;
+        }
+      }
+    }
+    // Fallback: scan the full block text for brand names
+    if (!brand) {
+      for (var bi = 0; bi < ctBrands.length; bi++) {
+        var bn = ctBrands[bi];
+        if (bn.length < 4) continue; // Skip short brand names to avoid false matches
+        if (block.includes(bn)) {
+          brand = bn;
           break;
         }
       }

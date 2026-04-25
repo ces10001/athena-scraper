@@ -87,6 +87,10 @@ function parseJaneProducts(text) {
     name = name.replace(/\s+/g, ' ').trim();
     if (name.length > 80) name = name.substring(0, 80).trim();
 
+    // Skip garbage names
+    if (name.match(/Skip to|Filters|Main Content|View all|New Drops|Top Terps|Best selling|Only \d+ left|Products Dispensa/i)) continue;
+    if (name.length < 5) continue;
+
     var category = 'other';
     var catPatterns = [
       [/\bFlower\b/i, 'flower'],

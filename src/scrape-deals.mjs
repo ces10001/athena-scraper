@@ -262,7 +262,7 @@ async function scrapeBudrDeals(dispensaries, browser) {
              l.match(/rewards?\s*program/i) ||
              l.match(/first.time|new.customer|loyalty/i))) {
             // Don't pick up product names
-            if (!l.match(/Add to bag|View more|Sponsored|Popular|Our Best/i)) {
+            if (!l.match(/Add to bag|View more|Sponsored|Popular|Our Best|Loyalty Program|rewards program|Sign Up|Newsletter|Jane Gold/i)) {
               results.push(l);
             }
           }
