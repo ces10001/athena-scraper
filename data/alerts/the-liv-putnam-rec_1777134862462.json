@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lighthouse 1g AIO H0rchata Live Resin (H) Bar 00450",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Lighthouse 1g AIO H0rchata Live Resin (H) Bar 00450 $57.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Pink Lemonade (S) 00033",
+    "brand": "Asteroid Galaxeats",
+    "message": "New: Asteroid Galaxeats - Asteroid GalaxEats Pink Lemonade (S) 00033 $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Edie Parker AIO .5g Grape Escape (I) 00422",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Edie Parker AIO .5g Grape Escape (I) 00422 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours Tropical Burst 00415",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours Tropical Burst 00415 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours Orchard Peach CBD 1:1 00361",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours Orchard Peach CBD 1:1 00361 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Bar - Toasted S'mores Milk Chocolate (H) 00220",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Bar - Toasted S'mores Milk Chocolate (H) 00220 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Bar - Cookies & Cream White Chocolate (H) 00217",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Bar - Cookies & Cream White Chocolate (H) 00217 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours Strawberry Sunset 00365",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Sours Strawberry Sunset 00365 $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack 3.5g WPH 00100",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack 3.5g WPH 00100 $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Awssom Pre-Ground 7g Triangle Kush 00064",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Awssom Pre-Ground 7g Triangle Kush 00064"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO Skunk 1g Pre-Roll",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GMO Skunk 1g Pre-Roll"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Pharma 3.5g E85 (S) 26812",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CT Pharma 3.5g E85 (S) 26812"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edie Parker AIO .5g Green Queen (S) 00413",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Edie Parker AIO .5g Green Queen (S) 00413"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Soundview Seltzer Blood Orange 12 oz THC:  CBD : CBG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Happy Confection - Creative Clementine THCV (S) 00452",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - The Happy Confection - Creative Clementine THCV (S) 00452"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix 1g Mac Stomper Pre Roll (S) 00406",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix 1g Mac Stomper Pre Roll (S) 00406"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 7g POG (H) 00102",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 7g POG (H) 00102"
+  }
+]

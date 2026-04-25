@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Panckes MT 41752 (S) (0.5g Disp)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes MT 41752 (S) (0.5g Disp) $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075 (H)(2.4oz)",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Fast Acting Fruit Punch Lucky Elixir 0075 (H)(2.4oz) $24.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Sour Black Cherry RSO Gummies T98.8mg H 27003 (10pk)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Encore Sour Black Cherry RSO Gummies T98.8mg H 27003 (10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple Flower T30.10% I 00856 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple Flower T30.10% I 00856 (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Pineapple Lucky Chews 56.7mg 0081 H (6pk High Potency)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Pink Pineapple Lucky Chews 56.7mg 0081 H (6pk High Potency)"
+  }
+]

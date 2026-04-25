@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Raspberry PRFT"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Gone: Select - Sundae Slumber"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Indica Dark",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Indica Dark"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Oklahoma Coma",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Oklahoma Coma"
+  }
+]

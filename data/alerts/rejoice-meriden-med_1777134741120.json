@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies 00219",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Black Cherry Gummies 00219 $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Pina Colada 00032",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Pina Colada 00032 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Sour Watermelon (H) - 00016",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid Galaxeats Gummies Sour Watermelon (H) - 00016 $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 14g Guava Tart (GAT) 00089",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 14g Guava Tart (GAT) 00089"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Affinity Gas Breath 1g LT Bar (S) - 00807",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Affinity Gas Breath 1g LT Bar (S) - 00807"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Cliq Elite Pod .5g Tropic Thunder (H) - 00938",
+    "brand": "Select",
+    "message": "Gone: Select - Select Cliq Elite Pod .5g Tropic Thunder (H) - 00938"
+  }
+]

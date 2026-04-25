@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "The Soap",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - The Soap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Hdz Bubble Hash",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Air Hdz Bubble Hash"
+  }
+]

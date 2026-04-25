@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie $39.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pinapple Sunrise",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pinapple Sunrise"
+  }
+]

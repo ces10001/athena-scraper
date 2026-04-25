@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake"
+  }
+]

@@ -720,26 +720,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-296184",
-    "name": "Apple Tart",
-    "brand": "Theraplant",
-    "category": "vaporizers",
-    "subcategory": null,
-    "strain_type": "hybrid",
-    "price_cents": 5800,
-    "original_price_cents": null,
-    "weight_label": "1g",
-    "weight_grams": 1,
-    "unit_price_per_gram": 5800,
-    "thc_pct": 90.62,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-213654",
     "name": "Midnight Orgy",
     "brand": "Earl Baker",
@@ -1020,26 +1000,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-264581",
-    "name": "Coconut Milk",
-    "brand": "Affinity",
-    "category": "flower",
-    "subcategory": null,
-    "strain_type": "hybrid",
-    "price_cents": 2520,
-    "original_price_cents": 3600,
-    "weight_label": "3.5g",
-    "weight_grams": 3.5,
-    "unit_price_per_gram": 720,
-    "thc_pct": 29.4901,
-    "cbd_pct": null,
-    "in_stock": true,
-    "on_sale": true,
-    "deal_description": "30% Off",
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-339047",
     "name": "Chem 91",
     "brand": "Brix Cannabis",
@@ -1161,7 +1121,7 @@
   },
   {
     "external_id": "sweed-275973",
-    "name": "Peanut Butter Bites",
+    "name": "PB Bites",
     "brand": "FIND.",
     "category": "pre-rolls",
     "subcategory": null,

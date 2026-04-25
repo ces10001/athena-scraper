@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Gone: Find. - Modified Goat"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Oklahoma Coma",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Oklahoma Coma"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Express",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Pineapple Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - CT Kush Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lunar Diesel",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Lunar Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy"
+  }
+]

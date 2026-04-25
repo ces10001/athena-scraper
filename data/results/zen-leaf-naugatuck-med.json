@@ -5791,7 +5791,7 @@
     "weight_label": "2g",
     "weight_grams": 2,
     "unit_price_per_gram": 1625,
-    "thc_pct": 44.5948,
+    "thc_pct": null,
     "cbd_pct": null,
     "in_stock": true,
     "on_sale": false,
