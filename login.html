@@ -61,6 +61,47 @@ body {
   margin-bottom: 24px;
   opacity: 0;
   animation: logoReveal 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  position: relative;
+}
+
+/* Glowing eyes */
+.eye {
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  background: radial-gradient(ellipse, rgba(232, 96, 10, 0.9) 0%, rgba(232, 96, 10, 0.4) 50%, transparent 80%);
+  border-radius: 50%;
+  animation: eyeGlow 4s ease-in-out infinite alternate, eyeBlink 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.eye-left {
+  top: 50.5%;
+  left: 35.5%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+.eye-right {
+  top: 50.5%;
+  right: 35.5%;
+  transform: translate(50%, -50%) rotate(15deg);
+}
+
+@keyframes eyeGlow {
+  0% { 
+    background: radial-gradient(ellipse, rgba(232, 96, 10, 0.7) 0%, rgba(232, 96, 10, 0.3) 50%, transparent 80%);
+    box-shadow: 0 0 8px rgba(232, 96, 10, 0.3), 0 0 20px rgba(232, 96, 10, 0.15);
+  }
+  100% { 
+    background: radial-gradient(ellipse, rgba(255, 140, 40, 1) 0%, rgba(232, 96, 10, 0.6) 50%, transparent 80%);
+    box-shadow: 0 0 15px rgba(232, 96, 10, 0.6), 0 0 35px rgba(232, 96, 10, 0.3);
+  }
+}
+
+@keyframes eyeBlink {
+  0%, 42%, 46%, 100% { opacity: 1; }
+  43.5%, 44.5% { opacity: 0; }
 }
 
 .owl-wrap img {
@@ -280,6 +321,8 @@ body {
 <div class="main" id="landing">
   <div class="owl-wrap">
     <img id="owl-logo" alt="ATHENA" />
+    <div class="eye eye-left"></div>
+    <div class="eye eye-right"></div>
   </div>
   <div class="title">ATHENA</div>
   <div class="tagline">INSIGHT.&ensp;PRECISION.&ensp;EDGE.</div>
