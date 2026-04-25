@@ -222,11 +222,11 @@ async function scrapeBudrDeals(dispensaries, browser) {
   for (var i = 0; i < unique.length; i++) {
     var disp = unique[i];
     if (!disp.store_url) continue;
-    var dealsUrl = disp.store_url + '/menu/specials';
     var page;
     try {
       page = await context.newPage();
-      await page.goto(dealsUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      // Load the main store page (not /menu/specials)
+      await page.goto(disp.store_url, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(5000);
       // Pass age gate
       try {
@@ -236,61 +236,44 @@ async function scrapeBudrDeals(dispensaries, browser) {
         });
         await page.waitForTimeout(2000);
       } catch(e) {}
-      // Accept location
-      try {
-        await page.evaluate(function() {
-          var btns = document.querySelectorAll('button');
-          btns.forEach(function(b) { if (b.textContent.trim() === 'ACCEPT') b.click(); });
-        });
-        await page.waitForTimeout(2000);
-      } catch(e) {}
 
-      // Click "Deals" tab if present
-      try {
-        await page.evaluate(function() {
-          var tabs = document.querySelectorAll('a, button, div, span');
-          tabs.forEach(function(el) { if (el.textContent.trim() === 'Deals' && el.offsetHeight > 0) el.click(); });
-        });
-        await page.waitForTimeout(3000);
-      } catch(e) {}
-
-      // Look for "All Deals" section or deal title patterns
+      // Extract deals from shadow DOM banners and promotional sections
       var deals = await page.evaluate(function() {
-        var text = document.body.innerText;
-        var lines = text.split('\n').map(function(l) { return l.trim(); }).filter(function(l) { return l.length > 0; });
         var results = [];
+        // Check shadow DOM for banners/promotions
+        var shadowHosts = document.querySelectorAll('[id*="menu"], [class*="menu"], [data-app]');
+        var allText = '';
+        shadowHosts.forEach(function(host) {
+          if (host.shadowRoot) allText += host.shadowRoot.textContent + '\n';
+        });
+        // Also check main page
+        allText += document.body.innerText;
         
-        // Find "All Deals" section first
-        var allDealsIdx = lines.findIndex(function(l) { return l === 'All Deals'; });
-        if (allDealsIdx >= 0) {
-          var dealLines = lines.slice(allDealsIdx + 1);
-          for (var i = 0; i < dealLines.length; i++) {
-            var line = dealLines[i];
-            var nextLine = i + 1 < dealLines.length ? dealLines[i + 1] : '';
-            if ((nextLine.match(/^(Daily|Till\s)/) || nextLine.match(/^(Expires|Valid|Ends)/i)) && line.length > 8 && line.length < 100) {
-              results.push({ title: line });
-              i++;
+        var lines = allText.split('\n').map(function(l) { return l.trim(); }).filter(function(l) { return l.length > 0; });
+        
+        for (var i = 0; i < lines.length; i++) {
+          var l = lines[i];
+          if (l.length > 10 && l.length < 120 &&
+            (l.match(/\d+%\s*(off|back|discount)/i) || 
+             l.match(/buy\s+\d.*get/i) || 
+             l.match(/BOGO/i) || 
+             l.match(/save\s+\$?\d+/i) ||
+             l.match(/\$\d+\s+(off|flower|vape|edible|pre.?roll)/i) ||
+             l.match(/rewards?\s*program/i) ||
+             l.match(/first.time|new.customer|loyalty/i))) {
+            // Don't pick up product names
+            if (!l.match(/Add to bag|View more|Sponsored|Popular|Our Best/i)) {
+              results.push(l);
             }
           }
         }
-        
-        // Fallback: look for deal title patterns
-        if (results.length === 0) {
-          for (var i = 0; i < lines.length; i++) {
-            var l = lines[i];
-            if (l.length > 12 && l.length < 80 && l.includes('!') &&
-              (l.match(/\d+%/i) || l.includes('Off') || l.includes('BOGO') || l.includes('Last Chance') || l.includes('Free') || l.includes('Buy '))) {
-              results.push({ title: l });
-            }
-          }
-        }
-        return results;
+        return [...new Set(results)];
       });
 
       if (deals.length > 0) {
         var baseName = disp.name.replace(/\s*\((?:Med|Rec)\)/, '');
         console.log('  [deals] ' + baseName + ': ' + deals.length + ' deals');
-        deals.forEach(function(d) { allDeals.push({ title: d.title, description: '', dispensary: baseName, platform: 'budr' }); });
+        deals.forEach(function(d) { allDeals.push({ title: d, description: '', dispensary: baseName, platform: 'budr' }); });
       }
       await page.close();
     } catch(err) {
@@ -378,7 +361,7 @@ async function scrapeCustomSpecials(dispensaries, browser) {
           results = dealPatterns;
         }
 
-        return [...new Set(results)];
+        return [...new Set(results)].slice(0, 25);
       });
 
       if (deals.length > 0) {
@@ -434,8 +417,14 @@ export async function scrapeAllDeals() {
   allDeals.push(...budr);
   console.log('[deals] BUDR: ' + budr.length + ' deals');
 
-  // Phase 5: Custom specials pages (High Profile, INSA, Shangri-La)
-  var customDisps = CT_DISPENSARIES.filter(function(d) { return d.specials_url; });
+  // Phase 5: Custom specials pages — ONLY for stores that got 0 deals from Phase 1
+  var dutchieNames = new Set(dutchie.map(function(d) { return d.dispensary; }));
+  var customDisps = CT_DISPENSARIES.filter(function(d) {
+    if (!d.specials_url) return false;
+    // Skip if this store already got deals from Dutchie GraphQL
+    if (dutchieNames.has(d.name)) return false;
+    return true;
+  });
   console.log('[deals] Phase 5: ' + customDisps.length + ' stores with custom specials pages...');
   var custom = await scrapeCustomSpecials(customDisps, browser);
   allDeals.push(...custom);
