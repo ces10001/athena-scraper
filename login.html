@@ -67,41 +67,40 @@ body {
 /* Glowing eyes */
 .eye {
   position: absolute;
-  width: 18px;
-  height: 10px;
-  background: radial-gradient(ellipse, rgba(232, 96, 10, 0.9) 0%, rgba(232, 96, 10, 0.4) 50%, transparent 80%);
-  border-radius: 50%;
-  animation: eyeGlow 4s ease-in-out infinite alternate, eyeBlink 6s ease-in-out infinite;
+  width: 44px;
+  height: 30px;
+  background: rgba(232, 96, 10, 0);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  animation: eyeFlash 5s ease-in-out infinite;
   pointer-events: none;
   z-index: 2;
 }
 
 .eye-left {
-  top: 50.5%;
-  left: 35.5%;
-  transform: translate(-50%, -50%) rotate(-15deg);
+  top: 47%;
+  left: 33%;
+  transform: translate(-50%, -50%);
 }
 
 .eye-right {
-  top: 50.5%;
-  right: 35.5%;
-  transform: translate(50%, -50%) rotate(15deg);
+  top: 47%;
+  right: 33%;
+  transform: translate(50%, -50%);
 }
 
-@keyframes eyeGlow {
-  0% { 
-    background: radial-gradient(ellipse, rgba(232, 96, 10, 0.7) 0%, rgba(232, 96, 10, 0.3) 50%, transparent 80%);
-    box-shadow: 0 0 8px rgba(232, 96, 10, 0.3), 0 0 20px rgba(232, 96, 10, 0.15);
+@keyframes eyeFlash {
+  0%, 38%, 42%, 78%, 82%, 100% { 
+    background: rgba(232, 96, 10, 0);
+    box-shadow: none;
   }
-  100% { 
-    background: radial-gradient(ellipse, rgba(255, 140, 40, 1) 0%, rgba(232, 96, 10, 0.6) 50%, transparent 80%);
-    box-shadow: 0 0 15px rgba(232, 96, 10, 0.6), 0 0 35px rgba(232, 96, 10, 0.3);
+  40% { 
+    background: rgba(255, 140, 40, 0.9);
+    box-shadow: 0 0 20px rgba(232, 96, 10, 0.8), 0 0 40px rgba(232, 96, 10, 0.4), 0 0 60px rgba(232, 96, 10, 0.2);
   }
-}
-
-@keyframes eyeBlink {
-  0%, 42%, 46%, 100% { opacity: 1; }
-  43.5%, 44.5% { opacity: 0; }
+  80% { 
+    background: rgba(255, 140, 40, 0.9);
+    box-shadow: 0 0 20px rgba(232, 96, 10, 0.8), 0 0 40px rgba(232, 96, 10, 0.4), 0 0 60px rgba(232, 96, 10, 0.2);
+  }
 }
 
 .owl-wrap img {
