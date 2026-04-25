@@ -170,6 +170,34 @@ async function main() {
   if (stats.errors.length > 0) { console.log('  Errors:'); for (var e of stats.errors) console.log('    - ' + e); }
   console.log('========================================\n');
 
+  // ─── Post-scrape data validation ───
+  if (!opts.dryRun) {
+    console.log('── Data Validation ──');
+    var resultFiles = readdirSync(RESULTS_DIR).filter(function(f) { return f.endsWith('.json'); });
+    var warnings = [];
+    for (var rf of resultFiles) {
+      try {
+        var raw = JSON.parse(await readFile(RESULTS_DIR + '/' + rf, 'utf-8'));
+        var prods = raw.products || [];
+        // Check for $0 prices
+        var zeroPrices = prods.filter(function(p) { return p.price === 0 || p.price === null; });
+        if (zeroPrices.length > 0) warnings.push(rf + ': ' + zeroPrices.length + ' products with $0 price');
+        // Check for garbage names
+        var garbageNames = prods.filter(function(p) { return (p.name || '').match(/@import|<|^{|^font-|Skip to Results/); });
+        if (garbageNames.length > 0) warnings.push(rf + ': ' + garbageNames.length + ' products with garbage names');
+        // Check for very short names
+        var shortNames = prods.filter(function(p) { return (p.name || '').length < 5; });
+        if (shortNames.length > 3) warnings.push(rf + ': ' + shortNames.length + ' products with names < 5 chars');
+      } catch(e) {}
+    }
+    if (warnings.length > 0) {
+      console.log('  ⚠️  DATA WARNINGS:');
+      warnings.forEach(function(w) { console.log('    - ' + w); });
+    } else {
+      console.log('  ✅ All data looks clean');
+    }
+  }
+
   if (!opts.dryRun) {
     // Scrape store-wide deals
     try {
