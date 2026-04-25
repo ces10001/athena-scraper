@@ -1283,13 +1283,22 @@ function ReportTab({data,favsVer}){
 
   function exportPDF(){
     var el=document.getElementById('athena-report');if(!el)return;
-    // Temporarily constrain width for PDF
-    el.style.maxWidth='680px';el.style.padding='20px';el.style.fontSize='12px';
-    var tables=el.querySelectorAll('table');tables.forEach(function(t){t.style.fontSize='11px'});
-    var opt={margin:[12,12,12,12],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,width:680},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'}};
+    
+    // Create a style element to force PDF-friendly layout
+    var pdfStyle=document.createElement('style');
+    pdfStyle.id='athena-pdf-style';
+    pdfStyle.textContent='#athena-report{max-width:650px!important;padding:20px!important;font-size:11px!important;box-sizing:border-box!important}'+
+      '#athena-report table{width:100%!important;table-layout:fixed!important;font-size:10px!important;word-break:break-word!important}'+
+      '#athena-report th,#athena-report td{padding:4px 5px!important;overflow:hidden!important;text-overflow:ellipsis!important;word-break:break-word!important;white-space:normal!important}'+
+      '#athena-report th:first-child,#athena-report td:first-child{max-width:140px!important}'+
+      '#athena-report img{max-width:50px!important;max-height:50px!important}'+
+      '#athena-report div[style*="display: flex"]{flex-wrap:wrap!important}'+
+      '#athena-report div[style*="display:flex"]{flex-wrap:wrap!important}';
+    document.head.appendChild(pdfStyle);
+    
+    var opt={margin:[10,8,10,8],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.92},html2canvas:{scale:2,useCORS:true,width:650,windowWidth:650},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['avoid-all','css','legacy']}};
     html2pdf().set(opt).from(el).save().then(function(){
-      el.style.maxWidth='';el.style.padding='32px';el.style.fontSize='';
-      tables.forEach(function(t){t.style.fontSize=''});
+      var s=document.getElementById('athena-pdf-style');if(s)s.remove();
     });
   }
 
