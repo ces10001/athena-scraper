@@ -1,0 +1,368 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Hash Burger (I) 0013",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hash Burger (I) 0013: $42.00 > $33.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Capy Flower (H) 00829",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy Flower (H) 00829: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jealousy Lil' Budz (H) 00522",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Jealousy Lil' Budz (H) 00522: $56.00 > $44.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower Modified Goat (I) 01487",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower Modified Goat (I) 01487: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Blue Dream (S) 0042",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Blue Dream (S) 0042: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem D Whole Flower (H) 00514",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Chem D Whole Flower (H) 00514: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Whole Flower Purple Milk (I) 00347",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Brix Cannabis Whole Flower Purple Milk (I) 00347: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Lobster Flower (I) 00857",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Blue Lobster Flower (I) 00857: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls Lemon Cherry Sherb (H) 26854",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls Lemon Cherry Sherb (H) 26854: $65.00 > $52.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Caddy Rainbow Flower (I) 00923",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Caddy Rainbow Flower (I) 00923: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Hi Life Fun Size Budz (H) 0033",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life Fun Size Budz (H) 0033: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower Muffin Grease (H) 01474",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower Muffin Grease (H) 01474: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lil' Budz Chem D 7g (H) 00353",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Lil' Budz Chem D 7g (H) 00353: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Heir Heads Flower (H) 26778",
+    "brand": "CTPharma",
+    "message": "CTPharma Heir Heads Flower (H) 26778: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn CT Kush Cake (H) 0038",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Kush Cake (H) 0038: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Jungle Cake Whole Flower (H) 00484",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Brix Cannabis Jungle Cake Whole Flower (H) 00484: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Skunk Flower (S) 00883",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Lemon Skunk Flower (S) 00883: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Solo Burger Flower (I) 00907",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Solo Burger Flower (I) 00907: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coconut Milk Flower (I) 00794",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Coconut Milk Flower (I) 00794: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Fritter Flower (H) 00912",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Apple Fritter Flower (H) 00912: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Yeet (H) 0020",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Yeet (H) 0020: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Swamp Water Fumez | Premium Flower | Hybrid | 3.5g",
+    "brand": "RYTHM",
+    "message": "RYTHM Swamp Water Fumez | Premium Flower | Hybrid | 3.5g: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream Flower (I) 00810",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Sunshine Daydream Flower (I) 00810: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls Original Glue (I) 26896",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls Original Glue (I) 26896: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls Nimbus Snacks (S) 26876",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls Nimbus Snacks (S) 26876: $80.00 > $64.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls Gush Mintz (I) 26872",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls Gush Mintz (I) 26872: $65.00 > $52.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND Red Gary (H) 26956",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Red Gary (H) 26956: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND Nimbus Snacks (S) 26949",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND Nimbus Snacks (S) 26949: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Medellin Flower (I) 00823",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Medellin Flower (I) 00823: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "MF-107 Flower (S) 00837",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow MF-107 Flower (S) 00837: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Fresh | Premium Flower | Sativa | 3.5g",
+    "brand": "RYTHM",
+    "message": "RYTHM Lemon Fresh | Premium Flower | Sativa | 3.5g: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Kronic 47 Flower Minis (S) 00869",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Kronic 47 Flower Minis (S) 00869: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jokerz Flower (I) 26746",
+    "brand": "CTPharma",
+    "message": "CTPharma Jokerz Flower (I) 26746: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jealousy Whole Flower (H) 00512",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Jealousy Whole Flower (H) 00512: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gush Mintz Lil' Budz (I) 00475",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Gush Mintz Lil' Budz (I) 00475: $56.00 > $44.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower White Caps (I) 01542 TC 37.946%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower White Caps (I) 01542 TC 37.946%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Paw Paw (H) 01597 TC 27.942%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Paw Paw (H) 01597 TC 27.942%: $85.00 > $68.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Nuclear Mfns (H) 01431 TC 26.829%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Nuclear Mfns (H) 01431 TC 26.829%: $150.00 > $120.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Lunar Diesel (H) 01540 TC 26.566%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Lunar Diesel (H) 01540 TC 26.566%: $85.00 > $68.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Floral Frost (H) 01539",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Floral Frost (H) 01539: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Atomic Breath (H) 01559",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Atomic Breath (H) 01559: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower Apple Tartz (H) 01532",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower Apple Tartz (H) 01532: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower Foreign Kush Mints (I) 01494 TC 34.987%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Dark Heart Collection Whole Flower Foreign Kush Mints (I) 01494 TC 34.987%: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape Bubblegum | Premium Flower | Hybrid | 3.5g",
+    "brand": "RYTHM",
+    "message": "RYTHM Grape Bubblegum | Premium Flower | Hybrid | 3.5g: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Good Green Glue Fondue (S) 01179",
+    "brand": "Good Green",
+    "message": "Good Green Good Green Glue Fondue (S) 01179: $110.00 > $88.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GG4 Whole Flower (H) 00510",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis GG4 Whole Flower (H) 00510: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower Tropical Heatwave (H) 01513",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower Tropical Heatwave (H) 01513: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower Forest Reserve (H) 01514",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower Forest Reserve (H) 01514: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "E85 Flower (S) 26812",
+    "brand": "CTPharma",
+    "message": "CTPharma E85 Flower (S) 26812: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dieselato Flower (H) 26461",
+    "brand": "CTPharma",
+    "message": "CTPharma Dieselato Flower (H) 26461: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Whole Flower Triple Stack (I) 01554",
+    "brand": "Dark Heart Collection",
+    "message": "Dark Heart Collection Dark Heart Collection Whole Flower Triple Stack (I) 01554: $40.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy Flower Golden Hour (H) 00192",
+    "brand": "Comffy",
+    "message": "Comffy Comffy Flower Golden Hour (H) 00192: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Whole Flower Soap (S) 00369",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Brix Cannabis Whole Flower Soap (S) 00369: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Afgooey Whole Flower (I) 00437",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Brix Cannabis Afgooey Whole Flower (I) 00437: $38.00 > $30.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Maple | Mini Buds | Indica | 7g",
+    "brand": "RYTHM",
+    "message": "RYTHM Black Maple | Mini Buds | Indica | 7g: $65.00 > $52.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bananaconda Lil' Budz (H) 00494",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Bananaconda Lil' Budz (H) 00494: $56.00 > $44.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Appz Bnnz Flower (H) 00932",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Appz Bnnz Flower (H) 00932: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Afgooey Lil' Budz (I) 00445",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Afgooey Lil' Budz (I) 00445: $50.00 > $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Strawberry Kiwi 3mg",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Strawberry Kiwi 3mg $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Mango Seltzer 3mg",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Mango Seltzer 3mg $6.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hella Jelly Lil' Budz (S) 00527",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Hella Jelly Lil' Budz (S) 00527"
+  }
+]

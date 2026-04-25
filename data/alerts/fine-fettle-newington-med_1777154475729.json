@@ -1,0 +1,1364 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Chem D (H) Smalls",
+    "brand": "Lil Budz",
+    "message": "New: Lil Budz - Chem D (H) Smalls $44.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wedding Cake (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake (I) 1g Pre-Roll 1pk (1g): $7.00 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer L. (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Summer L. (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Early Frost (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Early Frost (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ched R Cheez (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Ched R Cheez (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Tangerine (S) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Atomic Tangerine (S) 0.5g Pre-Roll 7pk (3.5g) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Umami OG (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Umami OG (I) 0.5g Pre-Roll 7pk (3.5g) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint Condition (S) 0.5g Pre-Rolls 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Mint Condition (S) 0.5g Pre-Rolls 7pk (3.5g) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Homebody (I) 0.5g Pre-Roll 7pk (3.5g) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Cap Junk (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mega Lemon Goop (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Early Birds",
+    "message": "New: Early Birds - Mega Lemon Goop (H) 0.4g Pre-Rolls 5pk (2g) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gelato Rntz (I) 0.4g Pre-Roll 1pk (0.4g)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Gelato Rntz (I) 0.4g Pre-Roll 1pk (0.4g) $4.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary (H) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Red Gary (H) THCA Infused Pre-Roll 1pk (1g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hi Life (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Hi Life (S) 1g Pre-Roll 1pk (1g) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "PB Bites (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - PB Bites (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow B. (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Rainbow B. (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer L. (S) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Summer L. (S) 0.5g Pre-Rolls 5pk (2.5g) $23.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CHJ (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Springtime",
+    "message": "New: Springtime - CHJ (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's (H) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's (H) big:timer Rosin Roll (2g) $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hippie Crasher (I) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Hippie Crasher (I) 0.7g Pre-Rolls 3pk (2.1g) $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO (I) Big Ray 1g Pre-Roll 1pk (1g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - GMO (I) Big Ray 1g Pre-Roll 1pk (1g) $9.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JFO (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Springtime",
+    "message": "New: Springtime - JFO (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Titan Express (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Titan Express (S) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunshine Daydream (I) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Sunshine Daydream (I) 0.7g Pre-Rolls 3pk (2.1g) $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Permanent Marker (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jungle Cake (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Jungle Cake (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rose Gold RTZ (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "AGL",
+    "message": "New: AGL - Rose Gold RTZ (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks (S) 0.4g Pre-Rolls 4pk (1.6g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks (S) 0.4g Pre-Rolls 4pk (1.6g) $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw (H) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream CKE (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream CKE (I) 1g Pre-Roll 1pk (1g) $7.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Gush Mintz (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slingria (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - Slingria (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger (I) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger (I) big:timer Rosin Roll (2g) $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz (H) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks (S) big:timer Rosin Roll (2g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks (S) big:timer Rosin Roll (2g) $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g) $17.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey (H) Fatboy Infused Pre-Roll 1pk (2g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey (H) Fatboy Infused Pre-Roll 1pk (2g) $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg (H) THCA Infused Pre-Roll 1pk (1g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker (H) Infused Blunt 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker (H) Infused Blunt 1pk (1g) $19.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Legacy (S) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Durban Legacy (S) BH Infused Pre-Roll 1pk (1g) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Triple Stack (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost (H) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Push OG (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Push OG (I) 1g Pre-Roll 1pk (1g) $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy (S) Infused Shorties 10pk (4g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy (S) Infused Shorties 10pk (4g) $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke (I) Infused Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke (I) Infused Pre-Roll 1pk (1g) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonbeam Latto (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Moonbeam Latto (H) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Slapz (H) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "AGL",
+    "message": "New: AGL - Slapz (H) 0.5g Pre-Rolls 5pk (2.5g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Brains (I) Infused Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Brains (I) Infused Pre-Roll 1pk (1g) $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Chemdawg (H) BH Infused Pre-Roll 1pk (1g) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face (H) 0.4g Pre-Rolls 5pk (2g) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Foreign Kush Mints (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (S) Infused Shorties 4pk (1.6g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (S) Infused Shorties 4pk (1.6g) $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Early Birds",
+    "message": "New: Early Birds - Specimen X (H) 0.4g Pre-Rolls 5pk (2g) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger (I) Rosin Roll Shorties 4pk (1.6g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger (I) Rosin Roll Shorties 4pk (1.6g) $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - Bulbz (I) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Atomic Breath (H) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - C-Stata (H) 0.5g Pre-Rolls 5pk (2.5g) $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Astro GMO (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling (S) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Sunset Kush (I) BH Infused Pre-Roll 1pk (1g) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Batter (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Berry Batter (I) 0.4g Pre-Rolls 5pk (2g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout (I) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - B Scout (I) 0.35g Pre-Rolls 5pk (1.75g) $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot (H) Flavor Series Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scrub Trooper (H) AIO Disposable Vape (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Scrub Trooper (H) AIO Disposable Vape (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Z (S) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - Durban Z (S) Disposable Vape (0.3g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie (S) Flavor Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cheddar Cheeze (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - Cheddar Cheeze (I) Disposable Vape (0.3g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Dream (H) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "New: Select - Blue Dream (H) BRIQ Legacy Series Disposable Vape (1g) $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Laughing Buddha (S) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Laughing Buddha (S) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber (I) Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber (I) Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie (S) BRIQ Flavor Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie (S) BRIQ Flavor Series Disposable Vape (2g) $97.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cannabis Cap Junk (H) Vape Cartridge",
+    "brand": "BRIX",
+    "message": "New: BRIX - Cannabis Cap Junk (H) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff (I) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff (I) Flavor Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motorbreath (I) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Motorbreath (I) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Casino Floor (I) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Casino Floor (I) Legacy Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Headcracker x Bubba F (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - Headcracker x Bubba F (I) Disposable Vape (0.3g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Kush (H) Live Resin Disposable Vape (0.5g)",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Watermelon Kush (H) Live Resin Disposable Vape (0.5g) $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake (I) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Wedding Cake (I) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff (S) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cannabis Gush Mintz (I) Vape Cartridge",
+    "brand": "BRIX",
+    "message": "New: BRIX - Cannabis Gush Mintz (I) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes (S) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonlight Dream (I) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Moonlight Dream (I) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO (H) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - GMO (H) Legacy Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon Haze (S) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Super Lemon Haze (S) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "White Widow (S) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - White Widow (S) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Durban Poison (S) Legacy Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti (I) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Garlotti (I) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - GASolotti (S) Legacy Series Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG (H) Hyphen Battery and Pod Bundle (2g)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Tahoe OG (H) Hyphen Battery and Pod Bundle (2g) $104.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "New: Select - Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g) $97.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple (S) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple (S) Mini Tank Disposable (0.5g) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape Escape (I) Petal Puffer Disposable (0.5g)",
+    "brand": "Edie Parker",
+    "message": "New: Edie Parker - Grape Escape (I) Petal Puffer Disposable (0.5g) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst (H) Elite Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Moonburst (H) Elite Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Forbidden Fruit (I) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Forbidden Fruit (I) Legacy Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk (H) Flavor Series Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk (I) AIO Disposable Vape (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Purple Milk (I) AIO Disposable Vape (1g) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cannabis Blue NDZ (H) Vape Cartridge",
+    "brand": "BRIX",
+    "message": "New: BRIX - Cannabis Blue NDZ (H) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin (H) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes (S) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout x LA Kush CKE (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - B Scout x LA Kush CKE (I) Disposable Vape (0.3g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Acapulco Gold (S) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Acapulco Gold (S) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Blitz (H) Live Resin Disposable Vape (1g)",
+    "brand": "SoundView",
+    "message": "New: SoundView - Blueberry Blitz (H) Live Resin Disposable Vape (1g) $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty (H) Vape Cartridge $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Parker Grape Escape (I) Vape Cartridge",
+    "brand": "Edie",
+    "message": "New: Edie - Parker Grape Escape (I) Vape Cartridge $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Planet (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Planet (I) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana SPLT (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana SPLT (I) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Horchata (H) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Horchata (H) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mango Puff (I) BRIQ Flavor Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "New: Select - Mango Puff (I) BRIQ Flavor Series Disposable Vape (2g) $97.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes (S) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes (S) Mini Tank Disposable (0.5g) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Poison (S) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Durban Poison (S) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie (S) Flavor Series Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Kookyz (S) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Orange Kookyz (S) Elite All In One (0.3g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO (I) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - GMO (I) Live Resin Vape Cartridge (1g) $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosido (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Dosido (I) Elite All In One (0.3g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Green G (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Green G (H) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "New: Select - Sour Z (S) BRIQ Legacy Series Disposable Vape (1g) $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz (I) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rainbow Haze (S) Liquid Diamonds AiroX Disposable Vape (1g)",
+    "brand": "Airo",
+    "message": "New: Airo - Rainbow Haze (S) Liquid Diamonds AiroX Disposable Vape (1g) $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Air Hdz (I) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff (S) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff (S) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Lemon Haze (S) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Super Lemon Haze (S) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Marker (I) AIO Disposable Vape (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Blue Marker (I) AIO Disposable Vape (1g) $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst (H) BRIQ Flavor Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "New: Select - Moonburst (H) BRIQ Flavor Series Disposable Vape (2g) $97.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Enchanted Apple (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Enchanted Apple (S) Vape Cartridge $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GASolotti (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "New: Select - GASolotti (S) BRIQ Legacy Series Disposable Vape (1g) $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sundae Slumber (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Sundae Slumber (I) Elite All In One (0.3g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty (H) Mini Tank Disposable (1g) $51.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blue Legend Sherb (H) Liquid Diamonds AiroPod",
+    "brand": "Airo",
+    "message": "New: Airo - Blue Legend Sherb (H) Liquid Diamonds AiroPod $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Burger (H) Live Rosin Voca Pro Disposable Vape (0.5g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banapple Burger (H) Live Rosin Voca Pro Disposable Vape (0.5g) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG (I) Elite All In One (0.3g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Regina Gorgeous (H) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - Regina Gorgeous (H) Disposable Vape (0.3g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Trop Cherry Honey Banana (H) Live Rosin Voca Pro Disposable Vape (0.5g)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Trop Cherry Honey Banana (H) Live Rosin Voca Pro Disposable Vape (0.5g) $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk (H) Flavor Series Vape Cartridge $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Essence Super Jack (S) Hyphen Pod",
+    "brand": "The",
+    "message": "New: The - Essence Super Jack (S) Hyphen Pod $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot (H) Elite All In One (0.3g) $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Sherbet (H) Live Resin Disposable Vape (1g)",
+    "brand": "SoundView",
+    "message": "New: SoundView - Watermelon Sherbet (H) Live Resin Disposable Vape (1g) $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Garlotti (I) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - Garlotti (I) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Juice OG (H) Hyphen Battery and Pod Bundle (1g)",
+    "brand": "The Essence",
+    "message": "New: The Essence - Juice OG (H) Hyphen Battery and Pod Bundle (1g) $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Maui Wowie (H) Disposable Vape (0.5g)",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Maui Wowie (H) Disposable Vape (0.5g) $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "MAC (S) Live Resin Disposable Vape (1g)",
+    "brand": "Lighthouse",
+    "message": "New: Lighthouse - MAC (S) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Crystal Palace (I) Liquid Diamonds Disposable Vape (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Crystal Palace (I) Liquid Diamonds Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motor Breath (I) Live Resin Disposable Vape (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Motor Breath (I) Live Resin Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cannabis Motor Breath (I) Live Resin Vape Cartridge",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Cannabis Motor Breath (I) Live Resin Vape Cartridge $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sheriff's Reserve (S) Liquid Diamonds Disposable Vape (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Sheriff's Reserve (S) Liquid Diamonds Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Noon Crystal (H) Liquid Diamonds Disposable Vape (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - High Noon Crystal (H) Liquid Diamonds Disposable Vape (1g) $53.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy (H) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Capy (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Singapore Sling (S) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Singapore Sling (S) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OG Kush (I) Live Resin Disposable Vape (1g)",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - OG Kush (I) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "360X 1:1 RSO Syringe (1mL)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - 360X 1:1 RSO Syringe (1mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Pomegranate Blueberry Acai (H) Gummies (4.57mg THC 24.1mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.96mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.96mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Strawberry Margarita (H) Fast Acting Gummies (4.76mg THC 5.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Peach Bellini (S) Fast Acting Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Gummies (4.5mg THC 18.68mg CBD 4.67mg CBN 5.02mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Connecticut Sunrise (S) Fast Acting Gummies (4.47mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry (I) Fast Acting Gummies (1.9mg THC 9.88mg CBD 1.97mg CBN 1.99mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry (I) Fast Acting Gummies (1.9mg THC 9.88mg CBD 1.97mg CBN 1.99mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Passionfruit Pineapple (H) Gummies (4.23mg THC 4.52mg CBD 4.64mg CBG 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Passionfruit Pineapple (H) Gummies (4.23mg THC 4.52mg CBD 4.64mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Limoncello (H) Fast Acting Gummies (4.93mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Limoncello (H) Fast Acting Gummies (4.93mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon (S) Gummies (9.58mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Watermelon (S) Gummies (9.58mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (I) RSO Chocolate (9.98mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Milk (I) RSO Chocolate (9.98mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry (H) Classic Bites (26.37mg 10pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Raspberry (H) Classic Bites (26.37mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.8mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry (H) RSO Gummies (9.8mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry (H) Gummies (9.72mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pineapple Raspberry (H) Gummies (9.72mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strahhhberry (H) Gummies (4.3mg THC 4.8mg CBD 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Strahhhberry (H) Gummies (4.3mg THC 4.8mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango (S) RSO Gummies (9.14mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Mango (S) RSO Gummies (9.14mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (I) RSO Chocolate (9.14mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Dark (I) RSO Chocolate (9.14mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (S) RSO Chocolate (9.76mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Dark (S) RSO Chocolate (9.76mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - G'Night Grape (I) Gummies (4.77mg THC 2.55mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pomegranate Punch (I) Gummies (9.2mg THC 4.74mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry (H) Fast Acting Gummies (4.68mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Black Cherry (H) Fast Acting Gummies (4.68mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangie Crush (S) Guap RSO Gummies (4.53mg 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tangie Crush (S) Guap RSO Gummies (4.53mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry (I) Remix Fast Acting Ratio Jellies (4.8mg THC 4.8mg CBD 4.64mg CBN 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Blackberry (I) Remix Fast Acting Ratio Jellies (4.8mg THC 4.8mg CBD 4.64mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon Spritz (S) Gummies (9.26mg 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Watermelon Spritz (S) Gummies (9.26mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Creative Clementine (S) Gummies (4.56mg THC 5.12mg THCV 20pk)",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Creative Clementine (S) Gummies (4.56mg THC 5.12mg THCV 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Blueberry (I) Gummies (4.61mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Midnight Blueberry (I) Gummies (4.61mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Melon Crash (I) Guap RSO Gummies (4.6mg THC 2.37mg CBN 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Melon Crash (I) Guap RSO Gummies (4.6mg THC 2.37mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mellow Mango (I) Gummies (4.8mg THC 5.06mg CBD 4.97mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)",
+    "brand": "Avexia",
+    "message": "Gone: Avexia - Harmony Tablets (2.45mg THC 2.61mg CBD 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape (I) RSO Gummies (9.48mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape (I) RSO Gummies (9.48mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Raspberry Pomegranate (H) Remix Fast Acting Ratio Jellies (4.76mg THC 4.27mg CBD 4.23mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Low Strength CBN Capsules (1mg THC 3.7mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Lemonade (S) Fast Acting Ratio Jellies (4.91mg 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Strawberry Lemonade (S) Fast Acting Ratio Jellies (4.91mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Kiwi (H) Fast Acting Gummies (4.85mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Strawberry Kiwi (H) Fast Acting Gummies (4.85mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon Lime (I) Fast Acting Jellies (4.38mg 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Watermelon Lime (I) Fast Acting Jellies (4.38mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lemonade (H) Gummies (4.71mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Lemonade (H) Gummies (4.71mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Strawberry Sunset (I) Gummies (9.46mg 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Strawberry Sunset (I) Gummies (9.46mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) RSO Gummies (4.82mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Peach (I) RSO Gummies (4.82mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "1:1 Capsules (8.3mg THC 10.1mg CBD 10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - 1:1 Capsules (8.3mg THC 10.1mg CBD 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Orange (H) Zero Proof Squeeze (2.37mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Orange (H) Zero Proof Squeeze (2.37mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Margarita (S) RSO Gummies (4.75mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Margarita (S) RSO Gummies (4.75mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry (H) X Bites (4.67mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Strawberry (H) X Bites (4.67mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Dark (H) Fast Acting Chocolate (4.75mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Sweet (H) Zero Proof Squeeze (2.27mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Lemonade (S) Live Resin Gummies (4.82mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Pink Lemonade (S) Live Resin Gummies (4.82mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lime (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Watermelon Lime (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero (S) Gummies (4.64mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero (S) Gummies (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peppermint (H) Lucky Spritz (10g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Peppermint (H) Lucky Spritz (10g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snoozzzeberry (H) Gummies (4.5mg THC 1.1mg CBN 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Snoozzzeberry (H) Gummies (4.5mg THC 1.1mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blood Orange (S) Gummies (4.97mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Blood Orange (S) Gummies (4.97mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Tropical Burst (S) Gummies (9.58mg THC 6.1mg THCV 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cranberry Pom (I) Gummies (4.46mg THC 4.77mg CBN 4.64mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Matter (H) X Bites (4.92mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Matter (H) X Bites (4.92mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango (H) Gummies (4.73mg THC 4.8mg CBD 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Mango (H) Gummies (4.73mg THC 4.8mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pagoti (H) Capsules (7.4mg 10pk)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pagoti (H) Capsules (7.4mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Blackberry Dream (I) Gummies (9.6mg THC 10.26mg CBD 9.84mg CBN 10pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sour Blackberry Dream (I) Gummies (9.6mg THC 10.26mg CBD 9.84mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Goodnight Grape (I) Gummies (4.35mg THC 25.94mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Freshly Squeezed (H) Gummies (4.61mg THC 10.18mg CBG 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Freshly Squeezed (H) Gummies (4.61mg THC 10.18mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Dash of Cherry (H) Zero Proof Squeeze (2.28mg 40mL)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Scorpion Bowl (H) RSO Gummies (4.77mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Lemonade (H) Gummies (4.27mg 20pk)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Mango Lemonade (H) Gummies (4.27mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Berry Burst (I) Gummies (9.36mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Berry Burst (I) Gummies (9.36mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon (H) Classic Bites (25.18mg 10pk)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Lemon (H) Classic Bites (25.18mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Drip (I) Guap RSO Gummies (4.76mg 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Berry Drip (I) Guap RSO Gummies (4.76mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangie Crush (S) Guap RSO Gummies (4.47mg 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tangie Crush (S) Guap RSO Gummies (4.47mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Orange Lime (H) X Bites (4.85mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Raspberry Orange Lime (H) X Bites (4.85mg 20pk)"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding $61.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake $33.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pappy Kush",
+    "brand": "Find.",
+    "message": "Gone: Find. - Pappy Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air HDZ",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Air HDZ"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO Skunk",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - GMO Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Casino Floor",
+    "brand": "Select",
+    "message": "Gone: Select - Casino Floor"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Gone: Select - Sundae Slumber"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solid State",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Solid State"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Gone: Select - Joocy Froot"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hasher Slasher",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hasher Slasher"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Canna Miranda",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Canna Miranda"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Gone: Select - Dosido"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Marker",
+    "brand": "Brix",
+    "message": "Gone: Brix - Permanent Marker"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Kiwi",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Strawberry Kiwi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz x OMG",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Fantasy Melonz x OMG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Creamsicle Sunset",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Creamsicle Sunset"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Panckes"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Panckes"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Glue x Kong",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Garlic Glue x Kong"
+  }
+]

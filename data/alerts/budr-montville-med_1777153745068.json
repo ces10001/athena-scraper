@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749%",
+    "brand": "FIND",
+    "message": "New: FIND - FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749% $32.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon 7g 41644",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon 7g 41644"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dogs(.35g x 5 pr",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Dogwalkers 5 Pack Minis Vel Croz (H) 01386Dogwalkers5 Pack Mini Dogs(.35g x 5 pr"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc.edibles 20 Pack Tangahhhrine THC/CBD Gummies 01288(inc)",
+    "brand": "edibles",
+    "message": "Gone: edibles - inc.edibles 20 Pack Tangahhhrine THC/CBD Gummies 01288(inc)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Earl Baker - Whole Flower .5g x 2 Preroll - Chem Pop 021",
+    "brand": "Pack",
+    "message": "Gone: Pack - Earl Baker - Whole Flower .5g x 2 Preroll - Chem Pop 021"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Happy Confection-Creative Clementine THCV-(S)-00452The Happy Confection™Gumm",
+    "brand": null,
+    "message": "Gone: null - The Happy Confection-Creative Clementine THCV-(S)-00452The Happy Confection™Gumm"
+  }
+]

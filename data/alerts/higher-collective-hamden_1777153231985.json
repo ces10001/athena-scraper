@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Yellow Haze OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Type A",
+    "brand": "comffy",
+    "message": "Gone: comffy - Type A"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Lemon Skunk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Tangahhhrine",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Sour Tangahhhrine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bachelor Party BHO",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Bachelor Party BHO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "MF-107",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - MF-107"
+  }
+]

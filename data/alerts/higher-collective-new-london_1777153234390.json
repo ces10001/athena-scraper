@@ -1,0 +1,212 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Banana Split",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banana Split $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel $155.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air Hdz",
+    "brand": "all:hours",
+    "message": "New: all:hours - Air Hdz $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ori",
+    "brand": "Affinity",
+    "message": "New: Affinity - Ori $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ori",
+    "brand": "Affinity",
+    "message": "New: Affinity - Ori $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State Infused",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State Infused $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cake",
+    "brand": "Affinity",
+    "message": "New: Affinity - Ice Cream Cake $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG4 LOTO",
+    "brand": "Affinity",
+    "message": "New: Affinity - GG4 LOTO $25.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chew RSO Rainbow Rush",
+    "brand": "Affinity",
+    "message": "New: Affinity - Chew RSO Rainbow Rush $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sherbanger 22",
+    "brand": "Affinity",
+    "message": "New: Affinity - Sherbanger 22 $24.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $155.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chew Pineapple Toasted Coconut",
+    "brand": "Affinity",
+    "message": "New: Affinity - Chew Pineapple Toasted Coconut $8.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Delight",
+    "brand": "Affinity",
+    "message": "New: Affinity - Lemon Delight $19.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "New: all:hours - Banana Acai Mints $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "New: Affinity - Capy $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Gush Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Frosting Gelato",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Blueberry Frosting Gelato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Hippie Crasher"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Loud",
+    "message": "Gone: Loud - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff",
+    "brand": "Loud",
+    "message": "Gone: Loud - Mango Puff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple 22",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Black Maple 22"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Tangerine",
+    "brand": "comffy",
+    "message": "Gone: comffy - Atomic Tangerine"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Wedding Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Biscotti Pie -  All Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Biscotti Pie -  All Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chimera #2",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Chimera #2"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Rainbows",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Rainbows"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream Live Terpene",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sunshine Daydream Live Terpene"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine Infused",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Orange Sunshine Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sunshine Daydream"
+  }
+]

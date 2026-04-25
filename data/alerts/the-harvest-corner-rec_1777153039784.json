@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Black Cherry RSO Gummies T98.8 10pk (2-27003)",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sour Black Cherry RSO Gummies T98.8 10pk (2-27003) $29.70"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints part:timers Flower T24.34 (4-41198)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints part:timers Flower T24.34 (4-41198)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry RSO Gummies T98 10pk (2-26899)",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sour Black Cherry RSO Gummies T98 10pk (2-26899)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Trop Cherry Honey Banana Rosin Vape Cart T413 (4-41615)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Trop Cherry Honey Banana Rosin Vape Cart T413 (4-41615)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz 5 Pack Pre Roll Minis T22.40 (1-01142)",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Fantasy Melonz 5 Pack Pre Roll Minis T22.40 (1-01142)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "X Bites Orange Matter Gummies T4.92 20pk (3-01470)",
+    "brand": "Select",
+    "message": "Gone: Select - X Bites Orange Matter Gummies T4.92 20pk (3-01470)"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Margarita | CBD:THC Gummies | 100mg (20pk) | C0060000430",
+    "brand": "Wana",
+    "message": "New: Wana - Strawberry Margarita | CBD:THC Gummies | 100mg (20pk) | C0060000430 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orange Cookiez | Vape Cart | 1g (C0170000039)",
+    "brand": "Loud",
+    "message": "New: Loud - Orange Cookiez | Vape Cart | 1g (C0170000039) $40.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw | Pre-Pack | 3.5g | 01158",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Paw Paw | Pre-Pack | 3.5g | 01158"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry Dream | THC:CBD:CBN Sour Gummies | 100mg (10pk) | C0060000395",
+    "brand": "Camino",
+    "message": "Gone: Camino - Blackberry Dream | THC:CBD:CBN Sour Gummies | 100mg (10pk) | C0060000395"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO | Pre-Packed | 14g | 41652",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO | Pre-Packed | 14g | 41652"
+  }
+]

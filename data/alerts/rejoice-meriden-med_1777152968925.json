@@ -1,0 +1,80 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Blockberry (BLB) 00075",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Blockberry (BLB) 00075 $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) - 00959",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g White Hot Guava (H) - 00959: $32.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Catching Citrus Dreams Medium Dose",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Catching Citrus Dreams Medium Dose: $29.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Crushin' It Cran-Raspberry 20ct (S) - 00245",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Crushin' It Cran-Raspberry 20ct (S) - 00245: $27.00 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino-Mango- 20ct 00227",
+    "brand": "Camino",
+    "message": "Camino Camino-Mango- 20ct 00227: $34.00 > $23.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection-High Dose- Boosted Berry-20ct",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection-High Dose- Boosted Berry-20ct: $85.00 > $55.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "3:1 Transdermal Cream 41073",
+    "brand": "Theraplant",
+    "message": "Theraplant 3:1 Transdermal Cream 41073: $37.00 > $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Citrus Punch Live Resin Disposable Vape (1G)  (S) 00229",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Citrus Punch Live Resin Disposable Vape (1G)  (S) 00229"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Shaka Pre-Roll 1.0g POG 00107",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - Shaka Pre-Roll 1.0g POG 00107"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g Orange Kookyz (S) 01242",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Briq All In One Disposable Vape 2g Orange Kookyz (S) 01242"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Pineapple Habanero 20ct (H) - 00421",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Pineapple Habanero 20ct (H) - 00421"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Coconut Milk Flower T29.49% I 00794"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana-Quick-Limoncello-(H)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana-Quick-Limoncello-(H)"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Legacy Series Briq 2.0 Couch Kush",
+    "brand": "Select",
+    "message": "New: Select - Legacy Series Briq 2.0 Couch Kush $94.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gush Mintz",
+    "brand": "CTPharma",
+    "message": "CTPharma Gush Mintz: $16.80 > $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "College Park",
+    "brand": "Affinity",
+    "message": "New: Affinity - College Park $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Permanent Marker $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flavor Series Juicy Fruit",
+    "brand": "Select",
+    "message": "New: Select - Flavor Series Juicy Fruit $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flavor Series Juicy Fruit",
+    "brand": "Select",
+    "message": "New: Select - Flavor Series Juicy Fruit $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Flavor Series Sofa Sonata",
+    "brand": "Select",
+    "message": "New: Select - Flavor Series Sofa Sonata $66.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "New: Affinity - Capy $25.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cake",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Ice Cream Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Papi Purple Live Resin",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Papi Purple Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Rainbow Rush",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Chew RSO Rainbow Rush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Colorado Flo (Aniva)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Colorado Flo (Aniva)"
+  }
+]

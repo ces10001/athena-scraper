@@ -876,12 +876,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "WEHA - Get Loud",
-    "description": "Get Loud with us all through the month of April ... purchase two 1g Loud vapes to receive a third for a penny!",
-    "dispensary": "SweetSpot - Stamford (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "MED Curaleaf Classic Bites Lemon 2 for $90",
     "description": "",
     "dispensary": "SweetSpot - Stamford (Med)",
@@ -932,12 +926,6 @@
   {
     "title": "Buy 3 LOUD 1g Vape Carts for $100",
     "description": "",
-    "dispensary": "Still River Wellness (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Let's Burn Super Sale! 30% off!",
-    "description": "Save 30% on all Let's Burn products purchased on 4/24 and 4/25!",
     "dispensary": "Still River Wellness (Rec)",
     "platform": "dutchie"
   },
@@ -1190,12 +1178,6 @@
   {
     "title": "30% Off CT Pharma Brands",
     "description": "While supplies last. Ask an associate for details. Limited time only. Does not combine with other offers.",
-    "dispensary": "INSA - New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Featured Items - 60% Off!",
-    "description": "While supplies last. Ask an associate for details. Limited time only.",
     "dispensary": "INSA - New Haven (Rec)",
     "platform": "dutchie"
   },
@@ -1759,6 +1741,12 @@
   },
   {
     "title": "20% Off Coast Products",
+    "description": "",
+    "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "20% Flower",
     "description": "",
     "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
     "platform": "dutchie"
@@ -2502,27 +2490,15 @@
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
     "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Select Coast Gummies | 60% off",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
@@ -2544,13 +2520,19 @@
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "New Prices!",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
@@ -2646,867 +2628,45 @@
     "platform": "finefettle"
   },
   {
-    "title": "CANNABIS RETAILER DEALS & DISCOUNTS",
+    "title": "Loyalty Program",
     "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "SENIOR DISCOUNT",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "DOES SHANGRI-LA NORWALK OFFER DEALS AND DISCOUNTS?",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
+    "dispensary": "BUDR - Danbury (Mill Plain)",
+    "platform": "budr"
   },
   {
     "title": "Loyalty Program",
     "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "SENIOR DISCOUNT",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "DOES SHANGRI-LA SOUTH NORWALK OFFER DEALS AND DISCOUNTS?",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave",
-    "platform": "custom"
+    "dispensary": "BUDR - Danbury (Federal Rd)",
+    "platform": "budr"
   },
   {
     "title": "Loyalty Program",
     "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Waterbury",
-    "platform": "custom"
-  },
-  {
-    "title": "SENIOR DISCOUNT",
-    "description": "",
-    "dispensary": "Shangri-La - Waterbury",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Waterbury",
-    "platform": "custom"
-  },
-  {
-    "title": "DOES SHANGRI-LA WATERBURY OFFER DEALS AND DISCOUNTS?",
-    "description": "",
-    "dispensary": "Shangri-La - Waterbury",
-    "platform": "custom"
+    "dispensary": "BUDR - Montville",
+    "platform": "budr"
   },
   {
     "title": "Loyalty Program",
     "description": "",
-    "dispensary": "Shangri-La - Waterbury",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Plainville",
-    "platform": "custom"
-  },
-  {
-    "title": "SENIOR DISCOUNT",
-    "description": "",
-    "dispensary": "Shangri-La - Plainville",
-    "platform": "custom"
-  },
-  {
-    "title": "VALID WITH ID ON FIRST VISIT. NOT STACKABLE WITH OTHER DISCOUNTS OR PROMOTIONS.",
-    "description": "",
-    "dispensary": "Shangri-La - Plainville",
-    "platform": "custom"
-  },
-  {
-    "title": "DOES SHANGRI-LA PLAINVILLE OFFER DEALS AND DISCOUNTS?",
-    "description": "",
-    "dispensary": "Shangri-La - Plainville",
-    "platform": "custom"
+    "dispensary": "BUDR - Vernon",
+    "platform": "budr"
   },
   {
     "title": "Loyalty Program",
     "description": "",
-    "dispensary": "Shangri-La - Plainville",
-    "platform": "custom"
+    "dispensary": "BUDR - West Hartford",
+    "platform": "budr"
   },
   {
-    "title": "TAC: 79.7%",
+    "title": "Loyalty Program",
     "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
+    "dispensary": "BUDR - Stratford",
+    "platform": "budr"
   },
   {
-    "title": "THC: 79.7%",
+    "title": "Loyalty Program",
     "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 4.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 21.96%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 21.62%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 26.7%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 26.7%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.14%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 20.1%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 17.75%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 0.76%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 26.34%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 26.34%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 1.36%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 28%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 28%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 1.47%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 84.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 84.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 4.7%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 82.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 82.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 4.5%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Appz Bnnz Flower T25.77% H 00932",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 25.61%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 25.77%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 3.13%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Sunshine Daydream Infused Pre-Rolls T33.76% I 00886",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 31.94%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 33.76%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.54%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 81.6%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 81.6%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 3.4%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 24.9%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 22.24%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Apple Fritter Flower T23.93% H 00912",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 27.62%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 22.93%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 3.87%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 85.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 85.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 5%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Grape N Cream Infused 1g Big Ray T34.00% H 00834",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 34%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 34%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.13%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 90.3%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 85.51%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Blue Lobster Flower T25.82% I 00796",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 25.82%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 25.82%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 1.51%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Capy Infused Lil' Ricky's T44.20% H 00916",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 44.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 44.2%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 3.36%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 90%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 86.44%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Capy Flower T31.02% H 00905",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 31.02%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 31.02%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.75%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Grinz Infused Lil' Ricky's T36.49% I 00887",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 36.49%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 36.49%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 1.81%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 83.69%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 83.69%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 4.64%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 88.48%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 83.93%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Chem Roll Flower T23.46% I 00831",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 23.46%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 23.46%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.93%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "PB Breath Infused Lil' Ricky's T37.80% H 00917",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 37.8%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 37.8%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.12%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 90.32%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 86.39%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Cheese 1g Big Ray T24.38% I 00849",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 24.38%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 24.38%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 0.6%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 84.9%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 84.9%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 3.7%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Chem Ox 1g Big Ray T20.89% I 00862",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 20.89%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 20.89%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 0.84%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Garlic Icing Flower T30.59% I 00901",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 30.57%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 30.59%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "GG4 LOTO Flower T24.66% I 00934",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 28.37%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 24.66%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "GMO 1g Big Ray T30.52% I 00914",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 35.45%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 30.52%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.6%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 82.34%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 823.4%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 81.57%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 81.56%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 6.92%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Capy Lil' Ricky's T30.03% H 00889",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 30.03%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 30.03%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 1.6%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Hippie Crasher Flower T30.09% I 00894",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 35.27%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 30.09%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 2.77%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 82.23%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 82.23%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TERPS: 7.01%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "Orange Sunshine Pre-Rolls T26.69% I 00888",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "TAC: 26.69%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
-  },
-  {
-    "title": "THC: 26.69%",
-    "description": "",
-    "dispensary": "INSA - Hartford",
-    "platform": "custom"
+    "dispensary": "BUDR - Tolland",
+    "platform": "budr"
   }
 ]

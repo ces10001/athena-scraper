@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Go Gr Tz Rythm Flower T34.90 (01283)",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Go Gr Tz Rythm Flower T34.90 (01283) $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Cobbler x RNTZ Pen T250 (01293)",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Apple Cobbler x RNTZ Pen T250 (01293) $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BlueZZZberry 5:1 CBN Gummies T94:N405 (00207) 20pk",
+    "brand": "SoundView",
+    "message": "New: SoundView - BlueZZZberry 5:1 CBN Gummies T94:N405 (00207) 20pk $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream Cayk Select Elite Cartridge T892 (01517)",
+    "brand": "Select",
+    "message": "New: Select - Banana Cream Cayk Select Elite Cartridge T892 (01517) $58.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ice Cream Cke Firecracker T37.69 (41461)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Ice Cream Cke Firecracker T37.69 (41461) $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach Lemonade Gummies T5 (00555) 20pk",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Peach Lemonade Gummies T5 (00555) 20pk $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Haze THCA Infused PR T35.03 (25870)",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Tropical Haze THCA Infused PR T35.03 (25870) $27.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blood Orange Gummies T99.2 (00246) 20pk",
+    "brand": "SoundView",
+    "message": "New: SoundView - Blood Orange Gummies T99.2 (00246) 20pk $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry 5:1 CBN Gummies T94.6:N507.4 (00230) 20pk",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry 5:1 CBN Gummies T94.6:N507.4 (00230) 20pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel Flower T33.87 (00009)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mule Fuel Flower T33.87 (00009)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blood Orange Gummies T99.4 (00224) 20pk",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Blood Orange Gummies T99.4 (00224) 20pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Cream Cayk Select Flavor Series 510 T876 (01568)",
+    "brand": "Select",
+    "message": "Gone: Select - Banana Cream Cayk Select Flavor Series 510 T876 (01568)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Creative Clementine THC:THCV Gummies T4.56V5.12 (00452) 20pk",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - Creative Clementine THC:THCV Gummies T4.56V5.12 (00452) 20pk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Express Fast Acting THC Gummies T4.1 (01189) 20pk",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Pineapple Express Fast Acting THC Gummies T4.1 (01189) 20pk"
+  }
+]

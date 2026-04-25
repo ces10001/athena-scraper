@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Star Killer x CDLC Flower T25.17% I 00656",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Star Killer x CDLC Flower T25.17% I 00656 $46.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CAPY FLOWER MINIS T32.04% H 00824",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - CAPY FLOWER MINIS T32.04% H 00824"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|Flower 3.5g|Couch Surfer 00195",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|Flower 3.5g|Couch Surfer 00195"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing Flower T30.59% I 00901",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing Flower T30.59% I 00901"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 0.5g Vape Afternoon Delight (H) 01347"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Star Killer x CDLC Flower T26.01% I 00645",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Star Killer x CDLC Flower T26.01% I 00645"
+  }
+]

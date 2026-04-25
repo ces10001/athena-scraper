@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Trop Cherry 3.5g 0044",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Trop Cherry 3.5g 0044 $44.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn Blue Dream 1g Pre-roll 0047",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn Blue Dream 1g Pre-roll 0047 $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Briq All In One Disposable Vape 2g NYC Diesel (H) 01276",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Briq All In One Disposable Vape 2g NYC Diesel (H) 01276"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Flower 7g Glitter Bomb I 27039",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Flower 7g Glitter Bomb I 27039"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Lighthouse-Wedding Cake Live Resin-(I)-Bar-1g-00461"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Strawberry Kiwi 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SV Strawberry Kiwi 12 oz THC Seltzer"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Watermelon 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SV Watermelon 12 oz THC Seltzer"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Blood Orange 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SV Blood Orange 12 oz THC Seltzer"
+  }
+]

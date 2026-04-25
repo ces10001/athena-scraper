@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Pinapple Sunrise",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Pinapple Sunrise $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemon",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Blueberry Lemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Bubble",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Bubble"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Forbidden Fruit",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Forbidden Fruit"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Indica Princess",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Indica Princess"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chkn n Wflz",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Chkn n Wflz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Space Gello"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Pomme Jelly"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Peaceful Paradise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Diesel Bites",
+    "brand": "Find.",
+    "message": "Gone: Find. - Diesel Bites"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Speakeasy",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Speakeasy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Breath",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Jealousy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Drip",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Berry Drip"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "Gone: Select - Golden Tangie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Pastry",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Purple Pastry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tri Berry",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tri Berry"
+  }
+]

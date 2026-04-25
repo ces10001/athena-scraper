@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Camino Sours-Blackberry Dream with CBN CBD 10:10:10 Cannabis-Infused Vegan Gummi",
+    "brand": "CaminoSour",
+    "message": "New: CaminoSour - Camino Sours-Blackberry Dream with CBN CBD 10:10:10 Cannabis-Infused Vegan Gummi $27.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin 7g 41194",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin 7g 41194"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473",
+    "brand": "CTLive Resin",
+    "message": "Gone: CTLive Resin - Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Earl Baker - Whole Flower - Next level 0108",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Earl Baker - Whole Flower - Next level 0108"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 14g Super Lemon G S 26930",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 14g Super Lemon G S 26930"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice MT 41729",
+    "brand": "TheraplantMini Tank",
+    "message": "Gone: TheraplantMini Tank - Carbon Juice MT 41729"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg Bubble Hash Infused Doob - All Times 1g 41779Miss GrassSolventless Ice",
+    "brand": null,
+    "message": "Gone: null - Chemdawg Bubble Hash Infused Doob - All Times 1g 41779Miss GrassSolventless Ice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Dark Chocolate RSO T97.6mg S 26922",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Dark Chocolate RSO T97.6mg S 26922"
+  }
+]

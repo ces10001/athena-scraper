@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sweet Berry Burst Gummies 10pk - 26898",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Sweet Berry Burst Gummies 10pk - 26898 $16.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk Flower - 00518",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Purple Milk Flower - 00518"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Hyphen Haze Berry Pod 84.24 % (S) 2g - 26970",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Hyphen Haze Berry Pod 84.24 % (S) 2g - 26970"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CTPharma  Durban Stardawg THCA Infused Pre Roll 46.9 % (H) 1g - 26846",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CTPharma  Durban Stardawg THCA Infused Pre Roll 46.9 % (H) 1g - 26846"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solid State Infused Blunt - 01762",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Solid State Infused Blunt - 01762"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks Pre-Roll - 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks Pre-Roll - 27009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Superboo Live Terpene Disposable - 00706",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Superboo Live Terpene Disposable - 00706"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yeet Flower - 00008",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Yeet Flower - 00008"
+  }
+]
