@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Lemon Drip $23.37"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Tropical Haze"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "CTPharma",
+    "message": "CTPharma GMO: $31.85 > $36.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Jack",
+    "brand": "(the) Essence",
+    "message": "(the) Essence Super Jack: $52.15 > $59.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Zesty Garlic Kookyz $29.32"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Glue",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Glue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Watermelon Lime",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Watermelon Lime"
+  }
+]

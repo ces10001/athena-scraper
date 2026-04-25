@@ -7918,5 +7918,29 @@
     "med_original_price_cents": null,
     "medical_only": false,
     "rec_only": false
+  },
+  {
+    "external_id": "69ec680de5176b78fe175817",
+    "name": "Curaleaf Preroll 5 Pack 2g Slapz (I) TC 25.021% 00852 (5pk)",
+    "brand": "Curaleaf",
+    "category": "pre-rolls",
+    "subcategory": "packs",
+    "strain_type": "indica",
+    "price_cents": 3000,
+    "original_price_cents": null,
+    "weight_label": "2g",
+    "weight_grams": 2,
+    "unit_price_per_gram": 1500,
+    "thc_pct": 21.37,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": false,
+    "deal_description": null,
+    "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/804e42e693cd56f4cabf7c4b58b05544",
+    "product_url": null,
+    "med_price_cents": 3000,
+    "med_original_price_cents": null,
+    "medical_only": false,
+    "rec_only": false
   }
 ]

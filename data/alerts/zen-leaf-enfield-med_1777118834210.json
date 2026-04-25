@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry RSO",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry RSO"
+  }
+]

@@ -1,5 +1,25 @@
 [
   {
+    "external_id": "budr-BUDRRoll2gAIOVape41674891",
+    "name": "BUDR Roll 2g AIO Vape 41674",
+    "brand": "Budr",
+    "category": "vaporizers",
+    "subcategory": null,
+    "strain_type": null,
+    "price_cents": 8910,
+    "original_price_cents": null,
+    "weight_label": null,
+    "weight_grams": null,
+    "unit_price_per_gram": null,
+    "thc_pct": 91.03,
+    "cbd_pct": null,
+    "in_stock": true,
+    "on_sale": false,
+    "deal_description": "10% Off",
+    "image_url": null,
+    "product_url": null
+  },
+  {
     "external_id": "budr-BUDRHighOctane2gAIOVape41",
     "name": "BUDR High Octane 2g AIO Vape 41675",
     "brand": "Budr",
@@ -82,8 +102,8 @@
   {
     "external_id": "budr-Dogwalkers5PackMinisSwamp",
     "name": "Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.3",
-    "brand": null,
-    "category": "other",
+    "brand": "Dogwalkers",
+    "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,
     "price_cents": 2700,
@@ -142,8 +162,8 @@
   {
     "external_id": "budr-AGL1gVapeFantasyMelonzxVe",
     "name": "AGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillat",
-    "brand": null,
-    "category": "other",
+    "brand": "AGL",
+    "category": "vaporizers",
     "subcategory": null,
     "strain_type": null,
     "price_cents": 4500,
@@ -221,7 +241,7 @@
   },
   {
     "external_id": "budr-EARLyBirdsInfinityGrapes0",
-    "name": "EARLy Birds | Infinity Grapes 023Earl Baker5",
+    "name": "EARLy Birds | Infinity Grapes 023",
     "brand": "Pack",
     "category": "pre-rolls",
     "subcategory": null,
@@ -303,7 +323,7 @@
     "external_id": "budr-Chem9105g5pkPreRollsS0050",
     "name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per",
     "brand": null,
-    "category": "other",
+    "category": "pre-rolls",
     "subcategory": null,
     "strain_type": null,
     "price_cents": 2880,
@@ -321,7 +341,7 @@
   },
   {
     "external_id": "budr-EARLyBirdsMegaLemonGoop02",
-    "name": "EARLy Birds | Mega Lemon Goop 022Earl Baker5",
+    "name": "EARLy Birds | Mega Lemon Goop 022",
     "brand": "Pack",
     "category": "pre-rolls",
     "subcategory": null,
@@ -340,8 +360,8 @@
     "product_url": null
   },
   {
-    "external_id": "budr-BlueAndezeShortiesI26957C",
-    "name": "Blue Andeze Shorties I 26957CTPharma5",
+    "external_id": "budr-BlueAndezeShortiesI269572",
+    "name": "Blue Andeze Shorties I 26957",
     "brand": "Pack",
     "category": "pre-rolls",
     "subcategory": null,

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "THE GOODS - WHOLE FLOWER - TROPICAL KUSH 30001",
+    "brand": "The Goods",
+    "message": "The Goods THE GOODS - WHOLE FLOWER - TROPICAL KUSH 30001: $42.00 > $46.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
+    "brand": "Brix",
+    "message": "Brix Brix Cannabis Cap Junk 1g Vape (H) 00453: $55.00 > $50.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "ultra relief",
+    "brand": "Eastern Shore Extracts CBD",
+    "message": "Eastern Shore Extracts CBD ultra relief: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "oHHo - Rest - Full Spectrum CBD Oil",
+    "brand": "oHHo",
+    "message": "oHHo oHHo - Rest - Full Spectrum CBD Oil: $85.00 > $68.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "oHHo - Dream Cream Original",
+    "brand": "oHHo",
+    "message": "oHHo oHHo - Dream Cream Original: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "oHHo - CBNight Milk Chocolate, Salted Caramel",
+    "brand": "oHHo",
+    "message": "oHHo oHHo - CBNight Milk Chocolate, Salted Caramel: $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "oHHo - CBDay Milk Chocolate, Salted Caramel",
+    "brand": "oHHo",
+    "message": "oHHo oHHo - CBDay Milk Chocolate, Salted Caramel: $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nighttime Gummies",
+    "brand": "Eastern Shore Extracts CBD",
+    "message": "Eastern Shore Extracts CBD Nighttime Gummies: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Inflamed Capsules",
+    "brand": "Eastern Shore Extracts CBD",
+    "message": "Eastern Shore Extracts CBD Inflamed Capsules: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Huckleberry Gummies",
+    "brand": "Wyld",
+    "message": "Wyld Huckleberry Gummies: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Pomegranate Punch CBN:THC Gummies CBN46mg T94.4mg I 25866",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Pomegranate Punch CBN:THC Gummies CBN46mg T94.4mg I 25866: $22.40 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Daytime Gummies",
+    "brand": "Eastern Shore Extracts CBD",
+    "message": "Eastern Shore Extracts CBD Daytime Gummies: $15.00 > $12.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blueberry Pomegranate Sparkling Water CBD:CBN 25:5mg",
+    "brand": "Wyld",
+    "message": "Wyld Blueberry Pomegranate Sparkling Water CBD:CBN 25:5mg: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blood Orange Sparkling Water",
+    "brand": "Wyld",
+    "message": "Wyld Blood Orange Sparkling Water: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blackberry Gummies",
+    "brand": "Wyld",
+    "message": "Wyld Blackberry Gummies: $28.00 > $22.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ori Flower T22.99% I 00931",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ori Flower T22.99% I 00931: $7.20 > $22.40"
+  }
+]

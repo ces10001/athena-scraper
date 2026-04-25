@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Apple",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Sour Apple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Brix",
+    "message": "Gone: Brix - Purple Milk"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Marker",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Permanent Marker"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Titan Express"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "Gone: Select - Old School Blue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  }
+]
