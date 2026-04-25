@@ -64,45 +64,6 @@ body {
   position: relative;
 }
 
-/* Glowing eyes */
-.eye {
-  position: absolute;
-  width: 44px;
-  height: 30px;
-  background: rgba(232, 96, 10, 0);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  animation: eyeFlash 5s ease-in-out infinite;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.eye-left {
-  top: 47%;
-  left: 33%;
-  transform: translate(-50%, -50%);
-}
-
-.eye-right {
-  top: 47%;
-  right: 33%;
-  transform: translate(50%, -50%);
-}
-
-@keyframes eyeFlash {
-  0%, 38%, 42%, 78%, 82%, 100% { 
-    background: rgba(232, 96, 10, 0);
-    box-shadow: none;
-  }
-  40% { 
-    background: rgba(255, 140, 40, 0.9);
-    box-shadow: 0 0 20px rgba(232, 96, 10, 0.8), 0 0 40px rgba(232, 96, 10, 0.4), 0 0 60px rgba(232, 96, 10, 0.2);
-  }
-  80% { 
-    background: rgba(255, 140, 40, 0.9);
-    box-shadow: 0 0 20px rgba(232, 96, 10, 0.8), 0 0 40px rgba(232, 96, 10, 0.4), 0 0 60px rgba(232, 96, 10, 0.2);
-  }
-}
-
 .owl-wrap img {
   width: 100%;
   height: 100%;
@@ -320,8 +281,6 @@ body {
 <div class="main" id="landing">
   <div class="owl-wrap">
     <img id="owl-logo" alt="ATHENA" />
-    <div class="eye eye-left"></div>
-    <div class="eye eye-right"></div>
   </div>
   <div class="title">ATHENA</div>
   <div class="tagline">INSIGHT.&ensp;PRECISION.&ensp;EDGE.</div>
