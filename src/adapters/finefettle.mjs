@@ -21,8 +21,8 @@ function parseProductsFromText(text, category) {
     var block = blocks[i].trim();
     if (block.length < 20) continue;
 
-    // Match SKU code (C followed by 7+ digits)
-    var skuMatch = block.match(/(C\d{7,})/);
+    // Match SKU code (C followed by 7+ digits, or standalone 5-digit code)
+    var skuMatch = block.match(/(C\d{7,})/) || block.match(/\b(\d{5})\b/);
     if (!skuMatch) continue;
     var skuCode = skuMatch[1];
     if (seen[skuCode]) continue;
@@ -176,11 +176,25 @@ export async function scrapeFineFettle(dispensary) {
           await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
           await page.waitForTimeout(5000);
 
-          for (var scroll = 0; scroll < 15; scroll++) {
-            await page.evaluate(function() { window.scrollBy(0, 800); });
-            await page.waitForTimeout(150);
+          // Click "View more" / "Show more" / "Load more" buttons repeatedly
+          for (var vm = 0; vm < 20; vm++) {
+            try {
+              var moreBtn = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more"), a:has-text("View more"), a:has-text("Show more")').first();
+              if (await moreBtn.isVisible({ timeout: 1500 })) {
+                await moreBtn.scrollIntoViewIfNeeded();
+                await moreBtn.click();
+                await page.waitForTimeout(2000);
+              } else {
+                break;
+              }
+            } catch(e) { break; }
           }
-          await page.waitForTimeout(1000);
+
+          for (var scroll = 0; scroll < 20; scroll++) {
+            await page.evaluate(function() { window.scrollBy(0, 800); });
+            await page.waitForTimeout(200);
+          }
+          await page.waitForTimeout(1500);
 
           var text = await page.evaluate(function() {
             var main = document.querySelector('main');

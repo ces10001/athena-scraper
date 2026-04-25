@@ -25,28 +25,58 @@ async function scrapeDutchieDeals(dispensaries, browser) {
   try { await page.goto('https://dutchie.com', { waitUntil: 'domcontentloaded', timeout: 15000 }); } catch(e) {}
   await page.waitForTimeout(2000);
 
+  // Try to get current hash from Dutchie's page source
+  var currentHash = HASH;
+  try {
+    var pageHash = await page.evaluate(function() {
+      var scripts = document.querySelectorAll('script[src]');
+      for (var s of scripts) {
+        if (s.src && s.src.includes('_next')) return s.src;
+      }
+      return null;
+    });
+    if (pageHash) console.log('  [deals] Dutchie page loaded, testing hash...');
+  } catch(e) {}
+
+  var errorLogged = false;
   for (var i = 0; i < dispensaries.length; i++) {
     var disp = dispensaries[i];
     var id = disp.dispensary_id;
     var mt = (disp.menu_type || 'rec').toUpperCase();
     if (!id) continue;
     try {
-      var deals = await page.evaluate(function(args) {
-        var url = 'https://dutchie.com/api-2/graphql?operationName=GetSpecialMenuCards&variables=' +
-          encodeURIComponent(JSON.stringify({dispensaryId:args.id, menuType:args.mt, platformType:'ONLINE_MENU'})) +
-          '&extensions=' + encodeURIComponent(JSON.stringify({persistedQuery:{version:1, sha256Hash:args.hash}}));
-        return fetch(url, {headers:{'Accept':'application/json'}}).then(function(r){return r.json()}).then(function(data) {
+      var result = await page.evaluate(function(args) {
+        var url = 'https://dutchie.com/api-2/graphql';
+        var body = JSON.stringify({
+          operationName: 'GetSpecialMenuCards',
+          variables: {dispensaryId: args.id, menuType: args.mt, platformType: 'ONLINE_MENU'},
+          extensions: {persistedQuery: {version: 1, sha256Hash: args.hash}}
+        });
+        return fetch(url, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+          body: body
+        }).then(function(r) { return r.json(); }).then(function(data) {
+          if (data.errors) return {error: JSON.stringify(data.errors).substring(0, 200)};
           var cards = data && data.data && data.data.getSpecialMenuCards && data.data.getSpecialMenuCards.menuCards;
-          if (!cards) return [];
-          return cards.map(function(c) { return {title: c.menuDisplayName||'', description: c.menuDisplayDescription||''}; }).filter(function(d) { return d.title.length > 0; });
-        }).catch(function() { return []; });
-      }, {id: id, mt: mt, hash: HASH});
+          if (!cards) return {error: 'no menuCards in response', keys: Object.keys(data.data || {}).join(',')};
+          return {deals: cards.map(function(c) { return {title: c.menuDisplayName||'', description: c.menuDisplayDescription||''}; }).filter(function(d) { return d.title.length > 0; })};
+        }).catch(function(e) { return {error: e.message}; });
+      }, {id: id, mt: mt, hash: currentHash});
 
+      if (result.error && !errorLogged) {
+        console.warn('  [deals] Dutchie GraphQL error: ' + result.error);
+        errorLogged = true;
+      }
+      
+      var deals = result.deals || [];
       if (deals.length > 0) {
         console.log('  [deals] ' + disp.name + ': ' + deals.length + ' deals');
         deals.forEach(function(d) { allDeals.push({title: d.title, description: d.description, dispensary: disp.name, platform: 'dutchie'}); });
       }
-    } catch(e) {}
+    } catch(e) {
+      if (!errorLogged) { console.warn('  [deals] Dutchie evaluate error: ' + e.message); errorLogged = true; }
+    }
   }
   await page.close();
   await context.close();
