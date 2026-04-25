@@ -1,0 +1,398 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Grassroots Jayna's Sunshine: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "Grassroots White Hot Guava: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "Find. Glacial Garden: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Martian Mints",
+    "brand": "Find.",
+    "message": "Find. Martian Mints: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry",
+    "brand": "Select",
+    "message": "Select Strawberry: $22.75 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $19.50 > $23.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Muffin Grease",
+    "brand": "Find.",
+    "message": "Find. Muffin Grease: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $22.75 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chem-Band",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Chem-Band $33.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Foreign Kush Mints: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Astro GMO: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonbeam Latto",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Moonbeam Latto: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $22.75 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $123.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ched R Cheez",
+    "brand": "Grassroots",
+    "message": "Grassroots Ched R Cheez: $11.70 > $11.05"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $22.75 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomme Jelly",
+    "brand": "Grassroots",
+    "message": "Grassroots Pomme Jelly: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $22.75 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Apple Tartz $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Grassroots Atomic Breath: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple: $26.00 > $22.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "JAMS Sour Watermelon Lime: $26.00 > $22.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "JAMS Sour Strawberry Lemonade: $26.00 > $22.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary",
+    "brand": "Savvy",
+    "message": "New: Savvy - Red Gary $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime: $22.75 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "New: Select - Tahoe OG $29.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $19.50 > $23.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "New: Select - Moonburst $84.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Old School Blue",
+    "brand": "Select",
+    "message": "New: Select - Old School Blue $29.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peach",
+    "brand": "SoundView",
+    "message": "New: SoundView - Peach $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Lime",
+    "brand": "SoundView",
+    "message": "New: SoundView - Raspberry Lime $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $49.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Select Mango Puff: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Select Couch Kush: $45.50 > $42.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey $64.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "New: Select - GMO $87.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "Find. Back Porch: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Grassroots Berry Batter: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Martian Mints",
+    "brand": "Find.",
+    "message": "Find. Martian Mints: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mrs. Brightside",
+    "brand": "Find.",
+    "message": "Find. Mrs. Brightside: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "Find. Silver Dollar: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Select Orange Kooykz: $45.50 > $42.90"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Matter"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Pomegranate",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Raspberry Pomegranate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreverberry",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Foreverberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Space Gello"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Indica Milk Chocolate",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Indica Milk Chocolate"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Gone: Find. - PB Bites"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Cider",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Apple Cider"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunny Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunny Stomper"
+  }
+]

@@ -1,113 +1,5 @@
 [
   {
-    "title": "Buy 3 Units Of Flower = 30% OFF EACH!",
-    "description": "Buy 3 Units of Flower and Receive 30% Off Each!",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "AFFINITY 20% OFF!",
-    "description": "All Affinity Grow & Chew Products are 20% OFF!",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Buy 2 Units Of Flower = 20% OFF EACH!",
-    "description": "Buy 2 Units of Flower and Receive 20% Off Each!",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Buy 3 Units Of Vapes = 30% OFF EACH!",
-    "description": "Buy 3 Units of Any Type Of Vape and Receive 30% Off Each! (LOUD CANNABIS IS EXCLUDED)",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Buy 2 Units Of Vapes = 20% OFF EACH!",
-    "description": "Buy 2 Units of Any Type Of Vape and Receive 20% Off Each! (LOUD CANNABIS IS EXCLUDED)",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Loud Cannabis!",
-    "description": "ANY 3 1g Vape Carts For $100",
-    "dispensary": "Lit New Haven (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "The Rack | SAVE 40%",
-    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
-    "description": "Limited Time Only - while supplies last. No Stacking!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BINGO BANGO | $27 FLOWER",
-    "description": "Limited time only - while supplies last. No Stacking.",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
-    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
-    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "20% off Earl Baker products",
-    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
-    "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "The Rack | SAVE 40%",
-    "description": "NEW- Welcome to our WHOLESALE rack! Shop here to get great prices on CT's premier cannabis brand. Limited time only, while supplies last! Discounts do not stack.",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BINGO BANGO | $27 FLOWER",
-    "description": "Limited time only - while supplies last. No Stacking.",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "DANK DEALS | 20% OFF SELECT ITEMS",
-    "description": "Limited Time Only - While Supplies Last. No Stacking!",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
-    "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
-    "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "20% off Earl Baker products",
-    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Last Chance Up To 40% Off! While Supplies Last!",
     "description": "Daily",
     "dispensary": "Curaleaf - Stamford",
@@ -146,12 +38,6 @@
   {
     "title": "Last Chance Up To 25% Off! While Supplies Last!",
     "description": "Daily",
-    "dispensary": "Curaleaf - Stamford",
-    "platform": "sweed"
-  },
-  {
-    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
-    "description": "Till 08:15 PM April 24",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
@@ -236,12 +122,6 @@
   {
     "title": "Last Chance Up To 25% Off! While Supplies Last!",
     "description": "Daily",
-    "dispensary": "Curaleaf - Hartford",
-    "platform": "sweed"
-  },
-  {
-    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
-    "description": "Till 08:15 PM April 24",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
@@ -336,12 +216,6 @@
     "platform": "sweed"
   },
   {
-    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
-    "description": "Till 08:15 PM April 24",
-    "dispensary": "Curaleaf - Groton",
-    "platform": "sweed"
-  },
-  {
     "title": "EXTENDED! $20 Find Eighths!",
     "description": "Till 06:15 PM April 26",
     "dispensary": "Curaleaf - Groton",
@@ -426,12 +300,6 @@
     "platform": "sweed"
   },
   {
-    "title": "Fun Friday! Spend $70+ Get a $10 Jams Jellies!",
-    "description": "Till 08:15 PM April 24",
-    "dispensary": "Curaleaf - Manchester",
-    "platform": "sweed"
-  },
-  {
     "title": "EXTENDED! $20 Find Eighths!",
     "description": "Till 06:15 PM April 26",
     "dispensary": "Curaleaf - Manchester",
@@ -480,19 +348,13 @@
     "platform": "sweed"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
@@ -516,19 +378,19 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "New Prices!",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Manchester (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -546,19 +408,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Newington (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -594,19 +450,7 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
@@ -618,6 +462,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Select Coast Gummies | 60% off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Med)",
@@ -642,19 +492,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
@@ -684,19 +528,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
@@ -732,19 +570,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Lucky Break Products | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Waterbury (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
@@ -768,25 +600,19 @@
     "platform": "finefettle"
   },
   {
+    "title": "All Affinity Grow | 30% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "New Prices!",
-    "description": "",
-    "dispensary": "Fine Fettle - West Hartford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - West Hartford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Amigos Vapes | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - West Hartford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
@@ -816,19 +642,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "Amigos Vapes | 25% Off",
+    "title": "All Affinity Grow | 30% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Grassroots Eighths | BOGO 50% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Willimantic (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Lucky Break Products | 25% Off",
+    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
@@ -944,126 +764,6 @@
   {
     "title": "B2G1 for $0.01 Everyday Tier 3.5g",
     "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "2 for $35 | Featured Asteroid 100mg Gummies",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "2/$99 Everyday Tier 1g Vapes",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "B2G1 for $0.01 Everyday Tier 1g Pre-rolls",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "3/$85 Everyday Tier 100mg Edibles",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 50% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 30% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 20% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 10% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flower | Buy 4 or More, Get 15% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flower | Buy 2 or More, Get 10% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Pre-rolls, Pre-roll Packs & Infused Pre-rolls | Buy 4 or More, Get 15% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Vape Carts | Buy 4 or More, Get 15% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Vape Carts | Buy 2 or More, Get 10% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Edibles | Buy 4 or More, Get 15% Off",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Accessories | $10 510 Cart Batteries",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 75% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Pre-roll Packs & Pre-rolls - Buy 2+, Get 10% Off 1",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 40% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Hamden",
-    "platform": "custom"
-  },
-  {
-    "title": "B2G1 for $0.01 Everyday Tier 3.5g",
-    "description": "",
-    "dispensary": "High Profile - Stratford",
-    "platform": "custom"
-  },
-  {
-    "title": "2 for $35 | Featured Asteroid 100mg Gummies",
-    "description": "",
     "dispensary": "High Profile - Stratford",
     "platform": "custom"
   },
@@ -1081,18 +781,6 @@
   },
   {
     "title": "3/$85 Everyday Tier 100mg Edibles",
-    "description": "",
-    "dispensary": "High Profile - Stratford",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 50% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Stratford",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 30% Off Featured Items",
     "description": "",
     "dispensary": "High Profile - Stratford",
     "platform": "custom"
@@ -1146,25 +834,19 @@
     "platform": "custom"
   },
   {
+    "title": "Edibles | Buy 2 or More, Get 10% Off",
+    "description": "",
+    "dispensary": "High Profile - Stratford",
+    "platform": "custom"
+  },
+  {
     "title": "Accessories | $10 510 Cart Batteries",
     "description": "",
     "dispensary": "High Profile - Stratford",
     "platform": "custom"
   },
   {
-    "title": "Flash Sale | 75% Off Featured Items",
-    "description": "",
-    "dispensary": "High Profile - Stratford",
-    "platform": "custom"
-  },
-  {
     "title": "Pre-roll Packs & Pre-rolls - Buy 2+, Get 10% Off 1",
-    "description": "",
-    "dispensary": "High Profile - Stratford",
-    "platform": "custom"
-  },
-  {
-    "title": "Flash Sale | 40% Off Featured Items",
     "description": "",
     "dispensary": "High Profile - Stratford",
     "platform": "custom"

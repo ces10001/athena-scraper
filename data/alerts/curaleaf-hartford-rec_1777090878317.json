@@ -1,0 +1,536 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "Find. Glacial Garden: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Triple Stack",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Triple Stack: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Muffin Grease",
+    "brand": "Find.",
+    "message": "Find. Muffin Grease: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava",
+    "brand": "Curaleaf",
+    "message": "Curaleaf White Hot Guava: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Foreign Kush Mints: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Select Couch Kush: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $11.70 > $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $152.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "New: all:hours - Mule Fuel $152.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Air HDZ",
+    "brand": "all:hours",
+    "message": "New: all:hours - Air HDZ $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava",
+    "brand": "Curaleaf",
+    "message": "Curaleaf White Hot Guava: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG: $10.80 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slip",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Foreign Kush Mints: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Nuclear Mfns: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Paw Paw: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pineapple Sunrise",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Pineapple Sunrise: $32.50 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Astro GMO: $11.70 > $10.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $22.75 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Diesel Bites",
+    "brand": "Find.",
+    "message": "Find. Diesel Bites: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ched R Cheez",
+    "brand": "Grassroots",
+    "message": "Grassroots Ched R Cheez: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Grassroots Jayna's Sunshine: $22.75 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $22.75 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomme Jelly",
+    "brand": "Grassroots",
+    "message": "Grassroots Pomme Jelly: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "Grassroots White Hot Guava: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple: $26.00 > $22.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "New: JAMS - Sour Watermelon Lime $22.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime: $22.75 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Select Durban Poison: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Old School OG",
+    "brand": "Select",
+    "message": "Select Old School OG: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Select Sundae Slumber: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $19.50 > $23.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dosido",
+    "brand": "Select",
+    "message": "Select Dosido: $19.50 > $23.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jelly Roll",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Roll $49.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $11.70 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Casino Floor",
+    "brand": "Select",
+    "message": "Select Casino Floor: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Select Moonburst: $45.50 > $42.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "Find. Back Porch: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Lit",
+    "brand": "Find.",
+    "message": "Find. Gas Lit: $52.00 > $42.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Grassroots Berry Batter: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $11.70 > $11.05"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $22.75 > $20.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grand Pappy's Chillemon $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gangsta Grillz $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $37.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Panckes",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Panckes $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy $72.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Buff $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wedding Cake",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Wedding Cake $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks $42.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $63.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty $33.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kooykz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kooykz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Watermelon Lime"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CP x Lemon Cherry G",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - CP x Lemon Cherry G"
+  }
+]

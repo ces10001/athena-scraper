@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Black Maple Flower T30.10% I 00856 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Black Maple Flower T30.10% I 00856 (3.5g) $48.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks Shorties S 26933 (5pk)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks Shorties S 26933 (5pk)"
+  }
+]

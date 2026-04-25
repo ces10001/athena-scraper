@@ -1,0 +1,32 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Granddaddy Purp 1g Vape T816 I 00900",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Granddaddy Purp 1g Vape T816 I 00900: $49.60 > $62.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Super Lemon Haze 0.5g LT Bar T417 S 00925",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Super Lemon Haze 0.5g LT Bar T417 S 00925: $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zelato BX 1g LT Vape T852 I 00822",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Zelato BX 1g LT Vape T852 I 00822: $56.00 > $70.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ice Cream Cke Flower T23.49% I 00926",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Ice Cream Cke Flower T23.49% I 00926: $36.00 > $45.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy Whole Flower 3.5g (H) 00512",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Jealousy Whole Flower 3.5g (H) 00512"
+  }
+]

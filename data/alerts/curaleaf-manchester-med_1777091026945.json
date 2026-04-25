@@ -1,0 +1,362 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "Grassroots White Hot Guava: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Raspberry Pomegranate",
+    "brand": "JAMS",
+    "message": "JAMS Raspberry Pomegranate: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "JAMS Sour Watermelon Lime: $22.75 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "Select Orange Matter: $17.87 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "JAMS Sour Strawberry Lemonade: $22.75 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $20.80 > $18.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $19.50 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Delphi Diesel",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Delphi Diesel: $20.00 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry",
+    "brand": "Select",
+    "message": "Select Strawberry: $17.87 > $19.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $9.75 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slip",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip: $9.75 > $9.10"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Foreign Kush Mints: $20.80 > $16.90"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Agent Z",
+    "brand": "Find.",
+    "message": "Find. Agent Z: $40.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB MFN",
+    "brand": "Find.",
+    "message": "Find. PB MFN: $40.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "Find. Half Moonana: $46.80 > $39.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "Find. Half Moonana: $19.50 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $40.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Diesel Bites",
+    "brand": "Find.",
+    "message": "Find. Diesel Bites: $40.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Diesel Bites",
+    "brand": "Find.",
+    "message": "Find. Diesel Bites: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "Find. Glacial Garden: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Grassroots Jayna's Sunshine: $20.80 > $18.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $19.50 > $21.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Grassroots Atomic Breath: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple: $22.75 > $20.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime: $17.87 > $19.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Select Durban Poison: $16.25 > $21.45"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $16.25 > $21.45"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $16.25 > $21.45"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $16.25 > $21.45"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $16.25 > $21.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Casino Floor",
+    "brand": "Select",
+    "message": "Select Casino Floor: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $9.75 > $8.45"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Muffin Grease",
+    "brand": "Find.",
+    "message": "Find. Muffin Grease: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Select Mango Puff: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Select Couch Kush: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Select Moonburst: $42.25 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "Find. Back Porch: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gas Lit",
+    "brand": "Find.",
+    "message": "Find. Gas Lit: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Grassroots Berry Batter: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $20.80 > $18.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $20.80 > $18.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Specimen X",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Specimen X $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tri Berry",
+    "brand": "Find.",
+    "message": "Find. Tri Berry: $19.50 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mrs. Brightside",
+    "brand": "Find.",
+    "message": "Find. Mrs. Brightside: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "Find. Silver Dollar: $46.80 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns: $20.80 > $18.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kookyz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Eucalyptus & Lemongrass",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Eucalyptus & Lemongrass"
+  }
+]

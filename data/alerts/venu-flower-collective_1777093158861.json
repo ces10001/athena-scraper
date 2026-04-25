@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Camino Watermelon Lemonade T94.2mg H Gummies 00408 20PK Camino",
+    "brand": null,
+    "message": "New: null - Camino Watermelon Lemonade T94.2mg H Gummies 00408 20PK Camino $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Wild Berry 96.8mg Gummies I 00396 20PK Camino Gummies (",
+    "brand": null,
+    "message": "Gone: null - Camino Wild Berry 96.8mg Gummies I 00396 20PK Camino Gummies ("
+  }
+]
