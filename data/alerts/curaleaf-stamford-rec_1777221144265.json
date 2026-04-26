@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "New: Select - Sour Z $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "New: Find. - Glacial Garden $9.10"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $20.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "TGI Purple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - TGI Purple"
+  }
+]

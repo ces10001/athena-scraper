@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Slapz (H) 01372",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 5 Pack Minis Slapz (H) 01372 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392",
+    "brand": "Rythm",
+    "message": "New: Rythm - Rythm 0.5g Live Rosin Vape Bananaconda (H) 01392 $45.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tear Gas Flower Minis T19.22% I 00872",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Tear Gas Flower Minis T19.22% I 00872"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Paradise Snacks (I) 01314",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 1g Pre Roll Paradise Snacks (I) 01314"
+  }
+]

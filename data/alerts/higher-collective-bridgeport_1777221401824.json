@@ -1,0 +1,62 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Red Gary THCa",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Red Gary THCa $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "New: all:hours - Space Gello $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Soap Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Soap Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Caddy Rainbow",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Caddy Rainbow"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Slurricane",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Slurricane"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mac Stomper Live Terpene",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Mac Stomper Live Terpene"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mint Condition",
+    "brand": "comffy",
+    "message": "Gone: comffy - Mint Condition"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks Hash Nugs",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Nimbus Snacks Hash Nugs"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Elite Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Elite Tahoe OG"
+  }
+]

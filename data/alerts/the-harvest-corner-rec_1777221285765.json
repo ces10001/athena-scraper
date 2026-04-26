@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks over:timers Flower T23.36 (4-41628)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks over:timers Flower T23.36 (4-41628) $55.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Dream Briq 2 Rechargeable Disposable Vape T894 (3-01611)",
+    "brand": "Select",
+    "message": "Gone: Select - Blue Dream Briq 2 Rechargeable Disposable Vape T894 (3-01611)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst Briq 2 Rechargeable Disposable Vape T91.47 (3-01642)",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst Briq 2 Rechargeable Disposable Vape T91.47 (3-01642)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack 5 Pack Pre Rolls T31.13 (3-01604)",
+    "brand": "Cura",
+    "message": "Gone: Cura - Triple Stack 5 Pack Pre Rolls T31.13 (3-01604)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Single Pre Roll T24.41 (10-00501)",
+    "brand": "BRX",
+    "message": "Gone: BRX - Blueberry Single Pre Roll T24.41 (10-00501)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Heatwave Single Pre Roll T23.65 (3-01548)",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tropical Heatwave Single Pre Roll T23.65 (3-01548)"
+  }
+]

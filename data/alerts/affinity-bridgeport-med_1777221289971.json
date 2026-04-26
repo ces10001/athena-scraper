@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Permanent Marker BHO Badder MED T78.05% I 00636 (0.5g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Permanent Marker BHO Badder MED T78.05% I 00636 (0.5g) $26.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Goods - Whole Flower - Tropical Kush 30001 (S)(3.5g)(19333)",
+    "brand": "The Goods THC Co.",
+    "message": "Gone: The Goods THC Co. - The Goods - Whole Flower - Tropical Kush 30001 (S)(3.5g)(19333)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb BHO Live Resin Dablicator - MED T73.02% H 26753 (1g)(H)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb BHO Live Resin Dablicator - MED T73.02% H 26753 (1g)(H)"
+  }
+]

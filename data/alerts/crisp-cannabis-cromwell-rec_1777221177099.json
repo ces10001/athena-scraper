@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn CT Rainbows 1g PR 0016",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn CT Rainbows 1g PR 0016 $9.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding 1g Pure Vape T870 I 27025",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding 1g Pure Vape T870 I 27025"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Hi Life 1g Pre-roll 0050",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Hi Life 1g Pre-roll 0050"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Cap Junk 1g Vape (H) 00453",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix Cannabis Cap Junk 1g Vape (H) 00453"
+  }
+]

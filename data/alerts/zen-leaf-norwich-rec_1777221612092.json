@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Kush Tang",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Kush Tang"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tasty Jane",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Tasty Jane"
+  }
+]

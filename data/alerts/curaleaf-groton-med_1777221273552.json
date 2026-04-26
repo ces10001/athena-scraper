@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "Gone: Select - NYC Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti 95",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti 95"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - GMO"
+  }
+]

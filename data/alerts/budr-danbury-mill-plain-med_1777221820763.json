@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "JAMS Fast Acting Jellies Sour Green Apple (H) 01151JAMSFast Acting Jellies",
+    "brand": "JAMS",
+    "message": "JAMS JAMS Fast Acting Jellies Sour Green Apple (H) 01151JAMSFast Acting Jellies: $18.90 > $26.10"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 7g Small Flower Afternoon Delight #4 (H) 01373",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 7g Small Flower Afternoon Delight #4 (H) 01373"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g B Scout (I) 01363",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g B Scout (I) 01363"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 14g Animal Scout #10 (I) 01432",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 14g Animal Scout #10 (I) 01432"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG Infused Lil' Ricky's T40.04% H 00891",
+    "brand": "Pack",
+    "message": "Gone: Pack - Alien OG Infused Lil' Ricky's T40.04% H 00891"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks THCA Infused Pre-Roll S 26980",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks THCA Infused Pre-Roll S 26980"
+  }
+]

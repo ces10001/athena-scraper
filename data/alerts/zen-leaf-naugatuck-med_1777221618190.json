@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hazy Girl",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Hazy Girl"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Soap",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - The Soap"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Glitter Bomb"
+  }
+]
