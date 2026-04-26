@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Margarita | RSO Gummies | 100mg (20pk) | C0080000215",
+    "brand": "SoundView",
+    "message": "New: SoundView - Margarita | RSO Gummies | 100mg (20pk) | C0080000215 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000478",
+    "brand": "Wana",
+    "message": "New: Wana - Connecticut Sunrise | Fast Acting Gummies | 100mg (20pk) | C0060000478 $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coasting Cherry Punch | THC:CBD:CBG Gummies | 100mg (20pk) | C0060000370",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - Coasting Cherry Punch | THC:CBD:CBG Gummies | 100mg (20pk) | C0060000370"
+  }
+]

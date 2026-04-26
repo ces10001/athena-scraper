@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Strut AIO 2g Golden Tangie T1716 S 26935",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Strut AIO 2g Golden Tangie T1716 S 26935 $115.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosilato Bold T413 I 26722",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Dosilato Bold T413 I 26722 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Mango RSO Gummies T94mg S 26850",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Encore Mango RSO Gummies T94mg S 26850 $28.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 1g Big Dog Dulce De Uva (I) 01207",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Dogwalkers 1g Big Dog Dulce De Uva (I) 01207 $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Afternoon Delight (H) 01347",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Afternoon Delight (H) 01347 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Bananaconda (H) 01404",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Bananaconda (H) 01404 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|Flower 7g|Fritterz 00167",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|Flower 7g|Fritterz 00167"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Mule Fuel Bubble Hash Infused Shorties 41621",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - all:hours Mule Fuel Bubble Hash Infused Shorties 41621"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Midnight Mint 2:1 CBN Milk Chocolate Bar T93.2mg C50.6mg I 00225",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Midnight Mint 2:1 CBN Milk Chocolate Bar T93.2mg C50.6mg I 00225"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 1g Single Pineapple Sunrise (S) 01465 TC 29.41%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 1g Single Pineapple Sunrise (S) 01465 TC 29.41%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosilato Flower I 26453",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dosilato Flower I 26453"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Mac Stomper Live Terpene",
+    "brand": "Affinity",
+    "message": "New: Affinity - Mac Stomper Live Terpene $21.70"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Space Gello"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brass Bonanza",
+    "brand": "comffy",
+    "message": "Gone: comffy - Brass Bonanza"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citral Ice",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Citral Ice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary THCa",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary THCa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGKB Stomper BHO Live Resin",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - OGKB Stomper BHO Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Skunk"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lotion 1:1 I 26635 CTPharma Lotion (EACH) 107mg CBD/90mg",
+    "brand": null,
+    "message": "New: null - Lotion 1:1 I 26635 CTPharma Lotion (EACH) 107mg CBD/90mg $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary",
+    "brand": null,
+    "message": "New: null - Red Gary $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": null,
+    "message": "New: null - Nimbus Snacks $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tropical Haze Pure Vape T408 H 26844 CTPharma Cartridge (.5G)",
+    "brand": null,
+    "message": "New: null - Tropical Haze Pure Vape T408 H 26844 CTPharma Cartridge (.5G) $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cold Bubba Kush 1g BHO Live Resin Badder - MED T72.70% H 26410 C",
+    "brand": null,
+    "message": "New: null - Cold Bubba Kush 1g BHO Live Resin Badder - MED T72.70% H 26410 C $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Glue 1g BHO Live Resin Badder - MED T71.73% I 26841 CTPhar",
+    "brand": null,
+    "message": "New: null - Lemon Glue 1g BHO Live Resin Badder - MED T71.73% I 26841 CTPhar $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg",
+    "brand": null,
+    "message": "New: null - Durban Stardawg $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO - CTP Flower I 26444 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - GMO - CTP Flower I 26444 CTPharma Flower (3.5G) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jokerz Flower I 26746 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - Jokerz Flower I 26746 CTPharma Flower (3.5G) $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Red Gary",
+    "brand": null,
+    "message": "New: null - Red Gary $21.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Glue Live Resin AIO 1g T770 I 26796 CTPharma Live Resin Al",
+    "brand": null,
+    "message": "New: null - Lemon Glue Live Resin AIO 1g T770 I 26796 CTPharma Live Resin Al $56.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tasty Jane Flower I 26464 CTPharma 5 Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - Tasty Jane Flower I 26464 CTPharma 5 Flower (3.5G) $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Mimosa Live Resin-(S)-Disposable-1g-00442",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Mimosa Live Resin-(S)-Disposable-1g-00442"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00495",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Bruce Bamer Live Resin-(H)-Disposable-1g-00495"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Jelly Roll Live Resin-(I)-Disposable-1g-00445"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Zlushie Live Resin-(I)-Disposable-1g-00446",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Zlushie Live Resin-(I)-Disposable-1g-00446"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Pink Guava Live Resin-(S)-Disposable-1g-00464"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Pineapple Express Live Resin-(S)-Disposable-1g-00441",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Pineapple Express Live Resin-(S)-Disposable-1g-00441"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos-Lady in Red Live Resin-(I)-Disposable-1g-00443",
+    "brand": "Amigos - CT\nLive Resin",
+    "message": "Gone: Amigos - CT\nLive Resin - Amigos-Lady in Red Live Resin-(I)-Disposable-1g-00443"
+  }
+]

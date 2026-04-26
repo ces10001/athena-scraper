@@ -1,0 +1,38 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream Fun Size Budz T24.37 (00055)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Blue Dream Fun Size Budz T24.37 (00055): $44.80 > $64.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mikado Mintz Flower T27.78 (00002)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mikado Mintz Flower T27.78 (00002): $28.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Yeet Flower T27.82 (00008)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Yeet Flower T27.82 (00008): $28.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream Flower T24.51 (00053)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Blue Dream Flower T24.51 (00053): $29.40 > $42.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Let's Burn (I) CT Rainbows PR T20.7 1pk (00016)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn (I) CT Rainbows PR T20.7 1pk (00016): $7.70 > $11.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hi Life Flower T25.73 (00043)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Hi Life Flower T25.73 (00043): $29.40 > $42.00"
+  }
+]

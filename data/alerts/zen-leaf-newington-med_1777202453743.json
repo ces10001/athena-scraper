@@ -1,0 +1,80 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Sour Sherb",
+    "brand": "CTPharma",
+    "message": "CTPharma Sour Sherb: $72.50 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "OGKB Stomper",
+    "brand": "CTPharma",
+    "message": "CTPharma OGKB Stomper: $41.50 > $33.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO",
+    "brand": "CTPharma",
+    "message": "CTPharma GMO: $32.80 > $24.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Haze",
+    "brand": "CTPharma",
+    "message": "CTPharma Blue Haze: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "CTPharma Nimbus Snacks: $41.00 > $32.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Applescotti",
+    "brand": "CTPharma",
+    "message": "CTPharma Applescotti: $56.50 > $45.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "CTPharma Heir Heads: $56.50 > $45.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Andeze",
+    "brand": "CTPharma",
+    "message": "CTPharma Blue Andeze: $56.50 > $45.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $56.50 > $45.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Citradelic Sunset",
+    "brand": "Savvy",
+    "message": "Savvy Citradelic Sunset: $104.50 > $83.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Jack",
+    "brand": "(the) Essence",
+    "message": "(the) Essence Super Jack: $54.00 > $40.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ori",
+    "brand": "Affinity",
+    "message": "Affinity Ori: $25.50 > $15.30"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Motorbreath",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Motorbreath"
+  }
+]

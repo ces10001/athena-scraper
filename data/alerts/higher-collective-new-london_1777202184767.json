@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Big Dog Grape Bubble",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Big Dog Grape Bubble $12.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Taffy Twist x Dulce De Uva",
+    "brand": "AGL",
+    "message": "Gone: AGL - Taffy Twist x Dulce De Uva"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miss Strawberry Spark - Fast Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Miss Strawberry Spark - Fast Times"
+  }
+]

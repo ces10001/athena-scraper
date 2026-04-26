@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "New: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087 $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Granny Banany Infused Blunt 41548",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Granny Banany Infused Blunt 41548"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087"
+  }
+]

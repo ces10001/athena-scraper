@@ -1,0 +1,158 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "CPS Nimbus Snacks",
+    "brand": null,
+    "message": "New: null - CPS Nimbus Snacks $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Strawberry Pave",
+    "brand": null,
+    "message": "New: null - CPS Strawberry Pave $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Nimbus Snacks 49.89% S 26980 IPR CTPharma",
+    "brand": null,
+    "message": "New: null - CPS Nimbus Snacks 49.89% S 26980 IPR CTPharma $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Cartridge Kush Tang Pure T880 S 26909 CTPharma Cartridge (1G)",
+    "brand": null,
+    "message": "New: null - CPS Cartridge Kush Tang Pure T880 S 26909 CTPharma Cartridge (1G) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Strawberry Pave Flower 28.46% H 27001 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - CPS Strawberry Pave Flower 28.46% H 27001 CTPharma Flower (3.5G) $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Cartridge Emerald Kush Pure T884 S 26982 CTPharma Cartridge (1G)",
+    "brand": null,
+    "message": "New: null - CPS Cartridge Emerald Kush Pure T884 S 26982 CTPharma Cartridge (1G) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Glitter Bomb Flower 28.62% I 27011 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - CPS Glitter Bomb Flower 28.62% I 27011 CTPharma Flower (3.5G) $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Nimbus Snacks Flower 24.674% S 26837 CTPharma Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - CPS Nimbus Snacks Flower 24.674% S 26837 CTPharma Flower (3.5G) $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Cartridge Mendo Wedding Pure T870 I 27025 CTPharma Cartridge (1G)",
+    "brand": null,
+    "message": "New: null - CPS Cartridge Mendo Wedding Pure T870 I 27025 CTPharma Cartridge (1G) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Heir Heads",
+    "brand": null,
+    "message": "New: null - CPS Heir Heads $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Cartridge Diesel Train Pure T845 S 26986 CTPharma Cartridge (1G)",
+    "brand": null,
+    "message": "New: null - CPS Cartridge Diesel Train Pure T845 S 26986 CTPharma Cartridge (1G) $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CPS Cartridge Seattle Sour Kush Pure T850 S 26881 CTPharma Cartridge (1G",
+    "brand": null,
+    "message": "New: null - CPS Cartridge Seattle Sour Kush Pure T850 S 26881 CTPharma Cartridge (1G $56.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "FIND Critical Crumb 17.76% H 01549 1g PR FIND Pre Roll (EACH)",
+    "brand": null,
+    "message": "New: null - FIND Critical Crumb 17.76% H 01549 1g PR FIND Pre Roll (EACH) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL Dulce De Uva x Cherry Maui Wowie 79.46% H 01216",
+    "brand": "Disp. Pen 300mg\nAdvanced Grow Labs (AGL)",
+    "message": "New: Disp. Pen 300mg\nAdvanced Grow Labs (AGL) - AGL Dulce De Uva x Cherry Maui Wowie 79.46% H 01216 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower Pineapple Sunrise 24.50% S 01427",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower Pineapple Sunrise 24.50% S 01427 $33.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Skip to Results Filters Skip to Results Skip to Main Content Products Dispensa",
+    "brand": null,
+    "message": "Gone: null - Skip to Results Filters Skip to Results Skip to Main Content Products Dispensa"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CBD",
+    "brand": null,
+    "message": "Gone: null - CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CBD",
+    "brand": null,
+    "message": "Gone: null - CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "New Drops View all View all Hybrid SV Watermelon Hemp-Derived Beverage (3mg",
+    "brand": null,
+    "message": "Gone: null - New Drops View all View all Hybrid SV Watermelon Hemp-Derived Beverage (3mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Top Terps! View all View all Indica RTM Headcracker 26.97% I 00922 RYTHM Flower",
+    "brand": null,
+    "message": "Gone: null - Top Terps! View all View all Indica RTM Headcracker 26.97% I 00922 RYTHM Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Best selling View all View all Indica AGL Bubba F 15.14% I 01387 1g PR Advanced",
+    "brand": null,
+    "message": "Gone: null - Best selling View all View all Indica AGL Bubba F 15.14% I 01387 1g PR Advanced"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Only 2 left 15% back Hybrid inc. Greener Apple Fast Acting Gummies 72mg H 0119",
+    "brand": null,
+    "message": "Gone: null - Only 2 left 15% back Hybrid inc. Greener Apple Fast Acting Gummies 72mg H 0119"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc. Watermelon Smash Gummies 98mg 01328 20pk (inc)edibles Gumm",
+    "brand": null,
+    "message": "Gone: null - inc. Watermelon Smash Gummies 98mg 01328 20pk (inc)edibles Gumm"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CPS Savvy Guap RSO Berry Drip Gummies 46.8mg I 26902 10pk Savvy",
+    "brand": null,
+    "message": "Gone: null - CPS Savvy Guap RSO Berry Drip Gummies 46.8mg I 26902 10pk Savvy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Wild Berry 96.8mg Gummies I 00396 20PK Camino Gummies (EACH) 96.",
+    "brand": null,
+    "message": "Gone: null - Camino Wild Berry 96.8mg Gummies I 00396 20PK Camino Gummies (EACH) 96."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Watermelon Lemonade T94.2mg H Gummies 00408 20PK Camino Gummies (",
+    "brand": null,
+    "message": "Gone: null - Camino Watermelon Lemonade T94.2mg H Gummies 00408 20PK Camino Gummies ("
+  }
+]

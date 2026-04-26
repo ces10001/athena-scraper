@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy Flower Minis T31.92% H 00873",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy Flower Minis T31.92% H 00873 $42.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Shaka Pre-Roll 1.0g GAT 00086",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - Shaka Pre-Roll 1.0g GAT 00086"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 3.5g Aniaml Face (I) 00932",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 3.5g Aniaml Face (I) 00932"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher Flower T30.09% I 00894",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Hippie Crasher Flower T30.09% I 00894"
+  }
+]

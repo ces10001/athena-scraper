@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger Flower T32.46 (20-00013)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Hash Burger Flower T32.46 (20-00013) $36.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel part:timers Flower T31.83 (4-41623)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel part:timers Flower T31.83 (4-41623)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger Flower T30.88 (20-00023)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Hash Burger Flower T30.88 (20-00023)"
+  }
+]
