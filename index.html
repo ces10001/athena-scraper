@@ -806,6 +806,8 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
    ═══════════════════════════════════════ */
 function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
   var[alertCat,setAlertCat]=useState("All");
+  var[openDropDisps,setOpenDropDisps]=useState(new Set());
+  var[openIncDisps,setOpenIncDisps]=useState(new Set());
   var[radius,setRadius]=useState(10);
   var deals=(data.deals||[]).filter(function(d){return(d.category||"").toLowerCase()!=="accessories"});
   
@@ -859,12 +861,38 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
         <div className="alert-col drops">
           <div className="alert-col-hdr"><span className="alert-col-title">▼ Price Drops</span><span className="alert-col-count">{totalDrops.toLocaleString()}</span></div>
           {drops.length===0?<div className="alert-empty">No price drops{alertCat!=="All"?" in "+alertCat:""}{sel.size===0?". Select dispensaries above to filter.":""}</div>:
-          drops.slice(0,200).map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"-"+d.pct_off+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.discounted.toFixed(2)}</span></div></div></div>})}
+          function(){
+            var byDisp={};drops.forEach(function(d){var dk=cleanD(d.dispensary);if(!byDisp[dk])byDisp[dk]=[];byDisp[dk].push(d)});
+            return Object.entries(byDisp).sort(function(a,b){return b[1].length-a[1].length}).map(function(e){
+              var dispName=e[0],items=e[1];
+              var isOpen=openDropDisps.has(dispName);
+              return<div key={dispName} style={{marginBottom:6}}>
+                <div onClick={function(){var s=new Set(openDropDisps);if(s.has(dispName))s.delete(dispName);else s.add(dispName);setOpenDropDisps(s)}} style={{cursor:'pointer',padding:'8px 10px',background:isOpen?'rgba(212,32,48,0.08)':'var(--sf2)',borderRadius:6,display:'flex',justifyContent:'space-between',alignItems:'center',border:'1px solid var(--bd)',fontWeight:600,fontSize:13}}>
+                  <span>{isOpen?"▾ ":"▸ "}{dispName}</span>
+                  <span style={{background:'rgba(212,32,48,0.12)',color:'var(--rd)',padding:'2px 8px',borderRadius:10,fontSize:11,fontWeight:700}}>{items.length}</span>
+                </div>
+                {isOpen&&<div style={{maxHeight:300,overflowY:'auto',borderLeft:'2px solid rgba(212,32,48,0.3)',marginLeft:8,paddingLeft:8,marginTop:4}}>
+                  {items.map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"-"+d.pct_off+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.discounted.toFixed(2)}</span></div></div></div>})}
+                </div>}
+              </div>})}()}
         </div>
         <div className="alert-col increases">
           <div className="alert-col-hdr"><span className="alert-col-title">▲ Price Increases</span><span className="alert-col-count">{totalIncreases.toLocaleString()}</span></div>
           {increases.length===0?<div className="alert-empty"><div style={{marginBottom:8}}>Price increase tracking activates after multiple scrape runs.</div><div style={{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)',letterSpacing:'.5px'}}>ATHENA compares each scrape to detect upward price movements.</div></div>:
-          increases.slice(0,200).map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"+"+d.pct+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.current.toFixed(2)}</span></div></div></div>})}
+          function(){
+            var byDisp={};increases.forEach(function(d){var dk=cleanD(d.dispensary);if(!byDisp[dk])byDisp[dk]=[];byDisp[dk].push(d)});
+            return Object.entries(byDisp).sort(function(a,b){return b[1].length-a[1].length}).map(function(e){
+              var dispName=e[0],items=e[1];
+              var isOpen=openIncDisps.has(dispName);
+              return<div key={dispName} style={{marginBottom:6}}>
+                <div onClick={function(){var s=new Set(openIncDisps);if(s.has(dispName))s.delete(dispName);else s.add(dispName);setOpenIncDisps(s)}} style={{cursor:'pointer',padding:'8px 10px',background:isOpen?'rgba(26,143,63,0.08)':'var(--sf2)',borderRadius:6,display:'flex',justifyContent:'space-between',alignItems:'center',border:'1px solid var(--bd)',fontWeight:600,fontSize:13}}>
+                  <span>{isOpen?"▾ ":"▸ "}{dispName}</span>
+                  <span style={{background:'rgba(26,143,63,0.12)',color:'var(--gn)',padding:'2px 8px',borderRadius:10,fontSize:11,fontWeight:700}}>{items.length}</span>
+                </div>
+                {isOpen&&<div style={{maxHeight:300,overflowY:'auto',borderLeft:'2px solid rgba(26,143,63,0.3)',marginLeft:8,paddingLeft:8,marginTop:4}}>
+                  {items.map(function(d,i){return<div key={i} className="alert-item"><div className="alert-item-top"><span className="alert-item-name">{d.product}</span><span className="alert-item-pct">{"+"+d.pct+"%"}</span></div><div className="alert-item-bottom"><span className="alert-item-disp">{cleanD(d.dispensary)}</span><div className="alert-price-flow"><span className="alert-price-old">{"$"+d.original.toFixed(2)}</span><span className="alert-price-arrow">→</span><span className="alert-price-new">{"$"+d.current.toFixed(2)}</span></div></div></div>})}
+                </div>}
+              </div>})}()}
         </div>
       </div>
     </div></>;
