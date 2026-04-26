@@ -316,13 +316,13 @@ function IntroSplash(){
   if(inScrape){
     return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
       React.createElement("video",{src:"videos/intro.mp4",autoPlay:true,muted:true,playsInline:true,loop:true,style:{width:'100%',height:'100%',objectFit:'contain',position:'absolute',top:0,left:0}},null),
-      React.createElement("div",{style:{position:'absolute',bottom:30,left:'50%',transform:'translateX(-50%)',color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.8,textShadow:'0 0 10px rgba(232,96,10,0.5)'}},"SCRAPING LIVE INTEL...")
+      React.createElement("div",{style:{position:'absolute',bottom:30,left:'50%',transform:'translateX(-50%)',color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.8,textShadow:'0 0 10px rgba(232,96,10,0.5)'}},"ACQUIRING INTEL...")
     );
   }
   // Outside scrape window — simple loading
   return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
     React.createElement("img",{src:typeof ATHENA_LOGO_SM!=='undefined'?ATHENA_LOGO_SM:'',alt:"",style:{width:80,height:80,marginBottom:16,opacity:0.8}}),
-    React.createElement("div",{style:{color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.7}},"LOADING...")
+    React.createElement("div",{style:{color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.7}},"INTEL RECEIVED")
   );
 }
 
