@@ -31,23 +31,28 @@ body {
 
 .hex-bg svg { width: 100%; height: 100%; }
 
-/* Fade/vignette overlay - hex fades to black in spots */
+/* Fade/vignette overlay - dark behind owl, hex visible at edges, random dark patches */
 .hex-bg::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 1;
   background:
-    /* Center spotlight behind owl - hex stays visible here */
-    radial-gradient(ellipse 500px 450px at 50% 38%, transparent 0%, transparent 40%, rgba(10,9,8,0.5) 70%, rgba(10,9,8,0.85) 100%),
-    /* Top edge fade to black */
-    linear-gradient(to bottom, rgba(10,9,8,0.9) 0%, transparent 18%),
-    /* Bottom edge fade to black */
-    linear-gradient(to top, rgba(10,9,8,0.95) 0%, rgba(10,9,8,0.6) 12%, transparent 30%),
-    /* Left edge fade */
-    linear-gradient(to right, rgba(10,9,8,0.7) 0%, transparent 20%),
-    /* Right edge fade */
-    linear-gradient(to left, rgba(10,9,8,0.7) 0%, transparent 20%);
+    /* Dark zone behind owl - hex fades out in center */
+    radial-gradient(ellipse 420px 380px at 50% 38%, rgba(10,9,8,0.95) 0%, rgba(10,9,8,0.7) 50%, transparent 100%),
+    /* Random dark patch - top left */
+    radial-gradient(ellipse 300px 250px at 15% 20%, rgba(10,9,8,0.85) 0%, transparent 70%),
+    /* Random dark patch - bottom right */
+    radial-gradient(ellipse 350px 280px at 80% 75%, rgba(10,9,8,0.8) 0%, transparent 70%),
+    /* Random dark patch - left middle */
+    radial-gradient(ellipse 200px 300px at 8% 55%, rgba(10,9,8,0.75) 0%, transparent 65%),
+    /* Random dark patch - top right */
+    radial-gradient(ellipse 250px 200px at 88% 15%, rgba(10,9,8,0.7) 0%, transparent 65%),
+    /* Random dark patch - bottom center-left */
+    radial-gradient(ellipse 280px 200px at 30% 85%, rgba(10,9,8,0.75) 0%, transparent 65%),
+    /* Slight edge darkening so it's not fully bright at very edge */
+    linear-gradient(to bottom, rgba(10,9,8,0.4) 0%, transparent 8%),
+    linear-gradient(to top, rgba(10,9,8,0.5) 0%, transparent 10%);
   pointer-events: none;
 }
 
