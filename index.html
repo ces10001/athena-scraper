@@ -564,7 +564,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
 function MapPanel({data,sel,setSel,radius,setRadius}){
   const ref=useRef(null),mRef=useRef(null),mkRef=useRef([]),circRef=useRef(null);
   const[center,setCenter]=useState(null);const[cLabel,setCLabel]=useState("Click map or dispensary to set center");
-  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.55,-72.75],8.7);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);
+  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.5,-72.75],8.4);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);
     // CT state outline
     var ctBorder=[[42.039048,-73.053528],[42.022617,-71.799309],[42.006186,-71.799309],[41.414677,-71.799309],[41.321569,-71.859555],[41.338,-71.947186],[41.261322,-72.385341],[41.28323,-72.905651],[41.146307,-73.130205],[41.102491,-73.371191],[40.987475,-73.655992],[41.102491,-73.727192],[41.21203,-73.48073],[41.294184,-73.55193],[42.050002,-73.486206],[42.039048,-73.053528]];
     L.polygon(ctBorder,{color:'#444',weight:3,opacity:0.85,fillColor:'transparent',fillOpacity:0,fill:false}).addTo(m);
