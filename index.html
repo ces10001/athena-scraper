@@ -279,7 +279,7 @@ function App(){
     }).catch(function(e){setErr(e.message)});
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
-  if(!data)return React.createElement(TerminalBoot,null);
+  if(!data)return React.createElement(IntroSplash,null);
   var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"]];
   var tabDescs={
     intel:"Select dispensaries to compare side-by-side. Star ★ your stores to see % price differences. Search any product to find who carries it and at what price.",
@@ -308,41 +308,21 @@ function App(){
 /* ═══════════════════════════════════════
    TERMINAL BOOT SEQUENCE
    ═══════════════════════════════════════ */
-function TerminalBoot(){
-  var[lines,setLines]=useState([]);var[done,setDone]=useState(false);var[hidden,setHidden]=useState(false);
-  var bootLines=[
-    {delay:100,text:"ATHENA v2.0 — Cannabis Pricing Intelligence",cls:"info"},
-    {delay:400,text:"Connecting to data feed...",cls:"info"},
-    {delay:800,text:"Decrypting dashboard payload",cls:"info"},
-    {delay:1100,text:"Loading product database",cls:"ok",val:"35,616 SKUs"},
-    {delay:1400,text:"Mapping dispensary network",cls:"ok",val:"118 entries"},
-    {delay:1700,text:"Indexing pricing comparisons",cls:"ok",val:"5,667 comparable"},
-    {delay:2000,text:"Scanning active deals",cls:"warn",val:"7,283 deals"},
-    {delay:2300,text:"Building intelligence matrix",cls:"ok"},
-    {delay:2800,text:"SYSTEM READY",cls:"ready"},
-  ];
-  useEffect(function(){
-    var timers=[];
-    bootLines.forEach(function(line,i){
-      timers.push(setTimeout(function(){setLines(function(prev){return[...prev,line]})},line.delay));
-    });
-    timers.push(setTimeout(function(){setDone(true)},3200));
-    timers.push(setTimeout(function(){setHidden(true)},3700));
-    return function(){timers.forEach(clearTimeout)};
-  },[]);
-  if(hidden)return null;
-  return React.createElement("div",{className:"boot"+(done?" done":"")},
-    React.createElement("div",{className:"boot-logo"},"ATHENA"),
-    React.createElement("div",{className:"boot-sub"},"CANNABIS PRICING INTELLIGENCE"),
-    lines.map(function(l,i){
-      if(l.cls==="ready")return React.createElement("div",{key:i,className:"boot-ready",style:{animationDelay:"0s"}},"▸ "+l.text);
-      return React.createElement("div",{key:i,className:"boot-line "+l.cls,style:{animationDelay:"0s"}},
-        React.createElement("span",{className:"bl-dot"}),
-        React.createElement("span",null,l.text),
-        l.val?React.createElement("span",{className:"bl-val"}," — "+l.val):null
-      );
-    }),
-    React.createElement("div",{className:"boot-bar"},React.createElement("div",{className:"boot-bar-fill"}))
+function IntroSplash(){
+  // Check if we're in a scrape window (within 60min of 10:30, 16:00, 22:00 UTC)
+  var now=new Date();var utcH=now.getUTCHours();var utcM=now.getUTCMinutes();var mins=utcH*60+utcM;
+  var scrapeStarts=[10*60+30, 16*60, 22*60]; // 10:30, 16:00, 22:00 UTC
+  var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
+  if(inScrape){
+    return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
+      React.createElement("video",{src:"videos/intro.mp4",autoPlay:true,muted:true,playsInline:true,loop:true,style:{width:'100%',height:'100%',objectFit:'contain',position:'absolute',top:0,left:0}},null),
+      React.createElement("div",{style:{position:'absolute',bottom:30,left:'50%',transform:'translateX(-50%)',color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.8,textShadow:'0 0 10px rgba(232,96,10,0.5)'}},"SCRAPING LIVE INTEL...")
+    );
+  }
+  // Outside scrape window — simple loading
+  return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
+    React.createElement("img",{src:typeof ATHENA_LOGO_SM!=='undefined'?ATHENA_LOGO_SM:'',alt:"",style:{width:80,height:80,marginBottom:16,opacity:0.8}}),
+    React.createElement("div",{style:{color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.7}},"LOADING...")
   );
 }
 
@@ -495,7 +475,7 @@ function Hdr({d}){
 
 function VideoCarousel(){
   return<div className="vid-carousel">
-    <video src="videos/banner1.mp4" muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
+    <video src="videos/owl-stare.mp4" muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
   </div>;
 }
