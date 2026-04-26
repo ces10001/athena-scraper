@@ -797,8 +797,8 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
               var hpct=homeHP&&!dd.isHome?Math.round((dd.high.price-homeHP)/homeHP*100):null;
               return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
                 <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:120,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
-                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
-                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</td>
+                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
+                <td style={{textAlign:'center',padding:'5px 6px'}}>{dd.high.price!==dd.low.price?<span><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</span>:<span style={{color:'var(--tx3)'}}>—</span>}</td>
                 <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
               </tr>})}</tbody>
           </table>}
