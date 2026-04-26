@@ -311,7 +311,7 @@ function App(){
 function IntroSplash(){
   // Check if we're in a scrape window (within 60min of 10:30, 16:00, 22:00 UTC)
   var now=new Date();var utcH=now.getUTCHours();var utcM=now.getUTCMinutes();var mins=utcH*60+utcM;
-  var scrapeStarts=[10*60+30, 16*60, 22*60]; // 10:30, 16:00, 22:00 UTC
+  var scrapeStarts=[10*60+30, 16*60, 19*60, 22*60]; // 10:30, 16:00, 22:00 UTC
   var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
   if(inScrape){
     return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
