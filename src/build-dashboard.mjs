@@ -281,12 +281,15 @@ const NOISE_WORDS = new Set([
   'tincture', 'topical', 'concentrate', 'wax', 'shatter', 'rosin', 'resin',
   'live', 'cured', 'badder', 'budder', 'sugar', 'sauce', 'diamond', 'diamonds',
   'capsule', 'capsules', 'tablet', 'tablets', 'softgel', 'softgels',
-  'rec', 'med', 'adult', 'use', 'only',
+  'rec', 'med', 'adult', 'use', 'only', 'medical',
   'indica', 'sativa', 'hybrid', 'balanced',
   'pk', 'ct', 'ea', 'pck', 'eighth', 'quarter', 'half', 'ounce', 'oz',
   'small', 'buds', 'ground', 'budz', 'smalls', 'mixed',
   'rich', 'total', 'pen', 'bar', 'leaf', 'series', 'legacy', 'flavor',
   'solventless', 'distillate', 'rechargeable',
+  'ba', 'sp', 'lr', 'bho', 'mt', 'aio', 'rso', 'thca',
+  'fatboy', 'shorties', 'single', 'collection', 'sun', 'grown', 'dark', 'heart',
+  'syringe', 'dablicator', 'oil', 'rick', 'simpson',
 ]);
 
 const KNOWN_BRANDS = [
@@ -306,7 +309,8 @@ const KNOWN_BRANDS = [
 function normalizeBrand(brand) {
   var b = (brand || '').toLowerCase().trim();
   b = b.replace(/^ct\s*-?\s*/i, '');
-  b = b.replace(/\s*cannabis$/i, '');
+  b = b.replace(/\s*cannabis\s*(?:co\.?)?$/i, '');
+  b = b.replace(/\s*co\.?$/i, '');
   b = b.replace(/\s*pharma$/i, '');
   var brandMap = {
     'ct pharma': 'ctpharma', 'ctpharma': 'ctpharma', 'ct - pharma': 'ctpharma',
@@ -316,6 +320,13 @@ function normalizeBrand(brand) {
     "let's burn": 'lets burn', 'lets burn': 'lets burn',
     'miss grass': 'miss grass',
     'inc edibles': 'inc edibles', 'inc.edibles': 'inc edibles', '(inc)edibles': 'inc edibles',
+    'rodeo co': 'rodeo', 'rodeo co.': 'rodeo', 'rodeo cannabis co': 'rodeo', 'rodeo cannabis co.': 'rodeo',
+    'affinity grow': 'affinity', 'affinity': 'affinity',
+    'the happy confection': 'happy confection', 'happy confection™️': 'happy confection', 'happy confection': 'happy confection',
+    'coast cannabis co': 'coast', 'coast cannabis co.': 'coast', 'coast': 'coast',
+    'on the rocks': 'on the rocks',
+    'asteroid galaxeats': 'asteroid', 'asteroid confections': 'asteroid', 'asteroid': 'asteroid',
+    'soundview': 'soundview',
   };
   if (brandMap[b]) return brandMap[b];
   return b.replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
@@ -493,8 +504,12 @@ async function main() {
       if (!weightMatch) continue;
       var candTokens = extractStrainTokens(candGroup[0].name, candGroup[0].brand);
       var sim = tokenSimilarity(baseTokens, candTokens);
+      // Product code matching: extract 4-5 digit codes and check overlap
+      var baseCode = (baseGroup[0].name.match(/\b0(\d{4})\b/) || [])[1];
+      var candCode = (candGroup[0].name.match(/\b0(\d{4})\b/) || [])[1];
+      if (baseCode && candCode && baseCode === candCode && brandMatch) { sim = 1.0; }
       // Require higher similarity when one brand is empty (to avoid false merges)
-      var threshold = (candBrand === baseBrand) ? 0.6 : 0.75;
+      var threshold = (candBrand === baseBrand) ? 0.5 : 0.7;
       if (sim >= threshold) {
         mergedGroup = mergedGroup.concat(candGroup);
         used.add(j);
