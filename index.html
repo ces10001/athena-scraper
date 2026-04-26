@@ -539,27 +539,8 @@ function MapPanel({data,sel,setSel,radius,setRadius}){
   const[center,setCenter]=useState(null);const[cLabel,setCLabel]=useState("Click map or dispensary to set center");
   useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);
     // CT state outline
-    var ctBorder=[[42.05,-73.73],[42.05,-72.81],[42.03,-72.81],[42.03,-72.58],[42.04,-72.58],[42.04,-71.80],[41.67,-71.79],[41.33,-71.83],[41.18,-71.79],[41.15,-72.08],[41.04,-72.10],[41.05,-72.53],[40.98,-72.53],[40.95,-73.07],[40.98,-73.24],[41.02,-73.48],[41.10,-73.55],[41.15,-73.73],[42.05,-73.73]];
-    L.polyline(ctBorder,{color:'#555',weight:2.5,opacity:0.7,fill:false}).addTo(m);
-    // County borders (dotted orange)
-    var ctyStyle={color:'#e8600a',weight:1.5,opacity:0.6,dashArray:'6 4'};
-    // Fairfield/New Haven ~-73.05
-    L.polyline([[41.15,-73.05],[41.34,-73.04],[41.48,-73.10],[41.65,-73.09],[41.73,-73.06]],ctyStyle).addTo(m);
-    // New Haven/Middlesex ~-72.53
-    L.polyline([[41.05,-72.53],[41.18,-72.53],[41.33,-72.53],[41.49,-72.51],[41.57,-72.51]],ctyStyle).addTo(m);
-    // Middlesex/New London ~-72.24
-    L.polyline([[41.13,-72.23],[41.28,-72.22],[41.45,-72.24],[41.55,-72.22]],ctyStyle).addTo(m);
-    // Litchfield/Hartford ~-72.76
-    L.polyline([[41.56,-72.76],[41.72,-72.73],[41.87,-72.75],[42.04,-72.76]],ctyStyle).addTo(m);
-    // Hartford/Tolland ~-72.41
-    L.polyline([[41.50,-72.41],[41.62,-72.41],[41.78,-72.42],[41.93,-72.41],[42.04,-72.42]],ctyStyle).addTo(m);
-    // Tolland/Windham ~-72.13
-    L.polyline([[41.55,-72.13],[41.70,-72.14],[41.85,-72.12],[42.04,-72.13]],ctyStyle).addTo(m);
-    // Horizontal: Litchfield/Fairfield + New Haven + Middlesex + New London south border
-    L.polyline([[41.15,-73.73],[41.20,-73.40],[41.27,-73.22],[41.30,-73.05]],ctyStyle).addTo(m);
-    L.polyline([[41.49,-72.51],[41.48,-72.24],[41.45,-72.13],[41.42,-71.80]],ctyStyle).addTo(m);
-    L.polyline([[41.56,-72.76],[41.55,-72.51]],ctyStyle).addTo(m);
-    L.polyline([[41.73,-73.06],[41.72,-72.76]],ctyStyle).addTo(m);
+    var ctBorder=[[42.050,-73.728],[42.050,-73.487],[42.050,-73.235],[42.050,-72.982],[42.050,-72.810],[42.034,-72.810],[42.034,-72.578],[42.037,-72.578],[42.050,-72.328],[42.050,-72.093],[42.050,-71.862],[42.050,-71.800],[41.826,-71.795],[41.641,-71.789],[41.497,-71.789],[41.385,-71.800],[41.280,-71.852],[41.183,-71.860],[41.155,-71.942],[41.135,-72.078],[41.070,-72.117],[41.038,-72.143],[41.013,-72.232],[40.990,-72.377],[40.988,-72.529],[40.986,-72.670],[40.979,-72.784],[40.963,-72.887],[40.950,-73.020],[40.953,-73.102],[40.970,-73.216],[40.985,-73.313],[41.010,-73.447],[41.022,-73.531],[41.052,-73.589],[41.100,-73.657],[41.127,-73.700],[41.164,-73.728],[41.277,-73.728],[41.510,-73.728],[41.750,-73.728],[42.050,-73.728]];
+    L.polygon(ctBorder,{color:'#444',weight:3,opacity:0.8,fillColor:'transparent',fillOpacity:0,fill:false}).addTo(m);
     m.on('click',e=>{setCenter([e.latlng.lat,e.latlng.lng]);setCLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mRef.current=m},[]);
   useEffect(()=>{const m=mRef.current;if(!m||!center)return;if(circRef.current)m.removeLayer(circRef.current);var radiusM=radius*1609.34;circRef.current=L.circle(center,{radius:radiusM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
     if(data&&data.dispensaries){var inRadius=new Set();var cll=L.latLng(center[0],center[1]);Object.entries(data.dispensaries).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=radiusM)inRadius.add(dn)});if(inRadius.size>0)setSel(inRadius)}},[radius,center]);
