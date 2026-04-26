@@ -199,52 +199,77 @@ export async function scrapeJane(dispensary) {
           }
         } catch(e) {}
 
-        // Click "View more" repeatedly to load ALL products
-        var lastCount = 0;
-        var stableRounds = 0;
-        for (var vm = 0; vm < 30; vm++) {
-          // Count current products
-          var currentCount = await page.evaluate(function() {
-            return (document.body.innerText.match(/Add to bag/g) || []).length;
-          });
-          
-          if (currentCount === lastCount) {
-            stableRounds++;
-            if (stableRounds >= 3) break;
-          } else {
-            stableRounds = 0;
-            if (vm % 5 === 0 && vm > 0) console.log('  [jane] Loaded ' + currentCount + ' products...');
-          }
-          lastCount = currentCount;
+        // Close any popups/overlays
+        try {
+          var closeBtn = page.locator('button[aria-label="Close"], button:has-text("×"), [class*="close"]').first();
+          if (await closeBtn.isVisible({ timeout: 1500 })) { await closeBtn.click(); await page.waitForTimeout(1000); }
+        } catch(e) {}
 
+        // Click through each category tab to load all products
+        var categories = ['Flower', 'Edible', 'Pre-roll', 'Vape', 'Concentrate', 'Tincture', 'Topical', 'Merch'];
+        var beforeCount = allProducts.size;
+
+        for (var ci = 0; ci < categories.length; ci++) {
+          var catName = categories[ci];
           try {
-            var viewMore = page.locator('button:has-text("View more")').first();
-            if (await viewMore.isVisible({ timeout: 2000 })) {
-              await viewMore.scrollIntoViewIfNeeded();
-              await viewMore.click();
-              await page.waitForTimeout(2000);
-            } else {
-              break;
+            // Click category tab
+            var catTab = page.locator('button:has-text("' + catName + '"), a:has-text("' + catName + '"), [role="tab"]:has-text("' + catName + '"), div:has-text("' + catName + '")').first();
+            if (await catTab.isVisible({ timeout: 2000 })) {
+              await catTab.scrollIntoViewIfNeeded();
+              await catTab.click();
+              await page.waitForTimeout(3000);
+
+              // Click "View more" repeatedly in this category
+              for (var vm = 0; vm < 20; vm++) {
+                try {
+                  var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more")').first();
+                  if (await viewMore.isVisible({ timeout: 1500 })) {
+                    await viewMore.scrollIntoViewIfNeeded();
+                    await viewMore.click();
+                    await page.waitForTimeout(2000);
+                  } else { break; }
+                } catch(e) { break; }
+              }
+
+              // Scroll down to load lazy content
+              for (var scroll = 0; scroll < 10; scroll++) {
+                await page.evaluate(function() { window.scrollBy(0, 1000); });
+                await page.waitForTimeout(200);
+              }
+              await page.waitForTimeout(1000);
+
+              // Collect products from this category
+              var catText = await page.evaluate(function() { return document.body?.innerText || ''; });
+              var catProducts = parseJaneProducts(catText);
+              for (var p = 0; p < catProducts.length; p++) {
+                var key = catProducts[p].external_id;
+                if (!allProducts.has(key)) allProducts.set(key, catProducts[p]);
+              }
             }
-          } catch(e) { break; }
+          } catch(e) {}
         }
 
-        // Final scroll
-        for (var scroll = 0; scroll < 15; scroll++) {
-          await page.evaluate(function() { window.scrollBy(0, 1000); });
-          await page.waitForTimeout(200);
-        }
-        await page.waitForTimeout(1000);
-
-        var text = await page.evaluate(function() {
-          return document.body?.innerText || '';
-        });
-
-        var products = parseJaneProducts(text);
-        for (var p = 0; p < products.length; p++) {
-          var key = products[p].external_id;
-          if (!allProducts.has(key)) allProducts.set(key, products[p]);
-        }
+        // Also try the Featured/All page for anything we missed
+        try {
+          var featTab = page.locator('button:has-text("Featured"), a:has-text("Featured"), button:has-text("All")').first();
+          if (await featTab.isVisible({ timeout: 1500 })) {
+            await featTab.click();
+            await page.waitForTimeout(3000);
+            for (var vm = 0; vm < 10; vm++) {
+              try {
+                var viewMore = page.locator('button:has-text("View more")').first();
+                if (await viewMore.isVisible({ timeout: 1500 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(2000); }
+                else break;
+              } catch(e) { break; }
+            }
+            var featText = await page.evaluate(function() { return document.body?.innerText || ''; });
+            var featProducts = parseJaneProducts(featText);
+            for (var p = 0; p < featProducts.length; p++) {
+              var key = featProducts[p].external_id;
+              if (!allProducts.has(key)) allProducts.set(key, featProducts[p]);
+            }
+          }
+        } catch(e) {}
 
         console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
         await page.close();
