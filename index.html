@@ -728,6 +728,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
   var analysis=useMemo(function(){
     var results=[];
     var dealsMap={};(data.deals||[]).forEach(function(d){var k=d.product+"|"+d.dispensary;if(!dealsMap[k]||d.discounted<dealsMap[k])dealsMap[k]=d.discounted});
+    var affSet=new Set();Object.keys(data.dispensaries||{}).forEach(function(d){if(isFav(d))affSet.add(d)});
     HL_BUCKETS.forEach(function(section){
       var sectionResults={section:section.section,buckets:[]};
       section.buckets.forEach(function(bucket){
@@ -741,27 +742,25 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             var disp=e[0],price=e[1];
             if(sel.size>0&&!sel.has(disp))return;
             var dealPrice=dealsMap[p.name+"|"+disp]||null;
-            matches.push({name:p.name,brand:p.brand,disp:disp,price:price,dealPrice:dealPrice});
+            matches.push({name:p.name,brand:p.brand,disp:disp,price:price,dealPrice:dealPrice,isHome:affSet.has(disp)});
           });
         });
-        if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,low:null,high:null,dealLow:null,dealHigh:null});return}
-        matches.sort(function(a,b){return a.price-b.price});
-        var low=matches[0];var high=matches[matches.length-1];
-        // Find lowest/highest after deals
-        var withDeals=matches.filter(function(m){return m.dealPrice&&m.dealPrice<m.price});
-        var dealLow=withDeals.length>0?withDeals.sort(function(a,b){return a.dealPrice-b.dealPrice})[0]:null;
-        var dealHigh=withDeals.length>0?withDeals.sort(function(a,b){return b.dealPrice-a.dealPrice})[0]:null;
+        if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,byDisp:[]});return}
+        var byDisp={};
+        matches.forEach(function(m){
+          if(!byDisp[m.disp])byDisp[m.disp]={disp:m.disp,isHome:m.isHome,low:m,high:m,count:0};
+          byDisp[m.disp].count++;
+          if(m.price<byDisp[m.disp].low.price)byDisp[m.disp].low=m;
+          if(m.price>byDisp[m.disp].high.price)byDisp[m.disp].high=m;
+        });
+        var dispList=Object.values(byDisp).sort(function(a,b){return a.isHome?-1:b.isHome?1:a.low.price-b.low.price});
         var uniq=new Set();matches.forEach(function(m){uniq.add(m.name)});
-        sectionResults.buckets.push({label:bucket.label,count:uniq.size,totalListings:matches.length,
-          low:{price:low.price,name:low.name,brand:low.brand,disp:low.disp},
-          high:{price:high.price,name:high.name,brand:high.brand,disp:high.disp},
-          dealLow:dealLow?{price:dealLow.dealPrice,name:dealLow.name,disp:dealLow.disp}:null,
-          dealHigh:dealHigh?{price:dealHigh.dealPrice,name:dealHigh.name,disp:dealHigh.disp}:null});
+        sectionResults.buckets.push({label:bucket.label,count:uniq.size,totalListings:matches.length,byDisp:dispList});
       });
       results.push(sectionResults);
     });
     return results;
-  },[prods,sel,data]);
+  },[prods,sel,data,favsVer]);
 
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
@@ -772,40 +771,30 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
       <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. ★ starred stores display % price differences against competitors. Deal prices shown separately when a promotion makes a product cheaper.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
       {analysis.map(function(s){return<div key={s.section} className="hl-section">
         <div className="hl-section-title">{s.section}</div>
-        <div className="hl-grid">{s.buckets.map(function(b){return<div key={b.label} className="hl-card">
+        <div className="hl-grid">{s.buckets.map(function(b){
+          var homeDisp=b.byDisp&&b.byDisp.find(function(d){return d.isHome});
+          var homeLP=homeDisp?homeDisp.low.price:null;
+          var homeHP=homeDisp?homeDisp.high.price:null;
+          return<div key={b.label} className="hl-card">
           <div className="hl-card-title">{b.label}<span className="hl-count">{b.count>0?b.count+" products":""}</span></div>
-          {b.count===0?<div className="hl-empty">No products found{sel.size>0?" at selected dispensaries":""}</div>:<>
-            <div className="hl-row">
-              <div className="hl-label">Lowest</div>
-              <div className="hl-val">
-                <div className="hl-price lo">{"$"+b.low.price.toFixed(2)}</div>
-                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.low.name}>{b.low.name}</div>
-                <div className="hl-disp">{cleanD(b.low.disp)}</div>
-              </div>
-            </div>
-            {b.dealLow&&b.dealLow.price<b.low.price?<div className="hl-row">
-              <div className="hl-label" style={{fontSize:9}}>Lowest w/ Deal</div>
-              <div className="hl-val">
-                <div className="hl-price lo" style={{fontSize:13}}>{"$"+b.dealLow.price.toFixed(2)}</div>
-                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.dealLow.name}>{b.dealLow.name}</div>
-                <div className="hl-disp">{cleanD(b.dealLow.disp)}</div>
-              </div>
-            </div>:null}
-            <div className="hl-row">
-              <div className="hl-label">Highest</div>
-              <div className="hl-val">
-                <div className="hl-price hi">{"$"+b.high.price.toFixed(2)}</div>
-                <div className="hl-disp" style={{fontWeight:500,color:'var(--tx)',fontSize:10,maxWidth:180}} title={b.high.name}>{b.high.name}</div>
-                <div className="hl-disp">{cleanD(b.high.disp)}</div>
-              </div>
-            </div>
-            <div className="hl-row" style={{borderBottom:'none'}}>
-              <div className="hl-label">Spread</div>
-              <div className="hl-val">
-                <div className="hl-price" style={{color:'var(--cy)',fontSize:12}}>{"$"+(b.high.price-b.low.price).toFixed(2)}</div>
-              </div>
-            </div>
-          </>}
+          {b.count===0||!b.byDisp||b.byDisp.length===0?<div className="hl-empty">No products found{sel.size>0?" at selected dispensaries":""}</div>:
+          <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
+            <thead><tr style={{borderBottom:'1px solid var(--bd)',fontSize:10,color:'var(--tx2)'}}>
+              <th style={{textAlign:'left',padding:'4px 6px',fontWeight:600}}>DISPENSARY</th>
+              <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>LOW</th>
+              <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>HIGH</th>
+              <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>SPREAD</th>
+            </tr></thead>
+            <tbody>{b.byDisp.map(function(dd){
+              var lpct=homeLP&&!dd.isHome?Math.round((dd.low.price-homeLP)/homeLP*100):null;
+              var hpct=homeHP&&!dd.isHome?Math.round((dd.high.price-homeHP)/homeHP*100):null;
+              return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
+                <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:120,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
+                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
+                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</td>
+                <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>${(dd.high.price-dd.low.price).toFixed(2)}</td>
+              </tr>})}</tbody>
+          </table>}
         </div>})}</div>
       </div>})}
     </div></>;
