@@ -20,10 +20,9 @@
 .vid-carousel{position:relative;width:100%;height:180px;overflow:hidden;border-radius:8px;margin-bottom:10px;background:#0a0a0a}
 .vid-carousel video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease}
 .vid-carousel video.active{opacity:1}
-.vid-dots{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);display:flex;gap:6px;z-index:2}
-.vid-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.3);cursor:pointer;transition:all .3s}
-.vid-dot.on{background:#e8600a;box-shadow:0 0 6px rgba(232,96,10,0.6)}
-@media(max-width:640px){.vid-carousel{height:120px}}
+
+.vid-logo{position:absolute;top:14px;left:16px;z-index:2;display:flex;align-items:center;gap:12px;pointer-events:none}
+@media(max-width:640px){.vid-carousel{height:120px}.vid-logo{top:8px;left:10px}.vid-logo img{width:28px!important;height:28px!important}.vid-logo div div:first-child{font-size:18px!important}}
 .ftr{text-align:center;padding:16px 0 8px;font-family:var(--m);font-size:10px;color:var(--tx3);letter-spacing:1px}
 .logo{display:flex;align-items:center;gap:14px}
 .lt{display:flex;align-items:center;gap:14px}.lt h1{font-size:28px;font-weight:800;letter-spacing:4px;color:var(--cy2);line-height:1}.lt span{font-size:11px;letter-spacing:2px;color:var(--tx2);font-family:var(--m);margin-top:2px}
@@ -292,7 +291,6 @@ function App(){
     report:"Generate a full competitive analysis report between any two dispensaries. Includes price advantages, SKU breakdown, product gaps, and deals. Export as PDF."
   };
   return React.createElement("div",{className:"app"},
-    React.createElement(Hdr,{d:data}),
     React.createElement(VideoCarousel,null),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
     React.createElement("div",{className:"pnl-d",style:{margin:"0 0 16px 0"}},tabDescs[tab]),
@@ -512,7 +510,7 @@ function VideoCarousel(){
   },[idx]);
   return<div className="vid-carousel">
     {vids.map(function(src,i){return<video key={i} ref={function(el){refs.current[i]=el}} src={src} muted playsInline autoPlay={i===0} loop className={i===idx?"active":""}/>})}
-    <div className="vid-dots">{vids.map(function(_,i){return<div key={i} className={"vid-dot "+(i===idx?"on":"")} onClick={function(){setIdx(i)}}/>})}</div>
+    <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:40,height:40,borderRadius:4}}/><div><div style={{fontSize:24,fontWeight:800,letterSpacing:4,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
   </div>;
 }
 
