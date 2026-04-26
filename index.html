@@ -494,22 +494,8 @@ function Hdr({d}){
 }
 
 function VideoCarousel(){
-  var vids=['videos/banner1.mp4','videos/banner2.mp4','videos/banner3.mp4','videos/banner4.mp4','videos/banner5.mp4','videos/banner6.mp4'];
-  var[idx,setIdx]=useState(0);
-  var refs=useRef([]);
-  useEffect(function(){
-    var timer=setInterval(function(){setIdx(function(i){return(i+1)%vids.length})},10000);
-    return function(){clearInterval(timer)};
-  },[]);
-  useEffect(function(){
-    refs.current.forEach(function(v,i){
-      if(!v)return;
-      if(i===idx){v.currentTime=0;v.play().catch(function(){});}
-      else{v.pause();}
-    });
-  },[idx]);
   return<div className="vid-carousel">
-    {vids.map(function(src,i){return<video key={i} ref={function(el){refs.current[i]=el}} src={src} muted playsInline autoPlay={i===0} loop className={i===idx?"active":""}/>})}
+    <video src="videos/banner.mp4" muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
   </div>;
 }
