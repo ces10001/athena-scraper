@@ -279,7 +279,7 @@ function App(){
     }).catch(function(e){setErr(e.message)});
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
-  if(!data)return React.createElement(IntroSplash,null);
+  if(!data)return React.createElement(LoadingScreen,null);
   var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"]];
   var tabDescs={
     intel:"Select dispensaries to compare side-by-side. Star ★ your stores to see % price differences. Search any product to find who carries it and at what price.",
@@ -308,18 +308,7 @@ function App(){
 /* ═══════════════════════════════════════
    TERMINAL BOOT SEQUENCE
    ═══════════════════════════════════════ */
-function IntroSplash(){
-  // Check if we're in a scrape window (within 60min of 10:30, 16:00, 22:00 UTC)
-  var now=new Date();var utcH=now.getUTCHours();var utcM=now.getUTCMinutes();var mins=utcH*60+utcM;
-  var scrapeStarts=[0]; // 10:30, 16:00, 22:00 UTC
-  var inScrape=true;
-  if(inScrape){
-    return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
-      React.createElement("video",{src:"videos/intro.mp4",autoPlay:true,muted:true,playsInline:true,loop:true,style:{width:'100%',height:'100%',objectFit:'contain',position:'absolute',top:0,left:0}},null),
-      React.createElement("div",{style:{position:'absolute',bottom:30,left:'50%',transform:'translateX(-50%)',color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.8,textShadow:'0 0 10px rgba(232,96,10,0.5)'}},"ACQUIRING INTEL...")
-    );
-  }
-  // Outside scrape window — simple loading
+function LoadingScreen(){
   return React.createElement("div",{style:{position:'fixed',inset:0,zIndex:999,background:'#0a0a0a',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}},
     React.createElement("img",{src:typeof ATHENA_LOGO_SM!=='undefined'?ATHENA_LOGO_SM:'',alt:"",style:{width:80,height:80,marginBottom:16,opacity:0.8}}),
     React.createElement("div",{style:{color:'#e8600a',fontFamily:'var(--m)',fontSize:13,letterSpacing:4,opacity:0.7}},"INTEL RECEIVED")
@@ -474,8 +463,24 @@ function Hdr({d}){
 }
 
 function VideoCarousel(){
+  var[vidSrc,setVidSrc]=useState(function(){
+    var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
+    var scrapeStarts=[10*60+30,16*60,22*60];
+    var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
+    return 'videos/intro.mp4'; // TEMP: always intro for testing
+  });
+  useEffect(function(){
+    var timer=setInterval(function(){
+      var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
+      var scrapeStarts=[10*60+30,16*60,22*60];
+      var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
+      var newSrc=inScrape?'videos/intro.mp4':'videos/owl-stare.mp4';
+      setVidSrc(function(prev){return prev!==newSrc?newSrc:prev});
+    },30000);
+    return function(){clearInterval(timer)};
+  },[]);
   return<div className="vid-carousel">
-    <video src="videos/owl-stare.mp4" muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
+    <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
   </div>;
 }
