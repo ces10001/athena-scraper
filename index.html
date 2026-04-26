@@ -22,11 +22,14 @@
 .vid-carousel video.active{opacity:1}
 
 .vid-logo{position:absolute;top:12px;left:14px;z-index:2;display:flex;align-items:center;gap:12px;pointer-events:none}
-.vid-meter{position:absolute;top:8px;right:10px;z-index:3;pointer-events:none;opacity:0;transform:translateX(60px) scale(0.85);animation:meterSlideIn 1.4s cubic-bezier(0.16,1,0.3,1) 0.6s forwards}
-.vid-meter img{height:56px;width:auto;filter:drop-shadow(0 0 10px rgba(232,96,10,0.5));animation:meterGlow 3s ease-in-out 2s infinite alternate}
-@keyframes meterSlideIn{0%{opacity:0;transform:translateX(60px) scale(0.85)}60%{opacity:1;transform:translateX(-4px) scale(1.01)}100%{opacity:1;transform:translateX(0) scale(1)}}
-@keyframes meterGlow{0%{filter:drop-shadow(0 0 8px rgba(232,96,10,0.35))}100%{filter:drop-shadow(0 0 18px rgba(232,96,10,0.7))}}
-@media(max-width:640px){.vid-carousel{height:160px}.vid-logo{top:8px;left:10px}.vid-logo img{width:28px!important;height:28px!important}.vid-logo div div:first-child{font-size:18px!important}.vid-meter img{height:36px}}
+.vid-meter{position:absolute;top:10px;right:14px;z-index:3;pointer-events:none;opacity:0;transform:translateX(60px) scale(0.9);animation:meterSlideIn 1.4s cubic-bezier(0.16,1,0.3,1) 0.8s forwards;display:flex;flex-direction:column;align-items:center;gap:4px}
+.meter-label{font-family:'Orbitron',var(--m),monospace;font-size:8px;font-weight:600;letter-spacing:3px;color:#e8600a;text-shadow:0 0 8px rgba(232,96,10,0.6);text-transform:uppercase}
+.meter-bar{display:flex;align-items:center;gap:2px;padding:3px 8px;border:1px solid rgba(232,96,10,0.3);border-radius:3px;background:rgba(0,0,0,0.4);backdrop-filter:blur(6px)}
+.meter-hex{width:10px;height:10px;clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);background:rgba(232,96,10,0.12);transition:background 0.4s ease,box-shadow 0.4s ease}
+.meter-hex.lit{background:#e8600a;box-shadow:0 0 4px rgba(232,96,10,0.8)}
+.meter-pct{font-family:'Orbitron',var(--m),monospace;font-size:9px;font-weight:700;color:#e8600a;text-shadow:0 0 6px rgba(232,96,10,0.5);letter-spacing:1px;min-width:28px;text-align:center}
+@keyframes meterSlideIn{0%{opacity:0;transform:translateX(60px) scale(0.9)}60%{opacity:1;transform:translateX(-4px) scale(1.01)}100%{opacity:1;transform:translateX(0) scale(1)}}
+@media(max-width:640px){.vid-carousel{height:160px}.vid-logo{top:8px;left:10px}.vid-logo img{width:28px!important;height:28px!important}.vid-logo div div:first-child{font-size:18px!important}.vid-meter{top:6px;right:8px}.meter-hex{width:7px;height:7px}.meter-label{font-size:6px}.meter-pct{font-size:7px}}
 .ftr{text-align:center;padding:16px 0 8px;font-family:var(--m);font-size:10px;color:var(--tx3);letter-spacing:1px}
 .logo{display:flex;align-items:center;gap:14px}
 .lt{display:flex;align-items:center;gap:14px}.lt h1{font-size:28px;font-weight:800;letter-spacing:4px;color:var(--cy2);line-height:1}.lt span{font-size:11px;letter-spacing:2px;color:var(--tx2);font-family:var(--m);margin-top:2px}
@@ -476,6 +479,17 @@ function VideoCarousel(){
     return inScrape?'videos/intro.mp4':'videos/owl-stare.mp4';
   });
   var[scrapeInfo,setScrapeInfo]=useState({inScrape:false,progress:0});
+  var[meterProg,setMeterProg]=useState(0);
+  useEffect(function(){
+    var frame=0;
+    var meterTimer=setInterval(function(){
+      frame++;
+      var cycle=frame%200;
+      var pct=cycle<160?Math.min(100,Math.round(cycle/140*100)):100;
+      setMeterProg(pct);
+    },50);
+    return function(){clearInterval(meterTimer)};
+  },[]);
   useEffect(function(){
     function checkScrape(){
       var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
@@ -497,7 +511,15 @@ function VideoCarousel(){
   return<div className="vid-carousel">
     <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
-    <div className="vid-meter"><img src="videos/meter.png" alt="ATHENA Status"/></div>
+    <div className="vid-meter">
+      <span className="meter-label">ATHENA INITIALIZING</span>
+      <div style={{display:'flex',alignItems:'center',gap:6}}>
+        <div className="meter-bar">
+          {[0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(function(i){return<div key={i} className={"meter-hex"+(Math.round(i/13*100)<=meterProg?" lit":"")}/>})}
+        </div>
+        <span className="meter-pct">{meterProg}%</span>
+      </div>
+    </div>
     <div style={{position:'absolute',bottom:10,right:14,display:'flex',alignItems:'center',gap:10,zIndex:2}}>
       {isIntro?<>
         <div style={{width:120,height:14,background:'rgba(0,0,0,0.5)',borderRadius:7,overflow:'hidden',border:'1px solid rgba(232,96,10,0.4)',position:'relative'}}>
