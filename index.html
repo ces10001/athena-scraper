@@ -22,7 +22,7 @@
 .lt{display:flex;align-items:center;gap:14px}.lt h1{font-size:28px;font-weight:800;letter-spacing:4px;color:var(--cy2);line-height:1}.lt span{font-size:11px;letter-spacing:2px;color:var(--tx2);font-family:var(--m);margin-top:2px}
 .glow{height:1px;background:linear-gradient(90deg,transparent,var(--cy),transparent);margin:10px 0;opacity:.2}
 .tabs{display:flex;gap:2px;margin-bottom:14px;background:var(--sf);border-radius:8px;padding:3px;border:1px solid var(--bd);overflow-x:auto}
-.tab{padding:12px 24px;border-radius:6px;font-size:16px;font-weight:600;cursor:pointer;color:var(--tx2);transition:all .15s;white-space:nowrap}
+.tab{padding:12px 24px;border-radius:6px;font-size:18px;font-weight:600;cursor:pointer;color:var(--tx2);transition:all .15s;white-space:nowrap}
 .tab:hover{color:var(--tx)}.tab.on{background:rgba(232,96,10,.08);color:var(--cy);border-bottom:2px solid var(--cy)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:14px}
 .st{background:var(--sf);border:1px solid var(--bd);border-radius:8px;padding:12px 14px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
@@ -30,7 +30,7 @@
 .st-v{font-family:var(--m);font-size:26px;font-weight:600;color:var(--cy)}.st-v.gn{color:var(--gn)}.st-v.am{color:var(--am)}.st-v.rd{color:var(--rd)}
 .pnl{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
 .pnl-t{font-family:var(--m);font-size:15px;text-transform:uppercase;letter-spacing:1.2px;color:var(--tx2);margin-bottom:10px}
-.pnl-d{font-size:18px;color:#1a1a1a;background:rgba(232,96,10,0.12);border:1.5px solid rgba(140,60,0,0.5);padding:10px 14px;margin-bottom:12px;line-height:1.5;border-radius:4px}
+.pnl-d{font-size:16px;color:#1a1a1a;background:rgba(232,96,10,0.12);border:1.5px solid rgba(140,60,0,0.5);padding:10px 14px;margin-bottom:12px;line-height:1.5;border-radius:4px}
 .map-w{height:320px;border-radius:8px;overflow:hidden;border:1px solid var(--bd)}
 .leaflet-container{background:#e8e8e8!important}
 .leaflet-control-zoom a{background:#fff!important;color:var(--cy)!important;border-color:#ddd!important}
@@ -537,7 +537,30 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
 function MapPanel({data,sel,setSel,radius,setRadius}){
   const ref=useRef(null),mRef=useRef(null),mkRef=useRef([]),circRef=useRef(null);
   const[center,setCenter]=useState(null);const[cLabel,setCLabel]=useState("Click map or dispensary to set center");
-  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);m.on('click',e=>{setCenter([e.latlng.lat,e.latlng.lng]);setCLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mRef.current=m},[]);
+  useEffect(()=>{if(!ref.current||mRef.current)return;const m=L.map(ref.current,{zoomControl:true,attributionControl:false}).setView([41.35,-72.9],9);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:18}).addTo(m);L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:18,pane:'overlayPane'}).addTo(m);
+    // CT state outline
+    var ctBorder=[[42.05,-73.73],[42.05,-72.81],[42.03,-72.81],[42.03,-72.58],[42.04,-72.58],[42.04,-71.80],[41.67,-71.79],[41.33,-71.83],[41.18,-71.79],[41.15,-72.08],[41.04,-72.10],[41.05,-72.53],[40.98,-72.53],[40.95,-73.07],[40.98,-73.24],[41.02,-73.48],[41.10,-73.55],[41.15,-73.73],[42.05,-73.73]];
+    L.polyline(ctBorder,{color:'#555',weight:2.5,opacity:0.7,fill:false}).addTo(m);
+    // County borders (dotted orange)
+    var ctyStyle={color:'#e8600a',weight:1.5,opacity:0.6,dashArray:'6 4'};
+    // Fairfield/New Haven ~-73.05
+    L.polyline([[41.15,-73.05],[41.34,-73.04],[41.48,-73.10],[41.65,-73.09],[41.73,-73.06]],ctyStyle).addTo(m);
+    // New Haven/Middlesex ~-72.53
+    L.polyline([[41.05,-72.53],[41.18,-72.53],[41.33,-72.53],[41.49,-72.51],[41.57,-72.51]],ctyStyle).addTo(m);
+    // Middlesex/New London ~-72.24
+    L.polyline([[41.13,-72.23],[41.28,-72.22],[41.45,-72.24],[41.55,-72.22]],ctyStyle).addTo(m);
+    // Litchfield/Hartford ~-72.76
+    L.polyline([[41.56,-72.76],[41.72,-72.73],[41.87,-72.75],[42.04,-72.76]],ctyStyle).addTo(m);
+    // Hartford/Tolland ~-72.41
+    L.polyline([[41.50,-72.41],[41.62,-72.41],[41.78,-72.42],[41.93,-72.41],[42.04,-72.42]],ctyStyle).addTo(m);
+    // Tolland/Windham ~-72.13
+    L.polyline([[41.55,-72.13],[41.70,-72.14],[41.85,-72.12],[42.04,-72.13]],ctyStyle).addTo(m);
+    // Horizontal: Litchfield/Fairfield + New Haven + Middlesex + New London south border
+    L.polyline([[41.15,-73.73],[41.20,-73.40],[41.27,-73.22],[41.30,-73.05]],ctyStyle).addTo(m);
+    L.polyline([[41.49,-72.51],[41.48,-72.24],[41.45,-72.13],[41.42,-71.80]],ctyStyle).addTo(m);
+    L.polyline([[41.56,-72.76],[41.55,-72.51]],ctyStyle).addTo(m);
+    L.polyline([[41.73,-73.06],[41.72,-72.76]],ctyStyle).addTo(m);
+    m.on('click',e=>{setCenter([e.latlng.lat,e.latlng.lng]);setCLabel(e.latlng.lat.toFixed(3)+", "+e.latlng.lng.toFixed(3))});mRef.current=m},[]);
   useEffect(()=>{const m=mRef.current;if(!m||!center)return;if(circRef.current)m.removeLayer(circRef.current);var radiusM=radius*1609.34;circRef.current=L.circle(center,{radius:radiusM,color:'#e8600a',weight:1.5,opacity:.5,fillColor:'#e8600a',fillOpacity:.06,dashArray:'6 4'}).addTo(m);
     if(data&&data.dispensaries){var inRadius=new Set();var cll=L.latLng(center[0],center[1]);Object.entries(data.dispensaries).forEach(function(e){var dn=e[0],info=e[1];var c=COORDS[info.city];if(!c)return;var h=hashStr(dn);var lat=c[0]+((h%100)-50)*.00008;var lon=c[1]+(((h>>8)%100)-50)*.00008;if(cll.distanceTo(L.latLng(lat,lon))<=radiusM)inRadius.add(dn)});if(inRadius.size>0)setSel(inRadius)}},[radius,center]);
   useEffect(()=>{const m=mRef.current;if(!m||!data)return;mkRef.current.forEach(mk=>m.removeLayer(mk));mkRef.current=[];const disps=data.dispensaries||{};const counts=data.stats?.dispensary_counts||{};
