@@ -39,19 +39,19 @@ body {
   z-index: 1;
   background:
     /* Narrow dark strip behind owl - widens toward top */
-    radial-gradient(ellipse 180px 200px at 50% 38%, rgba(10,9,8,0.92) 0%, rgba(10,9,8,0.4) 60%, transparent 100%),
+    radial-gradient(ellipse 180px 200px at 50% 38%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.85) 35%, rgba(10,9,8,0.3) 65%, transparent 100%),
     /* Widening dark toward top */
-    radial-gradient(ellipse 500px 300px at 50% 0%, rgba(10,9,8,0.9) 0%, rgba(10,9,8,0.5) 50%, transparent 85%),
+    radial-gradient(ellipse 500px 300px at 50% 0%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.8) 35%, rgba(10,9,8,0.3) 60%, transparent 85%),
     /* Widening dark toward bottom */
-    radial-gradient(ellipse 500px 300px at 50% 100%, rgba(10,9,8,0.9) 0%, rgba(10,9,8,0.5) 50%, transparent 85%),
+    radial-gradient(ellipse 500px 300px at 50% 100%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.8) 35%, rgba(10,9,8,0.3) 60%, transparent 85%),
     /* Random dark patch - top left */
-    radial-gradient(ellipse 280px 220px at 12% 22%, rgba(10,9,8,0.8) 0%, transparent 70%),
+    radial-gradient(ellipse 280px 220px at 12% 22%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.7) 30%, transparent 70%),
     /* Random dark patch - right middle */
-    radial-gradient(ellipse 250px 300px at 90% 50%, rgba(10,9,8,0.7) 0%, transparent 65%),
+    radial-gradient(ellipse 250px 300px at 90% 50%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.6) 30%, transparent 65%),
     /* Random dark patch - bottom left */
-    radial-gradient(ellipse 300px 200px at 25% 80%, rgba(10,9,8,0.75) 0%, transparent 65%),
+    radial-gradient(ellipse 300px 200px at 25% 80%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.65) 30%, transparent 65%),
     /* Random dark patch - top right area */
-    radial-gradient(ellipse 200px 180px at 78% 18%, rgba(10,9,8,0.7) 0%, transparent 60%);
+    radial-gradient(ellipse 200px 180px at 78% 18%, rgba(10,9,8,1) 0%, rgba(10,9,8,0.6) 30%, transparent 60%);
   pointer-events: none;
 }
 
@@ -295,8 +295,8 @@ body {
   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
     <defs>
       <pattern id="hex" width="56" height="100" patternUnits="userSpaceOnUse" patternTransform="scale(1.4)">
-        <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="rgba(180,120,60,0.25)" stroke-width="0.6"/>
-        <path d="M28 0L28 -34L0 -50L-28 -34L-28 0" fill="none" stroke="rgba(180,120,60,0.25)" stroke-width="0.6"/>
+        <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="rgba(200,130,60,0.35)" stroke-width="0.6"/>
+        <path d="M28 0L28 -34L0 -50L-28 -34L-28 0" fill="none" stroke="rgba(200,130,60,0.35)" stroke-width="0.6"/>
       </pattern>
     </defs>
     <rect width="100%" height="100%" fill="url(#hex)"/>
