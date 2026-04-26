@@ -464,12 +464,17 @@ function Hdr({d}){
 
 function VideoCarousel(){
   var[vidSrc,setVidSrc]=useState(function(){
+    // First login of session → play intro
+    var seen=sessionStorage.getItem('athena_intro_seen');
+    if(!seen){sessionStorage.setItem('athena_intro_seen','true');return 'videos/intro.mp4';}
+    // Check scrape windows
     var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
     var scrapeStarts=[10*60+30,16*60,22*60];
     var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
-    return 'videos/intro.mp4'; // TEMP: always intro for testing
+    return inScrape?'videos/intro.mp4':'videos/owl-stare.mp4';
   });
   useEffect(function(){
+    // Check every 30s if we should switch videos
     var timer=setInterval(function(){
       var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
       var scrapeStarts=[10*60+30,16*60,22*60];
