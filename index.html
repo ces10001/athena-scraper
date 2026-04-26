@@ -490,17 +490,10 @@ function VideoCarousel(){
     return inScrape?'videos/intro.mp4':'videos/honeycomb.mp4';
   });
   var[scrapeInfo,setScrapeInfo]=useState({inScrape:false,progress:0});
-  var[meterProg,setMeterProg]=useState(0);
-  useEffect(function(){
-    var frame=0;
-    var meterTimer=setInterval(function(){
-      frame++;
-      var cycle=frame%200;
-      var pct=cycle<160?Math.min(100,Math.round(cycle/140*100)):100;
-      setMeterProg(pct);
-    },50);
-    return function(){clearInterval(meterTimer)};
-  },[]);
+  var[scrapeComplete,setScrapeComplete]=useState(false);
+  var lastScrapedRef=useRef(null);
+  var initRef=useRef(false);
+
   useEffect(function(){
     function checkScrape(){
       var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
@@ -508,29 +501,46 @@ function VideoCarousel(){
       var inScrape=false;var progress=0;
       for(var i=0;i<scrapeStarts.length;i++){
         var s=scrapeStarts[i];
-        if(mins>=s&&mins<s+60){inScrape=true;progress=Math.min(100,Math.round((mins-s)/40*100));break}
+        if(mins>=s&&mins<s+60){inScrape=true;progress=Math.min(100,Math.round((mins-s)/60*100));break}
       }
       setScrapeInfo({inScrape:inScrape,progress:progress});
-      var newSrc=inScrape?'videos/intro.mp4':'videos/honeycomb.mp4';
-      setVidSrc(function(prev){return prev!==newSrc?newSrc:prev});
+      if(inScrape&&!scrapeComplete){setVidSrc(function(p){return p.includes('intro')?p:'videos/intro.mp4'})}
+      else if(!inScrape){setVidSrc('videos/honeycomb.mp4');setScrapeComplete(false)}
     }
-    checkScrape();
-    var timer=setInterval(checkScrape,15000);
+    checkScrape();var timer=setInterval(checkScrape,15000);
     return function(){clearInterval(timer)};
-  },[]);
-  var isIntro=vidSrc.includes('intro');
+  },[scrapeComplete]);
+
+  useEffect(function(){
+    if(!scrapeInfo.inScrape||scrapeComplete)return;
+    function poll(){
+      fetch("dashboard_data.json?t="+Date.now()).then(function(r){return r.json()}).then(function(d){
+        var ts=d.scraped_at||"";
+        if(!initRef.current){lastScrapedRef.current=ts;initRef.current=true;return}
+        if(lastScrapedRef.current&&ts!==lastScrapedRef.current){
+          setScrapeComplete(true);setVidSrc('videos/honeycomb.mp4');
+          setTimeout(function(){window.location.reload()},3000);
+        }
+        lastScrapedRef.current=ts;
+      }).catch(function(){});
+    }
+    poll();var timer=setInterval(poll,30000);
+    return function(){clearInterval(timer)};
+  },[scrapeInfo.inScrape,scrapeComplete]);
+
+  var showMeter=scrapeInfo.inScrape&&!scrapeComplete;
   return<div className="vid-carousel">
     <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
-    <div className="vid-meter">
-      <span className="meter-label">ATHENA INITIALIZING</span>
+    {showMeter&&<div className="vid-meter">
+      <span className="meter-label">ACQUIRING INTEL</span>
       <div style={{display:'flex',alignItems:'center',gap:6}}>
         <div className="meter-bar">
-          {[0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(function(i){return<div key={i} className={"meter-hex"+(Math.round(i/13*100)<=meterProg?" lit":"")}/>})}
+          {[0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(function(i){return<div key={i} className={"meter-hex"+(Math.round(i/13*100)<=scrapeInfo.progress?" lit":"")}/>})}
         </div>
-        <span className="meter-pct">{meterProg}%</span>
+        <span className="meter-pct">{scrapeInfo.progress}%</span>
       </div>
-    </div>
+    </div>}
   </div>;
 }
 
