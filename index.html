@@ -799,7 +799,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
                 <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:120,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
                 <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
                 <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</td>
-                <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>${(dd.high.price-dd.low.price).toFixed(2)}</td>
+                <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
               </tr>})}</tbody>
           </table>}
         </div>})}</div>
@@ -1244,6 +1244,23 @@ function DispsTab({data,favsVer,toggleFav}){
 /* ═══════════════════════════════════════
    REPORT TAB — Competitive Analysis PDF
    ═══════════════════════════════════════ */
+function GapTable({items,color}){
+  var catOrder=["Flower","Pre-Rolls","Vaporizers","Edible","Concentrate","Tincture","Topical"];
+  var byCat={};items.forEach(function(p){var c=p.cat||"other";if(!byCat[c])byCat[c]=[];byCat[c].push(p)});
+  var sorted=Object.entries(byCat).sort(function(a,b){var ai=catOrder.indexOf(a[0]),bi=catOrder.indexOf(b[0]);return(ai<0?99:ai)-(bi<0?99:bi)});
+  return React.createElement("div",null,sorted.map(function(e){var cat=e[0],prods=e[1];
+    return React.createElement("div",{key:cat,style:{marginBottom:10}},
+      React.createElement("div",{style:{fontWeight:600,fontSize:13,color:color,marginBottom:4}},cat+" ("+prods.length+")"),
+      React.createElement("div",{style:{maxHeight:prods.length>15?320:'none',overflowY:prods.length>15?'auto':'visible'}},
+        React.createElement("table",{style:{width:'100%',borderCollapse:'collapse',fontSize:12}},
+          React.createElement("tbody",null,prods.map(function(p,i){return React.createElement("tr",{key:i,style:{borderBottom:'1px solid #f0f0f0'}},
+            React.createElement("td",{style:{padding:'3px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}},p.name),
+            React.createElement("td",{style:{padding:'3px 6px',fontWeight:600,textAlign:'right'}},"$"+p.price.toFixed(2))
+          )}))
+        )
+      )
+    )}));
+}
 function ReportTab({data,favsVer}){
   var allDisps=getDisps(data.products||[]);
   var affC=allDisps.filter(isAff);
@@ -1461,7 +1478,7 @@ function ReportTab({data,favsVer}){
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
               <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff<0}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff<0}).sort(function(a,b){var catOrder=['Flower','Pre-Rolls','Vaporizers','Edible','Concentrate','Tincture','Topical'];var ai=catOrder.indexOf(a.cat),bi=catOrder.indexOf(b.cat);if(ai!==bi)return(ai<0?99:ai)-(bi<0?99:bi);return a.diff-b.diff}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:600}}><div>${d.homePrice.toFixed(2)}</div>{d.homePromo?<div style={{fontSize:11,color:'var(--am)'}}>${d.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</td>
@@ -1479,7 +1496,7 @@ function ReportTab({data,favsVer}){
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
               <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){var catOrder=['Flower','Pre-Rolls','Vaporizers','Edible','Concentrate','Tincture','Topical'];var ai=catOrder.indexOf(a.cat),bi=catOrder.indexOf(b.cat);if(ai!==bi)return(ai<0?99:ai)-(bi<0?99:bi);return b.diff-a.diff}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:600}}><div>${d.homePrice.toFixed(2)}</div>{d.homePromo?<div style={{fontSize:11,color:'var(--am)'}}>${d.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</td>
@@ -1553,26 +1570,12 @@ function ReportTab({data,favsVer}){
             <div style={{flex:1,minWidth:250}}>
               <div style={{fontWeight:600,fontSize:14,color:'#d42030',marginBottom:6}}>They Carry, You Don't ({report.compOnly.length} products)</div>
               {report.compOnly.length===0?<div style={{color:'#888',fontSize:13}}>No gaps — you carry everything they do.</div>:
-              <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
-                <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
-                <tbody>{report.compOnly.map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
-                  <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
-                  <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
-                  <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
-                </tr>})}</tbody>
-              </table>}
+              React.createElement(GapTable,{items:report.compOnly,color:'#d42030'})}
             </div>
             <div style={{flex:1,minWidth:250}}>
               <div style={{fontWeight:600,fontSize:14,color:'#1a8f3f',marginBottom:6}}>You Carry, They Don't ({report.homeOnly.length} products)</div>
               {report.homeOnly.length===0?<div style={{color:'#888',fontSize:13}}>They carry everything you do.</div>:
-              <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
-                <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
-                <tbody>{report.homeOnly.map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
-                  <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
-                  <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
-                  <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
-                </tr>})}</tbody>
-              </table>}
+              React.createElement(GapTable,{items:report.homeOnly,color:'#1a8f3f'})}
             </div>
           </div>
         </div>
