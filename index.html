@@ -1421,13 +1421,13 @@ function ReportTab({data,favsVer}){
 
         {/* BIGGEST PRICE ADVANTAGES (YOU'RE CHEAPER) */}
         <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Your Biggest Price Advantages (Top 15)</div>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Your Biggest Price Advantages</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
               <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff<0}).slice(0,15).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff<0}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#1a8f3f',fontWeight:600}}><div>${d.homePrice.toFixed(2)}</div>{d.homePromo?<div style={{fontSize:11,color:'var(--am)'}}>${d.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</td>
@@ -1439,13 +1439,13 @@ function ReportTab({data,favsVer}){
 
         {/* BIGGEST PRICE DISADVANTAGES */}
         <div style={{marginBottom:28,pageBreakInside:'avoid'}}>
-          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Competitor's Price Advantages (Top 15)</div>
+          <div style={{fontSize:18,fontWeight:700,color:'#e8600a',borderBottom:'1px solid #ddd',paddingBottom:6,marginBottom:12,pageBreakAfter:'avoid'}}>Competitor's Price Advantages</div>
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
             <thead><tr style={{borderBottom:'2px solid #ddd'}}>
               <th style={{textAlign:'left',padding:'6px 8px'}}>Product</th><th style={{padding:'6px 8px'}}>Category</th>
               <th style={{padding:'6px 8px',color:'#e8600a'}}>Your Price</th><th style={{padding:'6px 8px'}}>Their Price</th><th style={{padding:'6px 8px'}}>Difference</th>
             </tr></thead>
-            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).slice(0,15).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
+            <tbody>{report.diffs.filter(function(d){return d.diff>0}).sort(function(a,b){return b.diff-a.diff}).map(function(d,i){var compPct=Math.round((d.compPrice-d.homePrice)/d.homePrice*100);var bestHome=d.homePromo||d.homePrice;var bestComp=d.compPromo||d.compPrice;var promoPct=(d.homePromo||d.compPromo)?Math.round((bestComp-bestHome)/bestHome*100):null;return<tr key={i} style={{borderBottom:'1px solid #eee'}}>
               <td style={{padding:'6px 8px',maxWidth:200,wordBreak:'break-word',whiteSpace:'normal'}}>{d.name}</td>
               <td style={{padding:'6px 8px',textAlign:'center',fontSize:12}}>{d.cat}</td>
               <td style={{padding:'6px 8px',textAlign:'center',color:'#d42030',fontWeight:600}}><div>${d.homePrice.toFixed(2)}</div>{d.homePromo?<div style={{fontSize:11,color:'var(--am)'}}>${d.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</td>
@@ -1467,7 +1467,7 @@ function ReportTab({data,favsVer}){
             var totalInCat=Object.values(weights).reduce(function(s,arr){return s+arr.length},0);
             return<div key={catName} style={{marginBottom:20,pageBreakInside:'avoid'}}>
               <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10,pageBreakAfter:'avoid'}}>{catName} ({totalInCat} comparable)</div>
-              {Object.entries(weights).filter(function(e){return e[1].length>0}).sort(function(a,b){
+              {Object.entries(weights).filter(function(e){return e[1].length>0&&e[0]!=="other"}).sort(function(a,b){
                 var wOrder=["0.5g","1g","3.5g","7g","14g","28g","other"];
                 return wOrder.indexOf(a[0])-wOrder.indexOf(b[0]);
               }).map(function(wEntry){
@@ -1521,11 +1521,11 @@ function ReportTab({data,favsVer}){
               {report.compOnly.length===0?<div style={{color:'#888',fontSize:13}}>No gaps — you carry everything they do.</div>:
               <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
                 <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
-                <tbody>{report.compOnly.slice(0,20).map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                <tbody>{report.compOnly.map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
                   <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
                   <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
                   <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
-                </tr>})}{report.compOnly.length>20&&<tr><td colSpan="3" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {report.compOnly.length-20} more</td></tr>}</tbody>
+                </tr>})}</tbody>
               </table>}
             </div>
             <div style={{flex:1,minWidth:250}}>
@@ -1533,11 +1533,11 @@ function ReportTab({data,favsVer}){
               {report.homeOnly.length===0?<div style={{color:'#888',fontSize:13}}>They carry everything you do.</div>:
               <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
                 <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Cat</th><th style={{padding:'4px 6px'}}>Price</th></tr></thead>
-                <tbody>{report.homeOnly.slice(0,20).map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                <tbody>{report.homeOnly.map(function(p,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
                   <td style={{padding:'4px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}}>{p.name}</td>
                   <td style={{padding:'4px 6px',fontSize:11}}>{p.cat}</td>
                   <td style={{padding:'4px 6px',fontWeight:600}}>${p.price.toFixed(2)}</td>
-                </tr>})}{report.homeOnly.length>20&&<tr><td colSpan="3" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {report.homeOnly.length-20} more</td></tr>}</tbody>
+                </tr>})}</tbody>
               </table>}
             </div>
           </div>
@@ -1550,10 +1550,10 @@ function ReportTab({data,favsVer}){
             {[[report.hName,report.homeDeals,"#e8600a"],[report.cName,report.compDeals,"#555"]].map(function(s){return<div key={s[0]} style={{flex:1,minWidth:250}}>
               <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]} ({s[1].length} deals)</div>
               {s[1].length===0?<div style={{color:'#888',fontSize:13}}>No active promotions.</div>:
-              <div>{s[1].slice(0,10).map(function(d,i){return<div key={i} style={{background:'#f8f8f8',borderRadius:6,padding:8,marginBottom:6,borderLeft:'3px solid '+s[2]}}>
+              <div>{s[1].map(function(d,i){return<div key={i} style={{background:'#f8f8f8',borderRadius:6,padding:8,marginBottom:6,borderLeft:'3px solid '+s[2]}}>
                 <div style={{fontSize:13,fontWeight:600}}>{d.title}</div>
                 {d.description&&<div style={{fontSize:11,color:'#888',marginTop:2}}>{d.description}</div>}
-              </div>})}{s[1].length>10&&<div style={{color:'#888',fontSize:12,fontStyle:'italic'}}>...and {s[1].length-10} more</div>}</div>}
+              </div>})}</div>}
             </div>})}
           </div>
         </div>
@@ -1570,12 +1570,12 @@ function ReportTab({data,favsVer}){
                 {moves.length===0?<div style={{color:'#888',fontSize:13}}>No active product discounts.</div>:
                 <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
                   <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Was</th><th style={{padding:'4px 6px'}}>Now</th><th style={{padding:'4px 6px'}}>Off</th></tr></thead>
-                  <tbody>{sorted.slice(0,15).map(function(m,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
+                  <tbody>{sorted.map(function(m,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
                     <td style={{padding:'4px 6px',maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{m.product||m.name}</td>
                     <td style={{padding:'4px 6px',textAlign:'center',textDecoration:'line-through',color:'#888'}}>${(m.original||0).toFixed(2)}</td>
                     <td style={{padding:'4px 6px',textAlign:'center',fontWeight:600,color:'#1a8f3f'}}>${(m.discounted||0).toFixed(2)}</td>
                     <td style={{padding:'4px 6px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{m.pct_off||0}%</td>
-                  </tr>})}{moves.length>15&&<tr><td colSpan="4" style={{padding:'4px 6px',color:'#888',fontStyle:'italic'}}>...and {moves.length-15} more</td></tr>}</tbody>
+                  </tr>})}</tbody>
                 </table>}
               </div>
             })}
