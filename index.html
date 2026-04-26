@@ -110,6 +110,17 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 @media(max-width:900px){.g2{grid-template-columns:1fr}}
 @media(max-width:640px){.hdr{flex-direction:column;align-items:flex-start}.stats{grid-template-columns:repeat(2,1fr)}.tabs{flex-wrap:wrap}}
 
+.ss-wrap{position:relative}
+.ss-input{width:100%;padding:10px 14px;border-radius:7px;border:1px solid var(--bd);background:var(--bg2);color:var(--tx);font-family:var(--f);font-size:14px;outline:none;cursor:pointer}
+.ss-input:focus{border-color:var(--cy);box-shadow:0 0 0 2px rgba(232,96,10,.12)}
+.ss-input::placeholder{color:var(--tx3)}
+.ss-list{position:absolute;top:100%;left:0;right:0;max-height:220px;overflow-y:auto;background:var(--sf);border:1px solid var(--bd);border-radius:7px;margin-top:4px;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.ss-item{padding:8px 14px;font-size:13px;cursor:pointer;border-bottom:1px solid rgba(0,0,0,.04);transition:background .1s}
+.ss-item:hover{background:rgba(232,96,10,.06)}
+.ss-item.active{background:rgba(232,96,10,.1);color:var(--cy);font-weight:600}
+.ss-item .ss-star{color:var(--cy);margin-right:4px}
+.ss-empty{padding:12px 14px;font-size:12px;color:var(--tx3);text-align:center}
+
 /* ═══ TERMINAL BOOT SEQUENCE ═══ */
 .boot{background:#0d0d0d;position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;justify-content:center;padding:40px 60px;font-family:'IBM Plex Mono',monospace;overflow:hidden}
 .boot::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.03) 2px,rgba(0,0,0,.03) 4px);pointer-events:none;z-index:1}
@@ -519,18 +530,6 @@ function VideoCarousel(){
         </div>
         <span className="meter-pct">{meterProg}%</span>
       </div>
-    </div>
-    <div style={{position:'absolute',bottom:10,right:14,display:'flex',alignItems:'center',gap:10,zIndex:2}}>
-      {isIntro?<>
-        <div style={{width:120,height:14,background:'rgba(0,0,0,0.5)',borderRadius:7,overflow:'hidden',border:'1px solid rgba(232,96,10,0.4)',position:'relative'}}>
-          <div style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center'}}>
-            {[0,1,2,3,4,5,6,7,8,9].map(function(h){return<div key={h} style={{width:8,height:8,clipPath:'polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)',background:h*10<scrapeInfo.progress?'#e8600a':'rgba(232,96,10,0.15)',margin:'0 1px',transition:'background .5s'}}/>})}
-          </div>
-        </div>
-        <span style={{fontFamily:'var(--m)',fontSize:11,fontWeight:700,letterSpacing:2,color:'#e8600a',textShadow:'0 0 10px rgba(232,96,10,0.5)'}}>{scrapeInfo.progress}% ACQUIRING INTEL...</span>
-      </>:
-        <span style={{fontFamily:'var(--m)',fontSize:11,fontWeight:700,letterSpacing:2,color:'#e8600a',textShadow:'0 0 8px rgba(232,96,10,0.4)'}}>INTEL ACQUIRED <span style={{fontSize:14}}>✓</span></span>
-      }
     </div>
   </div>;
 }
@@ -1359,6 +1358,31 @@ function GapTable({items,color}){
       )
     )}));
 }
+function SearchSelect({value,onChange,options,placeholder}){
+  var[open,setOpen]=useState(false);
+  var[q,setQ]=useState("");
+  var ref=useRef(null);
+  useEffect(function(){
+    function handler(e){if(ref.current&&!ref.current.contains(e.target))setOpen(false)}
+    document.addEventListener('mousedown',handler);
+    return function(){document.removeEventListener('mousedown',handler)};
+  },[]);
+  var filtered=options.filter(function(o){return !q||o.label.toLowerCase().includes(q.toLowerCase())});
+  var display=value?((options.find(function(o){return o.value===value})||{}).label||""):"";
+  return<div ref={ref} className="ss-wrap">
+    <input className="ss-input" placeholder={placeholder||"Search..."} value={open?q:display}
+      onFocus={function(){setOpen(true);setQ("")}}
+      onChange={function(e){setQ(e.target.value)}}/>
+    {open&&<div className="ss-list">
+      {filtered.length===0&&<div className="ss-empty">No matches</div>}
+      {filtered.map(function(o){return<div key={o.value} className={"ss-item"+(o.value===value?" active":"")}
+        onClick={function(){onChange(o.value);setOpen(false);setQ("")}}>
+        {o.star&&<span className="ss-star">★ </span>}{o.label}
+      </div>})}
+    </div>}
+  </div>;
+}
+
 function ReportTab({data,favsVer}){
   var allDisps=getDisps(data.products||[]);
   var affC=allDisps.filter(isAff);
@@ -1477,17 +1501,13 @@ function ReportTab({data,favsVer}){
       <div style={{display:'flex',gap:12,marginTop:12,flexWrap:'wrap',alignItems:'flex-end'}}>
         <div style={{flex:1,minWidth:200}}>
           <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>HOME DISPENSARY</label>
-          <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={homeDisp} onChange={function(e){setHome(e.target.value);setReport(null)}}>
-            <option value="">Select your store...</option>
-            {allDisps.map(function(d){var label=d.replace(/ - /g,' ');return<option key={d} value={d}>{isAff(d)?"★ ":""}{label}</option>})}
-          </select>
+          <SearchSelect value={homeDisp} placeholder="Search your store..." onChange={function(v){setHome(v);setReport(null)}}
+            options={allDisps.map(function(d){return{value:d,label:d.replace(/ - /g,' '),star:isAff(d)}})}/>
         </div>
         <div style={{flex:1,minWidth:200}}>
           <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>COMPETITOR</label>
-          <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={compDisp} onChange={function(e){setComp(e.target.value);setReport(null)}}>
-            <option value="">Select competitor...</option>
-            {allDisps.filter(function(d){return d!==homeDisp}).map(function(d){var label=d.replace(/ - /g,' ');return<option key={d} value={d}>{label}</option>})}
-          </select>
+          <SearchSelect value={compDisp} placeholder="Search competitor..." onChange={function(v){setComp(v);setReport(null)}}
+            options={allDisps.filter(function(d){return d!==homeDisp}).map(function(d){return{value:d,label:d.replace(/ - /g,' '),star:false}})}/>
         </div>
         <button className="btn pri" style={{padding:'10px 24px',fontSize:14}} onClick={generateReport} disabled={!homeDisp||!compDisp||homeDisp===compDisp||generating}>{generating?"Generating...":"Generate Report"}</button>
       </div>
