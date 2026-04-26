@@ -558,9 +558,9 @@ function MapPanel({data,sel,setSel,radius,setRadius}){
 
 function DispPanel({data,sel,setSel,toggleFav,favsVer}){
   const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
+  const[openChains,setOpenChains]=useState(new Set());
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
   
-  // Deduplicated counts per base group (count unique product names across med+rec)
   const groupCounts=useMemo(()=>{
     const byBase=new Map();
     allD.forEach(d=>{const b=getBase(d);if(!byBase.has(b))byBase.set(b,[]);byBase.get(b).push(d)});
@@ -573,7 +573,12 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
     return gc;
   },[prods,allD]);
   
-  // Group dispensaries by base name, detect med/rec variants
+  function getChain(base){
+    var parts=base.split(' - ');
+    if(parts.length>1)return parts[0].trim();
+    return base;
+  }
+  
   const grouped=useMemo(()=>{
     const byBase=new Map();
     allD.forEach(d=>{
@@ -587,41 +592,86 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
     return[...byBase.values()].sort((a,b)=>a.base.localeCompare(b.base));
   },[allD,favsVer]);
   
+  const byChain=useMemo(()=>{
+    const chains=new Map();
+    grouped.forEach(g=>{
+      const chain=getChain(g.base);
+      if(!chains.has(chain))chains.set(chain,{name:chain,stores:[],isYou:false});
+      const c=chains.get(chain);c.stores.push(g);
+      if(g.isYou)c.isYou=true;
+    });
+    return[...chains.values()].sort((a,b)=>{if(a.isYou&&!b.isYou)return-1;if(!a.isYou&&b.isYou)return 1;return a.name.localeCompare(b.name)});
+  },[grouped]);
+  
   const togEntry=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
   const togGroup=useCallback(g=>{setSel(p=>{const n=new Set(p);const allOn=g.entries.every(d=>n.has(d));g.entries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
+  const togChain=useCallback(c=>{setSel(p=>{const n=new Set(p);const allEntries=c.stores.flatMap(s=>s.entries);const allOn=allEntries.every(d=>n.has(d));allEntries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
+  const toggleChainOpen=useCallback(name=>{setOpenChains(p=>{const n=new Set(p);n.has(name)?n.delete(name):n.add(name);return n})},[]);
   
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
       <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD))}>All</button><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
     <div className="pnl-d">Click a dispensary name to select it. Use the MED/REC buttons to toggle menus. Click ★ to mark as yours — starred stores show in orange across all tabs.</div>
-    <div className="dsel">{grouped.map(g=>{
-      const anyOn=g.entries.some(d=>sel.has(d));
-      const you=g.isYou;
-      const hasBoth=g.hasMed&&g.hasRec;
-      const medD=g.entries.find(d=>/\(Med\)/i.test(d));
-      const recD=g.entries.find(d=>/\(Rec\)/i.test(d));
-      const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));
-      const totalCount=groupCounts[g.base]||0;
+    <div className="dsel" style={{maxHeight:500,overflowY:'auto'}}>{byChain.map(chain=>{
+      const isOpen=openChains.has(chain.name);
+      const isSingle=chain.stores.length===1&&chain.stores[0].base===chain.name;
+      const chainSelected=chain.stores.flatMap(s=>s.entries).some(d=>sel.has(d));
+      const totalStoreCount=chain.stores.reduce((s,g)=>s+(groupCounts[g.base]||0),0);
       
-      return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
-        <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
-          <div className="dsel-dot"/><span className="dsel-name">{g.base}</span>
+      if(isSingle){
+        const g=chain.stores[0];const anyOn=g.entries.some(d=>sel.has(d));const you=g.isYou;
+        const hasBoth=g.hasMed&&g.hasRec;const medD=g.entries.find(d=>/\(Med\)/i.test(d));const recD=g.entries.find(d=>/\(Rec\)/i.test(d));const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));const totalCount=groupCounts[g.base]||0;
+        return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
+          <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
+            <div className="dsel-dot"/><span className="dsel-name">{g.base}</span>
+          </div>
+          <div className="row" style={{gap:4}}>
+            {hasBoth?<>
+              <button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>
+              <button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>
+            </>:null}
+            {!hasBoth&&g.hasMed&&medD?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED ONLY</button>:null}
+            {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
+            {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
+            <span className="dsel-count">{totalCount.toLocaleString()}</span>
+            <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
+          </div>
         </div>
-        <div className="row" style={{gap:4}}>
-          {hasBoth?<>
-            <button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-              background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>
-            <button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-              background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>
-          </>:null}
-          {!hasBoth&&g.hasMed&&medD?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-            background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED ONLY</button>:null}
-          {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-            background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
-          {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',
-            background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
-          <span className="dsel-count">{totalCount.toLocaleString()}</span>
-          <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
+      }
+      
+      return<div key={chain.name} style={{marginBottom:2}}>
+        <div onClick={()=>toggleChainOpen(chain.name)} style={{cursor:'pointer',padding:'6px 8px',background:chainSelected?'rgba(232,96,10,0.06)':'var(--sf2)',borderRadius:6,display:'flex',justifyContent:'space-between',alignItems:'center',border:'1px solid '+(chainSelected?'rgba(232,96,10,0.3)':'var(--bd)'),marginBottom:isOpen?2:0}}>
+          <div className="row" style={{gap:6}}>
+            <span style={{fontSize:11,color:'var(--tx2)'}}>{isOpen?"▾":"▸"}</span>
+            <span style={{fontWeight:600,fontSize:13,color:chain.isYou?'var(--cy)':'var(--tx)'}}>{chain.isYou?"★ ":""}{chain.name}</span>
+          </div>
+          <div className="row" style={{gap:6}}>
+            <span style={{fontSize:10,color:'var(--tx3)',fontFamily:'var(--m)'}}>{chain.stores.length} stores</span>
+            <span className="dsel-count">{totalStoreCount.toLocaleString()}</span>
+            <button onClick={e=>{e.stopPropagation();togChain(chain)}} style={{padding:'2px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid var(--bd)',background:chainSelected?'var(--cy)':'transparent',color:chainSelected?'#fff':'var(--tx3)',transition:'all .15s'}}>ALL</button>
+          </div>
         </div>
+        {isOpen&&<div style={{paddingLeft:12,borderLeft:'2px solid rgba(232,96,10,0.2)',marginLeft:8}}>
+          {chain.stores.map(g=>{const anyOn=g.entries.some(d=>sel.has(d));const you=g.isYou;
+            const hasBoth=g.hasMed&&g.hasRec;const medD=g.entries.find(d=>/\(Med\)/i.test(d));const recD=g.entries.find(d=>/\(Rec\)/i.test(d));const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));const totalCount=groupCounts[g.base]||0;
+            const locName=g.base.replace(chain.name+' - ','');
+            return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")} style={{marginBottom:1}}>
+              <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
+                <div className="dsel-dot"/><span className="dsel-name">{locName}</span>
+              </div>
+              <div className="row" style={{gap:4}}>
+                {hasBoth?<>
+                  <button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED</button>
+                  <button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC</button>
+                </>:null}
+                {!hasBoth&&g.hasMed&&medD?<button onClick={e=>{e.stopPropagation();togEntry(medD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(medD)?'var(--cy)':'transparent',color:sel.has(medD)?'#fff':'var(--tx3)',borderColor:sel.has(medD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MED ONLY</button>:null}
+                {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
+                {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
+                <span className="dsel-count">{totalCount.toLocaleString()}</span>
+                <span onClick={e=>{e.stopPropagation();g.entries.forEach(d=>toggleFav(d))}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}}>{you?'★':'☆'}</span>
+              </div>
+            </div>
+          })}
+        </div>}
       </div>
     })}</div></div>;
 }
