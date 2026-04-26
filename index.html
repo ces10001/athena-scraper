@@ -464,29 +464,47 @@ function Hdr({d}){
 
 function VideoCarousel(){
   var[vidSrc,setVidSrc]=useState(function(){
-    // First login of session → play intro
     var seen=sessionStorage.getItem('athena_intro_seen');
     if(!seen){sessionStorage.setItem('athena_intro_seen','true');return 'videos/intro.mp4';}
-    // Check scrape windows
     var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
     var scrapeStarts=[10*60+30,16*60,22*60];
     var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
     return inScrape?'videos/intro.mp4':'videos/owl-stare.mp4';
   });
+  var[scrapeInfo,setScrapeInfo]=useState({inScrape:false,progress:0});
   useEffect(function(){
-    // Check every 30s if we should switch videos
-    var timer=setInterval(function(){
+    function checkScrape(){
       var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
       var scrapeStarts=[10*60+30,16*60,22*60];
-      var inScrape=scrapeStarts.some(function(s){return mins>=s&&mins<s+60});
+      var inScrape=false;var progress=0;
+      for(var i=0;i<scrapeStarts.length;i++){
+        var s=scrapeStarts[i];
+        if(mins>=s&&mins<s+60){inScrape=true;progress=Math.min(100,Math.round((mins-s)/40*100));break}
+      }
+      setScrapeInfo({inScrape:inScrape,progress:progress});
       var newSrc=inScrape?'videos/intro.mp4':'videos/owl-stare.mp4';
       setVidSrc(function(prev){return prev!==newSrc?newSrc:prev});
-    },30000);
+    }
+    checkScrape();
+    var timer=setInterval(checkScrape,15000);
     return function(){clearInterval(timer)};
   },[]);
+  var isIntro=vidSrc.includes('intro');
   return<div className="vid-carousel">
     <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
+    <div style={{position:'absolute',bottom:10,right:14,display:'flex',alignItems:'center',gap:10,zIndex:2}}>
+      {isIntro?<>
+        <div style={{width:120,height:14,background:'rgba(0,0,0,0.5)',borderRadius:7,overflow:'hidden',border:'1px solid rgba(232,96,10,0.4)',position:'relative'}}>
+          <div style={{position:'absolute',inset:0,display:'flex',alignItems:'center',justifyContent:'center'}}>
+            {[0,1,2,3,4,5,6,7,8,9].map(function(h){return<div key={h} style={{width:8,height:8,clipPath:'polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)',background:h*10<scrapeInfo.progress?'#e8600a':'rgba(232,96,10,0.15)',margin:'0 1px',transition:'background .5s'}}/>})}
+          </div>
+        </div>
+        <span style={{fontFamily:'var(--m)',fontSize:11,fontWeight:700,letterSpacing:2,color:'#e8600a',textShadow:'0 0 10px rgba(232,96,10,0.5)'}}>{scrapeInfo.progress}% ACQUIRING INTEL...</span>
+      </>:
+        <span style={{fontFamily:'var(--m)',fontSize:11,fontWeight:700,letterSpacing:2,color:'#e8600a',textShadow:'0 0 8px rgba(232,96,10,0.4)'}}>INTEL ACQUIRED <span style={{fontSize:14}}>✓</span></span>
+      }
+    </div>
   </div>;
 }
 
@@ -1390,7 +1408,7 @@ function ReportTab({data,favsVer}){
       matching.forEach(function(m){
         var cat=m.cat||"Other";
         if(!catWeightBuckets[cat])catWeightBuckets[cat]={};
-        var w=m.name.match(/(\d+\.?\d*)\s*g\b/i);
+        var w=m.name.match(/(?:^|[^%\d])(\d*\.?\d+)\s*g\b/i);
         var wKey="other";
         if(w){var wv=parseFloat(w[1]);if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
         if(!catWeightBuckets[cat][wKey])catWeightBuckets[cat][wKey]=[];
