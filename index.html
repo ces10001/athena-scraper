@@ -1305,7 +1305,10 @@ function GapTable({items,color}){
         React.createElement("table",{style:{width:'100%',borderCollapse:'collapse',fontSize:12}},
           React.createElement("tbody",null,prods.map(function(p,i){return React.createElement("tr",{key:i,style:{borderBottom:'1px solid #f0f0f0'}},
             React.createElement("td",{style:{padding:'3px 6px',maxWidth:180,wordBreak:'break-word',whiteSpace:'normal'}},p.name),
-            React.createElement("td",{style:{padding:'3px 6px',fontWeight:600,textAlign:'right'}},"$"+p.price.toFixed(2))
+            React.createElement("td",{style:{padding:'3px 6px',fontWeight:600,textAlign:'right'}},
+              React.createElement("div",null,"$"+p.price.toFixed(2)),
+              p.promo?React.createElement("div",{style:{fontSize:11,color:'#e8600a'}},"$"+p.promo.toFixed(2)+" ",React.createElement("em",null,"(Promo)")):null
+            )
           )}))
         )
       )
@@ -1334,8 +1337,8 @@ function ReportTab({data,favsVer}){
         var hPm=p.promos&&p.promos[homeDisp];
         var cPm=p.promos&&p.promos[compDisp];
         if(hP&&cP)matching.push({name:p.name,brand:p.brand,cat:p.category,homePrice:hP,compPrice:cP,homePromo:hPm&&hPm<hP?hPm:null,compPromo:cPm&&cPm<cP?cPm:null});
-        else if(hP&&!cP)homeOnly.push({name:p.name,brand:p.brand,cat:p.category,price:hP});
-        else if(!hP&&cP)compOnly.push({name:p.name,brand:p.brand,cat:p.category,price:cP});
+        else if(hP&&!cP)homeOnly.push({name:p.name,brand:p.brand,cat:p.category,price:hP,promo:hPm&&hPm<hP?hPm:null});
+        else if(!hP&&cP)compOnly.push({name:p.name,brand:p.brand,cat:p.category,price:cP,promo:cPm&&cPm<cP?cPm:null});
       });
       
       // 2. By category stats
@@ -1431,14 +1434,14 @@ function ReportTab({data,favsVer}){
           <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>HOME DISPENSARY</label>
           <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={homeDisp} onChange={function(e){setHome(e.target.value);setReport(null)}}>
             <option value="">Select your store...</option>
-            {allDisps.map(function(d){return<option key={d} value={d}>{isAff(d)?"★ ":""}{cleanD(d)}</option>})}
+            {allDisps.map(function(d){var label=d.replace(/ - /g,' ');return<option key={d} value={d}>{isAff(d)?"★ ":""}{label}</option>})}
           </select>
         </div>
         <div style={{flex:1,minWidth:200}}>
           <label style={{fontSize:12,fontFamily:'var(--m)',color:'var(--tx2)',display:'block',marginBottom:4}}>COMPETITOR</label>
           <select style={{width:'100%',padding:'10px 14px',borderRadius:7,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14}} value={compDisp} onChange={function(e){setComp(e.target.value);setReport(null)}}>
             <option value="">Select competitor...</option>
-            {allDisps.filter(function(d){return d!==homeDisp}).map(function(d){return<option key={d} value={d}>{cleanD(d)}</option>})}
+            {allDisps.filter(function(d){return d!==homeDisp}).map(function(d){var label=d.replace(/ - /g,' ');return<option key={d} value={d}>{label}</option>})}
           </select>
         </div>
         <button className="btn pri" style={{padding:'10px 24px',fontSize:14}} onClick={generateReport} disabled={!homeDisp||!compDisp||homeDisp===compDisp||generating}>{generating?"Generating...":"Generate Report"}</button>
@@ -1594,16 +1597,16 @@ function ReportTab({data,favsVer}){
                       <tr style={{borderBottom:'1px solid #f0f0f0'}}>
                         <td style={{padding:'4px 8px',fontWeight:600,color:'#d42030',fontSize:11}}>HIGHEST</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeHighW?homeHighW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?"$"+homeHighW.homePrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?<div>${homeHighW.homePrice.toFixed(2)}{homeHighW.homePromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeHighW.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compHighW?compHighW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?"$"+compHighW.compPrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?<div>${compHighW.compPrice.toFixed(2)}{compHighW.compPromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compHighW.compPromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                       </tr>
                       <tr style={{borderBottom:'1px solid #f0f0f0'}}>
                         <td style={{padding:'4px 8px',fontWeight:600,color:'#1a8f3f',fontSize:11}}>LOWEST</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeLowW?homeLowW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?"$"+homeLowW.homePrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?<div>${homeLowW.homePrice.toFixed(2)}{homeLowW.homePromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeLowW.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compLowW?compLowW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?"$"+compLowW.compPrice.toFixed(2):"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?<div>${compLowW.compPrice.toFixed(2)}{compLowW.compPromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compLowW.compPromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                       </tr>
                     </tbody>
                   </table>
