@@ -321,6 +321,82 @@ export async function scrapeBUDRCannabis(dispensary) {
       var rawProducts = parseJaneProducts(text);
       console.log('  [budrcannabis] Parsed: ' + rawProducts.length + ' raw products');
 
+      // Step 7: If low count, try each category page individually
+      if (rawProducts.length < 50) {
+        console.log('  [budrcannabis] Low count (' + rawProducts.length + '), trying category pages...');
+        var categories = ['flower', 'pre-rolls', 'vaporizers', 'edibles', 'concentrates', 'tinctures', 'topicals'];
+        for (var ci = 0; ci < categories.length; ci++) {
+          var catUrl = dispensary.store_url.replace(/\/?$/, '/') + 'menu/' + categories[ci];
+          try {
+            await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
+            await page.waitForTimeout(6000);
+            // Click View more in this category
+            for (var vm = 0; vm < 30; vm++) {
+              var clicked2 = await page.evaluate(function() {
+                var host = document.getElementById('shadow-host');
+                if (!host || !host.shadowRoot) return false;
+                var btns = host.shadowRoot.querySelectorAll('button');
+                for (var i = 0; i < btns.length; i++) {
+                  if (btns[i].textContent.trim() === 'View more') { btns[i].click(); return true; }
+                }
+                return false;
+              });
+              if (!clicked2) break;
+              await page.waitForTimeout(1500);
+            }
+            await page.waitForTimeout(2000);
+            var catText = await page.evaluate(function() {
+              var host = document.getElementById('shadow-host');
+              if (host && host.shadowRoot) return host.shadowRoot.textContent || '';
+              return document.body.innerText || '';
+            });
+            var catProducts = parseJaneProducts(catText);
+            console.log('  [budrcannabis] Category ' + categories[ci] + ': ' + catProducts.length + ' products');
+            // Merge new products
+            var existingIds = new Set(rawProducts.map(function(p) { return p.external_id; }));
+            for (var cp = 0; cp < catProducts.length; cp++) {
+              if (!existingIds.has(catProducts[cp].external_id)) {
+                rawProducts.push(catProducts[cp]);
+                existingIds.add(catProducts[cp].external_id);
+              }
+            }
+          } catch(e) { console.log('  [budrcannabis] Category ' + categories[ci] + ' failed: ' + e.message); }
+        }
+        console.log('  [budrcannabis] After category pages: ' + rawProducts.length + ' total products');
+      }
+
+      // Step 8: If STILL low, try reload and re-scrape once
+      if (rawProducts.length < 50) {
+        console.log('  [budrcannabis] Still low, retrying with fresh page load...');
+        await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(12000);
+        // Click View more aggressively
+        for (var retry = 0; retry < 40; retry++) {
+          var clickedR = await page.evaluate(function() {
+            var host = document.getElementById('shadow-host');
+            if (!host || !host.shadowRoot) return false;
+            var btns = host.shadowRoot.querySelectorAll('button');
+            for (var i = 0; i < btns.length; i++) {
+              if (btns[i].textContent.trim() === 'View more') { btns[i].click(); return true; }
+            }
+            return false;
+          });
+          if (!clickedR) break;
+          await page.waitForTimeout(2000);
+        }
+        await page.waitForTimeout(3000);
+        var retryText = await page.evaluate(function() {
+          var host = document.getElementById('shadow-host');
+          if (host && host.shadowRoot) return host.shadowRoot.textContent || '';
+          return document.body.innerText || '';
+        });
+        var retryProducts = parseJaneProducts(retryText);
+        if (retryProducts.length > rawProducts.length) {
+          console.log('  [budrcannabis] Retry got ' + retryProducts.length + ' (was ' + rawProducts.length + ')');
+          rawProducts = retryProducts;
+        }
+      }
+
       var catCounts = {};
       var normalized = [];
       for (var i = 0; i < rawProducts.length; i++) {

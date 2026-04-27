@@ -389,7 +389,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(LoadingScreen,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Discounts ▲▼"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
   var tabDescs={
     intel:"Select dispensaries to compare side-by-side. Star ★ your stores to see % price differences. Search any product to find who carries it and at what price.",
     highlow:"View the cheapest and most expensive prices for every product across selected dispensaries. ★ starred stores show % differences. Promo prices displayed separately.",
@@ -401,7 +401,7 @@ function App(){
   };
   return React.createElement("div",{className:"app"},
     React.createElement(VideoCarousel,null),
-    React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[1])})),
+    React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[0]==="alerts"?React.createElement("span",null,"Discounts ",React.createElement("span",{style:{color:"var(--gn)"}},"▲"),React.createElement("span",{style:{color:"var(--rd)"}},"▼")):t[1])})),
     React.createElement("div",{className:"pnl-d",style:{margin:"0 0 16px 0"}},tabDescs[tab]),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius,favsVer:favsVer,toggleFav:toggleFav}),
     tab==="highlow"&&React.createElement(HighLowTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
