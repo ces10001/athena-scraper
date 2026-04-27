@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Jelly Brains $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gas Face",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Gas Face $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo (Aniva)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo (Aniva) $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Canna Miranda",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Canna Miranda $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints Rosin Roll",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints Rosin Roll"
+  }
+]

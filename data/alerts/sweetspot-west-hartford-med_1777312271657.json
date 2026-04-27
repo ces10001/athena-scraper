@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "New: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087 $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge Mango Puff (I) 01472",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge Mango Puff (I) 01472 $41.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "M.O.B. Flower Minis T22.88% I 00880",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - M.O.B. Flower Minis T22.88% I 00880"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana 2:1 CBD/THC Gummies Exotic Yuzu 00087"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite Cartridge Mango Puff (I) 01472",
+    "brand": "Select",
+    "message": "Gone: Select - Select Elite Cartridge Mango Puff (I) 01472"
+  }
+]

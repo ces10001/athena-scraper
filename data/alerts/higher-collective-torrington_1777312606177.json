@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cake",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Ice Cream Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookie Crumble Milk",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Cookie Crumble Milk"
+  }
+]

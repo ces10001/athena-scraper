@@ -1,0 +1,26 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Chem D Lil' Budz 7g (H) 00471",
+    "brand": "Brix",
+    "message": "Gone: Brix - Chem D Lil' Budz 7g (H) 00471"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Hash Burger (I) 01351",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 1g Pre Roll Hash Burger (I) 01351"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00343",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Watermelon Lemonade Cannabis-Infused Gummies 00343"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00327",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Pineapple Habanero Cannabis-Infused Gummies 00327"
+  }
+]

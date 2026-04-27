@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241 $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana SPLT MT 41738",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banana SPLT MT 41738"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230"
+  }
+]

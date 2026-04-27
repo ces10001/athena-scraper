@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Tangerine 5:5:5",
+    "brand": "Coast Cannabis",
+    "message": "New: Coast Cannabis - Tangerine 5:5:5 $30.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miami Stardust",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Miami Stardust"
+  }
+]

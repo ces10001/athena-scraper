@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Mandarin 1:1",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Mandarin 1:1"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Gone: Select - Moonburst"
+  }
+]

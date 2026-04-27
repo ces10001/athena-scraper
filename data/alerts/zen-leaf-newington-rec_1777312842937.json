@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosilato",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dosilato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tangerine 5:5:5",
+    "brand": "Coast Cannabis",
+    "message": "Gone: Coast Cannabis - Tangerine 5:5:5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mikado Mintz",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mikado Mintz"
+  }
+]

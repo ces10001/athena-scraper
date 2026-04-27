@@ -1,0 +1,62 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Carbon Fiber",
+    "brand": "Theraplant",
+    "message": "Theraplant Carbon Fiber: $20.00 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Apple Fritter",
+    "brand": "Affinity",
+    "message": "New: Affinity - Apple Fritter $25.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Legacy Spark - Fast Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Durban Legacy Spark - Fast Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Oklahoma Coma",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Oklahoma Coma"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sun Grown Rainbow Rocket Infused",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Sun Grown Rainbow Rocket Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dirty Taxi",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Dirty Taxi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "M.O.B.",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - M.O.B."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Soap Mintz",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Soap Mintz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Diesel",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Sour Diesel"
+  }
+]

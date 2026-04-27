@@ -1,0 +1,104 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Kush Cake: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jungle Cake",
+    "brand": "Brix",
+    "message": "Brix Jungle Cake: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Black Cherry: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Cider",
+    "brand": "SoundView",
+    "message": "SoundView Apple Cider: $30.00 > $24.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemonade",
+    "brand": "Hi5",
+    "message": "Gone: Hi5 - Blueberry Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mint Diesel",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mint Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "OGBK Stomper",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - OGBK Stomper"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ultra Nana",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Ultra Nana"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosi-Punch",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dosi-Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Ghost White"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dos Mendos",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Dos Mendos"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Fire OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Jealousy"
+  }
+]

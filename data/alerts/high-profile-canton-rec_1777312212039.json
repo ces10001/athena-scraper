@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Bellini | Gummies | 100mg | C0060000436 (20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Peach Bellini | Gummies | 100mg | C0060000436 (20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream | Pre-Pack | 3.5g | 00801",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream | Pre-Pack | 3.5g | 00801"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints | Pre-Pack | 3.5g (41144)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints | Pre-Pack | 3.5g (41144)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Drip | RSO Gummies | 50mg (1pc) | 27040",
+    "brand": "Guap",
+    "message": "Gone: Guap - Berry Drip | RSO Gummies | 50mg (1pc) | 27040"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple  | MT Disposable Vape | 0.5g | 41746",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple  | MT Disposable Vape | 0.5g | 41746"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Fantasy Melonz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Fantasy Melonz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Do Not Trip",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Do Not Trip"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Nuclear Mfns"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Problem Child"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Paw Paw"
+  }
+]

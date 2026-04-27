@@ -1,0 +1,182 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g) $14.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel (H) 1g Pre-Roll 1pk (1g) $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer L. (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Summer L. (S) 1g Pre-Roll 1pk (1g) $9.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mimosa (S) Live Resin Disposable Vape (1g)",
+    "brand": "Amigos",
+    "message": "New: Amigos - Mimosa (S) Live Resin Disposable Vape (1g) $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Joocy Froot (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Joocy Froot (H) Elite All In One (0.3g) $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "NYC Diesel (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - NYC Diesel (H) Elite All In One (0.3g) $18.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Permanent Patty (H) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Permanent Patty (H) Mini Tank Disposable (0.5g) $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dark (H) Fast Acting Chocolate (4.75mg 20pk)",
+    "brand": "Craic",
+    "message": "New: Craic - Dark (H) Fast Acting Chocolate (4.75mg 20pk) $22.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cloud 9 (H) Flower",
+    "brand": "comffy",
+    "message": "Gone: comffy - Cloud 9 (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Floral Frost (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz (I) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice (H) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice (H) Mini Tank Disposable (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Enchanted Apple (S) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Planet (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Planet (I) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds (S) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Clouds (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Dream Clouds (S) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Panckes (S) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Panckes (S) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green G (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Green G (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz (I) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Air Hdz (I) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Air Hdz (I) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tart (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Apple Tart (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Panckes (S) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Panckes (S) Mini Tank Disposable (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Green G (H) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Green G (H) Mini Tank Disposable (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz (I) Mini Tank Disposable (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz (I) Mini Tank Disposable (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Left on Red (H) Disposable Vape (0.5g)",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Left on Red (H) Disposable Vape (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush (H) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush (H) Legacy Series Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO (H) Elite Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - GMO (H) Elite Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk)"
+  }
+]

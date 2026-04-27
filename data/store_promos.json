@@ -1032,7 +1032,7 @@
     "platform": "dutchie"
   },
   {
-    "title": "Extra Burn Card Stamp | Purchase Mikado Mints or Yeet!",
+    "title": "Extra Burn Card Stamp | Purchase Trop Cherry or CT Rainbows!",
     "description": "Qualified for one extra stamp per transaction!",
     "dispensary": "Crisp Cannabis - East Hartford (Rec)",
     "platform": "dutchie"
@@ -1178,6 +1178,12 @@
   {
     "title": "Buy 2 Multipack Prerolls and Get 30% off Multipack Preroll Purchase",
     "description": "Does not stack with other offers. Limited time only. While supplies last. Ask an associate for details.",
+    "dispensary": "INSA - New Haven (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Featured Items - 50% Off!",
+    "description": "While supplies last. Ask an associate for details. Limited time only.",
     "dispensary": "INSA - New Haven (Rec)",
     "platform": "dutchie"
   },
@@ -2550,12 +2556,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Viva Gummies - 30% off",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "30% off all Hemp Products!",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Med)",
@@ -2565,6 +2565,12 @@
     "title": "40% off Accessories!",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
@@ -2581,12 +2587,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Manchester (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -2730,13 +2730,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Vapes | 25% Off",
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"

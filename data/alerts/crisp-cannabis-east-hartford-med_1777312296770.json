@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Savvy Lemon Glue Disposable T257 I 26740",
+    "brand": "Savvy",
+    "message": "New: Savvy - Savvy Lemon Glue Disposable T257 I 26740 $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gangsta Grillz 1g Infused Blunt 41694",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gangsta Grillz 1g Infused Blunt 41694"
+  }
+]

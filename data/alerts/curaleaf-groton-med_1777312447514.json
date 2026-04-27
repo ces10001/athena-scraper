@@ -1,0 +1,122 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "SoundView G'Night Grape: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Kush Cake: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Black Cherry: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry",
+    "brand": "SoundView",
+    "message": "SoundView Black Cherry: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Margarita",
+    "brand": "SoundView",
+    "message": "SoundView Margarita: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Tangahhhrine",
+    "brand": "inc.edibles",
+    "message": "inc.edibles Sour Tangahhhrine: $19.00 > $15.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mango",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Mango: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gangsta Grillz",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz: $21.00 > $16.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Grape: $30.00 > $24.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Snoozzzeberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz x Vel Croz",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Fantasy Melonz x Vel Croz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Drip x Sour D",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Lemon Drip x Sour D"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "RNTZ x Fantasy Melonz",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - RNTZ x Fantasy Melonz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Zuava"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Unflavored",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Unflavored"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tap Out",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Tap Out"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Purple Milk"
+  }
+]

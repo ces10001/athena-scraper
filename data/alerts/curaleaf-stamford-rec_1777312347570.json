@@ -1,0 +1,38 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fruit Punch",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fruit Punch"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Strawberry Cndy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Fire OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Nimbus Snacks"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "Gone: Lil' Budz - Jealousy"
+  }
+]

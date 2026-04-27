@@ -1,0 +1,80 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Sherb $44.62"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Glue",
+    "brand": "Savvy",
+    "message": "New: Savvy - Lemon Glue $27.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dark Chocolate RSO Sativa",
+    "brand": "Encore",
+    "message": "New: Encore - Dark Chocolate RSO Sativa $24.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SpaceDawg",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - SpaceDawg $48.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banana Cream OG",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - Banana Cream OG $55.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SpaceDawg",
+    "brand": "(the) Essence",
+    "message": "New: (the) Essence - SpaceDawg $55.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Summer L.",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Summer L. $30.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Singapore Sling",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Singapore Sling $34.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Mendo Wedding"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Scout Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Andeze",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Blue Andeze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Heatwave",
+    "brand": "FIND.",
+    "message": "Gone: FIND. - Tropical Heatwave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Vel Croz",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Vel Croz"
+  }
+]

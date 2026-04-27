@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banana Acai Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Lemonade",
+    "brand": "Camino",
+    "message": "Gone: Camino - Watermelon Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orchard Peach",
+    "brand": "Camino",
+    "message": "Gone: Camino - Orchard Peach"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - G'Night Grape"
+  }
+]

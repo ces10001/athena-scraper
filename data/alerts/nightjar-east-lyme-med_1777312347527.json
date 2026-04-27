@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Gummies | Tangerine 5:5:5 CBG:CBD:THC | 20pk | 00409",
+    "brand": "COAST Cannabis Co.",
+    "message": "New: COAST Cannabis Co. - Gummies | Tangerine 5:5:5 CBG:CBD:THC | 20pk | 00409 $26.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388",
+    "brand": "COAST Cannabis Co.",
+    "message": "Gone: COAST Cannabis Co. - Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Live Resin Pink Lemonade",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Live Resin Pink Lemonade"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG Infused",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Alien OG Infused"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Patty",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Permanent Patty"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Baby Cakes",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Baby Cakes"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Lobster",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Blue Lobster"
+  }
+]

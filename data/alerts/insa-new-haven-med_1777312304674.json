@@ -1,0 +1,98 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 14g True OG (I) TC 24.142% 00904 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView G'Night Grape 2:1 CBN Gummies T95.4mg C51mg I 00236",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView G'Night Grape 2:1 CBN Gummies T95.4mg C51mg I 00236 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Curaleaf Whole Flower 3.5g Growers Mix (S) 01019 TC 25.806%",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Curaleaf Whole Flower 3.5g Growers Mix (S) 01019 TC 25.806% $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO Flower T32.59% I 00884",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - GMO Flower T32.59% I 00884 $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 14g Singapore Sling (S) 01509 TC 24.531%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 14g Singapore Sling (S) 01509 TC 24.531% $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 3.5g  Slapz (H) 01313",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 3.5g  Slapz (H) 01313 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01458 TC 33.265%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01458 TC 33.265% $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Ground Flower 3.5g Hickory Hash (H) 01476 TC 30.586%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Ground Flower 3.5g Hickory Hash (H) 01476 TC 30.586% $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Preroll 5 Pack 2g White Caps (I) 01418 TC 32.95%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Preroll 5 Pack 2g White Caps (I) 01418 TC 32.95% $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Preroll 5 Pack 2g White Hot Guava (H) 01499 TC 29.459%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Preroll 5 Pack 2g White Hot Guava (H) 01499 TC 29.459% $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01364 TC 30.24%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Pineapple Sunrise (S) 01364 TC 30.24% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g Pillow Mints (I) 01535 TC 41.066%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g Pillow Mints (I) 01535 TC 41.066% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) 01464 TC 33.58%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Dark Heart Collection Whole Flower 3.5g Titan Express (S) 01464 TC 33.58% $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01494 TC 34.987%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Dark Heart Collection Whole Flower 3.5g Foreign Kush Mints (I) 01494 TC 34.987% $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Titan Express (S) 01486 TC 29.23%",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Dark Heart Collection Preroll 5 Pack 2g Titan Express (S) 01486 TC 29.23% $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Tangie Crush S 26972",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Tangie Crush S 26972"
+  }
+]
