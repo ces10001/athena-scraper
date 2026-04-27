@@ -502,8 +502,8 @@ function DetailedView({disp,data,onClose}){
           catEntries.map(function(cat){
             var tCount=target.catCounts[cat]||0;
             var hCount=home?(home.catCounts[cat]||0):0;
-            var tPct=Math.round((tCount/maxCat)*100);
-            var hPct=home?Math.round((hCount/maxCat)*100):0;
+            var tPct=tCount>0?Math.max(Math.round((tCount/maxCat)*100),5):0;
+            var hPct=home?(hCount>0?Math.max(Math.round((hCount/maxCat)*100),5):0):0;
             var tAvg=target.catPrices[cat]?Math.round(target.catPrices[cat].sum/target.catPrices[cat].count):0;
             var hAvg=home&&home.catPrices[cat]?Math.round(home.catPrices[cat].sum/home.catPrices[cat].count):0;
             return React.createElement("div",{key:cat,style:{marginBottom:hasHome?10:6}},
