@@ -135,7 +135,7 @@ async function handleLogin(){
     sessionStorage.setItem('athena_email',email);
     sessionStorage.setItem('athena_role',d.role||'user');
     sessionStorage.removeItem('athena_intro_seen');
-    window.location.href='index.html';
+    window.location.replace('index.html');
   }catch(err){
     var msg='Login failed.';
     if(err.code==='auth/user-not-found')msg='No account found with this email.';
@@ -161,7 +161,7 @@ async function handleSignup(){
     var usersSnap=await db.collection('users').limit(1).get();
     var isFirst=usersSnap.empty;
     await db.collection('users').doc(cred.user.uid).set({email:email,name:name,company:company,status:isFirst?'approved':'pending',role:isFirst?'admin':'user',createdAt:firebase.firestore.FieldValue.serverTimestamp()});
-    if(isFirst){sessionStorage.setItem('athena_auth','true');sessionStorage.setItem('athena_uid',cred.user.uid);sessionStorage.setItem('athena_email',email);sessionStorage.setItem('athena_role','admin');sessionStorage.removeItem('athena_intro_seen');window.location.href='index.html'}
+    if(isFirst){sessionStorage.setItem('athena_auth','true');sessionStorage.setItem('athena_uid',cred.user.uid);sessionStorage.setItem('athena_email',email);sessionStorage.setItem('athena_role','admin');sessionStorage.removeItem('athena_intro_seen');window.location.replace('index.html')}
     else{showPending(email)};
   }catch(err){
     var msg='Signup failed.';
@@ -182,7 +182,7 @@ async function handleReset(){
 function handleLogout(){auth.signOut();sessionStorage.clear();showLogin()}
 
 auth.onAuthStateChanged(async function(user){
-  if(user){try{var doc=await db.collection('users').doc(user.uid).get();if(doc.exists&&doc.data().status==='approved'){sessionStorage.setItem('athena_auth','true');sessionStorage.setItem('athena_uid',user.uid);sessionStorage.setItem('athena_email',user.email);sessionStorage.setItem('athena_role',doc.data().role||'user');window.location.href='index.html'}else if(doc.exists){showPending(user.email)}}catch(e){}}
+  if(user){try{var doc=await db.collection('users').doc(user.uid).get();if(doc.exists&&doc.data().status==='approved'){sessionStorage.setItem('athena_auth','true');sessionStorage.setItem('athena_uid',user.uid);sessionStorage.setItem('athena_email',user.email);sessionStorage.setItem('athena_role',doc.data().role||'user');window.location.replace('index.html')}else if(doc.exists){showPending(user.email)}}catch(e){}}
 });
 
 document.addEventListener('keydown',function(e){if(e.key==='Enter'){if(document.getElementById('loginView').style.display!=='none')handleLogin();else if(document.getElementById('signupView').style.display!=='none')handleSignup()}});

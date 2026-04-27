@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>ATHENA — Competitive Intel</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -26,20 +29,25 @@ firebase.initializeApp({
 var athenaAuth=firebase.auth();
 var athenaDb=firebase.firestore();
 var authChecked=false;
-athenaAuth.onAuthStateChanged(async function(user){
-  if(!user){window.location.href='login.html';return}
+// Clear session on every page load — only restore after Firebase verifies
+sessionStorage.removeItem('athena_auth');
+async function verifyAuth(user){
+  if(!user){window.location.replace('login.html');return}
   try{
     var doc=await athenaDb.collection('users').doc(user.uid).get();
-    if(!doc.exists||doc.data().status!=='approved'){athenaAuth.signOut();window.location.href='login.html';return}
+    if(!doc.exists||doc.data().status!=='approved'){await athenaAuth.signOut();window.location.replace('login.html');return}
     sessionStorage.setItem('athena_auth','true');
     sessionStorage.setItem('athena_uid',user.uid);
     sessionStorage.setItem('athena_email',user.email);
     sessionStorage.setItem('athena_role',doc.data().role||'user');
     authChecked=true;
     document.getElementById('auth-gate').style.display='none';
-  }catch(e){window.location.href='login.html'}
-});
-function athenaLogout(){athenaAuth.signOut();sessionStorage.clear();window.location.href='login.html'}
+  }catch(e){window.location.replace('login.html')}
+}
+athenaAuth.onAuthStateChanged(function(user){verifyAuth(user)});
+// Re-check when page restored from back/forward cache
+window.addEventListener('pageshow',function(e){if(e.persisted){sessionStorage.removeItem('athena_auth');var u=athenaAuth.currentUser;if(!u){window.location.replace('login.html')}else{verifyAuth(u)}}});
+function athenaLogout(){athenaAuth.signOut();sessionStorage.clear();window.location.replace('login.html')}
 </script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
