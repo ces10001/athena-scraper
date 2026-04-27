@@ -3200,26 +3200,6 @@
     "product_url": null
   },
   {
-    "external_id": "sweed-488930",
-    "name": "Tangerine 5:5:5",
-    "brand": "Coast Cannabis",
-    "category": "edible",
-    "subcategory": null,
-    "strain_type": "hybrid",
-    "price_cents": 3350,
-    "original_price_cents": null,
-    "weight_label": "5mg",
-    "weight_grams": 0.01,
-    "unit_price_per_gram": 670000,
-    "thc_pct": 100,
-    "cbd_pct": 100,
-    "in_stock": true,
-    "on_sale": false,
-    "deal_description": null,
-    "image_url": null,
-    "product_url": null
-  },
-  {
     "external_id": "sweed-527966",
     "name": "Orange Sunshine",
     "brand": "Affinity",

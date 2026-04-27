@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Comffy|Vape 510 1g| Purple Urkel 00150",
+    "brand": "COMFFY",
+    "message": "New: COMFFY - Comffy|Vape 510 1g| Purple Urkel 00150 $54.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid GalaxEats Gummies Pina Colada 00032",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid GalaxEats Gummies Pina Colada 00032"
+  }
+]

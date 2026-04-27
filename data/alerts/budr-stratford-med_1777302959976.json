@@ -1,0 +1,20 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238: $30.00 > $29.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Air Hdz over:timers 41627",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - all:hours Air Hdz over:timers 41627"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Lucky Honey 0087Lucky BreakLucky Honey(EACH)93mg",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Lucky Honey 0087Lucky BreakLucky Honey(EACH)93mg"
+  }
+]

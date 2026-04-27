@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Orange Sunshine Live Terpene",
+    "brand": "Affinity",
+    "message": "New: Affinity - Orange Sunshine Live Terpene $43.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "New: all:hours - 10G's $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Frosting Gelato",
+    "brand": "Awssom",
+    "message": "Gone: Awssom - Blueberry Frosting Gelato"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Mint 2:1 CBN",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Midnight Mint 2:1 CBN"
+  }
+]

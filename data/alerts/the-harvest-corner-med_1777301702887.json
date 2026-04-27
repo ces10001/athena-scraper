@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Capy 3 Pack Lil' Ricky's Pre Rolls T30.51 0.9g (9-00913)",
+    "brand": "Affinity",
+    "message": "New: Affinity - Capy 3 Pack Lil' Ricky's Pre Rolls T30.51 0.9g (9-00913) $17.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Peach CBD Gummies T98.6 C193.4 10pk (2-26803)",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Strawberry Peach CBD Gummies T98.6 C193.4 10pk (2-26803) $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "X Bites Orange Matter T5 20pk (3-01382)",
+    "brand": "Select",
+    "message": "Gone: Select - X Bites Orange Matter T5 20pk (3-01382)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple 3 Pack Pre Rolls T28.59 2.1g (9-00885)",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Black Maple 3 Pack Pre Rolls T28.59 2.1g (9-00885)"
+  }
+]

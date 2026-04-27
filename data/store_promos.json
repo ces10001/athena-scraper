@@ -270,6 +270,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "Monday Edibles 20% OFF",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "AGL Brands - 30% OFF",
     "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
@@ -393,6 +399,12 @@
     "title": "30% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Monday Edibles 20% OFF",
+    "description": "",
+    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
     "platform": "dutchie"
   },
   {
@@ -525,6 +537,12 @@
     "title": "50% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Monday Edibles 20% OFF",
+    "description": "",
+    "dispensary": "Shangri-La - Waterbury (Rec)",
     "platform": "dutchie"
   },
   {
@@ -810,6 +828,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "STAM 4 Starstruck 8th's for $100",
+    "description": "",
+    "dispensary": "SweetSpot - Stamford (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "MED Curaleaf Classic Bites Lemon 2 for $90",
     "description": "",
     "dispensary": "SweetSpot - Stamford (Med)",
@@ -861,18 +885,6 @@
     "title": "Buy 3 LOUD 1g Vape Carts for $100",
     "description": "",
     "dispensary": "Still River Wellness (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Early Bird 10% Off",
-    "description": "Enjoy 10% off the menu for our favorite early birds",
-    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Secret Menu",
-    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
-    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
     "platform": "dutchie"
   },
   {
@@ -960,18 +972,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "Early Bird 10% Off",
-    "description": "Enjoy 10% off the menu for our favorite early birds",
-    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Secret Menu",
-    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
-    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Buy 2 Vapes, Save $15",
     "description": "When you buy 2 vapes or disposables, save $15 on your purchase\nOnly stackable with the Burn Card!",
     "dispensary": "Crisp Cannabis - East Hartford (Rec)",
@@ -1053,18 +1053,6 @@
     "title": "Let's Burn Spotlight | 30% Off",
     "description": "Limited Time Only - While Supplies Last. No Stacking!",
     "dispensary": "Crisp Cannabis - East Hartford (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Early Bird 10% Off",
-    "description": "Enjoy 10% off the menu for our favorite early birds",
-    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Secret Menu",
-    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
-    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
     "platform": "dutchie"
   },
   {
@@ -1656,6 +1644,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "$8 - pre-rolls",
+    "description": "",
+    "dispensary": "The Liv - Newington (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "Magical Mondays  - 15% off all 1/8ths!!",
     "description": "",
     "dispensary": "The Liv - Newington (Rec)",
@@ -1668,19 +1662,19 @@
     "platform": "dutchie"
   },
   {
-    "title": "$45 - 7g",
-    "description": "",
-    "dispensary": "The Liv - Newington (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "$8 - pre-rolls",
+    "title": "Select 2g Briq 2 for $180",
     "description": "",
     "dispensary": "The Liv - Newington (Rec)",
     "platform": "dutchie"
   },
   {
     "title": "$10 - pre-roll",
+    "description": "",
+    "dispensary": "The Liv - Newington (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "$45 - 7g",
     "description": "",
     "dispensary": "The Liv - Newington (Rec)",
     "platform": "dutchie"
@@ -1710,8 +1704,26 @@
     "platform": "dutchie"
   },
   {
+    "title": "Soundview 20% off Sale",
+    "description": "",
+    "dispensary": "The Liv - Newington (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "2 for $50 1/8ths (Curaleaf, Theraplant, CT Pharma",
+    "description": "",
+    "dispensary": "The Liv - Newington (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "$25 - 1/8ths",
     "description": "Shaka - Springtime - Awssom",
+    "dispensary": "The Liv - Putnam (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "$8 - pre-rolls",
+    "description": "",
     "dispensary": "The Liv - Putnam (Rec)",
     "platform": "dutchie"
   },
@@ -1729,6 +1741,12 @@
   },
   {
     "title": "$80 - 1/2oz",
+    "description": "",
+    "dispensary": "The Liv - Putnam (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "$10 - pre-roll",
     "description": "",
     "dispensary": "The Liv - Putnam (Rec)",
     "platform": "dutchie"
@@ -1759,6 +1777,18 @@
   },
   {
     "title": "Asteroid Gummies 2 for $35",
+    "description": "",
+    "dispensary": "The Liv - Putnam (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Soundview 20% off Sale",
+    "description": "",
+    "dispensary": "The Liv - Putnam (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "2 for $50 1/8ths (Curaleaf, Theraplant, CT Pharma",
     "description": "",
     "dispensary": "The Liv - Putnam (Rec)",
     "platform": "dutchie"
@@ -2562,12 +2592,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
-    "description": "",
-    "dispensary": "Fine Fettle - Manchester (Rec)",
-    "platform": "finefettle"
-  },
-  {
     "title": "New Prices!",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Med)",
@@ -2646,6 +2670,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Curaleaf Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
@@ -2653,12 +2683,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
@@ -2706,6 +2730,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
@@ -2719,12 +2749,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
@@ -2760,6 +2784,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
@@ -2773,12 +2803,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"

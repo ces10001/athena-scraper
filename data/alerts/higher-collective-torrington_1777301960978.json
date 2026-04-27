@@ -1,0 +1,170 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "GRA",
+    "brand": "Shaka",
+    "message": "New: Shaka - GRA $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GAT",
+    "brand": "Shaka",
+    "message": "New: Shaka - GAT $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Chicken n' Wafflez",
+    "brand": "Good Green",
+    "message": "New: Good Green - Chicken n' Wafflez $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "H4G-S-9",
+    "brand": "Zone",
+    "message": "New: Zone - H4G-S-9 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple 22",
+    "brand": "Rythm",
+    "message": "New: Rythm - Black Maple 22 $96.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Animal Face $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Creamsicle Sunset",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Creamsicle Sunset $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CHJ",
+    "brand": "Springtime",
+    "message": "New: Springtime - CHJ $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "B Scout",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - B Scout $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Devi #11",
+    "brand": "Springtime",
+    "message": "New: Springtime - Devi #11 $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gelato Runtz",
+    "brand": "Miss Grass",
+    "message": "New: Miss Grass - Gelato Runtz $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "POG",
+    "brand": "Zone",
+    "message": "New: Zone - POG $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Whiplash",
+    "brand": "Springtime",
+    "message": "New: Springtime - Whiplash $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Swamp Water Fumez",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Swamp Water Fumez $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Express Fast Acting",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Pineapple Express Fast Acting $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "WPH",
+    "brand": "Zone",
+    "message": "New: Zone - WPH $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Maui Wowie",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Cherry Maui Wowie $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sub Zero",
+    "brand": "Springtime",
+    "message": "New: Springtime - Sub Zero $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Don Mega",
+    "brand": "Shaka",
+    "message": "New: Shaka - Don Mega $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry Maui Wowie",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Cherry Maui Wowie $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "CIG",
+    "brand": "Zone",
+    "message": "New: Zone - CIG $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Do Not Trip",
+    "brand": "Rythm",
+    "message": "New: Rythm - Do Not Trip $120.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BNC-S-20",
+    "brand": "Zone",
+    "message": "New: Zone - BNC-S-20 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Afternoon Delight #4",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Afternoon Delight #4 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jack's Delight",
+    "brand": "Rythm",
+    "message": "New: Rythm - Jack's Delight $100.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fritterz",
+    "brand": "comffy",
+    "message": "Gone: comffy - Fritterz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Super Buff",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Super Buff"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Brains",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Brains"
+  }
+]

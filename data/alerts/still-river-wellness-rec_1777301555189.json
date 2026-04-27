@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger Hash Nugs T35.49 (41630)",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger Hash Nugs T35.49 (41630) $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake PR T29.62 (41705)",
+    "brand": "Theraplant",
+    "message": "Theraplant Wedding Cake PR T29.62 (41705): $11.00 > $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Acapulco Gold Live Resin Vape Cart T928 (00489)",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Acapulco Gold Live Resin Vape Cart T928 (00489)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk Lil' Budz T33.29 (00529)",
+    "brand": "Brix Cannabis",
+    "message": "Gone: Brix Cannabis - Purple Milk Lil' Budz T33.29 (00529)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gouda Gas Whole Flower T34.41 (00089)",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Gouda Gas Whole Flower T34.41 (00089)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb Pure Vape Cart T884 (27017)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb Pure Vape Cart T884 (27017)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR Flower T25.72 (41469)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR Flower T25.72 (41469)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Bubble Savvy Strut AIO T1667 (26843)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sour Bubble Savvy Strut AIO T1667 (26843)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Titan Express Whole Flower T31.55 (01326)",
+    "brand": "Dark Heart Collection",
+    "message": "Gone: Dark Heart Collection - Titan Express Whole Flower T31.55 (01326)"
+  }
+]

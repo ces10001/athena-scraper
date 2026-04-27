@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Scout Breath",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Scout Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SpaceDawg",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - SpaceDawg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  }
+]

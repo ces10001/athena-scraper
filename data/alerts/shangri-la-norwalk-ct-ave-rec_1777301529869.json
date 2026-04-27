@@ -1,0 +1,554 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Piña Colada T99.4mg - C0170000032: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sour Green Apple T99.4mg - C0170000023: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade T96mg - C0170000017",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid GalaxEats Gummies Pink Lemonade T96mg - C0170000017: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Blueberry Snap Gummies I 00893",
+    "brand": "Chew",
+    "message": "Chew Chew RSO Blueberry Snap Gummies I 00893: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Wild Berry Cannabis-Infused Gummies 00217",
+    "brand": "Camino",
+    "message": "Camino Camino Wild Berry Cannabis-Infused Gummies 00217: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230",
+    "brand": "SoundView",
+    "message": "SoundView SoundView BlueZZZberry 5:1 CBN Gummies T94.6mg C507.4mg I 00230: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Raspberry Rush T89.4mg - C0170000008: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick Indica Island Punch Fast-Acting Gummies 00374",
+    "brand": "Wana",
+    "message": "Wana Wana Quick Indica Island Punch Fast-Acting Gummies 00374: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00376",
+    "brand": "Camino",
+    "message": "Camino Camino Sours Watermelon Spritz Cannabis-Infused Gummies 00376: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Blackberry Dream with CBN &amp; CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Blackberry Dream with CBN &amp; CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Peach RSO Gummies T96.4mg I 00205",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Peach RSO Gummies T96.4mg I 00205: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266",
+    "brand": "Wana",
+    "message": "Wana Wana 2:1 CBD/THC Gummies Exotic Yuzu 00266: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Toasted S'mores Milk Chocolate Bar T92.8mg H 00220",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Toasted S'mores Milk Chocolate Bar T92.8mg H 00220: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick Hybrid Limoncello Fast-Acting Gummies 00331",
+    "brand": "Wana",
+    "message": "Wana Wana Quick Hybrid Limoncello Fast-Acting Gummies 00331: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks Live Rosin Peach Mango Gummies T98.2mg H 26758",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks Live Rosin Peach Mango Gummies T98.2mg H 26758: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Raspberry Lime 5:1 CBD Gummies T95.2mg C548mg H 00202",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Raspberry Lime 5:1 CBD Gummies T95.2mg C548mg H 00202: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00343",
+    "brand": "Camino",
+    "message": "Camino Camino Watermelon Lemonade Cannabis-Infused Gummies 00343: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "'Fused by Brix Wild Berry Lemonade Gummies (I) 00421",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Wild Berry Lemonade Gummies (I) 00421: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "'Fused by Brix Peach Lemonade Gummies (S) 00422",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Peach Lemonade Gummies (S) 00422: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Sour Mandarin RSO Gummies T92mg C101mg I 26569",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Sour Mandarin RSO Gummies T92mg C101mg I 26569: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00430",
+    "brand": "Wana",
+    "message": "Wana Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00430: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00327",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero Cannabis-Infused Gummies 00327: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FAST ACTING LUCKY HOT HONEY 0089",
+    "brand": "Lucky Break",
+    "message": "Lucky Break FAST ACTING LUCKY HOT HONEY 0089: $23.50 > $18.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Wintergreen Hybrid Mints T95.2mg H 00196",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Wintergreen Hybrid Mints T95.2mg H 00196: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Pineapple Toasted Coconut Gummies S 00929",
+    "brand": "Chew",
+    "message": "Chew Chew RSO Pineapple Toasted Coconut Gummies S 00929: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Berry Dreamy 1:1 CBN Gummies T92.8mg C103.6mg I 00191",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Berry Dreamy 1:1 CBN Gummies T92.8mg C103.6mg I 00191: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView G&#39;Night Grape 2:1 CBN Gummies T97.8mg C52.6mg I 00210",
+    "brand": "SoundView",
+    "message": "SoundView SoundView G&#39;Night Grape 2:1 CBN Gummies T97.8mg C52.6mg I 00210: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00342",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00342: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Live Resin Watermelon 1:1:1 Gummies T93.2mg C101mg C99.8mg H 00166",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Live Resin Watermelon 1:1:1 Gummies T93.2mg C101mg C99.8mg H 00166: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Cookies & Cream White Chocolate Bar T92.8mg H 00217",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Cookies & Cream White Chocolate Bar T92.8mg H 00217: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo RSO Blime Faith (I) Gummies (C0070000272)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo RSO Blime Faith (I) Gummies (C0070000272): $24.00 > $19.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Mango RSO Gummies T94mg S 26850",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Mango RSO Gummies T94mg S 26850: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Pineapple Raspberry Gummies T96.4mg H 26831",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Pineapple Raspberry Gummies T96.4mg H 26831: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "'Fused by Brix Mango Lemonade Gummies (H) 00428",
+    "brand": "'Fused",
+    "message": "'Fused 'Fused by Brix Mango Lemonade Gummies (H) 00428: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014",
+    "brand": "Asteroid",
+    "message": "Asteroid Asteroid Galaxeats Gummies Sugar Free Pomegranate T94.8mg - C0170000014: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro PB Cups 5pk 0030",
+    "brand": "Astro",
+    "message": "Astro Astro PB Cups 5pk 0030: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Sativa Gummies Mango 00263",
+    "brand": "Wana",
+    "message": "Wana Wana Sativa Gummies Mango 00263: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436",
+    "brand": "Wana",
+    "message": "Wana Wana Quick Sativa Peach Bellini Fast-Acting Gummies-00436: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick Sativa Connecticut Sunrise Fast-Acting Gummies 00350",
+    "brand": "Wana",
+    "message": "Wana Wana Quick Sativa Connecticut Sunrise Fast-Acting Gummies 00350: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00363",
+    "brand": "Wana",
+    "message": "Wana Wana Quick 1:1 CBD/THC Strawberry Margarita Fast-Acting Gummies 00363: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Optimals Quick Dream Berry Gummies 00332",
+    "brand": "Wana",
+    "message": "Wana Wana Optimals Quick Dream Berry Gummies 00332: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana Indica Gummies Blueberry 00251",
+    "brand": "Wana",
+    "message": "Wana Wana Indica Gummies Blueberry 00251: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana 5:1 CBD/THC Gummies Pomegranate Blueberry Acai 00360",
+    "brand": "Wana",
+    "message": "Wana Wana 5:1 CBD/THC Gummies Pomegranate Blueberry Acai 00360: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00281",
+    "brand": "Wana",
+    "message": "Wana Wana 1:1:1 CBG/CBD/THC Gummies Passionfruit Pineapple 00281: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Infused Gems - 20 Pack Chillaxing Cherry Limeade THC|CBD|CBG",
+    "brand": "The Happy Confection™️",
+    "message": "The Happy Confection™️ The Happy Confection Infused Gems - 20 Pack Chillaxing Cherry Limeade THC|CBD|CBG: $20.00 > $16.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Sugar Plum Gummies T97.4mg H 00181",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Sugar Plum Gummies T97.4mg H 00181: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Peanut Butter Pretzel Milk Chocolate Bar T94mg I 00213",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Peanut Butter Pretzel Milk Chocolate Bar T94mg I 00213: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Mellow Mango 1:1:1 Gummies T95.8mg C101.2mg C99.4mg I 00231",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mellow Mango 1:1:1 Gummies T95.8mg C101.2mg C99.4mg I 00231: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Margarita RSO Gummies T95mg S 00215",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Margarita RSO Gummies T95mg S 00215: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Live Resin Pink Lemonade Gummies T94.4mg S 00199",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Live Resin Pink Lemonade Gummies T94.4mg S 00199: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T97.8mg H 00194",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Black Cherry Gummies T97.8mg H 00194: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Cookie Crumble Milk Chocolate Bar T93.2mg H 00171",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Cookie Crumble Milk Chocolate Bar T93.2mg H 00171: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241",
+    "brand": "SoundView",
+    "message": "SoundView SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Blood Orange Sativa Gummies T93.4mg S 00193",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Blood Orange Sativa Gummies T93.4mg S 00193: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Apple Cider Gummies T97.4mg H 00137",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Apple Cider Gummies T97.4mg H 00137: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo RSO Scorpion Bowl (H) Gummies (C0070000375)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo RSO Scorpion Bowl (H) Gummies (C0070000375): $26.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Live Resin Saddle Up Sour Apple (S) Gummies (C0070000358)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin Saddle Up Sour Apple (S) Gummies (C0070000358): $26.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Live Resin Cherry Lime (H) Gummies (C0070000390)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin Cherry Lime (H) Gummies (C0070000390): $26.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Live Resin Blueberry Lemon (I) Gummies (C0070000371)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Live Resin Blueberry Lemon (I) Gummies (C0070000371): $26.00 > $20.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks Live Rosin Sour Apricot Apple Gummies T94mg H 26303",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks Live Rosin Sour Apricot Apple Gummies T94mg H 26303: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Honey 0087: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Lucky Honey 0062",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Honey 0062: $22.00 > $17.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Lucky Agave 0086",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Agave 0086: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Sweet Strawberry Gummies T91mg S 26893",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Sweet Strawberry Gummies T91mg S 26893: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Sour Watermelon Gummies T93.4mg S 26729",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Sour Watermelon Gummies T93.4mg S 26729: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Sour Mandarin RSO Gummies T95.4mg C106.6mg I 26744",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Sour Mandarin RSO Gummies T95.4mg C106.6mg I 26744: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Pomegranate Punch CBN:THC Gummies CBN47.2mg T90.2mg I 26671",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Pomegranate Punch CBN:THC Gummies CBN47.2mg T90.2mg I 26671: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Pineapple Raspberry Gummies T97.6mg H 26731",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Pineapple Raspberry Gummies T97.6mg H 26731: $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Milk Chocolate RSO T90.8mg S 26672",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Milk Chocolate RSO T90.8mg S 26672: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Grape RSO Gummies T95mg I 26840",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Grape RSO Gummies T95mg I 26840: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Dark Chocolate RSO T99mg S 26839",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Dark Chocolate RSO T99mg S 26839: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coast Cannabis CO. Wildberry (THC) Infused Gummies (C0070000345)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Wildberry (THC) Infused Gummies (C0070000345): $29.00 > $23.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coast Cannabis CO. Tangerine 5:5:5 Infused Gummies (CBG:CBD:THC) (C0070000347)",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Coast Cannabis CO. Tangerine 5:5:5 Infused Gummies (CBG:CBD:THC) (C0070000347): $33.00 > $26.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Tangerine Peach Gummies H 00915",
+    "brand": "Chew",
+    "message": "Chew Chew RSO Tangerine Peach Gummies H 00915: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "Chew",
+    "message": "Chew Chew RSO Rainbow Rush Gummies S 00922: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chew RSO Grape Currant 1:1 Gummies I 00879",
+    "brand": "Chew",
+    "message": "Chew Chew RSO Grape Currant 1:1 Gummies I 00879: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Gummies-00361",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Gummies-00361: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry Cannabis-Infused Gummies 00439: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Mango with CBD 5:5 Cannabis-Infused Gummies 00227",
+    "brand": "Camino",
+    "message": "Camino Camino Mango with CBD 5:5 Cannabis-Infused Gummies 00227: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00378",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00378: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CHEW RSO IRISH COFFEE GUMMIES S 00892",
+    "brand": "Chew",
+    "message": "Chew CHEW RSO IRISH COFFEE GUMMIES S 00892: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro Salted Caramel Squares 10pk 0059",
+    "brand": "Astro",
+    "message": "Astro Astro Salted Caramel Squares 10pk 0059: $18.00 > $14.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Astro PB Cups 10pk 0053",
+    "brand": "Astro",
+    "message": "Astro Astro PB Cups 10pk 0053: $18.00 > $14.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009",
+    "brand": "Asteroid",
+    "message": "Gone: Asteroid - Asteroid Galaxeats Gummies Blueberry Bliss T98mg - C0120000009"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Vape Afternoon Delight x Jack's Delight (H) 01210",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 1g Vape Afternoon Delight x Jack's Delight (H) 01210"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rodeo Live Resin G41(I) 1g Vape (C0070000412)",
+    "brand": "Rodeo",
+    "message": "Gone: Rodeo - Rodeo Live Resin G41(I) 1g Vape (C0070000412)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GOOD GREEN 3.5G CHKN N WFLZ (S) 01080",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - GOOD GREEN 3.5G CHKN N WFLZ (S) 01080"
+  }
+]

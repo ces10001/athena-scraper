@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Asteroid GalaxEats Gummies Pink Lemonade (S) T96.2mg - C0170000044",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid GalaxEats Gummies Pink Lemonade (S) T96.2mg - C0170000044 $18.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016",
+    "brand": "Asteroid",
+    "message": "New: Asteroid - Asteroid Galaxeats Gummies Sour Watermelon T92mg - C0170000016 $19.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AFG Sunshine Daydream High Potency THC Tincture 619mg 00723 30ml",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - AFG Sunshine Daydream High Potency THC Tincture 619mg 00723 30ml $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Golden Tangie 1g Cartridge (S) C0170000038Loud Cannabis - CTCartri",
+    "brand": "g",
+    "message": "New: g - Loud Cannabis Golden Tangie 1g Cartridge (S) C0170000038Loud Cannabis - CTCartri $54.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 28g B Scout (I) 01363",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 28g B Scout (I) 01363 $164.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477",
+    "brand": "CTLive Resin",
+    "message": "Gone: CTLive Resin - Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477"
+  }
+]

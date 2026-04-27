@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1g SZO (I) 00092",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1g SZO (I) 00092: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Animal Tsunami 00080",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Animal Tsunami 00080: $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Delicata Cookies",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Delicata Cookies: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Banana Cake 00094",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Banana Cake 00094: $13.00 > $10.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Purple OG 00107",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Purple OG 00107: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Hypothermia #1 00103",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Hypothermia #1 00103: $10.00 > $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView - Gummies - Blood Orange (S) 00224",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView - Gummies - Blood Orange (S) 00224 $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Roll 1g Georgia Pie 00046",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Roll 1g Georgia Pie 00046: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Triangle Kush 00071",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Triangle Kush 00071: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Don Mega 00082",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Don Mega 00082: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1g Guava Tart 00086",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1g Guava Tart 00086: $10.00 > $8.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1.0g Whiplash 00096",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1.0g Whiplash 00096: $13.00 > $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Pack 3.5g Blockberry 00075",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Pack 3.5g Blockberry 00075 $29.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Roll 1.0g GRA 00095",
+    "brand": "Shaka",
+    "message": "Shaka Shaka Pre-Roll 1.0g GRA 00095: $10.00 > $8.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL PR Pack (5x.5g) LA Kush CKE (I) 01122",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL PR Pack (5x.5g) LA Kush CKE (I) 01122 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917",
+    "brand": "Affinity",
+    "message": "New: Affinity - Affinity Infused PR Pack (3x.3g) PB Breath Lil' Ricky's (H) 00917 $23.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1.0g Governmint Oasis (I) 00057",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1.0g Governmint Oasis (I) 00057: $13.00 > $10.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Roll 1.0g Chimera Junky 00068",
+    "brand": "Springtime",
+    "message": "Springtime Springtime Pre-Roll 1.0g Chimera Junky 00068: $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Awssom Pre-Roll 1g Blueberry Frosting Gelato 00059",
+    "brand": "Awssom",
+    "message": "Awssom Awssom Pre-Roll 1g Blueberry Frosting Gelato 00059: $13.00 > $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Happy Confection -Crushin' It Cran-Raspberry - 00245",
+    "brand": "The Happy Confection™️",
+    "message": "New: The Happy Confection™️ - The Happy Confection -Crushin' It Cran-Raspberry - 00245 $27.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amigos AIO 1g Bruce Bamer Live Resin (H) 00444",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Amigos AIO 1g Bruce Bamer Live Resin (H) 00444"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix 3.5g C-Stata (H) 00465",
+    "brand": "Brix",
+    "message": "Gone: Brix - Brix 3.5g C-Stata (H) 00465"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915",
+    "brand": "Select",
+    "message": "Gone: Select - Select Cliq Elite Pod .5g Forbidden Fruit (I) 00915"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Cliq Elite Pod .5g Purple Urkel (I) 00957",
+    "brand": "Select",
+    "message": "Gone: Select - Select Cliq Elite Pod .5g Purple Urkel (I) 00957"
+  }
+]
