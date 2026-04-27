@@ -61,12 +61,14 @@
 .tw{background:var(--sf);border:1px solid var(--bd);border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05)}
 .ts{overflow-x:auto;max-height:580px;overflow-y:auto;border:2.5px solid rgba(20,20,20,0.7);border-radius:8px}
 .inf{padding:11px 14px;font-family:var(--m);font-size:13px;color:var(--tx2);border-bottom:1px solid var(--bd);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;align-items:center}
-table{width:100%;border-collapse:collapse;font-size:15px}
-thead th{background:var(--bg2);padding:11px 12px;text-align:left;font-family:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:.7px;color:var(--tx2);font-weight:600;border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:2;white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:14px}
+thead th{background:var(--bg2);padding:8px 10px;text-align:left;font-family:var(--m);font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--tx2);font-weight:600;border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:2;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+thead th:first-child{position:sticky;left:0;z-index:3;background:var(--bg2);min-width:140px;max-width:180px}
 thead th.yc{color:var(--cy);background:rgba(232,96,10,.04)}
 tbody tr{border-bottom:1px solid rgba(0,0,0,.06)}tbody tr:hover{background:rgba(232,96,10,.03)}
-td{padding:9px 12px;white-space:nowrap}td.pn{font-weight:500;color:var(--tx);max-width:280px;white-space:normal;word-break:break-word;font-size:15px}
-td.dm{color:var(--tx2);font-size:14px}td.pr{font-family:var(--m);font-weight:600;font-size:15px}
+td{padding:8px 10px;white-space:nowrap}td.pn{font-weight:500;color:var(--tx);min-width:140px;max-width:180px;white-space:normal;word-break:break-word;font-size:13px;position:sticky;left:0;z-index:1;background:var(--sf)}
+tbody tr:hover td.pn{background:rgba(232,96,10,.03)}
+td.dm{color:var(--tx2);font-size:12px}td.pr{font-family:var(--m);font-weight:600;font-size:14px}
 td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi{color:var(--gn)}td.pr.lo{color:var(--rd)}
 .df{display:inline-block;font-size:11px;padding:2px 6px;border-radius:3px;margin-left:4px;font-weight:600;font-family:var(--m)}
 .df.up{background:rgba(26,143,63,.1);color:var(--gn)}.df.dn{background:rgba(212,32,48,.1);color:var(--rd)}
@@ -636,14 +638,15 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
     return[...chains.values()].sort((a,b)=>{if(a.isYou&&!b.isYou)return-1;if(!a.isYou&&b.isYou)return 1;return a.name.localeCompare(b.name)});
   },[grouped]);
   
-  const togEntry=useCallback(d=>{setSel(p=>{const n=new Set(p);n.has(d)?n.delete(d):n.add(d);return n})},[]);
-  const togGroup=useCallback(g=>{setSel(p=>{const n=new Set(p);const allOn=g.entries.every(d=>n.has(d));g.entries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
-  const togChain=useCallback(c=>{setSel(p=>{const n=new Set(p);const allEntries=c.stores.flatMap(s=>s.entries);const allOn=allEntries.every(d=>n.has(d));allEntries.forEach(d=>{allOn?n.delete(d):n.add(d)});return n})},[]);
+  var MAX_SEL=10;
+  const togEntry=useCallback(d=>{setSel(p=>{const n=new Set(p);if(n.has(d)){n.delete(d)}else if(n.size<MAX_SEL){n.add(d)};return n})},[]);
+  const togGroup=useCallback(g=>{setSel(p=>{const n=new Set(p);const allOn=g.entries.every(d=>n.has(d));if(allOn){g.entries.forEach(d=>n.delete(d))}else{g.entries.forEach(d=>{if(n.size<MAX_SEL)n.add(d)})};return n})},[]);
+  const togChain=useCallback(c=>{setSel(p=>{const n=new Set(p);const allEntries=c.stores.flatMap(s=>s.entries);const allOn=allEntries.every(d=>n.has(d));if(allOn){allEntries.forEach(d=>n.delete(d))}else{allEntries.forEach(d=>{if(n.size<MAX_SEL)n.add(d)})};return n})},[]);
   const toggleChainOpen=useCallback(name=>{setOpenChains(p=>{const n=new Set(p);n.has(name)?n.delete(name):n.add(name);return n})},[]);
   
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries</span>
-      <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD))}>All</button><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
-    <div className="pnl-d">Click a dispensary name to select it. Use the MED/REC buttons to toggle menus. Click ★ to mark as yours — starred stores show in orange across all tabs.</div>
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries <span style={{fontSize:11,fontWeight:400,color:sel.size>=MAX_SEL?'var(--rd)':'var(--tx3)'}}>({sel.size}/{MAX_SEL})</span></span>
+      <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff).slice(0,MAX_SEL)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
+    <div className="pnl-d">Click a dispensary name to select it (max {MAX_SEL}). Use the MED/REC buttons to toggle menus. Click ★ to mark as yours.</div>
     <div className="dsel" style={{maxHeight:500,overflowY:'auto'}}>{byChain.map(chain=>{
       const isOpen=openChains.has(chain.name);
       const isSingle=chain.stores.length===1&&chain.stores[0].base===chain.name;
@@ -666,7 +669,7 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
             {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
             {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
             <span className="dsel-count">{totalCount.toLocaleString()}</span>
-            <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{wasYou?n.delete(d):n.add(d)});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
+            <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{if(wasYou){n.delete(d)}else if(n.size<MAX_SEL){n.add(d)}});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
           </div>
         </div>
       }
@@ -700,7 +703,7 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
                 {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
                 {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
                 <span className="dsel-count">{totalCount.toLocaleString()}</span>
-                <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{wasYou?n.delete(d):n.add(d)});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}}>{you?'★':'☆'}</span>
+                <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{if(wasYou){n.delete(d)}else if(n.size<MAX_SEL){n.add(d)}});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}}>{you?'★':'☆'}</span>
               </div>
             </div>
           })}
