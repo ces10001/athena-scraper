@@ -618,6 +618,7 @@ function MapPanel({data,sel,setSel,radius,setRadius,favsVer}){
 function DispPanel({data,sel,setSel,toggleFav,favsVer}){
   const prods=data.products||[];const allD=useMemo(()=>getDisps(prods),[prods]);
   const[openChains,setOpenChains]=useState(new Set());
+  const[dispSearch,setDispSearch]=useState("");
   const counts=useMemo(()=>{const c={};allD.forEach(d=>c[d]=0);prods.forEach(p=>Object.keys(p.dispensaries||{}).forEach(d=>{if(c[d]!==undefined)c[d]++}));return c},[prods,allD]);
   
   const groupCounts=useMemo(()=>{
@@ -671,7 +672,8 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries <span style={{fontSize:11,fontWeight:400,color:sel.size>=MAX_SEL?'var(--rd)':'var(--tx3)'}}>({sel.size}/{MAX_SEL})</span></span>
       <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff).slice(0,MAX_SEL)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
     <div className="pnl-d">Click a dispensary name to select it (max {MAX_SEL}). Use the MED/REC buttons to toggle menus. Click ★ to mark as yours.</div>
-    <div className="dsel" style={{maxHeight:500,overflowY:'auto'}}>{byChain.map(chain=>{
+    <div style={{marginBottom:8}}><input type="search" placeholder="Search dispensaries..." value={dispSearch} onChange={e=>setDispSearch(e.target.value)} style={{width:'100%',padding:'8px 12px',borderRadius:6,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14,outline:'none'}}/></div>
+    <div className="dsel" style={{maxHeight:500,overflowY:'auto'}}>{byChain.filter(function(chain){if(!dispSearch.trim())return true;var s=dispSearch.toLowerCase();return chain.name.toLowerCase().includes(s)||chain.stores.some(function(g){return g.base.toLowerCase().includes(s)})}).map(chain=>{
       const isOpen=openChains.has(chain.name);
       const isSingle=chain.stores.length===1&&chain.stores[0].base===chain.name;
       const chainSelected=chain.stores.flatMap(s=>s.entries).some(d=>sel.has(d));
