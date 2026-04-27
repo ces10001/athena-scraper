@@ -357,6 +357,7 @@ function handleLogin() {
   var btn = document.querySelector('.login-btn');
   btn.textContent = 'AUTHENTICATING...';
   sessionStorage.setItem('athena_auth', 'true');
+  sessionStorage.removeItem('athena_intro_seen');
   setTimeout(function() { window.location.href = 'index.html'; }, 1200);
 }
 
