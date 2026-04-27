@@ -587,7 +587,7 @@ function VideoCarousel(){
   useEffect(function(){
     function checkScrape(){
       var now=new Date();var mins=now.getUTCHours()*60+now.getUTCMinutes();
-      var scrapeStarts=[10*60+30,16*60,22*60];
+      var scrapeStarts=[10*60,16*60,22*60];
       var inScrape=false;var progress=0;
       for(var i=0;i<scrapeStarts.length;i++){
         var s=scrapeStarts[i];
