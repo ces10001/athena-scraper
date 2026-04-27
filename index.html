@@ -435,6 +435,11 @@ function App(){
   };
   return React.createElement("div",{className:"app"},
     React.createElement(VideoCarousel,null),
+    React.createElement("div",{style:{display:'flex',justifyContent:'flex-end',alignItems:'center',gap:12,padding:'8px 0'}},
+      React.createElement("span",{style:{fontSize:12,color:'var(--tx3)',fontFamily:'var(--m)'}},sessionStorage.getItem('athena_email')||''),
+      sessionStorage.getItem('athena_role')==='admin'?React.createElement("a",{href:'admin.html',style:{fontSize:12,color:'var(--cy)',fontFamily:'var(--m)',textDecoration:'none',letterSpacing:1}},"ADMIN"):null,
+      React.createElement("button",{onClick:function(){if(typeof athenaLogout==='function')athenaLogout()},style:{padding:'6px 14px',background:'transparent',border:'1px solid var(--bd)',borderRadius:6,color:'var(--tx2)',fontSize:12,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1}},"LOGOUT")
+    ),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[0]==="alerts"?React.createElement("span",null,"Discounts ",React.createElement("span",{style:{color:"var(--gn)"}},"▲"),React.createElement("span",{style:{color:"var(--rd)"}},"▼")):t[1])})),
     React.createElement("div",{className:"pnl-d",style:{margin:"0 0 16px 0"}},tabDescs[tab]),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius,favsVer:favsVer,toggleFav:toggleFav}),
