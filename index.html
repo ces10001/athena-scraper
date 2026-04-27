@@ -96,7 +96,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .dsel-left{display:flex;align-items:center;gap:8px}
 .dsel-dot{width:10px;height:10px;border-radius:50%;border:2px solid var(--tx3);flex-shrink:0;transition:all .15s}
 .dsel-item.on .dsel-dot{background:var(--cy);border-color:var(--cy);box-shadow:0 0 4px rgba(232,96,10,.3)}
-.dsel-name{font-size:15px;font-weight:500;color:var(--tx)}
+.dsel-name{font-size:18px;font-weight:500;color:var(--tx)}
 .dsel-item.you .dsel-name{color:var(--cy2)}
 .dsel-count{font-family:var(--m);font-size:11px;color:var(--tx2)}
 .dsel-grp{font-size:11px;font-weight:600;color:var(--tx2);padding:10px 12px 4px;text-transform:uppercase;letter-spacing:1px;border-top:1px solid rgba(0,0,0,.08)}
@@ -680,8 +680,8 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
       if(isSingle){
         const g=chain.stores[0];const anyOn=g.entries.some(d=>sel.has(d));const you=g.isYou;
         const hasBoth=g.hasMed&&g.hasRec;const medD=g.entries.find(d=>/\(Med\)/i.test(d));const recD=g.entries.find(d=>/\(Rec\)/i.test(d));const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));const totalCount=groupCounts[g.base]||0;
-        return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")}>
-          <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
+        return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")} onClick={()=>togGroup(g)}>
+          <div className="dsel-left" style={{flex:1}}>
             <div className="dsel-dot"/><span className="dsel-name">{g.base}</span>
           </div>
           <div className="row" style={{gap:4}}>
@@ -714,8 +714,8 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
           {chain.stores.map(g=>{const anyOn=g.entries.some(d=>sel.has(d));const you=g.isYou;
             const hasBoth=g.hasMed&&g.hasRec;const medD=g.entries.find(d=>/\(Med\)/i.test(d));const recD=g.entries.find(d=>/\(Rec\)/i.test(d));const plainD=g.entries.find(d=>!/\(Med\)|\(Rec\)/i.test(d));const totalCount=groupCounts[g.base]||0;
             const locName=g.base.replace(chain.name+' - ','');
-            return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")} style={{marginBottom:1}}>
-              <div className="dsel-left" onClick={()=>togGroup(g)} style={{flex:1,cursor:'pointer'}}>
+            return<div key={g.base} className={"dsel-item"+(anyOn?" on":"")+(you?" you":"")} onClick={()=>togGroup(g)} style={{marginBottom:1}}>
+              <div className="dsel-left" style={{flex:1}}>
                 <div className="dsel-dot"/><span className="dsel-name">{locName}</span>
               </div>
               <div className="row" style={{gap:4}}>
