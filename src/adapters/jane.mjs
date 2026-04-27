@@ -260,7 +260,7 @@ export async function scrapeJane(dispensary) {
     console.log('  [jane] API method failed: ' + e.message + ', falling back to page scraping...');
   }
 
-  // ═══ METHOD 2: Fall back to page scraping with API interception ═══
+  // ═══ METHOD 2: Scrape from dispensary website ═══
   try {
     var { chromium } = await import('playwright');
     var browser = await chromium.launch({ headless: true });
@@ -268,56 +268,31 @@ export async function scrapeJane(dispensary) {
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
 
+    // Build list of URLs to try: website_url first, then slug-based, then id-based
+    var urlsToTry = [];
+    if (dispensary.website_url) urlsToTry.push(dispensary.website_url);
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
-      var url = 'https://www.iheartjane.com/stores/' + store.id + '/menu';
-      var interceptedProducts = [];
+      if (store.slug) urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/' + store.slug + '/menu');
+      urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/menu');
+    }
 
+    for (var u = 0; u < urlsToTry.length; u++) {
+      var url = urlsToTry[u];
+      console.log('  [jane] Trying URL ' + (u+1) + '/' + urlsToTry.length + ': ' + url);
       var page = null;
       try {
         page = await context.newPage();
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        await page.waitForTimeout(8000);
+        console.log('  [jane] Page loaded: "' + (await page.title()) + '"');
 
-        // ─── Intercept ALL API responses to capture product data ───
-        var apiUrls = [];
-        page.on('response', async function(response) {
-          try {
-            var rUrl = response.url();
-            var ct = response.headers()['content-type'] || '';
-            // Log all JSON API calls for diagnostics
-            if (ct.includes('json') && response.status() === 200 && !rUrl.includes('.js') && !rUrl.includes('analytics') && !rUrl.includes('tracking')) {
-              apiUrls.push(rUrl.substring(0, 120));
-              // Try to extract products from ANY JSON response
-              try {
-                var body = await response.json();
-                var items = body.data || body.products || body.menu_products || body.items || body.results || [];
-                if (Array.isArray(items) && items.length > 0 && items[0] && (items[0].name || items[0].product_name || items[0].title)) {
-                  console.log('  [jane] ✓ Found products in: ' + rUrl.substring(0, 100) + ' (' + items.length + ' items)');
-                  for (var ix = 0; ix < items.length; ix++) interceptedProducts.push(items[ix]);
-                }
-              } catch(e) {}
-            }
-          } catch(e) {}
-        });
-
-        await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
-        await page.waitForTimeout(10000);
-        var pageTitle = await page.title();
-        var pageUrl = page.url();
-        console.log('  [jane] Page loaded: "' + pageTitle + '" at ' + pageUrl);
-        console.log('  [jane] Intercepted products so far: ' + interceptedProducts.length);
-        console.log('  [jane] API URLs seen (' + apiUrls.length + '): ' + apiUrls.slice(0, 10).join(' | '));
-
-        // Dismiss age gate
+        // Dismiss age gate / privacy notice
         try {
-          var ageBtns = ['I\'m over 21', 'Yes', 'I Agree', 'Enter', 'Confirm'];
+          var ageBtns = ['Yes', 'I\'m over 21', 'I Agree', 'Enter', 'Confirm'];
           for (var ab = 0; ab < ageBtns.length; ab++) {
             var ageBtn = page.locator('button:has-text("' + ageBtns[ab] + '")').first();
-            if (await ageBtn.isVisible({ timeout: 2000 })) {
-              await ageBtn.click();
-              console.log('  [jane] Age gate passed: ' + ageBtns[ab]);
-              await page.waitForTimeout(5000);
-              break;
-            }
+            if (await ageBtn.isVisible({ timeout: 2000 })) { await ageBtn.click(); await page.waitForTimeout(3000); break; }
           }
         } catch(e) {}
 
@@ -327,114 +302,44 @@ export async function scrapeJane(dispensary) {
           if (await closeBtn.isVisible({ timeout: 1500 })) { await closeBtn.click(); await page.waitForTimeout(1000); }
         } catch(e) {}
 
-        // Click through each category tab to trigger API calls
-        var categories = ['Flower', 'Edible', 'Pre-roll', 'Vape', 'Concentrate', 'Tincture', 'Topical'];
-        for (var ci = 0; ci < categories.length; ci++) {
-          var catName = categories[ci];
-          try {
-            var catTab = page.locator('button:has-text("' + catName + '"), a:has-text("' + catName + '"), [role="tab"]:has-text("' + catName + '")').first();
-            if (await catTab.isVisible({ timeout: 2000 })) {
-              await catTab.scrollIntoViewIfNeeded();
-              await catTab.click();
-              await page.waitForTimeout(3000);
-              // Click "View more" repeatedly
-              for (var vm = 0; vm < 40; vm++) {
-                try {
-                  var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more")').first();
-                  if (await viewMore.isVisible({ timeout: 1500 })) {
-                    await viewMore.scrollIntoViewIfNeeded();
-                    await viewMore.click();
-                    await page.waitForTimeout(2000);
-                  } else break;
-                } catch(e) { break; }
-              }
-            }
-          } catch(e) {}
-        }
-
-        // Also try Featured/All
+        // Click "Show All" if present (Rise pages)
         try {
-          var featTab = page.locator('button:has-text("Featured"), a:has-text("Featured"), button:has-text("All")').first();
-          if (await featTab.isVisible({ timeout: 1500 })) {
-            await featTab.click();
-            await page.waitForTimeout(3000);
-            for (var vm = 0; vm < 30; vm++) {
-              try {
-                var viewMore = page.locator('button:has-text("View more")').first();
-                if (await viewMore.isVisible({ timeout: 1500 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(2000); }
-                else break;
-              } catch(e) { break; }
-            }
-          }
+          var showAll = page.locator('button:has-text("Show All"), a:has-text("Show All")').first();
+          if (await showAll.isVisible({ timeout: 3000 })) { await showAll.click(); console.log('  [jane] Clicked Show All'); await page.waitForTimeout(8000); }
         } catch(e) {}
 
-        console.log('  [jane] Total intercepted API products: ' + interceptedProducts.length);
-
-        // ─── Process intercepted products ───
-        if (interceptedProducts.length > 0) {
-          for (var i = 0; i < interceptedProducts.length; i++) {
-            var item = interceptedProducts[i];
-            var price = item.price_cents ? item.price_cents / 100 : (item.price_eighth ? item.price_eighth / 100 : (item.price || item.default_price || null));
-            if (typeof price === 'string') price = parseFloat(price);
-            if (!price || price <= 0) continue;
-
-            var iName = item.name || item.product_name || '';
-            var iBrand = (item.brand && typeof item.brand === 'object' ? item.brand.name : item.brand) || item.brand_name || '';
-            var cat = (item.kind || item.root_subtype || item.category || item.product_type || '').toLowerCase();
-            if (cat === 'gear' || cat === 'accessories' || cat === 'merch') continue;
-
-            if (cat === 'flower' || cat === 'pre_ground') cat = 'flower';
-            else if (cat === 'pre-roll' || cat === 'pre_roll') cat = 'pre-rolls';
-            else if (cat === 'vape' || cat === 'cartridge' || cat === 'disposable') cat = 'vaporizers';
-            else if (cat === 'edible' || cat === 'gummy' || cat === 'chocolate' || cat === 'beverage') cat = 'edible';
-            else if (cat === 'extract' || cat === 'concentrate') cat = 'concentrate';
-            else if (cat === 'tincture' || cat === 'capsule' || cat === 'sublingual') cat = 'tincture';
-            else if (cat === 'topical' || cat === 'transdermal') cat = 'topical';
-
-            var weight = null;
-            var wMatch = iName.match(/\b(\d+\.?\d*)\s*[Gg]\b/) || (item.amount && String(item.amount).match(/(\d+\.?\d*)/));
-            if (wMatch) weight = wMatch[1] + 'g';
-
-            var key = 'jane-' + (item.id || item.product_id || (iName + price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
-            if (!allProducts.has(key)) {
-              allProducts.set(key, {
-                external_id: key, name: iName, brand: iBrand, category: cat,
-                strain_type: (item.strain_type || item.classification || '').toLowerCase() || null,
-                thc_pct: item.percent_thc || item.thc_percentage || null,
-                cbd_pct: item.percent_cbd || item.cbd_percentage || null,
-                price: price, original_price: null, weight_label: weight,
-                deal_description: null
-              });
-            }
-          }
-          console.log('  [jane] Parsed from intercepted data: ' + allProducts.size + ' products');
+        // Click "View more" / "Load more" repeatedly
+        for (var vm = 0; vm < 50; vm++) {
+          try {
+            var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more"), button:has-text("View More")').first();
+            if (await viewMore.isVisible({ timeout: 2000 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(1500); }
+            else break;
+          } catch(e) { break; }
         }
 
-        // ─── Fallback: text parse if interception got nothing ───
-        if (allProducts.size < 10) {
-          console.log('  [jane] Interception got < 10, falling back to text parse...');
-          // Scroll to load everything
-          for (var scroll = 0; scroll < 30; scroll++) {
-            await page.evaluate(function() { window.scrollBy(0, 1500); });
-            await page.waitForTimeout(300);
-          }
-          await page.waitForTimeout(3000);
-          var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });
-          console.log('  [jane] Page text length: ' + fullText.length + ' chars');
-          console.log('  [jane] Page text preview: ' + fullText.substring(0, 300).replace(/\n/g, ' | '));
-          var textProducts = parseJaneProducts(fullText);
-          for (var p = 0; p < textProducts.length; p++) {
-            var key = textProducts[p].external_id;
-            if (!allProducts.has(key)) allProducts.set(key, textProducts[p]);
-          }
-          console.log('  [jane] After text fallback: ' + allProducts.size + ' products');
+        // Scroll to load lazy content
+        for (var scroll = 0; scroll < 40; scroll++) {
+          await page.evaluate(function() { window.scrollBy(0, 1500); });
+          await page.waitForTimeout(250);
+        }
+        await page.waitForTimeout(3000);
+
+        // Parse page text
+        var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });
+        console.log('  [jane] Page text: ' + fullText.length + ' chars');
+        var textProducts = parseJaneProducts(fullText);
+        console.log('  [jane] Parsed ' + textProducts.length + ' products');
+        for (var p = 0; p < textProducts.length; p++) {
+          var key = textProducts[p].external_id;
+          if (!allProducts.has(key)) allProducts.set(key, textProducts[p]);
         }
 
-        console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
         await page.close();
+        if (allProducts.size >= 10) { console.log('  [jane] Got ' + allProducts.size + ' products from ' + url); break; }
+        console.log('  [jane] Only ' + allProducts.size + ' from this URL, trying next...');
       } catch (err) {
-        errors.push(store.id + ': ' + err.message);
-        console.log('  [jane] Error for store ' + store.id + ': ' + err.message);
+        errors.push(url + ': ' + err.message);
+        console.log('  [jane] Error: ' + err.message);
         try { if (page) await page.close(); } catch(e) {}
       }
     }
