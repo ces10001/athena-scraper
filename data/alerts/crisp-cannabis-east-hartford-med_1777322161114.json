@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Let's Burn CT Rainbows 1g PR 0016",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Let's Burn CT Rainbows 1g PR 0016 $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Afgooey 1g Pre Roll (I) 00503",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Afgooey 1g Pre Roll (I) 00503: $9.00 > $9.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Sun Grown Rainbow B. (H) 1g Preroll (C0070000414)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Sun Grown Rainbow B. (H) 1g Preroll (C0070000414) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Toasted S'mores Milk Chocolate Bar T99.8mg H 00240",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Toasted S'mores Milk Chocolate Bar T99.8mg H 00240 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Peach RSO Gummies T95.6mg I 00237",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Peach RSO Gummies T95.6mg I 00237 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Strawberry Kiwi Gummies T97mg H 00238 $32.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Fast-Acting Black Cherry Gummies T93.6mg H 00219 $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Cookies & Cream White Chocolate Bar T92.4mg H 00242",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Cookies & Cream White Chocolate Bar T92.4mg H 00242 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView Cookie Crumble Milk Chocolate Bar T97.4mg H 00235",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView Cookie Crumble Milk Chocolate Bar T97.4mg H 00235 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241",
+    "brand": "SoundView",
+    "message": "New: SoundView - SoundView BlueZZZberry 5:1 CBN Gummies T90.6mg C476.8mg I 00241 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Live Resin Motor Breath (I) Disposable 1g Vape (C0070000448)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Live Resin Motor Breath (I) Disposable 1g Vape (C0070000448) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Live Resin Moscow Mule (I) Gummies (C0070000357)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Live Resin Moscow Mule (I) Gummies (C0070000357) $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Liquid Diamonds Sheriff's Reserve (S) Disposable 1g Vape (C0070000450)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Liquid Diamonds Sheriff's Reserve (S) Disposable 1g Vape (C0070000450) $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rodeo Liquid Diamonds Crystal Palace (I) Disposable 1g Vape (C0070000413)",
+    "brand": "Rodeo",
+    "message": "New: Rodeo - Rodeo Liquid Diamonds Crystal Palace (I) Disposable 1g Vape (C0070000413) $50.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rodeo RSO Moscow Mule (I) Gummies (C0070000374)",
+    "brand": "Rodeo",
+    "message": "Gone: Rodeo - Rodeo RSO Moscow Mule (I) Gummies (C0070000374)"
+  }
+]

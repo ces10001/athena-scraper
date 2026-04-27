@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Astro GMO $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Atomic Breath $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Vel Croz",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Vel Croz $22.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Jayna's Sunshine $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "New: The Happy Confection - Peaceful Paradise $21.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Colorado Flo $26.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Pink Certz $49.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry Marker"
+  }
+]

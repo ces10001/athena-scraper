@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT $67.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "New: Curaleaf - Raspberry PRFT $131.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "New: Select - Raspberry Orange Lime $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cherry BMB",
+    "brand": "Select",
+    "message": "New: Select - Cherry BMB $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $150.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $49.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry Marker",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry Marker $22.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Buff",
+    "brand": "Brix",
+    "message": "New: Brix - Super Buff $38.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "New: all:hours - Hash Burger $31.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "New: all:hours - Nimbus Snacks $31.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Creamsicle Sunset",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Creamsicle Sunset"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Sunrise",
+    "brand": "Brix",
+    "message": "Gone: Brix - Mystic Sunrise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb",
+    "brand": "Brix",
+    "message": "Gone: Brix - Glitter Bomb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Modified Haze"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g): $8.00 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grape (I) RSO Gummies (9.48mg 10pk)",
+    "brand": "Encore",
+    "message": "New: Encore - Grape (I) RSO Gummies (9.48mg 10pk) $32.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Wedding (I) Infused Shorties 10pk (4g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Wedding (I) Infused Shorties 10pk (4g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grandaddy Purple (I) Live Resin Vape Cartridge",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Grandaddy Purple (I) Live Resin Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape (I) RSO Gummies (9.5mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Grape (I) RSO Gummies (9.5mg 10pk)"
+  }
+]

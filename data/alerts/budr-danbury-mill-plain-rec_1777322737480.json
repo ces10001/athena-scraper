@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Whole Flower 3.5g White Caps (I) 01542 TC 37.946%GrassrootsWhole Buds",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Grassroots Whole Flower 3.5g White Caps (I) 01542 TC 37.946%GrassrootsWhole Buds $40.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis B Scout x Animal Face (I) 01436Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 5 Pack Minis B Scout x Animal Face (I) 01436Advanced Grow Labs ( $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Fantasy Melonz (H) 01428Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Fantasy Melonz (H) 01428Advanced Grow Labs ( $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 3.5g Do Not Trip (H) 01431",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 3.5g Do Not Trip (H) 01431 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318RYTHMDisposable Pen",
+    "brand": "Rythm",
+    "message": "New: Rythm - Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318RYTHMDisposable Pen $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Living Legend (S) 01163Advanced Grow Labs (AGL)Pre Rolls 5 Pack",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 5 Pack Minis Living Legend (S) 01163Advanced Grow Labs (AGL)Pre Rolls 5 Pack $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Vape Cheddar Cheeze x Bubba F (I) 01441Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Vape Cheddar Cheeze x Bubba F (I) 01441Advanced Grow Labs (AGL)Distillate $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs ( $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape 95 Cook (H) 01442",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape 95 Cook (H) 01442 $25.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jelly Roll 7g 41477",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Jelly Roll 7g 41477"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Enchanted Apple MT 41746",
+    "brand": "TheraplantMini Tank",
+    "message": "Gone: TheraplantMini Tank - Enchanted Apple MT 41746"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Sour Watermelon Gummies T95.8mg S 26875",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Sour Watermelon Gummies T95.8mg S 26875"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Whole Flower 3.5g PB Bites (S) 01693 TC 30.304%",
+    "brand": "FIND",
+    "message": "Gone: FIND - FIND. Whole Flower 3.5g PB Bites (S) 01693 TC 30.304%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Guap RSO Tangie Crush S 26972",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Guap RSO Tangie Crush S 26972"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies- C. Rollz 1g Whole Flower Pre-roll I 60005",
+    "brand": "Cookies",
+    "message": "Gone: Cookies - Cookies- C. Rollz 1g Whole Flower Pre-roll I 60005"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Blue Sherb Disposable T257 H 26984",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Blue Sherb Disposable T257 H 26984"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "TP all:hours Nimbus Snacks Flower 26.98% S 01365 3.5",
+    "brand": "gall:hoursPremium",
+    "message": "Gone: gall:hoursPremium - TP all:hours Nimbus Snacks Flower 26.98% S 01365 3.5"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO Lucky Dugout 3g 0071Lucky BreakLucky Dugout",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Black Cherry GMO Lucky Dugout 3g 0071Lucky BreakLucky Dugout"
+  }
+]

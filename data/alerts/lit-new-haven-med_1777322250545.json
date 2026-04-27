@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 1g LEAF Live Sauce Pen Lemon Haze (S) 01368 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower B Scout (I) 01240",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower B Scout (I) 01240 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Afternoon Delight #4 (H) 01373",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Afternoon Delight #4 (H) 01373 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Fantasy Melonz (H) 01428",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Fantasy Melonz (H) 01428 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Regina Gorgeous (H) 01228",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 5 Pack Minis Regina Gorgeous (H) 01228 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Gazzurple (S) 01389",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Gazzurple (S) 01389 $65.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Jealousy OG (H) 01375",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 1g LEAF Live Sauce Pen Jealousy OG (H) 01375 $55.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape Do Not Trip (H) 01443",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape Do Not Trip (H) 01443 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Good Green 3.5g Rose Gold RTZ (H) 01364",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green 3.5g Rose Gold RTZ (H) 01364 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dogwalkers 1g Big Dog Cherry Maui Wowie (S) 01418",
+    "brand": "Dogwalkers",
+    "message": "New: Dogwalkers - Dogwalkers 1g Big Dog Cherry Maui Wowie (S) 01418 $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Bananaconda (H) 01415",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 5 Pack Minis Bananaconda (H) 01415 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis B Scout x Animal Face (I) 01436",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 5 Pack Minis B Scout x Animal Face (I) 01436 $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Headcracker x Bubba F (I) 01413",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen Headcracker x Bubba F (I) 01413 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Cheddar Cheeze (I) 01409",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 300mg Pen Cheddar Cheeze (I) 01409 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Vape Lemon Drip x Sour D (S) 01395",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Vape Lemon Drip x Sour D (S) 01395 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cookies- G. Payton20 Smalls 70014",
+    "brand": "Cookies",
+    "message": "Gone: Cookies - Cookies- G. Payton20 Smalls 70014"
+  }
+]

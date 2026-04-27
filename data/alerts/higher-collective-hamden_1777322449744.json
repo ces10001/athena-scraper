@@ -1,0 +1,14 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Creamsicle Sunset",
+    "brand": "AGL",
+    "message": "Gone: AGL - Creamsicle Sunset"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gary Payton 20",
+    "brand": "Cookies",
+    "message": "Gone: Cookies - Gary Payton 20"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Peppermint | Lucky Spritz | 0.03oz | (C0130000043)",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint | Lucky Spritz | 0.03oz | (C0130000043): $32.00 > $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "95 Cookies | Vape Cart | 0.5g | 01282",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - 95 Cookies | Vape Cart | 0.5g | 01282"
+  }
+]

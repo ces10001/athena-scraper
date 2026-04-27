@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis Rose Gold RTZ (H) 01365",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - AGL 5 Pack Minis Rose Gold RTZ (H) 01365 $30.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Lighthouse-Super Lemon Haze Live Resin-(S)-510-Cart-1g-00473"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 5 Pack Minis Rose Gold RTZ (H) 01141",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 5 Pack Minis Rose Gold RTZ (H) 01141"
+  }
+]

@@ -1842,8 +1842,8 @@
     "deal_description": null,
     "image_url": "https://s3-us-west-2.amazonaws.com/dutchie-images/0e2ffee99d6aa2521739c9661df8e408",
     "product_url": null,
-    "med_price_cents": 720,
-    "med_original_price_cents": 900,
+    "med_price_cents": 760,
+    "med_original_price_cents": 950,
     "medical_only": false,
     "rec_only": false
   },

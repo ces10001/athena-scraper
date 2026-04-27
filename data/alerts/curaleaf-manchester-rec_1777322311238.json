@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "New: Select - NYC Diesel $49.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Dark Heart",
+    "message": "New: Dark Heart - Foreign Kush Mints $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Foreign Kush Mints"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Trop Cherry Honey Bananas",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Trop Cherry Honey Bananas"
+  }
+]

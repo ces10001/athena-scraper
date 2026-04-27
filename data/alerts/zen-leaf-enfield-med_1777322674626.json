@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "GG Skunk",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GG Skunk $27.30"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Heir Heads"
+  }
+]

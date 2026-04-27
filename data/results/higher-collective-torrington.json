@@ -2700,6 +2700,26 @@
     "product_url": null
   },
   {
+    "external_id": "sweed-379894",
+    "name": "Guap RSO Peachy Punch 1:1 CBD:THC",
+    "brand": "Savvy",
+    "category": "edible",
+    "subcategory": null,
+    "strain_type": null,
+    "price_cents": 1000,
+    "original_price_cents": null,
+    "weight_label": "5mg",
+    "weight_grams": 0.01,
+    "unit_price_per_gram": 200000,
+    "thc_pct": 5,
+    "cbd_pct": 5,
+    "in_stock": true,
+    "on_sale": false,
+    "deal_description": null,
+    "image_url": null,
+    "product_url": null
+  },
+  {
     "external_id": "sweed-272713",
     "name": "Black Cherry GMO Lucky Dugout",
     "brand": "Lucky Break",

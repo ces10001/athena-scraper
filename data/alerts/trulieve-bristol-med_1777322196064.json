@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blood Orange Gummies 20pk - 00224",
+    "brand": "SoundView",
+    "message": "New: SoundView - Blood Orange Gummies 20pk - 00224 $21.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Star Killer OG Smalls - 00828",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Star Killer OG Smalls - 00828"
+  }
+]

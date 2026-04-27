@@ -1,0 +1,20 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Full Tank",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Full Tank $24.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mystic Mint",
+    "brand": "Good Green",
+    "message": "New: Good Green - Mystic Mint $99.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dosi-Punch",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Dosi-Punch"
+  }
+]

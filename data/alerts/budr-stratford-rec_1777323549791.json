@@ -1,0 +1,50 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "AGL 300mg Pen Cheddar Cheeze (I) 01409Advanced Grow Labs (",
+    "brand": "Distillate",
+    "message": "New: Distillate - AGL 300mg Pen Cheddar Cheeze (I) 01409Advanced Grow Labs ( $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape 95 Cook (H) 01442",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape 95 Cook (H) 01442 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Cookies Lucky Dugout 3g 0102Lucky BreakLucky Dugout",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Durban Cookies Lucky Dugout 3g 0102Lucky BreakLucky Dugout $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs ( $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Kush Live Resin .5g Rechargeable 0103",
+    "brand": "Lucky BreakLive Resin",
+    "message": "New: Lucky BreakLive Resin - Watermelon Kush Live Resin .5g Rechargeable 0103 $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01632",
+    "brand": "SelectFlavor Series",
+    "message": "Gone: SelectFlavor Series - Select Flavor Series 510 1g Golden Tangie (S) 01632"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 28g Afternoon Delight #4 (H) 01383",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 28g Afternoon Delight #4 (H) 01383"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LB Panama Red .5g Rechargeable 00099",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - LB Panama Red .5g Rechargeable 00099"
+  }
+]

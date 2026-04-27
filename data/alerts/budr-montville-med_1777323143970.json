@@ -1,0 +1,206 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Good Green Ground Flower 28g Mystic Mint (I) 01402",
+    "brand": "Good Green",
+    "message": "New: Good Green - Good Green Ground Flower 28g Mystic Mint (I) 01402 $80.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 5 Pack Minis B Scout x Animal Face (I) 01436Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 5 Pack Minis B Scout x Animal Face (I) 01436Advanced Grow Labs ( $22.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 7g Small Flower Animal Face (I) 01433",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 7g Small Flower Animal Face (I) 01433 $47.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Donkey 2g Fatboy 41773",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Modified Donkey 2g Fatboy 41773 $25.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "High Strength Indoti Capsules 41833TheraplantCapsules(EACH)823mg 10pk",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - High Strength Indoti Capsules 41833TheraplantCapsules(EACH)823mg 10pk $79.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Medium Strength Pagoti Capsules 41830TheraplantCapsules(EACH)458mg 10pk",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Medium Strength Pagoti Capsules 41830TheraplantCapsules(EACH)458mg 10pk $45.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Medium Strength Indoti Capsules 41832TheraplantCapsules(EACH)427mg 10pk",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Medium Strength Indoti Capsules 41832TheraplantCapsules(EACH)427mg 10pk $45.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Low Strength Pagoti Capsules 41829TheraplantCapsules(EACH)83mg 10pk",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Low Strength Pagoti Capsules 41829TheraplantCapsules(EACH)83mg 10pk $9.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Low Strength Indoti Capsules 41831TheraplantCapsules(EACH)73mg",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Low Strength Indoti Capsules 41831TheraplantCapsules(EACH)73mg $9.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 0.5g Vape 95 Cook (H) 01442",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 0.5g Vape 95 Cook (H) 01442 $18.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Fantasy Melonz (H) 01428Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Fantasy Melonz (H) 01428Advanced Grow Labs ( $7.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TP Low Strength CBN 4:1 Capsules I 01218 10pkTheraplantCapsules(EACH)37mgCBN/10m",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - TP Low Strength CBN 4:1 Capsules I 01218 10pkTheraplantCapsules(EACH)37mgCBN/10m $9.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Vape Cheddar Cheeze x Bubba F (I) 01441Advanced Grow Labs (AGL)Distillate",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Vape Cheddar Cheeze x Bubba F (I) 01441Advanced Grow Labs (AGL)Distillate $36.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "New: AGL - AGL 1g Pre Roll Afternoon Delight #4 x OMG (H) 01448Advanced Grow Labs ( $7.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 3.5g Animal Face (I) 01426",
+    "brand": "RYTHMPremium",
+    "message": "New: RYTHMPremium - Rythm 3.5g Animal Face (I) 01426 $36.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy 2g Fatboy 41775",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy 2g Fatboy 41775 $25.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Foreverberry 1g Infused Blunt 41679",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Foreverberry 1g Infused Blunt 41679 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Solid State 1g Infused Blunt 41762",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Solid State 1g Infused Blunt 41762 $16.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 7g Small Flower Afternoon Delight #4 (H) 01373",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 7g Small Flower Afternoon Delight #4 (H) 01373"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rythm 0.5g Vape Dulce De Uva (I) 01339",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Rythm 0.5g Vape Dulce De Uva (I) 01339"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Whole Flower 7g Diesel Bites (S) 01444 TC 24.787%",
+    "brand": "FIND",
+    "message": "Gone: FIND - FIND. Whole Flower 7g Diesel Bites (S) 01444 TC 24.787%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Whole Flower 7g Gas Lit (H) 01644 TC 29.401%",
+    "brand": "FIND",
+    "message": "Gone: FIND - FIND. Whole Flower 7g Gas Lit (H) 01644 TC 29.401%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|Flower 3.5g|Jai Alai 00198",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|Flower 3.5g|Jai Alai 00198"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 7g Select Grind Grape Bubble G (H) 01202Advanced Grow Labs (AGL)Select Grind",
+    "brand": "AGL",
+    "message": "Gone: AGL - AGL 7g Select Grind Grape Bubble G (H) 01202Advanced Grow Labs (AGL)Select Grind"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing Flower T30.59% I 00901",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing Flower T30.59% I 00901"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g Zuava H 26948",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Smalls 7g Zuava H 26948"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL Go Gr Tz Grind 19.39% H 01057 14gAdvanced Grow Labs (AGL)Select Grind",
+    "brand": "AGL",
+    "message": "Gone: AGL - AGL Go Gr Tz Grind 19.39% H 01057 14gAdvanced Grow Labs (AGL)Select Grind"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Goods - Whole Flower - Tropical Kush 30001",
+    "brand": "The Goods",
+    "message": "Gone: The Goods - The Goods - Whole Flower - Tropical Kush 30001"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Granny Canny (S) 01346Advanced Grow Labs (",
+    "brand": "AGL",
+    "message": "Gone: AGL - AGL 1g Pre Roll Granny Canny (S) 01346Advanced Grow Labs ("
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO Lucky Dugout 3g 0071Lucky BreakLucky Dugout",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Black Cherry GMO Lucky Dugout 3g 0071Lucky BreakLucky Dugout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave THCA Infused Shorties H 27019CTPharma5 Pack THCA Infused Shortie",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave THCA Infused Shorties H 27019CTPharma5 Pack THCA Infused Shortie"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc.edibles 20 Pack Watermelon Smash THC Gummies 01328(inc)",
+    "brand": "edibles",
+    "message": "Gone: edibles - inc.edibles 20 Pack Watermelon Smash THC Gummies 01328(inc)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Seattle Sour Kush RSO 1mL - MED T722 S 26773",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Seattle Sour Kush RSO 1mL - MED T722 S 26773"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Fast-Acting Strawberry Kiwi Gummies T97.6mg H 00218"
+  }
+]

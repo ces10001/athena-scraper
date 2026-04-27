@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Ori Flower T22.99% H 00931 (2g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Ori Flower T22.99% H 00931 (2g) $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Sunshine Flower T30.88% I 00940 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Orange Sunshine Flower T30.88% I 00940 (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Mellow Mango 1:1:1 Gummies T95.8mg C101.2mg C99.4mg I 00231 (20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Mellow Mango 1:1:1 Gummies T95.8mg C101.2mg C99.4mg I 00231 (20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Whole Flower 28g Lunar Diesel (H) 01541 TC 31.527% (H)(28g)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Grassroots Whole Flower 28g Lunar Diesel (H) 01541 TC 31.527% (H)(28g)"
+  }
+]
