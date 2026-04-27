@@ -562,7 +562,31 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
   var[selectedProduct,setSelectedProduct]=useState(null);
   useEffect(()=>{if(searchResults.length===1)setSelectedProduct(searchResults[0]);else if(q.trim()&&searchResults.length>0)setSelectedProduct(searchResults[0]);else setSelectedProduct(null)},[searchResults]);
 
-  return<><div className="stats">{[["Dispensaries",data.stats?.unique_locations||data.stats?.dispensary_count||0,"","Locations monitored"],["Total SKUs",(data.products||[]).length,"","Unique products across all dispensaries"]].map(([l,v,c,desc])=><div key={l} className="st"><div className="st-l">{l}</div><div className={"st-v "+(c||"")}>{(v||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>{desc}</div></div>)}</div>
+  var skuCount=(data.products||[]).length;
+  var skuHistory=useMemo(function(){
+    var hist=JSON.parse(localStorage.getItem('athena_sku_history')||'{}');
+    var today=new Date().toISOString().slice(0,10);
+    hist[today]=skuCount;
+    var keys=Object.keys(hist).sort().reverse().slice(0,7);
+    var clean={};keys.forEach(function(k){clean[k]=hist[k]});
+    localStorage.setItem('athena_sku_history',JSON.stringify(clean));
+    return keys.map(function(k){
+      var d=new Date(k+'T12:00:00');
+      var day=d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+      return{date:day,count:clean[k],isToday:k===today};
+    });
+  },[skuCount]);
+
+  return<><div className="stats">
+    <div className="st"><div className="st-l">Dispensaries</div><div className="st-v">{(data.stats?.unique_locations||data.stats?.dispensary_count||0).toLocaleString()}</div><div style={{fontSize:11,color:'var(--tx2)',marginTop:4,lineHeight:1.3}}>Locations monitored</div></div>
+    <div className="st"><div className="st-l">Total SKUs</div><div className="st-v">{skuCount.toLocaleString()}</div>
+      <div style={{marginTop:6,borderTop:'1px solid var(--bd)',paddingTop:6}}>
+        {skuHistory.map(function(h){return<div key={h.date} style={{display:'flex',justifyContent:'space-between',padding:'2px 0',fontSize:11,color:h.isToday?'var(--cy)':'var(--tx2)',fontWeight:h.isToday?600:400}}>
+          <span>{h.date}</span><span style={{fontFamily:'var(--m)'}}>{h.count.toLocaleString()}</span>
+        </div>})}
+      </div>
+    </div>
+  </div>
     <div className="glow"/>
     <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius} favsVer={favsVer}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
