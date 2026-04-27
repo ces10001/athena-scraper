@@ -952,7 +952,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             if(sel.size>0&&!sel.has(disp))return;
             var dealPrice=dealsMap[p.name+"|"+disp]||null;
             var effectivePrice=dealPrice&&dealPrice<price?dealPrice:price;
-            matches.push({name:p.name,brand:p.brand,disp:disp,price:effectivePrice,isPromo:dealPrice&&dealPrice<price,isHome:affSet.has(disp)});
+            matches.push({name:p.name,brand:p.brand,disp:disp,price:effectivePrice,origPrice:price,promoPrice:dealPrice&&dealPrice<price?dealPrice:null,isPromo:dealPrice&&dealPrice<price,isHome:affSet.has(disp)});
           });
         });
         if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,byDisp:[]});return}
@@ -1002,9 +1002,9 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
               var hTip=dd.isHome?"Your highest: "+dd.high.name:"$"+dd.high.price.toFixed(2)+" for "+dd.high.name+(homeHP?" vs your $"+homeHP.toFixed(2):"");
               return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
                 <td style={{padding:'7px 8px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:15}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
-                <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={lTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:13,marginLeft:4,color:lpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.low.name}</div></td>
-                <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={hTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:13,marginLeft:4,color:hpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.high.name}</div></td>
-                <td style={{textAlign:'center',padding:'7px 8px',color:'var(--cy)',fontSize:15,fontWeight:600}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"$0.00"}</td>
+                <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={lTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.low.origPrice.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:13,marginLeft:4,color:lpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}{dd.low.promoPrice?<span style={{fontSize:12,marginLeft:4,color:'var(--am)',fontWeight:600}}>${dd.low.promoPrice.toFixed(2)} <em>(Promo)</em></span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.low.name}</div></td>
+                <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={hTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.high.origPrice.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:13,marginLeft:4,color:hpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}{dd.high.promoPrice?<span style={{fontSize:12,marginLeft:4,color:'var(--am)',fontWeight:600}}>${dd.high.promoPrice.toFixed(2)} <em>(Promo)</em></span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.high.name}</div></td>
+                <td style={{textAlign:'center',padding:'7px 8px',color:'var(--cy)',fontSize:15,fontWeight:600}}>{dd.high.origPrice!==dd.low.origPrice?"$"+(dd.high.origPrice-dd.low.origPrice).toFixed(2):"$0.00"}</td>
               </tr>})}</tbody>
           </table>}
         </div>})}</div>
@@ -1567,16 +1567,23 @@ function ReportTab({data,favsVer}){
       // 7. Biggest price differences
       var diffs=matching.map(function(m){return{name:m.name,brand:m.brand,cat:m.cat,homePrice:m.homePrice,compPrice:m.compPrice,homePromo:m.homePromo,compPromo:m.compPromo,diff:m.homePrice-m.compPrice,pct:Math.round((m.homePrice-m.compPrice)/m.compPrice*100)}}).sort(function(a,b){return a.diff-b.diff});
       
-      // 8. Price extremes by category then weight
+      // 8. Price extremes by category then weight — ALL products per dispensary (not just comparable)
       var catWeightBuckets={};
-      matching.forEach(function(m){
-        var cat=m.cat||"Other";
+      prods.forEach(function(p){
+        var hP=p.dispensaries&&p.dispensaries[homeDisp];
+        var cP=p.dispensaries&&p.dispensaries[compDisp];
+        if(!hP&&!cP)return;
+        var cat=p.category||"Other";
         if(!catWeightBuckets[cat])catWeightBuckets[cat]={};
-        var w=m.name.match(/(?:^|[^%\d])(\d*\.?\d+)\s*g\b/i);
+        var w=p.name.match(/(?:^|[^%\d])(\d*\.?\d+)\s*g\b/i);
         var wKey="other";
         if(w){var wv=parseFloat(w[1]);if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
-        if(!catWeightBuckets[cat][wKey])catWeightBuckets[cat][wKey]=[];
-        catWeightBuckets[cat][wKey].push(m);
+        if(!catWeightBuckets[cat][wKey])catWeightBuckets[cat][wKey]={homeItems:[],compItems:[],count:0};
+        var hPm=p.promos&&p.promos[homeDisp];
+        var cPm=p.promos&&p.promos[compDisp];
+        if(hP)catWeightBuckets[cat][wKey].homeItems.push({name:p.name,brand:p.brand,price:hP,promo:hPm&&hPm<hP?hPm:null});
+        if(cP)catWeightBuckets[cat][wKey].compItems.push({name:p.name,brand:p.brand,price:cP,promo:cPm&&cPm<cP?cPm:null});
+        if(hP||cP)catWeightBuckets[cat][wKey].count++;
       });
       
       setReport({hName:hName,cName:cName,homeDisp:homeDisp,compDisp:compDisp,matching:matching,homeOnly:homeOnly,compOnly:compOnly,cats:cats,homeHigh:homeHigh,homeLow:homeLow,compHigh:compHigh,compLow:compLow,homeMoves:homeMoves,compMoves:compMoves,homeDeals:homeDeals,compDeals:compDeals,homeSKUs:homeSKUs,compSKUs:compSKUs,homeTot:homeTot,compTot:compTot,diffs:diffs,catWeightBuckets:catWeightBuckets,date:new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})});
@@ -1746,23 +1753,22 @@ function ReportTab({data,favsVer}){
             return(ai<0?99:ai)-(bi<0?99:bi);
           }).map(function(catEntry){
             var catName=catEntry[0],weights=catEntry[1];
-            var totalInCat=Object.values(weights).reduce(function(s,arr){return s+arr.length},0);
+            var totalInCat=Object.values(weights).reduce(function(s,w){return s+w.count},0);
             return<div key={catName} style={{marginBottom:20,pageBreakInside:'avoid'}}>
-              <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10,pageBreakAfter:'avoid'}}>{catName} ({totalInCat} comparable)</div>
-              {Object.entries(weights).filter(function(e){return e[1].length>0&&e[0]!=="other"}).sort(function(a,b){
+              <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10,pageBreakAfter:'avoid'}}>{catName} ({totalInCat} products)</div>
+              {Object.entries(weights).filter(function(e){return(e[1].homeItems.length>0||e[1].compItems.length>0)&&e[0]!=="other"}).sort(function(a,b){
                 var wOrder=["0.5g","1g","3.5g","7g","14g","28g","other"];
                 return wOrder.indexOf(a[0])-wOrder.indexOf(b[0]);
               }).map(function(wEntry){
-                var wLabel=wEntry[0],items=wEntry[1];
-                var homeHighW=null,homeLowW=null,compHighW=null,compLowW=null;
-                items.forEach(function(m){
-                  if(!homeHighW||m.homePrice>homeHighW.homePrice)homeHighW=m;
-                  if(!homeLowW||m.homePrice<homeLowW.homePrice)homeLowW=m;
-                  if(!compHighW||m.compPrice>compHighW.compPrice)compHighW=m;
-                  if(!compLowW||m.compPrice<compLowW.compPrice)compLowW=m;
-                });
+                var wLabel=wEntry[0],bucket=wEntry[1];
+                var hItems=bucket.homeItems.sort(function(a,b){return a.price-b.price});
+                var cItems=bucket.compItems.sort(function(a,b){return a.price-b.price});
+                var homeHighW=hItems.length?hItems[hItems.length-1]:null;
+                var homeLowW=hItems.length?hItems[0]:null;
+                var compHighW=cItems.length?cItems[cItems.length-1]:null;
+                var compLowW=cItems.length?cItems[0]:null;
                 return<div key={wLabel} style={{marginBottom:10,marginLeft:12,pageBreakInside:'avoid'}}>
-                  <div style={{fontWeight:600,fontSize:13,color:'#666',marginBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({items.length})</div>
+                  <div style={{fontWeight:600,fontSize:13,color:'#666',marginBottom:4}}>{wLabel==="other"?"Other Sizes":wLabel} ({hItems.length} / {cItems.length})</div>
                   <table style={{width:'100%',borderCollapse:'collapse',fontSize:13}}>
                     <thead><tr style={{borderBottom:'1px solid #ddd'}}>
                       <th style={{textAlign:'left',padding:'4px 8px',width:'12%'}}></th>
@@ -1775,16 +1781,16 @@ function ReportTab({data,favsVer}){
                       <tr style={{borderBottom:'1px solid #f0f0f0'}}>
                         <td style={{padding:'4px 8px',fontWeight:600,color:'#d42030',fontSize:11}}>HIGHEST</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeHighW?homeHighW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{homeHighW?<div>${homeHighW.homePrice.toFixed(2)}{homeHighW.homePromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeHighW.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#333'}}>{homeHighW?<div>${homeHighW.price.toFixed(2)}{homeHighW.promo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeHighW.promo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compHighW?compHighW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#d42030'}}>{compHighW?<div>${compHighW.compPrice.toFixed(2)}{compHighW.compPromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compHighW.compPromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#333'}}>{compHighW?<div>${compHighW.price.toFixed(2)}{compHighW.promo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compHighW.promo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                       </tr>
                       <tr style={{borderBottom:'1px solid #f0f0f0'}}>
                         <td style={{padding:'4px 8px',fontWeight:600,color:'#1a8f3f',fontSize:11}}>LOWEST</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{homeLowW?homeLowW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{homeLowW?<div>${homeLowW.homePrice.toFixed(2)}{homeLowW.homePromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeLowW.homePromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#333'}}>{homeLowW?<div>${homeLowW.price.toFixed(2)}{homeLowW.promo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${homeLowW.promo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                         <td style={{padding:'4px 8px',fontSize:12,maxWidth:160,wordBreak:'break-word',whiteSpace:'normal'}}>{compLowW?compLowW.name:"—"}</td>
-                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#1a8f3f'}}>{compLowW?<div>${compLowW.compPrice.toFixed(2)}{compLowW.compPromo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compLowW.compPromo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
+                        <td style={{padding:'4px 8px',textAlign:'center',fontWeight:700,color:'#333'}}>{compLowW?<div>${compLowW.price.toFixed(2)}{compLowW.promo?<div style={{fontSize:10,color:'#e8600a',fontWeight:600}}>${compLowW.promo.toFixed(2)} <em>(Promo)</em></div>:null}</div>:"—"}</td>
                       </tr>
                     </tbody>
                   </table>
