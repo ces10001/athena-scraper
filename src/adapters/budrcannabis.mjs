@@ -219,7 +219,7 @@ export async function scrapeBUDRCannabis(dispensary) {
     try {
       // Step 1: Load store page and pass age gate
       await page.goto(dispensary.store_url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(3000);
+      await page.waitForTimeout(5000);
       try {
         var ageBtn = page.locator('button:has-text("Yes"), a:has-text("Yes")').first();
         if (await ageBtn.isVisible({ timeout: 3000 })) {
@@ -235,7 +235,8 @@ export async function scrapeBUDRCannabis(dispensary) {
       await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(8000);
 
-      // Step 3: Get total product count
+      // Step 3: Wait for shadow DOM to fully load, then get total product count
+      await page.waitForTimeout(5000);
       var totalProducts = await page.evaluate(function() {
         var host = document.getElementById('shadow-host');
         if (!host || !host.shadowRoot) return 0;
@@ -246,7 +247,7 @@ export async function scrapeBUDRCannabis(dispensary) {
       console.log('  [budrcannabis] Total products indicated: ' + totalProducts);
 
       // Step 4: Click "View more" repeatedly to load ALL products
-      var maxClicks = Math.ceil(totalProducts / 20) + 5; // Safety margin
+      var maxClicks = Math.max(Math.ceil(totalProducts / 20) + 5, 30); // minimum 30 attempts
       var lastCount = 0;
       var stableRounds = 0;
 

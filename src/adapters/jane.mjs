@@ -183,7 +183,7 @@ export async function scrapeJane(dispensary) {
       try {
         page = await context.newPage();
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(5000);
+        await page.waitForTimeout(8000);
 
         // Dismiss age gate — try multiple button texts
         try {
@@ -193,7 +193,7 @@ export async function scrapeJane(dispensary) {
             if (await ageBtn.isVisible({ timeout: 2000 })) {
               await ageBtn.click();
               console.log('  [jane] Age gate passed: ' + ageBtns[ab]);
-              await page.waitForTimeout(3000);
+              await page.waitForTimeout(5000);
               break;
             }
           }
@@ -217,10 +217,10 @@ export async function scrapeJane(dispensary) {
             if (await catTab.isVisible({ timeout: 2000 })) {
               await catTab.scrollIntoViewIfNeeded();
               await catTab.click();
-              await page.waitForTimeout(3000);
+              await page.waitForTimeout(5000);
 
               // Click "View more" repeatedly in this category
-              for (var vm = 0; vm < 20; vm++) {
+              for (var vm = 0; vm < 40; vm++) {
                 try {
                   var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more")').first();
                   if (await viewMore.isVisible({ timeout: 1500 })) {
@@ -232,11 +232,11 @@ export async function scrapeJane(dispensary) {
               }
 
               // Scroll down to load lazy content
-              for (var scroll = 0; scroll < 10; scroll++) {
-                await page.evaluate(function() { window.scrollBy(0, 1000); });
-                await page.waitForTimeout(200);
+              for (var scroll = 0; scroll < 20; scroll++) {
+                await page.evaluate(function() { window.scrollBy(0, 1500); });
+                await page.waitForTimeout(300);
               }
-              await page.waitForTimeout(1000);
+              await page.waitForTimeout(2000);
 
               // Collect products from this category
               var catText = await page.evaluate(function() { return document.body?.innerText || ''; });
@@ -254,8 +254,8 @@ export async function scrapeJane(dispensary) {
           var featTab = page.locator('button:has-text("Featured"), a:has-text("Featured"), button:has-text("All")').first();
           if (await featTab.isVisible({ timeout: 1500 })) {
             await featTab.click();
-            await page.waitForTimeout(3000);
-            for (var vm = 0; vm < 10; vm++) {
+            await page.waitForTimeout(5000);
+            for (var vm = 0; vm < 30; vm++) {
               try {
                 var viewMore = page.locator('button:has-text("View more")').first();
                 if (await viewMore.isVisible({ timeout: 1500 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(2000); }
