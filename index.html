@@ -608,7 +608,7 @@ function DetailedView({disp,data,onClose}){
 }
 
 function Hdr({d}){
-  return<div className="hdr"><div className="logo"><div className="lt"><img src={ATHENA_LOGO_SM} alt="ATHENA" style={{width:44,height:44,borderRadius:6}}/><div><h1>ATHENA</h1><span>Cannabis Pricing Intelligence</span></div></div></div><div style={{display:'flex',alignItems:'center',gap:12}}><span style={{fontSize:12,color:'var(--tx3)',fontFamily:'var(--m)'}}>{sessionStorage.getItem('athena_email')||''}</span><button onClick={function(){if(typeof athenaLogout==='function')athenaLogout()}} style={{padding:'6px 14px',background:'transparent',border:'1px solid var(--bd)',borderRadius:6,color:'var(--tx2)',fontSize:12,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1}}>LOGOUT</button></div></div>;
+  return<div className="hdr"><div className="logo"><div className="lt"><img src={ATHENA_LOGO_SM} alt="ATHENA" style={{width:44,height:44,borderRadius:6}}/><div><h1>ATHENA</h1><span>Cannabis Pricing Intelligence</span></div></div></div></div>;
 }
 
 function VideoCarousel(){
@@ -651,6 +651,10 @@ function VideoCarousel(){
         <span className="meter-pct">{scrapeInfo.progress}%</span>
       </div>
     </div>}
+    <div style={{position:'absolute',bottom:10,left:14,zIndex:2,display:'flex',alignItems:'center',gap:10}}>
+      <span style={{fontSize:11,color:'rgba(255,255,255,0.45)',fontFamily:'var(--m)'}}>{sessionStorage.getItem('athena_email')||''}</span>
+      <button onClick={function(e){e.stopPropagation();if(typeof athenaLogout==='function')athenaLogout()}} style={{padding:'4px 12px',background:'rgba(0,0,0,0.5)',border:'1px solid rgba(255,255,255,0.15)',borderRadius:5,color:'rgba(255,255,255,0.5)',fontSize:10,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1,backdropFilter:'blur(4px)'}}>LOGOUT</button>
+    </div>
   </div>;
 }
 
