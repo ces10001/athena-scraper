@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Good Green 14g Slapz (H) 01343",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Good Green 14g Slapz (H) 01343 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "C-Stata Lil' Budz 7g (H) 00356",
+    "brand": "BRIX",
+    "message": "New: BRIX - C-Stata Lil' Budz 7g (H) 00356 $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Animal Face | 28g Select Grind (I) | 01341",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Animal Face | 28g Select Grind (I) | 01341 $90.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Purple Milk | Whole Flower 3.5g ( I ) | 00347 | Brix",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Purple Milk | Whole Flower 3.5g ( I ) | 00347 | Brix"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Amethyst Diesel 0.5g 5pk Pre Rolls (I) 00487"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata | Lil' Budz 7g (H) | 00472",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - C-Stata | Lil' Budz 7g (H) | 00472"
+  }
+]

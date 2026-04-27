@@ -1,0 +1,116 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Astro Confections PB  Cups 49 mg (H) 10 Pack - 00053",
+    "brand": "Astro Confections",
+    "message": "New: Astro Confections - Astro Confections PB  Cups 49 mg (H) 10 Pack - 00053 $10.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Encore Mango RSO Gummies  94 mg (S) 10 Pack (20 Servings) - 26850",
+    "brand": "Encore Edibles",
+    "message": "New: Encore Edibles - Encore Mango RSO Gummies  94 mg (S) 10 Pack (20 Servings) - 26850 $18.90"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Cherry Tart Fast-Acting Gummies 20pk - 01094",
+    "brand": "inc.edibles",
+    "message": "New: inc.edibles - Sour Cherry Tart Fast-Acting Gummies 20pk - 01094 $13.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Wild Berries 1:1 CBD Dark Chocolate Bar 20pc - 00244",
+    "brand": "SoundView",
+    "message": "New: SoundView - Wild Berries 1:1 CBD Dark Chocolate Bar 20pc - 00244 $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Hyphen Red Pop Pod 85.76 % (I) 2g - 26968",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Hyphen Red Pop Pod 85.76 % (I) 2g - 26968"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Select Flavor Series Briq 2.0 Mango Puff Disposable 90.59 % (I) 2g - 01552",
+    "brand": "Select",
+    "message": "Gone: Select - Curaleaf Select Flavor Series Briq 2.0 Mango Puff Disposable 90.59 % (I) 2g - 01552"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Afternoon Delight #4 Flower - 01374",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Afternoon Delight #4 Flower - 01374"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CTPharma Strawberry Pave Whole Flower 28.46 % (H) 3.5g - 27001",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - CTPharma Strawberry Pave Whole Flower 28.46 % (H) 3.5g - 27001"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Outta My Head Syringe - 00852",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Outta My Head Syringe - 00852"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Happy Confection Creative Clementine THCV Gummies 91.2 mg THCV 102.4mg (S) 20 Pack - 00452",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - The Happy Confection Creative Clementine THCV Gummies 91.2 mg THCV 102.4mg (S) 20 Pack - 00452"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sugar Plum Gummies 20pk - 00181",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Sugar Plum Gummies 20pk - 00181"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Curaleaf Select Flavor Series Moonburst Vape 86.52 % (H) 1g - 01485",
+    "brand": "Select",
+    "message": "Gone: Select - Curaleaf Select Flavor Series Moonburst Vape 86.52 % (H) 1g - 01485"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Grape RSO Gummies 95 mg (I) 10 Pack (20 Servings) - 26840",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Grape RSO Gummies 95 mg (I) 10 Pack (20 Servings) - 26840"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snow Drift Bold Disposable - 26810",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Snow Drift Bold Disposable - 26810"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Miss Grass Biscotti Pie Bubble Hash Infused Doob 42.01 % (H) 1g - 01606",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Miss Grass Biscotti Pie Bubble Hash Infused Doob 42.01 % (H) 1g - 01606"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "all:hours Trop Cherry Honey Banana Rosin Voca Pro 81.57 % (H) .5g - 01614",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - all:hours Trop Cherry Honey Banana Rosin Voca Pro 81.57 % (H) .5g - 01614"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Wild Berries 1:1 CBD Dark Chocolate Bar 94 mg C95.8mg (H) 20 Pack - 00209",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Wild Berries 1:1 CBD Dark Chocolate Bar 94 mg C95.8mg (H) 20 Pack - 00209"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Haze Live Sauce Pen - 01368",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Lemon Haze Live Sauce Pen - 01368"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Exotic Yuzu Gummies (1:2 THC:CBD) 20pk - 00164",
+    "brand": "Wana",
+    "message": "Gone: Wana - Exotic Yuzu Gummies (1:2 THC:CBD) 20pk - 00164"
+  }
+]

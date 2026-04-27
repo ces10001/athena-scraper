@@ -270,8 +270,14 @@
     "platform": "dutchie"
   },
   {
-    "title": "Sunday Entire Store 20% OFF",
-    "description": "",
+    "title": "AGL Brands - 30% OFF",
+    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
+    "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Brands - 20% OFF",
+    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
     "platform": "dutchie"
   },
@@ -390,8 +396,14 @@
     "platform": "dutchie"
   },
   {
-    "title": "Sunday Entire Store 20% OFF",
-    "description": "",
+    "title": "AGL Brands - 30% OFF",
+    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
+    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Brands - 20% OFF",
+    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
     "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
     "platform": "dutchie"
   },
@@ -493,12 +505,6 @@
   },
   {
     "title": "100mg Gummies | 2 for $40",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "25% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
     "platform": "dutchie"
@@ -522,8 +528,14 @@
     "platform": "dutchie"
   },
   {
-    "title": "Sunday Entire Store 20% OFF",
-    "description": "",
+    "title": "AGL Brands - 30% OFF",
+    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
+    "dispensary": "Shangri-La - Waterbury (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Brands - 20% OFF",
+    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
     "dispensary": "Shangri-La - Waterbury (Rec)",
     "platform": "dutchie"
   },
@@ -648,8 +660,20 @@
     "platform": "dutchie"
   },
   {
-    "title": "Sunday Entire Store 20% OFF",
+    "title": "Monday Edibles 20% OFF",
     "description": "",
+    "dispensary": "Shangri-La - Plainville (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "AGL Brands - 30% OFF",
+    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
+    "dispensary": "Shangri-La - Plainville (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Brands - 20% OFF",
+    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
     "dispensary": "Shangri-La - Plainville (Rec)",
     "platform": "dutchie"
   },
@@ -798,12 +822,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "WEHA Stack and Save Weekends - $15 off $100 or more",
-    "description": "Join us every weekend to stack and save ... receive $15 off a purchase of $100 or more, $25 off a purchase of $150 or more, or $50 off a purchase of $200 of more!",
-    "dispensary": "SweetSpot - West Hartford (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Last Call",
     "description": "15% OFF these featured items while supplies last!",
     "dispensary": "SweetSpot - West Hartford (Rec)",
@@ -812,6 +830,12 @@
   {
     "title": "Select Briq All-In-One Disposable 2g Vapes - 2 for $180",
     "description": "",
+    "dispensary": "SweetSpot - West Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "WEHA Munchie Mondays - BOGO 50% off edibles",
+    "description": "Come join us every Monday to receive Buy One Get One 50% off for all edibles!",
     "dispensary": "SweetSpot - West Hartford (Rec)",
     "platform": "dutchie"
   },
@@ -837,6 +861,48 @@
     "title": "Buy 3 LOUD 1g Vape Carts for $100",
     "description": "",
     "dispensary": "Still River Wellness (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Early Bird 10% Off",
+    "description": "Enjoy 10% off the menu for our favorite early birds",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Secret Menu",
+    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 2 Vapes, Save $15",
+    "description": "When you buy 2 vapes or disposables, save $15 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 4 Vapes, Save $40",
+    "description": "When you buy 4 vapes or disposables, save $40 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Edible Save $7",
+    "description": "When you bundle 1 vape and 1 edible, save $7 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower Save $14",
+    "description": "When you bundle 1 vape and 1 flower, save $14 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower + 1 Edible Save $21",
+    "description": "When you bundle 1 vape and 1 flower and 1 edible, save $21 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
     "platform": "dutchie"
   },
   {
@@ -882,15 +948,57 @@
     "platform": "dutchie"
   },
   {
-    "title": "\"The Bridgeport Bundle\" | $75 Bundle",
-    "description": "Grab these three products for $75 pre-tax! Exclusions may apply. No stacking!",
+    "title": "Let's Burn Spotlight | 30% Off",
+    "description": "Limited Time Only - While Supplies Last. No Stacking!",
     "dispensary": "Crisp Cannabis - Trumbull (Rec)",
     "platform": "dutchie"
   },
   {
-    "title": "Let's Burn Spotlight | 30% Off",
-    "description": "Limited Time Only - While Supplies Last. No Stacking!",
-    "dispensary": "Crisp Cannabis - Trumbull (Rec)",
+    "title": "Medical Orders | 20% Off",
+    "description": "Shop 20% off our medical menu every Monday, Wednesday, and Friday! No Stacking!",
+    "dispensary": "Crisp Cannabis - Trumbull (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Early Bird 10% Off",
+    "description": "Enjoy 10% off the menu for our favorite early birds",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Secret Menu",
+    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 2 Vapes, Save $15",
+    "description": "When you buy 2 vapes or disposables, save $15 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 4 Vapes, Save $40",
+    "description": "When you buy 4 vapes or disposables, save $40 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Edible Save $7",
+    "description": "When you bundle 1 vape and 1 edible, save $7 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower Save $14",
+    "description": "When you bundle 1 vape and 1 flower, save $14 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower + 1 Edible Save $21",
+    "description": "When you bundle 1 vape and 1 flower and 1 edible, save $21 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
     "platform": "dutchie"
   },
   {
@@ -942,15 +1050,51 @@
     "platform": "dutchie"
   },
   {
-    "title": "420 Recoup | Penny Product w/ $50 Purchase",
-    "description": "Receive a select product for a penny when you spend more than $50 pre-tax. Exclusions may apply. No stacking!",
+    "title": "Let's Burn Spotlight | 30% Off",
+    "description": "Limited Time Only - While Supplies Last. No Stacking!",
     "dispensary": "Crisp Cannabis - East Hartford (Rec)",
     "platform": "dutchie"
   },
   {
-    "title": "Let's Burn Spotlight | 30% Off",
-    "description": "Limited Time Only - While Supplies Last. No Stacking!",
-    "dispensary": "Crisp Cannabis - East Hartford (Rec)",
+    "title": "Early Bird 10% Off",
+    "description": "Enjoy 10% off the menu for our favorite early birds",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Secret Menu",
+    "description": "You found the Secret Menu! Enjoy 15% off orders placed for tomorrow",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 2 Vapes, Save $15",
+    "description": "When you buy 2 vapes or disposables, save $15 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 4 Vapes, Save $40",
+    "description": "When you buy 4 vapes or disposables, save $40 on your purchase\nOnly stackable with the Burn Card!",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Edible Save $7",
+    "description": "When you bundle 1 vape and 1 edible, save $7 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower Save $14",
+    "description": "When you bundle 1 vape and 1 flower, save $14 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 1 Vape + 1 Flower + 1 Edible Save $21",
+    "description": "When you bundle 1 vape and 1 flower and 1 edible, save $21 on your cart!\nSale only stackable with the Burn Card",
+    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
     "platform": "dutchie"
   },
   {
@@ -992,12 +1136,6 @@
   {
     "title": "Curaleaf Vapes | 4 For 40% Off",
     "description": "Buy 4 or more Curaleaf vapes, get them for 40% off!",
-    "dispensary": "Crisp Cannabis - Cromwell (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "420 Recoup | Penny Product w/ $50 Purchase",
-    "description": "Receive a select product for a penny when you spend more than $50 pre-tax. Exclusions may apply. No stacking!",
     "dispensary": "Crisp Cannabis - Cromwell (Rec)",
     "platform": "dutchie"
   },
@@ -1188,12 +1326,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "Before It’s Gone: 50% Off",
-    "description": "",
-    "dispensary": "Trulieve - Bristol (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Buy 2+ of Affinity Capy 3.5g for only $25 each",
     "description": "",
     "dispensary": "Trulieve - Bristol (Rec)",
@@ -1230,9 +1362,9 @@
     "platform": "dutchie"
   },
   {
-    "title": "11am-6pm: 20% off Storewide",
+    "title": "20% Off Storewide (Medical Only)",
     "description": "",
-    "dispensary": "Trulieve - Bristol (Rec)",
+    "dispensary": "Trulieve - Bristol (Med)",
     "platform": "dutchie"
   },
   {
@@ -1262,6 +1394,12 @@
   {
     "title": "$80 1/2s",
     "description": "",
+    "dispensary": "Rejoice - Meriden (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "15% Off All 1/8ths!",
+    "description": "15% Off All 1/8ths!",
     "dispensary": "Rejoice - Meriden (Rec)",
     "platform": "dutchie"
   },
@@ -1278,13 +1416,31 @@
     "platform": "dutchie"
   },
   {
-    "title": "3 1g Prerolls for $27! (SUNDAY ONLY)",
+    "title": "5 Prerolls for $42! (MONDAY ONLY)",
+    "description": "",
+    "dispensary": "Rejoice - Meriden (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Select 2g Briqs 2 for $180",
+    "description": "",
+    "dispensary": "Rejoice - Meriden (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Soundview 20% Off",
     "description": "",
     "dispensary": "Rejoice - Meriden (Rec)",
     "platform": "dutchie"
   },
   {
     "title": "4 for $20 Soundview Seltzers",
+    "description": "",
+    "dispensary": "Rejoice - Meriden (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Mix and Match 2 8ths for $50",
     "description": "",
     "dispensary": "Rejoice - Meriden (Rec)",
     "platform": "dutchie"
@@ -1316,6 +1472,12 @@
   {
     "title": "$80 1/2s",
     "description": "",
+    "dispensary": "Rejoice - Seymour (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "15% Off All 1/8ths!",
+    "description": "15% Off All 1/8ths!",
     "dispensary": "Rejoice - Seymour (Rec)",
     "platform": "dutchie"
   },
@@ -1338,13 +1500,31 @@
     "platform": "dutchie"
   },
   {
-    "title": "3 1g Prerolls for $27! (SUNDAY ONLY)",
+    "title": "5 Prerolls for $42! (MONDAY ONLY)",
+    "description": "",
+    "dispensary": "Rejoice - Seymour (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Select 2g Briqs 2 for $180",
+    "description": "",
+    "dispensary": "Rejoice - Seymour (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Soundview 20% Off",
     "description": "",
     "dispensary": "Rejoice - Seymour (Rec)",
     "platform": "dutchie"
   },
   {
     "title": "4 for $20 Soundview Seltzers",
+    "description": "",
+    "dispensary": "Rejoice - Seymour (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Mix and Match 2 8ths for $50",
     "description": "",
     "dispensary": "Rejoice - Seymour (Rec)",
     "platform": "dutchie"
@@ -1380,6 +1560,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "15% Off All 1/8ths!",
+    "description": "15% Off All 1/8ths!",
+    "dispensary": "Rejoice - Norwich (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "3 1g Loud Vapes for $100",
     "description": "",
     "dispensary": "Rejoice - Norwich (Rec)",
@@ -1392,7 +1578,19 @@
     "platform": "dutchie"
   },
   {
-    "title": "3 1g Prerolls for $27! (SUNDAY ONLY)",
+    "title": "5 Prerolls for $42! (MONDAY ONLY)",
+    "description": "",
+    "dispensary": "Rejoice - Norwich (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Curaleaf Select 2g Briqs 2 for $180",
+    "description": "",
+    "dispensary": "Rejoice - Norwich (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Soundview 20% Off",
     "description": "",
     "dispensary": "Rejoice - Norwich (Rec)",
     "platform": "dutchie"
@@ -1416,15 +1614,21 @@
     "platform": "dutchie"
   },
   {
+    "title": "Mix and Match 2 8ths for $50",
+    "description": "",
+    "dispensary": "Rejoice - Norwich (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "Beverages - BYO 4 Pack - All Beverages Mix and Match!",
     "description": "",
     "dispensary": "Nightjar - Hamden (Rec)",
     "platform": "dutchie"
   },
   {
-    "title": "20% Off - Wana Weekend!",
+    "title": "Medical Monday 20% Off",
     "description": "",
-    "dispensary": "Nightjar - Hamden (Rec)",
+    "dispensary": "Nightjar - Hamden (Med)",
     "platform": "dutchie"
   },
   {
@@ -1434,21 +1638,9 @@
     "platform": "dutchie"
   },
   {
-    "title": "20% Off - AGL",
+    "title": "Medical Monday 20% Off",
     "description": "",
-    "dispensary": "Nightjar - East Lyme (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "20% Off - Coast Gummies",
-    "description": "",
-    "dispensary": "Nightjar - East Lyme (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "25% Off - Coast Gummies Bundle (2+)",
-    "description": "Save 25% when you bundle 2 or more pack of Coast Gummies! Not combinable with other discounts. While supplies last.",
-    "dispensary": "Nightjar - East Lyme (Rec)",
+    "dispensary": "Nightjar - East Lyme (Med)",
     "platform": "dutchie"
   },
   {
@@ -1459,6 +1651,12 @@
   },
   {
     "title": "$25 - 1/8ths",
+    "description": "Shaka - Springtime - Awssom",
+    "dispensary": "The Liv - Newington (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Magical Mondays  - 15% off all 1/8ths!!",
     "description": "",
     "dispensary": "The Liv - Newington (Rec)",
     "platform": "dutchie"
@@ -1513,12 +1711,12 @@
   },
   {
     "title": "$25 - 1/8ths",
-    "description": "",
+    "description": "Shaka - Springtime - Awssom",
     "dispensary": "The Liv - Putnam (Rec)",
     "platform": "dutchie"
   },
   {
-    "title": "Mix & Match 1g Pre-rolls 4 for $18",
+    "title": "Magical Mondays  - 15% off all 1/8ths!!",
     "description": "",
     "dispensary": "The Liv - Putnam (Rec)",
     "platform": "dutchie"
@@ -1668,6 +1866,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "Saddle Bag Promo",
+    "description": "",
+    "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "20% Off Coast Products",
     "description": "",
     "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
@@ -1699,6 +1903,18 @@
   },
   {
     "title": "3 Loud 1g Carts for $100",
+    "description": "",
+    "dispensary": "Awwsom (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Soundview 20% off",
+    "description": "",
+    "dispensary": "Awwsom (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "2 Select 8ths for $50",
     "description": "",
     "dispensary": "Awwsom (Rec)",
     "platform": "dutchie"
@@ -1740,8 +1956,44 @@
     "platform": "dutchie"
   },
   {
-    "title": "Sunday Special - 20%",
-    "description": "“Sunday Special – 20% off the entire menu (excluding accessories).”",
+    "title": "Buy any four 3.5g (14g total) Flower and Get 30% off",
+    "description": "Mix and Match. \nDoes not stack with other offers. Limited time only. Ask an associate for details.\n\n**Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy any two 20ct Edibles and Get 20% off",
+    "description": "Does not stack with other offers. While supplies last. Ask an associate for details.\n\n*Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy two 0.5g, 1g or 2g Vapes and Get 30% off",
+    "description": "Does not stack with other offers. \nWhile supplies last. Ask an associate for details.\n\n*Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy any four 20ct Edibles and Get 30% off",
+    "description": "Does not stack with other offers. While supplies last. Ask an associate for details.\n\n*Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy four 1g or 2g Vapes and Get 40% off",
+    "description": "Does not stack with other offers. \nWhile supplies last. Ask an associate for details.\n\n*Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy any two 7g (14g total) flowers and Get 30% off",
+    "description": "Does not stack with other offers. \nWhile supplies last. Ask an associate for details.\n\n*Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
+    "dispensary": "Octane (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy two 1g or Packs of pre-rolls and Get 10% off",
+    "description": "Mix and Match. Does not stack with other offers. Limited time only. Ask an associate for details. \n**Website cart may not reflect the bundled price but it will be adjusted at time of payment.",
     "dispensary": "Octane (Rec)",
     "platform": "dutchie"
   },
@@ -1806,6 +2058,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "30% off Let's Burn",
+    "description": "Enjoy 30% off all Let's Burn products when you shop 4/27-5/3. While supplies stack, discounts do not stack.",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
     "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
     "dispensary": "Affinity - Bridgeport (Rec)",
@@ -1818,9 +2076,15 @@
     "platform": "dutchie"
   },
   {
-    "title": "20% off Earl Baker products",
-    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
+    "title": "30% off select CTPHARMA products",
+    "description": "Enjoy 30% off select CTPharma products when you shop 4/27-5/3. While supplies stack, discounts do not stack.",
     "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "20% OFF ENTIRE MENU | (offer ONLY valid 4/27)",
+    "description": "Limited time only - while supplies last. No stacking Items MUST be ordered & picked up or delivered on 4/27 to qualify for offer.",
+    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
@@ -1842,6 +2106,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "30% off Let's Burn",
+    "description": "Enjoy 30% off all Let's Burn products when you shop 4/27-5/3. While supplies stack, discounts do not stack.",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
     "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
     "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
     "dispensary": "Affinity - New Haven (Med)",
@@ -1854,8 +2124,14 @@
     "platform": "dutchie"
   },
   {
-    "title": "20% off Earl Baker products",
-    "description": "All Earl Baker products are 20% off when you shop 4/24-4/26! While supplies last. Discounts do not stack!",
+    "title": "20% OFF ENTIRE MENU | (offer ONLY valid 4/27)",
+    "description": "Limited time only - while supplies last. No stacking Items MUST be ordered & picked up or delivered on 4/27 to qualify for offer.",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "30% off select CTPHARMA products",
+    "description": "Enjoy 30% off select CTPharma products when you shop 4/27-5/3. While supplies stack, discounts do not stack.",
     "dispensary": "Affinity - New Haven (Med)",
     "platform": "dutchie"
   },
@@ -1866,32 +2142,32 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
-    "description": "Till 06:15 PM April 26",
-    "dispensary": "Curaleaf - Stamford",
-    "platform": "sweed"
-  },
-  {
     "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
     "description": "Till 06:15 PM May 31",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Rodeo Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off all:hours Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Encore Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Dogwalkers & Rythm Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Good Green Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Camino, Edie Parker, Happy Confection & Lighthouse!",
+    "description": "Till 06:15 PM May 3",
+    "dispensary": "Curaleaf - Stamford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off All Curaleaf, Find & Select Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
@@ -1902,20 +2178,20 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $20 Find Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "20% Off Grassroots, Jams & Zero Proof Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $25 Grassroots Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$25 Find Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
   {
-    "title": "$29.50 Select Elite 1g Vape Cartridges!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$30 Grassroots Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Stamford",
     "platform": "sweed"
   },
@@ -1950,32 +2226,32 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
-    "description": "Till 06:15 PM April 26",
-    "dispensary": "Curaleaf - Hartford",
-    "platform": "sweed"
-  },
-  {
     "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
     "description": "Till 06:15 PM May 31",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Rodeo Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off all:hours Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Encore Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Dogwalkers & Rythm Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Good Green Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Camino, Edie Parker, Happy Confection & Lighthouse!",
+    "description": "Till 06:15 PM May 3",
+    "dispensary": "Curaleaf - Hartford",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off All Curaleaf, Find & Select Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
@@ -1986,20 +2262,20 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $20 Find Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "20% Off Grassroots, Jams & Zero Proof Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $25 Grassroots Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$25 Find Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
   {
-    "title": "$29.50 Select Elite 1g Vape Cartridges!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$30 Grassroots Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Hartford",
     "platform": "sweed"
   },
@@ -2040,32 +2316,32 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
-    "description": "Till 06:15 PM April 26",
-    "dispensary": "Curaleaf - Groton",
-    "platform": "sweed"
-  },
-  {
     "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
     "description": "Till 06:15 PM May 31",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Rodeo Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off all:hours Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Encore Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Dogwalkers & Rythm Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Good Green Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Camino, Edie Parker, Happy Confection & Lighthouse!",
+    "description": "Till 06:15 PM May 3",
+    "dispensary": "Curaleaf - Groton",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off All Curaleaf, Find & Select Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
@@ -2076,20 +2352,20 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $20 Find Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "20% Off Grassroots, Jams & Zero Proof Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $25 Grassroots Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$25 Find Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
   {
-    "title": "$29.50 Select Elite 1g Vape Cartridges!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$30 Grassroots Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Groton",
     "platform": "sweed"
   },
@@ -2124,32 +2400,32 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! 35% Off CL, Find, GR, Jams, Select & Zero Proof!",
-    "description": "Till 06:15 PM April 26",
-    "dispensary": "Curaleaf - Manchester",
-    "platform": "sweed"
-  },
-  {
     "title": "30% Off All Briq 1.0 & 2.0 Vapes!",
     "description": "Till 06:15 PM May 31",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Rodeo Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off all:hours Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Encore Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Dogwalkers & Rythm Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
   {
-    "title": "25% Off Good Green Products!",
-    "description": "Till 06:15 PM April 26",
+    "title": "25% Off Camino, Edie Parker, Happy Confection & Lighthouse!",
+    "description": "Till 06:15 PM May 3",
+    "dispensary": "Curaleaf - Manchester",
+    "platform": "sweed"
+  },
+  {
+    "title": "25% Off All Curaleaf, Find & Select Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
@@ -2160,20 +2436,20 @@
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $20 Find Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "20% Off Grassroots, Jams & Zero Proof Products!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
   {
-    "title": "EXTENDED! $25 Grassroots Eighths!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$25 Find Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
   {
-    "title": "$29.50 Select Elite 1g Vape Cartridges!",
-    "description": "Till 06:15 PM April 26",
+    "title": "$30 Grassroots Eighths!",
+    "description": "Till 06:15 PM May 3",
     "dispensary": "Curaleaf - Manchester",
     "platform": "sweed"
   },
@@ -2208,15 +2484,39 @@
     "platform": "sweed"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Curaleaf Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - Bristol (Med)",
     "platform": "finefettle"
   },
   {
@@ -2238,19 +2538,25 @@
     "platform": "finefettle"
   },
   {
-    "title": "New Prices!",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Curaleaf Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Manchester (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -2268,13 +2574,25 @@
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Curaleaf Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Newington (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -2292,6 +2610,18 @@
     "platform": "finefettle"
   },
   {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Newington (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - Newington (Med)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Med)",
@@ -2310,13 +2640,25 @@
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Curaleaf Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Rec)",
     "platform": "finefettle"
@@ -2334,6 +2676,18 @@
     "platform": "finefettle"
   },
   {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - Norwalk (Med)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Med)",
@@ -2352,19 +2706,37 @@
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Curaleaf Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Gummies | 60% off",
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Old Saybrook (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Old Saybrook (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
     "platform": "finefettle"
@@ -2388,15 +2760,39 @@
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Curaleaf Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
@@ -2418,19 +2814,25 @@
     "platform": "finefettle"
   },
   {
-    "title": "New Prices!",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Curaleaf Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Waterbury (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Waterbury (Rec)",
     "platform": "finefettle"
@@ -2454,13 +2856,25 @@
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Curaleaf Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
     "platform": "finefettle"
@@ -2475,6 +2889,18 @@
     "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - West Hartford (Med)",
     "platform": "finefettle"
   },
   {
@@ -2496,15 +2922,39 @@
     "platform": "finefettle"
   },
   {
-    "title": "All Affinity Grow | 30% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Coast Cannabis Co. Gummies | 25% Off",
+    "title": "Curaleaf Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Grassroots Ounces | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 25% Off Theraplant!",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Med)",
+    "platform": "finefettle"
+  },
+  {
+    "title": "Med Mondays - 20% Off Everything!",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Med)",
     "platform": "finefettle"
   },
   {

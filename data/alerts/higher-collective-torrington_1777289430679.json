@@ -1,0 +1,44 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Guap RSO Tangie Crush",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Guap RSO Tangie Crush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "College Park",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - College Park"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gelato Runtz Spark - Quiet Times",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Gelato Runtz Spark - Quiet Times"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mellow Mango 1:1:1 THC:CBD:CBN",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Mellow Mango 1:1:1 THC:CBD:CBN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Jokerz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kronic 47",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Kronic 47"
+  }
+]

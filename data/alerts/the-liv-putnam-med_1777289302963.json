@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "TheraPlant 3.5g Pinyatti 41684",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - TheraPlant 3.5g Pinyatti 41684 $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Roll 1.0g Jet Fuel 00066",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Roll 1.0g Jet Fuel 00066"
+  }
+]

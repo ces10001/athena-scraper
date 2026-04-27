@@ -1,0 +1,128 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "BUDR High Octane 2g AIO Vape 41675",
+    "brand": "Budr",
+    "message": "New: Budr - BUDR High Octane 2g AIO Vape 41675 $99.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "BUDR Roll 2g AIO Vape 41674",
+    "brand": "Budr",
+    "message": "New: Budr - BUDR Roll 2g AIO Vape 41674 $99.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BUDR Sweet Tooth 2g AIO Vape 41672",
+    "brand": "Budr",
+    "message": "Budr BUDR Sweet Tooth 2g AIO Vape 41672: $89.10 > $99.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "BUDR Berry Bonbon 2g AIO Vape 41673",
+    "brand": "Budr",
+    "message": "Budr BUDR Berry Bonbon 2g AIO Vape 41673: $89.10 > $99.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.3",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Dogwalkers 5 Pack Minis Swamp Water Fumez (H) 01405Dogwalkers5 Pack Mini Dogs(.3: $27.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Nimbus Snacks 1g Pre-Roll S 27009",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Nimbus Snacks 1g Pre-Roll S 27009: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Flavor Series 510 1g Sofa Sonata (I) 01629",
+    "brand": "SelectFlavor Series",
+    "message": "SelectFlavor Series Select Flavor Series 510 1g Sofa Sonata (I) 01629: $54.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Brix Cannabis Jungle Cake Whole Flower 3.5g (H) 00484: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "LB Panama Red .5g Rechargeable 00099",
+    "brand": "Lucky Break",
+    "message": "Lucky Break LB Panama Red .5g Rechargeable 00099: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EARLy Birds | Mega Lemon Goop 022",
+    "brand": "Pack",
+    "message": "Pack EARLy Birds | Mega Lemon Goop 022: $32.40 > $36.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "AGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillat",
+    "brand": "AGL",
+    "message": "AGL AGL 1g Vape Fantasy Melonz x Vel Croz (H) 01393Advanced Grow Labs (AGL)Distillat: $45.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry Cndy 2g Fatboy 41775",
+    "brand": "Theraplant",
+    "message": "Theraplant Strawberry Cndy 2g Fatboy 41775: $31.50 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Sherb 1g Pure Vape T884 H 27017",
+    "brand": "CTPharma",
+    "message": "CTPharma Blue Sherb 1g Pure Vape T884 H 27017: $53.10 > $59.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per",
+    "brand": "Brix Cannabis",
+    "message": "Brix Cannabis Chem 91 0.5g 5pk Pre Rolls (S) 00507Brix Cannabis5 Pack Pre Rolls(.5g / 2.5g per: $28.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Colorado Flo (Aniva) 1oz 41596",
+    "brand": "Theraplant",
+    "message": "Theraplant Colorado Flo (Aniva) 1oz 41596: $162.00 > $180.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Widow .5g Rechargeable 0098",
+    "brand": "Lucky Break",
+    "message": "Lucky Break White Widow .5g Rechargeable 0098: $34.20 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Lemon Cherry Sherb 1g Pre-Roll H 26886: $12.60 > $14.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rythm 7g Small Flower Gazzurple (S) 01389",
+    "brand": "RYTHM",
+    "message": "RYTHM Rythm 7g Small Flower Gazzurple (S) 01389: $58.50 > $65.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grassroots Preroll 5 Pack 2g Floral Frost (H) 01662 TC 33.532%GrassrootsShorties",
+    "brand": "Pack",
+    "message": "Pack Grassroots Preroll 5 Pack 2g Floral Frost (H) 01662 TC 33.532%GrassrootsShorties: $22.50 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "EARLy Birds | Infinity Grapes 023",
+    "brand": "Pack",
+    "message": "Pack EARLy Birds | Infinity Grapes 023: $32.40 > $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "BUDR Roll 2g AIO Vape 41674",
+    "brand": "Budr",
+    "message": "Gone: Budr - BUDR Roll 2g AIO Vape 41674"
+  }
+]

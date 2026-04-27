@@ -1,0 +1,44 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Comffy|PreRoll 1g|Couch Surfer 00146",
+    "brand": "Comffy",
+    "message": "New: Comffy - Comffy|PreRoll 1g|Couch Surfer 00146 $11.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Banapple Medellin 7g 41194",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Banapple Medellin 7g 41194 $71.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zone Pre-Pack 7g H4G-S-9 00097",
+    "brand": "Zone",
+    "message": "Gone: Zone - Zone Pre-Pack 7g H4G-S-9 00097"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Earl Baker - Whole Flower - Gouda Gas 089",
+    "brand": "Earl Baker",
+    "message": "Gone: Earl Baker - Earl Baker - Whole Flower - Gouda Gas 089"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Pack 3.5g CIG 00076",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Pack 3.5g CIG 00076"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Comffy|PreRoll 1g|Couch Surfer 00110",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Comffy|PreRoll 1g|Couch Surfer 00110"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin 7g 41228",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin 7g 41228"
+  }
+]

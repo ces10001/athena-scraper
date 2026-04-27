@@ -1,0 +1,116 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Mac Stomper 0.5g LT Vape T400 I 00910",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Mac Stomper 0.5g LT Vape T400 I 00910 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite All In One .3g Moonburst (H) 01394",
+    "brand": "Select",
+    "message": "New: Select - Select Elite All In One .3g Moonburst (H) 01394 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Elite Cartridge .5g LA Kush C (H) 01388",
+    "brand": "Select",
+    "message": "New: Select - Select Elite Cartridge .5g LA Kush C (H) 01388 $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Yellow Haze OG 1g Pure Vape T851 S 27023",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Yellow Haze OG 1g Pure Vape T851 S 27023 $37.17"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Moonburst (H) 01485",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Moonburst (H) 01485 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Select Flavor Series 510 1g Mango Puff (I) 01501",
+    "brand": "Select",
+    "message": "New: Select - Select Flavor Series 510 1g Mango Puff (I) 01501 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Peppermint Lucky Spritz 0060 $27.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Modified Haze Bold T446 H 26857",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Modified Haze Bold T446 H 26857 $21.25"
+  },
+  {
+    "type": "new_product",
+    "product_name": "JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01401",
+    "brand": "JAMS",
+    "message": "New: JAMS - JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01401 $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG Skunk Pure Vape T434 H 26430",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GG Skunk Pure Vape T434 H 26430 $23.63"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Durban Stardawg 1g Pure Vape T862 H 27024",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Durban Stardawg 1g Pure Vape T862 H 27024 $37.17"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Legacy - Fast Times 2g-5pk Mini Pre-Rolls 41783",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Durban Legacy - Fast Times 2g-5pk Mini Pre-Rolls 41783"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Delight Flower T28.38% S 00868",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Lemon Delight Flower T28.38% S 00868"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Sunrise 1g Pre Roll (S) 00551",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Mystic Sunrise 1g Pre Roll (S) 00551"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Mystic Mint (I) 01302",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 1g Pre Roll Mystic Mint (I) 01302"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Scout Breath - CTP THCA Infused Pre-Roll I 26884",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Scout Breath - CTP THCA Infused Pre-Roll I 26884"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies T97.8mg H 00194",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - SoundView Fast-Acting Black Cherry Gummies T97.8mg H 00194"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Yellow Haze OG Disposable T257 S 26610",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Yellow Haze OG Disposable T257 S 26610"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Dark Heart Collection Preroll 5 Pack 2g Zesty Garlic Kookyz (I) 01156 TC 27.967%"
+  }
+]

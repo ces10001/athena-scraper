@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Triple Stack 5 Pack Pre Rolls T31.13 (3-01604)",
+    "brand": "Cura",
+    "message": "New: Cura - Triple Stack 5 Pack Pre Rolls T31.13 (3-01604) $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst Briq 2 Rechargeable Disposable Vape T91.47 (3-01642)",
+    "brand": "Select",
+    "message": "New: Select - Moonburst Briq 2 Rechargeable Disposable Vape T91.47 (3-01642) $134.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel Flower T33.78 (4-41241)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel Flower T33.78 (4-41241)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Jellies Sour Strawberry Lemonade Gummies T4.91 20pk (3-01216)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Fast Acting Jellies Sour Strawberry Lemonade Gummies T4.91 20pk (3-01216)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Hour Flower T21.29 (14-00192)",
+    "brand": "Comffy",
+    "message": "Gone: Comffy - Golden Hour Flower T21.29 (14-00192)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cabon FBR Single Pre Roll T23.35 (4-41727)",
+    "brand": "Thera",
+    "message": "Gone: Thera - Cabon FBR Single Pre Roll T23.35 (4-41727)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Lemonade Gummies T85.4 20pk (10-00428)",
+    "brand": "BRX",
+    "message": "Gone: BRX - Mango Lemonade Gummies T85.4 20pk (10-00428)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sun Grown Snow C. Single Pre Roll T25.95 (7-00329)",
+    "brand": "Rodeo",
+    "message": "Gone: Rodeo - Sun Grown Snow C. Single Pre Roll T25.95 (7-00329)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Permanent Funk Single Pre-Roll T26.76 (10-00455)",
+    "brand": "BRX",
+    "message": "Gone: BRX - Permanent Funk Single Pre-Roll T26.76 (10-00455)"
+  }
+]

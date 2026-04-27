@@ -1,0 +1,104 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Sugar Plum Gummies (H) - 00181",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Sugar Plum Gummies (H) - 00181: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Mango 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Mango 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Peanut Butter Pretzel Milk Chocolate Bar - 00213",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Peanut Butter Pretzel Milk Chocolate Bar - 00213: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Watermelon Sherbet Live Resin Vape 1g (H) - 00214",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Watermelon Sherbet Live Resin Vape 1g (H) - 00214: $70.00 > $56.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Raspberry Lime 5:1 CBD Gummies 00126",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Raspberry Lime 5:1 CBD Gummies 00126: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Mellow Mango 1:1:1 Gummies (THC:CBD:CBN) - 00203",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Mellow Mango 1:1:1 Gummies (THC:CBD:CBN) - 00203: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Live Resin Pink Lemonade Gummies (S) - 00199",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Live Resin Pink Lemonade Gummies (S) - 00199: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Strawberry Kiwi Seltzer 3mg THC 3mg CBD 3mg CBG - 12 Oz Single Can",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Strawberry Kiwi Seltzer 3mg THC 3mg CBD 3mg CBG - 12 Oz Single Can: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Soundview Blood Orange 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can",
+    "brand": "SoundView",
+    "message": "SoundView Soundview Blood Orange 12 oz THC Seltzer 3mg THC 3mg CBD 3mg CBG - Single Can: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Live Resin Watermelon 1:1:1 (THC:CBD:CBG) Gummies 00136",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Live Resin Watermelon 1:1:1 (THC:CBD:CBG) Gummies 00136: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Fast-Acting Black Cherry Gummies (H) - 00194",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Fast-Acting Black Cherry Gummies (H) - 00194: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Cookies & Cream White Chocolate Bar - 00185",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Cookies & Cream White Chocolate Bar - 00185: $28.00 > $22.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Peach RSO Gummies - 00205",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Peach RSO Gummies - 00205: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView - Gasolina 1g Live Resin Disposable Vape (S) - 00200",
+    "brand": "SoundView",
+    "message": "SoundView SoundView - Gasolina 1g Live Resin Disposable Vape (S) - 00200: $70.00 > $56.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Shaka Pre-Pack 3.5g Guava Tart (GAT) 00074",
+    "brand": "Shaka",
+    "message": "Gone: Shaka - Shaka Pre-Pack 3.5g Guava Tart (GAT) 00074"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hazy Fields Bold Vape (S) - 26676",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Hazy Fields Bold Vape (S) - 26676"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Face PR Minis (H) - 41707",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gas Face PR Minis (H) - 41707"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Soap Mintz",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Soap Mintz $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mac Stomper Live Terpene",
+    "brand": "Affinity",
+    "message": "New: Affinity - Mac Stomper Live Terpene $21.70"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Animal Face",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Animal Face"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Express Live Resin",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Pineapple Express Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fantasy Melonz Pre-Roll Minis",
+    "brand": "AGL",
+    "message": "Gone: AGL - Fantasy Melonz Pre-Roll Minis"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Burger Solventless Hash Rosin",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Banapple Burger Solventless Hash Rosin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Candy",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Strawberry Candy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Elite SC",
+    "brand": "Select",
+    "message": "Gone: Select - Elite SC"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunny Stomper",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Sunny Stomper"
+  }
+]

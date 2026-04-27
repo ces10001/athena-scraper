@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Orange Sunshine Infused",
+    "brand": "Affinity",
+    "message": "New: Affinity - Orange Sunshine Infused $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Star Killer x CDLC",
+    "brand": "Affinity",
+    "message": "New: Affinity - Star Killer x CDLC $9.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Capy",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Capy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LA Kush Cake",
+    "brand": "comffy",
+    "message": "Gone: comffy - LA Kush Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Deadhead OG",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Deadhead OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Fast Acting Watermelon Lime Lucky",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Fast Acting Watermelon Lime Lucky"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Z Cake LT",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Z Cake LT"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Big Dog Grape Bubble",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Big Dog Grape Bubble"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "College Park",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - College Park"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - 10G's"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Elite Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Elite Tahoe OG"
+  }
+]

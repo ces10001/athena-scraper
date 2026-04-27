@@ -1,0 +1,320 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Capy (H) Flower",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy (H) Flower: $27.30 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nuclear Mfns (H) Flower",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns (H) Flower: $140.00 > $105.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mr. E Pupil (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Mr. E Pupil (S) Flower: $140.00 > $105.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pomme Jelly (S) Flower",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Pomme Jelly (S) Flower: $150.00 > $112.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Alien OG (H) Infused Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g): $19.60 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Animal Face (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Animal Face (I) 1g Pre-Roll 1pk (1g): $25.00 > $15.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Capy (H) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy (H) 0.7g Pre-Rolls 3pk (2.1g): $22.40 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonburst (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Moonburst (H) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banana Cream Cayk (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Banana Cream Cayk (H) Flavor Series Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Joocy Froot (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Joocy Froot (H) Flavor Series Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonburst (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Moonburst (H) Flavor Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Z (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Sour Z (S) Legacy Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Z (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Sour Z (S) Legacy Series Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GASolotti (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select GASolotti (S) Legacy Series Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orange Kookyz (S) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Orange Kookyz (S) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mango Puff (I) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Mango Puff (I) Flavor Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO (H) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select GMO (H) Legacy Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Golden Tangie (S) Flavor Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GASolotti (S) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select GASolotti (S) Legacy Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Golden Tangie (S) BRIQ Flavor Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select Golden Tangie (S) BRIQ Flavor Series Disposable Vape (2g): $110.00 > $82.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GASolotti (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select GASolotti (S) BRIQ Legacy Series Disposable Vape (1g): $66.00 > $49.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Z (S) BRIQ Legacy Series Disposable Vape (1g)",
+    "brand": "Select",
+    "message": "Select Sour Z (S) BRIQ Legacy Series Disposable Vape (1g): $66.00 > $49.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banana Cream Cayk (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Banana Cream Cayk (H) Flavor Series Vape Cartridge: $55.00 > $41.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tahoe OG (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Tahoe OG (I) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO (H) BRIQ Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select GMO (H) BRIQ Disposable Vape (2g): $110.00 > $82.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sundae Slumber (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Sundae Slumber (I) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Moonburst (H) Elite Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Moonburst (H) Elite Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Select Golden Tangie (S) Flavor Series Vape Cartridge: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Joocy Froot (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Joocy Froot (H) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g)",
+    "brand": "Select",
+    "message": "Select Couch Kush (H) BRIQ Legacy Series Disposable Vape (2g): $125.00 > $93.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dosido (I) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "Select Dosido (I) Elite All In One (0.3g): $24.00 > $18.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Wildberry (I) Gummies (4.58mg 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Coast Cannabis Co. Wildberry (I) Gummies (4.58mg 20pk): $18.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Coast Cannabis Co. Peach (I) Gummies (1.04mg THC 18.25mg CBD 20pk): $21.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk)",
+    "brand": "SoundView",
+    "message": "SoundView BlueZZZberry (I) Gummies (4.73mg THC 25.37mg CBN 20pk): $36.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Coast Cannabis Co. Cherry (I) Gummies (4.72mg THC 10.4mg CBD 20pk): $21.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk)",
+    "brand": "SoundView",
+    "message": "SoundView Watermelon (H) Live Resin Gummies (4.93mg THC 5.12mg CBD 4.99mg CBG 20pk): $34.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wintergreen (H) Mints (2.38mg 40pk)",
+    "brand": "SoundView",
+    "message": "SoundView Wintergreen (H) Mints (2.38mg 40pk): $36.00 > $27.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk)",
+    "brand": "SoundView",
+    "message": "SoundView Mixed Berry (I) Mints (2.3mg THC 1.24mg CBN 40pk): $36.00 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tangerine (S) Gummies (4.82mg THC 4.9mg CBD 5.03mg CBG 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Coast Cannabis Co. Tangerine (S) Gummies (4.82mg THC 4.9mg CBD 5.03mg CBG 20pk): $21.00 > $28.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - B Scout (I) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ghost White (I) THCA Infused Pre-Roll 1pk (1g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Ghost White (I) THCA Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Cherry Maui Wowie (S) 0.35g Pre-Rolls 5pk (1.75g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout (I) 0.35g Pre-Rolls 5pk (1.75g)",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - B Scout (I) 0.35g Pre-Rolls 5pk (1.75g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Durban Legacy (S) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry Marker (H) Infused Blunt 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry Marker (H) Infused Blunt 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Triple Stack (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gas Face (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Gas Face (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple (I) 0.7g Pre-Rolls 3pk (2.1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "White Hot Guava (H) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - White Hot Guava (H) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Sunset Kush (I) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg (H) BH Infused Pre-Roll 1pk (1g)",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg (H) BH Infused Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gush Mintz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Gush Mintz (I) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)"
+  }
+]

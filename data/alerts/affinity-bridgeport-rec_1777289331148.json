@@ -1,0 +1,266 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn CT Kush Cake 3.5g 0038 (H) (3.5g) (Let's Burn)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Kush Cake 3.5g 0038 (H) (3.5g) (Let's Burn): $48.00 > $33.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Peach Diesel 0104 (S) (3.5g)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Peach Diesel 0104 (S) (3.5g): $46.40 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 7g Blue Gas I 26866 (7g)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 7g Blue Gas I 26866 (7g): $65.00 > $45.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Next level 0108(3.5g)(H)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Next level 0108(3.5g)(H): $46.40 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 7g Nimbus Snacks S 26992 (7g)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 7g Nimbus Snacks S 26992 (7g): $65.00 > $45.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Hyphen AIO 2g Haze Berry T1687 S 26786 (S)(2g Disp)(CTPharma)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Hyphen AIO 2g Haze Berry T1687 S 26786 (S)(2g Disp)(CTPharma): $119.00 > $83.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 14g Mendo Wedding I 26916 (14g)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 14g Mendo Wedding I 26916 (14g): $109.00 > $76.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND 7g Heir Heads H 27034 (7g)(H)(Grind)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy GRND 7g Heir Heads H 27034 (7g)(H)(Grind): $50.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945 (1pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945 (1pk): $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Mendo Wedding Disposable T247 I 26842 (0.3gDisp)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Mendo Wedding Disposable T247 I 26842 (0.3gDisp): $36.00 > $25.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Kush Tang Disposable T257 S 26995 (0.3g Disp)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Kush Tang Disposable T257 S 26995 (0.3g Disp): $36.00 > $25.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker-Whole Flower-Rs1000 0096 (H)(3.5g)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker-Whole Flower-Rs1000 0096 (H)(3.5g): $46.40 > $58.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Super Silver Grapefruit 0105 (S) (3.5g)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Super Silver Grapefruit 0105 (S) (3.5g): $46.40 > $58.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Yeet 3.5g 0020 (H) (3.5g)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Yeet 3.5g 0020 (H) (3.5g): $44.00 > $30.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks Live Rosin Sour Apricot Apple Gummies T95.4mg H 26870 (H) (10pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma On The Rocks Live Rosin Sour Apricot Apple Gummies T95.4mg H 26870 (H) (10pk): $35.00 > $24.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy E85 1g Pre-Roll S 26827 (S)(1pk)(CTCPharma)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy E85 1g Pre-Roll S 26827 (S)(1pk)(CTCPharma): $16.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn CT Rainbows 1g PR 0016 (H) (1pk)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn CT Rainbows 1g PR 0016 (H) (1pk): $12.00 > $8.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958 (1pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958 (1pk): $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Berry Drip I 27040 (1pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Guap RSO Berry Drip I 27040 (1pk): $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Zuava 1g Pre-Roll H 26973 (1g)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Zuava 1g Pre-Roll H 26973 (1g): $16.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Tasty Jane 1g Pre-Roll I 26470 (1pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Tasty Jane 1g Pre-Roll I 26470 (1pk): $16.00 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 28g Stomper Kush I 26871 (28g)(I)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 28g Stomper Kush I 26871 (28g)(I): $190.00 > $133.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 28g Applescotti I 26932 (28g)(I)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 28g Applescotti I 26932 (28g)(I): $190.00 > $133.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 14g Super Lemon G S 26930 (14g)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Smalls 14g Super Lemon G S 26930 (14g): $109.00 > $76.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Jokerz 1g Pre-Roll H 26885 (1pk)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Jokerz 1g Pre-Roll H 26885 (1pk): $12.80 > $11.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Hyphen AIO 2g Red Pop T1542 I 26782 (2g Disp)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Hyphen AIO 2g Red Pop T1542 I 26782 (2g Disp): $119.00 > $83.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Tangie Crush S 27041 (1pk)(S)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Guap RSO Tangie Crush S 27041 (1pk)(S): $10.00 > $7.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND 7g Pinyatti S 26889 (7g Grind)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy GRND 7g Pinyatti S 26889 (7g Grind): $50.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND 7g Blue Andeze I 26994 (7g) (Grind)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy GRND 7g Blue Andeze I 26994 (7g) (Grind): $50.00 > $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Flower 28g Heir Heads H 27008 (28g) (CTpharma)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Flower 28g Heir Heads H 27008 (28g) (CTpharma): $190.00 > $133.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Flower 14g Sour Fire OG H 27012(14g)(H)",
+    "brand": "CTPharma",
+    "message": "CTPharma Savvy Flower 14g Sour Fire OG H 27012(14g)(H): $109.00 > $76.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks - Zuava Live Rosin AIO 1g T811 H 26710 (1g Disp)",
+    "brand": "CTPharma",
+    "message": "CTPharma On The Rocks - Zuava Live Rosin AIO 1g T811 H 26710 (1g Disp): $79.00 > $55.30"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Let's Burn Hi Life 3.5g 0043 (H) (3.5g)",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Let's Burn Hi Life 3.5g 0043 (H) (3.5g): $44.00 > $30.80"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower -Suga T's 0102 (H)(3.5g)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower -Suga T's 0102 (H)(3.5g): $38.40 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Earl Baker - Whole Flower - Dantes Fire 0110 (I)(3.5g)",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Dantes Fire 0110 (I)(3.5g): $46.40 > $58.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "MF-107 Flower T27.83% S 00837 (3.5g)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - MF-107 Flower T27.83% S 00837 (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Skunk Flower T27.43% S 00883 (3.5)(Affinity Grow)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Lemon Skunk Flower T27.43% S 00883 (3.5)(Affinity Grow)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR 1oz 41719 (H) (28g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR 1oz 41719 (H) (28g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy GRND 7g Red Gary H 26956 (7g Grind)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Savvy GRND 7g Red Gary H 26956 (7g Grind)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Smalls 7g E85 S 26914 (7g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Savvy Smalls 7g E85 S 26914 (7g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite All In One .3g Purple Urkel (I) 00924 (0.3g Disp)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Select Elite All In One .3g Purple Urkel (I) 00924 (0.3g Disp)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "PB Breath Infused Lil' Ricky's T37.80% H 00917 (3pk)",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - PB Breath Infused Lil' Ricky's T37.80% H 00917 (3pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Blue Dream 3.5g 0042 (S) (3.5g) (Let's Burn)",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Blue Dream 3.5g 0042 (S) (3.5g) (Let's Burn)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Elite All In One .3g Sundae Slumber (I) 01292 (0.3g Disp)",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Select Elite All In One .3g Sundae Slumber (I) 01292 (0.3g Disp)"
+  }
+]

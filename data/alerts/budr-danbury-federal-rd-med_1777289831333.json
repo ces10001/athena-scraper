@@ -1,0 +1,122 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chew RSO Rainbow Rush Gummies S 00922: $28.80 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Select Cliq Elite Pod .5g Durban Poison (S) 00944",
+    "brand": "Select",
+    "message": "Select Select Cliq Elite Pod .5g Durban Poison (S) 00944: $36.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "RC Airo Pod Rainbow Haze Vape 86.66% S 00280 0.5gAiro BrandsAiroPod Liquid Diamo",
+    "brand": "Airo Brands",
+    "message": "Airo Brands RC Airo Pod Rainbow Haze Vape 86.66% S 00280 0.5gAiro BrandsAiroPod Liquid Diamo: $40.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SEL Cliq Pod NYC Diesel 85.68% H 00813 0.5",
+    "brand": "gSelect",
+    "message": "gSelect SEL Cliq Pod NYC Diesel 85.68% H 00813 0.5: $36.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "RC Airo Pod Dutch Dragon 83.91% S 00286 .5gAiro BrandsAiroPod Live Resin Series(",
+    "brand": "Airo Brands",
+    "message": "Airo Brands RC Airo Pod Dutch Dragon 83.91% S 00286 .5gAiro BrandsAiroPod Live Resin Series(: $40.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "RC Airo Pod G41 Vape 83.38% 00278 H 0.5gAiro BrandsAiroPod Live Resin Series(.5G",
+    "brand": "Airo Brands",
+    "message": "Airo Brands RC Airo Pod G41 Vape 83.38% 00278 H 0.5gAiro BrandsAiroPod Live Resin Series(.5G: $40.50 > $45.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SEL Cliq Pod Purple Urkle 87.01% I 00757 0.5",
+    "brand": "gSelect",
+    "message": "gSelect SEL Cliq Pod Purple Urkle 87.01% I 00757 0.5: $36.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC 3mg CBG 12",
+    "brand": "ozBudrHemp",
+    "message": "ozBudrHemp Budr Lime Mint Elderflower Hemp-Derived Seltzer 3mg THC 3mg CBG 12: $5.40 > $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "SV Strawberry Kiwi Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "Derived SV Strawberry Kiwi Seltzer Hemp-: $5.40 > $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "/3mg",
+    "brand": "Derived",
+    "message": "New: Derived - /3mg $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "CANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-",
+    "brand": "Derived",
+    "message": "Derived CANN Lemon Lavender Hemp-Derived Beverage (3mg THC / 6mg CBD) 12ozCannHemp-: $5.40 > $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Blood Orange Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "New: Derived - SV Blood Orange Seltzer Hemp- $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Lemon Lime 12",
+    "brand": "oz THC",
+    "message": "New: oz THC - SV Lemon Lime 12 $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Watermelon Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "New: Derived - SV Watermelon Seltzer Hemp- $6.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "SV Mango Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "New: Derived - SV Mango Seltzer Hemp- $6.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": ") 12ozFloat HouseDrink(EACH)6mg CBD/3mg",
+    "brand": "Derived",
+    "message": "Derived ) 12ozFloat HouseDrink(EACH)6mg CBD/3mg: $5.40 > $6.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Watermelon Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "Gone: Derived - SV Watermelon Seltzer Hemp-"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "/3mg",
+    "brand": "Derived",
+    "message": "Gone: Derived - /3mg"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Lemon Lime 12",
+    "brand": "oz THC",
+    "message": "Gone: oz THC - SV Lemon Lime 12"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "SV Blood Orange Seltzer Hemp-",
+    "brand": "Derived",
+    "message": "Gone: Derived - SV Blood Orange Seltzer Hemp-"
+  }
+]

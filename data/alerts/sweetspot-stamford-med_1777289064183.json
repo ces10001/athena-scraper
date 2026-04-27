@@ -1,0 +1,152 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Orange Cookiez (I) C0170000039",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Orange Cookiez (I) C0170000039 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Mango Puff (I) C0170000036",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Mango Puff (I) C0170000036 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Golden Tangie (S) C0170000038",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Golden Tangie (S) C0170000038 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Super Charger 41765",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Super Charger 41765 $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Loud Cannabis Clementine (S) C0170000037",
+    "brand": "Loud",
+    "message": "New: Loud - Loud Cannabis Clementine (S) C0170000037 $50.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack WPH 00098",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack WPH 00098 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack POG 00102",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack POG 00102 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack H4G-S-9 00097",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack H4G-S-9 00097 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone Pre-Pack BNC-S-20 00105",
+    "brand": "Zone",
+    "message": "New: Zone - Zone Pre-Pack BNC-S-20 00105 $60.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zone  Pre-Pack CIG 00090",
+    "brand": "Zone",
+    "message": "New: Zone - Zone  Pre-Pack CIG 00090 $90.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack WPH 00100",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack WPH 00100 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack GGP 00083",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack GGP 00083 $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Springtime Pre-Pack D11 00091",
+    "brand": "Springtime",
+    "message": "New: Springtime - Springtime Pre-Pack D11 00091 $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll GRA 00095",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll GRA 00095 $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Shaka Pre-Roll GAT 00086",
+    "brand": "Shaka",
+    "message": "New: Shaka - Shaka Pre-Roll GAT 00086 $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tear Gas Infused Lil' Ricky's T31.17% I 00908",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Tear Gas Infused Lil' Ricky's T31.17% I 00908"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 300mg Pen Regina Gorgeous (H) 01416",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 300mg Pen Regina Gorgeous (H) 01416"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Lemon Glue Disposable T257 I 26740",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Lemon Glue Disposable T257 I 26740"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Blue Dream Pre-roll 0047",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Blue Dream Pre-roll 0047"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jealousy Whole Flower (H) 00512",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Jealousy Whole Flower (H) 00512"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Rodeo Sun Grown GrapeGas (I) Preroll (C0070000240)",
+    "brand": "Rodeo Cannabis",
+    "message": "Gone: Rodeo Cannabis - Rodeo Sun Grown GrapeGas (I) Preroll (C0070000240)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Hybrid Limoncello 00429",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana Quick Hybrid Limoncello 00429"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Lobster Flower T27.07% I 00857",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Blue Lobster Flower T27.07% I 00857"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flying Corgi Lemonade 3MG",
+    "brand": "Corgi",
+    "message": "Gone: Corgi - Flying Corgi Lemonade 3MG"
+  }
+]

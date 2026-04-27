@@ -1,0 +1,122 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Earl Baker - Whole Flower .5g x 2 Preroll - Cold Spell 020",
+    "brand": "Earl Baker",
+    "message": "New: Earl Baker - Earl Baker - Whole Flower .5g x 2 Preroll - Cold Spell 020 $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Rythm 1g LEAF Live Sauce Pen Rainbow Zelato (I) 01318 $55.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy Strut AIO 2g Golden Tangie T1716 S 26935",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy Strut AIO 2g Golden Tangie T1716 S 26935"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Lobster Flower T27.07% I 00857",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Blue Lobster Flower T27.07% I 00857"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn Hash Burger 3.5g 0013",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn Hash Burger 3.5g 0013"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "C-Stata Whole Flower 3.5g (H) 00509",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - C-Stata Whole Flower 3.5g (H) 00509"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Coconut Milk Flower T29.49% I 00794",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Coconut Milk Flower T29.49% I 00794"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz Shorties I 26838",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Jokerz Shorties I 26838"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Red Gary Flower H 26800",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Red Gary Flower H 26800"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Indica Island Punch Fast-Acting Gummies 00374",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana Quick Indica Island Punch Fast-Acting Gummies 00374"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Encore Grape RSO Gummies T94.8mg I 26923",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Encore Grape RSO Gummies T94.8mg I 26923"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Wild Berry Cannabis-Infused Gummies 00396",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Wild Berry Cannabis-Infused Gummies 00396"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Rainbow Rush Gummies S 00922",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Chew RSO Rainbow Rush Gummies S 00922"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana SPLT MT 41738",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banana SPLT MT 41738"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Maple Pre-Rolls T28.59% I 00885",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Black Maple Pre-Rolls T28.59% I 00885"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Stardawg THCA Infused Pre-Roll H 26846",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Durban Stardawg THCA Infused Pre-Roll H 26846"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wana Quick Hybrid Limoncello Fast-Acting Gummies 00331",
+    "brand": "Wana",
+    "message": "Gone: Wana - Wana Quick Hybrid Limoncello Fast-Acting Gummies 00331"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448",
+    "brand": "Camino",
+    "message": "Gone: Camino - Camino Sours-Blackberry Dream with CBN & CBD 10:10:10 Cannabis-Infused Vegan Gummies-00448"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cann - Blood Orange Cardamom 12oz (3mg THC 6mg CBD)",
+    "brand": "Cann",
+    "message": "Gone: Cann - Cann - Blood Orange Cardamom 12oz (3mg THC 6mg CBD)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Pack 3.5g SZO 00073",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Pack 3.5g SZO 00073"
+  }
+]

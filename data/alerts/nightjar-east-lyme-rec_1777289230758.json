@@ -1,0 +1,632 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Rythm | Lemon Drip 3.5g | 01243",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | Rythm | Lemon Drip 3.5g | 01243: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Rythm | Creamsicle Sunset 14g | 01146",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | Rythm | Creamsicle Sunset 14g | 01146: $78.40 > $98.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vape Cart | Animal Face x Purple Tyde 1g | 01391",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Vape Cart | Animal Face x Purple Tyde 1g | 01391: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Good Green | Bubba F 3.5g | 01377",
+    "brand": "Good Green",
+    "message": "Good Green Flower | Good Green | Bubba F 3.5g | 01377: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | Good Green | Chkn n WflZ 3.5g | 01277",
+    "brand": "Good Green",
+    "message": "Good Green Flower | Good Green | Chkn n WflZ 3.5g | 01277: $28.00 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vape Cart | Do Not Trip 0.5g | 01443",
+    "brand": "RYTHM",
+    "message": "RYTHM Vape Cart | Do Not Trip 0.5g | 01443: $24.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Disposable | B Scout x LA Kush CKE 0.3g | 01396",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | B Scout x LA Kush CKE 0.3g | 01396: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vape Cart | Regina Gorgeous x Jet Fuel 1g | 01376",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Vape Cart | Regina Gorgeous x Jet Fuel 1g | 01376: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vape Cart | Fantasy Melonz x Vel Croz 1g | 01393",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Vape Cart | Fantasy Melonz x Vel Croz 1g | 01393: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Vape Cart | Lemon Drip x Sour D 1g | 01395",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Vape Cart | Lemon Drip x Sour D 1g | 01395: $40.00 > $50.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Tangerine 5:5:5 (CBG:CBD:THC) 20pk | 00388: $26.40 > $33.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Disposable | Durban Z 0.3g | 01407",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | Durban Z 0.3g | 01407: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Disposable | Creamsicle Sunset 0.3g | 01406",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Disposable | Creamsicle Sunset 0.3g | 01406: $17.60 > $22.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228",
+    "brand": "Advanced Grow Labs",
+    "message": "Advanced Grow Labs Pre-Roll Pack | Regina Gorgeous 5 Pack Minis | 01228: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Flower | RYTHM | Grape Bubble G 3.5g | 01198",
+    "brand": "RYTHM",
+    "message": "RYTHM Flower | RYTHM | Grape Bubble G 3.5g | 01198: $32.00 > $40.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gummies | Peach 20:1 (CBD:THC) | 20pk | 00376",
+    "brand": "COAST Cannabis Co.",
+    "message": "COAST Cannabis Co. Gummies | Peach 20:1 (CBD:THC) | 20pk | 00376: $26.40 > $33.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - Gummies | Rainbow Parade THC:CBD:CBG | 20ct | 00482"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370",
+    "brand": "The Happy Confection™️",
+    "message": "Gone: The Happy Confection™️ - Gummies | Coasting Cherry Punch THC/CBD/CBG | 20ct | 00370"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Small Flower | Soap Lil' Budz 7g | 00374",
+    "brand": "Brix",
+    "message": "Gone: Brix - Small Flower | Soap Lil' Budz 7g | 00374"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre Roll | Gelato Rntz Spark 0.4g | 41787",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Pre Roll | Gelato Rntz Spark 0.4g | 41787"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Space Batter 1g | 00407",
+    "brand": "Brix",
+    "message": "Gone: Brix - Pre-Roll | Space Batter 1g | 00407"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Float House | IPA Hoppy THC Brew | Single",
+    "brand": "Float House",
+    "message": "Gone: Float House - Beverage | Float House | IPA Hoppy THC Brew | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Float House | Nitro Stout | Single",
+    "brand": "Float House",
+    "message": "Gone: Float House - Beverage | Float House | Nitro Stout | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre Roll | Sun Grown | Push OG 1g | 00421",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "Gone: Rodeo Cannabis Co. - Pre Roll | Sun Grown | Push OG 1g | 00421"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Layup | Lemonade THC Refreshment | Single",
+    "brand": "Layup",
+    "message": "Gone: Layup - Beverage | Layup | Lemonade THC Refreshment | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Savvy | Blue Andeze 1g | 26991",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pre-Roll | Savvy | Blue Andeze 1g | 26991"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre Roll | Sun Grown | Early Frost 1g | 00432",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "Gone: Rodeo Cannabis Co. - Pre Roll | Sun Grown | Early Frost 1g | 00432"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single",
+    "brand": "Hi5",
+    "message": "Gone: Hi5 - Beverage | Hi 5 | Blueberry Lemonade Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Layup | Limeade THC Refreshment | Single",
+    "brand": "Layup",
+    "message": "Gone: Layup - Beverage | Layup | Limeade THC Refreshment | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Find. | Single Bulbz 1g | 01442",
+    "brand": "Find.",
+    "message": "Gone: Find. - Pre-Roll | Find. | Single Bulbz 1g | 01442"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Savvy | Red Gary 1g | 26976",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Pre-Roll | Savvy | Red Gary 1g | 26976"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre Roll | Sun Grown | Summer L. 1g | 00407",
+    "brand": "Rodeo Cannabis Co.",
+    "message": "Gone: Rodeo Cannabis Co. - Pre Roll | Sun Grown | Summer L. 1g | 00407"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Soundview | Watermelon THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Beverage | Soundview | Watermelon THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single",
+    "brand": "Five Islands",
+    "message": "Gone: Five Islands - Beverage | Five Islands | Half and Half THC Iced Tea Lemonade | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Five Islands | Peach THC Iced Tea | Single",
+    "brand": "Five Islands",
+    "message": "Gone: Five Islands - Beverage | Five Islands | Peach THC Iced Tea | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Loki | Hibiscus Pear THC Seltzer | Single",
+    "brand": "Loki",
+    "message": "Gone: Loki - Beverage | Loki | Hibiscus Pear THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Loki | Guava THC Seltzer | Single",
+    "brand": "Loki",
+    "message": "Gone: Loki - Beverage | Loki | Guava THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Soundview | Lemon Lime THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Beverage | Soundview | Lemon Lime THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Beverage | Soundview | Strawberry Kiwi THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Soundview | Blood Orange THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Beverage | Soundview | Blood Orange THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | CANN | Ginger Lemongrass Social Tonic | Single",
+    "brand": "Cann",
+    "message": "Gone: Cann - Beverage | CANN | Ginger Lemongrass Social Tonic | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Vape Cart | Mendo Wedding Pure Vape 1g | 27025",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Vape Cart | Mendo Wedding Pure Vape 1g | 27025"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Vape Cart | Airo Pod | G41 .5g | 00278",
+    "brand": "Airo",
+    "message": "Gone: Airo - Vape Cart | Airo Pod | G41 .5g | 00278"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Topical | The Healing Rose | Unscented CBD Massage & Body Oil 1oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Topical | The Healing Rose | Unscented CBD Massage & Body Oil 1oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Topical | The Healing Rose | Lavender CBD Massage & Body Oil 1oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Topical | The Healing Rose | Lavender CBD Massage & Body Oil 1oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Topical | Lavender & Sage CBD Infused Hand & Body Lotion | 2000mg CBD",
+    "brand": "Bay Mountain AG",
+    "message": "Gone: Bay Mountain AG - Topical | Lavender & Sage CBD Infused Hand & Body Lotion | 2000mg CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tincture | Dog Dayz Pet Tincture 1oz | 500mg CBD",
+    "brand": "Bay Mountain AG",
+    "message": "Gone: Bay Mountain AG - Tincture | Dog Dayz Pet Tincture 1oz | 500mg CBD"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Small Flower | Chem D Lil' Budz 7g | 00353",
+    "brand": "Brix",
+    "message": "Gone: Brix - Small Flower | Chem D Lil' Budz 7g | 00353"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Small Flower | C-Stata Lil' Budz 7g | 00356",
+    "brand": "Brix",
+    "message": "Gone: Brix - Small Flower | C-Stata Lil' Budz 7g | 00356"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Soap 1g | 00460",
+    "brand": "Brix",
+    "message": "Gone: Brix - Pre-Roll | Soap 1g | 00460"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll | Find. | PB Bites 1g | 01439",
+    "brand": "Find.",
+    "message": "Gone: Find. - Pre-Roll | Find. | PB Bites 1g | 01439"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Pack | Living Legend 5 Pack Minis | 01163",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - Pre-Roll Pack | Living Legend 5 Pack Minis | 01163"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pre-Roll Pack | Lemon Cherry Sherb Shorties | 5pk | 26924",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Pre-Roll Pack | Lemon Cherry Sherb Shorties | 5pk | 26924"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Sweet Orange",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Sweet Orange"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Peppermint Rosemary",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Peppermint Rosemary"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Orange Lavender",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Orange Lavender"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Grapefruit Eucalyptus",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Grapefruit Eucalyptus"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Coffee Bean",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Coffee Bean"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lip Balm | The Healing Rose | Organic Blood Orange Mint",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Lip Balm | The Healing Rose | Organic Blood Orange Mint"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437",
+    "brand": "Wana",
+    "message": "Gone: Wana - Gummies | Wana Classic Passionfruit Pineapple 1:1:1 | 20ct | 00437"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | SoundView Blood Orange | 20pk | 00246",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Gummies | SoundView Blood Orange | 20pk | 00246"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439",
+    "brand": "Camino",
+    "message": "Gone: Camino - Gummies | Midnight Blueberry (5:1 THC:CBN) | 20pk | 00439"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gummies | Cherry 10:5 CBD:THC | 20pk | 00363",
+    "brand": "COAST Cannabis Co.",
+    "message": "Gone: COAST Cannabis Co. - Gummies | Cherry 10:5 CBD:THC | 20pk | 00363"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Rythm | Creamsicle Sunset 3.5g | 01115",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - Flower | Rythm | Creamsicle Sunset 3.5g | 01115"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Pinyatti 7g | 41685",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Flower | Pinyatti 7g | 41685"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | Permanent Marker 3.5g | 00392",
+    "brand": "Brix",
+    "message": "Gone: Brix - Flower | Permanent Marker 3.5g | 00392"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flower | E85 3.5g | 26812",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Flower | E85 3.5g | 26812"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Peppermint Lucky Spritz | 0031",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Peppermint Lucky Spritz | 0031"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Lucky Elixir | Fast Acting | Watermelon Lime | 0056",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Lucky Elixir | Fast Acting | Watermelon Lime | 0056"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Fast Acting | Lucky Hot Honey | 0089",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Fast Acting | Lucky Hot Honey | 0089"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Fast Acting | Lucky Honey | 0087",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Fast Acting | Lucky Honey | 0087"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Edibles | Fast Acting | Lucky Agave | 0086",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Edibles | Fast Acting | Lucky Agave | 0086"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Disposable | Left On Red .5g | 00411",
+    "brand": "Edie Parker",
+    "message": "Gone: Edie Parker - Disposable | Left On Red .5g | 00411"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Chocolate | Toasted S'mores Milk Chocolate Bar 20pk | 00240"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chocolate | Encore Milk Chocolate RSO  | 26971",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Chocolate | Encore Milk Chocolate RSO  | 26971"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Tangerine Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Tangerine Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Mandarin Pomelo Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Mandarin Pomelo Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Lime Twist Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Lime Twist Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Lemonade Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Lemonade Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Juicy Mango Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Juicy Mango Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Cranberry Blood Orange Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Cranberry Blood Orange Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | WYNK | Black Cherry Fizz Seltzer | Single",
+    "brand": "Wynk",
+    "message": "Gone: Wynk - Beverage | WYNK | Black Cherry Fizz Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Sunny | Lime Mint Chill Seltzer | Single",
+    "brand": "Sunny",
+    "message": "Gone: Sunny - Beverage | Sunny | Lime Mint Chill Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Sunny | Fresh Mandarin Fizz Seltzer | Single",
+    "brand": "Sunny",
+    "message": "Gone: Sunny - Beverage | Sunny | Fresh Mandarin Fizz Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Sunny | Black Cherry Bliss Seltzer | Single",
+    "brand": "Sunny",
+    "message": "Gone: Sunny - Beverage | Sunny | Black Cherry Bliss Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Soundview | Mango THC Seltzer | Single",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Beverage | Soundview | Mango THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | New Roads | Razz Lime Rush Seltzer | Single",
+    "brand": "New Roads",
+    "message": "Gone: New Roads - Beverage | New Roads | Razz Lime Rush Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | MUZE | Raspberry Lime Seltzer | Single",
+    "brand": "MUZE",
+    "message": "Gone: MUZE - Beverage | MUZE | Raspberry Lime Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | MUZE | Peach Seltzer | Single",
+    "brand": "MUZE",
+    "message": "Gone: MUZE - Beverage | MUZE | Peach Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Loki | Yuzu Dream THC Seltzer | Single",
+    "brand": "Loki",
+    "message": "Gone: Loki - Beverage | Loki | Yuzu Dream THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Loki | Lemon Lime THC Seltzer | Single",
+    "brand": "Loki",
+    "message": "Gone: Loki - Beverage | Loki | Lemon Lime THC Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Layup | Black Cherry Lemonade THC Refreshment | Single",
+    "brand": "Layup",
+    "message": "Gone: Layup - Beverage | Layup | Black Cherry Lemonade THC Refreshment | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Hi 5 | Peach Mango Seltzer | Single",
+    "brand": "Hi5",
+    "message": "Gone: Hi5 - Beverage | Hi 5 | Peach Mango Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Hi 5 | Black Cherry Seltzer | Single",
+    "brand": "Hi5",
+    "message": "Gone: Hi5 - Beverage | Hi 5 | Black Cherry Seltzer | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Flying Cloud | Orange Dream THC Soda | Single",
+    "brand": "Flying Cloud",
+    "message": "Gone: Flying Cloud - Beverage | Flying Cloud | Orange Dream THC Soda | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Flying Cloud | Grape Bomb THC Soda | Single",
+    "brand": "Flying Cloud",
+    "message": "Gone: Flying Cloud - Beverage | Flying Cloud | Grape Bomb THC Soda | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Flying Cloud | Euphoricola THC Soda | Single",
+    "brand": "Flying Cloud",
+    "message": "Gone: Flying Cloud - Beverage | Flying Cloud | Euphoricola THC Soda | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Flying Cloud | Diet Toke THC Soda | Single",
+    "brand": "Flying Cloud",
+    "message": "Gone: Flying Cloud - Beverage | Flying Cloud | Diet Toke THC Soda | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | Float House | Lite Crisp THC Brew | Single",
+    "brand": "Float House",
+    "message": "Gone: Float House - Beverage | Float House | Lite Crisp THC Brew | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | CANN | Lemon Lavender Social Tonic | Single",
+    "brand": "Cann",
+    "message": "Gone: Cann - Beverage | CANN | Lemon Lavender Social Tonic | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Beverage | CANN | Grapefruit Rosemary Social Tonic | Single",
+    "brand": "Cann",
+    "message": "Gone: Cann - Beverage | CANN | Grapefruit Rosemary Social Tonic | Single"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bath Soak | The Healing Rose | Winter Citrus Berry 4oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Bath Soak | The Healing Rose | Winter Citrus Berry 4oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bath Soak | The Healing Rose | Relax & Unwind 4oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Bath Soak | The Healing Rose | Relax & Unwind 4oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bath Soak | The Healing Rose | Lavender CBN + CBD 4oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Bath Soak | The Healing Rose | Lavender CBN + CBD 4oz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bath Soak | The Healing Rose | Fortify & Renew 4oz",
+    "brand": "The Healing Rose",
+    "message": "Gone: The Healing Rose - Bath Soak | The Healing Rose | Fortify & Renew 4oz"
+  }
+]

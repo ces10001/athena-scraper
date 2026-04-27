@@ -1,0 +1,788 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Sunshine Daydream 1:1 RSO Syringe I 00497",
+    "brand": "Affinity",
+    "message": "Affinity Sunshine Daydream 1:1 RSO Syringe I 00497: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mendo Wedding 1g Pure Vape T870 I 27025",
+    "brand": "CTPharma",
+    "message": "CTPharma Mendo Wedding 1g Pure Vape T870 I 27025: $53.75 > $43.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zuava Flower H 26761",
+    "brand": "CTPharma",
+    "message": "CTPharma Zuava Flower H 26761: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis B Yo 2g Live Resin Sauce (I) 00387",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis B Yo 2g Live Resin Sauce (I) 00387: $76.50 > $61.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Moonburst (H) 01616",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Select Flavor Series 510 1g Moonburst (H) 01616: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Tropical Burst with THCV 10:6 Cannabis-Infused Gummies-00415: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Apple Tartz (H) 01532 TC 35.208%: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Mrs. Brightside (H) 01663 TC 33.749%: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND 7g Applescotti I 26891",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND 7g Applescotti I 26891: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy GRND 7g Red Gary H 26956",
+    "brand": "Savvy",
+    "message": "Savvy Savvy GRND 7g Red Gary H 26956: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Ground Flower 3.5g Apple Tartz (H) 01641 TC 26.991%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower 3.5g Apple Tartz (H) 01641 TC 26.991%: $27.50 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Dank Sinatra Live Resin Disposable Vape (1g) T91.62% I 00223",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Dank Sinatra Live Resin Disposable Vape (1g) T91.62% I 00223: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 14g Orange Z (S) 00975 TC 23.511%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 14g Orange Z (S) 00975 TC 23.511%: $100.00 > $80.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "On The Rocks - Tropical Haze Live Rosin AIO 1g T787 H 26344",
+    "brand": "On The Rocks",
+    "message": "On The Rocks On The Rocks - Tropical Haze Live Rosin AIO 1g T787 H 26344: $99.00 > $79.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge 1g NYC Diesel (H) 01492",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge 1g NYC Diesel (H) 01492: $59.00 > $47.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|PreRoll 0.5g 7pk|Homebody 00133",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|PreRoll 0.5g 7pk|Homebody 00133: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328",
+    "brand": "Happy Confections",
+    "message": "Happy Confections The Happy Confection Medium Dose Infused Gems - 20 Pack Rainbow Parade THC|CBD|CBG - 00328: $17.00 > $13.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 14g Humboldt Sour Diesel (S) 01085 TC 22.56%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 14g Humboldt Sour Diesel (S) 01085 TC 22.56%: $89.00 > $71.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Dark Heart Collection Whole Flower 3.5g Zesty Garlic Kookyz (I) 01135 TC 25.107%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Dark Heart Collection Whole Flower 3.5g Zesty Garlic Kookyz (I) 01135 TC 25.107%: $36.50 > $29.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Mango Puff (I) 01501",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Mango Puff (I) 01501: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Midnight Blueberry Cannabis-Infused Gummies 00439",
+    "brand": "Camino",
+    "message": "Camino Camino Midnight Blueberry Cannabis-Infused Gummies 00439: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Orchard Peach with CBD 10:10 Cannabis-Infused Vegan Gummies-00453: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jungle Cake 1g Pre Roll (H) 00505",
+    "brand": "BRIX",
+    "message": "BRIX Jungle Cake 1g Pre Roll (H) 00505: $9.50 > $7.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Heir Heads Flower H 26778",
+    "brand": "CTPharma",
+    "message": "CTPharma Heir Heads Flower H 26778: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Guap RSO Berry Drip 50mg",
+    "brand": "Savvy",
+    "message": "Savvy Guap RSO Berry Drip 50mg: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "EARLy Birds | Infinity Grapes 023",
+    "brand": "Earl Baker",
+    "message": "Earl Baker EARLy Birds | Infinity Grapes 023: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465",
+    "brand": "Camino",
+    "message": "Camino Camino Freshly Squeezed with CBG 5:10 Cannabis-Infused Gummies 00465: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Watermelon Sherbet Live Resin Disposable Vape (1g) T90.749% H 00214",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Watermelon Sherbet Live Resin Disposable Vape (1g) T90.749% H 00214: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959 TC 28.411%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Curaleaf Whole Flower 3.5g White Hot Guava (H) 00959 TC 28.411%: $36.50 > $29.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Legacy Series 510 1g Sour Z (S) 01523",
+    "brand": "Select",
+    "message": "Select Select Legacy Series 510 1g Sour Z (S) 01523: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower - Dantes Fire 0110",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Dantes Fire 0110: $58.00 > $46.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zuava Shorties H 27021",
+    "brand": "CTPharma",
+    "message": "CTPharma Zuava Shorties H 27021: $26.50 > $21.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jokerz Flower I 26746",
+    "brand": "CTPharma",
+    "message": "CTPharma Jokerz Flower I 26746: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Pi 41663",
+    "brand": "Theraplant",
+    "message": "Theraplant Berry Pi 41663: $23.50 > $18.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Lemon Glue Disposable T257 I 26740",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Lemon Glue Disposable T257 I 26740: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Guap RSO Peachy Punch 1:1 CBD:THC H 26945: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Guap RSO Tangie Crush 50mg",
+    "brand": "Savvy",
+    "message": "Savvy Guap RSO Tangie Crush 50mg: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Smalls 7g Blue Gas I 26866",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Smalls 7g Blue Gas I 26866: $59.25 > $47.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01530",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Remix Fast Acting Ratio Jellies Raspberry Pomegranate (H) 01530: $29.50 > $23.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Raspberry Lemonade Live Resin Disposable Vape (1g) T90.810 (S) 00228",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Raspberry Lemonade Live Resin Disposable Vape (1g) T90.810 (S) 00228: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "EARLy Birds | Trophy Case 024",
+    "brand": "Earl Baker",
+    "message": "Earl Baker EARLy Birds | Trophy Case 024: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Gangsta Grillz 1g Infused Blunt 41694",
+    "brand": "Theraplant",
+    "message": "Theraplant Gangsta Grillz 1g Infused Blunt 41694: $19.00 > $15.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Guap RSO Melon Crash 1:2 CBN:THC I 26958: $9.00 > $7.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Savvy Mendo Wedding Disposable T247 I 26842",
+    "brand": "Savvy",
+    "message": "Savvy Savvy Mendo Wedding Disposable T247 I 26842: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365",
+    "brand": "Camino",
+    "message": "Camino Camino Sours-Strawberry Sunset Cannabis-Infused Gummies-00365: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Camino Pineapple Habanero Cannabis-Infused Gummies 00421",
+    "brand": "Camino",
+    "message": "Camino Camino Pineapple Habanero Cannabis-Infused Gummies 00421: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Red Gary Flower H 26800",
+    "brand": "CTPharma",
+    "message": "CTPharma Red Gary Flower H 26800: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Springtime Pre-Pack 3.5g SZO 00073",
+    "brand": "Awssom",
+    "message": "Awssom Springtime Pre-Pack 3.5g SZO 00073: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower - Frozen Bag 0099",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Frozen Bag 0099: $58.00 > $46.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01702 TC 28.276%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Ground Flower 3.5g Jayna's Sunshine (H) 01702 TC 28.276%: $27.50 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Comffy|Vape 510 1g|Cherry Bomb 00207",
+    "brand": "Comffy",
+    "message": "Comffy Comffy|Vape 510 1g|Cherry Bomb 00207: $54.00 > $43.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Cherry GMO Lucky Dugout 3g 0071",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Black Cherry GMO Lucky Dugout 3g 0071: $32.75 > $26.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Modified O Flower T25.33% H 00667",
+    "brand": "Affinity",
+    "message": "Affinity Modified O Flower T25.33% H 00667: $50.00 > $40.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SV Mango 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Mango 12 oz THC Seltzer: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SV Lemon Lime 12 oz THC Seltzer",
+    "brand": "SoundView",
+    "message": "SoundView SV Lemon Lime 12 oz THC Seltzer: $6.00 > $4.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FIND. Whole Flower 7g Gas Lit (H) 01644 TC 29.401%",
+    "brand": "Find.",
+    "message": "Find. FIND. Whole Flower 7g Gas Lit (H) 01644 TC 29.401%: $64.00 > $51.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Flavor Series 510 1g Golden Tangie (S) 01588",
+    "brand": "Select",
+    "message": "Select Select Flavor Series 510 1g Golden Tangie (S) 01588: $60.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Green Apple (H) 01157",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Green Apple (H) 01157: $29.50 > $23.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lil' Budz Mac Stomper (S) 00373",
+    "brand": "BRIX",
+    "message": "BRIX Lil' Budz Mac Stomper (S) 00373: $41.00 > $32.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 36.417% (WARNING- HIGH THC)",
+    "brand": "Dark Heart",
+    "message": "Dark Heart Dark Heart Collection Whole Flower 3.5g Triple Stack (I) 01554 TC 36.417% (WARNING- HIGH THC): $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Preroll 5 Pack 2g Titan Express (S) 01603 TC 28.010%",
+    "brand": "Grassroots",
+    "message": "Grassroots Dark Heart Collection Preroll 5 Pack 2g Titan Express (S) 01603 TC 28.010%: $27.50 > $22.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452",
+    "brand": "Avexia",
+    "message": "Avexia Avexia Comfort 1:1:1 CBN:CBD:THC Tablets 26452: $18.27 > $14.62"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower - SBC 0109",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - SBC 0109: $35.00 > $28.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Summer Peach THC Gummies 01087",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Summer Peach THC Gummies 01087: $19.00 > $15.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Pack 3.5g GAT 00074",
+    "brand": "Awssom",
+    "message": "Awssom Shaka Pre-Pack 3.5g GAT 00074: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Wintergreen Hybrid Mints T95.2mg H 00196",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Wintergreen Hybrid Mints T95.2mg H 00196: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Strawberry Pave Flower H 27001",
+    "brand": "CTPharma",
+    "message": "CTPharma Strawberry Pave Flower H 27001: $41.00 > $32.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo Sun Grown Motor Breath (I) 3.5g Flower (C0070000308)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo Sun Grown Motor Breath (I) 3.5g Flower (C0070000308): $27.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Peach RSO Gummies T96.4mg I 00205",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Peach RSO Gummies T96.4mg I 00205: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Spearmint Lucky Spritz 0046",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Spearmint Lucky Spritz 0046: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Pumpkin Spice Chocolate Bar T90.4mg H 00156",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Pumpkin Spice Chocolate Bar T90.4mg H 00156: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Afgooey 1g Pre Roll (I) 00503",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Afgooey 1g Pre Roll (I) 00503: $12.00 > $9.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01405",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Watermelon Lime (I) 01405: $29.50 > $23.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01533",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Remix Fast Acting Ratio Jellies Blackberry (I) 01533: $29.50 > $23.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Milk Chocolate RSO T94mg I 26971",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Milk Chocolate RSO T94mg I 26971: $29.25 > $23.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272",
+    "brand": "inc.edibles",
+    "message": "inc.edibles inc.edibles 20 Pack Pineapple Express Fast Acting THC Gummies 01272: $19.00 > $15.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rodeo RSO Moscow Mule (I) Gummies (C0070000374)",
+    "brand": "Rodeo",
+    "message": "Rodeo Rodeo RSO Moscow Mule (I) Gummies (C0070000374): $21.75 > $17.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Avexia Ascend 1:1 CBG:THC Tablets 26499",
+    "brand": "Avexia",
+    "message": "Avexia Avexia Ascend 1:1 CBG:THC Tablets 26499: $18.27 > $14.62"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fizz 3mg Orange Soda",
+    "brand": "Fizz",
+    "message": "Fizz Fizz 3mg Orange Soda: $5.00 > $4.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Space Gello part:timers 41370",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello part:timers 41370: $47.00 > $37.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Space Gello Rosin 41402",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Space Gello Rosin 41402: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "all:hours Hash Burger Rosin 41397",
+    "brand": "all:hours",
+    "message": "all:hours all:hours Hash Burger Rosin 41397: $55.00 > $44.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zero Proof Squeeze Dash of Sweet (H) 01626",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Zero Proof Squeeze Dash of Sweet (H) 01626: $34.50 > $27.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Zero Proof Squeeze Dash of Cherry (H) 01599",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Zero Proof Squeeze Dash of Cherry (H) 01599: $34.50 > $27.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219",
+    "brand": "Happy Confections",
+    "message": "Happy Confections The Happy Confection Micro Dose Infused Gems-20 Pack Sunset Citron THC|CBD|CBN 00219: $17.00 > $13.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246",
+    "brand": "Happy Confections",
+    "message": "Happy Confections THE HAPPY CONFECTION MICRO DOSE INFUSED GEMS - 20 PACK CHILLAXING CHERRY LIMEADE THC|CBD|CBG-00246: $17.00 > $13.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Buff MT 41749",
+    "brand": "Theraplant",
+    "message": "Theraplant Super Buff MT 41749: $48.50 > $38.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Mixed Berry Indica Mints T92mg C49.6mg I 00208: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "SoundView Citrus Punch Live Resin Disposable Vape (1G) T90.23% (S) 00229",
+    "brand": "SoundView",
+    "message": "SoundView SoundView Citrus Punch Live Resin Disposable Vape (1G) T90.23% (S) 00229: $72.00 > $57.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka Pre-Pack 3.5g GRA 00072",
+    "brand": "Awssom",
+    "message": "Awssom Shaka Pre-Pack 3.5g GRA 00072: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Select Elite Cartridge .5g LA Kush C (H) 01388",
+    "brand": "Select",
+    "message": "Select Select Elite Cartridge .5g LA Kush C (H) 01388: $41.00 > $32.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Purple Pastry 1g Live Rosin - MED T76.93% I 26609",
+    "brand": "CTPharma",
+    "message": "CTPharma Purple Pastry 1g Live Rosin - MED T76.93% I 26609: $79.00 > $63.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Peppermint Lucky Spritz 0060",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Peppermint Lucky Spritz 0060: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mend 1-1 Cooling Body Balm - MED 26274",
+    "brand": "CTPharma",
+    "message": "CTPharma Mend 1-1 Cooling Body Balm - MED 26274: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Medium Strength Savoti Capsule 41577",
+    "brand": "Theraplant",
+    "message": "Theraplant Medium Strength Savoti Capsule 41577: $52.00 > $41.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477",
+    "brand": "Camino",
+    "message": "Camino Lighthouse-Laughing Buddha Live Resin-(S)-Bar-1g-00477: $57.00 > $45.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Lemon Lucky Spritz 0058",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Lemon Lucky Spritz 0058: $25.00 > $20.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "LEMON SKUNK BHO SUGAR MED T80.10% S 00635",
+    "brand": "Affinity",
+    "message": "Affinity LEMON SKUNK BHO SUGAR MED T80.10% S 00635: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208",
+    "brand": "Curaleaf",
+    "message": "Curaleaf JAMS Fast Acting Jellies Sour Strawberry Lemonade (S) 01208: $29.50 > $23.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream Cke Lucky Dugout 3g 0065",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Ice Cream Cke Lucky Dugout 3g 0065: $32.75 > $26.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 3.5g Atomic Breath (H) 01385 TC 31.07%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 3.5g Atomic Breath (H) 01385 TC 31.07%: $45.50 > $36.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Whole Flower 14g Singapore Sling (S) 01509 TC 24.531%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Whole Flower 14g Singapore Sling (S) 01509 TC 24.531%: $100.00 > $80.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%",
+    "brand": "Grassroots",
+    "message": "Grassroots Grassroots Preroll 5 Pack 2g Atomic Breath (H) 01602 TC 30.748%: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fizz 3mg Diet Cola",
+    "brand": "Fizz",
+    "message": "Fizz Fizz 3mg Diet Cola: $5.00 > $4.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Watermelon Lime Lucky Elixir 0076",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Watermelon Lime Lucky Elixir 0076: $27.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Lucky Honey 0087",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Honey 0087: $26.50 > $21.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Lucky Agave 0086",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Lucky Agave 0086: $14.50 > $11.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Fruit Punch Lucky Elixir 0075",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Fruit Punch Lucky Elixir 0075: $27.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Fast Acting Blueberry Lemonade Lucky Elixir 0077",
+    "brand": "Lucky Break",
+    "message": "Lucky Break Fast Acting Blueberry Lemonade Lucky Elixir 0077: $27.00 > $21.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "FAST ACTING LUCKY HOT HONEY 0089",
+    "brand": "Lucky Break",
+    "message": "Lucky Break FAST ACTING LUCKY HOT HONEY 0089: $21.50 > $17.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Encore Dark Chocolate RSO T91.4mg I 26946",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Encore Dark Chocolate RSO T91.4mg I 26946: $29.25 > $23.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Earl Baker - Whole Flower - Michigan Cherry 0098",
+    "brand": "Earl Baker",
+    "message": "Earl Baker Earl Baker - Whole Flower - Michigan Cherry 0098: $44.00 > $35.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Dark Heart Collection Preroll 5 Pack 2g Foreign Kush Mints (I) 01605 TC 33.241%",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Dark Heart Collection Preroll 5 Pack 2g Foreign Kush Mints (I) 01605 TC 33.241%: $31.00 > $24.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Valley Kush 1g Live Rosin - MED T75.76% H 26611",
+    "brand": "CTPharma",
+    "message": "CTPharma Chem Valley Kush 1g Live Rosin - MED T75.76% H 26611: $71.00 > $56.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chem Roll 1g Big Ray T22.63% I 00863",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Chem Roll 1g Big Ray T22.63% I 00863: $16.00 > $12.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix Cannabis Chem's Lemonberry 0.5g Diamonds (H) 00478",
+    "brand": "BRIX",
+    "message": "BRIX Brix Cannabis Chem's Lemonberry 0.5g Diamonds (H) 00478: $45.00 > $36.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Black Ice BHO Sugar MED T79.98% I 00634",
+    "brand": "Affinity",
+    "message": "Affinity Black Ice BHO Sugar MED T79.98% I 00634: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Avexia Relief 4:1 CBD Tablets 26450",
+    "brand": "Avexia",
+    "message": "Avexia Avexia Relief 4:1 CBD Tablets 26450: $18.27 > $14.62"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Avexia Harmony 1:1 CBD:THC Tablets 26451",
+    "brand": "Avexia",
+    "message": "Avexia Avexia Harmony 1:1 CBD:THC Tablets 26451: $18.27 > $14.62"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Affinity Chill 1:1 Relief Gel MED 00664",
+    "brand": "Affinity",
+    "message": "Affinity Affinity Chill 1:1 Relief Gel MED 00664: $22.00 > $17.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Select Flavor Series Briq 2 2g Mango Puff (I) 01552",
+    "brand": "Select",
+    "message": "Gone: Select - Select Flavor Series Briq 2 2g Mango Puff (I) 01552"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Yellow Haze OG 1g Pure Vape T851 S 27023",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Yellow Haze OG 1g Pure Vape T851 S 27023"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savvy GRND 7g Heir Heads H 27034",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Savvy GRND 7g Heir Heads H 27034"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Let's Burn CT Rainbows 3.5g 0012",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Let's Burn CT Rainbows 3.5g 0012"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave Shorties H 27047",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave Shorties H 27047"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Glitter Bomb 1g Pre Roll (I) 00557 (WARNING - HIGH THC)",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Glitter Bomb 1g Pre Roll (I) 00557 (WARNING - HIGH THC)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Grassroots Preroll 5 Pack 2g Berry Batter (I) 01645 TC 31.972%"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brix Cannabis Cap Junk 1g Pre Roll (H) 00434",
+    "brand": "BRIX",
+    "message": "Gone: BRIX - Brix Cannabis Cap Junk 1g Pre Roll (H) 00434"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Loud Cannabis Orange Cookiez (I) C0170000039",
+    "brand": "Loud",
+    "message": "Gone: Loud - Loud Cannabis Orange Cookiez (I) C0170000039"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Planet Vape 41566",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Planet Vape 41566"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Planet MT 41564",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Planet MT 41564"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Awssom 3.5g Delicata Cookies 00060",
+    "brand": "Awssom",
+    "message": "Awssom Awssom 3.5g Delicata Cookies 00060: $35.00 > $29.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix 3.5g C-Stata (H) 00465",
+    "brand": "Brix",
+    "message": "Brix Brix 3.5g C-Stata (H) 00465: $32.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "TheraPlant 3.5g Black Cherry GMO 41589",
+    "brand": "Theraplant",
+    "message": "Theraplant TheraPlant 3.5g Black Cherry GMO 41589: $35.00 > $29.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Shaka 3.5g Banana Cake #20 (H) 00087",
+    "brand": "Shaka",
+    "message": "Shaka Shaka 3.5g Banana Cake #20 (H) 00087: $35.00 > $29.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Brix 3.5g Permanent Marker (I) 00317",
+    "brand": "Brix",
+    "message": "Brix Brix 3.5g Permanent Marker (I) 00317: $32.00 > $27.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "TheraPlant 3.5g Pinyatti 41684",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - TheraPlant 3.5g Pinyatti 41684 $29.75"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Springtime Pre-Roll 1.0g Jet Fuel 00066",
+    "brand": "Springtime",
+    "message": "Gone: Springtime - Springtime Pre-Roll 1.0g Jet Fuel 00066"
+  }
+]

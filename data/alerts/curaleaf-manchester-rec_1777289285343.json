@@ -1,0 +1,1274 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Black Cherry: $24.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Select Cherry Pi: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grape",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Grape: $24.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mango",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Mango: $24.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Matter",
+    "brand": "Select",
+    "message": "Select Orange Matter: $20.80 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Watermelon Lime",
+    "brand": "JAMS",
+    "message": "JAMS Sour Watermelon Lime: $22.10 > $27.20"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "Grassroots White Hot Guava: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Strawberry Lemonade",
+    "brand": "JAMS",
+    "message": "JAMS Sour Strawberry Lemonade: $22.10 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "all:hours Banana Acai Mints: $39.00 > $29.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Pomegranate",
+    "brand": "JAMS",
+    "message": "JAMS Raspberry Pomegranate: $22.10 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Chillaxing Cherry Limeade",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Chillaxing Cherry Limeade: $12.00 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Apple",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Sour Apple: $19.50 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Grassroots Atomic Breath: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Mandarin",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Mandarin: $24.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tri Berry",
+    "brand": "Find.",
+    "message": "Find. Tri Berry: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sundae Slumber",
+    "brand": "Select",
+    "message": "Select Sundae Slumber: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Dash of Orange",
+    "brand": "Zero Proof",
+    "message": "Zero Proof Dash of Orange: $24.70 > $30.40"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Silver Dollar",
+    "brand": "Find.",
+    "message": "Find. Silver Dollar: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream",
+    "brand": "Select",
+    "message": "Select Blue Dream: $42.90 > $49.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Creative Clementine",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Creative Clementine: $28.00 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Grassroots Pillow Mints: $11.05 > $13.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blackberry Dream",
+    "brand": "Camino",
+    "message": "Camino Blackberry Dream: $34.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Glacial Garden",
+    "brand": "Find.",
+    "message": "Find. Glacial Garden: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sweet Strawberry: $21.75 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO",
+    "brand": "RYTHM",
+    "message": "RYTHM GMO: $65.00 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Caps",
+    "brand": "Grassroots",
+    "message": "Grassroots White Caps: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Foreign Kush Mints",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Foreign Kush Mints: $19.50 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Diesel",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Sour Diesel: $64.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Titan Express",
+    "brand": "Grassroots",
+    "message": "Grassroots Titan Express: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomegranate Punch",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Pomegranate Punch: $21.75 > $29.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Strawberry",
+    "brand": "Select",
+    "message": "Select Strawberry: $20.80 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Garlotti",
+    "brand": "Select",
+    "message": "Select Garlotti: $29.50 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "Select Forbidden Fruit: $29.50 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Green Apple",
+    "brand": "JAMS",
+    "message": "JAMS Sour Green Apple: $22.10 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Orchard Peach",
+    "brand": "Camino",
+    "message": "Camino Orchard Peach: $34.00 > $25.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Grassroots Jayna's Sunshine: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Indica Milk Chocolate",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Indica Milk Chocolate: $24.00 > $32.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Freshly Squeezed",
+    "brand": "Camino",
+    "message": "Camino Freshly Squeezed: $34.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sunset Citron",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Sunset Citron: $12.00 > $9.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sweet Berry Burst",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sweet Berry Burst: $21.75 > $29.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Acapulco Gold",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Acapulco Gold: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "all:hours Hash Burger: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "all:hours Hash Burger: $152.00 > $114.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "all:hours Mule Fuel: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "all:hours Mule Fuel: $152.00 > $114.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banana Acai Mints",
+    "brand": "all:hours",
+    "message": "all:hours Banana Acai Mints: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Air HDZ",
+    "brand": "all:hours",
+    "message": "all:hours Air HDZ: $39.00 > $29.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "all:hours Mule Fuel: $39.00 > $29.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "all:hours Space Gello: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "all:hours 10G's: $39.00 > $29.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "all:hours Space Gello: $39.00 > $29.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Space Gello",
+    "brand": "all:hours",
+    "message": "all:hours Space Gello: $69.00 > $51.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "10 G's",
+    "brand": "all:hours",
+    "message": "all:hours 10 G's: $69.00 > $51.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "all:hours Nimbus Snacks: $69.00 > $51.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pineapple Habanero",
+    "brand": "Camino",
+    "message": "Camino Pineapple Habanero: $32.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Tropical Burst",
+    "brand": "Camino",
+    "message": "Camino Tropical Burst: $34.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Watermelon Spritz",
+    "brand": "Camino",
+    "message": "Camino Watermelon Spritz: $32.00 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Indica Princess",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Indica Princess: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Humboldt Sour Diesel",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Humboldt Sour Diesel: $58.50 > $67.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Z",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Orange Z: $58.50 > $67.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG: $58.50 > $67.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Curaleaf True OG: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Raspberry PRFT: $58.50 > $67.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Raspberry PRFT: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mr E Pupil",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Mr E Pupil: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Pomme Jelly: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Atomic Breath: $10.40 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slip",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Slip: $10.40 > $12.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash",
+    "brand": "Curaleaf",
+    "message": "Curaleaf Hickory Hash: $11.70 > $13.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Vel Croz",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Vel Croz: $30.00 > $22.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape Escape",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Grape Escape: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Grape Escape",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Grape Escape: $80.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Green Queen: $45.00 > $33.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Green Queen",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Green Queen: $80.00 > $60.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Left on Red",
+    "brand": "Edie Parker",
+    "message": "Edie Parker Left on Red: $80.00 > $60.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sativa Milk",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sativa Milk: $24.00 > $32.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "Find. Half Moonana: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Half Moonana",
+    "brand": "Find.",
+    "message": "Find. Half Moonana: $20.00 > $25.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bulbz",
+    "brand": "Find.",
+    "message": "Find. Bulbz: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Find. Tropical Heatwave: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "PB Bites",
+    "brand": "Find.",
+    "message": "Find. PB Bites: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Find. Critical Crumb: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Diesel Bites",
+    "brand": "Find.",
+    "message": "Find. Diesel Bites: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "Good Green Bubba F: $26.25 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "Good Green Bubba F: $75.00 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Bubba F",
+    "brand": "Good Green",
+    "message": "Good Green Bubba F: $120.00 > $160.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chkn n Wflz",
+    "brand": "Good Green",
+    "message": "Good Green Chkn n Wflz: $26.25 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rose Gold RTZ",
+    "brand": "Good Green",
+    "message": "Good Green Rose Gold RTZ: $26.25 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Rose Gold RTZ",
+    "brand": "Good Green",
+    "message": "Good Green Rose Gold RTZ: $120.00 > $160.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Glue Fondue",
+    "brand": "Good Green",
+    "message": "Good Green Glue Fondue: $75.00 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paradise Snacks",
+    "brand": "Good Green",
+    "message": "Good Green Paradise Snacks: $67.50 > $90.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Chem n' Cook",
+    "brand": "Good Green",
+    "message": "Good Green Chem n' Cook: $26.25 > $35.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Frozen Marg",
+    "brand": "Good Green",
+    "message": "Good Green Frozen Marg: $75.00 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Goregous",
+    "brand": "Good Green",
+    "message": "Good Green Regina Goregous: $75.00 > $100.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Regina Goregous",
+    "brand": "Good Green",
+    "message": "Good Green Regina Goregous: $120.00 > $160.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Zesty Garlic Kookyz",
+    "brand": "Grassroots",
+    "message": "Grassroots Zesty Garlic Kookyz: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns: $65.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns: $123.50 > $152.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Ched R Cheez",
+    "brand": "Grassroots",
+    "message": "Grassroots Ched R Cheez: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "Grassroots Moonbeam Latto: $65.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonbeam Latto",
+    "brand": "Grassroots",
+    "message": "Grassroots Moonbeam Latto: $22.75 > $28.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Apple Tartz",
+    "brand": "Grassroots",
+    "message": "Grassroots Apple Tartz: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Hickory Hash",
+    "brand": "Grassroots",
+    "message": "Grassroots Hickory Hash: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Astro GMO",
+    "brand": "Grassroots",
+    "message": "Grassroots Astro GMO: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "White Hot Guava",
+    "brand": "Grassroots",
+    "message": "Grassroots White Hot Guava: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Atomic Breath",
+    "brand": "Grassroots",
+    "message": "Grassroots Atomic Breath: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Jayna's Sunshine",
+    "brand": "Grassroots",
+    "message": "Grassroots Jayna's Sunshine: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Singapore Sling",
+    "brand": "Grassroots",
+    "message": "Grassroots Singapore Sling: $65.00 > $80.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wild Berry",
+    "brand": "Camino",
+    "message": "Camino Wild Berry: $34.00 > $25.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Wedding Cake",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Wedding Cake: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Motorbreath",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Motorbreath: $64.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Laughing Buddha",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Laughing Buddha: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "H0rchata",
+    "brand": "Lighthouse",
+    "message": "Lighthouse H0rchata: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Garlotti",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Garlotti: $64.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "GMO",
+    "brand": "Lighthouse",
+    "message": "Lighthouse GMO: $64.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Blue Dream",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Blue Dream: $64.00 > $48.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Super Lemon Haze",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Super Lemon Haze: $64.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "G41",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis G41: $28.50 > $38.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Scorpion Bowl",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Scorpion Bowl: $19.50 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis High Noon Crystal: $41.25 > $55.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Motor Breath",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Motor Breath: $25.50 > $34.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Cherry Lime",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Cherry Lime: $19.50 > $26.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moscow Mule",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Moscow Mule: $19.50 > $26.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "LA Kush CKE",
+    "brand": "RYTHM",
+    "message": "RYTHM LA Kush CKE: $120.00 > $90.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "95 Cook",
+    "brand": "RYTHM",
+    "message": "RYTHM 95 Cook: $50.00 > $37.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheddar Cheeze",
+    "brand": "RYTHM",
+    "message": "RYTHM Cheddar Cheeze: $50.00 > $37.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Raspberry Orange Lime",
+    "brand": "Select",
+    "message": "Select Raspberry Orange Lime: $20.80 > $24.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $29.50 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Old School OG",
+    "brand": "Select",
+    "message": "Select Old School OG: $29.50 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Select Orange Kookyz: $23.40 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Select Tahoe OG: $23.40 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Select Moonburst: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "GMO",
+    "brand": "Select",
+    "message": "Select GMO: $23.40 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $23.40 > $27.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "Select Banana Cream Cayk: $26.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sultry Cinnamon",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Sultry Cinnamon: $21.00 > $16.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coasting Cherry Punch",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Coasting Cherry Punch: $32.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Crushin' It Cran-Raspberry",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Crushin' It Cran-Raspberry: $32.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Rainbow Parade",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Rainbow Parade: $32.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "The Happy Confection Peaceful Paradise: $28.00 > $21.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Slingria",
+    "brand": "Find.",
+    "message": "Find. Slingria: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Lunar Diesel",
+    "brand": "Grassroots",
+    "message": "Grassroots Lunar Diesel: $65.00 > $80.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Casino Floor",
+    "brand": "Select",
+    "message": "Select Casino Floor: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Casino Floor",
+    "brand": "Select",
+    "message": "Select Casino Floor: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Modified Goat",
+    "brand": "Find.",
+    "message": "Find. Modified Goat: $9.10 > $10.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Muffin Grease",
+    "brand": "Find.",
+    "message": "Find. Muffin Grease: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "Select Sofa Sonata: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sofa Sonata",
+    "brand": "Select",
+    "message": "Select Sofa Sonata: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Golden Tangie",
+    "brand": "Select",
+    "message": "Select Golden Tangie: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Banana Cream Cayk",
+    "brand": "Select",
+    "message": "Select Banana Cream Cayk: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mango Puff",
+    "brand": "Select",
+    "message": "Select Mango Puff: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Sour Z",
+    "brand": "Select",
+    "message": "Select Sour Z: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "Good Green Fantasy Melonz: $67.50 > $90.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Widow",
+    "brand": "Lighthouse",
+    "message": "Lighthouse White Widow: $64.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Blue Dream",
+    "brand": "Select",
+    "message": "Select Blue Dream: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Forbidden Fruit",
+    "brand": "Select",
+    "message": "Select Forbidden Fruit: $26.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Durban Poison",
+    "brand": "Select",
+    "message": "Select Durban Poison: $42.90 > $49.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Durban Poison",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Durban Poison: $64.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Select Joocy Froot: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Select Couch Kush: $42.90 > $49.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Moonburst",
+    "brand": "Select",
+    "message": "Select Moonburst: $42.90 > $49.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Swamp Water Fumez",
+    "brand": "RYTHM",
+    "message": "RYTHM Swamp Water Fumez: $65.00 > $48.75"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Swamp Water Fumez",
+    "brand": "RYTHM",
+    "message": "RYTHM Swamp Water Fumez: $50.00 > $37.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Banapple Burger",
+    "brand": "all:hours",
+    "message": "all:hours Banapple Burger: $52.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Trop Cherry Honey Bananas",
+    "brand": "all:hours",
+    "message": "all:hours Trop Cherry Honey Bananas: $52.00 > $39.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Trop Cherry Honey Bananas",
+    "brand": "all:hours",
+    "message": "all:hours Trop Cherry Honey Bananas: $47.00 > $35.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Back Porch",
+    "brand": "Find.",
+    "message": "Find. Back Porch: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Gas Lit",
+    "brand": "Find.",
+    "message": "Find. Gas Lit: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Citradelic Haze",
+    "brand": "Grassroots",
+    "message": "Grassroots Citradelic Haze: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $11.05 > $13.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Berry Batter",
+    "brand": "Grassroots",
+    "message": "Grassroots Berry Batter: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "Grassroots Floral Frost: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $20.80 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "MAC",
+    "brand": "Lighthouse",
+    "message": "Lighthouse MAC: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "White Widow",
+    "brand": "Lighthouse",
+    "message": "Lighthouse White Widow: $68.00 > $51.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Acapulco Gold",
+    "brand": "Lighthouse",
+    "message": "Lighthouse Acapulco Gold: $64.00 > $48.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Citrus Glow",
+    "brand": "Find.",
+    "message": "Find. Citrus Glow: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Tropical Drizzle",
+    "brand": "Find.",
+    "message": "Find. Tropical Drizzle: $113.75 > $131.25"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mrs. Brightside",
+    "brand": "Find.",
+    "message": "Find. Mrs. Brightside: $42.25 > $48.75"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "Grassroots Nuclear Mfns: $20.80 > $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "Grassroots Problem Child: $25.00 > $30.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Grassroots Paw Paw: $25.00 > $30.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "10G's",
+    "brand": "all:hours",
+    "message": "all:hours 10G's: $42.00 > $31.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "all:hours Hash Burger: $42.00 > $31.50"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Nimbus Snacks",
+    "brand": "all:hours",
+    "message": "all:hours Nimbus Snacks: $42.00 > $31.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "High Noon Crystal",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis High Noon Crystal: $45.00 > $60.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Critical Crumb",
+    "brand": "Find.",
+    "message": "Gone: Find. - Critical Crumb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "NYC Diesel",
+    "brand": "Select",
+    "message": "Gone: Select - NYC Diesel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Garlic Icing",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Garlic Icing"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Heatwave",
+    "brand": "Find.",
+    "message": "Gone: Find. - Tropical Heatwave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Apple Tart",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Apple Tart"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Double Purple",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Double Purple"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grape Currant",
+    "brand": "Chew",
+    "message": "Gone: Chew - Grape Currant"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pumpkin Spice",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Pumpkin Spice"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Catching Citrus Dreams",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Catching Citrus Dreams"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chemdawg",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Chemdawg"
+  }
+]
