@@ -407,7 +407,12 @@ function App(){
   var[data,setData]=useState(null);var[err,setErr]=useState(null);var[tab,setTab]=useState("intel");
   var[q,setQ]=useState("");var[sel,setSel]=useState(new Set());var[cat,setCat]=useState("All");var[comp,setComp]=useState(true);var[radius,setRadius]=useState(10);
   var[favsVer,setFavsVer]=useState(0);
-  var toggleFav=useCallback(function(name){if(_favs.has(name))_favs.delete(name);else _favs.add(name);saveFavs();setFavsVer(function(v){return v+1})},[]);
+  var toggleFav=useCallback(function(name,allEntries){
+    var wasStarred=_favs.has(name);
+    _favs.clear();
+    if(!wasStarred&&allEntries){allEntries.forEach(function(d){_favs.add(d)})}
+    saveFavs();setFavsVer(function(v){return v+1});
+  },[]);
   useEffect(function(){
     fetch("dashboard_data.json?t="+Date.now()).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){
       if(d.products)d.products.forEach(function(p){var nd={};Object.entries(p.dispensaries||{}).forEach(function(e){nd[mergeD(e[0])]=e[1]});p.dispensaries=nd});
@@ -828,7 +833,7 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
             {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
             {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
             <span className="dsel-count">{totalCount.toLocaleString()}</span>
-            <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{if(wasYou){n.delete(d)}else if(n.size<MAX_SEL){n.add(d)}});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
+            <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;toggleFav(g.entries[0],wasYou?null:g.entries);setSel(p=>{var n=new Set(p);if(wasYou){g.entries.forEach(d=>n.delete(d))}else{g.entries.forEach(d=>{if(n.size<MAX_SEL)n.add(d)})};return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}} title={you?'Remove from my dispensaries':'Mark as my dispensary'}>{you?'★':'☆'}</span>
           </div>
         </div>
       }
@@ -862,7 +867,7 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
                 {!hasBoth&&g.hasRec&&recD?<button onClick={e=>{e.stopPropagation();togEntry(recD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(recD)?'var(--cy)':'transparent',color:sel.has(recD)?'#fff':'var(--tx3)',borderColor:sel.has(recD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>REC ONLY</button>:null}
                 {!hasBoth&&!g.hasMed&&!g.hasRec&&plainD?<button onClick={e=>{e.stopPropagation();togEntry(plainD)}} style={{padding:'3px 8px',borderRadius:4,fontSize:9,fontWeight:700,fontFamily:'var(--m)',cursor:'pointer',border:'1px solid',letterSpacing:'.5px',background:sel.has(plainD)?'var(--cy)':'transparent',color:sel.has(plainD)?'#fff':'var(--tx3)',borderColor:sel.has(plainD)?'var(--cy)':'var(--bd)',transition:'all .15s'}}>MENU</button>:null}
                 <span className="dsel-count">{totalCount.toLocaleString()}</span>
-                <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;g.entries.forEach(d=>toggleFav(d));setSel(p=>{var n=new Set(p);g.entries.forEach(d=>{if(wasYou){n.delete(d)}else if(n.size<MAX_SEL){n.add(d)}});return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}}>{you?'★':'☆'}</span>
+                <span onClick={e=>{e.stopPropagation();var wasYou=g.isYou;toggleFav(g.entries[0],wasYou?null:g.entries);setSel(p=>{var n=new Set(p);if(wasYou){g.entries.forEach(d=>n.delete(d))}else{g.entries.forEach(d=>{if(n.size<MAX_SEL)n.add(d)})};return n})}} style={{cursor:'pointer',fontSize:16,color:you?'var(--cy)':'var(--tx3)',transition:'color .15s',lineHeight:1}}>{you?'★':'☆'}</span>
               </div>
             </div>
           })}
