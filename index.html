@@ -280,6 +280,61 @@ function mergeD(n){return DM[n]||n.replace("(Dutchie Rec)","(Rec)").replace("(Du
 function getDisps(p){var s=new Set();p.forEach(function(x){Object.keys(x.dispensaries||{}).forEach(function(d){s.add(d)})});return Array.from(s).sort(function(a,b){if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)})}
 function getYP(p,ac){for(var i=0;i<ac.length;i++){if(p.dispensaries&&p.dispensaries[ac[i]])return p.dispensaries[ac[i]]}return null}
 
+function AboutTab(){
+  var features=[
+    {icon:"📊",title:"Compare Prices",desc:"See every product's price at every dispensary side-by-side. Star your stores to instantly see how your pricing stacks up against the competition — with percentage differences calculated automatically."},
+    {icon:"📈",title:"Highs & Lows",desc:"For every product category and size, see which dispensary has the cheapest and most expensive prices. Identify where you're winning on price and where competitors are undercutting you."},
+    {icon:"🔔",title:"Pricing Alerts",desc:"Track every price change across the market. See which products dropped or increased in price, by how much, and at which dispensary — so you never miss a competitor move."},
+    {icon:"🔍",title:"Product Gaps",desc:"Discover what products your competitors carry that you don't — and what you have that they're missing. Find opportunities to expand your menu or identify unique advantages."},
+    {icon:"🏷️",title:"Deals & Promotions",desc:"Monitor every store-wide promotion your competitors are running — bulk discounts, brand sales, BOGO offers. Stay ahead of their marketing strategies."},
+    {icon:"📦",title:"SKU Tracking",desc:"Track total product counts across the market over time. See how the competitive landscape is growing or shrinking day by day."},
+    {icon:"📄",title:"Competitive Reports",desc:"Generate comprehensive PDF reports comparing any two dispensaries head-to-head — pricing, product overlap, gaps, promotions, and more. Ready to share with your team."}
+  ];
+  return<div style={{maxWidth:900,margin:'0 auto'}}>
+    <div className="pnl" style={{textAlign:'center',padding:'32px 24px',marginBottom:20}}>
+      <img src={ATHENA_LOGO_SM} alt="" style={{width:64,height:64,borderRadius:10,marginBottom:12}}/>
+      <div style={{fontSize:32,fontWeight:800,letterSpacing:4,color:'var(--cy)',fontFamily:'var(--m)'}}>ATHENA</div>
+      <div style={{fontSize:14,letterSpacing:3,color:'var(--tx2)',fontFamily:'var(--m)',marginTop:4}}>CANNABIS PRICING INTELLIGENCE</div>
+      <div style={{fontSize:18,color:'var(--tx)',marginTop:16,lineHeight:1.7,maxWidth:700,margin:'16px auto 0'}}>ATHENA monitors every dispensary menu across Connecticut three times daily, automatically tracking prices, products, and promotions — giving you a real-time competitive edge that no one else has.</div>
+    </div>
+
+    <div className="pnl" style={{marginBottom:20}}>
+      <div className="pnl-t">Why ATHENA?</div>
+      <div style={{fontSize:17,color:'var(--tx)',lineHeight:1.8}}>
+        In the cannabis industry, pricing decisions can make or break your margins. But manually checking competitor menus is time-consuming, inconsistent, and easy to miss. ATHENA automates the entire process — scraping every menu, normalizing the data, and presenting it in a way that turns raw numbers into actionable business intelligence. Instead of guessing what the competition is doing, you know — in real time.
+      </div>
+    </div>
+
+    <div className="pnl" style={{marginBottom:20}}>
+      <div className="pnl-t">What You Get</div>
+      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(380px,1fr))',gap:14}}>
+        {features.map(function(f){return<div key={f.title} style={{background:'var(--bg2)',border:'1px solid var(--bd)',borderRadius:8,padding:'16px 18px'}}>
+          <div style={{fontSize:22,marginBottom:6}}>{f.icon} <span style={{fontSize:17,fontWeight:700,color:'var(--tx)'}}>{f.title}</span></div>
+          <div style={{fontSize:15,color:'var(--tx2)',lineHeight:1.6}}>{f.desc}</div>
+        </div>})}
+      </div>
+    </div>
+
+    <div className="pnl" style={{marginBottom:20}}>
+      <div className="pnl-t">How It Works</div>
+      <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16,textAlign:'center'}}>
+        {[["1","SCRAPE","Three times daily, ATHENA visits every dispensary menu in Connecticut and collects every product, price, and promotion."],
+          ["2","ANALYZE","Raw data is normalized, deduplicated, and cross-referenced — matching products across different naming conventions and menu formats."],
+          ["3","DELIVER","The dashboard updates automatically with fresh data, giving your team instant access to compare, track, and strategize."]
+        ].map(function(s){return<div key={s[0]} style={{padding:'16px 12px'}}>
+          <div style={{width:40,height:40,borderRadius:'50%',background:'var(--cy)',color:'#fff',display:'inline-flex',alignItems:'center',justifyContent:'center',fontSize:20,fontWeight:800,marginBottom:10}}>{s[0]}</div>
+          <div style={{fontSize:15,fontWeight:700,color:'var(--tx)',fontFamily:'var(--m)',letterSpacing:1,marginBottom:6}}>{s[1]}</div>
+          <div style={{fontSize:14,color:'var(--tx2)',lineHeight:1.6}}>{s[2]}</div>
+        </div>})}
+      </div>
+    </div>
+
+    <div className="pnl" style={{marginBottom:20,textAlign:'center',padding:'24px'}}>
+      <div style={{fontSize:16,color:'var(--tx2)',fontFamily:'var(--m)',letterSpacing:1}}>INSIGHT. PRECISION. EDGE.</div>
+    </div>
+  </div>;
+}
+
 function App(){
   var[data,setData]=useState(null);var[err,setErr]=useState(null);var[tab,setTab]=useState("intel");
   var[q,setQ]=useState("");var[sel,setSel]=useState(new Set());var[cat,setCat]=useState("All");var[comp,setComp]=useState(true);var[radius,setRadius]=useState(10);
@@ -300,7 +355,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(LoadingScreen,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Pricing Alerts"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
   var tabDescs={
     intel:"Select dispensaries to compare side-by-side. Star ★ your stores to see % price differences. Search any product to find who carries it and at what price.",
     highlow:"View the cheapest and most expensive prices for every product across selected dispensaries. ★ starred stores show % differences. Promo prices displayed separately.",
@@ -321,6 +376,7 @@ function App(){
     tab==="deals"&&React.createElement(DealsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
     tab==="disps"&&React.createElement(DispsTab,{data:data,favsVer:favsVer,toggleFav:toggleFav}),
     tab==="report"&&React.createElement(ReportTab,{data:data,favsVer:favsVer}),
+    tab==="about"&&React.createElement(AboutTab,null),
     React.createElement(Ftr,{d:data})
   );
 }
