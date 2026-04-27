@@ -290,18 +290,41 @@ function AboutTab(){
     {icon:"📦",title:"SKU Tracking",desc:"Track total product counts across the market over time. See how the competitive landscape is growing or shrinking day by day."},
     {icon:"📄",title:"Competitive Reports",desc:"Generate comprehensive PDF reports comparing any two dispensaries head-to-head — pricing, product overlap, gaps, promotions, and more. Ready to share with your team."}
   ];
+  var faqs=[
+    {q:"What is ATHENA?",a:"ATHENA is a cannabis pricing intelligence platform built for Connecticut dispensaries. It gathers publicly available menu data from dispensaries across the state and organizes it into an interactive dashboard where you can compare prices, track changes, identify product gaps, and generate competitive reports."},
+    {q:"How often is the data updated?",a:"ATHENA gathers fresh data daily from every dispensary menu in Connecticut. The dashboard automatically reflects the latest available information each time you log in."},
+    {q:"How do I mark my dispensary?",a:"Click the ★ star icon next to any dispensary in the Compare Dispensaries panel. This marks it as \"yours\" and highlights it in orange across all tabs. Your starred stores will show percentage differences against competitors so you can instantly see how your pricing compares."},
+    {q:"Can I star multiple dispensaries?",a:"Yes. If you operate multiple locations or menus (Med and Rec), you can star all of them. When you click the star, it automatically selects both the Med and Rec menus for that location."},
+    {q:"What does the Compare Prices tab do?",a:"It shows a side-by-side table of every product across your selected dispensaries. Each column is a dispensary, each row is a product. Your starred stores appear in orange, and competitor prices show green (you're cheaper) or red (they're cheaper) percentage differences so you can spot pricing opportunities at a glance."},
+    {q:"How do I select dispensaries to compare?",a:"In the Compare Dispensaries panel (right side), click on any dispensary name or row to select it. You can also use the MED/REC buttons to toggle individual menus, use the search bar to filter by name, or click Mine to select all your starred stores. Maximum 15 dispensaries can be compared at once."},
+    {q:"What does the Highs/Lows tab show?",a:"For each product category and size (e.g., 3.5g Flower, 1g Vape), it shows every selected dispensary's lowest-priced and highest-priced product. This tells you who has the cheapest and most expensive options in each category. Hover over any price to see which specific product it is and how it compares to your price."},
+    {q:"What do the percentage colors mean in Highs/Lows?",a:"Red percentages mean that competitor's price is lower than yours — they're beating you on price. Green percentages mean their price is higher — you have the advantage. No percentage shown means it's your store (the baseline for comparison)."},
+    {q:"What are Pricing Alerts?",a:"The Pricing Alerts tab shows every product that changed price since the last data update. Price drops appear in the red column on the left, price increases in the green column on the right. Each alert shows the old price, new price, and percentage change."},
+    {q:"What are Product Gaps?",a:"Product Gaps shows products that your competitors carry but you don't. This helps you identify what you might be missing from your menu. Star your dispensaries first, then select competitors to compare against."},
+    {q:"What does the Deals tab show?",a:"The Deals tab displays all active store-wide promotions each dispensary is running — things like \"20% off all Brix\" or \"Buy 4 eighths, get 20% off.\" Use this to monitor what promotions your competitors are offering."},
+    {q:"What is the SKUs tab?",a:"The SKUs tab shows detailed product counts for each dispensary. Click any dispensary to see a breakdown by category with visual comparison bars. If you have a starred store, it compares your SKU counts and average prices against the selected dispensary."},
+    {q:"How do I generate a competitive report?",a:"Go to the Report tab, select a Home Dispensary and a Competitor from the searchable dropdowns, then click Generate Report. ATHENA will create a comprehensive side-by-side analysis including pricing comparisons, product overlaps, category breakdowns, and active promotions. Click Export PDF to download a business-ready document."},
+    {q:"What does the map do?",a:"The Connecticut dispensary map shows the location of every dispensary being tracked. Click any point on the map to set a center, then use the radius slider to draw a circle — all dispensaries within that radius will be automatically selected for comparison."},
+    {q:"How does the radius filter work?",a:"After clicking a point on the map, drag the radius slider (1–60 miles) to define a geographic area. Every dispensary within that circle gets selected automatically. This is useful for comparing only nearby competitors."},
+    {q:"What does the Total SKUs box track?",a:"The Total SKUs stat on the main page shows the current number of unique products across all dispensaries. It also tracks daily counts for the past 7 days so you can see how the overall market inventory is trending."},
+    {q:"Can multiple people use ATHENA at the same time?",a:"Yes. Every user gets their own independent session. Your starred stores, selected dispensaries, searches, and generated reports are all private to your browser. Multiple team members can use the dashboard simultaneously without any conflicts."},
+    {q:"Does ATHENA work on mobile?",a:"ATHENA is optimized for desktop and laptop screens since it's a data-heavy tool. It will work on mobile devices but the experience is best on a larger screen where you can see full comparison tables and reports."},
+    {q:"What is the intro video that plays on login?",a:"The intro video plays once when you first log in. You can click anywhere on the video banner to skip it and go straight to the honeycomb background. On subsequent page loads, it won't play again unless you log in fresh."},
+    {q:"What does the ACQUIRING INTEL meter mean?",a:"During scheduled data collection windows, the banner switches to show an animated progress meter labeled ACQUIRING INTEL. This indicates that fresh data is being gathered. The meter fills from 0% to 100% over the collection period, then the banner returns to the honeycomb background."}
+  ];
+  var[openFaq,setOpenFaq]=useState(null);
   return<div style={{maxWidth:900,margin:'0 auto'}}>
     <div className="pnl" style={{textAlign:'center',padding:'32px 24px',marginBottom:20}}>
       <img src={ATHENA_LOGO_SM} alt="" style={{width:64,height:64,borderRadius:10,marginBottom:12}}/>
       <div style={{fontSize:32,fontWeight:800,letterSpacing:4,color:'var(--cy)',fontFamily:'var(--m)'}}>ATHENA</div>
       <div style={{fontSize:14,letterSpacing:3,color:'var(--tx2)',fontFamily:'var(--m)',marginTop:4}}>CANNABIS PRICING INTELLIGENCE</div>
-      <div style={{fontSize:18,color:'var(--tx)',marginTop:16,lineHeight:1.7,maxWidth:700,margin:'16px auto 0'}}>ATHENA monitors every dispensary menu across Connecticut three times daily, automatically tracking prices, products, and promotions — giving you a real-time competitive edge that no one else has.</div>
+      <div style={{fontSize:18,color:'var(--tx)',marginTop:16,lineHeight:1.7,maxWidth:700,margin:'16px auto 0'}}>ATHENA gathers publicly available menu data from every dispensary across Connecticut daily, automatically tracking prices, products, and promotions — giving you a real-time competitive edge that no one else has.</div>
     </div>
 
     <div className="pnl" style={{marginBottom:20}}>
       <div className="pnl-t">Why ATHENA?</div>
       <div style={{fontSize:17,color:'var(--tx)',lineHeight:1.8}}>
-        In the cannabis industry, pricing decisions can make or break your margins. But manually checking competitor menus is time-consuming, inconsistent, and easy to miss. ATHENA automates the entire process — scraping every menu, normalizing the data, and presenting it in a way that turns raw numbers into actionable business intelligence. Instead of guessing what the competition is doing, you know — in real time.
+        In the cannabis industry, pricing decisions can make or break your margins. But manually checking competitor menus is time-consuming, inconsistent, and easy to miss. ATHENA automates the entire process — collecting data from every menu, normalizing it, and presenting it in a way that turns raw numbers into actionable business intelligence. Instead of guessing what the competition is doing, you know — in real time.
       </div>
     </div>
 
@@ -318,8 +341,8 @@ function AboutTab(){
     <div className="pnl" style={{marginBottom:20}}>
       <div className="pnl-t">How It Works</div>
       <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16,textAlign:'center'}}>
-        {[["1","SCRAPE","Three times daily, ATHENA visits every dispensary menu in Connecticut and collects every product, price, and promotion."],
-          ["2","ANALYZE","Raw data is normalized, deduplicated, and cross-referenced — matching products across different naming conventions and menu formats."],
+        {[["1","COLLECT","Daily, ATHENA gathers publicly available menu data from every dispensary in Connecticut — every product, price, and promotion."],
+          ["2","ANALYZE","Raw data is normalized, cleaned, and cross-referenced — matching products across different naming conventions and menu formats."],
           ["3","DELIVER","The dashboard updates automatically with fresh data, giving your team instant access to compare, track, and strategize."]
         ].map(function(s){return<div key={s[0]} style={{padding:'16px 12px'}}>
           <div style={{width:40,height:40,borderRadius:'50%',background:'var(--cy)',color:'#fff',display:'inline-flex',alignItems:'center',justifyContent:'center',fontSize:20,fontWeight:800,marginBottom:10}}>{s[0]}</div>
@@ -327,6 +350,17 @@ function AboutTab(){
           <div style={{fontSize:14,color:'var(--tx2)',lineHeight:1.6}}>{s[2]}</div>
         </div>})}
       </div>
+    </div>
+
+    <div className="pnl" style={{marginBottom:20}}>
+      <div className="pnl-t">Frequently Asked Questions</div>
+      <div>{faqs.map(function(f,i){var isOpen=openFaq===i;return<div key={i} style={{borderBottom:'1px solid var(--bd)'}}>
+        <div onClick={function(){setOpenFaq(isOpen?null:i)}} style={{padding:'14px 4px',cursor:'pointer',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+          <span style={{fontSize:16,fontWeight:600,color:'var(--tx)'}}>{f.q}</span>
+          <span style={{fontSize:20,color:'var(--cy)',fontWeight:700,flexShrink:0,marginLeft:12}}>{isOpen?"−":"+"}</span>
+        </div>
+        {isOpen&&<div style={{padding:'0 4px 16px',fontSize:15,color:'var(--tx2)',lineHeight:1.7}}>{f.a}</div>}
+      </div>})}</div>
     </div>
 
     <div className="pnl" style={{marginBottom:20,textAlign:'center',padding:'24px'}}>
