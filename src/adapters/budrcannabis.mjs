@@ -217,20 +217,22 @@ export async function scrapeBUDRCannabis(dispensary) {
     var page = await context.newPage();
     var interceptedProducts = [];
 
-    // ─── Intercept Jane API responses to capture product data ───
+    // ─── Intercept ALL API responses from Jane embed ───
+    var apiUrls = [];
     page.on('response', async function(response) {
       try {
         var rUrl = response.url();
-        if (rUrl.includes('iheartjane.com') && (rUrl.includes('/products') || rUrl.includes('/menu_products') || rUrl.includes('/menu_items'))) {
-          var ct = response.headers()['content-type'] || '';
-          if (ct.includes('json') && response.status() === 200) {
+        var ct = response.headers()['content-type'] || '';
+        if (ct.includes('json') && response.status() === 200 && !rUrl.includes('.js') && !rUrl.includes('analytics') && !rUrl.includes('tracking')) {
+          apiUrls.push(rUrl.substring(0, 120));
+          try {
             var body = await response.json();
-            var items = body.data || body.products || body.menu_products || body.items || [];
-            if (Array.isArray(items)) {
+            var items = body.data || body.products || body.menu_products || body.items || body.results || [];
+            if (Array.isArray(items) && items.length > 0 && items[0] && (items[0].name || items[0].product_name || items[0].title)) {
+              console.log('  [budrcannabis] ✓ Found products in: ' + rUrl.substring(0, 100) + ' (' + items.length + ' items)');
               for (var ix = 0; ix < items.length; ix++) interceptedProducts.push(items[ix]);
-              console.log('  [budrcannabis] Intercepted API batch: ' + items.length + ' (total: ' + interceptedProducts.length + ')');
             }
-          }
+          } catch(e) {}
         }
       } catch(e) {}
     });
@@ -253,6 +255,8 @@ export async function scrapeBUDRCannabis(dispensary) {
       console.log('  [budrcannabis] Loading All Products: ' + allUrl);
       await page.goto(allUrl, { waitUntil: 'networkidle', timeout: 60000 });
       await page.waitForTimeout(10000);
+      console.log('  [budrcannabis] API URLs seen (' + apiUrls.length + '): ' + apiUrls.slice(0, 10).join(' | '));
+      console.log('  [budrcannabis] Intercepted products so far: ' + interceptedProducts.length);
 
       // Step 3: Wait for shadow DOM to fully load, then get total product count
       await page.waitForTimeout(5000);

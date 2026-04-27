@@ -277,26 +277,35 @@ export async function scrapeJane(dispensary) {
       try {
         page = await context.newPage();
 
-        // ─── Intercept API responses to capture product data ───
+        // ─── Intercept ALL API responses to capture product data ───
+        var apiUrls = [];
         page.on('response', async function(response) {
           try {
             var rUrl = response.url();
-            if (rUrl.includes('/products') || rUrl.includes('/menu_products') || rUrl.includes('/menu_items')) {
-              var ct = response.headers()['content-type'] || '';
-              if (ct.includes('json') && response.status() === 200) {
+            var ct = response.headers()['content-type'] || '';
+            // Log all JSON API calls for diagnostics
+            if (ct.includes('json') && response.status() === 200 && !rUrl.includes('.js') && !rUrl.includes('analytics') && !rUrl.includes('tracking')) {
+              apiUrls.push(rUrl.substring(0, 120));
+              // Try to extract products from ANY JSON response
+              try {
                 var body = await response.json();
-                var items = body.data || body.products || body.menu_products || body.items || [];
-                if (Array.isArray(items)) {
+                var items = body.data || body.products || body.menu_products || body.items || body.results || [];
+                if (Array.isArray(items) && items.length > 0 && items[0] && (items[0].name || items[0].product_name || items[0].title)) {
+                  console.log('  [jane] ✓ Found products in: ' + rUrl.substring(0, 100) + ' (' + items.length + ' items)');
                   for (var ix = 0; ix < items.length; ix++) interceptedProducts.push(items[ix]);
                 }
-              }
+              } catch(e) {}
             }
           } catch(e) {}
         });
 
         await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
         await page.waitForTimeout(10000);
-        console.log('  [jane] Page loaded, intercepted so far: ' + interceptedProducts.length);
+        var pageTitle = await page.title();
+        var pageUrl = page.url();
+        console.log('  [jane] Page loaded: "' + pageTitle + '" at ' + pageUrl);
+        console.log('  [jane] Intercepted products so far: ' + interceptedProducts.length);
+        console.log('  [jane] API URLs seen (' + apiUrls.length + '): ' + apiUrls.slice(0, 10).join(' | '));
 
         // Dismiss age gate
         try {
@@ -411,6 +420,8 @@ export async function scrapeJane(dispensary) {
           }
           await page.waitForTimeout(3000);
           var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });
+          console.log('  [jane] Page text length: ' + fullText.length + ' chars');
+          console.log('  [jane] Page text preview: ' + fullText.substring(0, 300).replace(/\n/g, ' | '));
           var textProducts = parseJaneProducts(fullText);
           for (var p = 0; p < textProducts.length; p++) {
             var key = textProducts[p].external_id;
