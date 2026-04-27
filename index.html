@@ -907,12 +907,12 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
               var lpct=homeLP&&!dd.isHome?Math.round((dd.low.price-homeLP)/homeLP*100):null;
               var hpct=homeHP&&!dd.isHome?Math.round((dd.high.price-homeHP)/homeHP*100):null;
               var lTip=dd.isHome?"Your lowest: "+dd.low.name:"$"+dd.low.price.toFixed(2)+" for "+dd.low.name+(homeLP?" vs your $"+homeLP.toFixed(2):"");
-              var hTip=dd.isHome?"Your highest: "+dd.high.name:(dd.high.price!==dd.low.price?"$"+dd.high.price.toFixed(2)+" for "+dd.high.name+(homeHP?" vs your $"+homeHP.toFixed(2):""):"");
+              var hTip=dd.isHome?"Your highest: "+dd.high.name:"$"+dd.high.price.toFixed(2)+" for "+dd.high.name+(homeHP?" vs your $"+homeHP.toFixed(2):"");
               return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
                 <td style={{padding:'7px 8px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:15}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
                 <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={lTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:13,marginLeft:4,color:lpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.low.name}</div></td>
-                <td style={{textAlign:'left',padding:'7px 8px',cursor:dd.high.price!==dd.low.price?'pointer':'default'}} title={hTip}>{dd.high.price!==dd.low.price?<div><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:13,marginLeft:4,color:hpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.high.name}</div></div>:<span style={{color:'var(--tx3)'}}>—</span>}</td>
-                <td style={{textAlign:'center',padding:'7px 8px',color:'var(--cy)',fontSize:15,fontWeight:600}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
+                <td style={{textAlign:'left',padding:'7px 8px',cursor:'pointer'}} title={hTip}><div><span style={{color:'var(--tx)',fontWeight:600,fontSize:16}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:13,marginLeft:4,color:hpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</div><div style={{fontSize:12,color:'var(--tx3)',marginTop:2,whiteSpace:'normal',wordBreak:'break-word'}}>{dd.high.name}</div></td>
+                <td style={{textAlign:'center',padding:'7px 8px',color:'var(--cy)',fontSize:15,fontWeight:600}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"$0.00"}</td>
               </tr>})}</tbody>
           </table>}
         </div>})}</div>
