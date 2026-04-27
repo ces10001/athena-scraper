@@ -835,7 +835,8 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
             var disp=e[0],price=e[1];
             if(sel.size>0&&!sel.has(disp))return;
             var dealPrice=dealsMap[p.name+"|"+disp]||null;
-            matches.push({name:p.name,brand:p.brand,disp:disp,price:price,dealPrice:dealPrice,isHome:affSet.has(disp)});
+            var effectivePrice=dealPrice&&dealPrice<price?dealPrice:price;
+            matches.push({name:p.name,brand:p.brand,disp:disp,price:effectivePrice,isPromo:dealPrice&&dealPrice<price,isHome:affSet.has(disp)});
           });
         });
         if(matches.length===0){sectionResults.buckets.push({label:bucket.label,count:0,byDisp:[]});return}
@@ -861,7 +862,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
         <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
         
       </div>
-      <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. ★ starred stores display % price differences against competitors. Deal prices shown separately when a promotion makes a product cheaper.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
+      <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. ★ starred stores display % price differences against competitors.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
       {analysis.map(function(s){return<div key={s.section} className="hl-section">
         <div className="hl-section-title">{s.section}</div>
         <div className="hl-grid">{s.buckets.map(function(b){
