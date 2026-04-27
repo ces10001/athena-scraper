@@ -440,11 +440,6 @@ function App(){
   };
   return React.createElement("div",{className:"app"},
     React.createElement(VideoCarousel,null),
-    React.createElement("div",{style:{display:'flex',justifyContent:'flex-end',alignItems:'center',gap:12,padding:'8px 0'}},
-      React.createElement("span",{style:{fontSize:12,color:'var(--tx3)',fontFamily:'var(--m)'}},sessionStorage.getItem('athena_email')||''),
-      sessionStorage.getItem('athena_role')==='admin'?React.createElement("a",{href:'admin.html',style:{fontSize:12,color:'var(--cy)',fontFamily:'var(--m)',textDecoration:'none',letterSpacing:1}},"ADMIN"):null,
-      React.createElement("button",{onClick:function(){if(typeof athenaLogout==='function')athenaLogout()},style:{padding:'6px 14px',background:'transparent',border:'1px solid var(--bd)',borderRadius:6,color:'var(--tx2)',fontSize:12,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1}},"LOGOUT")
-    ),
     React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[0]==="alerts"?React.createElement("span",null,"Discounts ",React.createElement("span",{style:{color:"var(--gn)"}},"▲"),React.createElement("span",{style:{color:"var(--rd)"}},"▼")):t[1])})),
     React.createElement("div",{className:"pnl-d",style:{margin:"0 0 16px 0"}},tabDescs[tab]),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius,favsVer:favsVer,toggleFav:toggleFav}),
@@ -657,8 +652,9 @@ function VideoCarousel(){
       </div>
     </div>}
     <div style={{position:'absolute',bottom:10,left:14,zIndex:2,display:'flex',alignItems:'center',gap:10}}>
-      <span style={{fontSize:11,color:'rgba(255,255,255,0.45)',fontFamily:'var(--m)'}}>{sessionStorage.getItem('athena_email')||''}</span>
-      <button onClick={function(e){e.stopPropagation();if(typeof athenaLogout==='function')athenaLogout()}} style={{padding:'4px 12px',background:'rgba(0,0,0,0.5)',border:'1px solid rgba(255,255,255,0.15)',borderRadius:5,color:'rgba(255,255,255,0.5)',fontSize:10,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1,backdropFilter:'blur(4px)'}}>LOGOUT</button>
+      <span style={{fontSize:12,color:'#e8600a',fontFamily:'var(--m)',fontWeight:600,textShadow:'0 1px 4px rgba(0,0,0,0.6)'}}>{sessionStorage.getItem('athena_email')||''}</span>
+      {sessionStorage.getItem('athena_role')==='admin'&&<a href="admin.html" onClick={function(e){e.stopPropagation()}} style={{padding:'4px 12px',background:'rgba(232,96,10,0.2)',border:'1px solid rgba(232,96,10,0.5)',borderRadius:5,color:'#e8600a',fontSize:11,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1,textDecoration:'none',fontWeight:600}}>ADMIN</a>}
+      <button onClick={function(e){e.stopPropagation();if(typeof athenaLogout==='function')athenaLogout()}} style={{padding:'4px 12px',background:'rgba(232,96,10,0.15)',border:'1px solid rgba(232,96,10,0.4)',borderRadius:5,color:'#e8600a',fontSize:11,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1,fontWeight:600}}>LOGOUT</button>
     </div>
   </div>;
 }
