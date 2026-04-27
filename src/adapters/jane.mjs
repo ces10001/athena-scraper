@@ -275,8 +275,8 @@ export async function scrapeJane(dispensary) {
       var page = null;
       try {
         page = await context.newPage();
-        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(8000);
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+        await page.waitForTimeout(10000);
 
         // Dismiss age gate — try multiple button texts
         try {

@@ -218,8 +218,8 @@ export async function scrapeBUDRCannabis(dispensary) {
 
     try {
       // Step 1: Load store page and pass age gate
-      await page.goto(dispensary.store_url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(5000);
+      await page.goto(dispensary.store_url, { waitUntil: 'networkidle', timeout: 60000 });
+      await page.waitForTimeout(8000);
       try {
         var ageBtn = page.locator('button:has-text("Yes"), a:has-text("Yes")').first();
         if (await ageBtn.isVisible({ timeout: 3000 })) {
@@ -232,8 +232,8 @@ export async function scrapeBUDRCannabis(dispensary) {
       // Step 2: Navigate to /menu/all to see ALL products
       var allUrl = dispensary.store_url.replace(/\/?$/, '/') + 'menu/all';
       console.log('  [budrcannabis] Loading All Products: ' + allUrl);
-      await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(8000);
+      await page.goto(allUrl, { waitUntil: 'networkidle', timeout: 60000 });
+      await page.waitForTimeout(10000);
 
       // Step 3: Wait for shadow DOM to fully load, then get total product count
       await page.waitForTimeout(5000);
@@ -328,8 +328,8 @@ export async function scrapeBUDRCannabis(dispensary) {
         for (var ci = 0; ci < categories.length; ci++) {
           var catUrl = dispensary.store_url.replace(/\/?$/, '/') + 'menu/' + categories[ci];
           try {
-            await page.goto(catUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
-            await page.waitForTimeout(6000);
+            await page.goto(catUrl, { waitUntil: 'networkidle', timeout: 30000 });
+            await page.waitForTimeout(8000);
             // Click View more in this category
             for (var vm = 0; vm < 30; vm++) {
               var clicked2 = await page.evaluate(function() {
@@ -368,8 +368,8 @@ export async function scrapeBUDRCannabis(dispensary) {
       // Step 8: If STILL low, try reload and re-scrape once
       if (rawProducts.length < 50) {
         console.log('  [budrcannabis] Still low, retrying with fresh page load...');
-        await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-        await page.waitForTimeout(12000);
+        await page.goto(allUrl, { waitUntil: 'networkidle', timeout: 60000 });
+        await page.waitForTimeout(15000);
         // Click View more aggressively
         for (var retry = 0; retry < 40; retry++) {
           var clickedR = await page.evaluate(function() {
