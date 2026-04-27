@@ -874,18 +874,20 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
           <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
             <thead><tr style={{borderBottom:'1px solid var(--bd)',fontSize:10,color:'var(--tx2)'}}>
               <th style={{textAlign:'left',padding:'4px 6px',fontWeight:600}}>DISPENSARY</th>
-              <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>LOW</th>
-              <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>HIGH</th>
+              <th style={{textAlign:'left',padding:'4px 6px',fontWeight:600}}>LOW</th>
+              <th style={{textAlign:'left',padding:'4px 6px',fontWeight:600}}>HIGH</th>
               <th style={{textAlign:'center',padding:'4px 6px',fontWeight:600}}>SPREAD</th>
             </tr></thead>
             <tbody>{b.byDisp.map(function(dd){
               var lpct=homeLP&&!dd.isHome?Math.round((dd.low.price-homeLP)/homeLP*100):null;
               var hpct=homeHP&&!dd.isHome?Math.round((dd.high.price-homeHP)/homeHP*100):null;
+              var lTip=dd.isHome?"Your lowest: "+dd.low.name:"$"+dd.low.price.toFixed(2)+" for "+dd.low.name+(homeLP?" vs your $"+homeLP.toFixed(2):"");
+              var hTip=dd.isHome?"Your highest: "+dd.high.name:(dd.high.price!==dd.low.price?"$"+dd.high.price.toFixed(2)+" for "+dd.high.name+(homeHP?" vs your $"+homeHP.toFixed(2):""):"");
               return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
                 <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:200,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
-                <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
-                <td style={{textAlign:'center',padding:'5px 6px'}}>{dd.high.price!==dd.low.price?<span><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</span>:<span style={{color:'var(--tx3)'}}>—</span>}</td>
-                <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
+                <td style={{textAlign:'left',padding:'5px 6px',cursor:'pointer'}} title={lTip}><div><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:10,marginLeft:3,color:lpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</div><div style={{fontSize:9,color:'var(--tx3)',maxWidth:140,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.low.name}</div></td>
+                <td style={{textAlign:'left',padding:'5px 6px',cursor:dd.high.price!==dd.low.price?'pointer':'default'}} title={hTip}>{dd.high.price!==dd.low.price?<div><div><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:10,marginLeft:3,color:hpct<0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</div><div style={{fontSize:9,color:'var(--tx3)',maxWidth:140,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.high.name}</div></div>:<span style={{color:'var(--tx3)'}}>—</span>}</td>
+                <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11,fontWeight:600}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
               </tr>})}</tbody>
           </table>}
         </div>})}</div>
