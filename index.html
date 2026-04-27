@@ -334,7 +334,7 @@ function AboutTab(){
   var features=[
     {icon:"📊",title:"Compare Prices",desc:"See every product's price at every dispensary side-by-side. Star your stores to instantly see how your pricing stacks up against the competition — with percentage differences calculated automatically."},
     {icon:"📈",title:"Highs & Lows",desc:"For every product category and size, see which dispensary has the cheapest and most expensive prices. Identify where you're winning on price and where competitors are undercutting you."},
-    {icon:"🔔",title:"Discounts",desc:"Track every price change across the market. See which products dropped or increased in price, by how much, and at which dispensary — so you never miss a competitor move."},
+    {icon:"🔔",title:"Price Drops/Increases",desc:"Track every price change across the market. See which products dropped or increased in price, by how much, and at which dispensary — so you never miss a competitor move."},
     {icon:"🔍",title:"Product Gaps",desc:"Discover what products your competitors carry that you don't — and what you have that they're missing. Find opportunities to expand your menu or identify unique advantages."},
     {icon:"🏷️",title:"Deals & Promotions",desc:"Monitor every store-wide promotion your competitors are running — bulk discounts, brand sales, BOGO offers. Stay ahead of their marketing strategies."},
     {icon:"📦",title:"SKU Tracking",desc:"Track total product counts across the market over time. See how the competitive landscape is growing or shrinking day by day."},
@@ -349,7 +349,7 @@ function AboutTab(){
     {q:"How do I select dispensaries to compare?",a:"In the Compare Dispensaries panel (right side), click on any dispensary name or row to select it. You can also use the MED/REC buttons to toggle individual menus, use the search bar to filter by name, or click Mine to select all your starred stores. Maximum 15 dispensaries can be compared at once."},
     {q:"What does the Highs/Lows tab show?",a:"For each product category and size (e.g., 3.5g Flower, 1g Vape), it shows every selected dispensary's lowest-priced and highest-priced product. This tells you who has the cheapest and most expensive options in each category. Hover over any price to see which specific product it is and how it compares to your price."},
     {q:"What do the percentage colors mean in Highs/Lows?",a:"Red percentages mean that competitor's price is lower than yours — they're beating you on price. Green percentages mean their price is higher — you have the advantage. No percentage shown means it's your store (the baseline for comparison)."},
-    {q:"What are Discounts?",a:"The Discounts tab shows every product that changed price since the last data update. Price drops appear in the red column on the left, price increases in the green column on the right. Each alert shows the old price, new price, and percentage change."},
+    {q:"What does Price Drops/Increases show?",a:"The Price Drops/Increases tab shows every product that changed price since the last data update. Price drops appear in the red column on the left, price increases in the green column on the right. Each alert shows the old price, new price, and percentage change."},
     {q:"What are Product Gaps?",a:"Product Gaps shows products that your competitors carry but you don't. This helps you identify what you might be missing from your menu. Star your dispensaries first, then select competitors to compare against."},
     {q:"What does the Deals tab show?",a:"The Deals tab displays all active store-wide promotions each dispensary is running — things like \"20% off all Brix\" or \"Buy 4 eighths, get 20% off.\" Use this to monitor what promotions your competitors are offering."},
     {q:"What is the SKUs tab?",a:"The SKUs tab shows detailed product counts for each dispensary. Click any dispensary to see a breakdown by category with visual comparison bars. If you have a starred store, it compares your SKU counts and average prices against the selected dispensary."},
@@ -444,7 +444,7 @@ function App(){
   },[]);
   if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
   if(!data)return React.createElement(LoadingScreen,null);
-  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Discounts ▲▼"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
+  var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Price Drops/Increases"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
   var tabDescs={
     intel:"Select dispensaries to compare side-by-side. Star ★ your stores to see % price differences. Search any product to find who carries it and at what price.",
     highlow:"View the cheapest and most expensive prices for every product across selected dispensaries. ★ starred stores show % differences. Promo prices displayed separately.",
@@ -456,7 +456,7 @@ function App(){
   };
   return React.createElement("div",{className:"app"},
     React.createElement(VideoCarousel,null),
-    React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[0]==="alerts"?React.createElement("span",null,"Discounts ",React.createElement("span",{style:{color:"var(--gn)"}},"▲"),React.createElement("span",{style:{color:"var(--rd)"}},"▼")):t[1])})),
+    React.createElement("div",{className:"tabs"},tabs.map(function(t){return React.createElement("div",{key:t[0],className:"tab "+(tab===t[0]?"on":""),onClick:function(){setTab(t[0])}},t[0]==="alerts"?React.createElement("span",null,"Price Drops/Increases ",React.createElement("span",{style:{color:"var(--rd)"}},"\u25BC"),React.createElement("span",{style:{color:"var(--gn)"}},"\u25B2")):t[1])})),
     React.createElement("div",{className:"pnl-d",style:{margin:"0 0 16px 0"}},tabDescs[tab]),
     tab==="intel"&&React.createElement(IntelTab,{data:data,q:q,setQ:setQ,sel:sel,setSel:setSel,cat:cat,setCat:setCat,comp:comp,setComp:setComp,radius:radius,setRadius:setRadius,favsVer:favsVer,toggleFav:toggleFav}),
     tab==="highlow"&&React.createElement(HighLowTab,{data:data,favsVer:favsVer,toggleFav:toggleFav,sel:sel,setSel:setSel}),
@@ -1675,21 +1675,25 @@ function ReportTab({data,favsVer}){
   function exportPDF(){
     var el=document.getElementById('athena-report');if(!el)return;
     
-    // Create a style element to force PDF-friendly layout
-    var pdfStyle=document.createElement('style');
-    pdfStyle.id='athena-pdf-style';
-    pdfStyle.textContent='#athena-report{max-width:650px!important;padding:20px!important;font-size:11px!important;box-sizing:border-box!important}'+
-      '#athena-report table{width:100%!important;table-layout:fixed!important;font-size:10px!important;word-break:break-word!important}'+
-      '#athena-report th,#athena-report td{padding:4px 5px!important;overflow:hidden!important;text-overflow:ellipsis!important;word-break:break-word!important;white-space:normal!important}'+
-      '#athena-report th:first-child,#athena-report td:first-child{max-width:140px!important}'+
-      '#athena-report img{max-width:50px!important;max-height:50px!important}'+
-      '#athena-report div[style*="display: flex"]{flex-wrap:wrap!important}'+
-      '#athena-report div[style*="display:flex"]{flex-wrap:wrap!important}';
-    document.head.appendChild(pdfStyle);
+    // Create a clone to avoid layout issues
+    var clone=el.cloneNode(true);
+    clone.style.width='650px';
+    clone.style.maxWidth='650px';
+    clone.style.overflow='visible';
+    clone.style.position='absolute';
+    clone.style.left='-9999px';
+    clone.style.top='0';
+    clone.style.background='#fff';
+    clone.style.color='#1a1a1a';
+    clone.style.padding='20px';
+    clone.style.fontSize='11px';
+    document.body.appendChild(clone);
     
-    var opt={margin:[10,8,10,8],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.92},html2canvas:{scale:2,useCORS:true,width:650,windowWidth:650},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['avoid-all','css','legacy']}};
-    html2pdf().set(opt).from(el).save().then(function(){
-      var s=document.getElementById('athena-pdf-style');if(s)s.remove();
+    var opt={margin:[10,8,10,8],filename:'ATHENA_Report_'+report.hName.replace(/\s/g,'_')+'_vs_'+report.cName.replace(/\s/g,'_')+'.pdf',image:{type:'jpeg',quality:0.92},html2canvas:{scale:2,useCORS:true,logging:false},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['avoid-all','css','legacy']}};
+    html2pdf().set(opt).from(clone).save().then(function(){
+      document.body.removeChild(clone);
+    }).catch(function(){
+      document.body.removeChild(clone);
     });
   }
 
@@ -1922,7 +1926,7 @@ function ReportTab({data,favsVer}){
               var sorted=moves.slice().sort(function(a,b){return(b.pct_off||0)-(a.pct_off||0)});
               return<div key={s[0]} style={{flex:1,minWidth:250}}>
                 <div style={{fontWeight:700,color:s[2],fontSize:15,marginBottom:8}}>{s[0]} ({moves.length} discounted)</div>
-                {moves.length===0?<div style={{color:'#888',fontSize:13}}>No active product discounts.</div>:
+                {moves.length===0?<div style={{color:'#888',fontSize:13}}>No price drops or increases detected.</div>:
                 <table style={{width:'100%',borderCollapse:'collapse',fontSize:12}}>
                   <thead><tr style={{borderBottom:'1px solid #ddd'}}><th style={{textAlign:'left',padding:'4px 6px'}}>Product</th><th style={{padding:'4px 6px'}}>Was</th><th style={{padding:'4px 6px'}}>Now</th><th style={{padding:'4px 6px'}}>Off</th></tr></thead>
                   <tbody>{sorted.map(function(m,i){return<tr key={i} style={{borderBottom:'1px solid #f0f0f0'}}>
