@@ -144,7 +144,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 .detail-row.you-row{background:rgba(232,96,10,.06);border-left:3px solid var(--cy)}
 .detail-row .dr-name{font-weight:500;flex:1}
 .detail-row .dr-price{font-family:var(--m);font-weight:600;min-width:70px;text-align:right}
-.detail-row .dr-price.cheapest{color:var(--gn)}.detail-row .dr-price.priciest{color:var(--rd)}
+.detail-row .dr-price.cheapest{color:var(--rd)}.detail-row .dr-price.priciest{color:var(--gn)}
 @media(max-width:900px){.g2{grid-template-columns:1fr}}
 @media(max-width:640px){.hdr{flex-direction:column;align-items:flex-start}.stats{grid-template-columns:repeat(2,1fr)}.tabs{flex-wrap:wrap}}
 
@@ -689,7 +689,7 @@ function ProductDetail({product}){
       else if(price===maxP&&entries.length>1)cls+=" priciest";
       return<div key={disp} className={"detail-row"+(you?" you-row":"")}>
         <span className="dr-name">{you?"★ ":""}{cleanD(disp)}</span>
-        <span className={cls}>${price.toFixed(2)}{price===minP&&entries.length>1?<span className="df up"> LOWEST</span>:null}{price===maxP&&entries.length>1&&price!==minP?<span className="df dn"> HIGHEST</span>:null}</span>
+        <span className={cls}>${price.toFixed(2)}{price===minP&&entries.length>1?<span className="df dn"> LOWEST</span>:null}{price===maxP&&entries.length>1&&price!==minP?<span className="df up"> HIGHEST</span>:null}</span>
       </div>
     })}
   </div>;
