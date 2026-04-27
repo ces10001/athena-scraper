@@ -287,13 +287,6 @@ body {
   .cta-btn { padding: 14px 40px; font-size: 12px; letter-spacing: 3px; }
   .login-card { width: 320px; padding: 28px; }
 }
-
-/* Login animation sequence */
-@keyframes owlTriplePulse {
-  0% { filter: drop-shadow(0 0 10px rgba(232,96,10,0.7)) drop-shadow(0 0 35px rgba(232,96,10,0.35)) drop-shadow(0 0 70px rgba(232,96,10,0.15)); }
-  100% { filter: drop-shadow(0 0 50px rgba(232,96,10,1)) drop-shadow(0 0 100px rgba(232,96,10,0.5)) drop-shadow(0 0 140px rgba(232,96,10,0.3)); }
-}
-.owl-glow-anim { animation: owlTriplePulse 4s ease-in-out forwards !important; }
 </style>
 </head>
 <body>
@@ -364,14 +357,7 @@ function handleLogin() {
   var btn = document.querySelector('.login-btn');
   btn.textContent = 'AUTHENTICATING...';
   sessionStorage.setItem('athena_auth', 'true');
-  setTimeout(function() {
-    document.getElementById('login-overlay').classList.remove('active');
-    document.querySelector('.cta-btn').style.display = 'none';
-    setTimeout(function() {
-      document.getElementById('owl-logo').classList.add('owl-glow-anim');
-      setTimeout(function() { window.location.href = 'index.html'; }, 4200);
-    }, 400);
-  }, 800);
+  setTimeout(function() { window.location.href = 'index.html'; }, 1200);
 }
 
 document.getElementById('password').addEventListener('keydown', function(e) {
