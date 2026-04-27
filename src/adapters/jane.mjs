@@ -165,15 +165,108 @@ export async function scrapeJane(dispensary) {
     return { products: [], errors: ['No jane_stores configured'] };
   }
 
+  var allProducts = new Map();
+  var errors = [];
+
+  // ═══ METHOD 1: Try Jane API first (faster and more reliable) ═══
+  try {
+    for (var s = 0; s < dispensary.jane_stores.length; s++) {
+      var store = dispensary.jane_stores[s];
+      var page = 1;
+      var hasMore = true;
+      var apiTotal = 0;
+
+      while (hasMore) {
+        var apiUrl = 'https://api.iheartjane.com/v1/stores/' + store.id + '/products?per_page=100&page=' + page;
+        try {
+          var resp = await fetch(apiUrl, {
+            headers: {
+              'Accept': 'application/json',
+              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            }
+          });
+          if (!resp.ok) throw new Error('API returned ' + resp.status);
+          var data = await resp.json();
+          var items = data.data || data.products || [];
+          if (items.length === 0) { hasMore = false; break; }
+
+          for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+            var price = item.price_cents ? item.price_cents / 100 : (item.price || null);
+            if (!price || price <= 0) continue;
+
+            var name = item.name || '';
+            var brand = (item.brand && item.brand.name) || item.brand_name || '';
+            var cat = (item.kind || item.category || '').toLowerCase();
+            if (cat === 'gear' || cat === 'accessories' || cat === 'merch') continue;
+
+            // Map Jane categories
+            if (cat === 'flower' || cat === 'pre_ground') cat = 'flower';
+            else if (cat === 'pre-roll' || cat === 'pre_roll') cat = 'pre-rolls';
+            else if (cat === 'vape' || cat === 'cartridge' || cat === 'disposable') cat = 'vaporizers';
+            else if (cat === 'edible' || cat === 'gummy' || cat === 'chocolate' || cat === 'beverage') cat = 'edible';
+            else if (cat === 'extract' || cat === 'concentrate') cat = 'concentrate';
+            else if (cat === 'tincture' || cat === 'capsule' || cat === 'sublingual') cat = 'tincture';
+            else if (cat === 'topical' || cat === 'transdermal') cat = 'topical';
+
+            var weight = null;
+            var wMatch = name.match(/\b(\d+\.?\d*)\s*[Gg]\b/) || (item.amount && String(item.amount).match(/(\d+\.?\d*)/));
+            if (wMatch) weight = wMatch[1] + 'g';
+
+            var key = 'jane-' + (item.id || (name + price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
+            if (!allProducts.has(key)) {
+              allProducts.set(key, {
+                external_id: key, name: name, brand: brand, category: cat,
+                strain_type: (item.strain_type || '').toLowerCase() || null,
+                thc_pct: item.percent_thc || null, cbd_pct: item.percent_cbd || null,
+                price: price, original_price: null, weight_label: weight,
+                deal_description: null
+              });
+            }
+          }
+
+          apiTotal += items.length;
+          var meta = data.meta || {};
+          if (meta.total && apiTotal >= meta.total) hasMore = false;
+          else if (items.length < 100) hasMore = false;
+          else page++;
+        } catch (apiErr) {
+          console.log('  [jane] API page ' + page + ' failed: ' + apiErr.message);
+          hasMore = false;
+        }
+      }
+      console.log('  [jane] API store ' + store.id + ': ' + allProducts.size + ' products (' + apiTotal + ' raw)');
+    }
+
+    if (allProducts.size > 10) {
+      console.log('  [jane] API method successful with ' + allProducts.size + ' products');
+      var validProducts = [];
+      var catCounts = {};
+      for (var [key, raw] of allProducts) {
+        var normalized = normalizeJaneProduct(raw);
+        if (validateProduct(normalized).length === 0) {
+          catCounts[normalized.category] = (catCounts[normalized.category] || 0) + 1;
+          validProducts.push(normalized);
+        }
+      }
+      var catInfo = Object.entries(catCounts).map(function(e) { return e[0] + ': ' + e[1]; }).join(', ');
+      console.log('  [jane] Categories: ' + catInfo);
+      console.log('  [jane] Done: ' + validProducts.length + ' valid products');
+      return { products: validProducts, errors: errors };
+    }
+    console.log('  [jane] API returned only ' + allProducts.size + ' products, falling back to page scraping...');
+    allProducts.clear();
+  } catch(e) {
+    console.log('  [jane] API method failed: ' + e.message + ', falling back to page scraping...');
+  }
+
+  // ═══ METHOD 2: Fall back to page scraping ═══
   try {
     var { chromium } = await import('playwright');
     var browser = await chromium.launch({ headless: true });
     var context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
-
-    var allProducts = new Map();
-    var errors = [];
 
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
