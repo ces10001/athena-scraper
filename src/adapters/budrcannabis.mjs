@@ -215,6 +215,25 @@ export async function scrapeBUDRCannabis(dispensary) {
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
     var page = await context.newPage();
+    var interceptedProducts = [];
+
+    // ─── Intercept Jane API responses to capture product data ───
+    page.on('response', async function(response) {
+      try {
+        var rUrl = response.url();
+        if (rUrl.includes('iheartjane.com') && (rUrl.includes('/products') || rUrl.includes('/menu_products') || rUrl.includes('/menu_items'))) {
+          var ct = response.headers()['content-type'] || '';
+          if (ct.includes('json') && response.status() === 200) {
+            var body = await response.json();
+            var items = body.data || body.products || body.menu_products || body.items || [];
+            if (Array.isArray(items)) {
+              for (var ix = 0; ix < items.length; ix++) interceptedProducts.push(items[ix]);
+              console.log('  [budrcannabis] Intercepted API batch: ' + items.length + ' (total: ' + interceptedProducts.length + ')');
+            }
+          }
+        }
+      } catch(e) {}
+    });
 
     try {
       // Step 1: Load store page and pass age gate
@@ -395,6 +414,49 @@ export async function scrapeBUDRCannabis(dispensary) {
           console.log('  [budrcannabis] Retry got ' + retryProducts.length + ' (was ' + rawProducts.length + ')');
           rawProducts = retryProducts;
         }
+      }
+
+      // Step 9: If STILL low count, use intercepted API data
+      if (rawProducts.length < 50 && interceptedProducts.length > rawProducts.length) {
+        console.log('  [budrcannabis] Using ' + interceptedProducts.length + ' intercepted API products instead of ' + rawProducts.length + ' text-parsed');
+        rawProducts = [];
+        var seenIds = new Set();
+        for (var ip = 0; ip < interceptedProducts.length; ip++) {
+          var item = interceptedProducts[ip];
+          var price = item.price_cents ? item.price_cents / 100 : (item.price_eighth ? item.price_eighth / 100 : (item.price || item.default_price || null));
+          if (typeof price === 'string') price = parseFloat(price);
+          if (!price || price <= 0) continue;
+
+          var iName = item.name || item.product_name || '';
+          var iBrand = (item.brand && typeof item.brand === 'object' ? item.brand.name : item.brand) || item.brand_name || '';
+          var cat = (item.kind || item.root_subtype || item.category || item.product_type || '').toLowerCase();
+          if (cat === 'gear' || cat === 'accessories' || cat === 'merch') continue;
+
+          if (cat === 'flower' || cat === 'pre_ground') cat = 'flower';
+          else if (cat === 'pre-roll' || cat === 'pre_roll') cat = 'pre-rolls';
+          else if (cat === 'vape' || cat === 'cartridge' || cat === 'disposable') cat = 'vaporizers';
+          else if (cat === 'edible' || cat === 'gummy' || cat === 'chocolate' || cat === 'beverage') cat = 'edible';
+          else if (cat === 'extract' || cat === 'concentrate') cat = 'concentrate';
+          else if (cat === 'tincture' || cat === 'capsule' || cat === 'sublingual') cat = 'tincture';
+          else if (cat === 'topical' || cat === 'transdermal') cat = 'topical';
+
+          var weight = null;
+          var wMatch = iName.match(/\b(\d+\.?\d*)\s*[Gg]\b/) || (item.amount && String(item.amount).match(/(\d+\.?\d*)/));
+          if (wMatch) weight = wMatch[1] + 'g';
+
+          var key = 'budr-api-' + (item.id || item.product_id || (iName + price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
+          if (!seenIds.has(key)) {
+            seenIds.add(key);
+            rawProducts.push({
+              external_id: key, name: iName, brand: iBrand, category: cat,
+              strain_type: (item.strain_type || item.classification || '').toLowerCase() || null,
+              thc_pct: item.percent_thc || null, cbd_pct: item.percent_cbd || null,
+              price: price, original_price: null, weight_label: weight,
+              deal_description: null
+            });
+          }
+        }
+        console.log('  [budrcannabis] Intercepted API yielded ' + rawProducts.length + ' valid products');
       }
 
       var catCounts = {};

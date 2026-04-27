@@ -260,7 +260,7 @@ export async function scrapeJane(dispensary) {
     console.log('  [jane] API method failed: ' + e.message + ', falling back to page scraping...');
   }
 
-  // ═══ METHOD 2: Fall back to page scraping ═══
+  // ═══ METHOD 2: Fall back to page scraping with API interception ═══
   try {
     var { chromium } = await import('playwright');
     var browser = await chromium.launch({ headless: true });
@@ -271,14 +271,34 @@ export async function scrapeJane(dispensary) {
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
       var url = 'https://www.iheartjane.com/stores/' + store.id + '/menu';
+      var interceptedProducts = [];
 
       var page = null;
       try {
         page = await context.newPage();
+
+        // ─── Intercept API responses to capture product data ───
+        page.on('response', async function(response) {
+          try {
+            var rUrl = response.url();
+            if (rUrl.includes('/products') || rUrl.includes('/menu_products') || rUrl.includes('/menu_items')) {
+              var ct = response.headers()['content-type'] || '';
+              if (ct.includes('json') && response.status() === 200) {
+                var body = await response.json();
+                var items = body.data || body.products || body.menu_products || body.items || [];
+                if (Array.isArray(items)) {
+                  for (var ix = 0; ix < items.length; ix++) interceptedProducts.push(items[ix]);
+                }
+              }
+            }
+          } catch(e) {}
+        });
+
         await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
         await page.waitForTimeout(10000);
+        console.log('  [jane] Page loaded, intercepted so far: ' + interceptedProducts.length);
 
-        // Dismiss age gate — try multiple button texts
+        // Dismiss age gate
         try {
           var ageBtns = ['I\'m over 21', 'Yes', 'I Agree', 'Enter', 'Confirm'];
           for (var ab = 0; ab < ageBtns.length; ab++) {
@@ -292,27 +312,23 @@ export async function scrapeJane(dispensary) {
           }
         } catch(e) {}
 
-        // Close any popups/overlays
+        // Close popups
         try {
           var closeBtn = page.locator('button[aria-label="Close"], button:has-text("×"), [class*="close"]').first();
           if (await closeBtn.isVisible({ timeout: 1500 })) { await closeBtn.click(); await page.waitForTimeout(1000); }
         } catch(e) {}
 
-        // Click through each category tab to load all products
-        var categories = ['Flower', 'Edible', 'Pre-roll', 'Vape', 'Concentrate', 'Tincture', 'Topical', 'Merch'];
-        var beforeCount = allProducts.size;
-
+        // Click through each category tab to trigger API calls
+        var categories = ['Flower', 'Edible', 'Pre-roll', 'Vape', 'Concentrate', 'Tincture', 'Topical'];
         for (var ci = 0; ci < categories.length; ci++) {
           var catName = categories[ci];
           try {
-            // Click category tab
-            var catTab = page.locator('button:has-text("' + catName + '"), a:has-text("' + catName + '"), [role="tab"]:has-text("' + catName + '"), div:has-text("' + catName + '")').first();
+            var catTab = page.locator('button:has-text("' + catName + '"), a:has-text("' + catName + '"), [role="tab"]:has-text("' + catName + '")').first();
             if (await catTab.isVisible({ timeout: 2000 })) {
               await catTab.scrollIntoViewIfNeeded();
               await catTab.click();
-              await page.waitForTimeout(5000);
-
-              // Click "View more" repeatedly in this category
+              await page.waitForTimeout(3000);
+              // Click "View more" repeatedly
               for (var vm = 0; vm < 40; vm++) {
                 try {
                   var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more")').first();
@@ -320,34 +336,19 @@ export async function scrapeJane(dispensary) {
                     await viewMore.scrollIntoViewIfNeeded();
                     await viewMore.click();
                     await page.waitForTimeout(2000);
-                  } else { break; }
+                  } else break;
                 } catch(e) { break; }
-              }
-
-              // Scroll down to load lazy content
-              for (var scroll = 0; scroll < 20; scroll++) {
-                await page.evaluate(function() { window.scrollBy(0, 1500); });
-                await page.waitForTimeout(300);
-              }
-              await page.waitForTimeout(2000);
-
-              // Collect products from this category
-              var catText = await page.evaluate(function() { return document.body?.innerText || ''; });
-              var catProducts = parseJaneProducts(catText);
-              for (var p = 0; p < catProducts.length; p++) {
-                var key = catProducts[p].external_id;
-                if (!allProducts.has(key)) allProducts.set(key, catProducts[p]);
               }
             }
           } catch(e) {}
         }
 
-        // Also try the Featured/All page for anything we missed
+        // Also try Featured/All
         try {
           var featTab = page.locator('button:has-text("Featured"), a:has-text("Featured"), button:has-text("All")').first();
           if (await featTab.isVisible({ timeout: 1500 })) {
             await featTab.click();
-            await page.waitForTimeout(5000);
+            await page.waitForTimeout(3000);
             for (var vm = 0; vm < 30; vm++) {
               try {
                 var viewMore = page.locator('button:has-text("View more")').first();
@@ -355,19 +356,74 @@ export async function scrapeJane(dispensary) {
                 else break;
               } catch(e) { break; }
             }
-            var featText = await page.evaluate(function() { return document.body?.innerText || ''; });
-            var featProducts = parseJaneProducts(featText);
-            for (var p = 0; p < featProducts.length; p++) {
-              var key = featProducts[p].external_id;
-              if (!allProducts.has(key)) allProducts.set(key, featProducts[p]);
-            }
           }
         } catch(e) {}
+
+        console.log('  [jane] Total intercepted API products: ' + interceptedProducts.length);
+
+        // ─── Process intercepted products ───
+        if (interceptedProducts.length > 0) {
+          for (var i = 0; i < interceptedProducts.length; i++) {
+            var item = interceptedProducts[i];
+            var price = item.price_cents ? item.price_cents / 100 : (item.price_eighth ? item.price_eighth / 100 : (item.price || item.default_price || null));
+            if (typeof price === 'string') price = parseFloat(price);
+            if (!price || price <= 0) continue;
+
+            var iName = item.name || item.product_name || '';
+            var iBrand = (item.brand && typeof item.brand === 'object' ? item.brand.name : item.brand) || item.brand_name || '';
+            var cat = (item.kind || item.root_subtype || item.category || item.product_type || '').toLowerCase();
+            if (cat === 'gear' || cat === 'accessories' || cat === 'merch') continue;
+
+            if (cat === 'flower' || cat === 'pre_ground') cat = 'flower';
+            else if (cat === 'pre-roll' || cat === 'pre_roll') cat = 'pre-rolls';
+            else if (cat === 'vape' || cat === 'cartridge' || cat === 'disposable') cat = 'vaporizers';
+            else if (cat === 'edible' || cat === 'gummy' || cat === 'chocolate' || cat === 'beverage') cat = 'edible';
+            else if (cat === 'extract' || cat === 'concentrate') cat = 'concentrate';
+            else if (cat === 'tincture' || cat === 'capsule' || cat === 'sublingual') cat = 'tincture';
+            else if (cat === 'topical' || cat === 'transdermal') cat = 'topical';
+
+            var weight = null;
+            var wMatch = iName.match(/\b(\d+\.?\d*)\s*[Gg]\b/) || (item.amount && String(item.amount).match(/(\d+\.?\d*)/));
+            if (wMatch) weight = wMatch[1] + 'g';
+
+            var key = 'jane-' + (item.id || item.product_id || (iName + price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
+            if (!allProducts.has(key)) {
+              allProducts.set(key, {
+                external_id: key, name: iName, brand: iBrand, category: cat,
+                strain_type: (item.strain_type || item.classification || '').toLowerCase() || null,
+                thc_pct: item.percent_thc || item.thc_percentage || null,
+                cbd_pct: item.percent_cbd || item.cbd_percentage || null,
+                price: price, original_price: null, weight_label: weight,
+                deal_description: null
+              });
+            }
+          }
+          console.log('  [jane] Parsed from intercepted data: ' + allProducts.size + ' products');
+        }
+
+        // ─── Fallback: text parse if interception got nothing ───
+        if (allProducts.size < 10) {
+          console.log('  [jane] Interception got < 10, falling back to text parse...');
+          // Scroll to load everything
+          for (var scroll = 0; scroll < 30; scroll++) {
+            await page.evaluate(function() { window.scrollBy(0, 1500); });
+            await page.waitForTimeout(300);
+          }
+          await page.waitForTimeout(3000);
+          var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });
+          var textProducts = parseJaneProducts(fullText);
+          for (var p = 0; p < textProducts.length; p++) {
+            var key = textProducts[p].external_id;
+            if (!allProducts.has(key)) allProducts.set(key, textProducts[p]);
+          }
+          console.log('  [jane] After text fallback: ' + allProducts.size + ' products');
+        }
 
         console.log('  [jane] Store ' + store.id + ': ' + allProducts.size + ' products');
         await page.close();
       } catch (err) {
         errors.push(store.id + ': ' + err.message);
+        console.log('  [jane] Error for store ' + store.id + ': ' + err.message);
         try { if (page) await page.close(); } catch(e) {}
       }
     }
