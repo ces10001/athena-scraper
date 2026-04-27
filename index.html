@@ -74,6 +74,12 @@ function athenaLogout(){athenaAuth.signOut();sessionStorage.clear();window.locat
 .pnl{background:var(--sf);border:2.5px solid rgba(20,20,20,0.7);border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
 .pnl-t{font-family:var(--m);font-size:18px;text-transform:uppercase;letter-spacing:1.2px;color:var(--tx);margin-bottom:10px;font-weight:700}
 .pnl-d{font-size:19px;color:#000;background:rgba(232,96,10,0.12);border:2.5px solid rgba(30,20,10,0.7);padding:10px 14px;margin-bottom:12px;line-height:1.5;border-radius:4px}
+.help-wrap{position:relative;display:inline-flex;align-items:center;margin-left:8px;vertical-align:middle}
+.help-btn{width:22px;height:22px;border-radius:50%;background:var(--cy);color:#fff;border:none;font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-family:var(--f);transition:all .15s;flex-shrink:0}
+.help-btn:hover{background:#d45500;transform:scale(1.1)}
+.help-tip{display:none;position:absolute;top:32px;left:50%;transform:translateX(-50%);background:#1a1a1a;color:#fff;padding:14px 16px;border-radius:10px;font-size:13px;line-height:1.6;width:320px;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,.25);font-family:var(--f);font-weight:400;text-transform:none;letter-spacing:0}
+.help-tip::before{content:'';position:absolute;top:-6px;left:50%;transform:translateX(-50%);border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #1a1a1a}
+.help-wrap:hover .help-tip{display:block}
 .map-w{height:480px;border-radius:8px;overflow:hidden;border:1px solid var(--bd)}
 .leaflet-container{background:#e8e8e8!important}
 .leaflet-control-zoom a{background:#fff!important;color:var(--cy)!important;border-color:#ddd!important}
@@ -313,6 +319,8 @@ const DM={"Affinity NH (Dutchie Rec)":"Affinity Dispensary - New Haven (Rec)","A
 function mergeD(n){return DM[n]||n.replace("(Dutchie Rec)","(Rec)").replace("(Dutchie Med)","(Med)")}
 function getDisps(p){var s=new Set();p.forEach(function(x){Object.keys(x.dispensaries||{}).forEach(function(d){s.add(d)})});return Array.from(s).sort(function(a,b){if(isAff(a)&&!isAff(b))return-1;if(!isAff(a)&&isAff(b))return 1;return a.localeCompare(b)})}
 function getYP(p,ac){for(var i=0;i<ac.length;i++){if(p.dispensaries&&p.dispensaries[ac[i]])return p.dispensaries[ac[i]]}return null}
+
+function HelpTip({text}){return React.createElement("span",{className:"help-wrap"},React.createElement("button",{className:"help-btn",onClick:function(e){e.stopPropagation()}},"?"),React.createElement("span",{className:"help-tip"},text))}
 
 function AboutTab(){
   var features=[
@@ -723,7 +731,7 @@ function IntelTab({data,q,setQ,sel,setSel,cat,setCat,comp,setComp,radius,setRadi
   </div>
     <div className="glow"/>
     <div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius} favsVer={favsVer}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
-    <div className="pnl"><div className="pnl-t">Search products</div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
+    <div className="pnl"><div className="pnl-t">Search products<HelpTip text="Type any product name, brand, or strain to search across all dispensaries. Results show every store that carries it with prices side-by-side. Green = cheaper than your starred store, Red = more expensive."/></div><div className="pnl-d">Type a product name, brand, or strain to see which dispensaries carry it and compare their prices side-by-side.</div><div className="srch"><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Product name, brand, or strain..." value={q} onChange={e=>setQ(e.target.value)}/></div></div>
     {q.trim()&&selectedProduct&&<ProductDetail product={selectedProduct}/>}
     {q.trim()&&searchResults.length>1&&<div className="pnl" style={{padding:'8px 12px',marginBottom:10}}><div style={{fontSize:11,color:'var(--tx2)',marginBottom:6}}>Click to view details:</div>{searchResults.map((p,i)=><div key={i} onClick={()=>setSelectedProduct(p)} style={{padding:'6px 10px',cursor:'pointer',borderBottom:'1px solid rgba(0,0,0,.06)',fontSize:13,fontWeight:selectedProduct===p?600:400,color:selectedProduct===p?'var(--cy)':'var(--tx)',background:selectedProduct===p?'rgba(232,96,10,.04)':'transparent'}}>{p.brand} - {p.name} <span style={{color:'var(--tx3)',fontSize:11}}>({Object.keys(p.dispensaries||{}).length} stores)</span></div>)}</div>}
     <CatTabs data={data} cat={cat} setCat={setCat} sel={sel} comp={comp}/>
@@ -744,7 +752,7 @@ function MapPanel({data,sel,setSel,radius,setRadius,favsVer}){
     Object.entries(disps).forEach(([name,info])=>{const c=COORDS[info.city];if(!c)return;const h=hashStr(name);const lat=c[0]+((h%100)-50)*.00008;const lon=c[1]+(((h>>8)%100)-50)*.00008;const isA=isAff(name);const isS=sel.has(name);const sz=isA?14:isS?8:5;const col=isA?"#e8600a":isS?"#ff8c00":"#1e3d48";
       const icon=isA?L.divIcon({className:'',html:'<div style="font-size:22px;color:#e8600a;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 0 8px rgba(232,96,10,0.6);line-height:1">★</div>',iconSize:[22,22],iconAnchor:[11,11]}):L.divIcon({className:'',html:'<div style="width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:'+col+';box-shadow:0 0 '+(isS?6:0)+'px '+col+';opacity:'+(isS?1:.35)+';border:1px solid rgba(255,255,255,.08)"></div>',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
       const mk=L.marker([lat,lon],{icon}).addTo(m);mk.on('click',()=>{setCenter([lat,lon]);setCLabel(cleanD(name))});mk.bindPopup('<b style="color:#e8600a">'+cleanD(name)+'</b><br><span style="color:#5a6370">'+info.city+' — '+(counts[name]||0)+' products</span>');mkRef.current.push(mk)})},[data,sel,favsVer]);
-  return<div className="pnl"><div className="pnl-t">Connecticut dispensary map</div><div className="pnl-d">Click any point or dispensary to draw a radius circle.</div><div className="map-w" ref={ref}></div>
+  return<div className="pnl"><div className="pnl-t">Connecticut dispensary map<HelpTip text="Click anywhere on the map to set a center point. Use the radius slider below to draw a circle — all dispensaries inside will be auto-selected for comparison. Click a dispensary dot to center on it."/></div><div className="pnl-d">Click any point or dispensary to draw a radius circle.</div><div className="map-w" ref={ref}></div>
     <div className="radius-ctrl"><label>{center?"Radius from "+cLabel+":":cLabel}</label><input type="range" min="1" max="60" value={radius} onChange={e=>setRadius(+e.target.value)}/><div className="rv">{radius} mi</div>
       {center&&<button className="btn" style={{fontSize:8,padding:'3px 8px'}} onClick={()=>{setCenter(null);if(circRef.current&&mRef.current){mRef.current.removeLayer(circRef.current);circRef.current=null}setCLabel("Click map or dispensary to set center")}}>Clear</button>}</div></div>;
 }
@@ -803,7 +811,7 @@ function DispPanel({data,sel,setSel,toggleFav,favsVer}){
   const togChain=useCallback(c=>{setSel(p=>{const n=new Set(p);const allEntries=c.stores.flatMap(s=>s.entries);const allOn=allEntries.every(d=>n.has(d));if(allOn){allEntries.forEach(d=>n.delete(d))}else{allEntries.forEach(d=>{if(n.size<MAX_SEL)n.add(d)})};return n})},[]);
   const toggleChainOpen=useCallback(name=>{setOpenChains(p=>{const n=new Set(p);n.has(name)?n.delete(name):n.add(name);return n})},[]);
   
-  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries <span style={{fontSize:11,fontWeight:400,color:sel.size>=MAX_SEL?'var(--rd)':'var(--tx3)'}}>({sel.size}/{MAX_SEL})</span></span>
+  return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Compare dispensaries <span style={{fontSize:11,fontWeight:400,color:sel.size>=MAX_SEL?'var(--rd)':'var(--tx3)'}}>({sel.size}/{MAX_SEL})</span><HelpTip text="Click any row to select/deselect a dispensary (max 15). Use MED/REC buttons to toggle individual menus. Click ★ to mark one store as your home base — percentages will compare others against yours. Use 'Mine' to select your starred stores, 'Clear' to reset."/></span>
       <div className="row"><button className="btn" onClick={()=>setSel(new Set(allD.filter(isAff).slice(0,MAX_SEL)))}>Mine</button><button className="btn" onClick={()=>setSel(new Set())}>Clear</button></div></div>
     <div className="pnl-d">Click a dispensary name to select it (max {MAX_SEL}). Use the MED/REC buttons to toggle menus. Click ★ to mark as yours.</div>
     <div style={{marginBottom:8}}><input type="search" placeholder="Search dispensaries..." value={dispSearch} onChange={e=>setDispSearch(e.target.value)} style={{width:'100%',padding:'8px 12px',borderRadius:6,border:'1px solid var(--bd)',background:'var(--bg2)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:14,outline:'none'}}/></div>
@@ -1026,7 +1034,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius} favsVer={favsVer}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-        <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
+        <span className="pnl-t" style={{margin:0}}>Price Highs & Lows{sel.size>0?" ("+sel.size+" dispensaries)":""}<HelpTip text="Shows the cheapest (LOW) and most expensive (HIGH) product at each dispensary for every category and size. Red % = competitor beats your price. Green % = you beat them. Hover any price to see the specific product and comparison. Promo prices shown in orange."/></span>
         
       </div>
       <div className="pnl-d">{sel.size>0?"Comparing the cheapest and most expensive prices for each product size across "+sel.size+" selected dispensaries. ★ starred stores display % price differences against competitors.":"Select dispensaries above to compare, or view market-wide highs and lows across all stores. Each card shows the lowest price, highest price, and the spread between them."}</div>
@@ -1110,7 +1118,7 @@ function AlertsTab({data,favsVer,toggleFav,sel,setSel}){
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius} favsVer={favsVer}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-        <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}</span>
+        <span className="pnl-t" style={{margin:0}}>Price Movements{sel.size>0?" ("+sel.size+" dispensaries)":""}<HelpTip text="Tracks every price change since the last data update. Left column (red ▼) = price drops. Right column (green ▲) = price increases. Each card shows the product, dispensary, old vs new price, and percentage change. Select dispensaries to filter."/></span>
         
       </div>
       <div className="pnl-d">{sel.size>0?"Showing price changes at "+sel.size+" selected dispensaries.":"Select dispensaries above to filter, or view all price changes."} Red column shows products that dropped in price. Green column shows increases. Use the category tabs below to filter by product type. Each entry shows the old price, new price, and percentage change.</div>
@@ -1306,7 +1314,7 @@ function GapsTab({data,favsVer,toggleFav,sel,setSel}){
   const shown=gapChain?gaps.filter(g=>g.chain===gapChain):gaps;const totalGaps=gaps.reduce((s,g)=>s+g.total,0);
 
   return<><div className="g2"><MapPanel data={data} sel={sel} setSel={setSel} radius={radius} setRadius={setRadius} favsVer={favsVer}/><DispPanel data={data} sel={sel} setSel={setSel} toggleFav={toggleFav} favsVer={favsVer}/></div>
-    <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})</span></div>
+    <div className="pnl" style={{marginTop:12}}><div className="row" style={{justifyContent:'space-between',marginBottom:10}}><span className="pnl-t" style={{margin:0}}>Product gaps ({totalGaps.toLocaleString()} products{affC.length>0?" your stores don't carry":" not at selected stores"})<HelpTip text="Shows products that your competitors carry but you don't. Star your dispensary first, then select competitors to see what's missing from your menu. Use category filters to narrow results. Great for identifying expansion opportunities."/></span></div>
     <div className="pnl-d">{affC.length>0?"Your starred ★ dispensaries are your home base. Select competitors above to see what they carry that you don't. Products are matched across different naming formats (e.g. 'Tap Out BHO' matches 'Tap Out').":"First, click ★ to star your dispensaries. Then select competitors to see what products they have that you're missing."}</div>
     {totalGaps===0?<div className="empty"><h3>{affC.length===0?"Star your dispensaries first":"No product gaps found"}</h3><p style={{fontSize:12}}>{affC.length===0?"Click ★ next to your dispensaries in the panel above, then select competitors to compare against.":"The selected dispensaries carry the same products as your stores."}</p></div>:
     <><div style={{marginBottom:12}}><select style={{width:'100%',background:'var(--bg2)',border:'1px solid var(--bd)',color:'var(--tx)',fontFamily:'var(--f)',fontSize:13,padding:'9px 14px',borderRadius:7,outline:'none'}} value={gapChain} onChange={e=>setGapChain(e.target.value)}><option value="">All chains ({gaps.length})</option>{gaps.map(g=><option key={g.chain} value={g.chain}>{g.chain} ({g.total} gaps)</option>)}</select></div>
@@ -1382,7 +1390,7 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
   
     <div className="pnl" style={{marginTop:12}}>
       <div className="row" style={{justifyContent:'space-between',marginBottom:10}}>
-        <span className="pnl-t" style={{margin:0}}>Store-Wide Promotions ({filteredPromos.length})</span>
+        <span className="pnl-t" style={{margin:0}}>Store-Wide Promotions ({filteredPromos.length})<HelpTip text="Lists all active store-wide promotions each dispensary is running — bulk discounts, brand sales, BOGO offers, etc. Select dispensaries to filter. Use this to monitor what deals your competitors are offering and stay competitive."/></span>
       </div>
       <div className="pnl-d">Banner deals and promotions each dispensary is running — like bulk discounts, brand sales, and BOGO offers. Select dispensaries above to filter.</div>
       {grouped.length>0?
@@ -1460,7 +1468,7 @@ function DispsTab({data,favsVer,toggleFav}){
   var toggleChain=function(ch){setOpenChains(function(p){var n=new Set(p);n.has(ch)?n.delete(ch):n.add(ch);return n})};
   
   return<div className="pnl"><div className="row" style={{justifyContent:'space-between',marginBottom:12}}>
-    <span className="pnl-t" style={{margin:0}}>All Dispensaries — {totalStores} stores across {chains.length} brands</span>
+    <span className="pnl-t" style={{margin:0}}>All Dispensaries — {totalStores} stores across {chains.length} brands<HelpTip text="Click any dispensary to see a detailed SKU breakdown by category with visual comparison bars. If you have a starred store, it compares your product counts and average prices against the selected dispensary side-by-side."/></span>
     <div className="row"><button className="btn" onClick={function(){setOpenChains(new Set(chains.map(function(c){return c.chain})))}}>Expand All</button><button className="btn" onClick={function(){setOpenChains(new Set())}}>Collapse</button></div></div>
     <div className="srch" style={{marginBottom:12}}><span className="srch-ic">{String.fromCharCode(8981)}</span><input type="search" placeholder="Search by brand, store, or city..." value={dq} onChange={e=>setDq(e.target.value)}/></div>
     <div className="pnl-d" style={{marginBottom:12}}>Click a brand to expand and see individual locations. Click "Detailed View" to see category breakdown and compare with your starred dispensary. Click ★ to mark as yours.</div>
@@ -1681,7 +1689,7 @@ function ReportTab({data,favsVer}){
 
   return<div style={{maxWidth:900,margin:'0 auto'}}>
     <div className="pnl" style={{marginBottom:16}}>
-      <div className="pnl-t" style={{marginBottom:8}}>COMPETITIVE ANALYSIS REPORT</div>
+      <div className="pnl-t" style={{marginBottom:8}}>COMPETITIVE ANALYSIS REPORT<HelpTip text="Select a Home Dispensary (yours) and a Competitor from the dropdowns, then click Generate Report. Creates a comprehensive comparison including pricing, product overlaps, category breakdowns, price extremes, gaps, and promotions. Click Export PDF to download a business-ready document."/></div>
       <div className="pnl-d">Select two dispensaries to generate a comprehensive side-by-side competitive analysis. Export as a business-ready PDF.</div>
       <div style={{display:'flex',gap:12,marginTop:12,flexWrap:'wrap',alignItems:'flex-end'}}>
         <div style={{flex:1,minWidth:200}}>
