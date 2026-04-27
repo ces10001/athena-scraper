@@ -182,7 +182,7 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 /* ═══ HIGHS/LOWS TAB ═══ */
 .hl-section{margin-bottom:16px}
 .hl-section-title{font-family:var(--m);font-size:14px;text-transform:uppercase;letter-spacing:1.5px;color:var(--tx);font-weight:700;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--cy)}
-.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(460px,1fr));gap:10px}
 .hl-card{background:var(--bg2);border:2.5px solid rgba(20,20,20,0.7);border-radius:8px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
 .hl-card-title{font-family:var(--m);font-size:12px;font-weight:700;color:var(--tx);margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
 .hl-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.05)}
@@ -882,7 +882,7 @@ function HighLowTab({data,favsVer,toggleFav,sel,setSel}){
               var lpct=homeLP&&!dd.isHome?Math.round((dd.low.price-homeLP)/homeLP*100):null;
               var hpct=homeHP&&!dd.isHome?Math.round((dd.high.price-homeHP)/homeHP*100):null;
               return<tr key={dd.disp} style={{borderBottom:'1px solid var(--bd)',background:dd.isHome?'var(--cydim)':'transparent'}}>
-                <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:120,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
+                <td style={{padding:'5px 6px',fontWeight:dd.isHome?600:400,color:dd.isHome?'var(--cy)':'var(--tx)',fontSize:11,maxWidth:200,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{dd.isHome?"★ ":""}{cleanD(dd.disp)}</td>
                 <td style={{textAlign:'center',padding:'5px 6px'}}><span style={{color:'var(--gn)',fontWeight:600}}>${dd.low.price.toFixed(2)}</span>{lpct!==null&&lpct!==0?<span style={{fontSize:10,marginLeft:3,color:lpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({lpct>0?"+":""}{lpct}%)</span>:null}</td>
                 <td style={{textAlign:'center',padding:'5px 6px'}}>{dd.high.price!==dd.low.price?<span><span style={{color:'var(--rd)',fontWeight:600}}>${dd.high.price.toFixed(2)}</span>{hpct!==null&&hpct!==0?<span style={{fontSize:10,marginLeft:3,color:hpct>0?'var(--rd)':'var(--gn)',fontWeight:600}}>({hpct>0?"+":""}{hpct}%)</span>:null}</span>:<span style={{color:'var(--tx3)'}}>—</span>}</td>
                 <td style={{textAlign:'center',padding:'5px 6px',color:'var(--cy)',fontSize:11}}>{dd.high.price!==dd.low.price?"$"+(dd.high.price-dd.low.price).toFixed(2):"—"}</td>
