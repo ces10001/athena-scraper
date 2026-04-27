@@ -1227,7 +1227,7 @@ function DealsTab({data,favsVer,toggleFav,sel,setSel}){
     filteredPromos.forEach(function(p){
       var base=getBase(p.dispensary);
       if(!byDisp[base])byDisp[base]={name:base,deals:[],isYou:isAff(p.dispensary)};
-      byDisp[base].deals.push(p);
+      if(!byDisp[base].deals.some(function(x){return x.title===p.title&&x.description===p.description}))byDisp[base].deals.push(p);
     });
     return Object.values(byDisp).sort(function(a,b){
       if(a.isYou&&!b.isYou)return-1;if(!a.isYou&&b.isYou)return 1;
@@ -1458,10 +1458,12 @@ function ReportTab({data,favsVer}){
         var dn=(d.dispensary||"").replace(/\s*\((?:Med|Rec)\)/i,"").trim();
         return dn.toLowerCase().includes(homeChain.toLowerCase())||homeChain.toLowerCase().includes(dn.split(" - ")[0].toLowerCase().trim());
       });
+      homeDeals=homeDeals.filter(function(d,i,arr){return arr.findIndex(function(x){return x.title===d.title&&x.description===d.description})===i});
       var compDeals=deals.filter(function(d){
         var dn=(d.dispensary||"").replace(/\s*\((?:Med|Rec)\)/i,"").trim();
         return dn.toLowerCase().includes(compChain.toLowerCase())||compChain.toLowerCase().includes(dn.split(" - ")[0].toLowerCase().trim());
       });
+      compDeals=compDeals.filter(function(d,i,arr){return arr.findIndex(function(x){return x.title===d.title&&x.description===d.description})===i});
       
       // 6. SKU counts
       var homeSKUs={},compSKUs={},homeTot=0,compTot=0;
