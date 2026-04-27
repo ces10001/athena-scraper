@@ -3,7 +3,8 @@ import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 function parseJaneProducts(text) {
   var products = [];
   var seen = {};
-  var blocks = text.split('Add to bag');
+  // Split on both "Add to bag" (iheartjane) and "Add to cart" (risecannabis.com)
+  var blocks = text.split(/Add to (?:bag|cart)/i);
 
   for (var i = 0; i < blocks.length; i++) {
     var block = blocks[i].trim();
@@ -302,27 +303,66 @@ export async function scrapeJane(dispensary) {
           if (await closeBtn.isVisible({ timeout: 1500 })) { await closeBtn.click(); await page.waitForTimeout(1000); }
         } catch(e) {}
 
-        // Click "Show All" if present (Rise pages)
+        // Click "Show All" if present (Rise pages show "Show All (102)")
         try {
-          var showAll = page.locator('button:has-text("Show All"), a:has-text("Show All")').first();
-          if (await showAll.isVisible({ timeout: 3000 })) { await showAll.click(); console.log('  [jane] Clicked Show All'); await page.waitForTimeout(8000); }
+          // Try multiple selectors - could be button, link, span, or div
+          var showAllSelectors = [
+            'a:has-text("Show All")', 'button:has-text("Show All")',
+            'span:has-text("Show All")', 'div:has-text("Show All")',
+            '[data-testid*="show-all"]', '[class*="show-all"]',
+            'a:has-text("ALL PRODUCTS")', 'button:has-text("ALL PRODUCTS")'
+          ];
+          for (var sa = 0; sa < showAllSelectors.length; sa++) {
+            try {
+              var showAll = page.locator(showAllSelectors[sa]).first();
+              if (await showAll.isVisible({ timeout: 1500 })) {
+                await showAll.scrollIntoViewIfNeeded();
+                await showAll.click();
+                console.log('  [jane] Clicked: ' + showAllSelectors[sa]);
+                await page.waitForTimeout(10000);
+                break;
+              }
+            } catch(e) {}
+          }
+          // Also try clicking via JS evaluate for stubborn elements
+          var clicked = await page.evaluate(function() {
+            var links = document.querySelectorAll('a, button, span, div');
+            for (var i = 0; i < links.length; i++) {
+              if (links[i].textContent && links[i].textContent.match(/Show All/i)) {
+                links[i].click();
+                return links[i].textContent.trim().substring(0, 50);
+              }
+            }
+            return null;
+          });
+          if (clicked) {
+            console.log('  [jane] JS clicked: "' + clicked + '"');
+            await page.waitForTimeout(10000);
+          }
         } catch(e) {}
 
         // Click "View more" / "Load more" repeatedly
         for (var vm = 0; vm < 50; vm++) {
           try {
-            var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more"), button:has-text("View More")').first();
+            var viewMore = page.locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more"), button:has-text("View More"), a:has-text("View more"), a:has-text("Load more")').first();
             if (await viewMore.isVisible({ timeout: 2000 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(1500); }
             else break;
           } catch(e) { break; }
         }
 
         // Scroll to load lazy content
-        for (var scroll = 0; scroll < 40; scroll++) {
+        for (var scroll = 0; scroll < 60; scroll++) {
           await page.evaluate(function() { window.scrollBy(0, 1500); });
-          await page.waitForTimeout(250);
+          await page.waitForTimeout(200);
         }
         await page.waitForTimeout(3000);
+
+        // Count "Add to cart"/"Add to bag" on page before parsing
+        var addCount = await page.evaluate(function() {
+          var text = document.body?.innerText || '';
+          return (text.match(/Add to (cart|bag)/gi) || []).length;
+        });
+        console.log('  [jane] "Add to cart/bag" count on page: ' + addCount);
 
         // Parse page text
         var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });

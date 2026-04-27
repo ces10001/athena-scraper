@@ -35,7 +35,7 @@ function findCategoryAndBrand(block) {
 function parseJaneProducts(text) {
   var products = [];
   var seen = {};
-  var blocks = text.split('Add to bag');
+  var blocks = text.split(/Add to (?:bag|cart)/i);
 
   for (var i = 0; i < blocks.length; i++) {
     var block = blocks[i].trim();
