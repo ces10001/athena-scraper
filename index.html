@@ -908,25 +908,32 @@ var HL_BUCKETS = [
   { section: "Vapes", buckets: [
     { label: "0.3g Vape", cat: "vaporizers", match: function(w){ return /\b0?\.3\s*g/i.test(w) || /\b300\s*mg/i.test(w) } },
     { label: "0.5g Vape", cat: "vaporizers", match: function(w){ return /\b0?\.5\s*g/i.test(w) || /\b500\s*mg/i.test(w) } },
-    { label: "1g Vape", cat: "vaporizers", match: function(w){ return /\b1\s*g\b/i.test(w) && !/\b0\./i.test(w) } },
+    { label: "1g Vape", cat: "vaporizers", match: function(w){ return /\b1\s*g\b/i.test(w) && !/\b0\./i.test(w) && !/\b2\s*g/i.test(w) } },
+    { label: "2g Vape", cat: "vaporizers", match: function(w){ return /\b2\s*g\b/i.test(w) } },
   ]},
   { section: "Pre-Rolls", buckets: [
-    { label: "Single Pre-Roll (0.5-1g)", cat: "pre-rolls", match: function(w){ return (/\b[01]?\.\d+\s*g/i.test(w) || /\b1\s*g\b/i.test(w)) && !/pk|pack|ct\b/i.test(w) } },
+    { label: "Pre-Roll 1pk", cat: "pre-rolls", match: function(w){ return /\b1\s*(?:pk|pack|ct)\b/i.test(w) || (!/pk|pack|ct|multi/i.test(w) && /\b[01]?\.\d+\s*g/i.test(w)) } },
+    { label: "Pre-Roll 2pk", cat: "pre-rolls", match: function(w){ return /\b2\s*(?:pk|pack|ct)\b/i.test(w) } },
     { label: "Pre-Roll 3pk", cat: "pre-rolls", match: function(w){ return /\b3\s*(?:pk|pack|ct)\b/i.test(w) } },
     { label: "Pre-Roll 5pk", cat: "pre-rolls", match: function(w){ return /\b5\s*(?:pk|pack|ct)\b/i.test(w) } },
-    { label: "Pre-Roll 7pk", cat: "pre-rolls", match: function(w){ return /\b7\s*(?:pk|pack|ct)\b/i.test(w) } },
-    { label: "Pre-Roll 10pk+", cat: "pre-rolls", match: function(w){ return /\b(?:10|14|20)\s*(?:pk|pack|ct)\b/i.test(w) } },
+    { label: "Pre-Roll 10pk", cat: "pre-rolls", match: function(w){ return /\b10\s*(?:pk|pack|ct)\b/i.test(w) } },
+    { label: "Pre-Roll 20pk", cat: "pre-rolls", match: function(w){ return /\b20\s*(?:pk|pack|ct)\b/i.test(w) } },
   ]},
   { section: "Edibles", buckets: [
+    { label: "Edibles 1pk", cat: "edible", match: function(w){ return /\b1\s*(?:pk|pack|ct|pc|p)\b/i.test(w) && !/\b10|20/i.test(w) } },
     { label: "Edibles 10pk", cat: "edible", match: function(w){ return /\b10\s*(?:pk|pack|ct|pc|p)\b/i.test(w) } },
     { label: "Edibles 20pk", cat: "edible", match: function(w){ return /\b20\s*(?:pk|pack|ct|pc|p)\b/i.test(w) } },
   ]},
   { section: "Concentrates", buckets: [
     { label: "0.5g Concentrate", cat: "concentrate", match: function(w){ return /\b0?\.5\s*g/i.test(w) } },
-    { label: "1g Concentrate", cat: "concentrate", match: function(w){ return /\b1\s*g\b/i.test(w) && !/\b0\./i.test(w) } },
+    { label: "1g Concentrate", cat: "concentrate", match: function(w){ return /\b1\s*g\b/i.test(w) && !/\b0\./i.test(w) && !/\b2\s*g/i.test(w) } },
+    { label: "2g Concentrate", cat: "concentrate", match: function(w){ return /\b2\s*g\b/i.test(w) } },
   ]},
   { section: "Tinctures", buckets: [
     { label: "Tincture (any)", cat: "tincture", match: function(w){ return true } },
+  ]},
+  { section: "Topicals", buckets: [
+    { label: "Topical (any)", cat: "topical", match: function(w){ return true } },
   ]},
 ];
 
@@ -1575,9 +1582,23 @@ function ReportTab({data,favsVer}){
         if(!hP&&!cP)return;
         var cat=p.category||"Other";
         if(!catWeightBuckets[cat])catWeightBuckets[cat]={};
-        var w=p.name.match(/(?:^|[^%\d])(\d*\.?\d+)\s*g\b/i);
+        var nm=p.name||"";var wl=p.weight_label||"";var full=wl+" "+nm;
         var wKey="other";
-        if(w){var wv=parseFloat(w[1]);if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
+        if(cat==="pre-rolls"){
+          if(/\b20\s*(?:pk|pack|ct)/i.test(full))wKey="20pk";
+          else if(/\b10\s*(?:pk|pack|ct)/i.test(full))wKey="10pk";
+          else if(/\b5\s*(?:pk|pack|ct)/i.test(full))wKey="5pk";
+          else if(/\b3\s*(?:pk|pack|ct)/i.test(full))wKey="3pk";
+          else if(/\b2\s*(?:pk|pack|ct)/i.test(full))wKey="2pk";
+          else wKey="1pk";
+        }else if(cat==="edible"){
+          if(/\b20\s*(?:pk|pack|ct|pc|p)/i.test(full))wKey="20pk";
+          else if(/\b10\s*(?:pk|pack|ct|pc|p)/i.test(full))wKey="10pk";
+          else wKey="1pk";
+        }else{
+          var w=full.match(/(?:^|[^%\d])(\d*\.?\d+)\s*g\b/i);
+          if(w){var wv=parseFloat(w[1]);if(wv<=0.3)wKey="0.3g";else if(wv<=0.5)wKey="0.5g";else if(wv<=1)wKey="1g";else if(wv<=2)wKey="2g";else if(wv<=3.5)wKey="3.5g";else if(wv<=7)wKey="7g";else if(wv<=14)wKey="14g";else wKey="28g"}
+        }
         if(!catWeightBuckets[cat][wKey])catWeightBuckets[cat][wKey]={homeItems:[],compItems:[],count:0};
         var hPm=p.promos&&p.promos[homeDisp];
         var cPm=p.promos&&p.promos[compDisp];
@@ -1756,8 +1777,8 @@ function ReportTab({data,favsVer}){
             var totalInCat=Object.values(weights).reduce(function(s,w){return s+w.count},0);
             return<div key={catName} style={{marginBottom:20,pageBreakInside:'avoid'}}>
               <div style={{fontSize:16,fontWeight:700,color:'#333',borderBottom:'2px solid #e8600a',paddingBottom:4,marginBottom:10,pageBreakAfter:'avoid'}}>{catName} ({totalInCat} products)</div>
-              {Object.entries(weights).filter(function(e){return(e[1].homeItems.length>0||e[1].compItems.length>0)&&e[0]!=="other"}).sort(function(a,b){
-                var wOrder=["0.5g","1g","3.5g","7g","14g","28g","other"];
+              {Object.entries(weights).filter(function(e){return(e[1].homeItems.length>0||e[1].compItems.length>0)&&(e[0]!=="other"||catName==="Tincture"||catName==="Topical")}).sort(function(a,b){
+                var wOrder=["0.3g","0.5g","1g","1pk","2g","2pk","3pk","3.5g","5pk","7g","10pk","14g","20pk","28g","other"];
                 return wOrder.indexOf(a[0])-wOrder.indexOf(b[0]);
               }).map(function(wEntry){
                 var wLabel=wEntry[0],bucket=wEntry[1];
