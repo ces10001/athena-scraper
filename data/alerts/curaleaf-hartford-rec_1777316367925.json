@@ -1,0 +1,74 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Pineapple Habanero",
+    "brand": "Camino",
+    "message": "New: Camino - Pineapple Habanero $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Watermelon Lemonade",
+    "brand": "Camino",
+    "message": "New: Camino - Watermelon Lemonade $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Orchard Peach",
+    "brand": "Camino",
+    "message": "New: Camino - Orchard Peach $25.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "New: SoundView - G'Night Grape $34.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Triple Stack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Astro GMO"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Breath",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Atomic Breath"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Vel Croz",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Vel Croz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peaceful Paradise",
+    "brand": "The Happy Confection",
+    "message": "Gone: The Happy Confection - Peaceful Paradise"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Colorado Flo",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Colorado Flo"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Certz",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Pink Certz"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Canna Miranda (H) Infused Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Canna Miranda (H) Infused Pre-Roll 1pk (1g) $20.00"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Do Not Trip (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Do Not Trip (H) 1g Pre-Roll 1pk (1g): $15.00 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Gush Mintz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Gush Mintz (I) 1g Pre-Roll 1pk (1g) $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO (I) Big Ray 1g Pre-Roll 1pk (1g)",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - GMO (I) Big Ray 1g Pre-Roll 1pk (1g) $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Berry Drip (I) Guap RSO Gummies (4.76mg 10pk)",
+    "brand": "Savvy",
+    "message": "New: Savvy - Berry Drip (I) Guap RSO Gummies (4.76mg 10pk) $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Granny Banany (S) Infused Blunt 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Granny Banany (S) Infused Blunt 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cap Junk (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Cap Junk (H) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "Gone: BRIX Cannabis - Banana Dog D 53 (H) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Jokerz (I) THCA Infused Shorties 5pk (2g)",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Jokerz (I) THCA Infused Shorties 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon Juice (H) Vape Cartridge",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon Juice (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Habanero (S) Gummies (4.64mg 20pk)",
+    "brand": "Camino",
+    "message": "Gone: Camino - Pineapple Habanero (S) Gummies (4.64mg 20pk)"
+  }
+]

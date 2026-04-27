@@ -1,0 +1,158 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Lemonade",
+    "brand": "Hi5",
+    "message": "New: Hi5 - Blueberry Lemonade $5.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mendo Wedding",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mendo Wedding $25.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mint Diesel",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Mint Diesel $25.80"
+  },
+  {
+    "type": "new_product",
+    "product_name": "OGBK Stomper",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - OGBK Stomper $51.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ultra Nana",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ultra Nana $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dosi-Punch",
+    "brand": "Savvy",
+    "message": "New: Savvy - Dosi-Punch $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Ghost White",
+    "brand": "Savvy",
+    "message": "New: Savvy - Ghost White $140.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Dos Mendos",
+    "brand": "Savvy",
+    "message": "New: Savvy - Dos Mendos $16.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Fire OG $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Jealousy $53.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Triple Stack",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Triple Stack"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - B Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "True OG",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - True OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry PRFT",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Raspberry PRFT"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mr E Pupil",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Mr E Pupil"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pomme Jelly",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Pomme Jelly"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wedding Cake",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Wedding Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Durban Poison",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Durban Poison"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peppermint",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Peppermint"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry Fizz",
+    "brand": "WYNK",
+    "message": "Gone: WYNK - Black Cherry Fizz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dash of Sweet",
+    "brand": "Zero Proof",
+    "message": "Gone: Zero Proof - Dash of Sweet"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orange Kookyz",
+    "brand": "Select",
+    "message": "Gone: Select - Orange Kookyz"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Tahoe OG",
+    "brand": "Select",
+    "message": "Gone: Select - Tahoe OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Carbon FBR",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Carbon FBR"
+  }
+]

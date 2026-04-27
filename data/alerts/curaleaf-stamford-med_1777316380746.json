@@ -1,0 +1,146 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "Let's Burn Mule Fuel: $48.00 > $38.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Black Cherry: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "G'Night Grape",
+    "brand": "SoundView",
+    "message": "SoundView G'Night Grape: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "inc.edibles Snoozzzeberry: $19.00 > $15.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Watermelon",
+    "brand": "SoundView",
+    "message": "SoundView Watermelon: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Coconut Milk",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Coconut Milk: $34.00 > $27.20"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Berry Dreamy",
+    "brand": "SoundView",
+    "message": "SoundView Berry Dreamy: $32.00 > $25.60"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pi in the Sky",
+    "brand": "Theraplant",
+    "message": "Theraplant Pi in the Sky: $33.00 > $26.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "New: Good Green - Fantasy Melonz $33.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fantasy Melonz",
+    "brand": "Good Green",
+    "message": "New: Good Green - Fantasy Melonz $86.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Do Not Trip",
+    "brand": "RYTHM",
+    "message": "New: RYTHM - Do Not Trip $36.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Problem Child $30.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Paw Paw $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nuclear Mfns",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Nuclear Mfns $22.40"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Kush Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry Pi",
+    "brand": "Select",
+    "message": "Gone: Select - Cherry Pi"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Joocy Froot",
+    "brand": "Select",
+    "message": "Gone: Select - Joocy Froot"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Heir Heads",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Heir Heads"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  }
+]

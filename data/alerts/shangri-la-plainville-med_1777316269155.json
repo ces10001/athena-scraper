@@ -1,0 +1,14 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Chew RSO Tangerine Peach Gummies H 00915",
+    "brand": "Chew",
+    "message": "New: Chew - Chew RSO Tangerine Peach Gummies H 00915 $31.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Chew RSO Tangerine Peach Gummies H 00826",
+    "brand": "Chew",
+    "message": "Gone: Chew - Chew RSO Tangerine Peach Gummies H 00826"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Hippie Crasher $34.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fantasy Melonz x Vel Croz",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Fantasy Melonz x Vel Croz $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Drip x Sour D",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - Lemon Drip x Sour D $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RNTZ x Fantasy Melonz",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - RNTZ x Fantasy Melonz $48.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Zuava $43.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Unflavored",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Unflavored $13.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Tap Out",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Tap Out $29.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Purple Milk $48.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Strawberry",
+    "brand": "Encore Edibles",
+    "message": "Gone: Encore Edibles - Sweet Strawberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Burger",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Hash Burger"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Savoti",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Savoti"
+  }
+]

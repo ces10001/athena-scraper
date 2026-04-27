@@ -1,0 +1,110 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Black Cherry GMO",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Black Cherry GMO $85.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Fruit Punch",
+    "brand": "Lucky Break",
+    "message": "New: Lucky Break - Fruit Punch $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Strawberry Cndy",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Strawberry Cndy $35.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Fire OG",
+    "brand": "Savvy",
+    "message": "New: Savvy - Sour Fire OG $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks $45.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jealousy",
+    "brand": "Lil' Budz",
+    "message": "New: Lil' Budz - Jealousy $56.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Gone: Let's Burn - CT Kush Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GASolotti",
+    "brand": "Select",
+    "message": "Gone: Select - GASolotti"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Summer Peach",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Summer Peach"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Snoozzzeberry",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Snoozzzeberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Cherry Tart",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Sour Cherry Tart"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peach Mango",
+    "brand": "Hi5",
+    "message": "Gone: Hi5 - Peach Mango"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Margarita",
+    "brand": "Wana",
+    "message": "Gone: Wana - Strawberry Margarita"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dream Berry",
+    "brand": "Wana",
+    "message": "Gone: Wana - Dream Berry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Problem Child",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Problem Child"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paw Paw",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Paw Paw"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Citrus Glow",
+    "brand": "Find.",
+    "message": "Gone: Find. - Citrus Glow"
+  }
+]

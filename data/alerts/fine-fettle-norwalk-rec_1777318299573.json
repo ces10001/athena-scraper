@@ -1,0 +1,128 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Hash Wedding (I) Fatboy Infused Pre-Roll 1pk (2g)",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Hash Wedding (I) Fatboy Infused Pre-Roll 1pk (2g) $35.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Do Not Trip (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Do Not Trip (H) 1g Pre-Roll 1pk (1g): $25.00 > $15.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Bulbz (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Find",
+    "message": "New: Find - Bulbz (I) 1g Pre-Roll 1pk (1g) $10.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Solid State (H) Infused Blunt 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Solid State (H) Infused Blunt 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zlushie (I) Live Resin Disposable Vape (1g)",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Zlushie (I) Live Resin Disposable Vape (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sweet Berry Burst (I) Gummies (9.36mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sweet Berry Burst (I) Gummies (9.36mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blackberry (I) Remix Fast Acting Ratio Jellies (4.74mg THC 4.99mg CBD 4.93mg CBN 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Blackberry (I) Remix Fast Acting Ratio Jellies (4.74mg THC 4.99mg CBD 4.93mg CBN 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (H) Fast Acting Chocolate (4.64mg 20pk)",
+    "brand": "Craic",
+    "message": "Gone: Craic - Milk (H) Fast Acting Chocolate (4.64mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Cherry (I) Gummies (4.44mg THC 10.4mg CBD 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Cherry (I) Gummies (4.44mg THC 10.4mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Watermelon Smash (H) Gummies (4.94mg 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Watermelon Smash (H) Gummies (4.94mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Green Apple (H) Fast Acting Jellies (4.8mg 20pk)",
+    "brand": "JAMS",
+    "message": "Gone: JAMS - Sour Green Apple (H) Fast Acting Jellies (4.8mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Wildberry (I) Gummies (4.58mg 20pk)",
+    "brand": "Coast Cannabis Co.",
+    "message": "Gone: Coast Cannabis Co. - Wildberry (I) Gummies (4.58mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Blueberry Lemonade (H) Fast Acting Lucky Elixir (70g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Blue Razzberry (H) Gummies (4.5mg THC 5.3mg CBG 20pk)",
+    "brand": "inc.edibles",
+    "message": "Gone: inc.edibles - Sour Blue Razzberry (H) Gummies (4.5mg THC 5.3mg CBG 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Lime (H) Gummies (4.99mg THC 25.68mg CBD 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Raspberry Lime (H) Gummies (4.99mg THC 25.68mg CBD 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Milk (I) RSO Chocolate (9.4mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Milk (I) RSO Chocolate (9.4mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)",
+    "brand": "Encore",
+    "message": "Gone: Encore - Sour Black Cherry (H) RSO Gummies (9.88mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Berry Drip (I) Guap RSO Gummies (4.76mg 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Berry Drip (I) Guap RSO Gummies (4.76mg 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Raspberry Orange Lime (H) X Bites (4.72mg 20pk)",
+    "brand": "Select",
+    "message": "Gone: Select - Raspberry Orange Lime (H) X Bites (4.72mg 20pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Melon Crash (I) Guap RSO Gummies (4.6mg THC 2.37mg CBN 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Melon Crash (I) Guap RSO Gummies (4.6mg THC 2.37mg CBN 10pk)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Peachy Punch (H) Guap RSO Gummies (4.91mg THC 5.3mg CBD 10pk)",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Peachy Punch (H) Guap RSO Gummies (4.91mg THC 5.3mg CBD 10pk)"
+  }
+]
