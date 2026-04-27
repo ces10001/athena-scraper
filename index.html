@@ -488,8 +488,9 @@ function VideoCarousel(){
   });
   var[vidSrc,setVidSrc]=useState(introPlaying?'videos/intro.mp4':'videos/honeycomb.mp4');
   var[scrapeInfo,setScrapeInfo]=useState({inScrape:false,progress:0});
+  var[fading,setFading]=useState(false);
 
-  function skipIntro(){if(introPlaying){setIntroPlaying(false);setVidSrc('videos/honeycomb.mp4')}}
+  function skipIntro(){if(introPlaying&&!fading){setFading(true);setTimeout(function(){setIntroPlaying(false);setVidSrc('videos/honeycomb.mp4');setTimeout(function(){setFading(false)},100)},800)}}
 
   useEffect(function(){
     function checkScrape(){
@@ -508,7 +509,7 @@ function VideoCarousel(){
   },[introPlaying]);
 
   return<div className="vid-carousel" onClick={skipIntro} style={{cursor:introPlaying?'pointer':'default'}}>
-    <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop={!introPlaying} onEnded={skipIntro} style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:1,transition:'opacity 1s ease'}}/>
+    <video key={vidSrc} src={vidSrc} muted playsInline autoPlay loop={!introPlaying} onEnded={skipIntro} style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',objectFit:'cover',opacity:fading?0:1,transition:'opacity 0.8s ease'}}/>
     <div className="vid-logo"><img src={ATHENA_LOGO_SM} alt="" style={{width:32,height:32,borderRadius:4}}/><div><div style={{fontSize:20,fontWeight:800,letterSpacing:3,color:'#e8600a',lineHeight:1}}>ATHENA</div><div style={{fontSize:10,letterSpacing:2,color:'rgba(255,255,255,0.5)',fontFamily:'var(--m)',marginTop:2}}>Cannabis Pricing Intelligence</div></div></div>
     {scrapeInfo.inScrape&&!introPlaying&&<div className="vid-meter">
       <span className="meter-label">ACQUIRING INTEL</span>
