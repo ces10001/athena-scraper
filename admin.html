@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATHENA — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#fff;font-family:'Inter',sans-serif;min-height:100vh;padding:40px 20px}
+.wrap{max-width:800px;margin:0 auto}
+h1{font-family:'Orbitron',monospace;color:#e8600a;font-size:24px;letter-spacing:4px;margin-bottom:8px}
+.sub{color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:32px}
+.section{margin-bottom:32px}
+.section-title{font-family:'Orbitron',monospace;font-size:13px;letter-spacing:2px;color:#e8600a;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(232,96,10,0.2)}
+.user-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px 20px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.user-info{flex:1;min-width:200px}
+.user-name{font-weight:600;font-size:15px;margin-bottom:2px}
+.user-email{color:rgba(255,255,255,0.5);font-size:13px}
+.user-company{color:rgba(255,255,255,0.35);font-size:12px;margin-top:2px}
+.user-date{color:rgba(255,255,255,0.25);font-size:11px;margin-top:4px}
+.actions{display:flex;gap:8px}
+.btn-sm{padding:8px 16px;border-radius:6px;border:none;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:1px;font-family:'Orbitron',monospace;transition:all 0.2s}
+.btn-approve{background:#1a8f3f;color:#fff}.btn-approve:hover{background:#22a64d}
+.btn-revoke{background:rgba(212,32,48,0.2);color:#ff6b6b;border:1px solid rgba(212,32,48,0.3)}.btn-revoke:hover{background:rgba(212,32,48,0.3)}
+.btn-admin{background:rgba(232,96,10,0.2);color:#e8600a;border:1px solid rgba(232,96,10,0.3)}.btn-admin:hover{background:rgba(232,96,10,0.3)}
+.btn-back{display:inline-block;padding:10px 20px;background:transparent;border:1px solid rgba(232,96,10,0.3);color:#e8600a;border-radius:8px;font-family:'Orbitron',monospace;font-size:12px;letter-spacing:2px;cursor:pointer;text-decoration:none;margin-bottom:24px;transition:all 0.2s}
+.btn-back:hover{background:rgba(232,96,10,0.1)}
+.badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.badge-pending{background:rgba(255,180,0,0.15);color:#ffb400;border:1px solid rgba(255,180,0,0.3)}
+.badge-approved{background:rgba(26,143,63,0.15);color:#6bff8a;border:1px solid rgba(26,143,63,0.3)}
+.badge-admin{background:rgba(232,96,10,0.15);color:#e8600a;border:1px solid rgba(232,96,10,0.3)}
+.empty{color:rgba(255,255,255,0.3);font-style:italic;padding:16px 0}
+.loading{color:rgba(255,255,255,0.3);padding:20px 0;text-align:center}
+.no-access{text-align:center;padding:60px 20px}
+.no-access h2{font-family:'Orbitron',monospace;color:#e8600a;margin-bottom:12px;font-size:18px;letter-spacing:3px}
+.no-access p{color:rgba(255,255,255,0.5);margin-bottom:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="loading" class="loading">Verifying admin access...</div>
+  <div id="noAccess" class="no-access" style="display:none">
+    <h2>ACCESS DENIED</h2>
+    <p>You need admin privileges to access this page.</p>
+    <a href="index.html" class="btn-back">← BACK TO DASHBOARD</a>
+  </div>
+  <div id="adminPanel" style="display:none">
+    <a href="index.html" class="btn-back">← BACK TO DASHBOARD</a>
+    <h1>USER MANAGEMENT</h1>
+    <div class="sub">Approve or revoke user access to the ATHENA dashboard.</div>
+    <div class="section">
+      <div class="section-title">PENDING APPROVAL</div>
+      <div id="pendingList"><div class="empty">No pending requests.</div></div>
+    </div>
+    <div class="section">
+      <div class="section-title">APPROVED USERS</div>
+      <div id="approvedList"><div class="empty">No approved users yet.</div></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<script>
+firebase.initializeApp({
+  apiKey:"AIzaSyB5OYjVJQkXZI-JrDXKqsYK1ofRlrv_3mw",
+  authDomain:"athena-dashboard-d5c35.firebaseapp.com",
+  projectId:"athena-dashboard-d5c35",
+  storageBucket:"athena-dashboard-d5c35.firebasestorage.app",
+  messagingSenderId:"1007126745571",
+  appId:"1:1007126745571:web:0ae59f27a92690920bd0d6"
+});
+var auth=firebase.auth();
+var db=firebase.firestore();
+
+auth.onAuthStateChanged(async function(user){
+  document.getElementById('loading').style.display='none';
+  if(!user){window.location.href='login.html';return}
+  try{
+    var doc=await db.collection('users').doc(user.uid).get();
+    if(!doc.exists||doc.data().role!=='admin'){document.getElementById('noAccess').style.display='block';return}
+    document.getElementById('adminPanel').style.display='block';
+    loadUsers();
+  }catch(e){document.getElementById('noAccess').style.display='block'}
+});
+
+async function loadUsers(){
+  var snap=await db.collection('users').orderBy('createdAt','desc').get();
+  var pending=[];var approved=[];
+  snap.forEach(function(doc){var d=doc.data();d.uid=doc.id;if(d.status==='pending')pending.push(d);else approved.push(d)});
+  renderList('pendingList',pending,true);
+  renderList('approvedList',approved,false);
+}
+
+function renderList(containerId,users,isPending){
+  var container=document.getElementById(containerId);
+  if(users.length===0){container.innerHTML='<div class="empty">'+(isPending?'No pending requests.':'No approved users yet.')+'</div>';return}
+  container.innerHTML='';
+  users.forEach(function(u){
+    var card=document.createElement('div');card.className='user-card';
+    var date=u.createdAt?new Date(u.createdAt.seconds*1000).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'Unknown';
+    var badge=u.role==='admin'?'<span class="badge badge-admin">ADMIN</span>':u.status==='approved'?'<span class="badge badge-approved">APPROVED</span>':'<span class="badge badge-pending">PENDING</span>';
+    card.innerHTML='<div class="user-info"><div class="user-name">'+u.name+' '+badge+'</div><div class="user-email">'+u.email+'</div>'+(u.company?'<div class="user-company">'+u.company+'</div>':'')+'<div class="user-date">Joined: '+date+'</div></div><div class="actions">'
+      +(isPending?'<button class="btn-sm btn-approve" onclick="approveUser(\''+u.uid+'\')">APPROVE</button>':'')
+      +(u.status==='approved'&&u.role!=='admin'?'<button class="btn-sm btn-admin" onclick="makeAdmin(\''+u.uid+'\')">MAKE ADMIN</button>':'')
+      +(u.status==='approved'?'<button class="btn-sm btn-revoke" onclick="revokeUser(\''+u.uid+'\')">REVOKE</button>':'')
+      +'</div>';
+    container.appendChild(card);
+  });
+}
+
+async function approveUser(uid){
+  await db.collection('users').doc(uid).update({status:'approved'});
+  loadUsers();
+}
+async function revokeUser(uid){
+  if(!confirm('Revoke access for this user?'))return;
+  await db.collection('users').doc(uid).update({status:'revoked'});
+  loadUsers();
+}
+async function makeAdmin(uid){
+  if(!confirm('Give this user admin privileges?'))return;
+  await db.collection('users').doc(uid).update({role:'admin'});
+  loadUsers();
+}
+</script>
+</body>
+</html>

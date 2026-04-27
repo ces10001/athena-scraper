@@ -11,6 +11,36 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<script>
+firebase.initializeApp({
+  apiKey:"AIzaSyB5OYjVJQkXZI-JrDXKqsYK1ofRlrv_3mw",
+  authDomain:"athena-dashboard-d5c35.firebaseapp.com",
+  projectId:"athena-dashboard-d5c35",
+  storageBucket:"athena-dashboard-d5c35.firebasestorage.app",
+  messagingSenderId:"1007126745571",
+  appId:"1:1007126745571:web:0ae59f27a92690920bd0d6"
+});
+var athenaAuth=firebase.auth();
+var athenaDb=firebase.firestore();
+var authChecked=false;
+athenaAuth.onAuthStateChanged(async function(user){
+  if(!user){window.location.href='login.html';return}
+  try{
+    var doc=await athenaDb.collection('users').doc(user.uid).get();
+    if(!doc.exists||doc.data().status!=='approved'){athenaAuth.signOut();window.location.href='login.html';return}
+    sessionStorage.setItem('athena_auth','true');
+    sessionStorage.setItem('athena_uid',user.uid);
+    sessionStorage.setItem('athena_email',user.email);
+    sessionStorage.setItem('athena_role',doc.data().role||'user');
+    authChecked=true;
+    document.getElementById('auth-gate').style.display='none';
+  }catch(e){window.location.href='login.html'}
+});
+function athenaLogout(){athenaAuth.signOut();sessionStorage.clear();window.location.href='login.html'}
+</script>
 <style>
 :root{--bg:#f5f6f8;--bg2:#ffffff;--sf:#ffffff;--sf2:#f0f1f3;--bd:rgba(0,0,0,.1);--bd2:rgba(0,0,0,.18);--tx:#1a1a1a;--tx2:#5a6370;--tx3:#a0a8b4;--cy:#e8600a;--cy2:#d45500;--cydim:rgba(232,96,10,.05);--gn:#1a8f3f;--rd:#d42030;--am:#e8600a;--f:'Outfit',sans-serif;--m:'IBM Plex Mono',monospace}
 *{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--f);background:var(--bg);color:var(--tx);min-height:100vh}
@@ -247,7 +277,11 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 
 </style>
 </head>
-<body><script>if(!sessionStorage.getItem('athena_auth')){window.location.href='login.html'}</script><div id="root"></div>
+<body>
+<div id="auth-gate" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#0a0a0a;z-index:99999;display:flex;align-items:center;justify-content:center;flex-direction:column">
+  <div style="font-family:'IBM Plex Mono',monospace;color:#e8600a;font-size:14px;letter-spacing:4px;text-transform:uppercase">Verifying access...</div>
+</div>
+<div id="root"></div>
 <script type="text/babel">
 const{useState,useEffect,useMemo,useCallback,useRef}=React;
 const COORDS={"New Haven":[41.308,-72.928],"Bridgeport":[41.179,-73.189],"Orange":[41.278,-73.026],"Branford":[41.280,-72.815],"Hamden":[41.396,-72.897],"Derby":[41.327,-73.089],"Stratford":[41.185,-73.133],"Naugatuck":[41.486,-73.051],"Meriden":[41.538,-72.807],"Stamford":[41.053,-73.539],"Newington":[41.698,-72.723],"Waterbury":[41.558,-73.037],"Seymour":[41.397,-73.084],"Hartford":[41.764,-72.685],"Groton":[41.350,-72.078],"Milford":[41.222,-73.057],"Bristol":[41.672,-72.949],"Manchester":[41.776,-72.521],"Willimantic":[41.711,-72.208],"Norwalk":[41.118,-73.408],"Old Saybrook":[41.292,-72.376],"West Hartford":[41.762,-72.742],"Canton":[41.841,-72.898],"South Norwalk":[41.095,-73.419],"New Britain":[41.661,-72.779],"East Hartford":[41.782,-72.612],"Danbury":[41.395,-73.454],"Torrington":[41.800,-73.121],"Shelton":[41.316,-73.093],"Wallingford":[41.457,-72.823],"Vernon":[41.836,-72.459],"North Haven":[41.391,-72.860],"West Haven":[41.271,-72.947],"Middletown":[41.563,-72.651],"New London":[41.356,-72.100],"Enfield":[41.976,-72.592],"Killingly":[41.838,-71.873],"Montville":[41.478,-72.151],"Plainville":[41.674,-72.858],"Colchester":[41.576,-72.332],"Norwich":[41.524,-72.076],"Ashford":[41.874,-72.116],"East Lyme":[41.367,-72.227],"Putnam":[41.913,-71.909],"Rocky Hill":[41.664,-72.639],"Tolland":[41.872,-72.369],"Cromwell":[41.595,-72.645],"Trumbull":[41.243,-73.201]};
@@ -569,7 +603,7 @@ function DetailedView({disp,data,onClose}){
 }
 
 function Hdr({d}){
-  return<div className="hdr"><div className="logo"><div className="lt"><img src={ATHENA_LOGO_SM} alt="ATHENA" style={{width:44,height:44,borderRadius:6}}/><div><h1>ATHENA</h1><span>Cannabis Pricing Intelligence</span></div></div></div></div>;
+  return<div className="hdr"><div className="logo"><div className="lt"><img src={ATHENA_LOGO_SM} alt="ATHENA" style={{width:44,height:44,borderRadius:6}}/><div><h1>ATHENA</h1><span>Cannabis Pricing Intelligence</span></div></div></div><div style={{display:'flex',alignItems:'center',gap:12}}><span style={{fontSize:12,color:'var(--tx3)',fontFamily:'var(--m)'}}>{sessionStorage.getItem('athena_email')||''}</span><button onClick={function(){if(typeof athenaLogout==='function')athenaLogout()}} style={{padding:'6px 14px',background:'transparent',border:'1px solid var(--bd)',borderRadius:6,color:'var(--tx2)',fontSize:12,cursor:'pointer',fontFamily:'var(--m)',letterSpacing:1}}>LOGOUT</button></div></div>;
 }
 
 function VideoCarousel(){
