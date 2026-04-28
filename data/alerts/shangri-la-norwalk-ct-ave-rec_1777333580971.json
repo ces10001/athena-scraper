@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Lemon Skunk 0.5g LT Vape T417 S 00937",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Skunk 0.5g LT Vape T417 S 00937 $39.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Delight Flower T28.78% H 00694",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Delight Flower T28.78% H 00694 $46.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Lemon Delight 1g LT Vape T847 S 00935",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Lemon Delight 1g LT Vape T847 S 00935 $70.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Camino Watermelon Lemonade Cannabis-Infused Gummies 00408",
+    "brand": "Camino",
+    "message": "New: Camino - Camino Watermelon Lemonade Cannabis-Infused Gummies 00408 $25.60"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Dogwalkers 1g Big Dog Cheddar Cheeze (I) 01114",
+    "brand": "Dogwalkers",
+    "message": "Gone: Dogwalkers - Dogwalkers 1g Big Dog Cheddar Cheeze (I) 01114"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunset Strip Shorties S 26530",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Sunset Strip Shorties S 26530"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Blue Haze",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Blue Haze $44.62"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Zuava",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Zuava $22.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Nimbus Snacks $22.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - E85 $21.37"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Kush Tang",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Kush Tang $34.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GG Skunk",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - GG Skunk $44.62"
+  },
+  {
+    "type": "new_product",
+    "product_name": "GMO Skunk",
+    "brand": "Savvy",
+    "message": "New: Savvy - GMO Skunk $82.12"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Heir Heads",
+    "brand": "Savvy",
+    "message": "New: Savvy - Heir Heads $10.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Nimbus Snacks",
+    "brand": "Savvy",
+    "message": "New: Savvy - Nimbus Snacks $10.87"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Seattle Sour Kush",
+    "brand": "Savvy",
+    "message": "New: Savvy - Seattle Sour Kush $142.12"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "C-Stata (H) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis C-Stata (H) 1g Pre-Roll 1pk (1g): $10.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Mystic Sunrise (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Mystic Sunrise (S) 1g Pre-Roll 1pk (1g): $25.00 > $10.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Homebody (I) 0.5g Pre-Roll 7pk (3.5g) $36.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "Gone: comffy - Homebody (I) 0.5g Pre-Roll 7pk (3.5g)"
+  }
+]

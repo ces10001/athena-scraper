@@ -1,0 +1,86 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "E85",
+    "brand": "CTPharma",
+    "message": "CTPharma E85: $43.00 > $34.40"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "CT Kush Cake",
+    "brand": "Let's Burn",
+    "message": "Let's Burn CT Kush Cake: $46.00 > $36.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Jungle Cake",
+    "brand": "Brix",
+    "message": "Brix Jungle Cake: $36.00 > $28.80"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Sour Black Cherry",
+    "brand": "Encore Edibles",
+    "message": "Encore Edibles Sour Black Cherry: $30.00 > $24.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Apple Cider",
+    "brand": "SoundView",
+    "message": "SoundView Apple Cider: $30.00 > $24.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Floral Frost",
+    "brand": "Grassroots",
+    "message": "New: Grassroots - Floral Frost $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Black Maple",
+    "brand": "Affinity Grow",
+    "message": "New: Affinity Grow - Black Maple $27.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Blueberry Lemon",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Blueberry Lemon $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sour Apple",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Sour Apple $20.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "RNTZ x Fantasy Melonz",
+    "brand": "Advanced Grow Labs",
+    "message": "New: Advanced Grow Labs - RNTZ x Fantasy Melonz $38.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Motor Breath",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Motor Breath $45.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sheriff's Reserve",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Sheriff's Reserve $45.60"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Scorpion Bowl",
+    "brand": "Rodeo Cannabis",
+    "message": "New: Rodeo Cannabis - Scorpion Bowl $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints"
+  }
+]

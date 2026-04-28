@@ -1,0 +1,56 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Animal Face (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Dogwalkers",
+    "message": "Dogwalkers Animal Face (I) 1g Pre-Roll 1pk (1g): $13.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Summer L. (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Summer L. (S) 1g Pre-Roll 1pk (1g): $25.00 > $9.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Cheddar Cheeze (I) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "AGL Cheddar Cheeze (I) Disposable Vape (0.3g): $25.00 > $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Hour (H) 0.5g Pre-Rolls 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "Gone: comffy - Golden Hour (H) 0.5g Pre-Rolls 7pk (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush (H) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush (H) Legacy Series Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff (I) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Mango Puff (I) Flavor Series Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Golden Tangie (S) Flavor Series Vape Cartridge"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Planet Of The Grapes MT | .5g Disposable ( I ) | 41012 | Theraplant",
+    "brand": "Select",
+    "message": "New: Select - Planet Of The Grapes MT | .5g Disposable ( I ) | 41012 | Theraplant $28.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Sours-Orchard Peach | CBD | 10ct Gummies ( H ) | 00320 | Camino",
+    "brand": "SoundView",
+    "message": "New: SoundView - Sours-Orchard Peach | CBD | 10ct Gummies ( H ) | 00320 | Camino $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grassroots: Apple Tarts | 5 Pack 2g (H) | 01639",
+    "brand": "Curaleaf",
+    "message": "Gone: Curaleaf - Grassroots: Apple Tarts | 5 Pack 2g (H) | 01639"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "AGL 1g Pre Roll Rose Gold RTZ (H) 01370",
+    "brand": "Advanced Grow Labs",
+    "message": "Gone: Advanced Grow Labs - AGL 1g Pre Roll Rose Gold RTZ (H) 01370"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sours: Orchard Peach | CBD 10:10 10ct Gummies (H) | 00361 | Camino",
+    "brand": "Camino",
+    "message": "Gone: Camino - Sours: Orchard Peach | CBD 10:10 10ct Gummies (H) | 00361 | Camino"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "FIND. Preroll 1g Single PB Bites (S) 01434",
+    "brand": "Find.",
+    "message": "Gone: Find. - FIND. Preroll 1g Single PB Bites (S) 01434"
+  }
+]

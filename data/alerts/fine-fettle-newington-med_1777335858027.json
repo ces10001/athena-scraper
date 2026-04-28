@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Carbon FBR (H) Flower",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Carbon FBR (H) Flower $52.50"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Mystic Sunrise (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "BRIX Cannabis",
+    "message": "BRIX Cannabis Mystic Sunrise (S) 1g Pre-Roll 1pk (1g): $7.20 > $25.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst (H) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Moonburst (H) Flavor Series Vape Cartridge $36.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Outta My Head (H) Syringe (1g)",
+    "brand": "AGL",
+    "message": "New: AGL - Outta My Head (H) Syringe (1g) $8.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Surfer (I) Flower",
+    "brand": "comffy",
+    "message": "Gone: comffy - Couch Surfer (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - GMO (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Atomic Tangerine (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "comffy",
+    "message": "Gone: comffy - Atomic Tangerine (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks (S) Hash Nugs (3.5g)",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Nimbus Snacks (S) Hash Nugs (3.5g)"
+  }
+]

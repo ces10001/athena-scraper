@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_drop",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g): $25.00 > $5.25"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Pineapple Raspberry (H) Gummies (9.64mg 10pk)",
+    "brand": "Encore",
+    "message": "Encore Pineapple Raspberry (H) Gummies (9.64mg 10pk): $25.00 > $20.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Kush Mints (I) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Kush Mints (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Foreign Kush Mints (I) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Foreign Kush Mints (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Astro GMO (I) Flower",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Astro GMO (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)",
+    "brand": "Grassroots",
+    "message": "Gone: Grassroots - Pillow Mints (I) 0.4g Pre-Rolls 5pk (2g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Granny Banany (S) Infused Blunt 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Granny Banany (S) Infused Blunt 1pk (1g)"
+  }
+]

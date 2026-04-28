@@ -1,0 +1,86 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Applescotti",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - Applescotti $19.27"
+  },
+  {
+    "type": "new_product",
+    "product_name": "The Soap",
+    "brand": "CTPharma",
+    "message": "New: CTPharma - The Soap $24.45"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Mule Fuel",
+    "brand": "Let's Burn",
+    "message": "New: Let's Burn - Mule Fuel $14.50"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grandy Pappy's Chillemon",
+    "brand": "Theraplant",
+    "message": "New: Theraplant - Grandy Pappy's Chillemon $8.50"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Diesel Train",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Diesel Train"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hazy Fields",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Hazy Fields"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Strawberry Pave",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Strawberry Pave"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Alien OG",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Alien OG"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Glue",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Lemon Glue"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pineapple Raspberry",
+    "brand": "Encore",
+    "message": "Gone: Encore - Pineapple Raspberry"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Lemon Cherry Sherb",
+    "brand": "(the) Essence",
+    "message": "Gone: (the) Essence - Lemon Cherry Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Midnight Blueberry 5:1 CBN",
+    "brand": "Camino",
+    "message": "Gone: Camino - Midnight Blueberry 5:1 CBN"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Gelato Rntz Bubble Hash",
+    "brand": "Miss Grass",
+    "message": "Gone: Miss Grass - Gelato Rntz Bubble Hash"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Orchard Peach 1:1 CBD",
+    "brand": "Camino",
+    "message": "Gone: Camino - Orchard Peach 1:1 CBD"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Bananaconda (H) Live Rosin Vape Cartridge",
+    "brand": "Rythm",
+    "message": "New: Rythm - Bananaconda (H) Live Rosin Vape Cartridge $31.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Jet Fuel x Vel Croz (H) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "New: AGL - Jet Fuel x Vel Croz (H) Disposable Vape (0.3g) $11.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Moonburst (H) Elite All In One (0.3g)",
+    "brand": "Select",
+    "message": "New: Select - Moonburst (H) Elite All In One (0.3g) $15.75"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Golden Tangie (S) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "New: Select - Golden Tangie (S) Flavor Series Vape Cartridge $36.75"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Surfer (I) Flower",
+    "brand": "comffy",
+    "message": "Gone: comffy - Couch Surfer (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ice Cream Cke (I) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Ice Cream Cke (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Hash Wedding (I) Infused Shorties 10pk (4g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Hash Wedding (I) Infused Shorties 10pk (4g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) 0.4g Pre-Rolls 20pk (8g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Regina Gorgeous (H) Disposable Vape (0.3g)",
+    "brand": "AGL",
+    "message": "Gone: AGL - Regina Gorgeous (H) Disposable Vape (0.3g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "LA Kush Cake (H) Vape Cartridge",
+    "brand": "comffy",
+    "message": "Gone: comffy - LA Kush Cake (H) Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banana SPLT (I) Mini Tank Disposable (0.5g)",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banana SPLT (I) Mini Tank Disposable (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Maui Wowie (H) Disposable Vape (0.5g)",
+    "brand": "Lucky Break",
+    "message": "Gone: Lucky Break - Maui Wowie (H) Disposable Vape (0.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Island Punch (I) Fast Acting Gummies (4.96mg 20pk)",
+    "brand": "Wana",
+    "message": "Gone: Wana - Island Punch (I) Fast Acting Gummies (4.96mg 20pk)"
+  }
+]

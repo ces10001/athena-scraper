@@ -1,0 +1,32 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Rose Gold RTZ Smalls Flower - 01366",
+    "brand": "Good Green",
+    "message": "New: Good Green - Rose Gold RTZ Smalls Flower - 01366 $66.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Cap Junk Flower - 00438",
+    "brand": "Brix Cannabis",
+    "message": "New: Brix Cannabis - Cap Junk Flower - 00438 $28.80"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Magenta Dream Smalls - 27037",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Magenta Dream Smalls - 27037"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "GMO Smalls - 01349",
+    "brand": "RYTHM",
+    "message": "Gone: RYTHM - GMO Smalls - 01349"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Nimbus Snacks Pre-Roll - 27009",
+    "brand": "Savvy",
+    "message": "Gone: Savvy - Nimbus Snacks Pre-Roll - 27009"
+  }
+]

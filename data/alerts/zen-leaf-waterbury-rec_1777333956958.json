@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Tropical Haze",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Tropical Haze"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Blue Sherb",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - Blue Sherb"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "B Scout",
+    "brand": "Rythm",
+    "message": "Gone: Rythm - B Scout"
+  }
+]

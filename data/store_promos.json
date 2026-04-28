@@ -270,12 +270,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "Monday Edibles 20% OFF",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "AGL Brands - 30% OFF",
     "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
@@ -399,12 +393,6 @@
     "title": "30% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Monday Edibles 20% OFF",
-    "description": "",
-    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
     "platform": "dutchie"
   },
   {
@@ -537,12 +525,6 @@
     "title": "50% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Monday Edibles 20% OFF",
-    "description": "",
-    "dispensary": "Shangri-La - Waterbury (Rec)",
     "platform": "dutchie"
   },
   {
@@ -828,12 +810,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "STAM 4 Starstruck 8th's for $100",
-    "description": "",
-    "dispensary": "SweetSpot - Stamford (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "MED Curaleaf Classic Bites Lemon 2 for $90",
     "description": "",
     "dispensary": "SweetSpot - Stamford (Med)",
@@ -854,12 +830,6 @@
   {
     "title": "Select Briq All-In-One Disposable 2g Vapes - 2 for $180",
     "description": "",
-    "dispensary": "SweetSpot - West Hartford (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "WEHA Munchie Mondays - BOGO 50% off edibles",
-    "description": "Come join us every Monday to receive Buy One Get One 50% off for all edibles!",
     "dispensary": "SweetSpot - West Hartford (Rec)",
     "platform": "dutchie"
   },
@@ -1632,9 +1602,9 @@
     "platform": "dutchie"
   },
   {
-    "title": "Medical Monday 20% Off",
+    "title": "20% Off - Airo",
     "description": "",
-    "dispensary": "Nightjar - East Lyme (Med)",
+    "dispensary": "Nightjar - East Lyme (Rec)",
     "platform": "dutchie"
   },
   {
@@ -1902,12 +1872,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "Saddle Bag Promo",
-    "description": "",
-    "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "20% Off Coast Products",
     "description": "",
     "dispensary": "Rodeo Cannabis - Rocky Hill (Rec)",
@@ -2100,6 +2064,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "Deal of the Day | $25 3.5g",
+    "description": "ALL NEW- Shop deal of the day for blow out specials. Discounts do not stack, limited time only. While supplies last. Limit 1 per person.",
+    "dispensary": "Affinity - Bridgeport (Rec)",
+    "platform": "dutchie"
+  },
+  {
     "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
     "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
     "dispensary": "Affinity - Bridgeport (Rec)",
@@ -2115,12 +2085,6 @@
     "title": "30% off select CTPHARMA products",
     "description": "Enjoy 30% off select CTPharma products when you shop 4/27-5/3. While supplies stack, discounts do not stack.",
     "dispensary": "Affinity - Bridgeport (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "20% OFF ENTIRE MENU | (offer ONLY valid 4/27)",
-    "description": "Limited time only - while supplies last. No stacking Items MUST be ordered & picked up or delivered on 4/27 to qualify for offer.",
-    "dispensary": "Affinity - Bridgeport (Med)",
     "platform": "dutchie"
   },
   {
@@ -2148,6 +2112,12 @@
     "platform": "dutchie"
   },
   {
+    "title": "Deal of the Day | $25 3.5g",
+    "description": "ALL NEW- Shop deal of the day for blow out specials. Discounts do not stack, limited time only. While supplies last. Limit 1 per person.",
+    "dispensary": "Affinity - New Haven (Med)",
+    "platform": "dutchie"
+  },
+  {
     "title": "BUY 4 UNITS OF FLOWER (3.5G) | GET 20% OFF",
     "description": "Buy 4 or more of ANY 3.5g flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
     "dispensary": "Affinity - New Haven (Med)",
@@ -2156,12 +2126,6 @@
   {
     "title": "BUY 4 UNITS OF 7G FLOWER | GET 20% OFF",
     "description": "Buy 4 or more of ANY 7G flower- get 20% off! Discount only applies to flower, not the entire purchase. Discounts DO NOT stack!",
-    "dispensary": "Affinity - New Haven (Med)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "20% OFF ENTIRE MENU | (offer ONLY valid 4/27)",
-    "description": "Limited time only - while supplies last. No stacking Items MUST be ordered & picked up or delivered on 4/27 to qualify for offer.",
     "dispensary": "Affinity - New Haven (Med)",
     "platform": "dutchie"
   },
@@ -2568,13 +2532,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Vapes | 25% Off",
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Manchester (Rec)",
     "platform": "finefettle"
@@ -2617,12 +2581,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Newington (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Comffy Atomic Tangerine 1g Pre-Roll | $5 Each",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Rec)",
     "platform": "finefettle"
@@ -2784,13 +2742,13 @@
     "platform": "finefettle"
   },
   {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
   },
   {
-    "title": "Select Vapes | 25% Off",
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
     "platform": "finefettle"
@@ -2946,6 +2904,12 @@
     "platform": "finefettle"
   },
   {
+    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
+    "description": "",
+    "dispensary": "Fine Fettle - Willimantic (Rec)",
+    "platform": "finefettle"
+  },
+  {
     "title": "Select Vapes | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
@@ -2959,12 +2923,6 @@
   },
   {
     "title": "Grassroots Ounces | 25% Off",
-    "description": "",
-    "dispensary": "Fine Fettle - Willimantic (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "SoundView Gummies, Mints & Seltzers | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
     "platform": "finefettle"

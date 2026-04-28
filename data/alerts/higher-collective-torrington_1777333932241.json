@@ -1,0 +1,20 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Hippie Crasher",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Hippie Crasher"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Arctic Cream",
+    "brand": "The Goods",
+    "message": "Gone: The Goods - Arctic Cream"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "The Soap #2",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - The Soap #2"
+  }
+]

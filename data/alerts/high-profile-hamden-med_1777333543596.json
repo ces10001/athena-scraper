@@ -1,0 +1,32 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medelin | Pre-Pack | 3.5g | 41517",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medelin | Pre-Pack | 3.5g | 41517"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Paradise Snacks | Pre-Pack | 14g | 01285",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Paradise Snacks | Pre-Pack | 14g | 01285"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "HYB GMO | 5pk Pre-rolls | 0.4g each | 26711",
+    "brand": "CTPharma",
+    "message": "Gone: CTPharma - HYB GMO | 5pk Pre-rolls | 0.4g each | 26711"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mystic Mintz | Live Resin Disposable | 1g | C0060000390",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Mystic Mintz | Live Resin Disposable | 1g | C0060000390"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135",
+    "brand": "Grassroots x Dark Heart Collection",
+    "message": "Gone: Grassroots x Dark Heart Collection - Zesty Garlic Kookyz | Pre-Pack | 3.5g | 01135"
+  }
+]

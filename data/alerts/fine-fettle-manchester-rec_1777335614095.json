@@ -1,0 +1,44 @@
+[
+  {
+    "type": "price_increase",
+    "product_name": "Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g)",
+    "brand": "Affinity Grow",
+    "message": "Affinity Grow Capy (H) Lil' Ricky 0.3g Pre-Rolls 3pk (0.9g): $16.00 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Ice Cream CKE (I) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Ice Cream CKE (I) 1g Pre-Roll 1pk (1g): $25.00 > $8.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Banapple Medellin (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Banapple Medellin (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Black Cherry GMO (H) Flower",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Black Cherry GMO (H) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Golden Hour (H) 0.5g Pre-Rolls 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "Gone: comffy - Golden Hour (H) 0.5g Pre-Rolls 7pk (3.5g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Couch Kush (H) Legacy Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Couch Kush (H) Legacy Series Vape Cartridge"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mango Puff (I) Flavor Series Vape Cartridge",
+    "brand": "Select",
+    "message": "Gone: Select - Mango Puff (I) Flavor Series Vape Cartridge"
+  }
+]

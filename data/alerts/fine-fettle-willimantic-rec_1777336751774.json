@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Purple Milk (I) Flower",
+    "brand": "BRIX Cannabis",
+    "message": "New: BRIX Cannabis - Purple Milk (I) Flower $35.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sunshine Daydream (I) Flower",
+    "brand": "Affinity Grow",
+    "message": "Gone: Affinity Grow - Sunshine Daydream (I) Flower"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Sour Diesel (S) Live Resin Vape Cartridge (1g)",
+    "brand": "Lighthouse",
+    "message": "Gone: Lighthouse - Sour Diesel (S) Live Resin Vape Cartridge (1g)"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Pink Lemonade (S) Live Resin Gummies (4.82mg 20pk)",
+    "brand": "SoundView",
+    "message": "Gone: SoundView - Pink Lemonade (S) Live Resin Gummies (4.82mg 20pk)"
+  }
+]

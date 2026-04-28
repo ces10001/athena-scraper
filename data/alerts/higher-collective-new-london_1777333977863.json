@@ -1,0 +1,50 @@
+[
+  {
+    "type": "out_of_stock",
+    "product_name": "M.O.B.",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - M.O.B."
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Brownie Scout",
+    "brand": "AGL",
+    "message": "Gone: AGL - Brownie Scout"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Modified Donkey",
+    "brand": "Theraplant",
+    "message": "Gone: Theraplant - Modified Donkey"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Ori",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Ori"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Endgame Punchline",
+    "brand": "Affinity",
+    "message": "Gone: Affinity - Endgame Punchline"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Flavor Series Briq 2.0 Banana Cream Cake",
+    "brand": "Select",
+    "message": "Gone: Select - Flavor Series Briq 2.0 Banana Cream Cake"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Bruce Banner Live Resin",
+    "brand": "Amigos",
+    "message": "Gone: Amigos - Bruce Banner Live Resin"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Mule Fuel",
+    "brand": "all:hours",
+    "message": "Gone: all:hours - Mule Fuel"
+  }
+]

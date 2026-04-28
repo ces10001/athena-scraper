@@ -1,0 +1,26 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "New: comffy - Homebody (I) 0.5g Pre-Roll 7pk (3.5g) $25.60"
+  },
+  {
+    "type": "price_increase",
+    "product_name": "Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Theraplant",
+    "message": "Theraplant Grand Pappy's Chillemon (S) 1g Pre-Roll 1pk (1g): $5.25 > $25.00"
+  },
+  {
+    "type": "price_drop",
+    "product_name": "Summer L. (S) 1g Pre-Roll 1pk (1g)",
+    "brand": "Rodeo Cannabis",
+    "message": "Rodeo Cannabis Summer L. (S) 1g Pre-Roll 1pk (1g): $25.00 > $7.20"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Homebody (I) 0.5g Pre-Roll 7pk (3.5g)",
+    "brand": "comffy",
+    "message": "Gone: comffy - Homebody (I) 0.5g Pre-Roll 7pk (3.5g)"
+  }
+]
