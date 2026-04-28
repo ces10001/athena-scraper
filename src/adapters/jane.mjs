@@ -269,11 +269,13 @@ export async function scrapeJane(dispensary) {
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
 
-    // Build list of URLs to try: website_url first, then slug-based, then id-based
+    // Build list of URLs to try: website_url first, then embed, then slug-based, then id-based
     var urlsToTry = [];
     if (dispensary.website_url) urlsToTry.push(dispensary.website_url);
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
+      // Jane frameless embed URL — loads products directly without the storefront chrome
+      urlsToTry.push('https://www.iheartjane.com/embed/stores/' + store.id + '/menu?app_mode=framelessEmbed');
       if (store.slug) urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/' + store.slug + '/menu');
       urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/menu');
     }
@@ -303,43 +305,73 @@ export async function scrapeJane(dispensary) {
           if (await closeBtn.isVisible({ timeout: 1500 })) { await closeBtn.click(); await page.waitForTimeout(1000); }
         } catch(e) {}
 
-        // Click "Show All" if present (Rise pages show "Show All (102)")
+        // ─── Check for Jane iframe (Rise, Venu, etc embed Jane in iframes) ───
+        var iframeText = null;
         try {
-          // Try multiple selectors - could be button, link, span, or div
-          var showAllSelectors = [
-            'a:has-text("Show All")', 'button:has-text("Show All")',
-            'span:has-text("Show All")', 'div:has-text("Show All")',
-            '[data-testid*="show-all"]', '[class*="show-all"]',
-            'a:has-text("ALL PRODUCTS")', 'button:has-text("ALL PRODUCTS")'
-          ];
-          for (var sa = 0; sa < showAllSelectors.length; sa++) {
-            try {
-              var showAll = page.locator(showAllSelectors[sa]).first();
-              if (await showAll.isVisible({ timeout: 1500 })) {
-                await showAll.scrollIntoViewIfNeeded();
-                await showAll.click();
-                console.log('  [jane] Clicked: ' + showAllSelectors[sa]);
-                await page.waitForTimeout(10000);
-                break;
+          var frames = page.frames();
+          for (var fi = 0; fi < frames.length; fi++) {
+            var frameUrl = frames[fi].url();
+            if (frameUrl.includes('iheartjane.com') || frameUrl.includes('jane.com')) {
+              console.log('  [jane] Found Jane iframe: ' + frameUrl.substring(0, 100));
+              // Wait for iframe content to load
+              await page.waitForTimeout(8000);
+              // Click View more inside iframe repeatedly
+              for (var vm = 0; vm < 50; vm++) {
+                try {
+                  var viewMore = frames[fi].locator('button:has-text("View more"), button:has-text("Show more"), button:has-text("Load more")').first();
+                  if (await viewMore.isVisible({ timeout: 2000 })) { await viewMore.scrollIntoViewIfNeeded(); await viewMore.click(); await page.waitForTimeout(1500); }
+                  else break;
+                } catch(e) { break; }
               }
-            } catch(e) {}
-          }
-          // Also try clicking via JS evaluate for stubborn elements
-          var clicked = await page.evaluate(function() {
-            var links = document.querySelectorAll('a, button, span, div');
-            for (var i = 0; i < links.length; i++) {
-              if (links[i].textContent && links[i].textContent.match(/Show All/i)) {
-                links[i].click();
-                return links[i].textContent.trim().substring(0, 50);
-              }
+              // Read iframe text
+              try {
+                iframeText = await frames[fi].evaluate(function() { return document.body?.innerText || ''; });
+                var iframeAddCount = (iframeText.match(/Add to (cart|bag)/gi) || []).length;
+                console.log('  [jane] Iframe text: ' + iframeText.length + ' chars, ' + iframeAddCount + ' products');
+              } catch(e) { console.log('  [jane] Could not read iframe: ' + e.message); }
+              break;
             }
-            return null;
-          });
-          if (clicked) {
-            console.log('  [jane] JS clicked: "' + clicked + '"');
-            await page.waitForTimeout(10000);
           }
         } catch(e) {}
+
+        // If we found iframe content, parse it
+        if (iframeText && iframeText.length > 500) {
+          var iframeProducts = parseJaneProducts(iframeText);
+          console.log('  [jane] Parsed ' + iframeProducts.length + ' from iframe');
+          for (var p = 0; p < iframeProducts.length; p++) {
+            var key = iframeProducts[p].external_id;
+            if (!allProducts.has(key)) allProducts.set(key, iframeProducts[p]);
+          }
+          if (allProducts.size >= 10) {
+            console.log('  [jane] Got ' + allProducts.size + ' products from iframe');
+            await page.close();
+            break;
+          }
+        }
+
+        // ─── Fallback: try reading the parent page directly ───
+        // Click "Show All" if present (but don't navigate away)
+        // Skip this for risecannabis.com since Show All just empties the parent page
+        if (!url.includes('risecannabis.com')) {
+          try {
+            var showAllSelectors = [
+              'a:has-text("Show All")', 'button:has-text("Show All")',
+              'a:has-text("ALL PRODUCTS")', 'button:has-text("ALL PRODUCTS")'
+            ];
+            for (var sa = 0; sa < showAllSelectors.length; sa++) {
+              try {
+                var showAll = page.locator(showAllSelectors[sa]).first();
+                if (await showAll.isVisible({ timeout: 1500 })) {
+                  await showAll.scrollIntoViewIfNeeded();
+                  await showAll.click();
+                  console.log('  [jane] Clicked: ' + showAllSelectors[sa]);
+                  await page.waitForTimeout(8000);
+                  break;
+                }
+              } catch(e) {}
+            }
+          } catch(e) {}
+        }
 
         // Click "View more" / "Load more" repeatedly
         for (var vm = 0; vm < 50; vm++) {
