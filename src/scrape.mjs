@@ -95,7 +95,11 @@ async function main() {
     if (d.platform === 'jane' && !d.jane_stores) return false;
     if (d.platform === 'budrcannabis' && !d.store_url) return false;
     if (opts.platform && d.platform !== opts.platform) return false;
-    if (opts.name && !d.name.toLowerCase().includes(opts.name.toLowerCase())) return false;
+    if (opts.name) {
+      var filters = opts.name.split(',').map(function(f) { return f.trim().toLowerCase(); });
+      var match = filters.some(function(f) { return d.name.toLowerCase().includes(f); });
+      if (!match) return false;
+    }
     return true;
   });
 
