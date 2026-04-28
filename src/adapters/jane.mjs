@@ -1,5 +1,159 @@
 import { normalizeProduct, validateProduct } from '../lib/normalizer.mjs';
 
+// ═══ DOM EXTRACTION — bypasses text parsing entirely ═══
+async function extractProductsFromDOM(pageOrFrame) {
+  return await pageOrFrame.evaluate(function() {
+    var products = [];
+    // Find all "Add to cart" / "Add to bag" buttons
+    var buttons = document.querySelectorAll('button');
+    var productButtons = [];
+    for (var i = 0; i < buttons.length; i++) {
+      var txt = (buttons[i].textContent || '').trim().toLowerCase();
+      if (txt === 'add to cart' || txt === 'add to bag') {
+        productButtons.push(buttons[i]);
+      }
+    }
+
+    for (var b = 0; b < productButtons.length; b++) {
+      try {
+        // Walk up to find the product card container (usually 3-8 levels up)
+        var card = productButtons[b];
+        for (var up = 0; up < 10; up++) {
+          if (!card.parentElement) break;
+          card = card.parentElement;
+          // Stop when we find a card-like container
+          var cardText = card.textContent || '';
+          if (cardText.includes('$') && cardText.length > 50 && cardText.length < 2000) {
+            // Check this isn't the entire page
+            var btnsInside = card.querySelectorAll('button');
+            var addBtns = 0;
+            for (var bi = 0; bi < btnsInside.length; bi++) {
+              var btnTxt = (btnsInside[bi].textContent || '').trim().toLowerCase();
+              if (btnTxt === 'add to cart' || btnTxt === 'add to bag') addBtns++;
+            }
+            if (addBtns <= 1) break; // Found the single-product card
+          }
+        }
+
+        var cardContent = card.textContent || '';
+        if (cardContent.length < 20 || cardContent.length > 2000) continue;
+
+        // Extract price - look for $ amounts
+        var priceEls = card.querySelectorAll('[class*="price"], [class*="Price"], [data-testid*="price"]');
+        var price = null;
+        var originalPrice = null;
+        
+        if (priceEls.length > 0) {
+          for (var pi = 0; pi < priceEls.length; pi++) {
+            var pText = priceEls[pi].textContent || '';
+            var pMatch = pText.match(/\$(\d+\.?\d*)/);
+            if (pMatch) {
+              var pVal = parseFloat(pMatch[1]);
+              if (!price) price = pVal;
+              else if (pVal > price) originalPrice = pVal;
+            }
+          }
+        }
+        
+        // Fallback: find $ in card text
+        if (!price) {
+          var allPrices = cardContent.match(/\$(\d+\.?\d*)/g);
+          if (allPrices && allPrices.length > 0) {
+            price = parseFloat(allPrices[0].replace('$', ''));
+            if (allPrices.length > 1) {
+              var p2 = parseFloat(allPrices[1].replace('$', ''));
+              if (p2 > price) originalPrice = p2;
+              else if (p2 < price) { originalPrice = price; price = p2; }
+            }
+          }
+        }
+
+        if (!price || price <= 0) continue;
+
+        // Extract name - look for headings, links, or prominent text
+        var name = '';
+        var nameEls = card.querySelectorAll('h1, h2, h3, h4, a[href*="product"], a[href*="menu"]');
+        for (var ni = 0; ni < nameEls.length; ni++) {
+          var nText = (nameEls[ni].textContent || '').trim();
+          if (nText.length > 5 && nText.length < 200 && !nText.match(/add to|view|show all|filter/i)) {
+            name = nText;
+            break;
+          }
+        }
+        if (!name) {
+          // Take first substantial text node
+          var walker = document.createTreeWalker(card, NodeFilter.SHOW_TEXT, null, false);
+          var node;
+          while (node = walker.nextNode()) {
+            var t = (node.textContent || '').trim();
+            if (t.length > 5 && t.length < 150 && !t.includes('$') && !t.match(/add to|thc|cbd|indica|sativa|hybrid/i)) {
+              name = t;
+              break;
+            }
+          }
+        }
+        if (!name || name.length < 3) continue;
+
+        // Extract brand
+        var brand = '';
+        var brandEls = card.querySelectorAll('[class*="brand"], [class*="Brand"], [data-testid*="brand"]');
+        if (brandEls.length > 0) brand = (brandEls[0].textContent || '').trim();
+
+        // Extract weight
+        var weight = null;
+        var wMatch = cardContent.match(/\b(\d+\.?\d*)\s*[Gg]\b/);
+        if (wMatch) weight = wMatch[1] + 'g';
+        if (!weight) {
+          var wMatch2 = cardContent.match(/\b(\d+)\s*(?:mg|ml|oz)\b/i);
+          if (wMatch2) weight = wMatch2[0];
+        }
+
+        // Extract THC/CBD
+        var thcMatch = cardContent.match(/THC\s*(\d+\.?\d*)%?/i);
+        var cbdMatch = cardContent.match(/CBD\s*(\d+\.?\d*)%?/i);
+
+        // Detect category
+        var category = 'other';
+        var catText = cardContent.toLowerCase();
+        if (/\bflower\b|whole bud|mixed bud|small flower|ground\b/.test(catText)) category = 'flower';
+        else if (/\bpre.?roll|shorties|pre.?pack|mini.?roll\b/.test(catText)) category = 'pre-rolls';
+        else if (/\bvape|cart|aio|disposable|pen\b|briq\b/.test(catText)) category = 'vaporizers';
+        else if (/\bedible|gumm|chocolate|chew|confection|seltzer|beverage\b/.test(catText)) category = 'edible';
+        else if (/\bconcentrate|rosin|resin|wax|badder|shatter\b/.test(catText)) category = 'concentrate';
+        else if (/\btincture|drops|oil\b/.test(catText)) category = 'tincture';
+        else if (/\btopical|balm|cream|transdermal\b/.test(catText)) category = 'topical';
+
+        // Detect strain type
+        var strain = null;
+        if (/\bsativa\b/i.test(catText)) strain = 'sativa';
+        else if (/\bindica\b/i.test(catText)) strain = 'indica';
+        else if (/\bhybrid\b/i.test(catText)) strain = 'hybrid';
+        else if (/\(S\)/.test(cardContent)) strain = 'sativa';
+        else if (/\(I\)/.test(cardContent)) strain = 'indica';
+        else if (/\(H\)/.test(cardContent)) strain = 'hybrid';
+
+        // Product code
+        var codeMatch = cardContent.match(/\b(\d{4,6})\b/);
+        var code = codeMatch ? codeMatch[1] : '';
+
+        products.push({
+          name: name.substring(0, 150),
+          brand: brand.substring(0, 80),
+          price: price,
+          originalPrice: originalPrice,
+          weight: weight,
+          category: category,
+          strain: strain,
+          thc: thcMatch ? parseFloat(thcMatch[1]) : null,
+          cbd: cbdMatch ? parseFloat(cbdMatch[1]) : null,
+          code: code
+        });
+      } catch(e) {}
+    }
+    return products;
+  });
+}
+
 function parseJaneProducts(text) {
   var products = [];
   var seen = {};
@@ -334,24 +488,50 @@ export async function scrapeJane(dispensary) {
           }
         } catch(e) {}
 
-        // If we found iframe content, parse it
+        // If we found iframe content, try DOM extraction first, then text parse
         if (iframeText && iframeText.length > 500) {
+          // Try DOM extraction from iframe
+          try {
+            var janeFrame = null;
+            for (var fi2 = 0; fi2 < frames.length; fi2++) {
+              if (frames[fi2].url().includes('iheartjane.com') || frames[fi2].url().includes('jane.com')) {
+                janeFrame = frames[fi2]; break;
+              }
+            }
+            if (janeFrame) {
+              var domProducts = await extractProductsFromDOM(janeFrame);
+              console.log('  [jane] DOM extracted ' + domProducts.length + ' from iframe');
+              for (var dp = 0; dp < domProducts.length; dp++) {
+                var d = domProducts[dp];
+                var key = 'jane-' + (d.code || (d.name + d.price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
+                if (!allProducts.has(key)) {
+                  allProducts.set(key, {
+                    external_id: key, name: d.name, brand: d.brand, category: d.category,
+                    strain_type: d.strain, thc_pct: d.thc, cbd_pct: d.cbd,
+                    price: d.price, original_price: d.originalPrice, weight_label: d.weight,
+                    deal_description: null
+                  });
+                }
+              }
+            }
+          } catch(e) { console.log('  [jane] DOM extraction from iframe failed: ' + e.message); }
+
+          // Supplement with text parsing
           var iframeProducts = parseJaneProducts(iframeText);
-          console.log('  [jane] Parsed ' + iframeProducts.length + ' from iframe');
+          console.log('  [jane] Text parsed ' + iframeProducts.length + ' from iframe');
           for (var p = 0; p < iframeProducts.length; p++) {
             var key = iframeProducts[p].external_id;
             if (!allProducts.has(key)) allProducts.set(key, iframeProducts[p]);
           }
           if (allProducts.size >= 10) {
-            console.log('  [jane] Got ' + allProducts.size + ' products from iframe');
+            console.log('  [jane] Got ' + allProducts.size + ' products from iframe (DOM+text)');
             await page.close();
             break;
           }
         }
 
-        // ─── Fallback: try reading the parent page directly ───
-        // Click "Show All" if present (but don't navigate away)
-        // Skip this for risecannabis.com since Show All just empties the parent page
+        // ─── Main page: DOM extraction + text parsing ───
+        // Click "Show All" if present (but don't navigate away from Rise pages)
         if (!url.includes('risecannabis.com')) {
           try {
             var showAllSelectors = [
@@ -389,22 +569,41 @@ export async function scrapeJane(dispensary) {
         }
         await page.waitForTimeout(3000);
 
-        // Count "Add to cart"/"Add to bag" on page before parsing
+        // Count products on page
         var addCount = await page.evaluate(function() {
           var text = document.body?.innerText || '';
           return (text.match(/Add to (cart|bag)/gi) || []).length;
         });
         console.log('  [jane] "Add to cart/bag" count on page: ' + addCount);
 
-        // Parse page text
+        // METHOD 1: DOM extraction from main page
+        try {
+          var domProducts = await extractProductsFromDOM(page);
+          console.log('  [jane] DOM extracted ' + domProducts.length + ' from page');
+          for (var dp = 0; dp < domProducts.length; dp++) {
+            var d = domProducts[dp];
+            var key = 'jane-' + (d.code || (d.name + d.price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
+            if (!allProducts.has(key)) {
+              allProducts.set(key, {
+                external_id: key, name: d.name, brand: d.brand, category: d.category,
+                strain_type: d.strain, thc_pct: d.thc, cbd_pct: d.cbd,
+                price: d.price, original_price: d.originalPrice, weight_label: d.weight,
+                deal_description: null
+              });
+            }
+          }
+        } catch(e) { console.log('  [jane] DOM extraction failed: ' + e.message); }
+
+        // METHOD 2: Text parsing as supplement
         var fullText = await page.evaluate(function() { return document.body?.innerText || ''; });
         console.log('  [jane] Page text: ' + fullText.length + ' chars');
         var textProducts = parseJaneProducts(fullText);
-        console.log('  [jane] Parsed ' + textProducts.length + ' products');
+        console.log('  [jane] Text parsed ' + textProducts.length + ' products');
         for (var p = 0; p < textProducts.length; p++) {
           var key = textProducts[p].external_id;
           if (!allProducts.has(key)) allProducts.set(key, textProducts[p]);
         }
+        console.log('  [jane] Total after DOM+text: ' + allProducts.size);
 
         await page.close();
         if (allProducts.size >= 10) { console.log('  [jane] Got ' + allProducts.size + ' products from ' + url); break; }

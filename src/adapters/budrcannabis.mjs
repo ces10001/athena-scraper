@@ -420,7 +420,97 @@ export async function scrapeBUDRCannabis(dispensary) {
         }
       }
 
-      // Step 9: If STILL low count, use intercepted API data
+      // Step 9: DOM extraction for low-count stores
+      if (rawProducts.length < 50) {
+        console.log('  [budrcannabis] Trying DOM extraction...');
+        try {
+          var domProducts = await page.evaluate(function() {
+            var products = [];
+            var root = document;
+            // Check for shadow DOM
+            var host = document.getElementById('shadow-host');
+            if (host && host.shadowRoot) root = host.shadowRoot;
+
+            var buttons = root.querySelectorAll('button');
+            var addBtns = [];
+            for (var i = 0; i < buttons.length; i++) {
+              var txt = (buttons[i].textContent || '').trim().toLowerCase();
+              if (txt === 'add to bag' || txt === 'add to cart') addBtns.push(buttons[i]);
+            }
+
+            for (var b = 0; b < addBtns.length; b++) {
+              try {
+                var card = addBtns[b];
+                for (var up = 0; up < 10; up++) {
+                  if (!card.parentElement) break;
+                  card = card.parentElement;
+                  var cardText = card.textContent || '';
+                  if (cardText.includes('$') && cardText.length > 40 && cardText.length < 2000) {
+                    var innerBtns = 0;
+                    var btns = card.querySelectorAll('button');
+                    for (var bi = 0; bi < btns.length; bi++) {
+                      var bt = (btns[bi].textContent || '').trim().toLowerCase();
+                      if (bt === 'add to bag' || bt === 'add to cart') innerBtns++;
+                    }
+                    if (innerBtns <= 1) break;
+                  }
+                }
+
+                var content = card.textContent || '';
+                if (content.length < 20 || content.length > 2000) continue;
+
+                var priceMatch = content.match(/\$(\d+\.?\d*)/);
+                if (!priceMatch) continue;
+                var price = parseFloat(priceMatch[1]);
+                if (price <= 0) continue;
+
+                var name = '';
+                var nameEls = card.querySelectorAll('h1,h2,h3,h4,a');
+                for (var ni = 0; ni < nameEls.length; ni++) {
+                  var nText = (nameEls[ni].textContent || '').trim();
+                  if (nText.length > 5 && nText.length < 200 && !nText.match(/add to|view|filter/i)) {
+                    name = nText; break;
+                  }
+                }
+                if (!name || name.length < 3) continue;
+
+                var catText = content.toLowerCase();
+                var category = 'other';
+                if (/\bflower\b|whole bud/.test(catText)) category = 'flower';
+                else if (/\bpre.?roll|shorties/.test(catText)) category = 'pre-rolls';
+                else if (/\bvape|cart|aio|disposable|pen\b/.test(catText)) category = 'vaporizers';
+                else if (/\bedible|gumm|chocolate|chew/.test(catText)) category = 'edible';
+                else if (/\bconcentrate|rosin|resin/.test(catText)) category = 'concentrate';
+                else if (/\btincture/.test(catText)) category = 'tincture';
+                else if (/\btopical|balm|cream/.test(catText)) category = 'topical';
+
+                var wMatch = content.match(/\b(\d+\.?\d*)\s*[Gg]\b/);
+                var thcMatch = content.match(/THC\s*(\d+\.?\d*)%?/i);
+
+                products.push({ name: name.substring(0, 150), price: price, category: category,
+                  weight: wMatch ? wMatch[1]+'g' : null, thc: thcMatch ? parseFloat(thcMatch[1]) : null });
+              } catch(e) {}
+            }
+            return products;
+          });
+
+          if (domProducts.length > rawProducts.length) {
+            console.log('  [budrcannabis] DOM extraction got ' + domProducts.length + ' (was ' + rawProducts.length + ')');
+            rawProducts = domProducts.map(function(d) {
+              var code = (d.name + d.price).replace(/[^a-z0-9]/gi, '').substring(0, 25);
+              return {
+                external_id: 'budr-dom-' + code, name: d.name, brand: '', category: d.category,
+                strain_type: null, thc_pct: d.thc, cbd_pct: null,
+                price: d.price, original_price: null, weight_label: d.weight, deal_description: null
+              };
+            });
+          } else {
+            console.log('  [budrcannabis] DOM extraction: ' + domProducts.length + ' (not better than ' + rawProducts.length + ')');
+          }
+        } catch(e) { console.log('  [budrcannabis] DOM extraction failed: ' + e.message); }
+      }
+
+      // Step 10: If STILL low count, use intercepted API data
       if (rawProducts.length < 50 && interceptedProducts.length > rawProducts.length) {
         console.log('  [budrcannabis] Using ' + interceptedProducts.length + ' intercepted API products instead of ' + rawProducts.length + ' text-parsed');
         rawProducts = [];
