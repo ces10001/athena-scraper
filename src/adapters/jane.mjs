@@ -423,18 +423,28 @@ export async function scrapeJane(dispensary) {
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
 
-    // Build list of URLs to try: website_url first, then embed, then slug-based, then id-based
+    // Build URL list — embed FIRST (gets all products), website as fallback
     var urlsToTry = [];
-    if (dispensary.website_url) urlsToTry.push(dispensary.website_url);
     for (var s = 0; s < dispensary.jane_stores.length; s++) {
       var store = dispensary.jane_stores[s];
-      // Jane frameless embed URL — loads products directly without the storefront chrome
+      // Embed URL first — this is what Jane uses when embedded on dispensary sites, shows ALL products
       urlsToTry.push('https://www.iheartjane.com/embed/stores/' + store.id + '/menu?app_mode=framelessEmbed');
       if (store.slug) urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/' + store.slug + '/menu');
       urlsToTry.push('https://www.iheartjane.com/stores/' + store.id + '/menu');
     }
+    // Website URL last — typically only shows featured products
+    if (dispensary.website_url) urlsToTry.push(dispensary.website_url);
+
+    var bestProducts = new Map();
 
     for (var u = 0; u < urlsToTry.length; u++) {
+      // Skip remaining URLs if we already have 50+ products
+      if (bestProducts.size >= 50) {
+        console.log('  [jane] Already have ' + bestProducts.size + ' products, skipping remaining URLs');
+        break;
+      }
+      var thisUrlProducts = new Map();
+      var url = urlsToTry[u];
       var url = urlsToTry[u];
       console.log('  [jane] Trying URL ' + (u+1) + '/' + urlsToTry.length + ': ' + url);
       var page = null;
@@ -504,8 +514,8 @@ export async function scrapeJane(dispensary) {
               for (var dp = 0; dp < domProducts.length; dp++) {
                 var d = domProducts[dp];
                 var key = 'jane-' + (d.code || (d.name + d.price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
-                if (!allProducts.has(key)) {
-                  allProducts.set(key, {
+                if (!thisUrlProducts.has(key)) {
+                  thisUrlProducts.set(key, {
                     external_id: key, name: d.name, brand: d.brand, category: d.category,
                     strain_type: d.strain, thc_pct: d.thc, cbd_pct: d.cbd,
                     price: d.price, original_price: d.originalPrice, weight_label: d.weight,
@@ -521,12 +531,16 @@ export async function scrapeJane(dispensary) {
           console.log('  [jane] Text parsed ' + iframeProducts.length + ' from iframe');
           for (var p = 0; p < iframeProducts.length; p++) {
             var key = iframeProducts[p].external_id;
-            if (!allProducts.has(key)) allProducts.set(key, iframeProducts[p]);
+            if (!thisUrlProducts.has(key)) thisUrlProducts.set(key, iframeProducts[p]);
           }
-          if (allProducts.size >= 10) {
-            console.log('  [jane] Got ' + allProducts.size + ' products from iframe (DOM+text)');
+          // Merge iframe results into best
+          for (var [k, v] of thisUrlProducts) {
+            if (!bestProducts.has(k)) bestProducts.set(k, v);
+          }
+          console.log('  [jane] Iframe total: ' + thisUrlProducts.size + ', running best: ' + bestProducts.size);
+          if (bestProducts.size >= 50) {
             await page.close();
-            break;
+            continue;
           }
         }
 
@@ -562,6 +576,34 @@ export async function scrapeJane(dispensary) {
           } catch(e) { break; }
         }
 
+        // Click through EVERY category tab to load all product types
+        var catTabs = ['All', 'Flower', 'Pre-Rolls', 'Pre-Roll', 'Vape', 'Vapes', 'Cartridge',
+                       'Edible', 'Edibles', 'Concentrate', 'Concentrates', 'Tincture', 'Tinctures',
+                       'Topical', 'Topicals', 'Accessories', 'CBD'];
+        for (var ct = 0; ct < catTabs.length; ct++) {
+          try {
+            var catBtn = page.locator('button:has-text("' + catTabs[ct] + '"), a:has-text("' + catTabs[ct] + '"), [role="tab"]:has-text("' + catTabs[ct] + '")').first();
+            if (await catBtn.isVisible({ timeout: 1000 })) {
+              await catBtn.scrollIntoViewIfNeeded();
+              await catBtn.click();
+              await page.waitForTimeout(3000);
+              // Click View more inside this category
+              for (var cvm = 0; cvm < 30; cvm++) {
+                try {
+                  var catMore = page.locator('button:has-text("View more"), button:has-text("Load more")').first();
+                  if (await catMore.isVisible({ timeout: 1500 })) { await catMore.scrollIntoViewIfNeeded(); await catMore.click(); await page.waitForTimeout(1500); }
+                  else break;
+                } catch(e) { break; }
+              }
+            }
+          } catch(e) {}
+        }
+        // Click back to "All" if it exists to make sure we see everything
+        try {
+          var allTab = page.locator('button:has-text("All"), a:has-text("All Products"), [role="tab"]:has-text("All")').first();
+          if (await allTab.isVisible({ timeout: 1000 })) { await allTab.click(); await page.waitForTimeout(3000); }
+        } catch(e) {}
+
         // Scroll to load lazy content
         for (var scroll = 0; scroll < 60; scroll++) {
           await page.evaluate(function() { window.scrollBy(0, 1500); });
@@ -583,8 +625,8 @@ export async function scrapeJane(dispensary) {
           for (var dp = 0; dp < domProducts.length; dp++) {
             var d = domProducts[dp];
             var key = 'jane-' + (d.code || (d.name + d.price).replace(/[^a-z0-9]/gi, '').substring(0, 25));
-            if (!allProducts.has(key)) {
-              allProducts.set(key, {
+            if (!thisUrlProducts.has(key)) {
+              thisUrlProducts.set(key, {
                 external_id: key, name: d.name, brand: d.brand, category: d.category,
                 strain_type: d.strain, thc_pct: d.thc, cbd_pct: d.cbd,
                 price: d.price, original_price: d.originalPrice, weight_label: d.weight,
@@ -601,19 +643,30 @@ export async function scrapeJane(dispensary) {
         console.log('  [jane] Text parsed ' + textProducts.length + ' products');
         for (var p = 0; p < textProducts.length; p++) {
           var key = textProducts[p].external_id;
-          if (!allProducts.has(key)) allProducts.set(key, textProducts[p]);
+          if (!thisUrlProducts.has(key)) thisUrlProducts.set(key, textProducts[p]);
         }
-        console.log('  [jane] Total after DOM+text: ' + allProducts.size);
+
+        console.log('  [jane] URL total: ' + thisUrlProducts.size + ' products');
+
+        // Merge into bestProducts — keep all unique products from all URLs
+        for (var [k, v] of thisUrlProducts) {
+          if (!bestProducts.has(k)) bestProducts.set(k, v);
+        }
+        console.log('  [jane] Running best: ' + bestProducts.size + ' products');
 
         await page.close();
-        if (allProducts.size >= 10) { console.log('  [jane] Got ' + allProducts.size + ' products from ' + url); break; }
-        console.log('  [jane] Only ' + allProducts.size + ' from this URL, trying next...');
       } catch (err) {
         errors.push(url + ': ' + err.message);
         console.log('  [jane] Error: ' + err.message);
         try { if (page) await page.close(); } catch(e) {}
       }
     }
+
+    // Merge best results into allProducts
+    for (var [k, v] of bestProducts) {
+      if (!allProducts.has(k)) allProducts.set(k, v);
+    }
+    console.log('  [jane] Final product count: ' + allProducts.size);
 
     await context.close();
     await browser.close();
