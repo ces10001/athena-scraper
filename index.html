@@ -6,6 +6,8 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
+<meta name="description" content="ATHENA — Cannabis Pricing Intelligence Dashboard for Connecticut dispensaries">
+<link rel="icon" type="image/png" href="images/athena-logo.png">
 <title>ATHENA — Competitive Intel</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -13,7 +15,6 @@
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
@@ -298,6 +299,25 @@ td.pr.yp{color:var(--cy);background:rgba(232,96,10,.04);font-weight:700}td.pr.hi
 <div id="root"></div>
 <script type="text/babel">
 const{useState,useEffect,useMemo,useCallback,useRef}=React;
+
+// ── Error Boundary ──
+class ErrorBoundary extends React.Component{
+  constructor(props){super(props);this.state={hasError:false,error:null}}
+  static getDerivedStateFromError(error){return{hasError:true,error:error}}
+  componentDidCatch(err,info){console.error('[ATHENA] Component error:',err,info)}
+  render(){
+    if(this.state.hasError){
+      return React.createElement("div",{style:{padding:40,textAlign:'center',fontFamily:'Outfit,sans-serif'}},
+        React.createElement("div",{style:{fontSize:48,marginBottom:16}},"⚠️"),
+        React.createElement("h2",{style:{fontSize:22,fontWeight:700,marginBottom:8}},"Something went wrong"),
+        React.createElement("p",{style:{color:'#888',marginBottom:16}},"ATHENA encountered an error loading this section."),
+        React.createElement("p",{style:{color:'#b44',fontSize:13,marginBottom:16}},String(this.state.error)),
+        React.createElement("button",{onClick:function(){location.reload()},style:{padding:'10px 24px',background:'#e8600a',color:'#fff',border:'none',borderRadius:6,cursor:'pointer',fontSize:14,fontWeight:600}},"Reload Dashboard")
+      )
+    }
+    return this.props.children
+  }
+}
 const COORDS={"New Haven":[41.308,-72.928],"Bridgeport":[41.179,-73.189],"Orange":[41.278,-73.026],"Branford":[41.280,-72.815],"Hamden":[41.396,-72.897],"Derby":[41.327,-73.089],"Stratford":[41.185,-73.133],"Naugatuck":[41.486,-73.051],"Meriden":[41.538,-72.807],"Stamford":[41.053,-73.539],"Newington":[41.698,-72.723],"Waterbury":[41.558,-73.037],"Seymour":[41.397,-73.084],"Hartford":[41.764,-72.685],"Groton":[41.350,-72.078],"Milford":[41.222,-73.057],"Bristol":[41.672,-72.949],"Manchester":[41.776,-72.521],"Willimantic":[41.711,-72.208],"Norwalk":[41.118,-73.408],"Old Saybrook":[41.292,-72.376],"West Hartford":[41.762,-72.742],"Canton":[41.841,-72.898],"South Norwalk":[41.095,-73.419],"New Britain":[41.661,-72.779],"East Hartford":[41.782,-72.612],"Danbury":[41.395,-73.454],"Torrington":[41.800,-73.121],"Shelton":[41.316,-73.093],"Wallingford":[41.457,-72.823],"Vernon":[41.836,-72.459],"North Haven":[41.391,-72.860],"West Haven":[41.271,-72.947],"Middletown":[41.563,-72.651],"New London":[41.356,-72.100],"Enfield":[41.976,-72.592],"Killingly":[41.838,-71.873],"Montville":[41.478,-72.151],"Plainville":[41.674,-72.858],"Colchester":[41.576,-72.332],"Norwich":[41.524,-72.076],"Ashford":[41.874,-72.116],"East Lyme":[41.367,-72.227],"Putnam":[41.913,-71.909],"Rocky Hill":[41.664,-72.639],"Tolland":[41.872,-72.369],"Cromwell":[41.595,-72.645],"Trumbull":[41.243,-73.201]};
 function hashStr(s){let h=0;for(let i=0;i<s.length;i++){h=((h<<5)-h)+s.charCodeAt(i);h|=0}return h}
 var _favs=new Set(JSON.parse(sessionStorage.getItem('athena_favs')||'[]'));
@@ -1942,6 +1962,6 @@ function ReportTab({data,favsVer}){
   </div>;
 }
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<ErrorBoundary><App/></ErrorBoundary>,document.getElementById("root"));
 </script></body></html>
 
