@@ -270,18 +270,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "AGL Brands - 30% OFF",
-    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
-    "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Curaleaf Brands - 20% OFF",
-    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
-    "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Mid-Tier Flowers | 3.5g Pre-Packaged | 2 for $65",
     "description": "",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
@@ -393,18 +381,6 @@
     "title": "30% OFF",
     "description": "",
     "dispensary": "Shangri-La - Norwalk Main Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "AGL Brands - 30% OFF",
-    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
-    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Curaleaf Brands - 20% OFF",
-    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
-    "dispensary": "Shangri-La - Norwalk CT Ave (Rec)",
     "platform": "dutchie"
   },
   {
@@ -528,18 +504,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "AGL Brands - 30% OFF",
-    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
-    "dispensary": "Shangri-La - Waterbury (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Curaleaf Brands - 20% OFF",
-    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
-    "dispensary": "Shangri-La - Waterbury (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Mid-Tier Flowers | 3.5g Pre-Packaged | 2 for $65",
     "description": "",
     "dispensary": "Shangri-La - Waterbury (Rec)",
@@ -657,24 +621,6 @@
     "title": "35% OFF",
     "description": "",
     "dispensary": "Shangri-La - Waterbury (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Monday Edibles 20% OFF",
-    "description": "",
-    "dispensary": "Shangri-La - Plainville (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "AGL Brands - 30% OFF",
-    "description": "AGL, Rhythm, Good Green, Dogwalker and Inc.edibles",
-    "dispensary": "Shangri-La - Plainville (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "Curaleaf Brands - 20% OFF",
-    "description": "Select, Dark Heart Collection, Curaleaf, Find, JAMS, Select Briq",
-    "dispensary": "Shangri-La - Plainville (Rec)",
     "platform": "dutchie"
   },
   {
@@ -1326,9 +1272,15 @@
     "platform": "dutchie"
   },
   {
-    "title": "20% Off Storewide (Medical Only)",
+    "title": "Buy 3 Products, Get 15% off",
     "description": "",
-    "dispensary": "Trulieve - Bristol (Med)",
+    "dispensary": "Trulieve - Bristol (Rec)",
+    "platform": "dutchie"
+  },
+  {
+    "title": "Buy 4+ Vapes, Get 20% Off",
+    "description": "",
+    "dispensary": "Trulieve - Bristol (Rec)",
     "platform": "dutchie"
   },
   {
@@ -1375,12 +1327,6 @@
   },
   {
     "title": "2 Asteroid Gummies for $35",
-    "description": "",
-    "dispensary": "Rejoice - Meriden (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "5 Prerolls for $42! (MONDAY ONLY)",
     "description": "",
     "dispensary": "Rejoice - Meriden (Rec)",
     "platform": "dutchie"
@@ -1464,12 +1410,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "5 Prerolls for $42! (MONDAY ONLY)",
-    "description": "",
-    "dispensary": "Rejoice - Seymour (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Curaleaf Select 2g Briqs 2 for $180",
     "description": "",
     "dispensary": "Rejoice - Seymour (Rec)",
@@ -1542,12 +1482,6 @@
     "platform": "dutchie"
   },
   {
-    "title": "5 Prerolls for $42! (MONDAY ONLY)",
-    "description": "",
-    "dispensary": "Rejoice - Norwich (Rec)",
-    "platform": "dutchie"
-  },
-  {
     "title": "Curaleaf Select 2g Briqs 2 for $180",
     "description": "",
     "dispensary": "Rejoice - Norwich (Rec)",
@@ -1590,9 +1524,9 @@
     "platform": "dutchie"
   },
   {
-    "title": "Medical Monday 20% Off",
+    "title": "20% Off - Theraplant",
     "description": "",
-    "dispensary": "Nightjar - Hamden (Med)",
+    "dispensary": "Nightjar - Hamden (Rec)",
     "platform": "dutchie"
   },
   {
@@ -1891,12 +1825,6 @@
   },
   {
     "title": "2 Asteroid Gummies for $35",
-    "description": "",
-    "dispensary": "Awwsom (Rec)",
-    "platform": "dutchie"
-  },
-  {
-    "title": "3 for 25 prerolls (Sunday + Monday)",
     "description": "",
     "dispensary": "Awwsom (Rec)",
     "platform": "dutchie"
@@ -2508,18 +2436,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Bristol (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "30% off all Hemp Products!",
     "description": "",
     "dispensary": "Fine Fettle - Bristol (Med)",
@@ -2592,18 +2508,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Newington (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Newington (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - Newington (Med)",
@@ -2658,18 +2562,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Norwalk (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - Norwalk (Med)",
@@ -2712,18 +2604,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Old Saybrook (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Old Saybrook (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - Old Saybrook (Med)",
@@ -2763,18 +2643,6 @@
     "title": "Grassroots Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Stamford (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Stamford (Med)",
     "platform": "finefettle"
   },
   {
@@ -2874,18 +2742,6 @@
     "platform": "finefettle"
   },
   {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - West Hartford (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - West Hartford (Med)",
-    "platform": "finefettle"
-  },
-  {
     "title": "Viva Gummies - 30% off",
     "description": "",
     "dispensary": "Fine Fettle - West Hartford (Med)",
@@ -2925,18 +2781,6 @@
     "title": "Grassroots Ounces | 25% Off",
     "description": "",
     "dispensary": "Fine Fettle - Willimantic (Rec)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 25% Off Theraplant!",
-    "description": "",
-    "dispensary": "Fine Fettle - Willimantic (Med)",
-    "platform": "finefettle"
-  },
-  {
-    "title": "Med Mondays - 20% Off Everything!",
-    "description": "",
-    "dispensary": "Fine Fettle - Willimantic (Med)",
     "platform": "finefettle"
   },
   {

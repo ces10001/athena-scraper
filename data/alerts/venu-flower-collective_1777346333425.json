@@ -1,0 +1,56 @@
+[
+  {
+    "type": "new_product",
+    "product_name": "RTM Headcracker 26.97% I 00922 RYTHM Flower (3.5G)",
+    "brand": null,
+    "message": "New: null - RTM Headcracker 26.97% I 00922 RYTHM Flower (3.5G) $23.20"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL Cartridge Lemon Drip x Sour D 81.45% S 01395",
+    "brand": "Advanced Grow Labs (AGL)",
+    "message": "New: Advanced Grow Labs (AGL) - AGL Cartridge Lemon Drip x Sour D 81.45% S 01395 $38.40"
+  },
+  {
+    "type": "new_product",
+    "product_name": "AGL B Scout x LA Kush CKE 82.82% I 01396",
+    "brand": "Disp. Pen 300mg\nAdvanced Grow Labs (AGL)",
+    "message": "New: Disp. Pen 300mg\nAdvanced Grow Labs (AGL) - AGL B Scout x LA Kush CKE 82.82% I 01396 $12.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ENC Sour Black Cherry RSO Gummies 98.8mg H 27003 10pk Encore Ed",
+    "brand": null,
+    "message": "New: null - ENC Sour Black Cherry RSO Gummies 98.8mg H 27003 10pk Encore Ed $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "ENC Mango RSO Gummies 94mg S 26850 10pk Encore Edibles Gummies",
+    "brand": null,
+    "message": "New: null - ENC Mango RSO Gummies 94mg S 26850 10pk Encore Edibles Gummies $31.00"
+  },
+  {
+    "type": "new_product",
+    "product_name": "Grassroots Paw Paw 24.678% H 01516 1g PR Grassroots Single Pre Roll (EAC",
+    "brand": null,
+    "message": "New: null - Grassroots Paw Paw 24.678% H 01516 1g PR Grassroots Single Pre Roll (EAC $14.00"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "Good Green Bubba F 26.98% I 01377",
+    "brand": "Good Green",
+    "message": "Gone: Good Green - Good Green Bubba F 26.98% I 01377"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "CPS Savvy Guap RSO Berry Drip Gummies 46.8mg I 26902 10pk Savvy",
+    "brand": null,
+    "message": "Gone: null - CPS Savvy Guap RSO Berry Drip Gummies 46.8mg I 26902 10pk Savvy"
+  },
+  {
+    "type": "out_of_stock",
+    "product_name": "inc. Sour Cherry Tart Fast Acting Gummies 84mg H 01094",
+    "brand": null,
+    "message": "Gone: null - inc. Sour Cherry Tart Fast Acting Gummies 84mg H 01094"
+  }
+]
