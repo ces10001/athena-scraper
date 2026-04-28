@@ -8,6 +8,11 @@
 <meta http-equiv="Expires" content="0">
 <meta name="description" content="ATHENA — Cannabis Pricing Intelligence Dashboard for Connecticut dispensaries">
 <link rel="icon" type="image/png" href="images/athena-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com">
+<link rel="preconnect" href="https://www.gstatic.com">
+<link rel="preload" href="dashboard_data.json" as="fetch" crossorigin>
 <title>ATHENA — Competitive Intel</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -465,7 +470,7 @@ function App(){
       setData(d);var all=getDisps(d.products||[]);setSel(new Set());
     }).catch(function(e){setErr(e.message)});
   },[]);
-  if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{className:"empty"},React.createElement("h3",null,"Could not load data"),React.createElement("p",{style:{fontSize:12}},err)));
+  if(err)return React.createElement("div",{className:"app"},React.createElement(Hdr,null),React.createElement("div",{style:{textAlign:'center',padding:60}},React.createElement("div",{style:{fontSize:48,marginBottom:16}},"⚠️"),React.createElement("h3",{style:{marginBottom:8,fontSize:18}},"Could not load data"),React.createElement("p",{style:{fontSize:13,color:'#888',marginBottom:20}},err),React.createElement("button",{onClick:function(){location.reload()},style:{padding:'10px 24px',background:'#e8600a',color:'#fff',border:'none',borderRadius:6,cursor:'pointer',fontSize:14,fontWeight:600}},"Retry")));
   if(!data)return React.createElement(LoadingScreen,null);
   var tabs=[["intel","Compare Prices"],["highlow","Highs/Lows"],["alerts","Price Drops/Increases"],["gaps","Product Gaps"],["deals","Deals"],["disps","SKUs"],["report","Report"],["about","What is Athena?"]];
   var tabDescs={

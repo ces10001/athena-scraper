@@ -607,7 +607,7 @@ async function main() {
     // No promos file yet — that's fine
   }
 
-  await writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2));
+  await writeFile(OUTPUT_FILE, JSON.stringify(output));
   console.log('\nWritten to ' + OUTPUT_FILE);
   console.log('  Products:     ' + products.length);
   console.log('  Comparable:   ' + comparable);
