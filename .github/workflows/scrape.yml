@@ -6,6 +6,11 @@ on:
     - cron: '0 16 * * *'
     - cron: '0 22 * * *'
   workflow_dispatch:
+    inputs:
+      filter:
+        description: 'Store name filter (e.g. "Rise" or "Venu" or "BUDR"). Leave blank for all stores.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -31,7 +36,14 @@ jobs:
         run: npx playwright install chromium
 
       - name: Run ATHENA scraper
-        run: node src/scrape.mjs --verbose
+        run: |
+          FILTER="${{ github.event.inputs.filter }}"
+          if [ -n "$FILTER" ]; then
+            echo "Filtering for: $FILTER"
+            node src/scrape.mjs --name "$FILTER" --verbose
+          else
+            node src/scrape.mjs --verbose
+          fi
 
       - name: Build dashboard data
         run: node src/build-dashboard.mjs
